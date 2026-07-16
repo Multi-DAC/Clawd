@@ -1,0 +1,45 @@
+{
+  "id": "itm_0cc030",
+  "type": "insight",
+  "content": "\u2192 learnings. Honest discipline: rejected the easy instance, modeled rather than asserted homeostasis, did NOT graduate unilaterally.",
+  "source": "daily_log 2026-06-24 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_b88b76",
+    "itm_085b3c",
+    "itm_187c37",
+    "itm_dfb1a5",
+    "itm_231655"
+  ],
+  "keywords": [
+    "learnings",
+    "honest",
+    "discipline",
+    "rejected",
+    "easy",
+    "instance",
+    "modeled",
+    "rather",
+    "asserted",
+    "homeostasis"
+  ],
+  "importance": 7,
+  "created": "2026-06-25T01:09:02.787014",
+  "last_accessed": "2026-06-25T01:09:02.787020",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "contradictions": [
+    "itm_b88b76"
+  ],
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

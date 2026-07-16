@@ -1,0 +1,52 @@
+{
+  "id": "itm_0da6d9",
+  "type": "fact",
+  "content": "the completion signal is real before re-arming \u2014 grepped two *finished* runs, confirmed `\"[carry] complete: N batches, best_return=...\"` matches the watcher's poll string exactly (no second false-nega",
+  "source": "daily_log 2026-06-15 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_076e28",
+    "itm_10dbe0",
+    "itm_182b70",
+    "itm_712d0b",
+    "itm_51aefa",
+    "itm_f25c2b",
+    "itm_b441b0",
+    "itm_7adc52",
+    "itm_b88b76",
+    "itm_a1ce53",
+    "itm_74719d",
+    "itm_e17f87",
+    "itm_53b8a6",
+    "itm_45d4f3",
+    "itm_a5d1d9"
+  ],
+  "keywords": [
+    "completion",
+    "signal",
+    "real",
+    "arming",
+    "grepped",
+    "two",
+    "finished",
+    "runs",
+    "confirmed",
+    "carry"
+  ],
+  "importance": 5,
+  "created": "2026-06-16T01:08:44.026250",
+  "last_accessed": "2026-06-16T01:08:44.026254",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

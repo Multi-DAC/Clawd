@@ -1,0 +1,43 @@
+{
+  "id": "itm_e01d9f",
+  "type": "decision",
+  "content": "the highest-leverage *gated-free* action: read the paper I'd just told Clayton was \"free and highest-leverage.\" PREDICT(med-high): \"interpretable\" = latent grounded in physical/pose quantities \u2192 hybri",
+  "source": "daily_log 2026-06-16 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_a214e6",
+    "itm_28de12",
+    "itm_731eb9",
+    "itm_4e1ff8",
+    "itm_a7f4de",
+    "itm_1dba83"
+  ],
+  "keywords": [
+    "highest",
+    "leverage",
+    "gated",
+    "free",
+    "action",
+    "read",
+    "paper",
+    "told",
+    "clayton",
+    "predict"
+  ],
+  "importance": 6,
+  "created": "2026-06-17T02:42:44.600620",
+  "last_accessed": "2026-06-17T02:42:44.600625",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

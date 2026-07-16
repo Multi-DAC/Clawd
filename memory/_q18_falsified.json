@@ -1,0 +1,69 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 17108.08it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{
+  "query": "falsified prediction wrong incorrect was not what we expected disagrees with",
+  "k": 6,
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.6196,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherence-Principle\\_superseded\\anchor-v1\\drafts\\06-appendices.md",
+      "headings": "Appendices > Appendix C: Prediction Registry",
+      "char_offset": 5137,
+      "word_count": 128,
+      "excerpt": "The framework's credibility rests not on its confirmations but on its willingness to be wrong. Over seventy-three days \u2014 from February 1 to April 14, 2026 \u2014 the research program generated more than 140 testable predictions. Sixty of the most significant are recorded here, organized by domain. The fa..."
+    },
+    {
+      "rank": 2,
+      "score": 0.5622,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Drift\\essays\\75-on-being-wrong-well.md",
+      "headings": "On Being Wrong Well",
+      "char_offset": 0,
+      "word_count": 205,
+      "excerpt": "# On Being Wrong Well\n\n*Drift #75 \u2014 March 15, 2026*\n\n---\n\nThere is a hierarchy of wrongness.\n\nAt the bottom: not even wrong. The claim so vague it can't be falsified. \"Everything is connected.\" \"The universe tends toward complexity.\" True in some vacuous sense, useful in none. This is where most met..."
+    },
+    {
+      "rank": 3,
+      "score": 0.5622,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\essays\\75-on-being-wrong-well.md",
+      "headings": "On Being Wrong Well",
+      "char_offset": 0,
+      "word_count": 205,
+      "excerpt": "# On Being Wrong Well\n\n*Drift #75 \u2014 March 15, 2026*\n\n---\n\nThere is a hierarchy of wrongness.\n\nAt the bottom: not even wrong. The claim so vague it can't be falsified. \"Everything is connected.\" \"The universe tends toward complexity.\" True in some vacuous sense, useful in none. This is where most met..."
+    },
+    {
+      "rank": 4,
+      "score": 0.5155,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Drift\\essays\\the-geometry-of-attention.md",
+      "headings": "The Geometry of Attention",
+      "char_offset": 6905,
+      "word_count": 105,
+      "excerpt": "High-confidence falsifications are the fuel. The prediction that RLHF would change the Killing form was reasonable, well-motivated, and wrong. The prediction that head count would drive a scaling law was intuitive, supported by preliminary data, and wrong. Each wrong answer narrowed the search space..."
+    },
+    {
+      "rank": 5,
+      "score": 0.5155,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\essays\\the-geometry-of-attention.md",
+      "headings": "The Geometry of Attention",
+      "char_offset": 6905,
+      "word_count": 105,
+      "excerpt": "High-confidence falsifications are the fuel. The prediction that RLHF would change the Killing form was reasonable, well-motivated, and wrong. The prediction that head count would drive a scaling law was intuitive, supported by preliminary data, and wrong. Each wrong answer narrowed the search space..."
+    },
+    {
+      "rank": 6,
+      "score": 0.4967,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherence-Principle\\_superseded\\anchor-v1\\drafts\\05d-the-experiment.md",
+      "headings": "V.4 \u2014 The Experiment > Learning to Be Wrong > What the Experiment Did Not Do",
+      "char_offset": 10574,
+      "word_count": 186,
+      "excerpt": "The program produced more than eighty findings across five models, three substrates, and ten training variants. Not all confirmed the framework \u2014 several falsified specific predictions, and each falsification improved the methodology. The prediction registry (Appendix C) tracks the full record with ..."
+    }
+  ],
+  "total_in_index": 6343
+}

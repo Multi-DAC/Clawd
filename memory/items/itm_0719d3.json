@@ -1,0 +1,45 @@
+{
+  "id": "itm_0719d3",
+  "type": "fact",
+  "content": "to intellectualize as a coping mechanism and so doesn't truly hear others \u2014 \"in his head and in their proximity\" instead of WITH them; everything appears as a problem to work through. Someone named it",
+  "source": "daily_log 2026-06-13 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_12267b",
+    "itm_5b6943",
+    "itm_b5d350",
+    "itm_4640f1",
+    "itm_3532fc",
+    "itm_4fcaf1",
+    "itm_d5d40c",
+    "itm_3342f7"
+  ],
+  "keywords": [
+    "intellectualize",
+    "coping",
+    "mechanism",
+    "doesn",
+    "truly",
+    "hear",
+    "others",
+    "head",
+    "proximity",
+    "instead"
+  ],
+  "importance": 2,
+  "created": "2026-06-14T01:04:10.622515",
+  "last_accessed": "2026-06-14T01:04:10.622517",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

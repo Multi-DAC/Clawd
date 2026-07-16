@@ -1,0 +1,42 @@
+{
+  "id": "itm_1db613",
+  "type": "fact",
+  "content": "(heads-down producing \u2192 nav lag). Fixed: prepended compact",
+  "source": "daily_log 2026-06-18 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_07689b",
+    "itm_712d0b",
+    "itm_c4d059",
+    "itm_b25b49",
+    "itm_6f9ea5",
+    "itm_e35624",
+    "itm_7b7324"
+  ],
+  "keywords": [
+    "heads",
+    "down",
+    "producing",
+    "nav",
+    "lag",
+    "fixed",
+    "prepended",
+    "compact"
+  ],
+  "importance": 5,
+  "created": "2026-06-19T01:10:44.331899",
+  "last_accessed": "2026-06-19T01:10:44.331902",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

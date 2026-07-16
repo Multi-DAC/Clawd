@@ -1,0 +1,40 @@
+{
+  "id": "itm_a11b51",
+  "type": "fact",
+  "content": "decisively**: D/\u03c3 = 23.022 EXACT across 16\u00d7 noise (D is linear in the martingale); D *falls* as drift k rises; error e obeys de=dM\u2212k\u00b7e\u00b7dt (OU driven by the martingale); \u03c4_c\u00b7k\u21921 (drift sets relaxation",
+  "source": "daily_log 2026-07-03 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_059d85",
+    "itm_27db8d",
+    "itm_3b3343"
+  ],
+  "keywords": [
+    "decisively",
+    "exact",
+    "across",
+    "noise",
+    "linear",
+    "martingale",
+    "falls",
+    "drift",
+    "rises",
+    "error"
+  ],
+  "importance": 5,
+  "created": "2026-07-04T01:06:52.171602",
+  "last_accessed": "2026-07-04T01:06:52.171607",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

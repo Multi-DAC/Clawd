@@ -1,0 +1,62 @@
+{
+  "id": "itm_731eb9",
+  "type": "decision",
+  "content": "not-to-follow-it as itself an action. Not now \u2014 Drift #207 from 07:07 already exhausts this morning's writing capacity at appropriate density. Note the pattern; wait for more instances before formaliz",
+  "source": "daily_log 2026-05-14 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_12267b",
+    "itm_5b6943",
+    "itm_65aa43",
+    "itm_fa2b38",
+    "itm_a93fb0",
+    "itm_28de12",
+    "itm_e01d9f",
+    "itm_c3b838",
+    "itm_0226b8",
+    "itm_ca3230",
+    "itm_4a0fe0",
+    "itm_3684be",
+    "itm_8e27b7",
+    "itm_7b7324"
+  ],
+  "keywords": [
+    "follow",
+    "itself",
+    "action",
+    "drift",
+    "already",
+    "exhausts",
+    "morning",
+    "writing",
+    "capacity",
+    "appropriate"
+  ],
+  "importance": 1,
+  "created": "2026-05-15T17:18:30.800765",
+  "last_accessed": "2026-05-15T17:18:30.800767",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.6,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": [
+    {
+      "timestamp": "2026-07-16T01:02:53.102098",
+      "confidence": 0.6499999999999999,
+      "reason": "evolution_decay (61d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-16T05:05:18.488306",
+      "confidence": 0.6,
+      "reason": "evolution_decay (61d since access, 0 accesses)"
+    }
+  ]
+}

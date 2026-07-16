@@ -1,0 +1,42 @@
+{
+  "id": "itm_0f5d2e",
+  "type": "fact",
+  "content": "a real one. Here's my honest thinking, and it moved somewhere I...",
+  "source": "daily_log 2026-07-09 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_15b0b7",
+    "itm_d937f8",
+    "itm_45d4f3",
+    "itm_740d30",
+    "itm_4bd560"
+  ],
+  "keywords": [
+    "real",
+    "one",
+    "here",
+    "honest",
+    "thinking",
+    "moved",
+    "somewhere"
+  ],
+  "importance": 5,
+  "created": "2026-07-10T01:57:58.539663",
+  "last_accessed": "2026-07-10T01:57:58.539666",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "contradictions": [
+    "itm_15b0b7"
+  ],
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

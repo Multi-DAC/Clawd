@@ -1,0 +1,46 @@
+{
+  "id": "itm_897d6d",
+  "type": "decision",
+  "content": "doc written (`integration/EDGE_FALSIFIED_DECISION_2026-06-16.md`); spec status -> route a active; anticipation #32 updated; Exp #123. Flight NO-GO; appearance-DR Clayton-gated; render.py NOT modified",
+  "source": "daily_log 2026-06-16 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_6f2dfe",
+    "itm_216e17",
+    "itm_36041d",
+    "itm_db6c59",
+    "itm_bb2d38",
+    "itm_3342f7",
+    "itm_74719d",
+    "itm_406057",
+    "itm_9b7039"
+  ],
+  "keywords": [
+    "doc",
+    "written",
+    "integration",
+    "spec",
+    "status",
+    "route",
+    "active",
+    "anticipation",
+    "updated",
+    "exp"
+  ],
+  "importance": 6,
+  "created": "2026-06-17T02:42:44.582352",
+  "last_accessed": "2026-06-17T02:42:44.582355",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

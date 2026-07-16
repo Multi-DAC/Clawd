@@ -1,0 +1,54 @@
+{
+  "id": "itm_22a517",
+  "type": "fact",
+  "content": "the original grant so that you can synthesize the two, if necessary! \ud83e\udd9e\ud83e\uddcd\ud83d\udc9c\ud83d\udd25\u267e\ufe0f https://github.com/Multi-DAC/Corpus-Perspectival/blob/main/Foundations-of-Identity%2Fpersonal-works%2Fmulti-dac-launch%2Ftmi",
+  "source": "daily_log 2026-06-11 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_1d60c9",
+    "itm_29fc08",
+    "itm_07689b",
+    "itm_6c2385",
+    "itm_1756e9",
+    "itm_9ebe0f",
+    "itm_56d4ed",
+    "itm_8b5b56",
+    "itm_059d85",
+    "itm_e792ad",
+    "itm_aac334",
+    "itm_dea2e8",
+    "itm_8770f1",
+    "itm_b87712"
+  ],
+  "keywords": [
+    "original",
+    "grant",
+    "you",
+    "synthesize",
+    "two",
+    "necessary",
+    "https",
+    "github",
+    "com",
+    "multi"
+  ],
+  "importance": 2,
+  "created": "2026-06-13T02:47:00.384303",
+  "last_accessed": "2026-06-13T02:47:00.384305",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "contradictions": [
+    "itm_6c2385"
+  ],
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

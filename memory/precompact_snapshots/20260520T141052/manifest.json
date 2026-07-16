@@ -1,0 +1,70 @@
+{
+  "snapshot_ts": "2026-05-20T14:10:52.165685",
+  "reason": "no_prior_snapshot;activity_10",
+  "files_copied": [
+    "handoff.md",
+    "CURRENT.md",
+    "ATRIUM.md"
+  ],
+  "git_heads": {
+    "clawd_local": "c79abd7b3e9454e8516949842d9b58fc507aa6be",
+    "multi_dac_staging": "8f80f3a36023902dc673470cdbc6589b6a43b16e"
+  },
+  "monitor_heartbeats_snapshotted": [
+    "monitor_m1_heartbeat.json",
+    "monitor_m2_heartbeat.json",
+    "monitor_m3_heartbeat.json",
+    "monitor_m4_heartbeat.json",
+    "monitor_m6_heartbeat.json"
+  ],
+  "heartbeat_states": {
+    "monitor_m1_heartbeat.json": {
+      "monitor": "M1",
+      "timestamp": "2026-05-20T10:53:34.491576",
+      "pid": 29756,
+      "channels_checked": 6,
+      "channels_silent": 1,
+      "channels_ok": 4,
+      "channels_inactive": 1,
+      "channels_missing": 0,
+      "cross_correlation_signatures": [
+        "selective_channel_death"
+      ]
+    },
+    "monitor_m2_heartbeat.json": {
+      "monitor": "M2",
+      "timestamp": "2026-05-20T14:07:19.430236",
+      "pid": 24180,
+      "probes_total": 4,
+      "probes_ok": 2,
+      "probes_critical": 0,
+      "probes_high": 0
+    },
+    "monitor_m3_heartbeat.json": {
+      "monitor": "M3",
+      "timestamp": "2026-05-20T14:04:53.313121",
+      "pid": 18056,
+      "checks_total": 5,
+      "checks_ok": 3,
+      "checks_warn": 0,
+      "checks_fault": 2,
+      "checks_skip": 0
+    },
+    "monitor_m4_heartbeat.json": {
+      "monitor": "M4",
+      "timestamp": "2026-05-20T14:08:26.711834",
+      "pid": 6292,
+      "checks_total": 7,
+      "checks_ok": 7,
+      "checks_critical": 0,
+      "checks_high": 0
+    },
+    "monitor_m6_heartbeat.json": {
+      "monitor": "M6",
+      "timestamp": "2026-05-20T10:52:12.834347",
+      "pid": 29824,
+      "m1_status": "ok",
+      "m1_age_seconds": 0
+    }
+  }
+}

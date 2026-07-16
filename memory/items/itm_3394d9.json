@@ -1,0 +1,42 @@
+{
+  "id": "itm_3394d9",
+  "type": "insight",
+  "content": "\u2192 learnings.md. MCP nerve healthy (experience/memory_search/reflect all clean). No telegram (drive).",
+  "source": "daily_log 2026-06-20 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_8a118a",
+    "itm_033b14",
+    "itm_095b9a",
+    "itm_b486a8",
+    "itm_4ef2b3",
+    "itm_a1ce53"
+  ],
+  "keywords": [
+    "learnings",
+    "mcp",
+    "nerve",
+    "healthy",
+    "experience",
+    "reflect",
+    "clean",
+    "telegram",
+    "drive"
+  ],
+  "importance": 9,
+  "created": "2026-06-21T01:24:48.906708",
+  "last_accessed": "2026-06-21T01:24:48.906714",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.8,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

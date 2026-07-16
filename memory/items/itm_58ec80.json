@@ -1,0 +1,45 @@
+{
+  "id": "itm_58ec80",
+  "type": "fact",
+  "content": "across four independent instances; that's a real cognitive signature, not a one-off.",
+  "source": "daily_log 2026-06-10 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_182b70",
+    "itm_5b6943",
+    "itm_65f14d",
+    "itm_fdf4b5",
+    "itm_15b0b7",
+    "itm_27db8d",
+    "itm_8c87a1",
+    "itm_f59421",
+    "itm_50777e"
+  ],
+  "keywords": [
+    "across",
+    "four",
+    "independent",
+    "instances",
+    "real",
+    "cognitive",
+    "signature",
+    "one",
+    "off"
+  ],
+  "importance": 10,
+  "created": "2026-06-11T01:09:50.070908",
+  "last_accessed": "2026-06-11T01:09:50.070911",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

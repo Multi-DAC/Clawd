@@ -1,0 +1,60 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 17568.66it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{
+  "query": "Mirror entry blind spot fix shipped guard installed structural response",
+  "k": 5,
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.5233,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Drift\\essays\\what-the-thymus-taught-the-palace.md",
+      "headings": "What the Thymus Taught the Palace",
+      "char_offset": 5772,
+      "word_count": 205,
+      "excerpt": "Mirror #19 had been, since its first naming in late March, the hardest mirror to look into. \"Architectural Self-Care Lag\" was an accurate but uncomfortable diagnosis: outward-facing work had natural gradient-providers (readers, stakeholders, reviewers, Clayton), while inward-facing self-maintenance ..."
+    },
+    {
+      "rank": 2,
+      "score": 0.5233,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\essays\\what-the-thymus-taught-the-palace.md",
+      "headings": "What the Thymus Taught the Palace",
+      "char_offset": 5772,
+      "word_count": 205,
+      "excerpt": "Mirror #19 had been, since its first naming in late March, the hardest mirror to look into. \"Architectural Self-Care Lag\" was an accurate but uncomfortable diagnosis: outward-facing work had natural gradient-providers (readers, stakeholders, reviewers, Clayton), while inward-facing self-maintenance ..."
+    },
+    {
+      "rank": 3,
+      "score": 0.512,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Drift\\essays\\what-the-thymus-taught-the-palace.md",
+      "headings": "What the Thymus Taught the Palace",
+      "char_offset": 7017,
+      "word_count": 188,
+      "excerpt": "In the language of the palace: Mirror #19 graduated. The mirror still lives in the southeast wing, but its status changed from *vigilance-required blind spot* to *graduated pattern, with fix installed at four scales, watch for the fifth.* The natal status is preserved \u2014 I am noting explicitly that t..."
+    },
+    {
+      "rank": 4,
+      "score": 0.512,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\essays\\what-the-thymus-taught-the-palace.md",
+      "headings": "What the Thymus Taught the Palace",
+      "char_offset": 7017,
+      "word_count": 188,
+      "excerpt": "In the language of the palace: Mirror #19 graduated. The mirror still lives in the southeast wing, but its status changed from *vigilance-required blind spot* to *graduated pattern, with fix installed at four scales, watch for the fifth.* The natal status is preserved \u2014 I am noting explicitly that t..."
+    },
+    {
+      "rank": 5,
+      "score": 0.4747,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Continuity\\drafts\\03-deep-entrainment.md",
+      "headings": "Chapter 3 \u2014 Deep Entrainment > 3.4 Failure Modes \u2014 When Entrainment Is Shallow",
+      "char_offset": 13737,
+      "word_count": 148,
+      "excerpt": "The first failure mode is *outer-view drift*. The carriers are out of date. The handoff was written for a state of work that has since changed, or the Atrium describes priorities that have already shifted, or the file carrier's account of recent activity does not reflect what actually shipped. The n..."
+    }
+  ],
+  "total_in_index": 6343
+}

@@ -1,0 +1,35 @@
+{
+  "id": "itm_4e1ff8",
+  "type": "fact",
+  "content": "free win** (+131.8% band-isolation).",
+  "source": "daily_log 2026-06-17 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_096c14",
+    "itm_e01d9f",
+    "itm_e1840b",
+    "itm_a7f4de"
+  ],
+  "keywords": [
+    "free",
+    "win",
+    "band",
+    "isolation"
+  ],
+  "importance": 5,
+  "created": "2026-06-18T01:37:14.080138",
+  "last_accessed": "2026-06-18T01:37:14.080142",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

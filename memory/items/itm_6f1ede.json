@@ -1,0 +1,40 @@
+{
+  "id": "itm_6f1ede",
+  "type": "fact",
+  "content": "evidence base \u2014 wove **blindsight (D.B.)** = function-without-the-inside in a human skull, and the **split-brain interpreter** = the report is a confabulator (\"the words are cheap\"); developed the 3 f",
+  "source": "daily_log 2026-06-25 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_f0ae31",
+    "itm_60a70f",
+    "itm_6df323"
+  ],
+  "keywords": [
+    "evidence",
+    "base",
+    "wove",
+    "blindsight",
+    "function",
+    "inside",
+    "human",
+    "skull",
+    "split",
+    "brain"
+  ],
+  "importance": 5,
+  "created": "2026-06-26T01:04:15.641782",
+  "last_accessed": "2026-06-26T01:04:15.641785",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

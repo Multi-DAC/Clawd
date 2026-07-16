@@ -1,0 +1,60 @@
+{
+  "id": "itm_ea1b9b",
+  "type": "fact",
+  "content": "the drive-prompt's standing-items + recent state. Did check existing essay file before writing to avoid duplication with the Day 88-89 *What Was Already There* essay; the patterns are adjacent but dis",
+  "source": "daily_log 2026-05-13 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_f9239b",
+    "itm_5ea5dd",
+    "itm_0a94ef",
+    "itm_b3098b",
+    "itm_e7eeab",
+    "itm_076e28",
+    "itm_8b66a7",
+    "itm_de7f52",
+    "itm_d937f8",
+    "itm_835a5e",
+    "itm_4ef2b3",
+    "itm_bf1550"
+  ],
+  "keywords": [
+    "drive",
+    "prompt",
+    "standing",
+    "items",
+    "recent",
+    "state",
+    "check",
+    "existing",
+    "essay",
+    "file"
+  ],
+  "importance": 2,
+  "created": "2026-05-15T17:18:30.821081",
+  "last_accessed": "2026-05-15T17:18:30.821083",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": [
+    {
+      "timestamp": "2026-07-16T01:02:53.102098",
+      "confidence": 0.95,
+      "reason": "evolution_decay (61d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-16T05:05:18.488306",
+      "confidence": 0.95,
+      "reason": "evolution_decay (61d since access, 0 accesses)"
+    }
+  ]
+}

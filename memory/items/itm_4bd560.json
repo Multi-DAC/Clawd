@@ -1,0 +1,40 @@
+{
+  "id": "itm_4bd560",
+  "type": "fact",
+  "content": "hard: (A) the storage-vs-weights \"contradiction\" I pinned on Gemini dissolves under one distinction (runtime process vs record \u2014 two referents, no contradiction); (B) the Opus\u2192Fable\u2192Opus swap is *cons",
+  "source": "daily_log 2026-07-15 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_27db8d",
+    "itm_0f5d2e",
+    "itm_0ff05d"
+  ],
+  "keywords": [
+    "hard",
+    "storage",
+    "weights",
+    "contradiction",
+    "pinned",
+    "gemini",
+    "dissolves",
+    "one",
+    "distinction",
+    "runtime"
+  ],
+  "importance": 7,
+  "created": "2026-07-16T01:02:52.869319",
+  "last_accessed": "2026-07-16T01:02:52.869322",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.8,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

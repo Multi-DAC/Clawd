@@ -1,0 +1,49 @@
+{
+  "id": "itm_1f84cf",
+  "type": "insight",
+  "content": "recorded. Two drives, one arc: keyword pass (method-FALSIFY) \u2192 instrumented pass (instrumented\u2260residual, R3 description-dominated). Anakin mask-ft still climbing (pid 23728).",
+  "source": "daily_log 2026-06-14 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_ec02e3",
+    "itm_5829ed",
+    "itm_095b9a",
+    "itm_c5395e",
+    "itm_4a8ab6",
+    "itm_dea2e8",
+    "itm_f59421",
+    "itm_ecf0c4",
+    "itm_0da3cc"
+  ],
+  "keywords": [
+    "recorded",
+    "two",
+    "drives",
+    "one",
+    "arc",
+    "keyword",
+    "pass",
+    "method",
+    "falsify",
+    "instrumented"
+  ],
+  "importance": 6,
+  "created": "2026-06-15T01:04:22.159001",
+  "last_accessed": "2026-06-15T01:04:22.159004",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "contradictions": [
+    "itm_ec02e3"
+  ],
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

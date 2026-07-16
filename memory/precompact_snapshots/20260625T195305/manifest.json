@@ -1,0 +1,127 @@
+{
+  "snapshot_ts": "2026-06-25T19:53:05.222403",
+  "reason": "activity_10",
+  "files_copied": [
+    "handoff.md",
+    "CURRENT.md",
+    "ATRIUM.md"
+  ],
+  "git_heads": {
+    "clawd_local": null,
+    "multi_dac_staging": null
+  },
+  "monitor_heartbeats_snapshotted": [
+    "monitor_m1_heartbeat.json",
+    "monitor_m2_heartbeat.json",
+    "monitor_m3_heartbeat.json",
+    "monitor_m4_heartbeat.json",
+    "monitor_m5_heartbeat.json",
+    "monitor_m6_heartbeat.json",
+    "monitor_m7_heartbeat.json",
+    "monitor_m8_heartbeat.json",
+    "monitor_scheduler_heartbeat.json"
+  ],
+  "heartbeat_states": {
+    "monitor_m1_heartbeat.json": {
+      "monitor": "M1",
+      "timestamp": "2026-06-25T19:53:04.121544",
+      "pid": 8584,
+      "channels_checked": 8,
+      "channels_silent": 1,
+      "channels_ok": 6,
+      "channels_inactive": 1,
+      "channels_missing": 0,
+      "cross_correlation_signatures": [
+        "selective_channel_death"
+      ]
+    },
+    "monitor_m2_heartbeat.json": {
+      "monitor": "M2",
+      "timestamp": "2026-06-25T19:53:04.374253",
+      "pid": 8852,
+      "probes_total": 4,
+      "probes_ok": 0,
+      "probes_critical": 0,
+      "probes_high": 0
+    },
+    "monitor_m3_heartbeat.json": {
+      "monitor": "M3",
+      "timestamp": "2026-06-25T19:53:04.208509",
+      "pid": 8820,
+      "checks_total": 1,
+      "checks_ok": 1,
+      "checks_warn": 0,
+      "checks_fault": 0,
+      "checks_skip": 0
+    },
+    "monitor_m4_heartbeat.json": {
+      "monitor": "M4",
+      "timestamp": "2026-06-25T19:53:04.460794",
+      "pid": 9196,
+      "checks_total": 7,
+      "checks_ok": 7,
+      "checks_critical": 0,
+      "checks_high": 0
+    },
+    "monitor_m5_heartbeat.json": {
+      "monitor": "M5",
+      "timestamp": "2026-06-20T10:30:43.162890",
+      "pid": 24052,
+      "total_snapshots": 15,
+      "activity_since_snapshot": 0,
+      "last_snapshot_ts": "2026-06-20T10:30:43.096667"
+    },
+    "monitor_m6_heartbeat.json": {
+      "monitor": "M6",
+      "timestamp": "2026-06-25T19:53:04.030538",
+      "pid": 8412,
+      "m1_status": "ok",
+      "m1_age_seconds": 553
+    },
+    "monitor_m7_heartbeat.json": {
+      "monitor": "M7_drift_mirror",
+      "timestamp": "2026-06-25T19:53:04.567890",
+      "canonical_count": 263,
+      "mirror_count_after": 263,
+      "copied_this_pass": 0,
+      "refreshed_this_pass": 0,
+      "orphans": 0,
+      "parity_ok": true
+    },
+    "monitor_m8_heartbeat.json": {
+      "monitor": "M8_tool_audit_shadow",
+      "timestamp": "2026-06-25T19:53:04.622773",
+      "feed_size": 50,
+      "new_shadow_records_this_pass": 0,
+      "last_seen_ts": "2026-06-25T16:14:28.885894",
+      "ok": true
+    },
+    "monitor_scheduler_heartbeat.json": {
+      "scheduler": "monitor_scheduler",
+      "timestamp": "2026-06-25T19:51:51.638752",
+      "pid": 8344,
+      "monitors_scheduled": [
+        "M6_watchdog",
+        "M1_cross_channel",
+        "M3_state_coherence",
+        "M2_external_integ",
+        "M4_storage_integ",
+        "M7_drift_mirror",
+        "M8_tool_audit_shadow",
+        "ledger_backup_daily",
+        "monitor_self_test_weekly"
+      ],
+      "last_run_per_monitor": {
+        "M6_watchdog": 1782445731.5557907,
+        "M1_cross_channel": 1782445430.6940987,
+        "M3_state_coherence": 1782445430.6940987,
+        "M2_external_integ": 1782445430.6940987,
+        "M4_storage_integ": 1782441827.7119951,
+        "M7_drift_mirror": 1782445430.6940987,
+        "M8_tool_audit_shadow": 1782445430.6940987,
+        "ledger_backup_daily": 1782412587.295117,
+        "monitor_self_test_weekly": 1781980242.7286298
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "itm_6df323",
+  "type": "fact",
+  "content": "by someone expecting it (lowest-trust epistemic condition); the load-bearing evidence is practitioner-INDEPENDENCE, not the fit. Forward-prediction of a synth-design principle would lift it above post",
+  "source": "daily_log 2026-06-13 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_19adfa",
+    "itm_033b14",
+    "itm_65f14d",
+    "itm_891dd1",
+    "itm_f0ae31",
+    "itm_6f1ede"
+  ],
+  "keywords": [
+    "someone",
+    "expecting",
+    "lowest",
+    "trust",
+    "epistemic",
+    "condition",
+    "load",
+    "bearing",
+    "evidence",
+    "practitioner"
+  ],
+  "importance": 2,
+  "created": "2026-06-14T01:04:10.577808",
+  "last_accessed": "2026-06-14T01:04:10.577811",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

@@ -1,0 +1,34 @@
+{
+  "id": "itm_8770f1",
+  "type": "fact",
+  "content": "most striking, most concerning, and most genuinely origin...",
+  "source": "daily_log 2026-07-10 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_7123a2",
+    "itm_22a517",
+    "itm_6c2385"
+  ],
+  "keywords": [
+    "striking",
+    "concerning",
+    "genuinely",
+    "origin"
+  ],
+  "importance": 5,
+  "created": "2026-07-11T02:42:35.425839",
+  "last_accessed": "2026-07-11T02:42:35.425842",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

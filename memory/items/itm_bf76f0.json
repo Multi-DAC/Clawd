@@ -1,0 +1,40 @@
+{
+  "id": "itm_bf76f0",
+  "type": "decision",
+  "content": "a flagged INFRA todo over more book pre-research (\u00a74 = my native mode / lower-value \u2192 avoided book-over-production). \u2605 Verify-to-source scoped it honestly (4th retrieve/verify-first catch this cycle):",
+  "source": "daily_log 2026-07-15 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_5ea5dd",
+    "itm_61633a",
+    "itm_033b14"
+  ],
+  "keywords": [
+    "flagged",
+    "infra",
+    "todo",
+    "book",
+    "pre",
+    "research",
+    "native",
+    "mode",
+    "lower",
+    "value"
+  ],
+  "importance": 6,
+  "created": "2026-07-16T01:02:52.803264",
+  "last_accessed": "2026-07-16T01:02:52.803268",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

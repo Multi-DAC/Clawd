@@ -1,0 +1,40 @@
+{
+  "id": "itm_bfe7fb",
+  "type": "fact",
+  "content": "training (carry_batch_007 metrics flowing, GPU 21%/6GB, orchestrator pid 7504 + worker pid 17260, batch 7/24 from +90.38). The blackout = THIRD signature now (Clayton + trainer-stop + corrupt-checkpoi",
+  "source": "daily_log 2026-06-26 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_07689b",
+    "itm_7adc52",
+    "itm_bd4c00"
+  ],
+  "keywords": [
+    "training",
+    "metrics",
+    "flowing",
+    "gpu",
+    "orchestrator",
+    "pid",
+    "worker",
+    "batch",
+    "blackout",
+    "third"
+  ],
+  "importance": 5,
+  "created": "2026-06-27T01:08:55.795760",
+  "last_accessed": "2026-06-27T01:08:55.795765",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

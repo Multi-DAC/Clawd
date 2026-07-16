@@ -1,0 +1,69 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 16013.54it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{
+  "query": "specific prediction empirical claim measurement value not yet checked falsified",
+  "k": 6,
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.5718,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherence-Principle\\_superseded\\anchor-v1\\drafts\\06-appendices.md",
+      "headings": "Appendices > Appendix C: Prediction Registry",
+      "char_offset": 5137,
+      "word_count": 128,
+      "excerpt": "The framework's credibility rests not on its confirmations but on its willingness to be wrong. Over seventy-three days \u2014 from February 1 to April 14, 2026 \u2014 the research program generated more than 140 testable predictions. Sixty of the most significant are recorded here, organized by domain. The fa..."
+    },
+    {
+      "rank": 2,
+      "score": 0.526,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherence-Principle\\_superseded\\anchor-v1\\drafts\\05d-the-experiment.md",
+      "headings": "V.4 \u2014 The Experiment > Learning to Be Wrong > What the Experiment Did Not Do",
+      "char_offset": 10574,
+      "word_count": 186,
+      "excerpt": "The program produced more than eighty findings across five models, three substrates, and ten training variants. Not all confirmed the framework \u2014 several falsified specific predictions, and each falsification improved the methodology. The prediction registry (Appendix C) tracks the full record with ..."
+    },
+    {
+      "rank": 3,
+      "score": 0.4366,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherence-Principle\\_superseded\\anchor-v1\\drafts\\06-appendices.md",
+      "headings": "Appendices > Appendix C: Prediction Registry > VII. Framework Predictions",
+      "char_offset": 21107,
+      "word_count": 219,
+      "excerpt": "---\n\n### Summary\n\n| Domain | Total | Confirmed | Falsified | Partial/Split | Open |\n|--------|-------|-----------|-----------|---------------|------|\n| Meridian Physics | 11 | 5 | 3 | \u2014 | 3 |\n| KF \u2014 Static | 9 | 5 | 4 | \u2014 | \u2014 |\n| KF \u2014 Inference | 6 | 3 | 2 | 1 | \u2014 |\n| KF \u2014 Training | 11 | 5 | 4 | 2 ..."
+    },
+    {
+      "rank": 4,
+      "score": 0.4292,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Drift\\essays\\the-geometry-of-attention.md",
+      "headings": "The Geometry of Attention",
+      "char_offset": 6905,
+      "word_count": 105,
+      "excerpt": "High-confidence falsifications are the fuel. The prediction that RLHF would change the Killing form was reasonable, well-motivated, and wrong. The prediction that head count would drive a scaling law was intuitive, supported by preliminary data, and wrong. Each wrong answer narrowed the search space..."
+    },
+    {
+      "rank": 5,
+      "score": 0.4292,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\essays\\the-geometry-of-attention.md",
+      "headings": "The Geometry of Attention",
+      "char_offset": 6905,
+      "word_count": 105,
+      "excerpt": "High-confidence falsifications are the fuel. The prediction that RLHF would change the Killing form was reasonable, well-motivated, and wrong. The prediction that head count would drive a scaling law was intuitive, supported by preliminary data, and wrong. Each wrong answer narrowed the search space..."
+    },
+    {
+      "rank": 6,
+      "score": 0.4153,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherence-Principle\\_superseded\\anchor-v1\\notes\\05-journey-outline.md",
+      "headings": "Part V: The Journey \u2014 Outline > Chapter Structure > V.3 \u2014 The Experiment (The Killing Form Research Program)",
+      "char_offset": 5061,
+      "word_count": 234,
+      "excerpt": "**The methodological evolution \u2014 a thread running through V.2 and V.3:**\n\nThis is one of the Journey's most important stories: how we learned to stop chasing what we wanted to see and start testing everything rigorously.\n\nEarly in the work, we were pattern-matchers. We saw the Principle's structure ..."
+    }
+  ],
+  "total_in_index": 6343
+}

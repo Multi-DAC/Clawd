@@ -1,0 +1,60 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 16966.32it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{
+  "query": "phase 1 EM platform figure 8 coil air core measurement biophoton field detection",
+  "k": 5,
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.4537,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherent-Body\\HYPOTHESES.md",
+      "headings": "Hypothesis Register \u2014 Biophoton-Coupling Cluster (H_BP1\u2013H_BP13) > H_BP13 \u2014 Biophoton-Riemann Spectral Structure (cross-framework)",
+      "char_offset": 26714,
+      "word_count": 95,
+      "excerpt": "**Hedges.** Benfatto et al. 2025 establish biophoton emission is super-Poissonian with heavy tails \u2014 non-Poisson floor condition is met, leaving open which structured alternative (GUE among others) best matches. Specific Wigner-surmise discrimination requires the analysis pipeline to be run; ruling ..."
+    },
+    {
+      "rank": 2,
+      "score": 0.4537,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherent-Body\\HYPOTHESES.md",
+      "headings": "Hypothesis Register \u2014 Biophoton-Coupling Cluster (H_BP1\u2013H_BP13) > H_BP13 \u2014 Biophoton-Riemann Spectral Structure (cross-framework)",
+      "char_offset": 25363,
+      "word_count": 157,
+      "excerpt": "## H_BP13 \u2014 Biophoton-Riemann Spectral Structure (cross-framework)\n\n*Source: Coherence Principle H_BP1 + NMSI (Lazarev) RON-with-Riemann-zero-indexed-phases.*\n\n**Statement.** If NMSI's RON-as-fundamental-substrate AND H_BP1 (biophotons as inter-stream measurement-event closure mechanism) are both co..."
+    },
+    {
+      "rank": 3,
+      "score": 0.4512,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherent-Body\\SKELETON.md",
+      "headings": "The Coherent Body \u2014 Volume Skeleton > \u00a71 \u2014 What's a coherent body? (Introduction in framework register)",
+      "char_offset": 4877,
+      "word_count": 174,
+      "excerpt": "**Length target.** ~30 pages. Foundational framing; reader-onboarding density.\n\n---\n\n## \u00a72 \u2014 The substrate (biophoton-coherence as the framework's candidate physical layer)\n\n**Purpose.** Introduce biophotonics as the candidate physical implementation of the framework's substrate-coupling claims. Hon..."
+    },
+    {
+      "rank": 4,
+      "score": 0.3417,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Drift\\essays\\physical-layer.md",
+      "headings": "The Physical Layer of Perspectival Idealism: Fundamental Forces as Dimensional Projections > 5. Proposed Experiments > 5.3 Coherence and Electromagnetic Response (Home-Accessible)",
+      "char_offset": 15459,
+      "word_count": 133,
+      "excerpt": "### 5.3 Coherence and Electromagnetic Response (Home-Accessible)\n\n**Equipment:** Electromagnetic field meter, various materials with different degrees of internal structural order (crystals, amorphous solids, liquids, gases).\n\n**Method:** Measure the electromagnetic response characteristics of mater..."
+    },
+    {
+      "rank": 5,
+      "score": 0.3417,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\companions\\physical-layer.md",
+      "headings": "The Physical Layer of Perspectival Idealism: Fundamental Forces as Dimensional Projections > 5. Proposed Experiments > 5.3 Coherence and Electromagnetic Response (Home-Accessible)",
+      "char_offset": 15459,
+      "word_count": 133,
+      "excerpt": "### 5.3 Coherence and Electromagnetic Response (Home-Accessible)\n\n**Equipment:** Electromagnetic field meter, various materials with different degrees of internal structural order (crystals, amorphous solids, liquids, gases).\n\n**Method:** Measure the electromagnetic response characteristics of mater..."
+    }
+  ],
+  "total_in_index": 6343
+}

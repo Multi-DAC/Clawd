@@ -1,0 +1,41 @@
+{
+  "id": "itm_3b3343",
+  "type": "fact",
+  "content": "(complexity/dimensionality drops as synchrony rises \u2014 multiple sourced studies) \u2192 P250 upgraded data-starved\u2192runnable. (2) \u2605 But I almost conflated \"comp\u00b2=1/\u03c1\" with the participation ratio \u2014 **PREDICT",
+  "source": "daily_log 2026-06-22 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_51aefa",
+    "itm_27db8d",
+    "itm_6b62a1",
+    "itm_a11b51"
+  ],
+  "keywords": [
+    "complexity",
+    "dimensionality",
+    "drops",
+    "synchrony",
+    "rises",
+    "multiple",
+    "sourced",
+    "studies",
+    "upgraded",
+    "data"
+  ],
+  "importance": 5,
+  "created": "2026-06-23T01:07:00.759993",
+  "last_accessed": "2026-06-23T01:07:00.759997",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

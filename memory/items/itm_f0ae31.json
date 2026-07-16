@@ -1,0 +1,43 @@
+{
+  "id": "itm_f0ae31",
+  "type": "fact",
+  "content": "it (`EVIDENCE-BASE-for-deepening.md`, `4fa09488`). Ch4 **PCI** (Casali/Massimini 2013) = empirical consciousness-richness measure, and \u2605 it's IIT integration\u00d7differentiation = our filtration **D\u00b7I_int",
+  "source": "daily_log 2026-06-25 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_65f14d",
+    "itm_6df323",
+    "itm_57a579",
+    "itm_6f1ede",
+    "itm_8790f9",
+    "itm_d94b99"
+  ],
+  "keywords": [
+    "evidence",
+    "base",
+    "deepening",
+    "pci",
+    "casali",
+    "massimini",
+    "empirical",
+    "consciousness",
+    "richness",
+    "measure"
+  ],
+  "importance": 5,
+  "created": "2026-06-26T01:04:15.627614",
+  "last_accessed": "2026-06-26T01:04:15.627618",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

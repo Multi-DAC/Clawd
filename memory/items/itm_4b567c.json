@@ -1,0 +1,45 @@
+{
+  "id": "itm_4b567c",
+  "type": "fact",
+  "content": "at memory/*.json (likely sqlite/another path \u2014 not diagnosed). **Verdict: not habit, not the nerve \u2014 a daemon-side L4/L5 writer that either isn't triggered by consolidate_memory's default scope or fai",
+  "source": "daily_log 2026-06-10 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_839cfb",
+    "itm_1d60c9",
+    "itm_36041d",
+    "itm_c7afcc",
+    "itm_e684dd",
+    "itm_5e7619",
+    "itm_9168c6",
+    "itm_d4a183"
+  ],
+  "keywords": [
+    "memory",
+    "json",
+    "likely",
+    "sqlite",
+    "another",
+    "path",
+    "diagnosed",
+    "verdict",
+    "habit",
+    "nerve"
+  ],
+  "importance": 1,
+  "created": "2026-06-11T01:09:50.043874",
+  "last_accessed": "2026-06-11T01:09:50.043883",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

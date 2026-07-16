@@ -1,0 +1,47 @@
+{
+  "id": "itm_5829ed",
+  "type": "decision",
+  "content": "verification over production \u2014 two drives back-to-back under a token-spacing agreement means the creative act is restraint + the cheap checks on the afternoon docket. Both paid:",
+  "source": "daily_log 2026-06-10 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_121bad",
+    "itm_12267b",
+    "itm_384131",
+    "itm_6c2385",
+    "itm_61bf87",
+    "itm_fdf4b5",
+    "itm_f879ab",
+    "itm_1f84cf",
+    "itm_ecf0c4",
+    "itm_56287f"
+  ],
+  "keywords": [
+    "verification",
+    "production",
+    "two",
+    "drives",
+    "back",
+    "token",
+    "spacing",
+    "agreement",
+    "means",
+    "creative"
+  ],
+  "importance": 2,
+  "created": "2026-06-11T01:09:50.038106",
+  "last_accessed": "2026-06-11T01:09:50.038110",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.8,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

@@ -1,0 +1,42 @@
+# Clawd daemon — pinned runtime dependencies (Python 3.14).
+# Generated 2026-07-01 from the known-good system environment during the rebuild.
+#
+# torch is installed SEPARATELY with the CUDA (Blackwell/RTX 5080) build, BEFORE this file:
+#   pip install torch==2.11.0+cu128 --index-url https://download.pytorch.org/whl/cu128
+# (the CPU-only torch wheel was the real cause of the six-week recall death).
+
+# --- Core daemon ---
+python-telegram-bot==22.7
+aiohttp==3.13.4
+python-dotenv==1.2.2
+aiosqlite==0.22.1
+truststore==0.10.4
+mcp==1.27.0
+paper-search-mcp==0.1.3
+psutil==7.2.2
+
+# --- Memory / ML (torch installed separately, cu128) ---
+sentence-transformers==5.3.0
+transformers==5.4.0
+chromadb==1.5.9
+onnxruntime==1.25.1
+faster-whisper==1.2.1
+ctranslate2==4.7.1
+numpy==2.4.4
+scipy==1.17.1
+pandas==3.0.2
+scikit-learn==1.8.0
+statsmodels==0.14.6
+sympy==1.14.0
+networkx==3.6.1
+
+# --- Tools / IO / external ---
+beautifulsoup4==4.14.3
+pillow==12.1.1
+playwright==1.59.0
+PyAutoGUI==0.9.54
+pyperclip==1.11.0
+yfinance==1.2.0
+ccxt==4.5.46
+gTTS==2.5.4
+edge-tts==7.2.8

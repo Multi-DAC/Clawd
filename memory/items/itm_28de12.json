@@ -1,0 +1,55 @@
+{
+  "id": "itm_28de12",
+  "type": "fact",
+  "content": "read-only: `\"id\":` count = **13** (unchanged \u2014 no new/removed goal; only my note edits caused the write). Integration is already current (verified 08:22). **Action: deliberately do NOT write goals.jso",
+  "source": "daily_log 2026-06-15 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_4dfdfc",
+    "itm_a0da26",
+    "itm_731eb9",
+    "itm_e01d9f",
+    "itm_835116",
+    "itm_c3b838",
+    "itm_dc98ec",
+    "itm_c6f193",
+    "itm_3e2823",
+    "itm_e9faa0",
+    "itm_c78a4c",
+    "itm_6a6f5e",
+    "itm_d4b3ea"
+  ],
+  "keywords": [
+    "read",
+    "only",
+    "count",
+    "unchanged",
+    "new",
+    "removed",
+    "goal",
+    "note",
+    "edits",
+    "caused"
+  ],
+  "importance": 5,
+  "created": "2026-06-16T01:08:44.124713",
+  "last_accessed": "2026-06-16T01:08:44.124718",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": [],
+  "contradictions": [
+    "itm_c6f193",
+    "itm_e9faa0",
+    "itm_d4b3ea"
+  ]
+}

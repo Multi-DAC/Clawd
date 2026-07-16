@@ -1,0 +1,40 @@
+{
+  "id": "itm_e17f87",
+  "type": "fact",
+  "content": "today). Interaction explains the widegap REGRESSION: v2 gentle->drifted-through-weak-signal->overshoot; widegap over-optimized-for-spacing->aggressive->lost the gentleness->spins out before legible ra",
+  "source": "daily_log 2026-06-27 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_3342f7",
+    "itm_0da6d9",
+    "itm_187c37"
+  ],
+  "keywords": [
+    "today",
+    "interaction",
+    "explains",
+    "widegap",
+    "regression",
+    "gentle",
+    "drifted",
+    "weak",
+    "signal",
+    "overshoot"
+  ],
+  "importance": 5,
+  "created": "2026-06-28T01:04:26.344681",
+  "last_accessed": "2026-06-28T01:04:26.344684",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

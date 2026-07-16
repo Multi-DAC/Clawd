@@ -1,0 +1,37 @@
+{
+  "id": "itm_dbf04c",
+  "type": "fact",
+  "content": "end-to-end \u2014 the no-sim smoke just confirmed there'll be no surprises when you'...",
+  "source": "daily_log 2026-06-24 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_3d09f6",
+    "itm_085b3c",
+    "itm_662f41"
+  ],
+  "keywords": [
+    "end",
+    "sim",
+    "smoke",
+    "confirmed",
+    "there",
+    "surprises",
+    "you"
+  ],
+  "importance": 5,
+  "created": "2026-06-25T01:09:02.804872",
+  "last_accessed": "2026-06-25T01:09:02.804878",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

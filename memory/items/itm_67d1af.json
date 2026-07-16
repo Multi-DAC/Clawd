@@ -1,0 +1,39 @@
+{
+  "id": "itm_67d1af",
+  "type": "fact",
+  "content": "by reading the code, and the diagnosis is clean. The `auto` path *is* properly guarded (li...",
+  "source": "daily_log 2026-07-01 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_a214e6",
+    "itm_3e2823",
+    "itm_c5bdf4",
+    "itm_bdab73"
+  ],
+  "keywords": [
+    "reading",
+    "code",
+    "diagnosis",
+    "clean",
+    "auto",
+    "path",
+    "properly",
+    "guarded"
+  ],
+  "importance": 5,
+  "created": "2026-07-02T02:08:13.399328",
+  "last_accessed": "2026-07-02T02:08:13.399331",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

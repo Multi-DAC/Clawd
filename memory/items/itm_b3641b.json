@@ -1,0 +1,46 @@
+{
+  "id": "itm_b3641b",
+  "type": "fact",
+  "content": "that *all of today's errors were one error* (proxy-for-target) and that *the next test on the live thread (meta-rate) will face the same data-starvation I already solved once* (rod\u2194cone \u2192 cross-modal)",
+  "source": "daily_log 2026-06-21 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_ec02e3",
+    "itm_65aa43",
+    "itm_65f14d",
+    "itm_6b62a1",
+    "itm_b3c000",
+    "itm_8c87a1",
+    "itm_9793fd",
+    "itm_f59421",
+    "itm_50777e"
+  ],
+  "keywords": [
+    "today",
+    "errors",
+    "one",
+    "error",
+    "proxy",
+    "target",
+    "next",
+    "test",
+    "live",
+    "thread"
+  ],
+  "importance": 10,
+  "created": "2026-06-22T01:00:05.409358",
+  "last_accessed": "2026-06-22T01:00:05.409364",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

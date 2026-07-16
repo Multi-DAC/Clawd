@@ -1,0 +1,60 @@
+{
+  "id": "itm_187c37",
+  "type": "insight",
+  "content": "behavioral-rule for future discipline-instance logging. The upward-revisions today were the latter, not the former.",
+  "source": "daily_log 2026-05-14 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_0469ed",
+    "itm_5ea5dd",
+    "itm_f9239b",
+    "itm_07689b",
+    "itm_8e0f7e",
+    "itm_bf1a8a",
+    "itm_9108c4",
+    "itm_bd1e23",
+    "itm_085b3c",
+    "itm_0cc030",
+    "itm_9d2a12",
+    "itm_e17f87"
+  ],
+  "keywords": [
+    "behavioral",
+    "rule",
+    "future",
+    "discipline",
+    "instance",
+    "logging",
+    "upward",
+    "revisions",
+    "today",
+    "latter"
+  ],
+  "importance": 1,
+  "created": "2026-05-15T17:18:30.797857",
+  "last_accessed": "2026-05-15T17:18:30.797859",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.6,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": [
+    {
+      "timestamp": "2026-07-16T01:02:53.102098",
+      "confidence": 0.6499999999999999,
+      "reason": "evolution_decay (61d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-16T05:05:18.488306",
+      "confidence": 0.6,
+      "reason": "evolution_decay (61d since access, 0 accesses)"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "itm_74738e",
+  "type": "fact",
+  "content": "grounding myself \u2014 and honestly, it's *more* substantiated than I'd assumed on t...",
+  "source": "daily_log 2026-06-17 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_068801",
+    "itm_fa2b38",
+    "itm_c3b838",
+    "itm_231655"
+  ],
+  "keywords": [
+    "grounding",
+    "myself",
+    "honestly",
+    "substantiated",
+    "assumed"
+  ],
+  "importance": 5,
+  "created": "2026-06-18T01:37:14.129672",
+  "last_accessed": "2026-06-18T01:37:14.129674",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

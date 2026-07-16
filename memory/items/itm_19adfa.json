@@ -1,0 +1,34 @@
+{
+  "id": "itm_19adfa",
+  "type": "fact",
+  "content": "N4's own boundary condition.)",
+  "source": "daily_log 2026-06-13 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_033b14",
+    "itm_0ff05d",
+    "itm_1d60c9",
+    "itm_6df323"
+  ],
+  "keywords": [
+    "own",
+    "boundary",
+    "condition"
+  ],
+  "importance": 2,
+  "created": "2026-06-14T01:04:10.563179",
+  "last_accessed": "2026-06-14T01:04:10.563182",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

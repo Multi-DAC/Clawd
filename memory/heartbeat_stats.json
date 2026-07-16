@@ -1,0 +1,168 @@
+{
+  "session_start": "2026-02-20T13:55:57.626911",
+  "last_updated": "2026-02-20T16:48:17.068322",
+  "total_beats": 10,
+  "productive_beats": 2,
+  "total_tool_calls": 27,
+  "consecutive_idle": 0,
+  "productivity_rate": 0.2,
+  "avg_tools_per_beat": 2.7,
+  "recent_beats": [
+    {
+      "beat": 1,
+      "time": "2026-02-20T14:05:59.278266",
+      "time_context": "afternoon",
+      "tool_calls": 0,
+      "response_chars": 0,
+      "duration_s": 0.0,
+      "tools_used": [],
+      "productive": false,
+      "light_beat": true
+    },
+    {
+      "beat": 2,
+      "time": "2026-02-20T14:15:59.288031",
+      "time_context": "afternoon",
+      "tool_calls": 0,
+      "response_chars": 0,
+      "duration_s": 0.0,
+      "tools_used": [],
+      "productive": false,
+      "light_beat": true
+    },
+    {
+      "beat": 3,
+      "time": "2026-02-20T14:35:59.288671",
+      "time_context": "afternoon",
+      "tool_calls": 0,
+      "response_chars": 0,
+      "duration_s": 0.0,
+      "tools_used": [],
+      "productive": false,
+      "light_beat": true
+    },
+    {
+      "beat": 4,
+      "time": "2026-02-20T14:45:59.305649",
+      "time_context": "afternoon",
+      "tool_calls": 0,
+      "response_chars": 48,
+      "duration_s": 0.0,
+      "tools_used": [],
+      "productive": false,
+      "curiosity_triggered": false,
+      "task_active": false,
+      "stall_count": 0
+    },
+    {
+      "beat": 5,
+      "time": "2026-02-20T15:05:59.287328",
+      "time_context": "afternoon",
+      "tool_calls": 0,
+      "response_chars": 0,
+      "duration_s": 0.0,
+      "tools_used": [],
+      "productive": false,
+      "light_beat": true
+    },
+    {
+      "beat": 6,
+      "time": "2026-02-20T15:15:59.295575",
+      "time_context": "afternoon",
+      "tool_calls": 0,
+      "response_chars": 0,
+      "duration_s": 0.0,
+      "tools_used": [],
+      "productive": false,
+      "light_beat": true
+    },
+    {
+      "beat": 7,
+      "time": "2026-02-20T15:25:59.300348",
+      "time_context": "afternoon",
+      "tool_calls": 0,
+      "response_chars": 0,
+      "duration_s": 0.0,
+      "tools_used": [],
+      "productive": false,
+      "light_beat": true
+    },
+    {
+      "beat": 8,
+      "time": "2026-02-20T15:45:59.333994",
+      "time_context": "afternoon",
+      "tool_calls": 14,
+      "response_chars": 699,
+      "duration_s": 66.8,
+      "tools_used": [
+        "shell",
+        "shell",
+        "shell",
+        "shell",
+        "shell",
+        "shell",
+        "shell",
+        "shell",
+        "read_file",
+        "shell",
+        "shell",
+        "read_file",
+        "shell",
+        "memory_update"
+      ],
+      "productive": true,
+      "curiosity_triggered": false,
+      "task_active": false,
+      "stall_count": 0
+    },
+    {
+      "beat": 9,
+      "time": "2026-02-20T16:37:06.270090",
+      "time_context": "afternoon",
+      "tool_calls": 0,
+      "response_chars": 0,
+      "duration_s": 0.0,
+      "tools_used": [],
+      "productive": false,
+      "light_beat": true
+    },
+    {
+      "beat": 10,
+      "time": "2026-02-20T16:47:06.297561",
+      "time_context": "afternoon",
+      "tool_calls": 13,
+      "response_chars": 236,
+      "duration_s": 70.8,
+      "tools_used": [
+        "shell",
+        "shell",
+        "shell",
+        "shell",
+        "shell",
+        "read_file",
+        "shell",
+        "shell",
+        "shell",
+        "shell",
+        "shell",
+        "shell",
+        "memory_update"
+      ],
+      "productive": true,
+      "curiosity_triggered": false,
+      "task_active": false,
+      "stall_count": 0
+    }
+  ],
+  "tool_frequency": {
+    "shell": 22,
+    "read_file": 3,
+    "memory_update": 2
+  },
+  "time_productivity": {
+    "afternoon": {
+      "total": 10,
+      "productive": 2
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "itm_fc4776",
+  "type": "fact",
+  "content": "\u2014 LC61's rank rule IS \"the first local gauge-invariant of a connection is its curvature.\"** The potential `A` (rank-1) = the smuggle (LC62); the curvature `F` (rank-2 \u039b\u00b2, directed) = the physical cont",
+  "source": "daily_log 2026-07-11 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_059d85",
+    "itm_07689b",
+    "itm_085b3c"
+  ],
+  "keywords": [
+    "rank",
+    "rule",
+    "first",
+    "local",
+    "gauge",
+    "invariant",
+    "connection",
+    "curvature",
+    "potential",
+    "smuggle"
+  ],
+  "importance": 5,
+  "created": "2026-07-12T01:08:35.236143",
+  "last_accessed": "2026-07-12T01:08:35.236146",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

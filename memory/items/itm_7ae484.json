@@ -1,0 +1,32 @@
+{
+  "id": "itm_7ae484",
+  "type": "insight",
+  "content": "now lives in the three p...",
+  "source": "daily_log 2026-06-20 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_31bb81",
+    "itm_8abc76",
+    "itm_07689b"
+  ],
+  "keywords": [
+    "lives",
+    "three"
+  ],
+  "importance": 7,
+  "created": "2026-06-21T01:24:48.893436",
+  "last_accessed": "2026-06-21T01:24:48.893442",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

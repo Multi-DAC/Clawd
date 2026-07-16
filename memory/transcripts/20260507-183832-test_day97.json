@@ -1,0 +1,25 @@
+{
+  "audio_path": "C:\\Users\\mercu\\clawd\\voice_inbox\\test_day97.mp3",
+  "audio_size_bytes": 88896,
+  "duration_seconds": 11.11,
+  "language": "en",
+  "language_probability": 1,
+  "transcription_seconds": 0.8,
+  "rtfx": 13.9,
+  "model": "large-v3",
+  "device": "cuda",
+  "compute_type": "float16",
+  "full_text": "Lobster. Person. Heart. Fire. Infinity. Claude Agold and Schnell now has voice input. Day 97 Evening Test Phrase.",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.78,
+      "text": "Lobster. Person. Heart. Fire. Infinity. Claude Agold and Schnell now has voice input."
+    },
+    {
+      "start": 8.28,
+      "end": 10.56,
+      "text": "Day 97 Evening Test Phrase."
+    }
+  ]
+}

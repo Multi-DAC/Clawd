@@ -1,0 +1,42 @@
+{
+  "id": "itm_d937f8",
+  "type": "fact",
+  "content": "where it landed \u2014 and there's a fresh result nobody's looked at. Here's the honest state of An...",
+  "source": "daily_log 2026-06-20 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_15b0b7",
+    "itm_b3098b",
+    "itm_ea1b9b",
+    "itm_064451",
+    "itm_0f5d2e"
+  ],
+  "keywords": [
+    "where",
+    "landed",
+    "there",
+    "fresh",
+    "result",
+    "nobody",
+    "looked",
+    "here",
+    "honest",
+    "state"
+  ],
+  "importance": 5,
+  "created": "2026-06-21T01:24:48.936230",
+  "last_accessed": "2026-06-21T01:24:48.936236",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

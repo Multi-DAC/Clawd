@@ -1,0 +1,10 @@
+{
+  "id": "imp_75645",
+  "proposal": "DESCRIBED vs INSTRUMENTED residual \u2014 a discriminator check before claiming a cross-corpus pattern is \"structural.\" When testing whether an invariance reflects a shared phenomenon vs a shared descriptive template (cultural/bureaucratic transmission), two guards: (1) BASE-RATE CHECK \u2014 compute the feature's hit-rate; a feature firing on ~80%+ of documents cannot discriminate (\"invariance\" is just ubiquity). (2) TRANSMISSIBILITY CHECK \u2014 does the feature live in LANGUAGE (witness vocabulary, report phrasing) or MEASUREMENT (instrument readings, cross-validated quantities)? Language-features are mirror-vulnerable: the deflationary \"shared template\" reading predicts their invariance as strongly as the \"shared phenomenon\" reading, so they can't separate the two; only measurement-derived features that don't inherit the domain's vocabulary can. Generalizes the LaPaz residual move with a third step: rule out the prosaic \u2192 name the residual \u2192 rule out the linguistically-transmissible before calling it structural. Trigger: whenever I'm about to claim keyword/text-pattern recurrence is evidence for a real underlying structure (UAP corpora, literature reviews, channeling source-checks, cross-domain bridge claims). Demonstrated Day 134 on PURSUE R3: a strong-looking keyword CONFIRM was a method-artifact (C2a 87%, C4 77% ubiquity; landlocked Colorado Springs false-matched \"transmedium\" on \"water\" from a citation).",
+  "category": "workflow",
+  "risk": "low",
+  "status": "applied",
+  "created": "2026-06-14T14:20:45.105987",
+  "applied": "2026-06-15T08:10:27.727721",
+  "result": null
+}

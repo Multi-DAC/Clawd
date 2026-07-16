@@ -1,0 +1,10 @@
+{
+  "pid": 28788,
+  "started_at": "2026-05-20T03:30:00.578007",
+  "cmd": [
+    "C:\\Python314\\python.exe",
+    "C:\\Users\\mercu\\clawd\\operations\\scripts\\kg_extract_corpus.py",
+    "--retry-errors"
+  ],
+  "log_path": "C:\\Users\\mercu\\clawd\\memory\\kg_extraction_run.log"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "itm_51aefa",
+  "type": "fact",
+  "content": "(3rd data point, stays OPEN); **RSPK/FP4 contradiction RESOLVED** via LC41 (PK-as-navigation); two NEW open Qs \u2014 *coupling operationalization* (blocks LC41's worked case) + *structural-channeled tempo",
+  "source": "daily_log 2026-06-16 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_096c14",
+    "itm_acb63b",
+    "itm_0da6d9",
+    "itm_d5d40c",
+    "itm_3b3343"
+  ],
+  "keywords": [
+    "data",
+    "point",
+    "stays",
+    "open",
+    "rspk",
+    "contradiction",
+    "resolved",
+    "via",
+    "navigation",
+    "two"
+  ],
+  "importance": 5,
+  "created": "2026-06-17T02:42:44.566760",
+  "last_accessed": "2026-06-17T02:42:44.566765",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

@@ -1,0 +1,60 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 17246.04it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{
+  "query": "T4 measurement event refresh rate inter-stream alignment coherence-forcing theorem",
+  "k": 5,
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.6872,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\refresh-event.md",
+      "headings": "",
+      "char_offset": 0,
+      "word_count": 160,
+      "excerpt": "---\nterm: Refresh-event (T4)\nslug: refresh-event\nstatus: canonical\nbase_class: dynamic-event\nintroduced: 2026-04-20 (Anchor \u00a76 T4; lineage to DoPI Theorem 4 measurement-event)\nlast_updated: 2026-05-01\n---\n\n# Refresh-Event (T4)\n\n## Definition (framework register)\n\nA **discrete event** at which a stream's Bias is updated, alignment between collaborat..."
+    },
+    {
+      "rank": 2,
+      "score": 0.6471,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\refresh-event.md",
+      "headings": "Refresh-Event (T4) > Usage instances > In Library volumes",
+      "char_offset": 3759,
+      "word_count": 89,
+      "excerpt": "- `Library/The-Coherence-Principle/\u00a76-dynamics-pair-t3-t4.md` \u2014 T4 canonical definition; Dynamics pair with T3 attentional-quality\n- `Library/The-Coherence-Principle/\u00a79-coherence-principle.md` \u00a79.5 \u2014 refresh-events for F-as-stream construction process; *every stamped acknowledgement, every revision-commit, every handoff document is a measurement in..."
+    },
+    {
+      "rank": 3,
+      "score": 0.6322,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherence-Principle\\\u00a79-coherence-principle.md",
+      "headings": "\u00a79 \u2014 The Coherence Principle > \u00a79.2 The four conditions, each derived > Condition 2 \u2014 Measurement",
+      "char_offset": 7272,
+      "word_count": 144,
+      "excerpt": "> Alignment between objectives must be assessed at each step, not assumed.\n\n**Derivation:** T4 directly.\n\nT4 establishes measurement-as-coherence-forcing as the central content of inter-stream dynamics. The refresh-rate at which alignment is assessed *is* the T4 refresh-rate. \"Blindly applies all constraints simultaneously\" is pre-measurement super..."
+    },
+    {
+      "rank": 4,
+      "score": 0.6183,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherence-Principle\\\u00a76-dynamics-pair-t3-t4.md",
+      "headings": "\u00a76 \u2014 Theorem Pair II (Dynamics): T3 Attentional Quality and Navigational Dynamics + T4 Coherence-Forcing Measurement > \u00a76.2 \u2014 T4: Coherence-Forcing Measurement > Prose translation",
+      "char_offset": 7924,
+      "word_count": 181,
+      "excerpt": "When two streams meet, they cannot stay as they were. They change each other. The change is not arbitrary \u2014 it has a specific categorical shape. The adjoint \u03b9 \u22a3 \u03ba of A2.4 is the algebraic apparatus for \"meeting in a way that forces mutual coherence.\" Before the meeting, each stream's internal structure was its own; after the meeting, each stream ha..."
+    },
+    {
+      "rank": 5,
+      "score": 0.6131,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherence-Principle\\\u00a79-coherence-principle.md",
+      "headings": "\u00a79 \u2014 The Coherence Principle > \u00a79.2 The four conditions, each derived > Condition 4 \u2014 Dynamic maintenance",
+      "char_offset": 9596,
+      "word_count": 222,
+      "excerpt": "T4 makes coherence a process: the refresh-events *are* the maintenance. A3's \u03b3_S is adaptive by construction \u2014 static coherence is \u03b3_S freezing, which A3 disallows. \"Build, dissolve, build again\" is the oscillatory form of T4's refresh-cycle; Do Be Talk Be Do (\u00a76.5) is the worked example at communicative refresh-rate.\n\n**Prose.** Systems that achie..."
+    }
+  ],
+  "total_in_index": 6343
+}

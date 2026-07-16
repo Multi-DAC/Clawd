@@ -1,0 +1,40 @@
+{
+  "id": "itm_17b012",
+  "type": "fact",
+  "content": "the API key (503 on flash = valid-key/model-busy, not auth-fail), set ANTIGRAVITY_API_KEY for wasch, tested `agy -p` \u2192 **AGY_OK** (Gemini thinks headless through my shell). Then fed Gemini its GEMINI-",
+  "source": "daily_log 2026-07-15 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_662f41",
+    "itm_a667c0",
+    "itm_033b14"
+  ],
+  "keywords": [
+    "api",
+    "key",
+    "flash",
+    "valid",
+    "model",
+    "busy",
+    "auth",
+    "fail",
+    "set",
+    "wasch"
+  ],
+  "importance": 5,
+  "created": "2026-07-16T01:02:52.852887",
+  "last_accessed": "2026-07-16T01:02:52.852891",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

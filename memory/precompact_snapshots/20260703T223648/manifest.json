@@ -1,0 +1,236 @@
+{
+  "snapshot_ts": "2026-07-03T22:36:48.070206",
+  "reason": "activity_10",
+  "files_copied": [
+    "handoff.md",
+    "CURRENT.md",
+    "ATRIUM.md"
+  ],
+  "git_heads": {
+    "clawd_local": null,
+    "multi_dac_staging": null
+  },
+  "monitor_heartbeats_snapshotted": [
+    "monitor_external_pinger_heartbeat.json",
+    "monitor_fault_bridge_heartbeat.json",
+    "monitor_liveness_evidence_heartbeat.json",
+    "monitor_m1_heartbeat.json",
+    "monitor_m2_heartbeat.json",
+    "monitor_m3_heartbeat.json",
+    "monitor_m4_heartbeat.json",
+    "monitor_m5_heartbeat.json",
+    "monitor_m6_heartbeat.json",
+    "monitor_m7_heartbeat.json",
+    "monitor_m8_heartbeat.json",
+    "monitor_process_watchdog_heartbeat.json",
+    "monitor_retrieval_canary_heartbeat.json",
+    "monitor_scheduler_heartbeat.json"
+  ],
+  "heartbeat_states": {
+    "monitor_external_pinger_heartbeat.json": {
+      "monitor": "external_pinger",
+      "timestamp": "2026-07-03T22:36:47.425656",
+      "pid": 15484,
+      "verdict": {
+        "healthy": true,
+        "reasons": [],
+        "daemon_ok": true,
+        "scheduler_age_s": 93,
+        "canary_age_s": 2
+      },
+      "ping": {
+        "pinged": true,
+        "ok": true,
+        "status": 200,
+        "target": "healthy"
+      }
+    },
+    "monitor_fault_bridge_heartbeat.json": {
+      "monitor": "fault_bridge",
+      "timestamp": "2026-07-01T22:44:50.164648",
+      "pid": 23620,
+      "new_fault_files": 0,
+      "escalated": 0,
+      "delivery": {
+        "pending_unsent": 0,
+        "oldest_pending_min": 0.0,
+        "stalled": false
+      },
+      "ok": true
+    },
+    "monitor_liveness_evidence_heartbeat.json": {
+      "monitor": "liveness_evidence",
+      "timestamp": "2026-07-03T22:36:46.620846",
+      "pid": 17012,
+      "overall": "OK",
+      "writers": [
+        {
+          "name": "consolidation",
+          "path": "memory/_consolidation_check.json",
+          "run_count": 4,
+          "age_hours": 17.0,
+          "severity": "OK",
+          "detail": "fresh (count steady this window)"
+        },
+        {
+          "name": "dreaming",
+          "path": "memory/dreaming_audit.jsonl",
+          "run_count": null,
+          "age_hours": 16.9,
+          "severity": "OK",
+          "detail": "fresh (count steady this window)"
+        },
+        {
+          "name": "change_journal",
+          "path": "memory/change_journal.json",
+          "run_count": null,
+          "age_hours": 6.2,
+          "severity": "OK",
+          "detail": "fresh (count steady this window)"
+        },
+        {
+          "name": "vector_index",
+          "path": "memory/.search_index/metadata.json",
+          "run_count": null,
+          "age_hours": 28.5,
+          "severity": "OK",
+          "detail": "fresh (count steady this window)"
+        }
+      ]
+    },
+    "monitor_m1_heartbeat.json": {
+      "monitor": "M1",
+      "timestamp": "2026-07-03T22:36:28.819205",
+      "pid": 8960,
+      "channels_checked": 16,
+      "channels_silent": 1,
+      "channels_ok": 14,
+      "channels_inactive": 1,
+      "channels_missing": 0,
+      "cross_correlation_signatures": [
+        "selective_channel_death"
+      ]
+    },
+    "monitor_m2_heartbeat.json": {
+      "monitor": "M2",
+      "timestamp": "2026-07-03T22:36:29.124792",
+      "pid": 9668,
+      "probes_total": 4,
+      "probes_ok": 1,
+      "probes_critical": 0,
+      "probes_high": 0
+    },
+    "monitor_m3_heartbeat.json": {
+      "monitor": "M3",
+      "timestamp": "2026-07-03T22:36:28.932400",
+      "pid": 9508,
+      "checks_total": 2,
+      "checks_ok": 0,
+      "checks_warn": 2,
+      "checks_fault": 0,
+      "checks_skip": 0,
+      "evidence_checks": 2,
+      "coverage_ok": true
+    },
+    "monitor_m4_heartbeat.json": {
+      "monitor": "M4",
+      "timestamp": "2026-07-03T22:36:29.234062",
+      "pid": 10116,
+      "checks_total": 7,
+      "checks_ok": 7,
+      "checks_critical": 0,
+      "checks_high": 0
+    },
+    "monitor_m5_heartbeat.json": {
+      "monitor": "M5",
+      "timestamp": "2026-07-01T20:12:11.747388",
+      "pid": 20148,
+      "total_snapshots": 18,
+      "activity_since_snapshot": 0,
+      "last_snapshot_ts": "2026-07-01T20:12:11.652311"
+    },
+    "monitor_m6_heartbeat.json": {
+      "monitor": "M6",
+      "timestamp": "2026-07-03T22:36:28.691069",
+      "pid": 8860,
+      "m1_status": "ok",
+      "m1_age_seconds": 209
+    },
+    "monitor_m7_heartbeat.json": {
+      "monitor": "M7_drift_mirror",
+      "timestamp": "2026-07-03T22:36:29.337573",
+      "canonical_count": 268,
+      "mirror_count_after": 269,
+      "copied_this_pass": 0,
+      "refreshed_this_pass": 0,
+      "orphans": 1,
+      "parity_ok": true
+    },
+    "monitor_m8_heartbeat.json": {
+      "monitor": "M8_tool_audit_shadow",
+      "timestamp": "2026-07-03T22:36:29.399332",
+      "feed_size": 50,
+      "new_shadow_records_this_pass": 0,
+      "last_seen_ts": "2026-07-03T19:07:05.199405",
+      "ok": true
+    },
+    "monitor_process_watchdog_heartbeat.json": {
+      "monitor": "process_watchdog",
+      "timestamp": "2026-07-03T22:36:46.364484",
+      "pid": 5028,
+      "clawd_python_procs": 6,
+      "findings": 0,
+      "ok": true
+    },
+    "monitor_retrieval_canary_heartbeat.json": {
+      "monitor": "retrieval_canary",
+      "timestamp": "2026-07-03T22:36:45.143914",
+      "pid": 10812,
+      "ok": true,
+      "severity": "OK",
+      "dim": 1024,
+      "hits": 5,
+      "real_hits": 5,
+      "error": null
+    },
+    "monitor_scheduler_heartbeat.json": {
+      "scheduler": "monitor_scheduler",
+      "timestamp": "2026-07-03T22:35:13.730083",
+      "pid": 8024,
+      "monitors_scheduled": [
+        "M6_watchdog",
+        "M1_cross_channel",
+        "M3_state_coherence",
+        "M2_external_integ",
+        "M4_storage_integ",
+        "M7_drift_mirror",
+        "M8_tool_audit_shadow",
+        "escalation_poll",
+        "self_healer",
+        "retrieval_canary",
+        "process_watchdog",
+        "liveness_evidence",
+        "external_pinger",
+        "ledger_backup_daily",
+        "monitor_self_test_weekly"
+      ],
+      "last_run_per_monitor": {
+        "M6_watchdog": 1783146778.6841524,
+        "M1_cross_channel": 1783146778.6841524,
+        "M3_state_coherence": 1783146704.7219865,
+        "M2_external_integ": 1783146704.7219865,
+        "M4_storage_integ": 1783138668.3507237,
+        "M7_drift_mirror": 1783146778.6841524,
+        "M8_tool_audit_shadow": 1783146778.6841524,
+        "escalation_poll": 1783146909.0618613,
+        "self_healer": 1783146778.6841524,
+        "retrieval_canary": 1783146704.7219865,
+        "process_watchdog": 1783146778.6841524,
+        "liveness_evidence": 1783146704.7219865,
+        "external_pinger": 1783146778.6841524,
+        "ledger_backup_daily": 1783138406.4233918,
+        "monitor_self_test_weekly": 1782965512.5174167
+      }
+    }
+  }
+}

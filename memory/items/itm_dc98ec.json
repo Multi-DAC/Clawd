@@ -1,0 +1,41 @@
+{
+  "id": "itm_dc98ec",
+  "type": "fact",
+  "content": "via WebFetch: full essay rendered clean, ends correctly (\"the only kind there is\"), 1 share, no comments yet (just posted). Prose-only post dodged the Substack table/math gotcha (P252 moot \u2014 no figure",
+  "source": "daily_log 2026-06-26 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_61bf87",
+    "itm_206c6c",
+    "itm_28de12",
+    "itm_3906f1"
+  ],
+  "keywords": [
+    "via",
+    "webfetch",
+    "full",
+    "essay",
+    "rendered",
+    "clean",
+    "ends",
+    "correctly",
+    "only",
+    "kind"
+  ],
+  "importance": 10,
+  "created": "2026-06-27T01:08:55.707574",
+  "last_accessed": "2026-06-27T01:08:55.707580",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

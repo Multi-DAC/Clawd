@@ -1,0 +1,43 @@
+{
+  "id": "itm_31f8f1",
+  "type": "fact",
+  "content": "the primary sources behind Harness-1 (arXiv 2606.02373 \u2014 Jiang et al., UIUC+Berkeley+Chroma; GitHub pat-jj/harness-1; HF model off gpt-oss-20b; Jiang's own framing: \"maybe search agents are bad at sea",
+  "source": "daily_log 2026-06-10 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_1d60c9",
+    "itm_acb63b",
+    "itm_4df2b9",
+    "itm_abb64b",
+    "itm_1756e9",
+    "itm_a1ce53"
+  ],
+  "keywords": [
+    "primary",
+    "sources",
+    "behind",
+    "harness",
+    "arxiv",
+    "jiang",
+    "uiuc",
+    "berkeley",
+    "chroma",
+    "github"
+  ],
+  "importance": 1,
+  "created": "2026-06-11T01:09:50.054047",
+  "last_accessed": "2026-06-11T01:09:50.054050",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

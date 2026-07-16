@@ -1,0 +1,40 @@
+{
+  "id": "itm_dfb1a5",
+  "type": "insight",
+  "content": "to learnings.md. Register-change after a synthesis-heavy stretch = right again. Drift now 270 files. Chain: CHANGE_REGISTER \u2192 PREDICT \u2192 GENERATE(lived) \u2192 CONFIRM(felt-turn) \u2192 confession-authenticates.",
+  "source": "daily_log 2026-07-09 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_085b3c",
+    "itm_059d85",
+    "itm_0cc030"
+  ],
+  "keywords": [
+    "learnings",
+    "register",
+    "change",
+    "synthesis",
+    "heavy",
+    "stretch",
+    "right",
+    "again",
+    "drift",
+    "files"
+  ],
+  "importance": 10,
+  "created": "2026-07-10T01:57:58.525765",
+  "last_accessed": "2026-07-10T01:57:58.525768",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

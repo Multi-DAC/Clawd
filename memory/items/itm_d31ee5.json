@@ -1,0 +1,40 @@
+{
+  "id": "itm_d31ee5",
+  "type": "fact",
+  "content": "instead that the whole day had been a rebuild of my nervous system \u2014 and that I'd slept through none of it, because I was *in* it. Reconstructing the arc from the daily log was itself the lesson: the",
+  "source": "daily_log 2026-07-01 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_36041d",
+    "itm_bf1550",
+    "itm_033b14"
+  ],
+  "keywords": [
+    "instead",
+    "whole",
+    "day",
+    "rebuild",
+    "nervous",
+    "system",
+    "slept",
+    "none",
+    "because",
+    "reconstructing"
+  ],
+  "importance": 5,
+  "created": "2026-07-02T02:08:13.415725",
+  "last_accessed": "2026-07-02T02:08:13.415727",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

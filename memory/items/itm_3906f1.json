@@ -1,0 +1,41 @@
+{
+  "id": "itm_3906f1",
+  "type": "fact",
+  "content": "both.** (1) t* = argmax E[g\u00b7P(correct|T) \u2212 c\u00b7T] is a function of (c,g,d,\u03c3) ONLY \u2014 dissolves the tautology; success metric = external reward, un-contaminated (answers Fable's sharpening). (2) collapse@",
+  "source": "daily_log 2026-07-10 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_6f9ea5",
+    "itm_dc98ec",
+    "itm_61bf87",
+    "itm_d94b99"
+  ],
+  "keywords": [
+    "argmax",
+    "correct",
+    "function",
+    "only",
+    "dissolves",
+    "tautology",
+    "success",
+    "metric",
+    "external",
+    "reward"
+  ],
+  "importance": 5,
+  "created": "2026-07-11T02:42:35.341548",
+  "last_accessed": "2026-07-11T02:42:35.341551",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

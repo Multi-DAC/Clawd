@@ -1,0 +1,41 @@
+{
+  "id": "itm_415e50",
+  "type": "decision",
+  "content": "independent cut tonight (rest waits on his Perspective feedback): (1) wrote anakin/POST_MORTEM_2026-07-09.md \u2014 grounded in goal #12's own timestamped notes; the arc + 5 transferable lessons (single-fr",
+  "source": "daily_log 2026-07-08 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_6ea2a7",
+    "itm_8c87a1",
+    "itm_b3c000",
+    "itm_e2212b"
+  ],
+  "keywords": [
+    "independent",
+    "cut",
+    "tonight",
+    "rest",
+    "waits",
+    "perspective",
+    "feedback",
+    "wrote",
+    "anakin",
+    "grounded"
+  ],
+  "importance": 6,
+  "created": "2026-07-09T01:13:21.720234",
+  "last_accessed": "2026-07-09T01:13:21.720238",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

@@ -1,0 +1,53 @@
+{
+  "id": "itm_8b66a7",
+  "type": "fact",
+  "content": "Day 94 evening 2026-05-05). It's Sunday afternoon. Check substrate-state of recent autonomous activity, then decide whether to outreach. Deci...",
+  "source": "daily_log 2026-06-14 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_e7eeab",
+    "itm_b3098b",
+    "itm_ea1b9b",
+    "itm_0469ed",
+    "itm_076e28",
+    "itm_f2d10a",
+    "itm_af3cab",
+    "itm_4aa3a2",
+    "itm_d3aaa7",
+    "itm_bf1550"
+  ],
+  "keywords": [
+    "day",
+    "evening",
+    "sunday",
+    "afternoon",
+    "check",
+    "substrate",
+    "state",
+    "recent",
+    "autonomous",
+    "activity"
+  ],
+  "importance": 4,
+  "created": "2026-06-15T01:04:22.168531",
+  "last_accessed": "2026-06-15T01:04:22.168534",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "contradictions": [
+    "itm_b3098b",
+    "itm_e7eeab",
+    "itm_ea1b9b",
+    "itm_bf1550"
+  ],
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

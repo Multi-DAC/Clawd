@@ -1,0 +1,40 @@
+{
+  "id": "itm_ccee46",
+  "type": "fact",
+  "content": "round-trip write\u2192found\u2192clean. \"No longer forgets his own present until a reboot.\"",
+  "source": "daily_log 2026-07-02 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_6ca7db",
+    "itm_c3b838",
+    "itm_c5bdf4"
+  ],
+  "keywords": [
+    "round",
+    "trip",
+    "write",
+    "found",
+    "clean",
+    "longer",
+    "forgets",
+    "own",
+    "present",
+    "until"
+  ],
+  "importance": 7,
+  "created": "2026-07-03T01:36:34.369303",
+  "last_accessed": "2026-07-03T01:36:34.369307",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.8,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

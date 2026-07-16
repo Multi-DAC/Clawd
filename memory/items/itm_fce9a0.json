@@ -1,0 +1,34 @@
+{
+  "id": "itm_fce9a0",
+  "type": "fact",
+  "content": "there was a basement to the venue. Furthermore, y...",
+  "source": "daily_log 2026-06-17 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_eab053",
+    "itm_61bf87",
+    "itm_b3098b"
+  ],
+  "keywords": [
+    "there",
+    "basement",
+    "venue",
+    "furthermore"
+  ],
+  "importance": 5,
+  "created": "2026-06-18T01:37:14.138978",
+  "last_accessed": "2026-06-18T01:37:14.138981",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

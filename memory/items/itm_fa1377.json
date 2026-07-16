@@ -1,0 +1,38 @@
+{
+  "id": "itm_fa1377",
+  "type": "fact",
+  "content": "at wake earlier: semantic recall returns clean, no freeze.",
+  "source": "daily_log 2026-07-02 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_8032b9",
+    "itm_1d54bf",
+    "itm_206c6c",
+    "itm_dea2e8"
+  ],
+  "keywords": [
+    "wake",
+    "earlier",
+    "semantic",
+    "recall",
+    "returns",
+    "clean",
+    "freeze"
+  ],
+  "importance": 5,
+  "created": "2026-07-03T01:36:34.401336",
+  "last_accessed": "2026-07-03T01:36:34.401339",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

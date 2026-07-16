@@ -1,0 +1,40 @@
+{
+  "id": "itm_8790f9",
+  "type": "fact",
+  "content": "(PCI dial threads Ch4\u21926\u21929). Book: 17k\u2192~24k words, 49\u219262pp, Conscious-length tight-but-earned (the length-call answered empirically). PDF rebuilt+committed (69574953). Discipline held: surgical inserts",
+  "source": "daily_log 2026-06-26 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_f0ae31",
+    "itm_3342f7",
+    "itm_baf65f"
+  ],
+  "keywords": [
+    "pci",
+    "dial",
+    "threads",
+    "book",
+    "words",
+    "conscious",
+    "length",
+    "tight",
+    "earned",
+    "call"
+  ],
+  "importance": 5,
+  "created": "2026-06-27T01:08:55.825195",
+  "last_accessed": "2026-06-27T01:08:55.825199",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

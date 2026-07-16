@@ -1,0 +1,41 @@
+{
+  "id": "itm_e1840b",
+  "type": "fact",
+  "content": "env-free by reading the renderer constant \u2014 no need to render a baseline.",
+  "source": "daily_log 2026-06-15 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_a214e6",
+    "itm_096c14",
+    "itm_29d13c",
+    "itm_f92001",
+    "itm_4e1ff8",
+    "itm_db6c59"
+  ],
+  "keywords": [
+    "env",
+    "free",
+    "reading",
+    "renderer",
+    "constant",
+    "need",
+    "render",
+    "baseline"
+  ],
+  "importance": 5,
+  "created": "2026-06-16T01:08:44.049840",
+  "last_accessed": "2026-06-16T01:08:44.049844",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

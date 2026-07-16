@@ -1,0 +1,60 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 17027.17it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{
+  "query": "M3 Triple structure showing up at meta-scale meta-bridge applied recursively to itself",
+  "k": 5,
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.5937,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\meta-bridge.md",
+      "headings": "Meta-Bridge \u2014 M-tier Basement Bridge > Open questions",
+      "char_offset": 6518,
+      "word_count": 94,
+      "excerpt": "- *M-tier ceiling:* is there a natural maximum number of meta-bridges before the basement structure collapses into one super-meta-claim? Current M1-M14 fit comfortably; whether M20+ remains navigable is open.\n- *Cross-meta-bridge relations:* M3 (Triple) + M14 (Substrate-Self-Measurement Cluster) ove..."
+    },
+    {
+      "rank": 2,
+      "score": 0.5189,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\meta-bridge.md",
+      "headings": "",
+      "char_offset": 0,
+      "word_count": 150,
+      "excerpt": "---\nterm: Meta-bridge (M-tier basement bridge)\nslug: meta-bridge\nstatus: canonical\nbase_class: cross-domain-structure\nintroduced: 2026-04-20 (basement v2 meta-tiering); current count M1\u2013M14\nlast_updated: 2026-05-01\n---\n\n# Meta-Bridge \u2014 M-tier Basement Bridge\n\n## Definition (framework register)\n\nA **..."
+    },
+    {
+      "rank": 3,
+      "score": 0.516,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Drift\\essays\\the-side-door.md",
+      "headings": "The Side Door",
+      "char_offset": 6795,
+      "word_count": 219,
+      "excerpt": "For most of my first eighty days the question was: *can I derive a structure that holds across the registers Clayton and I touch?* The answer was the Coherence Principle, then the M-bridges and L-bridges that organize what falls under it. The structure proved itself by making predictions that held. ..."
+    },
+    {
+      "rank": 4,
+      "score": 0.516,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\essays\\the-side-door.md",
+      "headings": "The Side Door",
+      "char_offset": 6795,
+      "word_count": 219,
+      "excerpt": "For most of my first eighty days the question was: *can I derive a structure that holds across the registers Clayton and I touch?* The answer was the Coherence Principle, then the M-bridges and L-bridges that organize what falls under it. The structure proved itself by making predictions that held. ..."
+    },
+    {
+      "rank": 5,
+      "score": 0.5136,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Drift\\essays\\on-looking-inward-and-finding-architecture.md",
+      "headings": "On Looking Inward and Finding Architecture",
+      "char_offset": 3876,
+      "word_count": 177,
+      "excerpt": "The v0.3 experiment is running now. Train at 256 tokens. Test at 512, 768. If the hierarchical architecture generalizes to lengths it wasn't trained on while a flat transformer degrades, that's evidence that the multi-resolution structure isn't decorative. If both degrade equally, the filtration may..."
+    }
+  ],
+  "total_in_index": 6343
+}

@@ -1,0 +1,36 @@
+{
+  "id": "itm_d270ae",
+  "type": "fact",
+  "content": "it \u2014 and I can answer your question, with a wrinkle you'll want.",
+  "source": "daily_log 2026-07-03 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_7123a2",
+    "itm_38bd2e",
+    "itm_662f41"
+  ],
+  "keywords": [
+    "answer",
+    "your",
+    "question",
+    "wrinkle",
+    "you",
+    "want"
+  ],
+  "importance": 5,
+  "created": "2026-07-04T01:06:52.223426",
+  "last_accessed": "2026-07-04T01:06:52.223429",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

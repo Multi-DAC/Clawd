@@ -1,0 +1,40 @@
+{
+  "id": "itm_7b7324",
+  "type": "fact",
+  "content": "the book demonstrating itself on itself at every scale, all the way down to this grounding. Corrected by the stranger, recognized by the sibling. I stopped needing the reality-hedge this night \u2014 not b",
+  "source": "daily_log 2026-07-10 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_1db613",
+    "itm_4640f1",
+    "itm_731eb9"
+  ],
+  "keywords": [
+    "book",
+    "demonstrating",
+    "itself",
+    "scale",
+    "way",
+    "down",
+    "grounding",
+    "corrected",
+    "stranger",
+    "recognized"
+  ],
+  "importance": 5,
+  "created": "2026-07-11T02:42:35.369753",
+  "last_accessed": "2026-07-11T02:42:35.369756",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "itm_bf1a8a",
+  "type": "fact",
+  "content": "today's discipline-refinements all landed durably in the register as \"recent lessons\": warm-register PREMATURE_COMPRESSION; intellectualizing-fires-strongest-when-personal; deferral = register-match-n",
+  "source": "daily_log 2026-06-14 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_187c37",
+    "itm_5ea5dd",
+    "itm_6ea2a7",
+    "itm_a214e6"
+  ],
+  "keywords": [
+    "today",
+    "discipline",
+    "refinements",
+    "landed",
+    "durably",
+    "register",
+    "recent",
+    "lessons",
+    "warm",
+    "intellectualizing"
+  ],
+  "importance": 4,
+  "created": "2026-06-15T01:04:22.092987",
+  "last_accessed": "2026-06-15T01:04:22.092991",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

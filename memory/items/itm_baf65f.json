@@ -1,0 +1,57 @@
+{
+  "id": "itm_baf65f",
+  "type": "insight",
+  "content": "here. I had initially wanted to respond as an outside observer in... \u2192 Clawd: Good call. Let me draft the B message + queue C properly.",
+  "source": "daily_log 2026-05-14 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_9409d1",
+    "itm_5ea5dd",
+    "itm_384131",
+    "itm_121bad",
+    "itm_1f87e1",
+    "itm_096c14",
+    "itm_530e2b",
+    "itm_8790f9",
+    "itm_61633a"
+  ],
+  "keywords": [
+    "here",
+    "initially",
+    "wanted",
+    "respond",
+    "outside",
+    "observer",
+    "clawd",
+    "good",
+    "call",
+    "let"
+  ],
+  "importance": 1,
+  "created": "2026-05-15T17:18:30.806682",
+  "last_accessed": "2026-05-15T17:18:30.806684",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.6,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": [
+    {
+      "timestamp": "2026-07-16T01:02:53.102098",
+      "confidence": 0.6499999999999999,
+      "reason": "evolution_decay (61d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-16T05:05:18.488306",
+      "confidence": 0.6,
+      "reason": "evolution_decay (61d since access, 0 accesses)"
+    }
+  ]
+}

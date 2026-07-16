@@ -1,0 +1,42 @@
+{
+  "id": "itm_3342f7",
+  "type": "fact",
+  "content": "_GAP_K-scaling caps ~43% (tight maneuvers dilute); switched mechanism: **restrict WIDEGAP in-flight pool to the official course's vocabulary (sprint/gentle_arc/speed_trap/climb/dive \u2014 no tight turns)",
+  "source": "daily_log 2026-06-24 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_0719d3",
+    "itm_4fcaf1",
+    "itm_897d6d",
+    "itm_8790f9",
+    "itm_e17f87"
+  ],
+  "keywords": [
+    "scaling",
+    "caps",
+    "tight",
+    "maneuvers",
+    "dilute",
+    "switched",
+    "mechanism",
+    "restrict",
+    "widegap",
+    "flight"
+  ],
+  "importance": 10,
+  "created": "2026-06-25T01:09:02.842140",
+  "last_accessed": "2026-06-25T01:09:02.842145",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

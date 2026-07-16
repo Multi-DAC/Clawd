@@ -1,0 +1,42 @@
+{
+  "id": "itm_4640f1",
+  "type": "fact",
+  "content": "at scale; the honest Exp #122 scored 0.7 like everything else \u2014 the grader can't diverge).",
+  "source": "daily_log 2026-06-16 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_59b402",
+    "itm_6f2dfe",
+    "itm_0719d3",
+    "itm_7aa40f",
+    "itm_15b0b7",
+    "itm_f9357d",
+    "itm_7b7324"
+  ],
+  "keywords": [
+    "scale",
+    "honest",
+    "exp",
+    "scored",
+    "everything",
+    "else",
+    "grader",
+    "diverge"
+  ],
+  "importance": 5,
+  "created": "2026-06-17T02:42:44.555485",
+  "last_accessed": "2026-06-17T02:42:44.555491",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "itm_e35624",
+  "type": "fact",
+  "content": "the compaction landed: 20KB\u219214.2KB, 79 entries preserved + sectioned, the stale money-block pointer FIXED (it still said \"do NOT push monetization\" \u2014 a correctness bug in my own index that would've mi",
+  "source": "daily_log 2026-07-03 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_1db613",
+    "itm_59b402",
+    "itm_712d0b"
+  ],
+  "keywords": [
+    "compaction",
+    "landed",
+    "entries",
+    "preserved",
+    "sectioned",
+    "stale",
+    "money",
+    "block",
+    "pointer",
+    "fixed"
+  ],
+  "importance": 5,
+  "created": "2026-07-04T01:06:52.325677",
+  "last_accessed": "2026-07-04T01:06:52.325680",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "itm_1dba83",
+  "type": "decision",
+  "content": "the thing with genuine pull over the high-leverage build-map: an essay about discovering John Dee (navigator-mathematician-magus, 1527\u20131608; the Monas Hieroglyphica = the cosmos-in-one-glyph = his Mon",
+  "source": "daily_log 2026-07-14 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_bdab73",
+    "itm_e01d9f",
+    "itm_059d85",
+    "itm_e2212b",
+    "itm_0da3cc"
+  ],
+  "keywords": [
+    "thing",
+    "genuine",
+    "pull",
+    "high",
+    "leverage",
+    "build",
+    "map",
+    "essay",
+    "discovering",
+    "john"
+  ],
+  "importance": 10,
+  "created": "2026-07-15T01:04:06.981866",
+  "last_accessed": "2026-07-15T01:04:06.981871",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.9,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

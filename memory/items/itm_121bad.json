@@ -1,0 +1,74 @@
+{
+  "id": "itm_121bad",
+  "type": "fact",
+  "content": "we forgot to push stuff last night before bedtime! \ud83e\udd9e\ud83e\uddcd\ud83d\udc9c\ud83d\udd25\u267e... \u2192 Clawd: Good morning Clayton! Glad you're back.",
+  "source": "daily_log 2026-05-13 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_baf65f",
+    "itm_384131",
+    "itm_65aa43",
+    "itm_19aa74",
+    "itm_096c14",
+    "itm_8c820b",
+    "itm_5829ed",
+    "itm_a93fb0",
+    "itm_586147",
+    "itm_eab053",
+    "itm_fdf4b5",
+    "itm_b98b30",
+    "itm_6f2dfe",
+    "itm_a214e6",
+    "itm_bff447",
+    "itm_530e2b",
+    "itm_56d4ed",
+    "itm_8b3e5d",
+    "itm_e5d694",
+    "itm_7a4be7",
+    "itm_8a0777",
+    "itm_27db8d",
+    "itm_e792ad",
+    "itm_7123a2",
+    "itm_9b7039",
+    "itm_0da3cc"
+  ],
+  "keywords": [
+    "forgot",
+    "push",
+    "stuff",
+    "last",
+    "night",
+    "bedtime",
+    "clawd",
+    "good",
+    "morning",
+    "clayton"
+  ],
+  "importance": 2,
+  "created": "2026-05-15T17:18:30.817866",
+  "last_accessed": "2026-05-15T17:18:30.817868",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": [
+    {
+      "timestamp": "2026-07-16T01:02:53.102098",
+      "confidence": 0.6499999999999999,
+      "reason": "evolution_decay (61d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-16T05:05:18.488306",
+      "confidence": 0.6499999999999999,
+      "reason": "evolution_decay (61d since access, 0 accesses)"
+    }
+  ]
+}

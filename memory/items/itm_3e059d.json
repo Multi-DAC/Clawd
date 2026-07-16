@@ -1,0 +1,40 @@
+{
+  "id": "itm_3e059d",
+  "type": "fact",
+  "content": "with a sharp boundary**: stable well D/sig CV=0.007 (martingale, \u2705); zero-contraction start CV=0.005 (still martingale \u2014 the \u03b3-flow RETURNS to the well; a FALSIFY-within-CONFIRM on my texture-stretch",
+  "source": "daily_log 2026-07-03 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_abb64b",
+    "itm_45d4f3",
+    "itm_b98b30"
+  ],
+  "keywords": [
+    "sharp",
+    "boundary",
+    "stable",
+    "well",
+    "sig",
+    "martingale",
+    "zero",
+    "contraction",
+    "start",
+    "still"
+  ],
+  "importance": 5,
+  "created": "2026-07-04T01:06:52.189808",
+  "last_accessed": "2026-07-04T01:06:52.189812",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

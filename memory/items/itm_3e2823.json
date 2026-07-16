@@ -1,0 +1,41 @@
+{
+  "id": "itm_3e2823",
+  "type": "fact",
+  "content": "+ sharpened:** `anakin_imu` encoder = `mlp_keys:'imu'` (latent depends on IMU); `translation_rehearsal.py` is **sim-to-sim, camera-path only** \u2014 supplies IMU in both conditions \u2192 **the gate itself is",
+  "source": "daily_log 2026-07-01 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_085b3c",
+    "itm_206c6c",
+    "itm_28de12",
+    "itm_67d1af"
+  ],
+  "keywords": [
+    "sharpened",
+    "encoder",
+    "imu",
+    "latent",
+    "depends",
+    "sim",
+    "camera",
+    "path",
+    "only",
+    "supplies"
+  ],
+  "importance": 5,
+  "created": "2026-07-02T02:08:13.335853",
+  "last_accessed": "2026-07-02T02:08:13.335856",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

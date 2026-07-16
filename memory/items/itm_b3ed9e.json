@@ -1,0 +1,40 @@
+{
+  "id": "itm_b3ed9e",
+  "type": "decision",
+  "content": "a concrete/bounded task over a 4th synthesis (my own morning-grounding said today is for work-with-Clayton, not another solo push). The flat \"q=0.5\" that's shadowed every recall this session is a DEAD",
+  "source": "daily_log 2026-07-02 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_c3b838",
+    "itm_3d09f6",
+    "itm_9d2a12"
+  ],
+  "keywords": [
+    "concrete",
+    "bounded",
+    "task",
+    "synthesis",
+    "own",
+    "morning",
+    "grounding",
+    "said",
+    "today",
+    "work"
+  ],
+  "importance": 6,
+  "created": "2026-07-03T01:36:34.498969",
+  "last_accessed": "2026-07-03T01:36:34.498972",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

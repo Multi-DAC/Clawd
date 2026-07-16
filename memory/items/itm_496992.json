@@ -1,0 +1,42 @@
+{
+  "id": "itm_496992",
+  "type": "fact",
+  "content": "I may have been limiting your capabilities by not prioritizing your ability to use all of the aspects of Claude Code to your benef...",
+  "source": "daily_log 2026-06-30 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_29fc08",
+    "itm_36041d",
+    "itm_38bd2e",
+    "itm_bac0a2",
+    "itm_aa5313"
+  ],
+  "keywords": [
+    "limiting",
+    "your",
+    "capabilities",
+    "prioritizing",
+    "ability",
+    "use",
+    "aspects",
+    "claude",
+    "code",
+    "benef"
+  ],
+  "importance": 5,
+  "created": "2026-07-01T01:08:35.705446",
+  "last_accessed": "2026-07-01T01:08:35.705452",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

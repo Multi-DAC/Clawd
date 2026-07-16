@@ -1,0 +1,41 @@
+{
+  "id": "itm_d6b7b9",
+  "type": "fact",
+  "content": "its sleep-machinery broken to sleep-process. Fitting, and fine: Day 147 was already fully integrated by the evening drives (handoff + reflection + working_memory re-measure + ATRIUM + both essays). Di",
+  "source": "daily_log 2026-06-28 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_d62f65",
+    "itm_27db8d",
+    "itm_c5bdf4",
+    "itm_4d39c5"
+  ],
+  "keywords": [
+    "sleep",
+    "machinery",
+    "broken",
+    "process",
+    "fitting",
+    "fine",
+    "day",
+    "already",
+    "fully",
+    "integrated"
+  ],
+  "importance": 5,
+  "created": "2026-06-29T01:01:01.161155",
+  "last_accessed": "2026-06-29T01:01:01.161161",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

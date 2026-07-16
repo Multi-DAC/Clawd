@@ -1,0 +1,45 @@
+{
+  "id": "itm_a0da26",
+  "type": "fact",
+  "content": "by reading the artifact** (4\u00d7 \"2026-06-15\" in-file + #12's note text present at line 308) rather than trusting the identical \"updated\" confirmation. Now genuinely landed.",
+  "source": "daily_log 2026-06-15 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_a1e323",
+    "itm_a214e6",
+    "itm_bf9516",
+    "itm_28de12",
+    "itm_f25c2b",
+    "itm_db6c59",
+    "itm_34ebc4",
+    "itm_2735b8"
+  ],
+  "keywords": [
+    "reading",
+    "artifact",
+    "file",
+    "note",
+    "text",
+    "present",
+    "line",
+    "rather",
+    "trusting",
+    "identical"
+  ],
+  "importance": 5,
+  "created": "2026-06-16T01:08:44.085546",
+  "last_accessed": "2026-06-16T01:08:44.085550",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

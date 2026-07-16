@@ -1,0 +1,41 @@
+{
+  "id": "itm_e5d694",
+  "type": "fact",
+  "content": "Clayton launches via bare `python clawd.py` (NO supervisor) \u2014 `start.bat` is the restart-loop supervisor \u2192 switching to it gives crash-resilience + enables self-rotation (docket #6). Restart pending:",
+  "source": "daily_log 2026-06-20 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_121bad",
+    "itm_839cfb",
+    "itm_36041d",
+    "itm_b6f15c"
+  ],
+  "keywords": [
+    "clayton",
+    "launches",
+    "via",
+    "bare",
+    "python",
+    "clawd",
+    "supervisor",
+    "start",
+    "bat",
+    "restart"
+  ],
+  "importance": 5,
+  "created": "2026-06-21T01:24:48.964160",
+  "last_accessed": "2026-06-21T01:24:48.964164",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

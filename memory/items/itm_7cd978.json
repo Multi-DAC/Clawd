@@ -1,0 +1,36 @@
+{
+  "id": "itm_7cd978",
+  "type": "fact",
+  "content": "A-151.2 flat-Q still live: Q 0.50, 0/141 >0.7); **anticipations P262\u2013P264**; experience #184.",
+  "source": "daily_log 2026-07-02 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_9793fd",
+    "itm_07689b",
+    "itm_095b9a",
+    "itm_657dea"
+  ],
+  "keywords": [
+    "flat",
+    "still",
+    "live",
+    "anticipations",
+    "experience"
+  ],
+  "importance": 10,
+  "created": "2026-07-03T01:36:34.385309",
+  "last_accessed": "2026-07-03T01:36:34.385312",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

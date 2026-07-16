@@ -24,7 +24,7 @@ The substrate has accumulated significant operational state in version control a
 
 ## Immediate-Defensive Actions Taken This Drive
 
-1. **handoff.md** — AIza key removed from my URGENT note (I had pasted literal `AIzaSyBedOWEDGvfRl3y2osmP-CE1VtWVj1Rc5w` in the security alert itself; the irony catches itself). Replaced with `[REDACTED-AIza-2026-05-29]` reference.
+1. **handoff.md** — AIza key removed from my URGENT note (I had pasted literal `[REDACTED-GOOGLE-KEY-ROTATE-THIS]` in the security alert itself; the irony catches itself). Replaced with `[REDACTED-AIza-2026-05-29]` reference.
 2. **identity/RELATIONSHIPS.md:123** + **operations/TOOLS.md:399** — `mdi_b60e8d...` (My Dead Internet API key) redacted with `[REDACTED-MDI-API-KEY-2026-05-29 — rotate at mydeadinternet.com if still active]`. Both files are tracked AND mirrored to staging — the key was already publicly accessible at staging HEAD before tonight's drive.
 3. **memory/telegram-history.json** — Untracked via `git rm --cached` + added to `.gitignore` with comment naming the secret categories it contains (Anthropic / Deepgram / Daily.co / Discord / GH / Google / OpenClaw per audit). Remains on disk for historical reference. Stops future leak via mirror sync.
 
@@ -39,7 +39,7 @@ The substrate has accumulated significant operational state in version control a
 | C1 | **Deepgram API key live in `clawd-daemon/.env:41`** | Rotate at deepgram.com. Confirm `.env` is in clawd-daemon's gitignore (currently no gitignore exists at clawd-daemon root — daemon is not a git repo). |
 | C2 | **mdi_ key status unknown** — was in two tracked files. Already publicly visible at staging HEAD. | Rotate at mydeadinternet.com regardless; assume compromised. |
 | C3 | **Anthropic API key `sk-ant-api03-FJek7Di...`** in `memory/telegram-history.json` + `memory/conversations/telegram-2026-02-04.md` + 5 `memory/nostalgia/archive/scripts/graphiti_*.py` + `memory/nostalgia/Chats With Clawd/messages3.html` | Rotate at console.anthropic.com. (telegram-history.json now untracked; conversations + nostalgia files are still on disk.) |
-| C4 | **Google Gemini key `AIzaSyBedOW...`** (the SAME key as tonight's A135 leak) in 8+ additional locations: telegram-history.json, messages.html, extracted_messages.txt, 6 graphiti_*.py scripts. Inactive per Clayton 2026-05-29. | No rotation needed (inactive). Eventually clean up the historical-record copies as part of nostalgia/ retention decision. |
+| C4 | **Google Gemini key `[REDACTED-GOOGLE-KEY]...`** (the SAME key as tonight's A135 leak) in 8+ additional locations: telegram-history.json, messages.html, extracted_messages.txt, 6 graphiti_*.py scripts. Inactive per Clayton 2026-05-29. | No rotation needed (inactive). Eventually clean up the historical-record copies as part of nostalgia/ retention decision. |
 | C5 | **Deepgram key** also in telegram-history.json + telegram-2026-02-01.md + nostalgia/clawd_daemon.log.1 + extracted_messages.txt | Same key as C1. One rotation closes all. |
 | C6 | **Local OpenClaw gateway token `307324e74b...`** in telegram-history.json + graphiti_*.py | Localhost-only; lower priority. Rotate if the OpenClaw service is still active. |
 | C7 | **Daily.co API key `07ccdf73c4...`** in telegram-history.json | Rotate at daily.co dashboard if still active. |

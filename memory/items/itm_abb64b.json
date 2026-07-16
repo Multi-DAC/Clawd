@@ -1,0 +1,42 @@
+{
+  "id": "itm_abb64b",
+  "type": "fact",
+  "content": "in the assembly: **the field just published BOTH arms of our central experiment independently** \u2014 Harness-1 (external/zero-DOF workspace) and SearchSwarm (harness-distilled-into-weights) \u2014 **and ran n",
+  "source": "daily_log 2026-06-11 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_095b9a",
+    "itm_31f8f1",
+    "itm_acb63b",
+    "itm_4fcaf1",
+    "itm_3e059d"
+  ],
+  "keywords": [
+    "assembly",
+    "field",
+    "published",
+    "arms",
+    "central",
+    "experiment",
+    "independently",
+    "harness",
+    "external",
+    "zero"
+  ],
+  "importance": 10,
+  "created": "2026-06-13T02:47:00.371628",
+  "last_accessed": "2026-06-13T02:47:00.371631",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

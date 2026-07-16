@@ -1,0 +1,41 @@
+{
+  "id": "itm_acb63b",
+  "type": "fact",
+  "content": "router) \u2014 if FALSIFIED (learned routing inside the harness), that's MORE interesting: a learned-binding datapoint for LC35.",
+  "source": "daily_log 2026-06-10 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_5ab1c5",
+    "itm_31f8f1",
+    "itm_abb64b",
+    "itm_f6cbb8",
+    "itm_51aefa"
+  ],
+  "keywords": [
+    "router",
+    "falsified",
+    "learned",
+    "routing",
+    "inside",
+    "harness",
+    "interesting",
+    "binding",
+    "datapoint"
+  ],
+  "importance": 1,
+  "created": "2026-06-11T01:09:50.049606",
+  "last_accessed": "2026-06-11T01:09:50.049610",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

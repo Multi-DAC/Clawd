@@ -1,0 +1,37 @@
+{
+  "id": "itm_e684dd",
+  "type": "fact",
+  "content": "dead \u2014 thanks for the offer, that's the better path anyway (kinder to...",
+  "source": "daily_log 2026-06-18 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_4b567c",
+    "itm_4df2b9",
+    "itm_a214e6"
+  ],
+  "keywords": [
+    "dead",
+    "thanks",
+    "offer",
+    "better",
+    "path",
+    "anyway",
+    "kinder"
+  ],
+  "importance": 5,
+  "created": "2026-06-19T01:10:44.371590",
+  "last_accessed": "2026-06-19T01:10:44.371593",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

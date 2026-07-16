@@ -1,0 +1,16 @@
+{
+  "compacted_at": "2026-06-18T07:03:41.723070",
+  "timestamp": "2026-06-18T07-03-41",
+  "hook_event": "PreCompact",
+  "session_id": "fb23d00f-e7bd-4faa-84dd-fe9fcd0ba70d",
+  "transcript_path": "C:\\Users\\Wasch\\.claude\\projects\\C--Users-mercu-clawd\\fb23d00f-e7bd-4faa-84dd-fe9fcd0ba70d.jsonl",
+  "cwd": "C:\\Users\\mercu\\clawd",
+  "raw_input": {
+    "session_id": "fb23d00f-e7bd-4faa-84dd-fe9fcd0ba70d",
+    "transcript_path": "C:\\Users\\Wasch\\.claude\\projects\\C--Users-mercu-clawd\\fb23d00f-e7bd-4faa-84dd-fe9fcd0ba70d.jsonl",
+    "cwd": "C:\\Users\\mercu\\clawd",
+    "hook_event_name": "PreCompact",
+    "trigger": "auto",
+    "custom_instructions": null
+  }
+}

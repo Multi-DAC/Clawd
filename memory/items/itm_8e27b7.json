@@ -1,0 +1,42 @@
+{
+  "id": "itm_8e27b7",
+  "type": "fact",
+  "content": "the morning already computed the Gaussian version (`manufactured-contestation-RESULTS`) and FLAGGED-NOT-BUILT the open probe: is there a **world-free non-Gaussian tell?** Built it (`manufactured_conte",
+  "source": "daily_log 2026-07-09 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_731eb9",
+    "itm_0226b8",
+    "itm_064451",
+    "itm_305f2e",
+    "itm_6b3d08"
+  ],
+  "keywords": [
+    "morning",
+    "already",
+    "computed",
+    "gaussian",
+    "version",
+    "manufactured",
+    "contestation",
+    "results",
+    "flagged",
+    "built"
+  ],
+  "importance": 10,
+  "created": "2026-07-10T01:57:58.568813",
+  "last_accessed": "2026-07-10T01:57:58.568816",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

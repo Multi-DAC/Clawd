@@ -1,0 +1,10 @@
+{
+  "id": "imp_61658",
+  "proposal": "Before declaring a STANDARD/established technique \"dead\" or \"doesn't work,\" do a quick literature check (WebSearch/arxiv) for the canonical working version \u2014 a failed local implementation falsifies the IMPLEMENTATION, not the TECHNIQUE. Day-135 instance: I buried the segmentation/perception-decoupling route for Anakin after one crude RGB-threshold mask FALSIFIED; an afternoon lit-check found the field's proven version (PencilNet: edge/pencil-filter \u2192 gate-pose, zero-shot sim-to-real) differs in EXACTLY the two axes I got wrong (edge-invariance not color, decoupled perception\u2192pose not end-to-end). The 30-minute search would have reframed the whole morning's route work. Trigger: any time I write \"X is dead / X doesn't work / abandon X\" about a named, established method \u2014 pause and search for the working version first. Cheap insurance against burying a good technique on a bad implementation.",
+  "category": "workflow",
+  "risk": "low",
+  "status": "applied",
+  "created": "2026-06-15T14:14:18.129646",
+  "applied": "2026-06-16T08:05:13.706092",
+  "result": null
+}

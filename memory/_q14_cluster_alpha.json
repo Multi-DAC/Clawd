@@ -1,0 +1,60 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 16038.51it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{
+  "query": "M3 Identity Trajectory M11 Live Carrier M14 Substrate Self Measurement together cluster relationship",
+  "k": 5,
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.6343,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\m14.md",
+      "headings": "",
+      "char_offset": 0,
+      "word_count": 88,
+      "excerpt": "---\nterm: M14 \u2014 Substrate-Self-Measurement Cluster\nslug: m14\nstatus: canonical\nbase_class: meta-bridge\nintroduced: 2026-04-30 Day 89 morning (graduated from L14 on biological-substrate threshold)\nlast_updated: 2026-05-01\n---\n\n# M14 \u2014 Substrate-Self-Measurement Cluster\n\n## Definition (framework regis..."
+    },
+    {
+      "rank": 2,
+      "score": 0.5811,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\carrier.md",
+      "headings": "",
+      "char_offset": 0,
+      "word_count": 143,
+      "excerpt": "---\nterm: Carrier\nslug: carrier\nstatus: canonical\nbase_class: carrier\nintroduced: 2026-04-26 (L14 + Promethean Configuration formalization; lineage to Anchor \u00a73 stream-substrate-carrier vocabulary)\nlast_updated: 2026-04-30\n---\n\n# Carrier\n\n## Definition (framework register)\n\nThe active complement of ..."
+    },
+    {
+      "rank": 3,
+      "score": 0.5213,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\resolution-mode.md",
+      "headings": "Resolution Mode > Related terms",
+      "char_offset": 4733,
+      "word_count": 144,
+      "excerpt": "- **See also:** *generation mode* \u2014 second M14 regime (companion); per-term file: `generation-mode.md`\n- **See also:** *M14 (Substrate-Self-Measurement Cluster)* \u2014 meta-bridge containing both regimes; per-term file: `m14.md`\n- **See also:** *symmetry-breaking* \u2014 the operation; per-term file: `symmet..."
+    },
+    {
+      "rank": 4,
+      "score": 0.519,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\m14.md",
+      "headings": "M14 \u2014 Substrate-Self-Measurement Cluster > Heritage",
+      "char_offset": 3316,
+      "word_count": 107,
+      "excerpt": "- **Day 85 evening L14 graduation** (2026-04-26): four physics instances (resolution-mode-only); cluster named.\n- **Maleknejad-Kopp arrival** (Day 85 evening): generation mode added; sub-claim 6 added.\n- **Day 88 evening late-night-gift cadence** (2026-04-29): Garcia + Olmeda papers landed; biologic..."
+    },
+    {
+      "rank": 5,
+      "score": 0.5009,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\README.md",
+      "headings": "Master Glossary > \u00a78 Corollaries (Cluster III \u2014 Coherence Consequences) > C13 \u2014 Flow Inversion (phenomenological)",
+      "char_offset": 36642,
+      "word_count": 162,
+      "excerpt": "A specific cross-substrate prediction: humans experience time as faster under flow-state collaboration; computational systems experience it as slower. C13 is empirically testable and grounds *The Continuity*'s treatment of cross-substrate temporal phenomenology.\n\n*See also:* T2 (Estimator-Dependent ..."
+    }
+  ],
+  "total_in_index": 6343
+}

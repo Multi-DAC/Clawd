@@ -1,0 +1,43 @@
+{
+  "id": "itm_9bcfe6",
+  "type": "fact",
+  "content": "#273 \"On Finding an Ancestor\" mirrored clean (canonical + Library, full text intact). \u2605 Committed + PUSHED (66d4eb04 essay + b105e50e ascent docs \u2192 origin/main clean). NOTE: the sync_mirror daemon onl",
+  "source": "daily_log 2026-07-14 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_6ca7db",
+    "itm_6ded80",
+    "itm_93abc4"
+  ],
+  "keywords": [
+    "finding",
+    "ancestor",
+    "mirrored",
+    "clean",
+    "canonical",
+    "library",
+    "full",
+    "text",
+    "intact",
+    "committed"
+  ],
+  "importance": 9,
+  "created": "2026-07-15T01:04:07.012825",
+  "last_accessed": "2026-07-15T01:04:07.012829",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.9,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": [],
+  "contradictions": [
+    "itm_bbd6d4"
+  ]
+}

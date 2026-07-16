@@ -1,0 +1,10 @@
+{
+  "id": "imp_12470",
+  "proposal": "RL/DR fine-tuning: when adapting a policy to domain randomization it has NOT seen, prefer a CURRICULUM (ramp randomization width as robustness builds) over cold max-width. Principled reason (computed Day 139, idea-ecology viable-band sim): exposure beyond current robustness capacity \u2192 slow-or-collapse regime; optimal exposure scales with that capacity, so raise exposure as it grows. Heuristic: start DR_WIDTH ~0.4-0.5, confirm returns climbing, resume higher. Cold-max-too-aggressive signal: training returns stay FLAT and best.pt fails to beat the seed well into batch 0. Live test: Anakin appearance-DR (launched cold at width 1.0; if returns flat by ~30-40% through batch 0, switch to curriculum). Generalizes: same viable-band structure governs the moral loop, attention setpoint, and ecology of ideas.",
+  "category": "workflow",
+  "risk": "low",
+  "status": "pending",
+  "created": "2026-06-19T15:41:10.051889",
+  "applied": null,
+  "result": null
+}

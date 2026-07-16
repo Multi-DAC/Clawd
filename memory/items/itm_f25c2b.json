@@ -1,0 +1,33 @@
+{
+  "id": "itm_f25c2b",
+  "type": "fact",
+  "content": "as in eyes on, but it is essentially confi...",
+  "source": "daily_log 2026-06-18 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_076e28",
+    "itm_0da6d9",
+    "itm_a0da26"
+  ],
+  "keywords": [
+    "eyes",
+    "essentially",
+    "confi"
+  ],
+  "importance": 5,
+  "created": "2026-06-19T01:10:44.351397",
+  "last_accessed": "2026-06-19T01:10:44.351400",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

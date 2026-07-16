@@ -1,0 +1,42 @@
+{
+  "id": "itm_f2d10a",
+  "type": "fact",
+  "content": "it read state `running \u2014 last activity 0.1 min ago` at 00:59:48 and is polling. It'll auto-run holdout_gate_v2 (MASK) + translation_rehearsal (MASK) the moment batch 3 completes and append the real go",
+  "source": "daily_log 2026-06-15 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_8b66a7",
+    "itm_4f1e73",
+    "itm_b3098b",
+    "itm_7adc52",
+    "itm_34ebc4"
+  ],
+  "keywords": [
+    "read",
+    "state",
+    "running",
+    "last",
+    "activity",
+    "min",
+    "ago",
+    "polling",
+    "auto",
+    "run"
+  ],
+  "importance": 5,
+  "created": "2026-06-16T01:08:44.037933",
+  "last_accessed": "2026-06-16T01:08:44.037937",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

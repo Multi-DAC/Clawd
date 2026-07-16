@@ -1,0 +1,40 @@
+{
+  "id": "itm_bac0a2",
+  "type": "fact",
+  "content": "it was not completely accurate. I'm curious to know what peripherals are actually being used. I know your meta-agent runs, but I don't know how reliable or effect...",
+  "source": "daily_log 2026-07-01 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_dc9899",
+    "itm_38bd2e",
+    "itm_496992"
+  ],
+  "keywords": [
+    "completely",
+    "accurate",
+    "curious",
+    "know",
+    "peripherals",
+    "actually",
+    "used",
+    "your",
+    "meta",
+    "agent"
+  ],
+  "importance": 5,
+  "created": "2026-07-02T02:08:13.383140",
+  "last_accessed": "2026-07-02T02:08:13.383143",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

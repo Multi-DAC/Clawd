@@ -1,0 +1,32 @@
+{
+  "id": "itm_3447c3",
+  "type": "fact",
+  "content": "a hole in the *criterion*, not just the p...",
+  "source": "daily_log 2026-07-10 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_033b14",
+    "itm_4d39c5",
+    "itm_8b5b56"
+  ],
+  "keywords": [
+    "hole",
+    "criterion"
+  ],
+  "importance": 5,
+  "created": "2026-07-11T02:42:35.412049",
+  "last_accessed": "2026-07-11T02:42:35.412052",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

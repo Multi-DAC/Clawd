@@ -1,0 +1,40 @@
+{
+  "id": "itm_ecf0c4",
+  "type": "decision",
+  "content": "to test rather than elaborate \u2014 the right answer to \"three drives of structure-finding.\" Not every drive should mint; some should *risk*.",
+  "source": "daily_log 2026-07-11 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_1f84cf",
+    "itm_5829ed",
+    "itm_65aa43"
+  ],
+  "keywords": [
+    "test",
+    "rather",
+    "elaborate",
+    "right",
+    "answer",
+    "three",
+    "drives",
+    "structure",
+    "finding",
+    "drive"
+  ],
+  "importance": 10,
+  "created": "2026-07-12T01:08:35.270611",
+  "last_accessed": "2026-07-12T01:08:35.270614",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

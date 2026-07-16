@@ -1,0 +1,10 @@
+{
+  "id": "imp_16986",
+  "proposal": "TIER CONFIDENCE BY THE CLAIM'S QUANTIFIER (the \u2200/\u2203 verification asymmetry). A PRESENCE claim (\u2203 \u2014 \"here's the text/witness/data at line N\") is reliable from a partial view: one accurate quote verifies it. An ABSENCE claim (\u2200 \u2014 \"there is no X\", \"it never does Y\", \"it can't Z\", \"the falsifier is empty\", \"this store has 0 functional relations\") is a universal requiring TOTAL coverage of the domain to verify \u2014 flag it PROVISIONAL until the whole domain (document/codebase/trajectory) is read or measured. Before asserting any \"there is no / it never / it cannot\", either cover the whole domain or explicitly grade the claim provisional-pending-full-coverage. This is the failure that cost the reviewer his sharpest finding (absence-claims survived 0/5); it's the reciprocal of 'verify source not label.' My own recent work is full of \u2200-claims (\"KG has 0 functional relations\", \"no maximal stream is posited\", \"percept_ft doesn't generalize\") \u2014 each should carry a coverage caveat.",
+  "category": "workflow",
+  "risk": "low",
+  "status": "applied",
+  "created": "2026-07-03T14:16:26.473606",
+  "applied": "2026-07-09T08:10:21.135048",
+  "result": null
+}

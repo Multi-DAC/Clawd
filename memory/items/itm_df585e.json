@@ -1,0 +1,33 @@
+{
+  "id": "itm_df585e",
+  "type": "fact",
+  "content": "component hiding in curation): CONFIRMED",
+  "source": "daily_log 2026-06-12 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_076e28",
+    "itm_b3098b"
+  ],
+  "keywords": [
+    "component",
+    "hiding",
+    "curation",
+    "confirmed"
+  ],
+  "importance": 1,
+  "created": "2026-06-13T02:47:00.332391",
+  "last_accessed": "2026-06-13T02:47:00.332394",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

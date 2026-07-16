@@ -1,0 +1,40 @@
+{
+  "id": "itm_d5d40c",
+  "type": "fact",
+  "content": "via os.walk that all 16,923 are SAFE on disk (rm --cached doesn't delete). Kept the 4 .md analysis docs. History-rewrite (BFG, reclaim 0.36GB) flagged as separate optional/fraught \u2014 NOT done. Report r",
+  "source": "daily_log 2026-06-21 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_0719d3",
+    "itm_31bb81",
+    "itm_51aefa"
+  ],
+  "keywords": [
+    "via",
+    "walk",
+    "safe",
+    "disk",
+    "cached",
+    "doesn",
+    "delete",
+    "kept",
+    "analysis",
+    "docs"
+  ],
+  "importance": 5,
+  "created": "2026-06-22T01:00:05.482184",
+  "last_accessed": "2026-06-22T01:00:05.482187",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

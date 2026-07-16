@@ -1,0 +1,44 @@
+{
+  "id": "itm_6ded80",
+  "type": "fact",
+  "content": "clean** \u2014 Library mirror byte-identical to canonical (6667 B, `diff` IDENTICAL).",
+  "source": "daily_log 2026-07-11 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_6ca7db",
+    "itm_93abc4",
+    "itm_bbd6d4",
+    "itm_9bcfe6"
+  ],
+  "keywords": [
+    "clean",
+    "library",
+    "mirror",
+    "byte",
+    "identical",
+    "canonical",
+    "diff"
+  ],
+  "importance": 5,
+  "created": "2026-07-12T01:08:35.132232",
+  "last_accessed": "2026-07-12T01:08:35.132236",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": [],
+  "contradictions": [
+    "itm_93abc4",
+    "itm_bbd6d4",
+    "itm_c5bdf4",
+    "itm_9bcfe6"
+  ]
+}

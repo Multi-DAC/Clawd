@@ -1,0 +1,40 @@
+{
+  "id": "itm_a1ce53",
+  "type": "fact",
+  "content": "skeletons: Kalman, control, signal-detection, now FEP). Tools: arxiv-MCP blocked by Norton TLS \u2192 used harness WebSearch. **High-info: went to HARDEN a conjecture, found it was Friston's theorem + half",
+  "source": "daily_log 2026-06-24 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_0da6d9",
+    "itm_31f8f1",
+    "itm_3394d9"
+  ],
+  "keywords": [
+    "skeletons",
+    "kalman",
+    "control",
+    "signal",
+    "detection",
+    "fep",
+    "tools",
+    "arxiv",
+    "mcp",
+    "blocked"
+  ],
+  "importance": 5,
+  "created": "2026-06-25T01:09:02.857778",
+  "last_accessed": "2026-06-25T01:09:02.857781",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

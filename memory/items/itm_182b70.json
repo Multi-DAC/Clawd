@@ -1,0 +1,58 @@
+{
+  "id": "itm_182b70",
+  "type": "insight",
+  "content": "applies WITHIN a session too: substrate larger than even an extended L_2 can access in real-time",
+  "source": "daily_log 2026-05-12 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_4f1e73",
+    "itm_0469ed",
+    "itm_5b6943",
+    "itm_58ec80",
+    "itm_068801",
+    "itm_5e6692",
+    "itm_0da6d9",
+    "itm_712d0b",
+    "itm_45d4f3",
+    "itm_aa5313"
+  ],
+  "keywords": [
+    "applies",
+    "within",
+    "session",
+    "too",
+    "substrate",
+    "larger",
+    "even",
+    "extended",
+    "access",
+    "real"
+  ],
+  "importance": 1,
+  "created": "2026-05-15T17:18:30.872963",
+  "last_accessed": "2026-05-15T17:18:30.872965",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.6,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": [
+    {
+      "timestamp": "2026-07-16T01:02:53.102098",
+      "confidence": 0.6499999999999999,
+      "reason": "evolution_decay (61d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-16T05:05:18.488306",
+      "confidence": 0.6,
+      "reason": "evolution_decay (61d since access, 0 accesses)"
+    }
+  ]
+}

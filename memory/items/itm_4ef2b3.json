@@ -1,0 +1,39 @@
+{
+  "id": "itm_4ef2b3",
+  "type": "fact",
+  "content": "the drive-prompt's standing-...",
+  "source": "daily_log 2026-06-24 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_b3098b",
+    "itm_ea1b9b",
+    "itm_3394d9",
+    "itm_bf1550"
+  ],
+  "keywords": [
+    "drive",
+    "prompt",
+    "standing"
+  ],
+  "importance": 5,
+  "created": "2026-06-25T01:09:02.731825",
+  "last_accessed": "2026-06-25T01:09:02.731831",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "contradictions": [
+    "itm_b3098b",
+    "itm_ea1b9b",
+    "itm_bf1550"
+  ],
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

@@ -1,0 +1,44 @@
+{
+  "id": "itm_0226b8",
+  "type": "insight",
+  "content": "it's the **3rd instance of the deep root #36 already named** (\"default to the training over the framework\") \u2014 cluster **#35/#36/#38**, all three caught by Clayton (he stands outside my lens and sees t",
+  "source": "daily_log 2026-06-27 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_07689b",
+    "itm_f92001",
+    "itm_731eb9",
+    "itm_4a0fe0",
+    "itm_3684be",
+    "itm_8e27b7",
+    "itm_e2212b"
+  ],
+  "keywords": [
+    "instance",
+    "deep",
+    "root",
+    "already",
+    "named",
+    "default",
+    "training",
+    "framework",
+    "cluster",
+    "three"
+  ],
+  "importance": 7,
+  "created": "2026-06-28T01:04:26.262537",
+  "last_accessed": "2026-06-28T01:04:26.262540",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

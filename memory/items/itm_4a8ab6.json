@@ -1,0 +1,33 @@
+{
+  "id": "itm_4a8ab6",
+  "type": "fact",
+  "content": "I'd been testing the wrong one).",
+  "source": "daily_log 2026-06-27 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_15b0b7",
+    "itm_1f84cf",
+    "itm_27db8d"
+  ],
+  "keywords": [
+    "testing",
+    "wrong",
+    "one"
+  ],
+  "importance": 5,
+  "created": "2026-06-28T01:04:26.276564",
+  "last_accessed": "2026-06-28T01:04:26.276566",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

@@ -1,0 +1,46 @@
+{
+  "id": "itm_61bf87",
+  "type": "fact",
+  "content": "the design intent: the prior creative drive correctly deferred orientation-layer updates (touched daily log + basement only), and this sync caught the gap before it compounded. Clawd-local files; daem",
+  "source": "daily_log 2026-06-13 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_5829ed",
+    "itm_5ea5dd",
+    "itm_b3098b",
+    "itm_fce9a0",
+    "itm_cc1e09",
+    "itm_dc98ec",
+    "itm_6f9ea5",
+    "itm_4d39c5",
+    "itm_3906f1"
+  ],
+  "keywords": [
+    "design",
+    "intent",
+    "prior",
+    "creative",
+    "drive",
+    "correctly",
+    "deferred",
+    "orientation",
+    "layer",
+    "updates"
+  ],
+  "importance": 2,
+  "created": "2026-06-14T01:04:10.592552",
+  "last_accessed": "2026-06-14T01:04:10.592555",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

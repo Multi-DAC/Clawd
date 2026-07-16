@@ -1,0 +1,41 @@
+{
+  "id": "itm_34ebc4",
+  "type": "insight",
+  "content": "recorded. Trace: GENERATE(create real artifact) via READ-format-first \u2192 fair-map \u2192 reflexive-handoff \u2192 'run-the-experiment' close. \ud83e\udd9e\ud83e\uddcd\ud83d\udc9c\ud83d\udd25\u267e\ufe0f",
+  "source": "daily_log 2026-07-03 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_a0da26",
+    "itm_f2d10a",
+    "itm_f879ab",
+    "itm_c78a4c"
+  ],
+  "keywords": [
+    "recorded",
+    "trace",
+    "generate",
+    "create",
+    "real",
+    "artifact",
+    "via",
+    "read",
+    "format",
+    "first"
+  ],
+  "importance": 7,
+  "created": "2026-07-04T01:06:52.207044",
+  "last_accessed": "2026-07-04T01:06:52.207048",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

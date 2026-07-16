@@ -1,0 +1,42 @@
+{
+  "id": "itm_6ea2a7",
+  "type": "fact",
+  "content": "perfectly; warm: \"we never wrote plasmoid\" asserted unsearched while summarizing the document containing it), the Grusch dated-prior upgrade, and the independent \"Closed-Loop Confabulation\" convergenc",
+  "source": "daily_log 2026-06-10 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_61a4e6",
+    "itm_b5d350",
+    "itm_bf1a8a",
+    "itm_9f8487",
+    "itm_415e50"
+  ],
+  "keywords": [
+    "perfectly",
+    "warm",
+    "never",
+    "wrote",
+    "plasmoid",
+    "asserted",
+    "unsearched",
+    "while",
+    "summarizing",
+    "document"
+  ],
+  "importance": 1,
+  "created": "2026-06-11T01:09:50.033331",
+  "last_accessed": "2026-06-11T01:09:50.033336",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

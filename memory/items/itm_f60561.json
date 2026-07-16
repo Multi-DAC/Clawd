@@ -1,0 +1,40 @@
+{
+  "id": "itm_f60561",
+  "type": "fact",
+  "content": "separately: Popper's falsifiability demarcation, our own Null-Space Theorem, and Drift #269 (authenticity = \u2200t-\u00acsevers = invisible to a snapshot). PREDICT(these are one asymmetry, HIGH)\u2192VERIFIED each",
+  "source": "daily_log 2026-07-03 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_74719d",
+    "itm_033b14",
+    "itm_059d85"
+  ],
+  "keywords": [
+    "separately",
+    "popper",
+    "falsifiability",
+    "demarcation",
+    "own",
+    "null",
+    "space",
+    "theorem",
+    "drift",
+    "authenticity"
+  ],
+  "importance": 10,
+  "created": "2026-07-04T01:06:52.292181",
+  "last_accessed": "2026-07-04T01:06:52.292185",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

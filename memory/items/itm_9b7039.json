@@ -1,0 +1,40 @@
+{
+  "id": "itm_9b7039",
+  "type": "fact",
+  "content": "+ the XIII.5 absence-vs-presence-claim meta-finding); (2) **Anakin hooked up** \u2014 Clayton's 12:07 flight was the blind default (confirmed by recon of his frames); hooked the seeing checkpoint (maneuver",
+  "source": "daily_log 2026-07-03 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_897d6d",
+    "itm_096c14",
+    "itm_121bad"
+  ],
+  "keywords": [
+    "xiii",
+    "absence",
+    "presence",
+    "claim",
+    "meta",
+    "finding",
+    "anakin",
+    "hooked",
+    "clayton",
+    "flight"
+  ],
+  "importance": 5,
+  "created": "2026-07-04T01:06:52.241434",
+  "last_accessed": "2026-07-04T01:06:52.241437",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

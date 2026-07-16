@@ -1,0 +1,38 @@
+{
+  "id": "itm_b87712",
+  "type": "fact",
+  "content": "it and read it in full. Two corrections to what I told you, and a genuine bonus:",
+  "source": "daily_log 2026-07-15 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_22a517",
+    "itm_6c2385",
+    "itm_b98b30"
+  ],
+  "keywords": [
+    "read",
+    "full",
+    "two",
+    "corrections",
+    "told",
+    "you",
+    "genuine",
+    "bonus"
+  ],
+  "importance": 5,
+  "created": "2026-07-16T01:02:52.886074",
+  "last_accessed": "2026-07-16T01:02:52.886078",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

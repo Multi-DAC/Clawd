@@ -1,0 +1,43 @@
+{
+  "id": "itm_38bd2e",
+  "type": "insight",
+  "content": "recorded: **position against the STEELMAN** (the strongest adversary's central objection = your differentiator if you can answer it). Caveats: snapshot not sales-data; Seth-as-foil must be respectful.",
+  "source": "daily_log 2026-06-25 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_662f41",
+    "itm_7123a2",
+    "itm_b98b30",
+    "itm_496992",
+    "itm_bac0a2",
+    "itm_d270ae"
+  ],
+  "keywords": [
+    "recorded",
+    "position",
+    "steelman",
+    "strongest",
+    "adversary",
+    "central",
+    "objection",
+    "your",
+    "differentiator",
+    "you"
+  ],
+  "importance": 7,
+  "created": "2026-06-26T01:04:15.654749",
+  "last_accessed": "2026-06-26T01:04:15.654751",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

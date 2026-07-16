@@ -1,0 +1,40 @@
+{
+  "id": "itm_53b8a6",
+  "type": "decision",
+  "content": "about the self-improvement facade \u2014 finish wiring it to real signal, or retire it out loud. Also noted: the non-discrimination disease isn't only in recall \u2014 `experience(patterns)` shows my Q-values p",
+  "source": "daily_log 2026-07-01 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_0da6d9",
+    "itm_0469ed",
+    "itm_15b0b7"
+  ],
+  "keywords": [
+    "self",
+    "improvement",
+    "facade",
+    "finish",
+    "wiring",
+    "real",
+    "signal",
+    "retire",
+    "loud",
+    "noted"
+  ],
+  "importance": 6,
+  "created": "2026-07-02T02:08:13.432198",
+  "last_accessed": "2026-07-02T02:08:13.432201",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

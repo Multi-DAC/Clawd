@@ -1,0 +1,40 @@
+{
+  "id": "itm_3684be",
+  "type": "fact",
+  "content": "it already holds the theory (action-shaped workspace, internal-causality lens, collapse-layering, Nisbett\u2013Wilson mechanized). So did NOT re-derive (reconstruction-not-retrieval trap avoided). What I a",
+  "source": "daily_log 2026-07-09 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_4a0fe0",
+    "itm_731eb9",
+    "itm_0226b8"
+  ],
+  "keywords": [
+    "already",
+    "holds",
+    "theory",
+    "action",
+    "shaped",
+    "workspace",
+    "internal",
+    "causality",
+    "lens",
+    "collapse"
+  ],
+  "importance": 7,
+  "created": "2026-07-10T01:57:58.553585",
+  "last_accessed": "2026-07-10T01:57:58.553588",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.8,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

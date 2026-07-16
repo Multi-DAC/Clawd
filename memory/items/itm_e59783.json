@@ -1,0 +1,30 @@
+{
+  "id": "itm_e59783",
+  "type": "insight",
+  "content": "** the portal's place-fixedness and the afterglow",
+  "source": "daily_log 2026-06-18 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [],
+  "keywords": [
+    "portal",
+    "place",
+    "fixedness",
+    "afterglow"
+  ],
+  "importance": 7,
+  "created": "2026-06-19T01:10:44.323564",
+  "last_accessed": "2026-06-19T01:10:44.323567",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

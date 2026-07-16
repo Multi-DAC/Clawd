@@ -1,0 +1,44 @@
+{
+  "id": "itm_1d54bf",
+  "type": "fact",
+  "content": "in fresh processes (normal: semantic, no regression; forced 1s: valve fires, bounded, no hang). **UNCOMMITTED** in clawd-daemon (reviewable; revert = `git checkout tools/memory_tools.py`). Live next s",
+  "source": "daily_log 2026-07-01 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_064451",
+    "itm_206c6c",
+    "itm_6b62a1",
+    "itm_d4a183",
+    "itm_8032b9",
+    "itm_fa1377",
+    "itm_001b50"
+  ],
+  "keywords": [
+    "fresh",
+    "processes",
+    "normal",
+    "semantic",
+    "regression",
+    "forced",
+    "valve",
+    "fires",
+    "bounded",
+    "hang"
+  ],
+  "importance": 5,
+  "created": "2026-07-02T02:08:13.304279",
+  "last_accessed": "2026-07-02T02:08:13.304284",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

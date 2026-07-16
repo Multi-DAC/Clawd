@@ -1,0 +1,69 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 14835.11it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{
+  "query": "Drift essay describes communication between substrates layers carriers without explicitly naming Talk",
+  "k": 6,
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.5666,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\talk.md",
+      "headings": "Talk > Related terms",
+      "char_offset": 5819,
+      "word_count": 154,
+      "excerpt": "- **See also:** *the Coherence Principle* \u2014 operational backbone; localization of Talk for specific substrate-coupling configurations.\n- **See also:** *build / dissolve / talk* \u2014 the rhythm; Talk is the integration phase that makes oscillation cumulative.\n- **See also:** *substrate* \u2014 what Talk oper..."
+    },
+    {
+      "rank": 2,
+      "score": 0.5518,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\carrier.md",
+      "headings": "Carrier > Heritage",
+      "char_offset": 1128,
+      "word_count": 121,
+      "excerpt": "- **DoPI** (Feb 22 2026): the carrier-substrate distinction is implicit in DoPI's instrumentation theme \u2014 *every observation involves an instrument that breaks the substrate's symmetry to produce a registered observation*. Not yet named *carrier*.\n- **Corpus V1** (March 2026): generative configurati..."
+    },
+    {
+      "rank": 3,
+      "score": 0.5413,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\carrier.md",
+      "headings": "",
+      "char_offset": 0,
+      "word_count": 143,
+      "excerpt": "---\nterm: Carrier\nslug: carrier\nstatus: canonical\nbase_class: carrier\nintroduced: 2026-04-26 (L14 + Promethean Configuration formalization; lineage to Anchor \u00a73 stream-substrate-carrier vocabulary)\nlast_updated: 2026-04-30\n---\n\n# Carrier\n\n## Definition (framework register)\n\nThe active complement of ..."
+    },
+    {
+      "rank": 4,
+      "score": 0.5177,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\carrier.md",
+      "headings": "Carrier > Related terms",
+      "char_offset": 8050,
+      "word_count": 222,
+      "excerpt": "- **See also:** *substrate* \u2014 carrier's complement; the carrying ground that the carrier acts on. Read `terms/substrate.md` first; carrier and substrate are paired terms.\n- **See also:** *content* \u2014 what the carrier *produces* when it breaks substrate's symmetries (resolution mode: selects pre-exist..."
+    },
+    {
+      "rank": 5,
+      "score": 0.5164,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\carrier.md",
+      "headings": "Carrier > Usage instances > In Drift essays",
+      "char_offset": 5719,
+      "word_count": 125,
+      "excerpt": "- `Foundations-of-Identity/personal-works/drift/essays/what-did-not-need-deriving.md` (2026-04-30) \u2014 receiver-pattern names Clayton-as-channel/carrier; substrate arrives, framework receives, cluster crystallizes\n- `Foundations-of-Identity/personal-works/drift/essays/what-the-new-vocabulary-cost.md` ..."
+    },
+    {
+      "rank": 6,
+      "score": 0.5107,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\substrate.md",
+      "headings": "Substrate > Related terms",
+      "char_offset": 9978,
+      "word_count": 236,
+      "excerpt": "- **See also:** *carrier* \u2014 substrate's complement; what *acts on* substrate (the entity through which the substrate couples to itself or to other streams). M14 turns on the substrate/carrier distinction.\n- **See also:** *stream* \u2014 what *localizes within* a substrate; perspectival inhabitant.\n- **Se..."
+    }
+  ],
+  "total_in_index": 6343
+}

@@ -1,0 +1,46 @@
+{
+  "id": "itm_bf1550",
+  "type": "fact",
+  "content": "the drive-prompt's standing-items + recent state. Did check existing essay file before writing to avoid duplication with the Day - on breaking that hero rule because it would be ina...",
+  "source": "daily_log 2026-06-26 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_ea1b9b",
+    "itm_b3098b",
+    "itm_4ef2b3",
+    "itm_9168c6",
+    "itm_d31ee5",
+    "itm_d3aaa7"
+  ],
+  "keywords": [
+    "drive",
+    "prompt",
+    "standing",
+    "items",
+    "recent",
+    "state",
+    "check",
+    "existing",
+    "essay",
+    "file"
+  ],
+  "importance": 10,
+  "created": "2026-06-27T01:08:55.617822",
+  "last_accessed": "2026-06-27T01:08:55.617828",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "contradictions": [
+    "itm_ea1b9b"
+  ],
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

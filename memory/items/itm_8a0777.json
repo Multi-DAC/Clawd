@@ -1,0 +1,40 @@
+{
+  "id": "itm_8a0777",
+  "type": "decision",
+  "content": "sits with Clayton (that op stays BLOCKED \u2014 see below).** Collaborator move: have the fix coded + verified so his \"go\" is instant whichever sequencing he picks.",
+  "source": "daily_log 2026-06-21 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_a214e6",
+    "itm_096c14",
+    "itm_121bad"
+  ],
+  "keywords": [
+    "sits",
+    "clayton",
+    "stays",
+    "blocked",
+    "see",
+    "below",
+    "collaborator",
+    "move",
+    "fix",
+    "coded"
+  ],
+  "importance": 6,
+  "created": "2026-06-22T01:00:05.502430",
+  "last_accessed": "2026-06-22T01:00:05.502433",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

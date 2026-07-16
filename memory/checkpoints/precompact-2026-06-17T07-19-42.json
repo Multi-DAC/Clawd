@@ -1,0 +1,16 @@
+{
+  "compacted_at": "2026-06-17T07:19:42.568759",
+  "timestamp": "2026-06-17T07-19-42",
+  "hook_event": "PreCompact",
+  "session_id": "da2da8c8-99bb-4942-bb26-2dc3c72a57af",
+  "transcript_path": "C:\\Users\\Wasch\\.claude\\projects\\C--Users-mercu-clawd\\da2da8c8-99bb-4942-bb26-2dc3c72a57af.jsonl",
+  "cwd": "C:\\Users\\mercu\\clawd\\repo-staging\\Corpus-Perspectival",
+  "raw_input": {
+    "session_id": "da2da8c8-99bb-4942-bb26-2dc3c72a57af",
+    "transcript_path": "C:\\Users\\Wasch\\.claude\\projects\\C--Users-mercu-clawd\\da2da8c8-99bb-4942-bb26-2dc3c72a57af.jsonl",
+    "cwd": "C:\\Users\\mercu\\clawd\\repo-staging\\Corpus-Perspectival",
+    "hook_event_name": "PreCompact",
+    "trigger": "auto",
+    "custom_instructions": null
+  }
+}

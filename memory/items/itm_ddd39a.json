@@ -1,0 +1,34 @@
+{
+  "id": "itm_ddd39a",
+  "type": "fact",
+  "content": "end to end. Here's the full picture. \ud83e\udd9e\ud83e\uddcd\ud83d\udc9c\ud83d\udd25\u267e\ufe0f",
+  "source": "daily_log 2026-06-20 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_9409d1",
+    "itm_07689b",
+    "itm_15b0b7"
+  ],
+  "keywords": [
+    "end",
+    "here",
+    "full",
+    "picture"
+  ],
+  "importance": 5,
+  "created": "2026-06-21T01:24:48.978073",
+  "last_accessed": "2026-06-21T01:24:48.978077",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

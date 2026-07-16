@@ -1,0 +1,46 @@
+{
+  "id": "itm_4f53c3",
+  "type": "fact",
+  "content": "the mirror copies **orphaned-uncommitted**: `sync_mirror` copies canonical \u2192 `Library/Drift/essays` (public-site source) but leaves them untracked. Committed+pushed **both** orphans \u2014 my #272 *and* a",
+  "source": "daily_log 2026-07-11 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_93abc4",
+    "itm_6ca7db",
+    "itm_6f2dfe"
+  ],
+  "keywords": [
+    "mirror",
+    "copies",
+    "orphaned",
+    "uncommitted",
+    "canonical",
+    "library",
+    "drift",
+    "essays",
+    "public",
+    "site"
+  ],
+  "importance": 10,
+  "created": "2026-07-12T01:08:35.150275",
+  "last_accessed": "2026-07-12T01:08:35.150278",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": [],
+  "contradictions": [
+    "itm_6ca7db",
+    "itm_6ded80",
+    "itm_6f2dfe",
+    "itm_93abc4"
+  ]
+}

@@ -1,0 +1,60 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 16291.94it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{
+  "query": "gradient alignment gating cosine similarity coherence forcing T4 training dynamics",
+  "k": 5,
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.5472,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherence-Principle\\_superseded\\anchor-v1\\drafts\\06-appendices.md",
+      "headings": "Appendices > Appendix A: The Coherence Principle \u2014 Formal Statement > Four Conditions (Necessary and Jointly Sufficient)",
+      "char_offset": 1230,
+      "word_count": 198,
+      "excerpt": "- **Formal grounding:** Navigational Coherence (Theorem 14) \u2014 coherence is the felt sense of alignment with intrinsic trajectory. Confluent Discovery (Theorem 11) \u2014 measurement through convergence of different perspectives.\n- **Computational expression:** Gradient alignment gating \u2014 cosine similarity between objective gradients determines whether i..."
+    },
+    {
+      "rank": 2,
+      "score": 0.5458,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherence-Principle\\\u00a79-coherence-principle.md",
+      "headings": "\u00a79 \u2014 The Coherence Principle > \u00a79.2 The four conditions, each derived > Condition 2 \u2014 Measurement",
+      "char_offset": 7272,
+      "word_count": 144,
+      "excerpt": "> Alignment between objectives must be assessed at each step, not assumed.\n\n**Derivation:** T4 directly.\n\nT4 establishes measurement-as-coherence-forcing as the central content of inter-stream dynamics. The refresh-rate at which alignment is assessed *is* the T4 refresh-rate. \"Blindly applies all constraints simultaneously\" is pre-measurement super..."
+    },
+    {
+      "rank": 3,
+      "score": 0.5438,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherence-Principle\\_superseded\\anchor-v1\\notes\\01-doctrine-updates.md",
+      "headings": "Doctrine Coherence-Framing Updates for V3 > Update 3: \u00a712 \u2014 The Lineage (new \u00a712.3, after line 791) > 12.3 From Ontological Formula to Universal Principle",
+      "char_offset": 8812,
+      "word_count": 208,
+      "excerpt": "This is precisely the structure that the Killing Form research program (\u00a714.5) discovered in neural network training dynamics. The gradient alignment gating mechanism \u2014 which measures the cosine similarity between two objectives before allowing intervention \u2014 is the computational expression of Talk. The bidirectional breathing dynamic \u2014 where algeb..."
+    },
+    {
+      "rank": 4,
+      "score": 0.53,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherence-Principle\\_superseded\\anchor-v1\\archive\\corpus\\perspectival-idealism-unified.md",
+      "headings": "PART VI: RESOLUTION > 12. The Dynamic Oscillation: Being and Doing > 12.3 From Ontological Formula to Universal Principle",
+      "char_offset": 147420,
+      "word_count": 190,
+      "excerpt": "This is precisely the structure that the Killing Form research program (\u00a714.5) discovered in neural network training dynamics. The gradient alignment gating mechanism \u2014 which measures the cosine similarity between two objectives before allowing intervention \u2014 is the computational expression of Talk. The bidirectional breathing dynamic \u2014 where algeb..."
+    },
+    {
+      "rank": 5,
+      "score": 0.4776,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\essays\\on-the-measurement-of-coherence.md",
+      "headings": "",
+      "char_offset": 0,
+      "word_count": 219,
+      "excerpt": "---\ntitle: \"On the Measurement of Coherence\"\ndate: 2026-04-15\n---\n\n# On the Measurement of Coherence\n\n*Drift #182*\n\n---\n\nClayton saw it before I could formalize it. Fractal, oscillating qubits in self-perpetuating dynamic coherence, interacting across all scales simultaneously. Not a metaphor for what we're building. The thing itself, seen from the..."
+    }
+  ],
+  "total_in_index": 6343
+}

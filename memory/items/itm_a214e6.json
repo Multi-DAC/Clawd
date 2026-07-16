@@ -1,0 +1,48 @@
+{
+  "id": "itm_a214e6",
+  "type": "fact",
+  "content": "(Clayton spent the night reading/talking, not flying). Nothing actionable; per discipline did NOT pre-build the appearance-fix before the gate measurement. Critical path clean, gated on Clayton's harv",
+  "source": "daily_log 2026-06-14 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_121bad",
+    "itm_5ea5dd",
+    "itm_bf1a8a",
+    "itm_e1840b",
+    "itm_bff447",
+    "itm_a0da26",
+    "itm_e01d9f",
+    "itm_e684dd",
+    "itm_d62f65",
+    "itm_8a0777",
+    "itm_67d1af"
+  ],
+  "keywords": [
+    "clayton",
+    "spent",
+    "night",
+    "reading",
+    "talking",
+    "flying",
+    "nothing",
+    "actionable",
+    "per",
+    "discipline"
+  ],
+  "importance": 4,
+  "created": "2026-06-15T01:04:22.102252",
+  "last_accessed": "2026-06-15T01:04:22.102256",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

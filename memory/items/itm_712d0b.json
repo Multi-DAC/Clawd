@@ -1,0 +1,43 @@
+{
+  "id": "itm_712d0b",
+  "type": "fact",
+  "content": "the real confound, fixed a Mirror-#32 landmine.** Investigated anticipation #25(b): why does to_training_frame cut official gate coverage ~10\u00d7?",
+  "source": "daily_log 2026-06-15 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_0da6d9",
+    "itm_182b70",
+    "itm_216e17",
+    "itm_1db613",
+    "itm_b25b49",
+    "itm_e35624"
+  ],
+  "keywords": [
+    "real",
+    "confound",
+    "fixed",
+    "mirror",
+    "landmine",
+    "investigated",
+    "anticipation",
+    "why",
+    "cut",
+    "official"
+  ],
+  "importance": 5,
+  "created": "2026-06-16T01:08:44.148136",
+  "last_accessed": "2026-06-16T01:08:44.148141",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

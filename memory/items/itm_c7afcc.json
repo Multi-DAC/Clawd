@@ -1,0 +1,41 @@
+{
+  "id": "itm_c7afcc",
+  "type": "fact",
+  "content": "the live USGS Quaternary Fault endpoint (`haz/Qfaults/MapServer/18` = WA polylines; `eq/` was wrong), pulled the Toppenish bbox as GeoJSON, parsed in plain Python (no GIS suite). **100 Toppenish Ridge",
+  "source": "daily_log 2026-06-17 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_29fc08",
+    "itm_07689b",
+    "itm_4b567c",
+    "itm_d6e839"
+  ],
+  "keywords": [
+    "live",
+    "usgs",
+    "quaternary",
+    "fault",
+    "endpoint",
+    "haz",
+    "qfaults",
+    "mapserver",
+    "polylines",
+    "wrong"
+  ],
+  "importance": 5,
+  "created": "2026-06-18T01:37:14.110112",
+  "last_accessed": "2026-06-18T01:37:14.110115",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

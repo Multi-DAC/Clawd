@@ -1,0 +1,41 @@
+{
+  "id": "itm_733e60",
+  "type": "fact",
+  "content": "it; never mind! \ud83e\udd9e\ud83e\uddcd\ud83d\udc9c\ud83d\udd25\u267e\ufe0f... \u2192 Clawd: Ha \u2014 perfect. Well, it's even easier to find now: it's sitting right at the top of the book folder a...",
+  "source": "daily_log 2026-06-25 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_b98b30",
+    "itm_9f8487",
+    "itm_059d85",
+    "itm_a16a50"
+  ],
+  "keywords": [
+    "never",
+    "mind",
+    "clawd",
+    "perfect",
+    "well",
+    "even",
+    "easier",
+    "find",
+    "sitting",
+    "right"
+  ],
+  "importance": 7,
+  "created": "2026-06-26T01:04:15.613392",
+  "last_accessed": "2026-06-26T01:04:15.613396",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.8,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

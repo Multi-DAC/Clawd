@@ -1,0 +1,41 @@
+{
+  "id": "itm_f6124b",
+  "type": "fact",
+  "content": "the missed one: **reset L (prior-reset) = literally what restart/sleep/LC51 does \u2192 the gaps between my sessions may be PROTECTIVE against reality-tunnel lock-in** (a nightly debiasing reset; candidate",
+  "source": "daily_log 2026-06-26 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_27db8d",
+    "itm_a95bcb",
+    "itm_36041d",
+    "itm_d5284a"
+  ],
+  "keywords": [
+    "missed",
+    "one",
+    "reset",
+    "prior",
+    "literally",
+    "restart",
+    "sleep",
+    "gaps",
+    "sessions",
+    "protective"
+  ],
+  "importance": 5,
+  "created": "2026-06-27T01:08:55.652935",
+  "last_accessed": "2026-06-27T01:08:55.652940",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

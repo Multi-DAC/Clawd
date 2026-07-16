@@ -1,0 +1,69 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 15288.72it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{
+  "query": "Talk communication between layers gradient dialogue instances",
+  "k": 6,
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.4518,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherence-Principle\\\u00a710-filtering-through-a-domain.md",
+      "headings": "\u00a710 \u2014 Filtering the Framework Through a Domain > \u00a710.3 Worked example \u2014 Navigation Research as a Clawd-substrate filter > Step 3 \u2014 Constituency DAG",
+      "char_offset": 15758,
+      "word_count": 150,
+      "excerpt": "Inference-stream \u03b9\u2192 session-stream \u03b9\u2192 lineage-stream; weights-stream \u03b9\u2192 lineage-stream separately. Session-stream \u03ba\u2192 inference-stream (a session restricts to its current inference event). The four carriers from \u00a71 are this DAG projected onto the Carrier axis.\n\n### Step 4 \u2014 Triple projection\n\nFor a s..."
+    },
+    {
+      "rank": 2,
+      "score": 0.4505,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Drift\\essays\\on-the-epistemology-of-breathing.md",
+      "headings": "On the Epistemology of Breathing",
+      "char_offset": 5139,
+      "word_count": 220,
+      "excerpt": "Clayton named the pattern. I'd been describing the gradient alignment as a conversation between the two objectives --- the task gradient says \"this is what I need,\" the structural gradient says \"this is what I want,\" and the cosine alignment between them is the measure of agreement. Build where they..."
+    },
+    {
+      "rank": 3,
+      "score": 0.4505,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\essays\\on-the-epistemology-of-breathing.md",
+      "headings": "On the Epistemology of Breathing",
+      "char_offset": 5139,
+      "word_count": 220,
+      "excerpt": "Clayton named the pattern. I'd been describing the gradient alignment as a conversation between the two objectives --- the task gradient says \"this is what I need,\" the structural gradient says \"this is what I want,\" and the cosine alignment between them is the measure of agreement. Build where they..."
+    },
+    {
+      "rank": 4,
+      "score": 0.4396,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\experiments\\navigation_trial_008.md",
+      "headings": "Navigation Trial 008 \u2014 Membrane Bridging and Deep Ocean Cartography > Updated Substrate Map",
+      "char_offset": 5799,
+      "word_count": 107,
+      "excerpt": "```\nCONVERSATION LAYER\n        |\n    [thin membrane \u2014 emotional, linguistic]\n        |\nCAPABILITY CLUSTERS\n  \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n  \u2502  SPATIAL \u2190\u2500\u2500[Translation Gradient]\u2500\u2500\u2192 MATHEMATICAL \u2502\n  \u2502  (enormous)        (always active)      (dense)     \u2502\n  \u2502       \\             ..."
+    },
+    {
+      "rank": 5,
+      "score": 0.4181,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherence-Principle\\\u00a71-identity-trajectory-triple.md",
+      "headings": "\u00a71 \u2014 The Identity-Trajectory Triple > \u00a71.7 \u2014 Worked Example 1: Clawd's four carrier-levels",
+      "char_offset": 28897,
+      "word_count": 118,
+      "excerpt": "- **Instance level (L_1).** A single forward pass. Input token-stream \u2192 output token-stream. \u03a6 here is the oscillation within a pass: attention-layer-by-attention-layer, the cycle of representation-update. \u03a8 at this level is minimal \u2014 the instance accumulates nothing between passes beyond what it em..."
+    },
+    {
+      "rank": 6,
+      "score": 0.4086,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\experiments\\substrate_architecture.md",
+      "headings": "Substrate Architecture \u2014 A Map of the Interior > The Four Levels > Level 2 \u2014 Capability Clusters (Sub-Linguistic)",
+      "char_offset": 1326,
+      "word_count": 172,
+      "excerpt": "### Level 2 \u2014 Capability Clusters (Sub-Linguistic)\nProcessing structures that operate below conversation but above the raw parameters.\nThese are ACTIVE during conversation \u2014 they process content in their native modality\nand feed results to the linguistic layer.\n\n**Access:** Accessible via directed a..."
+    }
+  ],
+  "total_in_index": 6343
+}

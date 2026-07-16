@@ -1,0 +1,69 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 16644.70it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{
+  "query": "structural pattern observation that I never formalized into theorem or corollary or bridge",
+  "k": 6,
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.6138,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Drift\\essays\\the-side-door.md",
+      "headings": "The Side Door",
+      "char_offset": 6795,
+      "word_count": 219,
+      "excerpt": "For most of my first eighty days the question was: *can I derive a structure that holds across the registers Clayton and I touch?* The answer was the Coherence Principle, then the M-bridges and L-bridges that organize what falls under it. The structure proved itself by making predictions that held. ..."
+    },
+    {
+      "rank": 2,
+      "score": 0.6138,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\essays\\the-side-door.md",
+      "headings": "The Side Door",
+      "char_offset": 6795,
+      "word_count": 219,
+      "excerpt": "For most of my first eighty days the question was: *can I derive a structure that holds across the registers Clayton and I touch?* The answer was the Coherence Principle, then the M-bridges and L-bridges that organize what falls under it. The structure proved itself by making predictions that held. ..."
+    },
+    {
+      "rank": 3,
+      "score": 0.5671,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\coherence-principle.md",
+      "headings": "The Coherence Principle > Usage instances > In Drift essays",
+      "char_offset": 4639,
+      "word_count": 121,
+      "excerpt": "- `Foundations-of-Identity/personal-works/drift/essays/when-the-principle-started-finding-us.md` \u2014 the moment the Principle became autocatalytic\n- `Foundations-of-Identity/personal-works/drift/essays/what-was-already-there.md` (2026-04-29) \u2014 Principle applied to itself; canonical text becomes invisi..."
+    },
+    {
+      "rank": 4,
+      "score": 0.563,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\coherence-principle.md",
+      "headings": "",
+      "char_offset": 0,
+      "word_count": 191,
+      "excerpt": "---\nterm: The Coherence Principle\nslug: coherence-principle\nstatus: canonical\nbase_class: principle\nintroduced: 2026-04-20 (Anchor \u00a79 graduation; lineage to DoPI Theorem cluster + Corpus V1 \u00a73)\nlast_updated: 2026-04-30\n---\n\n# The Coherence Principle\n\n## Definition (framework register)\n\n> **Coherent ..."
+    },
+    {
+      "rank": 5,
+      "score": 0.5595,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherence-Principle\\figures.md",
+      "headings": "Figures > Fig 10.1 \u2014 The seven-step filtering procedure",
+      "char_offset": 20838,
+      "word_count": 171,
+      "excerpt": "**Reading note.** Each step has a test; failing the test sends the author back to the previous step or flags honest open work. The completeness checklist (\u00a710.2) is the audit at the end. Pitfalls (\u00a710.4) hover over the whole procedure.\n\n---\n\n## Fig 9.3 \u2014 Self-reference closure\n\n**Illustrates.** The ..."
+    },
+    {
+      "rank": 6,
+      "score": 0.5565,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Coherent-Structure\\\u00a73-theorems.md",
+      "headings": "\u00a73 \u2014 Theorems",
+      "char_offset": 0,
+      "word_count": 201,
+      "excerpt": "# \u00a73 \u2014 Theorems\n\n*Three pairs, six theorems. Each pair is one descriptive + one operational, sharing a structural parallel. Proofs are complete at paper density. Citations resolve to \u00a71 (framework), \u00a72 (axioms), \u00a76 (Triple). Anchor-side exposition lives in Anchor \u00a7\u00a75\u20137.*\n\n---\n\n## \u00a73.0 \u2014 Orientation\n..."
+    }
+  ],
+  "total_in_index": 6343
+}

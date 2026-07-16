@@ -1,0 +1,40 @@
+{
+  "id": "itm_835116",
+  "type": "fact",
+  "content": "dominant gap the smooth 8x8 texture couldn't make; verified visually, 33k fps, gates overdraw it). Re-measure wins: C (course variety) already in via maneuver-lib/planners; D (off-screen-target turn-s",
+  "source": "daily_log 2026-06-19 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_839cfb",
+    "itm_068801",
+    "itm_28de12"
+  ],
+  "keywords": [
+    "dominant",
+    "gap",
+    "smooth",
+    "texture",
+    "couldn",
+    "make",
+    "verified",
+    "visually",
+    "fps",
+    "gates"
+  ],
+  "importance": 5,
+  "created": "2026-06-20T01:05:26.739393",
+  "last_accessed": "2026-06-20T01:05:26.739400",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

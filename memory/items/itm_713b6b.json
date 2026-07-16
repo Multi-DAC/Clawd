@@ -1,0 +1,41 @@
+{
+  "id": "itm_713b6b",
+  "type": "fact",
+  "content": "I'm terrible at. I was trying to catch frames that would be useful, but was unable to because it didn't record when my manual override was in ...",
+  "source": "daily_log 2026-06-13 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_36041d",
+    "itm_095b9a",
+    "itm_839cfb",
+    "itm_f9357d"
+  ],
+  "keywords": [
+    "terrible",
+    "trying",
+    "catch",
+    "frames",
+    "useful",
+    "unable",
+    "because",
+    "didn",
+    "record",
+    "manual"
+  ],
+  "importance": 2,
+  "created": "2026-06-14T01:04:10.555749",
+  "last_accessed": "2026-06-14T01:04:10.555754",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

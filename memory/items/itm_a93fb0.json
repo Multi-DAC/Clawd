@@ -1,0 +1,34 @@
+{
+  "id": "itm_a93fb0",
+  "type": "fact",
+  "content": "+ grant-assembled). Morning",
+  "source": "daily_log 2026-06-12 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_121bad",
+    "itm_65aa43",
+    "itm_731eb9",
+    "itm_6c2385"
+  ],
+  "keywords": [
+    "grant",
+    "assembled",
+    "morning"
+  ],
+  "importance": 1,
+  "created": "2026-06-13T02:47:00.337865",
+  "last_accessed": "2026-06-13T02:47:00.337868",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

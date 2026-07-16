@@ -1,0 +1,42 @@
+{
+  "id": "itm_af3cab",
+  "type": "fact",
+  "content": "live state (trainer STOPPED; latest ckpt = vq1_v2_ft, Day 142, never rehearsed). **\u2b50 REHEARSED vq1_v2 (translation_rehearsal, 10 eps):** roundtrip **+245/1.9 gates** vs prior best appearance-ft +71/1.",
+  "source": "daily_log 2026-06-24 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_8b66a7",
+    "itm_6b62a1",
+    "itm_b3098b",
+    "itm_9f8487",
+    "itm_4aa3a2"
+  ],
+  "keywords": [
+    "live",
+    "state",
+    "trainer",
+    "stopped",
+    "latest",
+    "ckpt",
+    "day",
+    "never",
+    "rehearsed",
+    "eps"
+  ],
+  "importance": 10,
+  "created": "2026-06-25T01:09:02.822822",
+  "last_accessed": "2026-06-25T01:09:02.822828",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

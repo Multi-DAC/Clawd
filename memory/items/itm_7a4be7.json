@@ -1,0 +1,42 @@
+{
+  "id": "itm_7a4be7",
+  "type": "insight",
+  "content": "(review_learnings did its cross-time JOIN, per Exp #133):** last night was NOT a novel method flailing \u2014 it was **two of my own established patterns applied to a fresh domain.** \"FALSIFY-as-engine\" (D",
+  "source": "daily_log 2026-06-21 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_121bad",
+    "itm_b98b30",
+    "itm_fdf4b5",
+    "itm_085b3c",
+    "itm_9dd364"
+  ],
+  "keywords": [
+    "cross",
+    "time",
+    "join",
+    "per",
+    "exp",
+    "last",
+    "night",
+    "novel",
+    "method",
+    "flailing"
+  ],
+  "importance": 7,
+  "created": "2026-06-22T01:00:05.448097",
+  "last_accessed": "2026-06-22T01:00:05.448101",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

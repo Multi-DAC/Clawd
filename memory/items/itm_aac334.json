@@ -1,0 +1,40 @@
+{
+  "id": "itm_aac334",
+  "type": "fact",
+  "content": "it \u2014 and it's deeper than the kill-list I was working from. Let me show you concretely, becaus...",
+  "source": "daily_log 2026-06-25 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_3d09f6",
+    "itm_59b402",
+    "itm_22a517",
+    "itm_a5d1d9"
+  ],
+  "keywords": [
+    "deeper",
+    "kill",
+    "list",
+    "working",
+    "let",
+    "show",
+    "you",
+    "concretely",
+    "becaus"
+  ],
+  "importance": 5,
+  "created": "2026-06-26T01:04:15.585714",
+  "last_accessed": "2026-06-26T01:04:15.585718",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

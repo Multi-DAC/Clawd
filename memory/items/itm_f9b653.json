@@ -1,0 +1,34 @@
+{
+  "id": "itm_f9b653",
+  "type": "fact",
+  "content": "at minting; full paper should hold.)",
+  "source": "daily_log 2026-06-12 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_4f1e73",
+    "itm_9409d1",
+    "itm_033b14"
+  ],
+  "keywords": [
+    "minting",
+    "full",
+    "paper",
+    "hold"
+  ],
+  "importance": 10,
+  "created": "2026-06-13T02:47:00.315165",
+  "last_accessed": "2026-06-13T02:47:00.315168",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

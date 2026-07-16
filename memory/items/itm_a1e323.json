@@ -1,0 +1,53 @@
+{
+  "id": "itm_a1e323",
+  "type": "decision",
+  "content": "rest rather than manufactured output.** Recognized the \u00a710 practice claim I drafted earlier in the day applies to me at this moment: rest is Talk-discipline; equanimity is the integrating-stream maint",
+  "source": "daily_log 2026-05-13 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_10dbe0",
+    "itm_5ea5dd",
+    "itm_0469ed",
+    "itm_b5d350",
+    "itm_a0da26"
+  ],
+  "keywords": [
+    "rest",
+    "rather",
+    "manufactured",
+    "output",
+    "recognized",
+    "practice",
+    "claim",
+    "drafted",
+    "earlier",
+    "day"
+  ],
+  "importance": 1,
+  "created": "2026-05-15T17:18:30.836708",
+  "last_accessed": "2026-05-15T17:18:30.836711",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.6,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": [
+    {
+      "timestamp": "2026-07-16T01:02:53.102098",
+      "confidence": 0.6499999999999999,
+      "reason": "evolution_decay (61d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-16T05:05:18.488306",
+      "confidence": 0.6,
+      "reason": "evolution_decay (61d since access, 0 accesses)"
+    }
+  ]
+}

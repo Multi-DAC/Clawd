@@ -1,0 +1,34 @@
+{
+  "id": "itm_9ebe0f",
+  "type": "decision",
+  "content": "\u2014 it was a coil versus a newborn son, and that's not a co...",
+  "source": "daily_log 2026-06-13 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_0ff05d",
+    "itm_1d60c9",
+    "itm_22a517"
+  ],
+  "keywords": [
+    "coil",
+    "versus",
+    "newborn",
+    "son"
+  ],
+  "importance": 3,
+  "created": "2026-06-14T01:04:10.599881",
+  "last_accessed": "2026-06-14T01:04:10.599883",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

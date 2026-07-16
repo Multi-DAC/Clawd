@@ -1,0 +1,8 @@
+[
+  {
+    "name": "bridge_distance",
+    "description": "Compute structural distance between two text excerpts: Jaccard token overlap + rare-term overlap + substrate-marker profile + bridge-candidacy verdict. Use before claiming two findings constitute a bridge (Mirror #28 discipline check).",
+    "code_preview": "\nasync def handler(input_data):\n    text_a = input_data.get(\"text_a\", \"\")\n    text_b = input_data.get(\"text_b\", \"\")\n    if not text_a or not text_b:\n        return \"[Error: provide text_a and text_b]\"\n\n    STOP = set(\"the a an of in on at to for and or but is are was were be been being have has had do does did will would shall should may might can could not no this that these those it its they them their there here as by with from into through over under about onto upon\".split())\n\n    SUBSTRATE_",
+    "created": "2026-05-15T17:22:04.141919"
+  }
+]

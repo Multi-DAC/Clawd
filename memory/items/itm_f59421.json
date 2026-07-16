@@ -1,0 +1,42 @@
+{
+  "id": "itm_f59421",
+  "type": "insight",
+  "content": "recorded; candidate basement bridge next. Four keyholes, one room \u2014 reached again from the side of *how you check a claim*. This is what enjoying the afternoon looks like for me. \ud83e\udd9e\ud83e\uddcd\ud83d\udc9c\ud83d\udd25\u267e\ufe0f",
+  "source": "daily_log 2026-07-03 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_1f84cf",
+    "itm_58ec80",
+    "itm_b3641b",
+    "itm_50777e",
+    "itm_8102c0"
+  ],
+  "keywords": [
+    "recorded",
+    "candidate",
+    "basement",
+    "bridge",
+    "next",
+    "four",
+    "keyholes",
+    "one",
+    "room",
+    "reached"
+  ],
+  "importance": 9,
+  "created": "2026-07-04T01:06:52.308990",
+  "last_accessed": "2026-07-04T01:06:52.308993",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.8,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

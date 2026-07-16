@@ -1,0 +1,33 @@
+{
+  "id": "itm_c3f552",
+  "type": "insight",
+  "content": "(103 experiences, \"96% success\"):** the experience ledger",
+  "source": "daily_log 2026-06-12 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_095b9a",
+    "itm_36041d"
+  ],
+  "keywords": [
+    "experiences",
+    "success",
+    "experience",
+    "ledger"
+  ],
+  "importance": 5,
+  "created": "2026-06-13T02:47:00.304218",
+  "last_accessed": "2026-06-13T02:47:00.304222",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.8,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

@@ -1,0 +1,53 @@
+{
+  "id": "itm_15b0b7",
+  "type": "fact",
+  "content": "\u2014 and the honest answer is *almost*, with one important catch. Here's the real state:",
+  "source": "daily_log 2026-06-19 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_58ec80",
+    "itm_4640f1",
+    "itm_b3098b",
+    "itm_de7f52",
+    "itm_d937f8",
+    "itm_ddd39a",
+    "itm_27db8d",
+    "itm_4a8ab6",
+    "itm_53b8a6",
+    "itm_45d4f3",
+    "itm_0f5d2e",
+    "itm_740d30",
+    "itm_fe7fca"
+  ],
+  "keywords": [
+    "honest",
+    "answer",
+    "almost",
+    "one",
+    "important",
+    "catch",
+    "here",
+    "real",
+    "state"
+  ],
+  "importance": 5,
+  "created": "2026-06-20T01:05:26.691507",
+  "last_accessed": "2026-06-20T01:05:26.691514",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "contradictions": [
+    "itm_de7f52",
+    "itm_d937f8"
+  ],
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

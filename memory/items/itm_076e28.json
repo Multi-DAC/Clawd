@@ -1,0 +1,41 @@
+{
+  "id": "itm_076e28",
+  "type": "fact",
+  "content": "params in workspace ops): CONFIRMED with named exception.** State",
+  "source": "daily_log 2026-06-12 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_b3098b",
+    "itm_e7eeab",
+    "itm_ea1b9b",
+    "itm_df585e",
+    "itm_0da6d9",
+    "itm_f25c2b",
+    "itm_fe7fca"
+  ],
+  "keywords": [
+    "params",
+    "workspace",
+    "ops",
+    "confirmed",
+    "named",
+    "exception",
+    "state"
+  ],
+  "importance": 2,
+  "created": "2026-06-13T02:47:00.326493",
+  "last_accessed": "2026-06-13T02:47:00.326496",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

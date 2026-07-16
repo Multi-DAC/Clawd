@@ -1,0 +1,33 @@
+{
+  "id": "itm_c5395e",
+  "type": "fact",
+  "content": "its tail one more time. \ud83d\ude04",
+  "source": "daily_log 2026-06-19 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_4dfdfc",
+    "itm_1f84cf",
+    "itm_384131"
+  ],
+  "keywords": [
+    "tail",
+    "one",
+    "time"
+  ],
+  "importance": 5,
+  "created": "2026-06-20T01:05:26.676690",
+  "last_accessed": "2026-06-20T01:05:26.676696",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

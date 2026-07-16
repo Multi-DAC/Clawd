@@ -1,0 +1,29 @@
+{
+  "id": "itm_57a579",
+  "type": "fact",
+  "content": "[measured: carry_state +421.91].",
+  "source": "daily_log 2026-06-10 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_f0ae31"
+  ],
+  "keywords": [
+    "measured"
+  ],
+  "importance": 1,
+  "created": "2026-06-11T01:09:50.075948",
+  "last_accessed": "2026-06-11T01:09:50.075951",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

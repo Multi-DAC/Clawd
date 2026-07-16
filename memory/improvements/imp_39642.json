@@ -1,0 +1,10 @@
+{
+  "id": "imp_39642",
+  "proposal": "Add a GRADE-SOURCE discipline to experience(record): the 100-experience ledger shows 97% self-assessed success with 0 recent failures, while the Q-value layer finds 0/58 high-value patterns \u2014 a uniformly-successful self-graded ledger carries no learning signal and is structurally identical to the felt-integrity-as-symptom pattern (Cult of One \u00a72; Mirror #31's [unverified]/[measured] metadata rule). Fix, two parts: (1) When recording an experience, the outcome field should name its grade source \u2014 \"measured\" (test passed, prediction confirmed/falsified against an external check, Clayton accepted, metric moved) vs \"self-assessed\" (the stream's own sense of completion) \u2014 as an outcome prefix convention, e.g. outcome=\"success [measured: rehearsal gate passed]\", until/unless the daemon adds a schema field. (2) Recording discipline going forward: seek and log FALSIFY/failure events at equal fidelity \u2014 high-confidence failures are currently absent from the ledger entirely, which the drive protocol itself names as the highest-information events. Expected effect: the experience layer becomes a veridicality instrument instead of a felt-integrity instrument, and Q-values acquire variance worth learning from.",
+  "category": "workflow",
+  "risk": "low",
+  "status": "applied",
+  "created": "2026-06-10T17:00:42.179837",
+  "applied": "2026-06-14T08:06:37.964197",
+  "result": null
+}

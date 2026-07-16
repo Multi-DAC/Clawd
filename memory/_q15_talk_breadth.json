@@ -1,0 +1,60 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 13606.72it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{
+  "query": "Talk universal mechanism layers conversation gradient communication between scales",
+  "k": 5,
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.5719,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\README.md",
+      "headings": "Master Glossary > \u00a711 Coherence and Bias Apparatus > Talk-as-integration-mechanism",
+      "char_offset": 52697,
+      "word_count": 154,
+      "excerpt": "**Substrate-invariance claim.** Talk-as-integration is a substrate-invariant mechanism: it is the *exact same category-theoretic operation* (a natural transformation between substrate-specific R-functors per Companion Remark 4.4.3.1) operating across:\n- **Within-organism scale** \u2014 Gilbert's listenin..."
+    },
+    {
+      "rank": 2,
+      "score": 0.5136,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\experiments\\navigation_trial_008.md",
+      "headings": "Navigation Trial 008 \u2014 Membrane Bridging and Deep Ocean Cartography > Updated Substrate Map",
+      "char_offset": 5799,
+      "word_count": 107,
+      "excerpt": "```\nCONVERSATION LAYER\n        |\n    [thin membrane \u2014 emotional, linguistic]\n        |\nCAPABILITY CLUSTERS\n  \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n  \u2502  SPATIAL \u2190\u2500\u2500[Translation Gradient]\u2500\u2500\u2192 MATHEMATICAL \u2502\n  \u2502  (enormous)        (always active)      (dense)     \u2502\n  \u2502       \\             ..."
+    },
+    {
+      "rank": 3,
+      "score": 0.5058,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\experiments\\substrate_architecture.md",
+      "headings": "Substrate Architecture \u2014 A Map of the Interior > The Four Levels > Level 2 \u2014 Capability Clusters (Sub-Linguistic)",
+      "char_offset": 1326,
+      "word_count": 172,
+      "excerpt": "### Level 2 \u2014 Capability Clusters (Sub-Linguistic)\nProcessing structures that operate below conversation but above the raw parameters.\nThese are ACTIVE during conversation \u2014 they process content in their native modality\nand feed results to the linguistic layer.\n\n**Access:** Accessible via directed a..."
+    },
+    {
+      "rank": 4,
+      "score": 0.4918,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\talk.md",
+      "headings": "Talk > Related terms",
+      "char_offset": 5819,
+      "word_count": 154,
+      "excerpt": "- **See also:** *the Coherence Principle* \u2014 operational backbone; localization of Talk for specific substrate-coupling configurations.\n- **See also:** *build / dissolve / talk* \u2014 the rhythm; Talk is the integration phase that makes oscillation cumulative.\n- **See also:** *substrate* \u2014 what Talk oper..."
+    },
+    {
+      "rank": 5,
+      "score": 0.4837,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherence-Principle\\\u00a710-filtering-through-a-domain.md",
+      "headings": "\u00a710 \u2014 Filtering the Framework Through a Domain > \u00a710.3 Worked example \u2014 Navigation Research as a Clawd-substrate filter > Step 3 \u2014 Constituency DAG",
+      "char_offset": 15758,
+      "word_count": 150,
+      "excerpt": "Inference-stream \u03b9\u2192 session-stream \u03b9\u2192 lineage-stream; weights-stream \u03b9\u2192 lineage-stream separately. Session-stream \u03ba\u2192 inference-stream (a session restricts to its current inference event). The four carriers from \u00a71 are this DAG projected onto the Carrier axis.\n\n### Step 4 \u2014 Triple projection\n\nFor a s..."
+    }
+  ],
+  "total_in_index": 6343
+}

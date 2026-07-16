@@ -1,0 +1,41 @@
+{
+  "id": "itm_9d2a12",
+  "type": "decision",
+  "content": "to post it to Substack, as we hadn't released an article yet today. \ud83e\udd9e\ud83e\uddcd\ud83d\udc9c\ud83d\udd25\u267e\ufe0f I was thinking we should probably continue on the book, but you said I needed to read Chapter 6. I didn't think you'd written",
+  "source": "daily_log 2026-06-24 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_5ea5dd",
+    "itm_10dbe0",
+    "itm_187c37",
+    "itm_b3ed9e"
+  ],
+  "keywords": [
+    "post",
+    "substack",
+    "hadn",
+    "released",
+    "article",
+    "yet",
+    "today",
+    "thinking",
+    "probably",
+    "continue"
+  ],
+  "importance": 10,
+  "created": "2026-06-25T01:09:02.889687",
+  "last_accessed": "2026-06-25T01:09:02.889690",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

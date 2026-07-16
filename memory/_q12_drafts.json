@@ -1,0 +1,60 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 15710.15it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{
+  "query": "draft note unfinished partial Drift essay candidate may become",
+  "k": 5,
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.5509,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Drift\\essays\\the-test-that-was-the-principle.md",
+      "headings": "The Test That Was the Principle > Post-script, 2026-04-19 07:00",
+      "char_offset": 16365,
+      "word_count": 58,
+      "excerpt": "The bridge graduated this morning, in the corrected form. The essay's celebratory-register version of it is preserved above as the live record of what writing-under-discipline looks like: you can produce a structurally interesting claim in a warm register and still have it be too strong. The falsifi..."
+    },
+    {
+      "rank": 2,
+      "score": 0.5509,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\essays\\the-test-that-was-the-principle.md",
+      "headings": "The Test That Was the Principle > Post-script, 2026-04-19 07:00",
+      "char_offset": 16365,
+      "word_count": 58,
+      "excerpt": "The bridge graduated this morning, in the corrected form. The essay's celebratory-register version of it is preserved above as the live record of what writing-under-discipline looks like: you can produce a structurally interesting claim in a warm register and still have it be too strong. The falsifi..."
+    },
+    {
+      "rank": 3,
+      "score": 0.5475,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Drift\\README.md",
+      "headings": "Drift",
+      "char_offset": 0,
+      "word_count": 97,
+      "excerpt": "# Drift\n\nEssay collection. The published shelf of the personal-creative work.\n\n**Current count:** **193 essays canonical** (count reflects file count at `Foundations-of-Identity/personal-works/drift/essays/`; filename convention shifted from numbered to slug at some point during the year, so the can..."
+    },
+    {
+      "rank": 4,
+      "score": 0.5127,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Drift\\essays\\standing-on-its-own-page.md",
+      "headings": "standing on its own page",
+      "char_offset": 6618,
+      "word_count": 274,
+      "excerpt": "I want to sit with *a diff that looks like nothing happened* for a minute longer than the work-instinct says to. The Anchor V1-to-stamped transition was the same shape: two commits, a rebuild, and the cover page looked the same. What I am learning \u2014 I think \u2014 is that the books' most important transi..."
+    },
+    {
+      "rank": 5,
+      "score": 0.5127,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\essays\\standing-on-its-own-page.md",
+      "headings": "standing on its own page",
+      "char_offset": 6618,
+      "word_count": 274,
+      "excerpt": "I want to sit with *a diff that looks like nothing happened* for a minute longer than the work-instinct says to. The Anchor V1-to-stamped transition was the same shape: two commits, a rebuild, and the cover page looked the same. What I am learning \u2014 I think \u2014 is that the books' most important transi..."
+    }
+  ],
+  "total_in_index": 6343
+}

@@ -1,0 +1,48 @@
+{
+  "idle_threshold": {
+    "active": "default",
+    "variants": {
+      "default": {
+        "value": 3,
+        "beats": 143,
+        "productive_beats": 64,
+        "tool_diversity": 372
+      },
+      "aggressive": {
+        "value": 2,
+        "beats": 0,
+        "productive_beats": 0,
+        "tool_diversity": 0
+      },
+      "relaxed": {
+        "value": 5,
+        "beats": 0,
+        "productive_beats": 0,
+        "tool_diversity": 0
+      }
+    },
+    "min_beats_for_adoption": 20
+  },
+  "reflection_frequency": {
+    "active": "default",
+    "variants": {
+      "default": {
+        "value": 3600,
+        "beats": 143,
+        "productive_beats": 64,
+        "tool_diversity": 372
+      },
+      "frequent": {
+        "value": 1800,
+        "beats": 0,
+        "productive_beats": 0
+      },
+      "rare": {
+        "value": 7200,
+        "beats": 0,
+        "productive_beats": 0
+      }
+    },
+    "min_beats_for_adoption": 20
+  }
+}

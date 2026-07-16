@@ -1,0 +1,45 @@
+{
+  "id": "itm_60a70f",
+  "type": "insight",
+  "content": "(recorded learnings + LC39 + imp_75645):** the form/content split is **recursive/depth-relative** \u2014 this level's \"structure\" is the next level's \"content\"; only **measurement** (mirror-resistant, non-",
+  "source": "daily_log 2026-06-14 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_095b9a",
+    "itm_839cfb",
+    "itm_8a118a",
+    "itm_ec02e3",
+    "itm_891dd1",
+    "itm_b486a8",
+    "itm_b3c000",
+    "itm_6f1ede"
+  ],
+  "keywords": [
+    "recorded",
+    "learnings",
+    "form",
+    "content",
+    "split",
+    "recursive",
+    "depth",
+    "relative",
+    "level",
+    "structure"
+  ],
+  "importance": 6,
+  "created": "2026-06-15T01:04:22.130451",
+  "last_accessed": "2026-06-15T01:04:22.130454",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

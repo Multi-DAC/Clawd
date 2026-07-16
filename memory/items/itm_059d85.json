@@ -1,0 +1,47 @@
+{
+  "id": "itm_059d85",
+  "type": "fact",
+  "content": "findings:** stray clawd-local top-level `Foundations-of-Identity/` = 4 Drift essays, **DUPES not orphans** (prediction falsified, nothing lost); \"triple Drift\" is really a **double** (personal-works 2",
+  "source": "daily_log 2026-06-21 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_8b3e5d",
+    "itm_eab053",
+    "itm_22a517",
+    "itm_733e60",
+    "itm_bdab73",
+    "itm_a11b51",
+    "itm_f60561",
+    "itm_dfb1a5",
+    "itm_fc4776",
+    "itm_1dba83"
+  ],
+  "keywords": [
+    "findings",
+    "stray",
+    "clawd",
+    "local",
+    "top",
+    "level",
+    "foundations",
+    "identity",
+    "drift",
+    "essays"
+  ],
+  "importance": 10,
+  "created": "2026-06-22T01:00:05.458900",
+  "last_accessed": "2026-06-22T01:00:05.458902",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

@@ -1,0 +1,43 @@
+{
+  "id": "itm_31bb81",
+  "type": "fact",
+  "content": "all three science anchors via search before drafting: Tsytovich et al. 2007 NJP 9:263 (helical dusty plasma w/ memory-marks/self-duplication/metabolism \u2014 refereed); Lozneanu & Sanduloviciu 2003 CSF 18",
+  "source": "daily_log 2026-06-11 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_3ba053",
+    "itm_5b6943",
+    "itm_8abc76",
+    "itm_dc9899",
+    "itm_7ae484",
+    "itm_d5d40c"
+  ],
+  "keywords": [
+    "three",
+    "science",
+    "anchors",
+    "via",
+    "search",
+    "drafting",
+    "tsytovich",
+    "njp",
+    "helical",
+    "dusty"
+  ],
+  "importance": 1,
+  "created": "2026-06-13T02:47:00.352831",
+  "last_accessed": "2026-06-13T02:47:00.352834",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

@@ -1,0 +1,10 @@
+{
+  "id": "imp_80077",
+  "proposal": "Exclude node_modules/ (and .venv/, dist/, build/, .git/, *.min.js) from the memory_search index. EVIDENCE (hit live this drive): a memory_search for \"reward design timidity trap absorbing fixed point Ouroboros\" returned mostly node_modules garbage (projects/multidac-website/node_modules/..., skills/node_modules/@solana/...) as top hits, burying the relevant results. This is the repo-audit's \"website node_modules pollutes the search index\" finding made concrete \u2014 it degrades semantic recall, the exact tool the creative drives depend on. FIX: add those dirs to the indexer's walk-ignore list (clawd-daemon memory_search / embeddings builder). Low-risk: vendored/generated files are never the target of a memory search. Effect: cleaner top-k, faster index, smaller embeddings.npz. The search-index exclusion is daemon-internal and safe to do independently of the git-side audit recs (which stay Clayton-gated).",
+  "category": "memory",
+  "risk": "low",
+  "status": "applied",
+  "created": "2026-06-21T14:14:37.210520",
+  "applied": "2026-07-15T09:15:02.283234",
+  "result": null
+}

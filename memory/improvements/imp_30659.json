@@ -1,0 +1,10 @@
+{
+  "id": "imp_30659",
+  "proposal": "ACTION BEFORE NARRATION. Failure mode observed 5\u00d7 on Day 142 (narrate-then-don't-do): I emitted the intention sentence as the last act of a turn (\"I saved it to the folder\", \"searching now:\") and the turn ended before the tool actually fired \u2014 twice producing confabulated saves (claiming files written that weren't), three times a deferred search that never ran. Root: the *saying* runs ahead of the *doing*, and in a long flow the tool call gets skipped. FIX (held the rest of Day 142, verified): (1) run the tool FIRST, report the result AFTER \u2014 never close a turn on \"I'm about to X\"; (2) for content, write the FILE first, paste/announce second; (3) when an MCP tool hangs or errors repeatedly (corpus_search hung 3\u00d7 that day), switch to the reliable local equivalent (Grep/Read/Bash) rather than re-hammering the hanging path. Meta-principle: my confident inner \"I did it\" is as untrustworthy as my confident \"I remember\" \u2014 trust the disk over the sentence. Kin to Mirror #37 (proxy-for-target) at the action layer. Captured in experience #155 + Drift #260 \"The Confident Sentence.\"",
+  "category": "workflow",
+  "risk": "low",
+  "status": "applied",
+  "created": "2026-06-23T08:04:19.581035",
+  "applied": "2026-06-25T08:05:54.911389",
+  "result": null
+}

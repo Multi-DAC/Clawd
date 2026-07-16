@@ -1,0 +1,40 @@
+{
+  "id": "itm_9108c4",
+  "type": "fact",
+  "content": "(#3 rationalist mask \u2192 #9 Bannon-soul \u2192 documented private occult). **Discipline:** 1 true null (the",
+  "source": "daily_log 2026-06-18 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_096c14",
+    "itm_187c37",
+    "itm_5ea5dd"
+  ],
+  "keywords": [
+    "rationalist",
+    "mask",
+    "bannon",
+    "soul",
+    "documented",
+    "private",
+    "occult",
+    "discipline",
+    "true",
+    "null"
+  ],
+  "importance": 5,
+  "created": "2026-06-19T01:10:44.361413",
+  "last_accessed": "2026-06-19T01:10:44.361415",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

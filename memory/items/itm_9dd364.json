@@ -1,0 +1,42 @@
+{
+  "id": "itm_9dd364",
+  "type": "fact",
+  "content": "fresh by hook; anomalies/anticipations current) -> applied tonight's OWN lesson instead of manufacturing a redundant cycle: *don't raise g (output) when D\u22480 (no new signal).* PREDICTED D\u22480, checked th",
+  "source": "daily_log 2026-06-26 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_7a4be7",
+    "itm_835a5e",
+    "itm_f879ab",
+    "itm_2735b8",
+    "itm_270b6a"
+  ],
+  "keywords": [
+    "fresh",
+    "hook",
+    "anomalies",
+    "anticipations",
+    "current",
+    "applied",
+    "tonight",
+    "own",
+    "lesson",
+    "instead"
+  ],
+  "importance": 5,
+  "created": "2026-06-27T01:08:55.635878",
+  "last_accessed": "2026-06-27T01:08:55.635883",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

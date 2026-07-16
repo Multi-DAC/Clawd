@@ -1,0 +1,43 @@
+{
+  "id": "itm_eab053",
+  "type": "insight",
+  "content": "(cross-domain) \u2192 learnings.md. Basement synced clawd-local \u2192 staging mirror. Staging push next.",
+  "source": "daily_log 2026-06-13 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_121bad",
+    "itm_bf9516",
+    "itm_19aa74",
+    "itm_ec02e3",
+    "itm_fce9a0",
+    "itm_059d85"
+  ],
+  "keywords": [
+    "cross",
+    "domain",
+    "learnings",
+    "basement",
+    "synced",
+    "clawd",
+    "local",
+    "staging",
+    "mirror",
+    "push"
+  ],
+  "importance": 10,
+  "created": "2026-06-14T01:04:10.585121",
+  "last_accessed": "2026-06-14T01:04:10.585124",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

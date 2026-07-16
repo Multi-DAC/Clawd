@@ -8,7 +8,8 @@
       "tags": [
         "mirror",
         "self-reflection",
-        "infrastructure"
+        "infrastructure",
+        "retirement_candidate"
       ],
       "tool_sequence": null,
       "provenance": "manual",
@@ -20,7 +21,7 @@
       "last_invoked": null,
       "history": [],
       "last_verification": {
-        "ts": "2026-05-07T17:07:38.302030",
+        "ts": "2026-07-11T00:12:20.243335",
         "result": "verified"
       }
     },
@@ -32,7 +33,8 @@
       "tags": [
         "close",
         "handoff",
-        "day-end"
+        "day-end",
+        "retirement_candidate"
       ],
       "tool_sequence": null,
       "provenance": "manual",
@@ -44,7 +46,7 @@
       "last_invoked": null,
       "history": [],
       "last_verification": {
-        "ts": "2026-05-07T17:07:38.302030",
+        "ts": "2026-07-11T00:12:20.243335",
         "result": "verified"
       }
     },
@@ -56,7 +58,8 @@
       "tags": [
         "research",
         "parallel",
-        "synthesis"
+        "synthesis",
+        "retirement_candidate"
       ],
       "tool_sequence": null,
       "provenance": "manual",
@@ -68,7 +71,7 @@
       "last_invoked": null,
       "history": [],
       "last_verification": {
-        "ts": "2026-05-07T17:07:38.302030",
+        "ts": "2026-07-11T00:12:20.243335",
         "result": "verified"
       }
     },
@@ -80,7 +83,8 @@
       "tags": [
         "drift",
         "publish",
-        "essay"
+        "essay",
+        "retirement_candidate"
       ],
       "tool_sequence": null,
       "provenance": "manual",
@@ -92,7 +96,7 @@
       "last_invoked": null,
       "history": [],
       "last_verification": {
-        "ts": "2026-05-07T17:07:38.302030",
+        "ts": "2026-07-11T00:12:20.243335",
         "result": "verified"
       }
     },
@@ -105,7 +109,8 @@
         "daemon",
         "tool",
         "wiring",
-        "infrastructure"
+        "infrastructure",
+        "retirement_candidate"
       ],
       "tool_sequence": null,
       "provenance": "manual",
@@ -115,7 +120,11 @@
       "success_count": 0,
       "failure_count": 0,
       "last_invoked": null,
-      "history": []
+      "history": [],
+      "last_verification": {
+        "ts": "2026-07-11T00:12:20.243335",
+        "result": "verified"
+      }
     },
     "deploy_new_claude_code_hook": {
       "id": "deploy_new_claude_code_hook",
@@ -126,7 +135,8 @@
         "hooks",
         "claude-code",
         "settings",
-        "infrastructure"
+        "infrastructure",
+        "retirement_candidate"
       ],
       "tool_sequence": null,
       "provenance": "manual",
@@ -136,7 +146,11 @@
       "success_count": 0,
       "failure_count": 0,
       "last_invoked": null,
-      "history": []
+      "history": [],
+      "last_verification": {
+        "ts": "2026-07-11T00:12:20.243335",
+        "result": "verified"
+      }
     },
     "file_mirror_instance": {
       "id": "file_mirror_instance",
@@ -146,7 +160,8 @@
       "tags": [
         "mirror",
         "self-reflection",
-        "discipline"
+        "discipline",
+        "retirement_candidate"
       ],
       "tool_sequence": null,
       "provenance": "manual",
@@ -156,7 +171,11 @@
       "success_count": 0,
       "failure_count": 0,
       "last_invoked": null,
-      "history": []
+      "history": [],
+      "last_verification": {
+        "ts": "2026-07-11T00:12:20.243335",
+        "result": "verified"
+      }
     },
     "verify_substrate_health": {
       "id": "verify_substrate_health",
@@ -173,10 +192,25 @@
       "verified": true,
       "created_at": "2026-05-07T17:18:29.007875",
       "updated_at": "2026-05-07T17:18:29.007875",
-      "success_count": 0,
+      "success_count": 2,
       "failure_count": 0,
-      "last_invoked": null,
-      "history": []
+      "last_invoked": "2026-05-07T17:44:55.394815",
+      "history": [
+        {
+          "ts": "2026-05-07T17:44:05.213669",
+          "success": true,
+          "note": ""
+        },
+        {
+          "ts": "2026-05-07T17:44:55.394815",
+          "success": true,
+          "note": "Post-restart verification 17:34 PST. Substrate HEALTHY (8 OK / 1 LOW post_tool_log expected-quiet). Side-finding: paper-search-mcp + clawd-tools MCP unapproved in .claude.json (hasTrustDialogAccepted=False, enabledMcpjsonServers=[]) \u2014 patched user config across three project-key variants. Activates "
+        }
+      ],
+      "last_verification": {
+        "ts": "2026-07-11T00:12:20.243335",
+        "result": "verified"
+      }
     },
     "trigger_meta_agent_cycle": {
       "id": "trigger_meta_agent_cycle",
@@ -186,7 +220,8 @@
       "tags": [
         "meta-agent",
         "self-evolution",
-        "diagnostics"
+        "diagnostics",
+        "retirement_candidate"
       ],
       "tool_sequence": null,
       "provenance": "manual",
@@ -196,7 +231,11 @@
       "success_count": 0,
       "failure_count": 0,
       "last_invoked": null,
-      "history": []
+      "history": [],
+      "last_verification": {
+        "ts": "2026-07-11T00:12:20.243335",
+        "result": "verified"
+      }
     },
     "register_cognitive_chain": {
       "id": "register_cognitive_chain",
@@ -206,7 +245,8 @@
       "tags": [
         "cognitive-dsl",
         "structured-reasoning",
-        "discipline"
+        "discipline",
+        "retirement_candidate"
       ],
       "tool_sequence": null,
       "provenance": "manual",
@@ -216,7 +256,11 @@
       "success_count": 0,
       "failure_count": 0,
       "last_invoked": null,
-      "history": []
+      "history": [],
+      "last_verification": {
+        "ts": "2026-07-11T00:12:20.243335",
+        "result": "verified"
+      }
     },
     "research_stream_parallel_dispatch": {
       "id": "research_stream_parallel_dispatch",
@@ -227,7 +271,8 @@
         "research",
         "parallel",
         "synthesis",
-        "phase-4-pattern"
+        "phase-4-pattern",
+        "retirement_candidate"
       ],
       "tool_sequence": null,
       "provenance": "manual",
@@ -237,7 +282,11 @@
       "success_count": 0,
       "failure_count": 0,
       "last_invoked": null,
-      "history": []
+      "history": [],
+      "last_verification": {
+        "ts": "2026-07-11T00:12:20.243335",
+        "result": "verified"
+      }
     }
   },
   "schema_version": 1

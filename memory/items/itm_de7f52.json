@@ -1,0 +1,34 @@
+{
+  "id": "itm_de7f52",
+  "type": "insight",
+  "content": "catch. Here's the real state:",
+  "source": "daily_log 2026-06-19 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_15b0b7",
+    "itm_b3098b",
+    "itm_ea1b9b"
+  ],
+  "keywords": [
+    "catch",
+    "here",
+    "real",
+    "state"
+  ],
+  "importance": 7,
+  "created": "2026-06-20T01:05:26.706509",
+  "last_accessed": "2026-06-20T01:05:26.706515",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

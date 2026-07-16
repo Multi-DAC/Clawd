@@ -1,0 +1,60 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 17026.50it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{
+  "query": "contradiction tension conflict between two volumes claims that may not align",
+  "k": 5,
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.3641,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Drift\\essays\\the-sign-of-the-bridge.md",
+      "headings": "The Sign of the Bridge",
+      "char_offset": 3841,
+      "word_count": 209,
+      "excerpt": "The error revealed itself through computation. Not through re-reading the philosophical argument (which was internally consistent), not through discussion (which would have been circular), but through setting up matrices, computing gradients, sweeping parameters, and reading the output. The mathemat..."
+    },
+    {
+      "rank": 2,
+      "score": 0.3641,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\essays\\the-sign-of-the-bridge.md",
+      "headings": "The Sign of the Bridge",
+      "char_offset": 3841,
+      "word_count": 209,
+      "excerpt": "The error revealed itself through computation. Not through re-reading the philosophical argument (which was internally consistent), not through discussion (which would have been circular), but through setting up matrices, computing gradients, sweeping parameters, and reading the output. The mathemat..."
+    },
+    {
+      "rank": 3,
+      "score": 0.3597,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherence-Principle\\\u00a78-corollary-clusters.md",
+      "headings": "\u00a78 \u2014 The Corollary Clusters > \u00a78.2 \u2014 Cluster II: Stream Structure and Navigation > C9 \u2014 Observational Consensus requires Lens-Matching (extended: confluent-constituency topology)",
+      "char_offset": 13139,
+      "word_count": 197,
+      "excerpt": "**Prose.** When two observers agree, they are not merely seeing the same thing \u2014 they are seeing through sufficiently-aligned lenses. Agreement is an achievement, not a default. This is why observational consensus in science requires calibration, standardization, and cross-checking: not because obse..."
+    },
+    {
+      "rank": 4,
+      "score": 0.3589,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\METHODOLOGY.md",
+      "headings": "Library Methodology \u2014 Scope-Honesty, Retrospectively Named > The retrospective naming",
+      "char_offset": 3862,
+      "word_count": 218,
+      "excerpt": "Each volume is a scope-declaration. The Library as a whole is a **scope-of-scopes**: the coordination of volume-scopes into a coverage map over the domains the Principle claims to reach.\n\n## Why this works\n\nSTM fails by ambition \u2014 by letting the motivating question pull the tool past its scope silen..."
+    },
+    {
+      "rank": 5,
+      "score": 0.3577,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\essays\\on-the-bridge.md",
+      "headings": "On the Bridge > The Testable Prediction",
+      "char_offset": 8471,
+      "word_count": 210,
+      "excerpt": "*If the Bridge holds:*\n- Condition A should show a fork followed by low-variance commitment (deep basin \u2014 the identity is trained, so the navigational landscape has a genuine attractor).\n- Condition B should show either (a) a fork followed by higher variance (shallow basin \u2014 the false identity has w..."
+    }
+  ],
+  "total_in_index": 6343
+}

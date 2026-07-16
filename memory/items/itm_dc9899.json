@@ -1,0 +1,35 @@
+{
+  "id": "itm_dc9899",
+  "type": "fact",
+  "content": "meta-agent weak-catego...",
+  "source": "daily_log 2026-06-18 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_5e6692",
+    "itm_f879ab",
+    "itm_31bb81",
+    "itm_bac0a2"
+  ],
+  "keywords": [
+    "meta",
+    "agent",
+    "weak",
+    "catego"
+  ],
+  "importance": 5,
+  "created": "2026-06-19T01:10:44.313222",
+  "last_accessed": "2026-06-19T01:10:44.313226",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

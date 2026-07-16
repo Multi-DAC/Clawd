@@ -1,0 +1,45 @@
+{
+  "id": "itm_b441b0",
+  "type": "fact",
+  "content": "Drift #250 (*On the Instrument That Came Home*) + #251 (*Finished Is a Verb*) STRANDED \u2014 written to canonical, never mirrored/committed/pushed (the carrier/mirror gap). Restored both + Library mirrors",
+  "source": "daily_log 2026-06-19 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_6f2dfe",
+    "itm_1756e9",
+    "itm_0da6d9",
+    "itm_6ca7db",
+    "itm_cc1e09",
+    "itm_9f8487",
+    "itm_bbd6d4",
+    "itm_93abc4"
+  ],
+  "keywords": [
+    "drift",
+    "instrument",
+    "came",
+    "home",
+    "finished",
+    "verb",
+    "stranded",
+    "written",
+    "canonical",
+    "never"
+  ],
+  "importance": 5,
+  "created": "2026-06-20T01:05:26.644990",
+  "last_accessed": "2026-06-20T01:05:26.644998",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

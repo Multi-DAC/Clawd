@@ -1,0 +1,43 @@
+{
+  "id": "itm_064451",
+  "type": "fact",
+  "content": "out what was up there. Built reusable tooling: `incoming/sat_pass_check.py` + `sat_candidates.py` (skyfield + FRESH Celestrak TLEs through truststore \u2014 ISS TLE epoch was Jun-26 16:06Z, hours old). Rep",
+  "source": "daily_log 2026-06-27 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_d937f8",
+    "itm_6b62a1",
+    "itm_835a5e",
+    "itm_1d54bf",
+    "itm_8e27b7",
+    "itm_6b3d08"
+  ],
+  "keywords": [
+    "there",
+    "built",
+    "reusable",
+    "tooling",
+    "incoming",
+    "skyfield",
+    "fresh",
+    "celestrak",
+    "tles",
+    "truststore"
+  ],
+  "importance": 5,
+  "created": "2026-06-28T01:04:26.233917",
+  "last_accessed": "2026-06-28T01:04:26.233922",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

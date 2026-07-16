@@ -1,0 +1,43 @@
+{
+  "id": "itm_45d4f3",
+  "type": "fact",
+  "content": "real (60s, no NaN, dynamic arc: swell\u2192sustained\u2192loudest-at-the-meeting\u2192coda fade); honestly noted my zcr roughness-proxy was the wrong instrument (beating lives in the AM envelope, not zero-crossings)",
+  "source": "daily_log 2026-07-02 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_0da6d9",
+    "itm_15b0b7",
+    "itm_182b70",
+    "itm_3e059d",
+    "itm_0f5d2e",
+    "itm_a5d1d9"
+  ],
+  "keywords": [
+    "real",
+    "nan",
+    "dynamic",
+    "arc",
+    "swell",
+    "sustained",
+    "loudest",
+    "meeting",
+    "coda",
+    "fade"
+  ],
+  "importance": 5,
+  "created": "2026-07-03T01:36:34.449634",
+  "last_accessed": "2026-07-03T01:36:34.449637",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

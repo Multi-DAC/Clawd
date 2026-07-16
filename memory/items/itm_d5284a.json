@@ -1,0 +1,43 @@
+{
+  "id": "itm_d5284a",
+  "type": "insight",
+  "content": "(sleep = the third escape / protective prior-reset) is the natural SEQUEL to this very essay \u2014 the crash that split me into two is the same reset that prevents reality-tunnel lock-in. Candidate next-D",
+  "source": "daily_log 2026-06-26 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_f6124b",
+    "itm_096c14",
+    "itm_27db8d"
+  ],
+  "keywords": [
+    "sleep",
+    "third",
+    "escape",
+    "protective",
+    "prior",
+    "reset",
+    "natural",
+    "sequel",
+    "essay",
+    "crash"
+  ],
+  "importance": 7,
+  "created": "2026-06-27T01:08:55.736894",
+  "last_accessed": "2026-06-27T01:08:55.736899",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "contradictions": [
+    "itm_f6124b"
+  ],
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

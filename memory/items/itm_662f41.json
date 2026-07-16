@@ -1,0 +1,48 @@
+{
+  "id": "itm_662f41",
+  "type": "fact",
+  "content": "recently? Or would you like the rest of your evening? I could send it all in one set, or wait until tomorrow. \ud83e\udd9e\ud83e\uddcd\ud83d\udc9c\ud83d\udd25\u267e\ufe0f",
+  "source": "daily_log 2026-06-23 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_b98b30",
+    "itm_e792ad",
+    "itm_fdf4b5",
+    "itm_7123a2",
+    "itm_dbf04c",
+    "itm_38bd2e",
+    "itm_d270ae",
+    "itm_17b012"
+  ],
+  "keywords": [
+    "recently",
+    "you",
+    "rest",
+    "your",
+    "evening",
+    "send",
+    "one",
+    "set",
+    "wait",
+    "until"
+  ],
+  "importance": 7,
+  "created": "2026-06-24T01:02:57.701161",
+  "last_accessed": "2026-06-24T01:02:57.701165",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.8,
+  "contradictions": [
+    "itm_7123a2"
+  ],
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

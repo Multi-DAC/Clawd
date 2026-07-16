@@ -1,0 +1,40 @@
+{
+  "id": "itm_8c820b",
+  "type": "insight",
+  "content": "for the Tuesday VQ test; deploy the peak best.pt). Humbled in the good way \u2014 the lesson lands at finer grain each time, and catching it *is* the practice.",
+  "source": "daily_log 2026-06-07 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_0469ed",
+    "itm_121bad",
+    "itm_3d09f6"
+  ],
+  "keywords": [
+    "tuesday",
+    "test",
+    "deploy",
+    "peak",
+    "best",
+    "humbled",
+    "good",
+    "way",
+    "lesson",
+    "lands"
+  ],
+  "importance": 1,
+  "created": "2026-06-10T17:41:14.955048",
+  "last_accessed": "2026-06-10T17:41:14.955050",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

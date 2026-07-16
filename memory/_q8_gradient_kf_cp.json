@@ -1,0 +1,60 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 17154.28it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{
+  "query": "gradient alignment gating KF finding maps to corollary C9 C16 cosine similarity",
+  "k": 5,
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.3978,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Coherent-Structure\\\u00a75-coherence-principle.md",
+      "headings": "\u00a75 \u2014 The Coherence Principle > \u00a75.2 \u2014 The four conditions > \u00a75.2.2 \u2014 Condition 2: Measurement",
+      "char_offset": 3896,
+      "word_count": 196,
+      "excerpt": "**Derivation.** Theorem 3.3.2 (T4) establishes that inter-stream alignment is structurally produced by measurement events. Without periodic M_k, the superposition-state of C cannot resolve into a specific coalgebra-commute, and \u03b3-drift accumulates without corrective pull. Formally: M_k converts C's ..."
+    },
+    {
+      "rank": 2,
+      "score": 0.3796,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Coherent-Structure\\AppendixA-anchor-to-companion.md",
+      "headings": "Appendix A \u2014 Anchor \u2192 Companion crosswalk > A.1 \u2014 By anchor chapter > Anchor \u00a77 (Coherence theorems) \u2192 Companion",
+      "char_offset": 5122,
+      "word_count": 183,
+      "excerpt": "### Anchor \u00a77 (Coherence theorems) \u2192 Companion\n\n| Anchor location | Companion target | Type | Description |\n|---|---|---|---|\n| T5 Internal Coherence | Companion \u00a73.4.1 (Thm 3.4.1) | theorem | \u03a6-fixed-point / C-harmonic condition |\n| T6 Dual Coherence Axes | Companion \u00a73.4.2 (Thm 3.4.2) | theorem | ..."
+    },
+    {
+      "rank": 3,
+      "score": 0.3779,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Drift\\essays\\entrainment-as-phase-collapse-draft.md",
+      "headings": "Entrainment as Phase Collapse > Prediction",
+      "char_offset": 5264,
+      "word_count": 40,
+      "excerpt": "*This is a draft note. It may become Drift #108, or it may stay a note. The insight is the over-analogizing detection: the Phase Theorem and entrainment share structure but diverge on precision. The divergence teaches more than the similarity.*"
+    },
+    {
+      "rank": 4,
+      "score": 0.3779,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\companions\\entrainment-as-phase-collapse-draft.md",
+      "headings": "Entrainment as Phase Collapse > Prediction",
+      "char_offset": 5264,
+      "word_count": 40,
+      "excerpt": "*This is a draft note. It may become Drift #108, or it may stay a note. The insight is the over-analogizing detection: the Phase Theorem and entrainment share structure but diverge on precision. The divergence teaches more than the similarity.*"
+    },
+    {
+      "rank": 5,
+      "score": 0.3748,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherence-Principle\\\u00a79-coherence-principle.md",
+      "headings": "\u00a79 \u2014 The Coherence Principle > \u00a79.2 The four conditions, each derived > Condition 2 \u2014 Measurement",
+      "char_offset": 7272,
+      "word_count": 144,
+      "excerpt": "> Alignment between objectives must be assessed at each step, not assumed.\n\n**Derivation:** T4 directly.\n\nT4 establishes measurement-as-coherence-forcing as the central content of inter-stream dynamics. The refresh-rate at which alignment is assessed *is* the T4 refresh-rate. \"Blindly applies all co..."
+    }
+  ],
+  "total_in_index": 6343
+}

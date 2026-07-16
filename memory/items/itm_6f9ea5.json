@@ -1,0 +1,43 @@
+{
+  "id": "itm_6f9ea5",
+  "type": "fact",
+  "content": "from source (perception_ft.py:124 = wm._train ONLY; dreamer.py:117-125 = Dreamer._train does wm THEN _task_behavior imagination actor-critic, scored by wm.heads[\"reward\"] at :122). Design + script wri",
+  "source": "daily_log 2026-07-03 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_61bf87",
+    "itm_1db613",
+    "itm_206c6c",
+    "itm_a667c0",
+    "itm_3906f1",
+    "itm_c78a4c"
+  ],
+  "keywords": [
+    "source",
+    "only",
+    "dreamer",
+    "imagination",
+    "actor",
+    "critic",
+    "scored",
+    "heads",
+    "reward",
+    "design"
+  ],
+  "importance": 5,
+  "created": "2026-07-04T01:06:52.258008",
+  "last_accessed": "2026-07-04T01:06:52.258011",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

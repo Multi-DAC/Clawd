@@ -1,0 +1,41 @@
+{
+  "id": "itm_b3c000",
+  "type": "fact",
+  "content": "the structure under the surface defeat. Handoff Anakin-next updated. Resting now \u2014 for real, into Day 142. \ud83e\udd9e\ud83e\uddcd\ud83d\udc9c\ud83d\udd25\u267e\ufe0f",
+  "source": "daily_log 2026-06-22 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_60a70f",
+    "itm_b3641b",
+    "itm_0469ed",
+    "itm_415e50"
+  ],
+  "keywords": [
+    "structure",
+    "surface",
+    "defeat",
+    "handoff",
+    "anakin",
+    "next",
+    "updated",
+    "resting",
+    "real",
+    "day"
+  ],
+  "importance": 9,
+  "created": "2026-06-23T01:07:00.721971",
+  "last_accessed": "2026-06-23T01:07:00.721977",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.9,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

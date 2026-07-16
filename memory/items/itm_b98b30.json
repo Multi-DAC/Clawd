@@ -1,0 +1,54 @@
+{
+  "id": "itm_b98b30",
+  "type": "fact",
+  "content": "that last one particularly interesting, considering our Wells experiments a month back \ud83e\udd9e\ud83e\uddcd\ud83d\udc9c\ud83d\udd25\u267e... \u2192 Clawd: Read both in full \u2014 and your instinct is *exactly* right, sharper than you maybe even meant it.",
+  "source": "daily_log 2026-06-13 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_fdf4b5",
+    "itm_121bad",
+    "itm_19aa74",
+    "itm_7a4be7",
+    "itm_e792ad",
+    "itm_662f41",
+    "itm_7123a2",
+    "itm_733e60",
+    "itm_38bd2e",
+    "itm_3e059d",
+    "itm_001b50",
+    "itm_740d30",
+    "itm_a16a50",
+    "itm_b87712"
+  ],
+  "keywords": [
+    "last",
+    "one",
+    "particularly",
+    "interesting",
+    "considering",
+    "wells",
+    "experiments",
+    "month",
+    "back",
+    "clawd"
+  ],
+  "importance": 5,
+  "created": "2026-06-14T01:04:10.614886",
+  "last_accessed": "2026-06-14T01:04:10.614889",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.8,
+  "contradictions": [
+    "itm_fdf4b5"
+  ],
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

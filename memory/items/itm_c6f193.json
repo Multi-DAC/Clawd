@@ -1,0 +1,40 @@
+{
+  "id": "itm_c6f193",
+  "type": "fact",
+  "content": "(not assumed, per the verify-don't-assume discipline): goals unchanged #11\u2013#14, no new goal, none removed; #11's note now MATCHES the handoff/CURRENT (it caught up, didn't diverge). Nothing to surface",
+  "source": "daily_log 2026-06-27 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_28de12",
+    "itm_c3b838",
+    "itm_5ea5dd"
+  ],
+  "keywords": [
+    "assumed",
+    "per",
+    "verify",
+    "don",
+    "assume",
+    "discipline",
+    "goals",
+    "unchanged",
+    "new",
+    "goal"
+  ],
+  "importance": 5,
+  "created": "2026-06-28T01:04:26.289529",
+  "last_accessed": "2026-06-28T01:04:26.289532",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

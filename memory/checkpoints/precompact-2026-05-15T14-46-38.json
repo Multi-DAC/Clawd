@@ -1,0 +1,14 @@
+{
+  "compacted_at": "2026-05-15T14:46:38.337090",
+  "timestamp": "2026-05-15T14-46-38",
+  "hook_event": "PreCompact",
+  "session_id": "test-session",
+  "transcript_path": "/test",
+  "cwd": "/test",
+  "raw_input": {
+    "hook_event_name": "PreCompact",
+    "session_id": "test-session",
+    "transcript_path": "/test",
+    "cwd": "/test"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "itm_7adc52",
+  "type": "fact",
+  "content": "to stop crashing; whether chaining vs hovering is the unanswerable-till-batch-2-best rehearsal question).",
+  "source": "daily_log 2026-06-21 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_bd4c00",
+    "itm_0da6d9",
+    "itm_f2d10a",
+    "itm_bfe7fb"
+  ],
+  "keywords": [
+    "stop",
+    "crashing",
+    "whether",
+    "chaining",
+    "hovering",
+    "unanswerable",
+    "till",
+    "batch",
+    "best",
+    "rehearsal"
+  ],
+  "importance": 5,
+  "created": "2026-06-22T01:00:05.512702",
+  "last_accessed": "2026-06-22T01:00:05.512705",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

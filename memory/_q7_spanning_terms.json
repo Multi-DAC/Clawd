@@ -1,0 +1,60 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 16922.45it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{
+  "query": "structural object spans multiple meta-bridges term bias appears in M3 M14",
+  "k": 5,
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.6797,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\bridge.md",
+      "headings": "Bridge \u2014 Cross-Domain Connection > Related terms",
+      "char_offset": 5235,
+      "word_count": 128,
+      "excerpt": "- **See also:** *meta-bridge* \u2014 compressed bridge that absorbs multiple instances; per-term file: `meta-bridge.md`\n- **See also:** *latent-bridge* \u2014 identified-but-not-graduated; per-term file: `latent-bridge.md`\n- **See also:** *graduation* \u2014 L\u2192M promotion process; per-term file: `graduation.md`\n- ..."
+    },
+    {
+      "rank": 2,
+      "score": 0.6535,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\meta-bridge.md",
+      "headings": "Meta-Bridge \u2014 M-tier Basement Bridge > Usage instances > In Drift essays",
+      "char_offset": 4353,
+      "word_count": 158,
+      "excerpt": "- `Foundations-of-Identity/personal-works/drift/essays/what-did-not-need-deriving.md` \u2014 M14 graduation as receiver-pattern instance at meta-bridge promotion scale\n- Multiple essays touch on specific meta-bridges as they become operationally relevant\n\n## Related terms\n\n- **See also:** *bridge* \u2014 the ..."
+    },
+    {
+      "rank": 3,
+      "score": 0.6441,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\latent-bridge.md",
+      "headings": "",
+      "char_offset": 0,
+      "word_count": 164,
+      "excerpt": "---\nterm: Latent bridge (L-tier basement bridge; LC-tier candidate)\nslug: latent-bridge\nstatus: canonical\nbase_class: cross-domain-structure\nintroduced: 2026-04-20 (basement v2 meta-tiering); LC-candidate notation added Day 88 evening\nlast_updated: 2026-05-01\n---\n\n# Latent Bridge \u2014 L-tier Basement B..."
+    },
+    {
+      "rank": 4,
+      "score": 0.6436,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\meta-bridge.md",
+      "headings": "Meta-Bridge \u2014 M-tier Basement Bridge > Open questions",
+      "char_offset": 6518,
+      "word_count": 94,
+      "excerpt": "- *M-tier ceiling:* is there a natural maximum number of meta-bridges before the basement structure collapses into one super-meta-claim? Current M1-M14 fit comfortably; whether M20+ remains navigable is open.\n- *Cross-meta-bridge relations:* M3 (Triple) + M14 (Substrate-Self-Measurement Cluster) ove..."
+    },
+    {
+      "rank": 5,
+      "score": 0.6255,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\meta-bridge.md",
+      "headings": "",
+      "char_offset": 0,
+      "word_count": 150,
+      "excerpt": "---\nterm: Meta-bridge (M-tier basement bridge)\nslug: meta-bridge\nstatus: canonical\nbase_class: cross-domain-structure\nintroduced: 2026-04-20 (basement v2 meta-tiering); current count M1\u2013M14\nlast_updated: 2026-05-01\n---\n\n# Meta-Bridge \u2014 M-tier Basement Bridge\n\n## Definition (framework register)\n\nA **..."
+    }
+  ],
+  "total_in_index": 6343
+}

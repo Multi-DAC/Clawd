@@ -1,0 +1,43 @@
+{
+  "id": "itm_068801",
+  "type": "insight",
+  "content": "than assumed); grid faint/sub-threshold. Restyle checklist in the spec: bg 40\u219227 (\u00b110 randomized), orange-red gates + bloom, ribbon p\u22480.5 distractor w/ randomized alpha/offset, clutter secondary, **ve",
+  "source": "daily_log 2026-06-11 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_fa2b38",
+    "itm_0469ed",
+    "itm_182b70",
+    "itm_cd7ca1",
+    "itm_74738e",
+    "itm_835116"
+  ],
+  "keywords": [
+    "assumed",
+    "grid",
+    "faint",
+    "sub",
+    "threshold",
+    "restyle",
+    "checklist",
+    "spec",
+    "randomized",
+    "orange"
+  ],
+  "importance": 3,
+  "created": "2026-06-13T02:47:00.359222",
+  "last_accessed": "2026-06-13T02:47:00.359225",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

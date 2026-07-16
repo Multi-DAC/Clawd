@@ -1,0 +1,31 @@
+# Secrets — never
+.env
+*.env
+.secrets/
+*.gcm
+dpapi_store/
+# Runtime / caches / heavy
+*.db
+.search_index/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+node_modules/
+_site/
+.jekyll-cache/
+memory/nostalgia/
+memory/telegram-history.json
+memory/conversations/
+
+# Heavy / runtime / backups — NOT part of the self (regenerable or circular)
+memory/backups/
+memory/chroma_corpus/
+memory/precompact_snapshots/
+memory/browser_screenshots/
+memory/*.jsonl
+memory/*.pid
+memory/*.state.json
+memory/monitor_*
+memory/otel_*

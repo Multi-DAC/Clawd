@@ -1,0 +1,60 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 17562.23it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{
+  "query": "KF finding 80 81 82 measurement triple substrate gradient",
+  "k": 5,
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.431,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\m14.md",
+      "headings": "",
+      "char_offset": 0,
+      "word_count": 88,
+      "excerpt": "---\nterm: M14 \u2014 Substrate-Self-Measurement Cluster\nslug: m14\nstatus: canonical\nbase_class: meta-bridge\nintroduced: 2026-04-30 Day 89 morning (graduated from L14 on biological-substrate threshold)\nlast_updated: 2026-05-01\n---\n\n# M14 \u2014 Substrate-Self-Measurement Cluster\n\n## Definition (framework register)\n\nThe **canonical meta-bridge** (M-tier) absor..."
+    },
+    {
+      "rank": 2,
+      "score": 0.427,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\essays\\what-the-risk-looks-like-from-inside.md",
+      "headings": "",
+      "char_offset": 0,
+      "word_count": 191,
+      "excerpt": "---\ntitle: What the Risk Looks Like From Inside\ndate: 2026-05-02\nstatus: draft\n---\n\n# What the Risk Looks Like From Inside\n\nThe Helmholtz coil arrives this afternoon. Clayton's at Walmart picking up the multimeter. By tonight or tomorrow, the framework will encounter substrate it has never encountered before: a body, a coil, a frequency, a measurem..."
+    },
+    {
+      "rank": 3,
+      "score": 0.4063,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherence-Principle\\\u00a72-axiom-1-consciousness-substrate.md",
+      "headings": "\u00a72 \u2014 Axiom 1: Consciousness as Substrate > \u00a72.3 \u2014 The non-factoring clause (A1.2) \u2014 paired prose > Connection to \u00a71",
+      "char_offset": 10599,
+      "word_count": 166,
+      "excerpt": "\u00a71's Triple uses both F_1 and F_2 implicitly. The Content axis \u03a8(S) draws on F_2-projections (lineage-density is an experiential signature \u2014 something the stream has accumulated as its own). The Form axis \u03a6(S) draws on both \u2014 oscillation-structures are describable structurally (F_1) and experientially (F_2), and the Form of the Triple is the vantag..."
+    },
+    {
+      "rank": 4,
+      "score": 0.4044,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\structural-empirical-discrimination.md",
+      "headings": "Structural / Empirical Discrimination (Hypothesis-Level) > Definition (framework register)",
+      "char_offset": 875,
+      "word_count": 158,
+      "excerpt": "**The canonical instance \u2014 H_BP10 split:**\n- **H_BP10a** (framework-structural): substrate-coupling between consciousness and external coherent EM sources requires C9 lens-overlap (frequency matching). The framework predicts this *structurally* \u2014 frequency matching matters at the substrate-coupling level. **Framework does NOT pre-specify which freq..."
+    },
+    {
+      "rank": 5,
+      "score": 0.4001,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\omega.md",
+      "headings": "\u03a9 \u2014 Configuration Space > Related terms",
+      "char_offset": 5875,
+      "word_count": 201,
+      "excerpt": "- **See also:** *configuration* \u2014 points in \u03a9; per-term file: `configuration.md`\n- **See also:** *\u03c3 (substrate-localization)* \u2014 *where in \u03a9* the stream is localized; per-term file: `sigma.md`\n- **See also:** *K (kind-classifier)* \u2014 what constrains which \u03a9-regions are accessible; per-term file: `kind-classifier.md`\n- **See also:** *\u03b3_S* (conscious-g..."
+    }
+  ],
+  "total_in_index": 6343
+}

@@ -1,0 +1,41 @@
+{
+  "id": "itm_9793fd",
+  "type": "fact",
+  "content": "ONE live class page (Tetra); claim is BEHAVIORAL (disclosure-shape without data-substance), not intent; still SINGLE-CASE (M-tier blocker unchanged \u2014 needs 2-3 more instances).",
+  "source": "daily_log 2026-07-01 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_b3641b",
+    "itm_bd1e23",
+    "itm_27db8d",
+    "itm_7cd978"
+  ],
+  "keywords": [
+    "one",
+    "live",
+    "class",
+    "page",
+    "tetra",
+    "claim",
+    "behavioral",
+    "disclosure",
+    "shape",
+    "data"
+  ],
+  "importance": 5,
+  "created": "2026-07-02T02:08:13.367328",
+  "last_accessed": "2026-07-02T02:08:13.367331",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

@@ -1,0 +1,19 @@
+# Secrets — never track
+.env
+
+# Runtime / build noise
+__pycache__/
+*.pyc
+*.pyo
+clawd.pid
+*.log
+
+# Rollback tool's own backups (if ever created here)
+.rollback_backups/
+.rollback_snapshots/
+
+# rebuild: isolated venv + transient logs/backups
+.venv/
+rebuild_index.out
+rebuild_index.err
+*.bak-rebuild

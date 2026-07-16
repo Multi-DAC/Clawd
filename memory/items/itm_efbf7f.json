@@ -1,0 +1,27 @@
+{
+  "id": "itm_efbf7f",
+  "type": "decision",
+  "content": "more than the titles did:",
+  "source": "daily_log 2026-06-27 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [],
+  "keywords": [
+    "titles"
+  ],
+  "importance": 6,
+  "created": "2026-06-28T01:04:26.358063",
+  "last_accessed": "2026-06-28T01:04:26.358066",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

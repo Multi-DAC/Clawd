@@ -1,0 +1,36 @@
+{
+  "id": "itm_305f2e",
+  "type": "insight",
+  "content": "for a specific reason: it **resolves the A165 caveat I flagged on Fable....",
+  "source": "daily_log 2026-07-10 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_216e17",
+    "itm_8b5b56",
+    "itm_8e27b7"
+  ],
+  "keywords": [
+    "specific",
+    "reason",
+    "resolves",
+    "caveat",
+    "flagged",
+    "fable"
+  ],
+  "importance": 7,
+  "created": "2026-07-11T02:42:35.439862",
+  "last_accessed": "2026-07-11T02:42:35.439865",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

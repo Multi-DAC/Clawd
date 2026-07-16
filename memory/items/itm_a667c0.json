@@ -1,0 +1,41 @@
+{
+  "id": "itm_a667c0",
+  "type": "insight",
+  "content": "(at-edge, model-based RL):** re-coupling a decoupled actor to a perception-fine-tuned WM needs NO new sim data and NO env-in-the-actor-loop \u2014 DreamerV3 trains the actor in IMAGINATION (latent rollouts",
+  "source": "daily_log 2026-07-03 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_6f9ea5",
+    "itm_096c14",
+    "itm_1f87e1",
+    "itm_17b012"
+  ],
+  "keywords": [
+    "edge",
+    "model",
+    "based",
+    "coupling",
+    "decoupled",
+    "actor",
+    "perception",
+    "fine",
+    "tuned",
+    "needs"
+  ],
+  "importance": 7,
+  "created": "2026-07-04T01:06:52.275061",
+  "last_accessed": "2026-07-04T01:06:52.275064",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

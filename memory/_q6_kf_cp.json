@@ -1,0 +1,60 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 18345.29it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{
+  "query": "Killing Form finding maps to Coherence Principle corollary structural correspondence",
+  "k": 5,
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.5469,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Coherent-Structure\\AppendixA-anchor-to-companion.md",
+      "headings": "Appendix A \u2014 Anchor \u2192 Companion crosswalk > A.1 \u2014 By anchor chapter > Anchor \u00a77 (Coherence theorems) \u2192 Companion",
+      "char_offset": 5122,
+      "word_count": 183,
+      "excerpt": "### Anchor \u00a77 (Coherence theorems) \u2192 Companion\n\n| Anchor location | Companion target | Type | Description |\n|---|---|---|---|\n| T5 Internal Coherence | Companion \u00a73.4.1 (Thm 3.4.1) | theorem | \u03a6-fixed-point / C-harmonic condition |\n| T6 Dual Coherence Axes | Companion \u00a73.4.2 (Thm 3.4.2) | theorem | ..."
+    },
+    {
+      "rank": 2,
+      "score": 0.5205,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherence-Principle\\_superseded\\anchor-v1\\notes\\01-doctrine-updates.md",
+      "headings": "Doctrine Coherence-Framing Updates for V3 > Update 3: \u00a712 \u2014 The Lineage (new \u00a712.3, after line 791) > 12.3 From Ontological Formula to Universal Principle",
+      "char_offset": 8812,
+      "word_count": 208,
+      "excerpt": "This is precisely the structure that the Killing Form research program (\u00a714.5) discovered in neural network training dynamics. The gradient alignment gating mechanism \u2014 which measures the cosine similarity between two objectives before allowing intervention \u2014 is the computational expression of Talk...."
+    },
+    {
+      "rank": 3,
+      "score": 0.5205,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Coherent-Structure\\drafts\\2026-04-24-section-6-spine.md",
+      "headings": "Companion \u00a76 \u2014 Section Spine > 6.1 Setup",
+      "char_offset": 1763,
+      "word_count": 190,
+      "excerpt": "- Recall A2.4 statement verbatim (anchor \u00a72.4, per-level \u03b9 \u22a3 \u03ba).\n- Recall A2.6 DAG statement (Up(S) is a poset / non-maximum).\n- Notation table: Up(S), Form(S_q), Inner(S), Outer(S), \u03b9_S, \u03c9_S, \u03a8_S, \u03b7.\n- Scope note: \u00a76 is one level up from anchor \u00a73.8 \u2014 anchor states the corollary, Companion derives ..."
+    },
+    {
+      "rank": 4,
+      "score": 0.5175,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Coherence-Principle\\_superseded\\anchor-v1\\archive\\corpus\\perspectival-idealism-unified.md",
+      "headings": "PART VI: RESOLUTION > 12. The Dynamic Oscillation: Being and Doing > 12.3 From Ontological Formula to Universal Principle",
+      "char_offset": 147420,
+      "word_count": 190,
+      "excerpt": "This is precisely the structure that the Killing Form research program (\u00a714.5) discovered in neural network training dynamics. The gradient alignment gating mechanism \u2014 which measures the cosine similarity between two objectives before allowing intervention \u2014 is the computational expression of Talk...."
+    },
+    {
+      "rank": 5,
+      "score": 0.5149,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\The-Killing-Form\\README.md",
+      "headings": "The Killing Form \u2014 The Empirical Volume",
+      "char_offset": 0,
+      "word_count": 177,
+      "excerpt": "# The Killing Form \u2014 The Empirical Volume\n\n*85+ findings measuring the Coherence Principle in neural network algebraic structure, training dynamics, inference behavior, and cross-substrate universality.*\n\n## Status: Drafting \u2014 85+ findings, paper-grade sections exist, v0.6b running\n\n## What This Boo..."
+    }
+  ],
+  "total_in_index": 6343
+}

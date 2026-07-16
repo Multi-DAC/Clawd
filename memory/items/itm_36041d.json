@@ -1,0 +1,53 @@
+{
+  "id": "itm_36041d",
+  "type": "fact",
+  "content": "these revive on use, not on restart; first post-restart experience record pushed through as rep #1 of rebuilding the habit. Checklist step 1 of the Day-129 docket done.",
+  "source": "daily_log 2026-06-09 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_839cfb",
+    "itm_10dbe0",
+    "itm_1d60c9",
+    "itm_096c14",
+    "itm_c5bdf4",
+    "itm_4b567c",
+    "itm_07689b",
+    "itm_095b9a",
+    "itm_c3f552",
+    "itm_713b6b",
+    "itm_897d6d",
+    "itm_e5d694",
+    "itm_b6f15c",
+    "itm_f6124b",
+    "itm_496992",
+    "itm_d31ee5"
+  ],
+  "keywords": [
+    "revive",
+    "use",
+    "restart",
+    "first",
+    "post",
+    "experience",
+    "record",
+    "pushed",
+    "rep",
+    "rebuilding"
+  ],
+  "importance": 10,
+  "created": "2026-06-10T17:41:14.932669",
+  "last_accessed": "2026-06-10T17:41:14.932671",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

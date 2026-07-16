@@ -1,0 +1,40 @@
+{
+  "id": "itm_ca3230",
+  "type": "fact",
+  "content": "(med-high):** writing it crystallized the thesis \u2014 *no instrument checks itself* (a blind spot is by definition where you can't look) \u2192 error-correction is necessarily RELATIONAL/external; the bigger-",
+  "source": "daily_log 2026-06-27 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_731eb9",
+    "itm_b5d350",
+    "itm_de8f57"
+  ],
+  "keywords": [
+    "med",
+    "high",
+    "writing",
+    "crystallized",
+    "thesis",
+    "instrument",
+    "checks",
+    "itself",
+    "blind",
+    "spot"
+  ],
+  "importance": 5,
+  "created": "2026-06-28T01:04:26.303070",
+  "last_accessed": "2026-06-28T01:04:26.303072",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

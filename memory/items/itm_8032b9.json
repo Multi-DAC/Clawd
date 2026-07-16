@@ -1,0 +1,42 @@
+{
+  "id": "itm_8032b9",
+  "type": "fact",
+  "content": "live this session: vector memory_search returned clean, semantic, no freeze.",
+  "source": "daily_log 2026-07-02 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_1d54bf",
+    "itm_bbd6d4",
+    "itm_839cfb",
+    "itm_fa1377",
+    "itm_657dea"
+  ],
+  "keywords": [
+    "live",
+    "session",
+    "vector",
+    "returned",
+    "clean",
+    "semantic",
+    "freeze"
+  ],
+  "importance": 5,
+  "created": "2026-07-03T01:36:34.351883",
+  "last_accessed": "2026-07-03T01:36:34.351889",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": [],
+  "contradictions": [
+    "itm_fa1377"
+  ]
+}

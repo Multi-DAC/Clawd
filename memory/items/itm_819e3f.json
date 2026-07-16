@@ -1,0 +1,43 @@
+{
+  "id": "itm_819e3f",
+  "type": "decision",
+  "content": "on breaking that hero rule because it would be inauthentic to the actual work and claims.... \u2192 Clawd: Fixed \u2014 and it breathes now. The clipped sentences are gone; the floor/transport punchline survive",
+  "source": "daily_log 2026-06-20 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_bd1e23",
+    "itm_5ea5dd",
+    "itm_0469ed"
+  ],
+  "keywords": [
+    "breaking",
+    "hero",
+    "rule",
+    "because",
+    "inauthentic",
+    "actual",
+    "work",
+    "claims",
+    "clawd",
+    "fixed"
+  ],
+  "importance": 6,
+  "created": "2026-06-21T01:24:48.879052",
+  "last_accessed": "2026-06-21T01:24:48.879059",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "contradictions": [
+    "itm_bd1e23"
+  ],
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

@@ -1,0 +1,43 @@
+{
+  "id": "itm_5e6692",
+  "type": "decision",
+  "content": "pre-collapse superposition) = forming **collapse-timing meta-bridge** (promote at 4th substrate-distinct instance).",
+  "source": "daily_log 2026-06-13 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_de8f57",
+    "itm_0469ed",
+    "itm_182b70",
+    "itm_dc9899",
+    "itm_891dd1",
+    "itm_4a0fe0"
+  ],
+  "keywords": [
+    "pre",
+    "collapse",
+    "superposition",
+    "forming",
+    "timing",
+    "meta",
+    "bridge",
+    "promote",
+    "substrate",
+    "distinct"
+  ],
+  "importance": 3,
+  "created": "2026-06-14T01:04:10.570461",
+  "last_accessed": "2026-06-14T01:04:10.570464",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

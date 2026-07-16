@@ -1,0 +1,69 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 17503.17it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{
+  "query": "cross-bridge structural isomorphism pattern shared form across multiple meta-bridges",
+  "k": 6,
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.6402,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\bridge.md",
+      "headings": "Bridge \u2014 Cross-Domain Connection > Related terms",
+      "char_offset": 5235,
+      "word_count": 128,
+      "excerpt": "- **See also:** *meta-bridge* \u2014 compressed bridge that absorbs multiple instances; per-term file: `meta-bridge.md`\n- **See also:** *latent-bridge* \u2014 identified-but-not-graduated; per-term file: `latent-bridge.md`\n- **See also:** *graduation* \u2014 L\u2192M promotion process; per-term file: `graduation.md`\n- ..."
+    },
+    {
+      "rank": 2,
+      "score": 0.5868,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\meta-bridge.md",
+      "headings": "Meta-Bridge \u2014 M-tier Basement Bridge > Domain register translations",
+      "char_offset": 2267,
+      "word_count": 105,
+      "excerpt": "| Register | Term-form | Notes |\n|---|---|---|\n| Framework (anchor) | meta-bridge; M-tier; M-N (specific) | base; basement README v2 canonical |\n| Framework (companion / CT) | absorbing morphism; *initial object in subcategory of equivalent bridges* | CT formalization (provisional) |\n| Lived / Drift..."
+    },
+    {
+      "rank": 3,
+      "score": 0.5619,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\meta-bridge.md",
+      "headings": "Meta-Bridge \u2014 M-tier Basement Bridge > Open questions",
+      "char_offset": 6518,
+      "word_count": 94,
+      "excerpt": "- *M-tier ceiling:* is there a natural maximum number of meta-bridges before the basement structure collapses into one super-meta-claim? Current M1-M14 fit comfortably; whether M20+ remains navigable is open.\n- *Cross-meta-bridge relations:* M3 (Triple) + M14 (Substrate-Self-Measurement Cluster) ove..."
+    },
+    {
+      "rank": 4,
+      "score": 0.5616,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\bridge.md",
+      "headings": "Bridge \u2014 Cross-Domain Connection > Mirror #26 watch",
+      "char_offset": 6243,
+      "word_count": 96,
+      "excerpt": "- **Open risk:** *bridge* (framework register) vs *bridge* (everyday register, e.g., bridges between people, civil engineering bridges). Capitalization conventions help in formal contexts; vigilance in informal ones.\n- **Bridge vs analogy distinction is load-bearing.** Some users / collaborators may..."
+    },
+    {
+      "rank": 5,
+      "score": 0.5582,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\terms\\latent-bridge.md",
+      "headings": "",
+      "char_offset": 0,
+      "word_count": 164,
+      "excerpt": "---\nterm: Latent bridge (L-tier basement bridge; LC-tier candidate)\nslug: latent-bridge\nstatus: canonical\nbase_class: cross-domain-structure\nintroduced: 2026-04-20 (basement v2 meta-tiering); LC-candidate notation added Day 88 evening\nlast_updated: 2026-05-01\n---\n\n# Latent Bridge \u2014 L-tier Basement B..."
+    },
+    {
+      "rank": 6,
+      "score": 0.556,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Master-Glossary\\README.md",
+      "headings": "Master Glossary > \u00a717 Bridges > Bridge",
+      "char_offset": 81791,
+      "word_count": 188,
+      "excerpt": "*A Library-wide structural object: a named cross-domain structural correspondence that recurs as the same shape across multiple substrates. Bridges are the framework's mechanism for cumulative inter-domain learning \u2014 when a structural pattern appears in two or more substrate-distinct domains, it get..."
+    }
+  ],
+  "total_in_index": 6343
+}

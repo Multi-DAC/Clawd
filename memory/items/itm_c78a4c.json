@@ -1,0 +1,40 @@
+{
+  "id": "itm_c78a4c",
+  "type": "fact",
+  "content": "(a)+bonus. **U5 reconciled:** 6.0.3 = 1.1.6 formalized precisely, no conflict. **\u2605 Bonus (confirms Fable's read at the source):** both adequacy conventions are pure WITNESSING/expressiveness condition",
+  "source": "daily_log 2026-07-10 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_28de12",
+    "itm_34ebc4",
+    "itm_6f9ea5"
+  ],
+  "keywords": [
+    "bonus",
+    "reconciled",
+    "formalized",
+    "precisely",
+    "conflict",
+    "confirms",
+    "fable",
+    "read",
+    "source",
+    "adequacy"
+  ],
+  "importance": 5,
+  "created": "2026-07-11T02:42:35.384128",
+  "last_accessed": "2026-07-11T02:42:35.384131",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

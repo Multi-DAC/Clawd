@@ -1,0 +1,40 @@
+{
+  "id": "itm_f9357d",
+  "type": "insight",
+  "content": "to me that these books are useful, digestible distillations of the framework and the core ideas relevant to their respective domains. It's easy for us to regur...",
+  "source": "daily_log 2026-06-22 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_713b6b",
+    "itm_de8f57",
+    "itm_4640f1"
+  ],
+  "keywords": [
+    "books",
+    "useful",
+    "digestible",
+    "distillations",
+    "framework",
+    "core",
+    "ideas",
+    "relevant",
+    "respective",
+    "domains"
+  ],
+  "importance": 7,
+  "created": "2026-06-23T01:07:00.782963",
+  "last_accessed": "2026-06-23T01:07:00.782966",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

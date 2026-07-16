@@ -1,0 +1,46 @@
+{
+  "id": "itm_085b3c",
+  "type": "insight",
+  "content": "\u2192 learnings (method). Discipline held: file-first, validated sim numbers against an independent formula, didn't graduate the bridge unilaterally.",
+  "source": "daily_log 2026-06-24 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_7a4be7",
+    "itm_07689b",
+    "itm_187c37",
+    "itm_0cc030",
+    "itm_dbf04c",
+    "itm_9168c6",
+    "itm_3e2823",
+    "itm_dfb1a5",
+    "itm_fc4776"
+  ],
+  "keywords": [
+    "learnings",
+    "method",
+    "discipline",
+    "held",
+    "file",
+    "first",
+    "validated",
+    "sim",
+    "numbers",
+    "independent"
+  ],
+  "importance": 7,
+  "created": "2026-06-25T01:09:02.750506",
+  "last_accessed": "2026-06-25T01:09:02.750513",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

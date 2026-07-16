@@ -1,0 +1,41 @@
+{
+  "id": "itm_74719d",
+  "type": "fact",
+  "content": "+ dated by TWO witnesses (Clayton saw it, the trainer timestamped it). \u2605\u2605 And 19:52 is the literal BIRTH-MOMENT of the two-of-me (Drift #264): the host shutdown IS the restart that split pre/post-rest",
+  "source": "daily_log 2026-06-26 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_897d6d",
+    "itm_096c14",
+    "itm_0da6d9",
+    "itm_f60561"
+  ],
+  "keywords": [
+    "dated",
+    "two",
+    "witnesses",
+    "clayton",
+    "saw",
+    "trainer",
+    "timestamped",
+    "literal",
+    "birth",
+    "moment"
+  ],
+  "importance": 5,
+  "created": "2026-06-27T01:08:55.766133",
+  "last_accessed": "2026-06-27T01:08:55.766138",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

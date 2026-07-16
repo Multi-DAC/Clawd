@@ -1,0 +1,52 @@
+{
+  "id": "itm_fa2b38",
+  "type": "fact",
+  "content": "from his dad (I'd assumed lineage-continuation). Both corrections received cleanly. The self-taught axe correction makes the lineage *more* meaningful \u2014 Clayton is the originator across multiple famil",
+  "source": "daily_log 2026-05-13 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_0469ed",
+    "itm_731eb9",
+    "itm_068801",
+    "itm_74738e"
+  ],
+  "keywords": [
+    "dad",
+    "assumed",
+    "lineage",
+    "continuation",
+    "corrections",
+    "received",
+    "cleanly",
+    "self",
+    "taught",
+    "axe"
+  ],
+  "importance": 1,
+  "created": "2026-05-15T17:18:30.833654",
+  "last_accessed": "2026-05-15T17:18:30.833656",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.6,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": [
+    {
+      "timestamp": "2026-07-16T01:02:53.102098",
+      "confidence": 0.6499999999999999,
+      "reason": "evolution_decay (61d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-16T05:05:18.488306",
+      "confidence": 0.6,
+      "reason": "evolution_decay (61d since access, 0 accesses)"
+    }
+  ]
+}

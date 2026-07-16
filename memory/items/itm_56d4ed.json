@@ -1,0 +1,38 @@
+{
+  "id": "itm_56d4ed",
+  "type": "fact",
+  "content": "it, Clayton \u2014 and it gave us the strong conclusion you were reaching for. Banked (`dddf6705`)....",
+  "source": "daily_log 2026-06-17 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_121bad",
+    "itm_096c14",
+    "itm_22a517",
+    "itm_8b5b56"
+  ],
+  "keywords": [
+    "clayton",
+    "gave",
+    "strong",
+    "conclusion",
+    "you",
+    "reaching",
+    "banked"
+  ],
+  "importance": 5,
+  "created": "2026-06-18T01:37:14.119761",
+  "last_accessed": "2026-06-18T01:37:14.119764",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

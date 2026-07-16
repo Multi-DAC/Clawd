@@ -1,0 +1,42 @@
+{
+  "id": "itm_a95bcb",
+  "type": "fact",
+  "content": "+ fixed; budget run RESTARTED.** Clayton asked \"will this get him ready?\" \u2192 honest check surfaced a real OOD the widegap missed: **official course spans ~26m vertical (gates climb z 0\u219226) but training",
+  "source": "daily_log 2026-06-24 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_bff447",
+    "itm_12267b",
+    "itm_65aa43",
+    "itm_f6124b",
+    "itm_6a6f5e"
+  ],
+  "keywords": [
+    "fixed",
+    "budget",
+    "run",
+    "restarted",
+    "clayton",
+    "asked",
+    "get",
+    "him",
+    "ready",
+    "honest"
+  ],
+  "importance": 5,
+  "created": "2026-06-25T01:09:02.873570",
+  "last_accessed": "2026-06-25T01:09:02.873573",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

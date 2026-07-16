@@ -1,0 +1,41 @@
+{
+  "id": "itm_f6cbb8",
+  "type": "fact",
+  "content": "a THIRD bin LC39 missed \u2014 *instrumented-about-CONTEXT*: [239] CIA-UAP-003 radar = tracking U-2s (EXCLUSION: recon explains UFOs \u2014 most-instrumented doc = most deflationary); NASA Gemini = spacecraft's",
+  "source": "daily_log 2026-06-14 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_ec02e3",
+    "itm_8a118a",
+    "itm_acb63b",
+    "itm_b6f15c"
+  ],
+  "keywords": [
+    "third",
+    "bin",
+    "missed",
+    "instrumented",
+    "context",
+    "cia",
+    "uap",
+    "radar",
+    "tracking",
+    "exclusion"
+  ],
+  "importance": 4,
+  "created": "2026-06-15T01:04:22.149422",
+  "last_accessed": "2026-06-15T01:04:22.149425",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

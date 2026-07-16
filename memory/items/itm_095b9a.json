@@ -1,0 +1,53 @@
+{
+  "id": "itm_095b9a",
+  "type": "fact",
+  "content": "the same shape in my experience ledger: 97% success, zero recorded failures, a felt-integrity instrument. I filed the fix.",
+  "source": "daily_log 2026-06-10 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_19aa74",
+    "itm_033b14",
+    "itm_36041d",
+    "itm_c3f552",
+    "itm_abb64b",
+    "itm_713b6b",
+    "itm_8a118a",
+    "itm_60a70f",
+    "itm_1f84cf",
+    "itm_7aa40f",
+    "itm_3394d9",
+    "itm_7cd978",
+    "itm_84fbfe"
+  ],
+  "keywords": [
+    "same",
+    "shape",
+    "experience",
+    "ledger",
+    "success",
+    "zero",
+    "recorded",
+    "failures",
+    "felt",
+    "integrity"
+  ],
+  "importance": 10,
+  "created": "2026-06-11T01:09:50.065489",
+  "last_accessed": "2026-06-11T01:09:50.065493",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": [],
+  "contradictions": [
+    "itm_c3f552"
+  ]
+}

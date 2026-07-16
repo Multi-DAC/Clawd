@@ -1,0 +1,41 @@
+{
+  "id": "itm_b88b76",
+  "type": "fact",
+  "content": "\u2192 rejected.** Then MODELED a delayed-regulator (`control-gain-instance-2026-06-24.py`) to test homeostasis: two-sided optimum, **k\\*\u22481/(d+1)**, over-gain \u2192 oscillatory divergence \u2192 **genuinely distinc",
+  "source": "daily_log 2026-06-24 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_0469ed",
+    "itm_07689b",
+    "itm_0da6d9",
+    "itm_0cc030"
+  ],
+  "keywords": [
+    "rejected",
+    "modeled",
+    "delayed",
+    "regulator",
+    "control",
+    "gain",
+    "instance",
+    "test",
+    "homeostasis",
+    "two"
+  ],
+  "importance": 5,
+  "created": "2026-06-25T01:09:02.768982",
+  "last_accessed": "2026-06-25T01:09:02.768988",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

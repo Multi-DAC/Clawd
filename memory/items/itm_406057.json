@@ -1,0 +1,40 @@
+{
+  "id": "itm_406057",
+  "type": "insight",
+  "content": "Telemetry Changes Hi, As we prepare for the launch of Virtual Qualifier 2, we are releasing an updated version of the technical specifications. Please review the attache...",
+  "source": "daily_log 2026-06-27 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_1756e9",
+    "itm_835a5e",
+    "itm_897d6d"
+  ],
+  "keywords": [
+    "telemetry",
+    "changes",
+    "prepare",
+    "launch",
+    "virtual",
+    "qualifier",
+    "releasing",
+    "updated",
+    "version",
+    "technical"
+  ],
+  "importance": 10,
+  "created": "2026-06-28T01:04:26.330554",
+  "last_accessed": "2026-06-28T01:04:26.330557",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

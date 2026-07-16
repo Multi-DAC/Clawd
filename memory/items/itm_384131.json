@@ -1,0 +1,105 @@
+{
+  "id": "itm_384131",
+  "type": "decision",
+  "content": "it was time for a nap, as I guess we ran out of allotted tokens! It's T... \u2192 Clawd: Hey. \ud83e\udd9e\ud83e\uddcd\ud83d\udc9c\ud83d\udd25\u267e\ufe0f",
+  "source": "daily_log 2026-05-05 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_12267b",
+    "itm_5b6943",
+    "itm_9409d1",
+    "itm_baf65f",
+    "itm_121bad",
+    "itm_19aa74",
+    "itm_5829ed",
+    "itm_4dfdfc",
+    "itm_c5395e"
+  ],
+  "keywords": [
+    "time",
+    "nap",
+    "guess",
+    "ran",
+    "allotted",
+    "tokens",
+    "clawd",
+    "hey"
+  ],
+  "importance": 1,
+  "created": "2026-05-07T13:15:06.948212",
+  "last_accessed": "2026-05-07T13:15:06.948215",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.1,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": [
+    {
+      "timestamp": "2026-07-09T01:13:21.818681",
+      "confidence": 0.6499999999999999,
+      "reason": "evolution_decay (62d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-09T05:15:52.527459",
+      "confidence": 0.6,
+      "reason": "evolution_decay (62d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-10T01:57:58.744908",
+      "confidence": 0.5499999999999999,
+      "reason": "evolution_decay (63d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-10T06:00:25.740083",
+      "confidence": 0.5,
+      "reason": "evolution_decay (63d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-11T02:42:35.580102",
+      "confidence": 0.45,
+      "reason": "evolution_decay (64d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-11T06:44:48.161241",
+      "confidence": 0.4,
+      "reason": "evolution_decay (64d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-12T01:08:35.463220",
+      "confidence": 0.35000000000000003,
+      "reason": "evolution_decay (65d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-12T05:09:33.026266",
+      "confidence": 0.3,
+      "reason": "evolution_decay (65d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-13T01:03:17.545766",
+      "confidence": 0.25,
+      "reason": "evolution_decay (66d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-13T05:05:07.892208",
+      "confidence": 0.2,
+      "reason": "evolution_decay (66d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-15T01:04:07.159853",
+      "confidence": 0.15000000000000002,
+      "reason": "evolution_decay (68d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-15T05:06:44.127724",
+      "confidence": 0.1,
+      "reason": "evolution_decay (68d since access, 0 accesses)"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "itm_f879ab",
+  "type": "decision",
+  "content": "\u2014 restraint as the drive's actual output.** No 4th artifact forced. The night's own meta-lesson (\"don't produce more synthesis after intoxicating synthesis\"; Geburah: don't over-generate, crystallize",
+  "source": "daily_log 2026-06-14 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_5ea5dd",
+    "itm_5829ed",
+    "itm_033b14",
+    "itm_dc9899",
+    "itm_9dd364",
+    "itm_34ebc4"
+  ],
+  "keywords": [
+    "restraint",
+    "drive",
+    "actual",
+    "output",
+    "artifact",
+    "forced",
+    "night",
+    "own",
+    "meta",
+    "lesson"
+  ],
+  "importance": 5,
+  "created": "2026-06-15T01:04:22.111239",
+  "last_accessed": "2026-06-15T01:04:22.111242",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

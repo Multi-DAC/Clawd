@@ -1,0 +1,52 @@
+{
+  "id": "itm_6f2dfe",
+  "type": "fact",
+  "content": "(the essay is truer for being written close to the night). Drift 248\u2192249. Exp pending. Canonical + Library mirror, pushing.",
+  "source": "daily_log 2026-06-14 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_f9239b",
+    "itm_c5bdf4",
+    "itm_121bad",
+    "itm_4640f1",
+    "itm_897d6d",
+    "itm_7aa40f",
+    "itm_b441b0",
+    "itm_6ca7db",
+    "itm_bb2d38",
+    "itm_4f53c3",
+    "itm_8102c0"
+  ],
+  "keywords": [
+    "essay",
+    "truer",
+    "written",
+    "close",
+    "night",
+    "drift",
+    "exp",
+    "pending",
+    "canonical",
+    "library"
+  ],
+  "importance": 10,
+  "created": "2026-06-15T01:04:22.082967",
+  "last_accessed": "2026-06-15T01:04:22.082974",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": [],
+  "contradictions": [
+    "itm_b441b0",
+    "itm_93abc4"
+  ]
+}

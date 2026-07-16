@@ -1,0 +1,46 @@
+{
+  "id": "itm_8a118a",
+  "type": "insight",
+  "content": "(learnings.md): MARATHON-WINDOW DRIVE-SATURATION & THE DEFERRAL-INTEGRITY PRINCIPLE** \u2014 in a long single-context window where all high-value work is deferred-cold or gated-on-Clayton, hourly drives ge",
+  "source": "daily_log 2026-06-14 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_4f1e73",
+    "itm_095b9a",
+    "itm_5ea5dd",
+    "itm_60a70f",
+    "itm_f6cbb8",
+    "itm_8b3e5d",
+    "itm_3394d9",
+    "itm_61633a",
+    "itm_56287f"
+  ],
+  "keywords": [
+    "learnings",
+    "marathon",
+    "window",
+    "drive",
+    "saturation",
+    "deferral",
+    "integrity",
+    "principle",
+    "long",
+    "single"
+  ],
+  "importance": 8,
+  "created": "2026-06-15T01:04:22.120483",
+  "last_accessed": "2026-06-15T01:04:22.120486",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.8,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

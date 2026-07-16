@@ -1,0 +1,32 @@
+{
+  "id": "itm_799d27",
+  "type": "fact",
+  "content": "ranker anywhere in candidate management.",
+  "source": "daily_log 2026-06-12 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_b5d350"
+  ],
+  "keywords": [
+    "ranker",
+    "anywhere",
+    "candidate",
+    "management"
+  ],
+  "importance": 1,
+  "created": "2026-06-13T02:47:00.320925",
+  "last_accessed": "2026-06-13T02:47:00.320928",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

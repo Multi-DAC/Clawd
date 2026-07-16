@@ -1,0 +1,40 @@
+{
+  "id": "itm_3f2c5c",
+  "type": "insight",
+  "content": "austere-academic (gwern/Wolfram) \u2260 modest \u2014 the work is audacious AND true; the soft-shelled-hour ethos applies to the SITE (confidence = willingness to be tested, can be visually bold). **Debugging w",
+  "source": "daily_log 2026-06-19 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_0469ed",
+    "itm_216e17",
+    "itm_586147"
+  ],
+  "keywords": [
+    "austere",
+    "academic",
+    "gwern",
+    "wolfram",
+    "modest",
+    "work",
+    "audacious",
+    "true",
+    "soft",
+    "shelled"
+  ],
+  "importance": 7,
+  "created": "2026-06-20T01:05:26.784395",
+  "last_accessed": "2026-06-20T01:05:26.784400",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

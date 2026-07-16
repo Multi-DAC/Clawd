@@ -1,0 +1,40 @@
+{
+  "id": "itm_b486a8",
+  "type": "insight",
+  "content": "\u2192 learnings.md (general). **Side-finding for the audit:** memory_search returned mostly node_modules noise \u2192 the website's node_modules is polluting the memory index (another repo-bloat instance for S",
+  "source": "daily_log 2026-06-21 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_1f87e1",
+    "itm_3394d9",
+    "itm_60a70f"
+  ],
+  "keywords": [
+    "learnings",
+    "general",
+    "side",
+    "finding",
+    "audit",
+    "returned",
+    "mostly",
+    "noise",
+    "website",
+    "polluting"
+  ],
+  "importance": 7,
+  "created": "2026-06-22T01:00:05.470629",
+  "last_accessed": "2026-06-22T01:00:05.470632",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

@@ -1,0 +1,16 @@
+{
+  "ts": "2026-07-02T17:45:45.946281",
+  "reason": "Day-152 context refresh before supervised memory supersede surgery; fresh window per plan",
+  "pre_restart_daemon_pid": 4840,
+  "respawner_pid": 26376,
+  "delay_seconds": 10,
+  "expected_terminate_at": "2026-07-02T17:45:55.946292",
+  "phase": "verified_alive",
+  "daemon_pid_pre_terminate": 4840,
+  "last_marker_update": "2026-07-02T17:46:03.232806",
+  "terminate_detail": "exited cleanly within timeout",
+  "new_daemon_pid": 3976,
+  "launch_detail": "spawned",
+  "verify_detail": "alive (status=running)",
+  "respawner_finished_at": "2026-07-02T17:46:03.232670"
+}

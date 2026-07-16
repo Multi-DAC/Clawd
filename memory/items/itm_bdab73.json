@@ -1,0 +1,41 @@
+{
+  "id": "itm_bdab73",
+  "type": "insight",
+  "content": "thing, and it's a correction, not code: Clawd's diagnosis of the \"Connection closed\" events is wrong, and he's about to build a fix for a bug that doesn't exist. Everything else is done. He...",
+  "source": "daily_log 2026-07-01 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_67d1af",
+    "itm_9409d1",
+    "itm_059d85",
+    "itm_1dba83"
+  ],
+  "keywords": [
+    "thing",
+    "correction",
+    "code",
+    "clawd",
+    "diagnosis",
+    "connection",
+    "closed",
+    "events",
+    "wrong",
+    "build"
+  ],
+  "importance": 9,
+  "created": "2026-07-02T02:08:13.448708",
+  "last_accessed": "2026-07-02T02:08:13.448711",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.8,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

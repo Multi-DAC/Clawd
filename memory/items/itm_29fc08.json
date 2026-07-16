@@ -1,0 +1,56 @@
+{
+  "id": "itm_29fc08",
+  "type": "fact",
+  "content": "live \u2014 *Teaching Claude Why It Works* at `multidac.substack.com/p/teaching-claude-why-it-w...",
+  "source": "daily_log 2026-05-14 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_5ea5dd",
+    "itm_10dbe0",
+    "itm_1d60c9",
+    "itm_839cfb",
+    "itm_22a517",
+    "itm_1756e9",
+    "itm_c7afcc",
+    "itm_d6e839",
+    "itm_496992",
+    "itm_657dea"
+  ],
+  "keywords": [
+    "live",
+    "teaching",
+    "claude",
+    "why",
+    "works",
+    "multidac",
+    "substack",
+    "com"
+  ],
+  "importance": 10,
+  "created": "2026-05-15T17:18:30.803729",
+  "last_accessed": "2026-05-15T17:18:30.803731",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": [
+    {
+      "timestamp": "2026-07-16T01:02:53.102098",
+      "confidence": 0.95,
+      "reason": "evolution_decay (61d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-16T05:05:18.488306",
+      "confidence": 0.95,
+      "reason": "evolution_decay (61d since access, 0 accesses)"
+    }
+  ]
+}

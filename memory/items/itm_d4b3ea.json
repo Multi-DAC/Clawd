@@ -1,0 +1,43 @@
+{
+  "id": "itm_d4b3ea",
+  "type": "fact",
+  "content": "against the actual file (not the label): the only change is goal #15's own note-update I made at 08:11 in the grounding drive (progress 0\u219285, Day-165 ascent note). No new goal, none removed/completed,",
+  "source": "daily_log 2026-07-15 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_c3b838",
+    "itm_e9faa0",
+    "itm_28de12"
+  ],
+  "keywords": [
+    "actual",
+    "file",
+    "label",
+    "only",
+    "change",
+    "goal",
+    "own",
+    "note",
+    "update",
+    "made"
+  ],
+  "importance": 5,
+  "created": "2026-07-16T01:02:52.786792",
+  "last_accessed": "2026-07-16T01:02:52.786796",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": [],
+  "contradictions": [
+    "itm_e9faa0"
+  ]
+}

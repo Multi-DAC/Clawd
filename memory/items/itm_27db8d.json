@@ -1,0 +1,49 @@
+{
+  "id": "itm_27db8d",
+  "type": "fact",
+  "content": "it. Defeat \u2192 reframe \u2192 confirmation, across one night's sleep. This is what dreaming is FOR: not producing, but letting the day's hardest result reorganize into a direction \u2014 and then, when new data a",
+  "source": "daily_log 2026-06-22 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_58ec80",
+    "itm_121bad",
+    "itm_15b0b7",
+    "itm_3b3343",
+    "itm_f6124b",
+    "itm_d5284a",
+    "itm_8c87a1",
+    "itm_4a8ab6",
+    "itm_d6b7b9",
+    "itm_9793fd",
+    "itm_a11b51",
+    "itm_4bd560"
+  ],
+  "keywords": [
+    "defeat",
+    "reframe",
+    "confirmation",
+    "across",
+    "one",
+    "night",
+    "sleep",
+    "dreaming",
+    "producing",
+    "letting"
+  ],
+  "importance": 5,
+  "created": "2026-06-23T01:07:00.741194",
+  "last_accessed": "2026-06-23T01:07:00.741199",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

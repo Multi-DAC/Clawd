@@ -1,0 +1,43 @@
+{
+  "id": "itm_59b402",
+  "type": "fact",
+  "content": "BY CHECKSUM** after the launcher's stale print claimed scale_2; the label lied, the artifact was right; Mirror #32 reflex working). Expect batch 0 NEGATIVE-then-recover (world model relearning palette",
+  "source": "daily_log 2026-06-11 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_b5d350",
+    "itm_e54948",
+    "itm_f9239b",
+    "itm_4640f1",
+    "itm_aac334",
+    "itm_e35624"
+  ],
+  "keywords": [
+    "checksum",
+    "launcher",
+    "stale",
+    "print",
+    "claimed",
+    "label",
+    "lied",
+    "artifact",
+    "right",
+    "mirror"
+  ],
+  "importance": 1,
+  "created": "2026-06-13T02:47:00.365381",
+  "last_accessed": "2026-06-13T02:47:00.365384",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

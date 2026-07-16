@@ -57,9 +57,9 @@
       "expected_active_when": "always",
       "carries": ["bi-temporal KG edge index (T1.A v0)"],
       "escalation_tier": "low",
-      "self_healing_applicable": true,
+      "self_healing_applicable": false,
       "self_healing_command": "python operations/scripts/kg_index_build.py",
-      "notes": "Derived from kg_corpus_extraction.jsonl. Stale >7d means the index is out of sync with the canonical JSONL. Self-healable via rebuild script."
+      "notes": "Derived from kg_corpus_extraction.jsonl. Stale >7d means the index is out of sync with the canonical JSONL. Self-healing DISABLED during the rebuild (2026-07-01): the KG is the bloated 1.07M-edge store that Phase 3 de-bloats on a copy — auto-rebuilding it now would recreate the bloat and runs the heavy build unprompted. Re-enable in Phase 3 once the KG is de-bloated and the heal command targets the venv. Channel stays MONITORED (M1 still flags staleness); only the auto-heal is gated."
     },
     {
       "name": "monitor_m7_heartbeat",
@@ -93,6 +93,94 @@
       "escalation_tier": "critical",
       "self_healing_applicable": false,
       "notes": "M6 watches THIS file. If M1 itself goes silent, M6 escalates. Mandatory bidirectional heartbeat per integrated plan."
+    },
+    {
+      "name": "consolidation_check",
+      "kind": "sleep_writer",
+      "path": "memory/_consolidation_check.json",
+      "expected_max_interval_seconds": 172800,
+      "expected_active_when": "always",
+      "carries": ["nightly sleep-time memory consolidation liveness"],
+      "escalation_tier": "high",
+      "self_healing_applicable": false,
+      "notes": "Rebuild-added 2026-07-01. Consolidation writes this each nightly pass. Was dead ~54 days (the silent maintenance-layer decay). Stale beyond 2 days means sleep-time consolidation has stopped."
+    },
+    {
+      "name": "dreaming_audit",
+      "kind": "sleep_writer",
+      "path": "memory/dreaming_audit.jsonl",
+      "expected_max_interval_seconds": 172800,
+      "expected_active_when": "always",
+      "carries": ["dream-drive audit trail (quiet-hours deep processing)"],
+      "escalation_tier": "medium",
+      "self_healing_applicable": false,
+      "notes": "Rebuild-added 2026-07-01. Dream drive appends here each quiet-hours run. Was dead ~42 days. Stale beyond 2 days means the dream drive stopped firing/logging."
+    },
+    {
+      "name": "vector_index",
+      "kind": "derived_index",
+      "path": "memory/.search_index/embeddings.npz",
+      "expected_max_interval_seconds": 1209600,
+      "expected_active_when": "always",
+      "carries": ["semantic memory embedding index (BGE-M3 1024-dim)"],
+      "escalation_tier": "high",
+      "self_healing_applicable": false,
+      "notes": "Rebuild-added 2026-07-01. Coarse staleness signal only (>14d unrebuilt). The authoritative recall check is the retrieval canary (loads the index and verifies a known query returns hits) — mtime alone cannot detect a broken-but-present index, the actual failure mode of the 6-week vector death."
+    },
+    {
+      "name": "change_journal",
+      "kind": "append_only_log",
+      "path": "memory/change_journal.json",
+      "expected_max_interval_seconds": 604800,
+      "expected_active_when": "always",
+      "carries": ["self-correction / rollback lineage (self-modification safety gate)"],
+      "escalation_tier": "low",
+      "self_healing_applicable": false,
+      "notes": "Rebuild-added 2026-07-01. Rollback lineage that self-modification (Phase 5) depends on. Prior audits flagged it dead ~2 weeks; watch for staleness beyond a week."
+    },
+    {
+      "name": "monitor_retrieval_canary_heartbeat",
+      "kind": "monitor_heartbeat",
+      "path": "memory/monitor_retrieval_canary_heartbeat.json",
+      "expected_max_interval_seconds": 7200,
+      "expected_active_when": "always",
+      "carries": ["retrieval canary liveness — the recall-returns-real-hits check"],
+      "escalation_tier": "high",
+      "self_healing_applicable": false,
+      "notes": "Rebuild-added 2026-07-01. The canary runs hourly, loads the embedding index and verifies a known query returns real memory hits (the recall check nothing had). Stale heartbeat means the canary itself died and recall is no longer being verified."
+    },
+    {
+      "name": "monitor_process_watchdog_heartbeat",
+      "kind": "monitor_heartbeat",
+      "path": "memory/monitor_process_watchdog_heartbeat.json",
+      "expected_max_interval_seconds": 900,
+      "expected_active_when": "always",
+      "carries": ["process watchdog liveness — wedged/duplicate/runaway Clawd process detection"],
+      "escalation_tier": "high",
+      "self_healing_applicable": false,
+      "notes": "Rebuild-added 2026-07-01. Runs every 5 min; scans the process table for duplicate heavy batch jobs or CPU-runaway Clawd processes (the failure mode nothing watched — two rebuild_index pinned 24 cores for hours). Stale heartbeat means the watchdog itself died."
+    },
+    {
+      "name": "monitor_liveness_evidence_heartbeat",
+      "kind": "monitor_heartbeat",
+      "path": "memory/monitor_liveness_evidence_heartbeat.json",
+      "expected_max_interval_seconds": 7200,
+      "expected_active_when": "always",
+      "carries": ["liveness-by-evidence liveness — sleep-writer work_done advancement check"],
+      "escalation_tier": "high",
+      "self_healing_applicable": false,
+      "notes": "Rebuild-added 2026-07-01. Runs hourly; verifies the sleep-time writers (consolidation) advanced a monotonic run_count, not just touched a file — the blindness behind the 4-week freeze. Stale heartbeat means the check itself died."
+    },
+    {
+      "name": "monitor_external_pinger_heartbeat",
+      "kind": "monitor_heartbeat",
+      "path": "memory/monitor_external_pinger_heartbeat.json",
+      "expected_max_interval_seconds": 900,
+      "expected_active_when": "always",
+      "carries": ["external watcher-of-watchers liveness — off-box dead-man's-switch ping"],
+      "escalation_tier": "medium",
+      "self_healing_applicable": false,
+      "notes": "Rebuild-added 2026-07-01. Every 5 min computes a verified-health verdict and pings HEALTHCHECKS_URL only when healthy, so box/daemon/monitor death stops the ping and pages Clayton off-box. Dark until HEALTHCHECKS_URL is set in the daemon .env; then this heartbeat also proves the pinger itself is running."
     }
   ],
 

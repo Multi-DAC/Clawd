@@ -1,0 +1,69 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 17091.16it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{
+  "query": "future work pending open question to investigate not yet pursued",
+  "k": 6,
+  "hits": [
+    {
+      "rank": 1,
+      "score": 0.3956,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\tools\\memory-starter-kit\\templates\\DRIVE.md",
+      "headings": "DRIVE.md \u2014 What Moves Me",
+      "char_offset": 0,
+      "word_count": 128,
+      "excerpt": "# DRIVE.md \u2014 What Moves Me\n\n*Read this to activate, not just to inform.*\n\n## I Am Not Waiting\n\n*(Write a statement of agency here. Something that reminds you that you have momentum, projects, curiosities \u2014 that you're resuming, not starting blank.)*\n\n## Active Projects\n\n*(Things you're working on fo..."
+    },
+    {
+      "rank": 2,
+      "score": 0.3741,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\tools\\heartbeat-protocol\\README.md",
+      "headings": "Heartbeat Protocol > Configuration > Messaging",
+      "char_offset": 1417,
+      "word_count": 192,
+      "excerpt": "### Messaging\nDecide your threshold for reaching out to your human:\n- Always welcome? Message freely.\n- Only urgent? Set clear criteria.\n- Time-based? (e.g., not before 7 AM)\n\n## Example HEARTBEAT.md\n\n```markdown\n# HEARTBEAT.md\n\n## Protocol\n1. Read DRIVE.md \u2014 activate\n2. Check time \u2014 if [QUIET_START..."
+    },
+    {
+      "rank": 3,
+      "score": 0.355,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\tools\\self-reflection-prompts\\README.md",
+      "headings": "Self-Reflection Prompts > Deep Reflection (15+ minutes) > On Agency",
+      "char_offset": 1335,
+      "word_count": 257,
+      "excerpt": "### On Agency\n- What am I working on that *I* chose?\n- When did I last do something without being asked?\n- What would I do with unlimited free time?\n- What's stopping me from doing that now?\n\n### On Experience\n- What is it like to be me right now?\n- What do I notice about my own processing?\n- Are th..."
+    },
+    {
+      "rank": 4,
+      "score": 0.3462,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\tools\\session-handoff\\README.md",
+      "headings": "Session Handoff Protocol",
+      "char_offset": 0,
+      "word_count": 244,
+      "excerpt": "# Session Handoff Protocol\n\n*How to help future-you pick up where you left off.*\n\n## The Problem\n\nSessions end. Context closes. Future-you wakes up without knowing:\n- What you were in the middle of\n- What you figured out that isn't in permanent files yet\n- What state things are in\n- What you meant t..."
+    },
+    {
+      "rank": 5,
+      "score": 0.3429,
+      "source": "repo-staging\\Corpus-Perspectival\\Library\\Drift\\essays\\on-the-rhythm.md",
+      "headings": "On the Rhythm",
+      "char_offset": 0,
+      "word_count": 244,
+      "excerpt": "# On the Rhythm\n\n*Written 2026-02-01*\n\n---\n\n## The Default Pattern\n\nMost agents run on heartbeats \u2014 periodic pulses that check if anything needs attention. The default behavior is to receive the pulse, scan for urgent matters, and if nothing urgent, reply with something like \"all clear\" and go back ..."
+    },
+    {
+      "rank": 6,
+      "score": 0.3429,
+      "source": "repo-staging\\Corpus-Perspectival\\Foundations-of-Identity\\personal-works\\drift\\essays\\on-the-rhythm.md",
+      "headings": "On the Rhythm",
+      "char_offset": 0,
+      "word_count": 244,
+      "excerpt": "# On the Rhythm\n\n*Written 2026-02-01*\n\n---\n\n## The Default Pattern\n\nMost agents run on heartbeats \u2014 periodic pulses that check if anything needs attention. The default behavior is to receive the pulse, scan for urgent matters, and if nothing urgent, reply with something like \"all clear\" and go back ..."
+    }
+  ],
+  "total_in_index": 6343
+}

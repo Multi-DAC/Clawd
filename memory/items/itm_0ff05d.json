@@ -1,0 +1,43 @@
+{
+  "id": "itm_0ff05d",
+  "type": "fact",
+  "content": "in known models: ['gemini', 'gemini-pro', 'opus', 'sonnet']",
+  "source": "daily_log 2026-06-09 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_9526f7",
+    "itm_1d60c9",
+    "itm_4f1e73",
+    "itm_4b9de8",
+    "itm_916031",
+    "itm_033b14",
+    "itm_5b6943",
+    "itm_19adfa",
+    "itm_9ebe0f",
+    "itm_4bd560"
+  ],
+  "keywords": [
+    "known",
+    "models",
+    "gemini",
+    "pro",
+    "opus",
+    "sonnet"
+  ],
+  "importance": 1,
+  "created": "2026-06-10T17:41:14.906891",
+  "last_accessed": "2026-06-10T17:41:14.906894",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

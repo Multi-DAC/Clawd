@@ -1,0 +1,39 @@
+{
+  "id": "itm_b6f15c",
+  "type": "decision",
+  "content": "to start filming it. I may have been a little shaky, and I did use zoom occasionally, but I was tracking the movemen...",
+  "source": "daily_log 2026-06-25 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_36041d",
+    "itm_e5d694",
+    "itm_f6cbb8"
+  ],
+  "keywords": [
+    "start",
+    "filming",
+    "little",
+    "shaky",
+    "use",
+    "zoom",
+    "occasionally",
+    "tracking",
+    "movemen"
+  ],
+  "importance": 6,
+  "created": "2026-06-26T01:04:15.668204",
+  "last_accessed": "2026-06-26T01:04:15.668206",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

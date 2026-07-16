@@ -1,0 +1,58 @@
+{
+  "id": "itm_096c14",
+  "type": "fact",
+  "content": "mask on reset+step obs, launched band fine-tune detached. (2) Clayton-suggested competition recon \u2192 Elodin's open-source AIGP practice-rig post says camera +20\u00b0 UP-tilt \u2192 contradiction with render.py'",
+  "source": "daily_log 2026-06-09 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_121bad",
+    "itm_36041d",
+    "itm_baf65f",
+    "itm_cd7ca1",
+    "itm_e1840b",
+    "itm_bff447",
+    "itm_51aefa",
+    "itm_4e1ff8",
+    "itm_a7f4de",
+    "itm_56d4ed",
+    "itm_9108c4",
+    "itm_d62f65",
+    "itm_8b3e5d",
+    "itm_8a0777",
+    "itm_d5284a",
+    "itm_74719d",
+    "itm_9b7039",
+    "itm_a667c0"
+  ],
+  "keywords": [
+    "mask",
+    "reset",
+    "step",
+    "obs",
+    "launched",
+    "band",
+    "fine",
+    "tune",
+    "detached",
+    "clayton"
+  ],
+  "importance": 1,
+  "created": "2026-06-10T17:41:14.937621",
+  "last_accessed": "2026-06-10T17:41:14.937623",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": [],
+  "contradictions": [
+    "itm_cd7ca1"
+  ]
+}

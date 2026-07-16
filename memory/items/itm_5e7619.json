@@ -1,0 +1,36 @@
+{
+  "id": "itm_5e7619",
+  "type": "fact",
+  "content": "\u2014 it flies.** Both halves of the verdict are now in, and the appearance-DR run is a genu...",
+  "source": "daily_log 2026-06-20 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_db6c59",
+    "itm_4b567c",
+    "itm_4f1e73"
+  ],
+  "keywords": [
+    "flies",
+    "halves",
+    "verdict",
+    "appearance",
+    "run",
+    "genu"
+  ],
+  "importance": 5,
+  "created": "2026-06-21T01:24:48.949720",
+  "last_accessed": "2026-06-21T01:24:48.949724",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

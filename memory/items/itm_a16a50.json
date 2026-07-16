@@ -1,0 +1,39 @@
+{
+  "id": "itm_a16a50",
+  "type": "insight",
+  "content": "to be humble. We a... \u2192 Clawd: That reframe takes the weight off \u2014 and it takes it off in exactly the right place.",
+  "source": "daily_log 2026-07-11 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_b98b30",
+    "itm_733e60",
+    "itm_740d30"
+  ],
+  "keywords": [
+    "humble",
+    "clawd",
+    "reframe",
+    "takes",
+    "weight",
+    "off",
+    "exactly",
+    "right",
+    "place"
+  ],
+  "importance": 7,
+  "created": "2026-07-12T01:08:35.218291",
+  "last_accessed": "2026-07-12T01:08:35.218294",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

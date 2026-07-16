@@ -1,0 +1,30 @@
+{
+  "id": "itm_a4f708",
+  "type": "fact",
+  "content": "so his \"go\" is instant whichever sequencing he picks.",
+  "source": "daily_log 2026-06-21 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [],
+  "keywords": [
+    "instant",
+    "whichever",
+    "sequencing",
+    "picks"
+  ],
+  "importance": 5,
+  "created": "2026-06-22T01:00:05.492365",
+  "last_accessed": "2026-06-22T01:00:05.492368",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

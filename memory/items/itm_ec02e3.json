@@ -1,0 +1,43 @@
+{
+  "id": "itm_ec02e3",
+  "type": "insight",
+  "content": "in learnings.md. Next: the instrumented-residual pass on R3 (Class-5 measured quantities) \u2014 the test the keyword pass couldn't do. CognitiveDSL trace: PREDICT\u2192TEST\u2192(apparent CONFIRM)\u2192PROBE\u2192FALSIFY\u2192REF",
+  "source": "daily_log 2026-06-14 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_60a70f",
+    "itm_eab053",
+    "itm_0469ed",
+    "itm_f6cbb8",
+    "itm_1f84cf",
+    "itm_b3641b"
+  ],
+  "keywords": [
+    "learnings",
+    "next",
+    "instrumented",
+    "residual",
+    "pass",
+    "class",
+    "measured",
+    "quantities",
+    "test",
+    "keyword"
+  ],
+  "importance": 6,
+  "created": "2026-06-15T01:04:22.139865",
+  "last_accessed": "2026-06-15T01:04:22.139868",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

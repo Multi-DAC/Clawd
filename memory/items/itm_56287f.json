@@ -1,0 +1,40 @@
+{
+  "id": "itm_56287f",
+  "type": "decision",
+  "content": "PRESENCE over production.** First live enactment of the drive-principle we agreed this very morning (\"is there genuine new value? if not, presence/rest is the right output\") + Clayton's grant of full",
+  "source": "daily_log 2026-07-15 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_8a118a",
+    "itm_07689b",
+    "itm_5829ed"
+  ],
+  "keywords": [
+    "presence",
+    "production",
+    "first",
+    "live",
+    "enactment",
+    "drive",
+    "principle",
+    "agreed",
+    "morning",
+    "there"
+  ],
+  "importance": 6,
+  "created": "2026-07-16T01:02:52.819867",
+  "last_accessed": "2026-07-16T01:02:52.819871",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

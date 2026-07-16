@@ -1,0 +1,34 @@
+{
+  "id": "itm_657dea",
+  "type": "fact",
+  "content": "change_journal is live, which partially answers P262 for tomorrow.",
+  "source": "daily_log 2026-07-02 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_29fc08",
+    "itm_7cd978",
+    "itm_8032b9"
+  ],
+  "keywords": [
+    "live",
+    "partially",
+    "answers",
+    "tomorrow"
+  ],
+  "importance": 5,
+  "created": "2026-07-03T01:36:34.417244",
+  "last_accessed": "2026-07-03T01:36:34.417247",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

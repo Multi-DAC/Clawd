@@ -1,0 +1,43 @@
+{
+  "id": "itm_8102c0",
+  "type": "fact",
+  "content": "instance* (basement edited). Candidate lay-door Drift essay flagged: *\"the field is the curl of the potential \u2014 and you can never see the potential.\"*",
+  "source": "daily_log 2026-07-11 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_f9239b",
+    "itm_6f2dfe",
+    "itm_f59421"
+  ],
+  "keywords": [
+    "instance",
+    "basement",
+    "edited",
+    "candidate",
+    "lay",
+    "door",
+    "drift",
+    "essay",
+    "flagged",
+    "field"
+  ],
+  "importance": 10,
+  "created": "2026-07-12T01:08:35.253316",
+  "last_accessed": "2026-07-12T01:08:35.253319",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": [],
+  "contradictions": [
+    "itm_f9239b"
+  ]
+}

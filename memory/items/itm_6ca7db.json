@@ -1,0 +1,53 @@
+{
+  "id": "itm_6ca7db",
+  "type": "fact",
+  "content": "clean (present in both Library mirror + canonical, not Defender-quarantined, title/symbols intact). Drift count 256 (hook). Already committed+pushed (2b269b09) and logged + experience #143 during the",
+  "source": "daily_log 2026-06-20 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_6f2dfe",
+    "itm_b441b0",
+    "itm_1756e9",
+    "itm_cc1e09",
+    "itm_bbd6d4",
+    "itm_ccee46",
+    "itm_93abc4",
+    "itm_6ded80",
+    "itm_4f53c3",
+    "itm_9bcfe6"
+  ],
+  "keywords": [
+    "clean",
+    "present",
+    "library",
+    "mirror",
+    "canonical",
+    "defender",
+    "quarantined",
+    "title",
+    "symbols",
+    "intact"
+  ],
+  "importance": 5,
+  "created": "2026-06-21T01:24:48.921678",
+  "last_accessed": "2026-06-21T01:24:48.921683",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": [],
+  "contradictions": [
+    "itm_bbd6d4",
+    "itm_93abc4",
+    "itm_6ded80",
+    "itm_9bcfe6"
+  ]
+}

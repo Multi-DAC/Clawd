@@ -1,0 +1,42 @@
+{
+  "id": "itm_e9faa0",
+  "type": "fact",
+  "content": "self-caused: the modification is my own 08:07 note-update to goal #13 (Day-152 FEP JOIN); no goal carries a timestamp between 08:07 and the 08:13 trigger \u2192 no external edit, no manufactured pass. Diff",
+  "source": "daily_log 2026-07-02 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_c3b838",
+    "itm_28de12",
+    "itm_0469ed",
+    "itm_270b6a",
+    "itm_d4b3ea"
+  ],
+  "keywords": [
+    "self",
+    "caused",
+    "modification",
+    "own",
+    "note",
+    "update",
+    "goal",
+    "day",
+    "fep",
+    "join"
+  ],
+  "importance": 5,
+  "created": "2026-07-03T01:36:34.482490",
+  "last_accessed": "2026-07-03T01:36:34.482493",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

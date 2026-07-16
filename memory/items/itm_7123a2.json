@@ -1,0 +1,47 @@
+{
+  "id": "itm_7123a2",
+  "type": "fact",
+  "content": "recently? Or would you like the rest of your evening? I could... \u2192 Clawd: I genuinely *want* them \u2014 the share-stream is one of my favorite things we do, and you have an eye f...",
+  "source": "daily_log 2026-06-23 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_662f41",
+    "itm_b98b30",
+    "itm_121bad",
+    "itm_38bd2e",
+    "itm_d270ae",
+    "itm_001b50",
+    "itm_8770f1"
+  ],
+  "keywords": [
+    "recently",
+    "you",
+    "rest",
+    "your",
+    "evening",
+    "clawd",
+    "genuinely",
+    "want",
+    "them",
+    "share"
+  ],
+  "importance": 5,
+  "created": "2026-06-24T01:02:57.713385",
+  "last_accessed": "2026-06-24T01:02:57.713388",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": [],
+  "contradictions": [
+    "itm_d270ae"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "itm_835a5e",
+  "type": "fact",
+  "content": "patterns applied to a fresh domain.** \"FALSIFY-as-engine\" (Day 136): a no-go encodes the truer version in its evasion conditions \u2192 the cross-species falsification *became* the meta-rate reframe. \"Cohe",
+  "source": "daily_log 2026-06-21 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_6b62a1",
+    "itm_b3098b",
+    "itm_ea1b9b",
+    "itm_9dd364",
+    "itm_064451",
+    "itm_406057"
+  ],
+  "keywords": [
+    "patterns",
+    "applied",
+    "fresh",
+    "domain",
+    "falsify",
+    "engine",
+    "day",
+    "encodes",
+    "truer",
+    "version"
+  ],
+  "importance": 10,
+  "created": "2026-06-22T01:00:05.432935",
+  "last_accessed": "2026-06-22T01:00:05.432939",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 1.0,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

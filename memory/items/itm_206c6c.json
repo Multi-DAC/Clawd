@@ -1,0 +1,39 @@
+{
+  "id": "itm_206c6c",
+  "type": "fact",
+  "content": "parameters; RL trains only policy semantic decisions.",
+  "source": "daily_log 2026-06-12 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_1d60c9",
+    "itm_dc98ec",
+    "itm_1d54bf",
+    "itm_3e2823",
+    "itm_fa1377",
+    "itm_6f9ea5"
+  ],
+  "keywords": [
+    "parameters",
+    "trains",
+    "only",
+    "policy",
+    "semantic",
+    "decisions"
+  ],
+  "importance": 1,
+  "created": "2026-06-13T02:47:00.310229",
+  "last_accessed": "2026-06-13T02:47:00.310232",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "cold",
+  "source_hash": "",
+  "confidence_history": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "itm_b25b49",
+  "type": "fact",
+  "content": "clean, fixed a stray",
+  "source": "daily_log 2026-06-18 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_1db613",
+    "itm_712d0b",
+    "itm_c4d059"
+  ],
+  "keywords": [
+    "clean",
+    "fixed",
+    "stray"
+  ],
+  "importance": 5,
+  "created": "2026-06-19T01:10:44.341680",
+  "last_accessed": "2026-06-19T01:10:44.341683",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "warm",
+  "source_hash": "",
+  "confidence_history": []
+}

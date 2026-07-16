@@ -1,0 +1,15 @@
+{
+  "breakers": {
+    "_falsifiability_test": {
+      "calls": [],
+      "max_per_window": 50,
+      "window_seconds": 10
+    },
+    "_otel_test": {
+      "calls": [],
+      "max_per_window": 50,
+      "window_seconds": 10
+    }
+  },
+  "tripped": {}
+}
