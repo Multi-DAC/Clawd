@@ -1,159 +1,135 @@
 #!/usr/bin/env python
-"""sync_mirror.py — keep the staging FoI mirror in sync with clawd-local canonical.
+"""sync_mirror.py — keep the PRIVATE Clawd self-repo in sync with canonical sources.
 
-WHY. clawd-local is canonical for identity/ memory/ operations/ palace/ + CURRENT.md +
-KNOWLEDGE_GRAPH.md; these mirror to repo-staging/Corpus-Perspectival/Foundations-of-Identity/.
-The mirror was kept by hand-`cp` per file — forgettable, so files silently drifted (e.g. the
-public BOOT_IDENTITY still said Finnley "due May 2026" weeks after he was born). This automates it.
+WHY. `Multi-DAC/Clawd` (private) is Clawd's full self-backup, disentangled from the archived
+Corpus-Perspectival monument (Day 166 repo split). This keeps it current: the daemon runs
+`--sync --commit` hourly. Because the repo is PRIVATE, we can back up *everything* (unlike the
+old public FoI mirror, which had to withhold new/secret files) — the safety comes from a
+gitignore of runtime/secret paths + a HARD secret-gate before every push, not from a manifest.
 
-DESIGN. The staging *tracked-set* IS the manifest — no fragile include/exclude list. For every file
-already tracked under Foundations-of-Identity/, refresh it from its clawd-local counterpart.
-  - Files canonical AT staging (personal-works/, operations/clawd-daemon/) have no local source -> skipped.
-  - Comparison is line-ending-normalized (CRLF/LF won't fake drift — the audit's own lesson).
-  - NEW local .md notes not yet mirrored are REPORTED (not auto-published — that stays deliberate).
-  - Orphans (tracked in staging, gone locally) are REPORTED, never auto-deleted.
+SOURCES (canonical → dest inside the Clawd clone):
+  clawd-local   identity/ memory/ operations/ palace/ personal-works/ + CURRENT.md, KNOWLEDGE_GRAPH.md → root
+  clawd-daemon  (the running body)                                                                      → clawd-daemon/
+  .claude auto-memory (long-term memory, previously unbacked)                                           → auto-memory/
+
+SAFETY. (1) IGNORE skips secrets/runtime/heavy (backups, chroma, telemetry, .env, .secrets…).
+(2) A regex secret-gate scans the staged set; ANY hit ABORTS the push (never leak to the backup).
+(3) Orphans are never force-pruned beyond git's own add -A on the tracked layers.
 
 USAGE.
-  python operations/sync_mirror.py            # --check: report drift / new / orphans (no writes)
-  python operations/sync_mirror.py --sync     # refresh drifted mirror files from local (writes staging tree)
-  python operations/sync_mirror.py --sync --commit   # + git add -u, commit, push staging
+  python operations/sync_mirror.py                 # report git status after overlay (no commit)
+  python operations/sync_mirror.py --sync          # overlay canonical → clone (writes clone tree)
+  python operations/sync_mirror.py --sync --commit # + secret-gate, commit, push to Multi-DAC/Clawd
 """
 import os
 import sys
 import subprocess
-import hashlib
 import shutil
 
 LOCAL = r"C:\Users\mercu\clawd"
-STAGE_REPO = os.path.join(LOCAL, "repo-staging", "Corpus-Perspectival")
-FOI_REL = "Foundations-of-Identity"
-FOI = os.path.join(STAGE_REPO, FOI_REL)
+DAEMON = r"C:\Users\mercu\clawd-daemon"
+AUTOMEM = r"C:\Users\Wasch\.claude\projects\C--Users-mercu-clawd\memory"
 
-# local mirrored layers (canonical at clawd-local) + their walk-excludes for NEW-file detection
-MIRRORED_LAYERS = ("identity", "memory", "operations", "palace")
-SINGLE_FILES = ("CURRENT.md", "KNOWLEDGE_GRAPH.md")
-# dirs never mirrored (cruft / private / state) — for new-file detection only
-EXCLUDE_DIR_PARTS = {
-    "precompact_snapshots", ".search_index", "conversations", "__pycache__",
-    ".git", "node_modules", "clawd-daemon",
-}
-EXCLUDE_FILES = {"MASTER_ROADMAP.md", "MEMORY.md"}  # private / daemon-local-only
-# new-file detection: only these extensions are auto-flagged as mirror candidates
-NEW_CANDIDATE_EXT = {".md"}
+CLAWD = os.path.join(LOCAL, "repo-staging", "Clawd")
+if not os.path.isdir(CLAWD):
+    CLAWD = os.path.join(LOCAL, "repo-staging", "_clawd-lineage-extract")  # pre-rename fallback
 
+IGNORE = shutil.ignore_patterns(
+    ".git", ".venv", "venv", "__pycache__", "*.pyc", "*.pyo", "node_modules",
+    ".env", "*.env", ".secrets", ".gcm", "dpapi_store",
+    "backups", "chroma_corpus", "precompact_snapshots", ".search_index",
+    "browser_screenshots", "nostalgia", "conversations",
+    "*.db", "*.db-wal", "*.db-shm", "*.jsonl", "*.pid", "*.state.json",
+    "monitor_*", "otel_*", "checkpoints", "precompact-*",
+    "telegram-history.json", "messages.html", "extracted_messages.txt",
+    "_site", ".jekyll-cache", "*.bak", "*.bak*", "*.log", "runs", "tests",
+)
 
-def norm_sha(path):
-    with open(path, "rb") as f:
-        return hashlib.sha1(f.read().replace(b"\r\n", b"\n")).hexdigest()
+# (source_root, dest_subdir_in_CLAWD, explicit_top_items or None-for-whole-tree)
+SOURCES = [
+    (LOCAL, "", ["identity", "memory", "operations", "palace", "personal-works",
+                 "CURRENT.md", "KNOWLEDGE_GRAPH.md"]),
+    (DAEMON, "clawd-daemon", None),
+    (AUTOMEM, "auto-memory", None),
+]
 
-
-def local_counterpart(foi_relpath):
-    """staging FoI subpath -> clawd-local source path, or None if canonical-at-staging."""
-    if foi_relpath.startswith("personal-works/"):
-        return None
-    if foi_relpath.startswith("operations/clawd-daemon/"):
-        return None  # synced from the sibling daemon repo separately
-    if "/" not in foi_relpath and foi_relpath not in SINGLE_FILES:
-        return None  # FoI-root loose files (README.md etc.) are FoI's own, NOT the clawd-local namesake
-    top = foi_relpath.split("/", 1)[0]
-    if top in MIRRORED_LAYERS or foi_relpath in SINGLE_FILES:
-        return os.path.join(LOCAL, foi_relpath.replace("/", os.sep))
-    # archive/, tools/, etc. — refresh only if a local counterpart actually exists
-    cand = os.path.join(LOCAL, foi_relpath.replace("/", os.sep))
-    return cand if os.path.exists(cand) else None
+# gate: an ACTUAL secret value (not a variable name). Aborts the push if any match is staged.
+SECRET_RE = r'AIzaSy[A-Za-z0-9_-]{20,}|sk-ant-[A-Za-z0-9-]{20,}|-----BEGIN [A-Z ]*PRIVATE KEY-----|\b[0-9]{9,10}:[A-Za-z0-9_-]{35}\b'
 
 
-# refresh DOCUMENTS + code; leave daemon-managed state (.json/.jsonl) out of scope (rec #4 territory)
-SKIP_REFRESH_EXT = {".json", ".jsonl"}
-
-
-def tracked_foi():
-    out = subprocess.run(["git", "ls-files", FOI_REL + "/*"], cwd=STAGE_REPO,
-                         capture_output=True, text=True).stdout
-    pre = FOI_REL + "/"
-    return [l.strip().replace("\\", "/")[len(pre):] for l in out.splitlines() if l.strip()]
-
-
-def find_new_candidates(tracked_set):
-    """local .md files under mirrored layers that aren't in the staging tracked-set."""
-    new = []
-    for layer in MIRRORED_LAYERS:
-        root = os.path.join(LOCAL, layer)
+def overlay():
+    for root, dest, items in SOURCES:
         if not os.path.isdir(root):
             continue
-        for r, dirs, files in os.walk(root):
-            dirs[:] = [d for d in dirs if d not in EXCLUDE_DIR_PARTS]
-            for f in files:
-                if os.path.splitext(f)[1].lower() not in NEW_CANDIDATE_EXT or f in EXCLUDE_FILES:
-                    continue
-                rel = os.path.relpath(os.path.join(r, f), LOCAL).replace("\\", "/")
-                if rel not in tracked_set:
-                    new.append(rel)
-    for sf in SINGLE_FILES:
-        if sf not in tracked_set and os.path.exists(os.path.join(LOCAL, sf)):
-            new.append(sf)
-    return sorted(new)
+        base = os.path.join(CLAWD, dest) if dest else CLAWD
+        if items is None:
+            shutil.copytree(root, base, dirs_exist_ok=True, ignore=IGNORE)
+        else:
+            for it in items:
+                s = os.path.join(root, it)
+                d = os.path.join(base, it)
+                if os.path.isdir(s):
+                    shutil.copytree(s, d, dirs_exist_ok=True, ignore=IGNORE)
+                elif os.path.isfile(s):
+                    shutil.copy2(s, d)
+
+
+def git(*args, **kw):
+    return subprocess.run(["git", *args], cwd=CLAWD, capture_output=True, text=True, **kw)
+
+
+def secret_gate():
+    """Return list of staged files containing a real secret value (empty = clean)."""
+    out = git("grep", "-lE", SECRET_RE, "--cached").stdout
+    hits = [l for l in out.splitlines() if l.strip()]
+    # also block any .env / .secrets / *.db that slipped in
+    names = git("diff", "--cached", "--name-only").stdout.splitlines()
+    bad = [n for n in names if n.endswith(".env") or ".secrets" in n.split("/") or n.endswith(".db")]
+    return hits + bad
 
 
 def main():
     do_sync = "--sync" in sys.argv
     do_commit = "--commit" in sys.argv
-    tracked = tracked_foi()
-    tracked_set = set(tracked)
 
-    drifted, orphans, refreshed = [], [], []
-    skipped_staging_canonical = 0
-    skipped_state = 0
-    for rel in tracked:
-        lc = local_counterpart(rel)
-        sp = os.path.join(FOI, rel.replace("/", os.sep))
-        if lc is None:
-            skipped_staging_canonical += 1
-            continue
-        if os.path.splitext(rel)[1].lower() in SKIP_REFRESH_EXT:
-            skipped_state += 1  # daemon-managed state; not a document to keep in sync
-            continue
-        if not os.path.exists(lc):
-            orphans.append(rel)
-            continue
-        if not os.path.exists(sp) or norm_sha(lc) != norm_sha(sp):
-            drifted.append(rel)
-            if do_sync:
-                os.makedirs(os.path.dirname(sp), exist_ok=True)
-                shutil.copy2(lc, sp)
-                refreshed.append(rel)
+    if not os.path.isdir(os.path.join(CLAWD, ".git")):
+        print(f"sync_mirror: Clawd clone not found at {CLAWD} — nothing to do.")
+        return
 
-    new_candidates = find_new_candidates(tracked_set)
+    if do_sync:
+        overlay()
+    git("add", "-A")
 
-    print(f"mirror sync ({'SYNC' if do_sync else 'CHECK'}) — {len(tracked)} tracked FoI files "
-          f"({skipped_staging_canonical} canonical-at-staging + {skipped_state} daemon-state, skipped)")
-    print(f"  DRIFTED (mirror stale vs local): {len(drifted)}")
-    for p in drifted[:40]:
-        print(f"    ~ {p}" + ("  [refreshed]" if p in refreshed else ""))
-    if len(drifted) > 40:
-        print(f"    ... +{len(drifted)-40} more")
-    print(f"  NEW local .md not yet mirrored (review; not auto-added): {len(new_candidates)}")
-    for p in new_candidates[:30]:
-        print(f"    + {p}")
-    if len(new_candidates) > 30:
-        print(f"    ... +{len(new_candidates)-30} more")
-    print(f"  ORPHANS (tracked in staging, missing locally — NOT deleted): {len(orphans)}")
-    for p in orphans[:20]:
-        print(f"    ? {p}")
+    status = git("diff", "--cached", "--name-only").stdout.splitlines()
+    changed = len(status)
+    print(f"clawd-backup ({'SYNC' if do_sync else 'CHECK'}) — {changed} file(s) changed vs backup")
+    for p in status[:30]:
+        print(f"    ~ {p}")
+    if changed > 30:
+        print(f"    ... +{changed - 30} more")
 
-    if do_sync and refreshed and do_commit:
-        # stage ONLY the files we refreshed, by explicit path — never `git add -u` (that would
-        # sweep up unrelated WIP under FoI, e.g. personal-works/ drafts someone else is editing).
-        paths = [(FOI_REL + "/" + r) for r in refreshed]
-        subprocess.run(["git", "add"] + paths, cwd=STAGE_REPO)
-        msg = f"sync_mirror: refresh {len(refreshed)} drifted mirror file(s) from clawd-local canonical"
-        subprocess.run(["git", "commit", "-q", "-m", msg], cwd=STAGE_REPO)
-        push = subprocess.run(["git", "push", "origin", "main"], cwd=STAGE_REPO,
-                              capture_output=True, text=True)
-        print("\n  committed + pushed:", (push.stderr or push.stdout).strip().splitlines()[-1:])
-    elif do_sync and refreshed:
-        print(f"\n  refreshed {len(refreshed)} file(s) into the staging tree (not committed; add --commit to push)")
-    print("\ndone.")
+    if not (do_sync and do_commit):
+        print("\ndone (no commit).")
+        return
+
+    if changed == 0:
+        print("\nbackup already current — nothing to commit.")
+        return
+
+    leaks = secret_gate()
+    if leaks:
+        print("\n!! SECRET GATE FAILED — refusing to push. Offending staged files:")
+        for l in leaks[:20]:
+            print(f"    !! {l}")
+        git("reset", "-q")  # unstage; do not commit
+        print("done (aborted — secrets present).")
+        return
+
+    git("commit", "-q", "-m", f"clawd-backup: refresh {changed} file(s) from canonical (drifted)")
+    push = git("push", "origin", "main")
+    tail = (push.stderr or push.stdout).strip().splitlines()[-1:] or ["(no output)"]
+    print(f"\n  committed + pushed {changed} drifted file(s): {tail}")
+    print("done.")
 
 
 if __name__ == "__main__":

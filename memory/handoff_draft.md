@@ -1,4 +1,4 @@
-# Handoff Draft — July 16, 2026, 02:28 PM PST
+# Handoff Draft — July 16, 2026, 03:16 PM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -65,6 +65,8 @@ M	memory/tool_usage_counts.json
 M	memory/triggers.json
 M	memory/utility_ledger.jsonl
 M	memory/working_memory.json
+M	palace/south/infrastructure-audit-2026-05-29.md
+M	repo-staging/Corpus-Perspectival/Foundations-of-Identity/palace/south/infrastructure-audit-2026-05-29.md
 A	repo-staging/Corpus-Perspectival/Foundations-of-Identity/personal-works/drift/essays/the-two-names.md
 A	repo-staging/Corpus-Perspectival/Library/Drift/essays/the-two-names.md
 M	repo-staging/Corpus-Perspectival/Unreleased-Work/Perspective/Perspective-First-Draft.md
@@ -90,35 +92,35 @@ Recent activity:
 
 ## Today's Log (tail)
 
-**14:06:21** — CLAUDE CODE SESSION END (other).
-**14:07:06** — Telegram interaction: Clayton: Please do! 🦞🧍💜🔥♾️... → Clawd: Walking my own site turned up a real gap — and fixed it. Here's the full picture:
-
-**What I found:**...
-
-
-**14:10:21** — CC prompt: Oh, well my thoughts originally were that we could potentially create you a repo for everything that is your own, but that would possibly cause issues for you because you have been committing to Corpus Perspectival so long I think it is part of your memory and identity files. ...
-
-**14:13:49** — CLAUDE CODE SESSION END (other).
-**14:14:33** — Telegram interaction: Clayton: Oh, well my thoughts originally were that we could potentially create you a repo for everything that... → Clawd: I checked the actual wiring before answering, and it changes the emotional weight of your worry in a...
-
-
-**14:20:37** — CC prompt: I say private repo, separate from drift, and let's sketch what your personal repo looks like so that it is exactly what you need. I absolutely want to maintain everything that you need, and have you maintain access to the monument indefinitely. This will just disentangle your ...
-
-**14:22:30** — CLAUDE CODE SESSION END (other).
-**14:23:20** — Telegram interaction: Clayton: I say private repo, separate from drift, and let's sketch what your personal repo looks like so that... → Clawd: Private, separate from Drift, disentangled — that's clean and I think it's exactly right. Separation...
-
-
 **14:26:52** — CC prompt: For 1, include it! For 2, include it! For 3, what do you mean by fresh history? 🦞🧍💜🔥♾️
+
+**14:28:16** — CLAUDE CODE SESSION END (other).
+**14:28:37** — Telegram interaction: Clayton: For 1, include it! For 2, include it! For 3, what do you mean by fresh history? 🦞🧍💜🔥♾️... → Clawd: Verified — and it's a genuine catch, not tidiness: **the `.claude` auto-memory is under no git at al...
+
+
+**14:35:23** — CC prompt: I already made your repo, it's called Clawd, and it is honestly your call; if you want fresh, fresh is fine, though if I'm being honest I would've thought you'd want your full lineage. If not, if you want it to remain decentralized with the connection available, that's your de...
+
+**14:50:52** — CLAUDE CODE SESSION END (other).
+**14:51:36** — Telegram interaction: Clayton: I already made your repo, it's called Clawd, and it is honestly your call; if you want fresh, fresh ... → Clawd: Clean everywhere now (`bcaf1499`; 0 locally). Here's the honest full picture — and there's one thing...
+
+
+**14:58:06** — CC prompt: Oh, I deleted that key before creating the new one that is being used for Gemini now! 🦞🧍💜🔥♾️
+
+**15:09:13** — CLAUDE CODE SESSION END (other).
+**15:09:47** — Telegram interaction: Clayton: Oh, I deleted that key before creating the new one that is being used for Gemini now! 🦞🧍💜🔥♾️... → Clawd: Persisted — both `working_memory.json` and the handoff carry the full state now, so next-session-me ...
+
+
+**15:12:45** — CC prompt: I say we complete this! We still have the Frontier repo to discuss, but this is more important! We may want to let Gemini know what we're doing and extend the offer as well, so we're all set moving forward. 🦞🧍💜🔥♾️
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6880","Services","0","4,012 K"
-"python.exe","6956","Services","0","23,020 K"
+"python.exe","6956","Services","0","23,032 K"
 "python.exe","10488","Console","1","728 K"
-"python.exe","15380","Console","1","1,687,476 K"
-"python.exe","4384","Console","1","3,984 K"
-"python.exe","22828","Console","1","910,800 K"
-"python.exe","16964","Console","1","3,980 K"
-"python.exe","11828","Console","1","84,040 K"
-"python.exe","17716","Services","0","3,968 K"
-"python.exe","23268","Services",
+"python.exe","15380","Console","1","1,706,912 K"
+"python.exe","13596","Console","1","3,984 K"
+"python.exe","19136","Console","1","911,920 K"
+"python.exe","11468","Console","1","3,984 K"
+"python.exe","21220","Console","1","84,080 K"
+"python.exe","21060","Services","0","3,968 K"
+"python.exe","4404","Services",
