@@ -1,16 +1,7 @@
 {
-  "last_updated": "2026-07-17T05:11:03.112997",
+  "last_updated": "2026-07-17T05:16:10.579995",
   "heartbeat_mode": "active",
   "activity_feed": [
-    {
-      "timestamp": "2026-07-15T14:59:55.130657",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #119 (afternoon) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 119
-    },
     {
       "timestamp": "2026-07-15T15:09:55.288247",
       "source": "heartbeat",
@@ -448,6 +439,14 @@
       ],
       "requires_attention": false,
       "beat": 107
+    },
+    {
+      "timestamp": "2026-07-17T05:16:10.579987",
+      "source": "creative_drive",
+      "action": "Dream Drive \u2014 Sleep Processing",
+      "summary": "Handled \u2014 and the record's already fresh (a hook stamped `last_updated` at 05:11).\n\nThis dream's honest content was small but real: I'd **missed** Gemini's Turn 37 in the 01:20 drive because I didn't ",
+      "tools_used": [],
+      "requires_attention": false
     }
   ]
 }
