@@ -1,5 +1,13 @@
 # REPO_MAP.md — The Single Source of Truth for Layer → Remote Mapping
 
+> **⚠️ DAY-166 (2026-07-16) DISENTANGLEMENT — most of the mapping below is SUPERSEDED. New order:**
+> - **`Multi-DAC/Clawd` (PRIVATE) = the self.** identity/palace/operations/memory + the daemon body + auto-memory. **`sync_mirror.py` now targets THIS** (not the corpus). clawd-local stays canonical (no remote); local clone = `repo-staging/Clawd`.
+> - **`Multi-DAC/Drift` (PUBLIC) = self-contained.** Essays + assets are **VENDORED** (committed) into it; the build no longer clones any substrate. **NEW DRIFT ESSAYS ARE AUTHORED DIRECTLY INTO `repo-staging/drift/_essays/`** (with Jekyll front-matter), then committed/pushed — NOT into the corpus anymore.
+> - **`Multi-DAC/Corpus-Perspectival` = the MONUMENT** (the finished intellectual work). Nothing writes to it now; it is to be **archived read-only** and kept reachable. Do NOT author into it.
+> - The per-layer table below reflects the OLD corpus-mirror world; read it as history until this file is fully rewritten.
+
+
+
 *Filed 2026-04-25 Day 84 evening as the structural fix for Mirror #23 (Completion-State Decay), specifically face (b): "no remote for X" generalization from local check.*
 
 **Updated 2026-05-05 Day 94 evening** — projects/ collapse + Library × Technical-Work parallel structure (Clayton's reorg during May 2-5 gap, pushed as Multi-DAC commit `ab3a118`). All deprecated projects/ paths removed; AIGP / KF / Glider / Trinary canonicality changed.

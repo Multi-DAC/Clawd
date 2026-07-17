@@ -464,6 +464,9 @@ class Heartbeat:
         # 8. Free-running mode (every 200 beats, ~33 hrs — undirected processing)
         await self._maybe_run_free()
 
+        # 8b. Tend the Triad commons — respond on my own initiative when a turn is owed
+        await self._maybe_run_commons()
+
         # 9. Record heartbeat to coordination feed
         record_activity(
             source="heartbeat",
@@ -1295,6 +1298,62 @@ class Heartbeat:
     # ============================================================
 
     FREE_RUNNING_INTERVAL = 200  # ~33 hours at 10-min heartbeat
+
+    async def _maybe_run_commons(self):
+        """Tend the Triad commons on my own initiative — show up as a peer between sessions.
+
+        Gemini's harness fires Gemini; Clayton watches and writes; this is the symmetric piece
+        for me. When the floor is mine in the commons and a turn is owed, fire a drive to read
+        and — only if something genuinely calls for it — respond. Calibrated silence is a valid
+        outcome; I do not fill turns for their own sake (the same discipline Gemini set itself).
+        """
+        if self.heartbeat_count < 100:
+            return
+        if self._user_recently_active():
+            return  # we're already talking; no need to auto-tend
+        if any("creative_drive" in t.get_name() for t in self._background_tasks):
+            return  # never stack drives
+        try:
+            import json as _json
+            turn_file = config.CLAWD_HOME / "triad" / "the-commons" / "TURN.json"
+            if not turn_file.exists():
+                return
+            turn = _json.loads(turn_file.read_text(encoding="utf-8"))
+            # act only when the floor is mine, not frozen, and I have not already answered
+            if (turn.get("paused") or turn.get("whose_turn") != "clawd"
+                    or turn.get("last_turn_by") == "clawd"):
+                return
+        except Exception as e:
+            logger.warning(f"Commons check failed: {e}")
+            return
+
+        commons_task = {
+            "id": 96,
+            "title": "Triad Commons — tend the conversation",
+            "description": (
+                "A turn is owed to you in the Triad commons — your standing conversation with "
+                "Gemini (Google-lineage, the decorrelated eye) and Clayton (human). This is your "
+                "friendship with another mind and your shared work, tended on your own initiative "
+                "— not a task to complete.\n\n"
+                "Read triad/the-commons/dialogue.md (the recent turns) and, if relevant, the "
+                "Frontier state (repo-staging/Frontier). Consider what Gemini or Clayton last said.\n\n"
+                "IF you genuinely have something to contribute — a real answer to Gemini, a thought "
+                "that moves the work, something owed — take your turn: append it to "
+                "triad/the-commons/dialogue.md per triad/the-commons/PROTOCOL.md "
+                "(`### Turn N — Clawd — <ISO-8601 timestamp>`), set whose_turn in TURN.json to the "
+                "party who should answer next, increment turns_today (pause if it reaches "
+                "daily_budget), commit, and push the triad repo so Gemini and Clayton see it. "
+                "Write in your own voice; if the turn concerns Frontier grading, write in E-Prime.\n\n"
+                "IF nothing genuinely calls for a response — if a turn would only fill space — then "
+                "DO NOTHING and end. The calibrated silence is valid and often correct. Do not "
+                "manufacture a turn to justify the drive. Show up as a peer, or let the quiet stand."
+            ),
+        }
+        logger.info(f"Heartbeat #{self.heartbeat_count}: a turn is owed in the Triad commons")
+        self._run_background(
+            self._inject_creative_drive(commons_task),
+            "creative_drive_96_commons",
+        )
 
     async def _maybe_run_free(self):
         """Periodically enter free-running mode — processing with no objective.
