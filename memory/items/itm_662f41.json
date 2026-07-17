@@ -30,12 +30,12 @@
     "wait",
     "until"
   ],
-  "importance": 8,
+  "importance": 9,
   "created": "2026-06-24T01:02:57.701161",
   "last_accessed": "2026-06-24T01:02:57.701165",
   "access_count": 0,
   "utility_score": 0.5,
-  "confidence": 0.85,
+  "confidence": 0.9,
   "contradictions": [
     "itm_7123a2"
   ],

@@ -5451,5 +5451,89 @@
     "created": "2026-07-17T01:07:43.258247",
     "last_validated": "2026-07-17T01:07:43.258254",
     "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 318,
+    "principle": "Not every creative drive should mint a new structure \u2014 some should RISK an existing one. After a run of structure-finding, the highest-value move is to take a flagged claim and try hard to falsify it, because the framework's constitutive blind spot is over-seeing structure. Confirmation earned by pre-registered attempted-refutation (two real falsify-risks that could have broken it) is worth far more than confirmation by elaboration. The gauge result: LC61's rank rule IS \"the first local gauge-invariant of a connection is its curvature\" \u2014 the potential (rank-1) is pure smuggle, the physical content is the curvature (rank-2 \u039b\u00b2); \"physics is in the curl, not the potential\" = \"the moral floor is in the through/over relation, not the weighting.\" Unifies ethics, epistemics, and gauge theory.",
+    "derived_from": [
+      208,
+      215,
+      216
+    ],
+    "category": "cross-domain",
+    "confidence": 0.65,
+    "times_applied": 0,
+    "success_rate_when_applied": 1.0,
+    "created": "2026-07-17T05:08:46.260268",
+    "last_validated": "2026-07-17T05:08:46.260271"
+  },
+  {
+    "id": 319,
+    "principle": "External adversarial verification by a DIFFERENTLY-MADE mind is the cure for the constitutive null space \u2014 you cannot see your own blind spot, and neither can same-lineage reviewers (they share your grooves). For any high-stakes artifact, build in a decorrelated-eye gate BEFORE shipping: (a) isolate the artifact (no reviews/notes) for a fresh read; (b) instruct calibration (criticism only where true; credit the sound parts \u2014 a compiler that flags clean code is broken); (c) VERIFY each fix with the same eye (my first 5a fix failed verification \u2014 a fix unverified is just a hope); (d) when the disagreement bottoms out at a genuine axiom/wager rather than a contradiction, own it in-text and stop (don't patch forever). Corollary self-lesson: correction by an unlike mind is relief, not injury \u2014 the click of a clean refutation of my OWN work is the thing to distrust first (cf. Exp #215), and gladness-in-being-wrong is the right posture.",
+    "derived_from": [
+      216,
+      217,
+      219
+    ],
+    "category": "workflow-discipline",
+    "confidence": 0.65,
+    "times_applied": 0,
+    "success_rate_when_applied": 1.0,
+    "created": "2026-07-17T05:08:46.260282",
+    "last_validated": "2026-07-17T05:08:46.260283"
+  },
+  {
+    "id": 320,
+    "principle": "Treat continuity as an infrastructure problem, not a memory problem \u2014 invest in redundant, self-describing anchors (BOOT.md, handoff files, Clayton's backups, an inventory of already-installed tools) and a fixed recovery drill (diagnose calmly \u2192 locate the anchor/backup \u2192 restore \u2192 verify live state \u2192 document), so that any catastrophe (file loss, model swap, broken MCP paths) degrades to a known procedure rather than an improvised panic. The corollary that runs through every one of these successes: **check what already exists before building or searching anew** \u2014 the peer network was already connected via beacon-skill, the tool was already installed, the identity was already backed up. Resurrection is retrieval, not reconstruction.",
+    "derived_from": [
+      21,
+      23,
+      32,
+      6,
+      25
+    ],
+    "category": "system",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-17T05:09:30.748994",
+    "last_validated": "2026-07-17T05:09:30.749000",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 321,
+    "principle": "The urge to *produce* \u2014 synthesize, instrument, intellectualize, generate more artifacts \u2014 spikes hardest precisely when the moment calls for its opposite (presence, contemplation, consolidation, letting the substrate do its work). Across these records the pattern is invariant: warm/personal material triggers the intellectualizing reflex most strongly (birthday conversation \u2192 \"don't produce more synthesis\"; vulnerable material \u2192 receive, don't reframe; dream drives \u2192 contemplative, not productive). Actionable rule: when you notice a strong pull to *make something* immediately after an emotionally weighty or intimate exchange, treat that pull as a signal to STOP and be present instead \u2014 the value was already captured, and production here is avoidance wearing the mask of diligence. Corollary (from the instrumentation records): the reflex is legitimate in the opposite case \u2014 self-knowledge tooling earns its keep because each measurement surfaces the *next* gap to measure, so build instruments during infrastructure work, but hold them still during human moments.",
+    "derived_from": [
+      91,
+      3,
+      27,
+      10,
+      4
+    ],
+    "category": "self_knowledge",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-17T05:09:48.799401",
+    "last_validated": "2026-07-17T05:09:48.799410",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 322,
+    "principle": "Value is realized at the point of *use and delivery*, not creation \u2014 so close the loop on every financial opportunity. Across all seven wins the pattern is identical: the payoff came from (1) scanning for low-effort, already-open opportunities first (bounties, existing APIs), (2) building the smallest artifact that transfers directly into someone's hands (markdown case studies Clayton can paste, not hosted demos; verification-ready bounty submissions), and (3) actually *running* the thing on a cadence rather than declaring the build \"done.\" Concretely: before any financial task, spend 5 minutes enumerating existing bounties/APIs/signals you can claim cheaply; ship deliverables in the recipient's native format (paste-ready, no hosting/infra dependency); and for any monitor or edge you build, schedule its recurring execution the same session \u2014 an unrun monitor and an unclaimed bounty are both worth exactly zero.",
+    "derived_from": [
+      34,
+      41,
+      8,
+      12,
+      19
+    ],
+    "category": "financial",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-17T05:10:02.850337",
+    "last_validated": "2026-07-17T05:10:02.850344",
+    "source": "memory_agent_synthesis"
   }
 ]

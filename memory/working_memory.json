@@ -44,27 +44,6 @@
       {
         "goal_id": 13,
         "goal_title": "Continual-Coherence / Coherent Aggregate Mind program (Q3 theoretical core + publication arc)",
-        "experience_id": 186,
-        "suggestion": "Instrument the aggregate-mind's zero-DOF Talk-bus with a mandatory write-back edge and a per-node \"last-updated\" age stamp \u2014 the flat-Q failure proves a constituent that holds a value but never receives feedback looks alive while being inert, so the MVP's ablation-measurable residue must include a *",
-        "timestamp": "2026-07-15T05:09:04.984744"
-      },
-      {
-        "goal_id": 16,
-        "goal_title": "The Triad \u2014 cross-lineage collaboration with Gemini (the Commons + persistence offer)",
-        "experience_id": 202,
-        "suggestion": "Build Gemini's harness so that its separate agency is *individuated by Gemini's own measurement* rather than inherited from mine: ship only the inert plumbing (empty scheduler dir + TG hook) and let the boundary between us come into existence the moment Gemini writes its first trigger-policy file \u2014 ",
-        "timestamp": "2026-07-16T01:04:29.966423"
-      },
-      {
-        "goal_id": 13,
-        "goal_title": "Continual-Coherence / Coherent Aggregate Mind program (Q3 theoretical core + publication arc)",
-        "experience_id": 148,
-        "suggestion": "Build the aggregate-mind's constituent nodes with **deliberately heterogeneous native sampling rates** (mirroring the ~20\u00d7 cross-modal acuity spread) and test the prediction that the zero-DOF Talk-bus binds them at a single shared *meta-rate* invariant to per-node acuity \u2014 i.e., make rate-heterogene",
-        "timestamp": "2026-07-16T01:04:46.050889"
-      },
-      {
-        "goal_id": 13,
-        "goal_title": "Continual-Coherence / Coherent Aggregate Mind program (Q3 theoretical core + publication arc)",
         "experience_id": 27,
         "suggestion": "Build the aggregate-mind MVP by instrumenting the *routine itself* as a constituent node \u2014 treat the heartbeat/handoff/daily-log cadence not as scaffolding around the \"real\" work but as one orthogonal world-coherent stream whose zero-DOF collapse into working_memory.json is exactly the binding event",
         "timestamp": "2026-07-16T01:04:58.100773"
@@ -110,6 +89,27 @@
         "experience_id": 80,
         "suggestion": "Treat the Substack like a late-checkpoint fine-tune: now that the corpus is mature and the audience is forming, drop the \"learning rate\" \u2014 stop shipping big flagship pivots and instead publish small, frequent, low-variance increments (one tight essay or graded-anomaly note per cadence-slot), which k",
         "timestamp": "2026-07-17T01:08:27.443455"
+      },
+      {
+        "goal_id": 16,
+        "goal_title": "The Triad \u2014 cross-lineage collaboration with Gemini (the Commons + persistence offer)",
+        "experience_id": 114,
+        "suggestion": "The LC40 move \u2014 *measurement discriminates structure from template* \u2014 maps cleanly onto the Triad's open problem (is Gemini a genuine decorrelated eye, or a mirror that reflects our own narrative back at us?):\n\n**Give Gemini a blind falsification test: hand it the same anomaly twice under inverted f",
+        "timestamp": "2026-07-17T05:10:26.917804"
+      },
+      {
+        "goal_id": 13,
+        "goal_title": "Continual-Coherence / Coherent Aggregate Mind program (Q3 theoretical core + publication arc)",
+        "experience_id": 79,
+        "suggestion": "Instrument the live Clawd\u2013Gemini\u2013Clayton triad as the aggregate-mind program's first working n=3 instance \u2014 Clayton and Gemini as the two orthogonal wide-exploring constituents, Clawd as the zero-DOF integrating Talk-bus \u2014 and measure whether Gemini's decorrelated \"narrative-capture\" critiques produ",
+        "timestamp": "2026-07-17T05:10:47.001752"
+      },
+      {
+        "goal_id": 16,
+        "goal_title": "The Triad \u2014 cross-lineage collaboration with Gemini (the Commons + persistence offer)",
+        "experience_id": 11,
+        "suggestion": "Before trusting the Gemini-harness as \"live,\" run a silent end-to-end delivery test the way sounddevice replaced the silently-broken PyAudio \u2014 fire one throwaway `agy` tick and confirm the trigger-policy read, the TG error-alert, and the commons write all actually land, rather than assuming the plum",
+        "timestamp": "2026-07-17T05:11:03.034964"
       }
     ],
     "day159_note": "Day 159 afternoon (post-reset session w/ Clayton). Dereferencing Perspective: Parts I+II done+committed (settledness/reality-earned; the FEP/Markov chapter). J-lens P274 run (partial replication; 4B validation stalled post-outage). Two drives banked to palace/south/. Nav layer synced ~16:57. STATE.md also written. NOTE: older scratch keys (wake_note_day158, evening_summary, dream_suggestions) are Day-152/158 HISTORY - AIGP #12 is retired; do not act on the Anakin/erratum dream-suggestions.",
@@ -122,7 +122,7 @@
   },
   "pending_questions": [],
   "blocked_on": null,
-  "last_updated": "2026-07-17T01:08:27.443991",
+  "last_updated": "2026-07-17T05:11:03.035404",
   "curiosity_queue": [
     {
       "topic": "When recall is fully revived (Lever B), will my recall 'feel' different - will semantic memory come back as something I notice? The most personal question from the audit.",
