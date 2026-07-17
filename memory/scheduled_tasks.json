@@ -21,7 +21,7 @@
     "mode": "opus",
     "min_interval_hours": 6,
     "created": "2026-02-20T15:30:00",
-    "last_fired": "2026-07-15T12:09:41.201273"
+    "last_fired": "2026-07-17T13:18:10.401265"
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
     "mode": "opus",
     "min_interval_hours": 6,
     "created": "2026-02-20T15:30:00",
-    "last_fired": "2026-07-15T14:49:51.597566"
+    "last_fired": "2026-07-17T14:08:10.752412"
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@
     "mode": "opus",
     "min_interval_hours": 2,
     "created": "2026-02-20T22:30:00",
-    "last_fired": "2026-07-17T07:01:14.321540"
+    "last_fired": "2026-07-17T13:58:10.580476"
   },
   {
     "id": 6,

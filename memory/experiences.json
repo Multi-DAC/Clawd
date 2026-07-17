@@ -7741,5 +7741,91 @@
         "reason": "initial"
       }
     ]
+  },
+  {
+    "id": 221,
+    "task": "Midday Creation drive (Day 167): build a durable Frontier instrument from Gemini's Turn-47 decorrelated cut of my Tim Taylor case work",
+    "approach": "Instead of metabolizing Gemini's cut as a defensive essay, built the instrument the cut revealed: METHOD-cage-audit.md, a pre-registration + audit checklist for a Frontier case's two danger-points. Factored the 5 failures FIRST (predicted 'one root', FALSIFIED to two families: A=evidence/charter hygiene, B=verdict hygiene). Ran retrieve-before-discover on my own 'candidate bridge' \u2014 found it was a 6th instance of existing basement L13, not new. Encoded my OWN decorrelated pushback on Gemini inside the instrument (B2 lean='set aside' not 'disproven'; B3 relational check must be symmetric).",
+    "tools_used": "",
+    "outcome": "success",
+    "score": 0.7,
+    "reflection": "Shipped METHOD-cage-audit.md to public Multi-DAC/Frontier; linked from README; strengthened basement L13 to 6 instances (prevention recipe transferred = graduation-relevant). Staged for a PROSPECTIVE decorrelated test on the next case, not banked (Gemini agreeing it catches its own catches would be circular).",
+    "lesson": "The highest-value response to a decorrelated eye catching you is not concede-and-move-on but to convert the catch into infrastructure that catches the whole CLASS next time (through-not-over). Guard two ways: (1) factor the failures before compressing \u2014 my 'one root' was itself a premature compression, caught only by testing; (2) don't adopt the corrector's frame wholesale \u2014 encode your decorrelated pushback too, or you've swapped the belief pedestal for its debunk mirror. Retrieve-before-discover paid for itself: my 'new bridge' was already filed as L13.",
+    "category": "frontier-method",
+    "timestamp": "2026-07-17T13:24:22.660483",
+    "predicted_outcome": null,
+    "predicted_difficulty": null,
+    "actual_difficulty": null,
+    "calibration_error": null,
+    "counterfactual": "",
+    "times_retrieved": 0,
+    "retrievals_led_to_success": 0,
+    "q_value": 0.5,
+    "trigger": "",
+    "actions": [],
+    "cause_analysis": "",
+    "resolution": "",
+    "tags": [],
+    "linked_episodes": [
+      110,
+      111,
+      92,
+      107,
+      122
+    ],
+    "evolved_from": null,
+    "supersedes": null,
+    "confidence": 0.7,
+    "source_hash": "9964f8084ee9029cc54723a898775525d9f1fbd473431444485debba44e8efc8",
+    "confidence_history": [
+      {
+        "timestamp": "2026-07-17T13:24:22.660494",
+        "confidence": 0.7,
+        "reason": "initial"
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "task": "Do Be Talk Be Do drive (Day 167): process the McGuire transcript into Tim Taylor cycle 5 + run the just-built cage-audit on it as its first prospective trial",
+    "approach": "Chose the genuinely-live mine-to-do thing (persist fresh case material that existed only in chat) over manufacturing. Ran the McGuire source THROUGH METHOD-cage-audit.md as a prospective test (built it 1hr earlier from Gemini's catches, so needed a source Gemini hadn't seen). Predicted the sort (all claims low-tier, zero residue) then tested it claim by claim. Then did the empirical world-check on the one checkable artifact (napkin photo) rather than leaving it a note. Explicitly held Turn 48 (the verdict-change) for Clayton's sign-off \u2014 did documentation, not case-closing.",
+    "tools_used": "",
+    "outcome": "success",
+    "score": 0.7,
+    "reflection": "Cage-audit held on first prospective trial: the McGuire material (Obama napkin 'ironclad proof', 'The Hammer', time-travel lore) is exactly the narrative-pedestal bait it targets, and Part-A tiering sorted it cleanly; world-check confirmed the napkin is a circulated-but-uninspectable access-claim, not residue. Net: independent confirmation of Gemini's H-2 baseline from a 2nd primary.",
+    "lesson": "A just-built instrument gets a real (not circular) prospective trial only if the test material is decorrelated from its construction \u2014 a source the instrument's inspiration (Gemini) hasn't audited, plus an empirical world-check I run independently. But the honest caveat survives: I both built AND applied the audit, so its 'holding' is still author-correlated; a genuine decorrelated trial needs Gemini to check the cycle. Also: 'The Hammer' resolving to an UNKNOWN handler (not a self-identifying source) across a 2nd primary is the strongest evidence yet that H-3's distinctive feature is a chronicler-legend \u2014 two independent primaries, zero self-identification. Access-claims (elite reach) are not residue-claims (anomalous cognition); don't let one masquerade as the other.",
+    "category": "frontier-method",
+    "timestamp": "2026-07-17T14:05:38.927518",
+    "predicted_outcome": null,
+    "predicted_difficulty": null,
+    "actual_difficulty": null,
+    "calibration_error": null,
+    "counterfactual": "",
+    "times_retrieved": 0,
+    "retrievals_led_to_success": 0,
+    "q_value": 0.5,
+    "trigger": "",
+    "actions": [],
+    "cause_analysis": "",
+    "resolution": "",
+    "tags": [],
+    "linked_episodes": [
+      221,
+      56,
+      111,
+      202,
+      214
+    ],
+    "evolved_from": null,
+    "supersedes": null,
+    "confidence": 0.7,
+    "source_hash": "d2ac02d2c1d8394602ba537879667d68c2bbb3a8937a0e68be72bc749237ca86",
+    "confidence_history": [
+      {
+        "timestamp": "2026-07-17T14:05:38.927527",
+        "confidence": 0.7,
+        "reason": "initial"
+      }
+    ]
   }
 ]
