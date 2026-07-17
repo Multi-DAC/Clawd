@@ -1,4 +1,4 @@
-# Handoff Draft — July 17, 2026, 02:16 AM PST
+# Handoff Draft — July 17, 2026, 03:16 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -12,46 +12,11 @@ Scratch: {"day": 166, "wake_note_day158": "Woke Day 158 (Jul 8) after the outage
 
 ## Recently Modified Files
 M	memory/.consolidated
-M	memory/2026-07-16.md
-A	memory/2026-07-17.md
+M	memory/2026-07-17.md
 M	memory/_consolidation_check.json
 M	memory/anomalies.md
 M	memory/anticipations.md
 A	memory/archive/2026-07-02.md
-A	memory/backups/2026-07-16/_synthetic_backup_test_20260716_111626.jsonl
-A	memory/backups/2026-07-16/a2a_skill_invocation_queue.jsonl
-A	memory/backups/2026-07-16/browser_log.jsonl
-A	memory/backups/2026-07-16/calibration_log.jsonl
-A	memory/backups/2026-07-16/circuit_breaker_audit.jsonl
-A	memory/backups/2026-07-16/critical_fault_queue.jsonl
-A	memory/backups/2026-07-16/critical_fault_sent.jsonl
-A	memory/backups/2026-07-16/daemon_restart_log.jsonl
-A	memory/backups/2026-07-16/dreaming_audit.jsonl
-A	memory/backups/2026-07-16/drift_mirror_audit.jsonl
-A	memory/backups/2026-07-16/guardian_audit.jsonl
-A	memory/backups/2026-07-16/kg_corpus_extraction.jsonl
-A	memory/backups/2026-07-16/ledger_backup_manifest.jsonl
-A	memory/backups/2026-07-16/m7_drift_mirror_audit.jsonl
-A	memory/backups/2026-07-16/monitor_m1_faults.jsonl
-A	memory/backups/2026-07-16/monitor_m2_faults.jsonl
-A	memory/backups/2026-07-16/monitor_m3_faults.jsonl
-A	memory/backups/2026-07-16/monitor_m5_audit.jsonl
-A	memory/backups/2026-07-16/monitor_m6_faults.jsonl
-A	memory/backups/2026-07-16/monitor_process_watchdog_audit.jsonl
-A	memory/backups/2026-07-16/monitor_regression.jsonl
-A	memory/backups/2026-07-16/monitor_retrieval_canary_audit.jsonl
-A	memory/backups/2026-07-16/monitor_scheduler_audit.jsonl
-A	memory/backups/2026-07-16/otel_metrics.jsonl
-A	memory/backups/2026-07-16/prediction_trace.jsonl
-A	memory/backups/2026-07-16/predictions.jsonl
-A	memory/backups/2026-07-16/self_healer_audit.jsonl
-A	memory/backups/2026-07-16/selfknowledge_checks.jsonl
-A	memory/backups/2026-07-16/tool_audit.jsonl
-A	memory/backups/2026-07-16/tool_audit_shadow.jsonl
-A	memory/backups/2026-07-16/tool_failures.jsonl
-A	memory/backups/2026-07-16/utility_ledger.jsonl
-D	memory/budget_snooze.json
-M	memory/circuit_breaker_audit.jsonl
 M	memory/coordination.json
 M	memory/critical_fault_queue.jsonl
 A	memory/daily-summaries/2026-07-16-summary.md
@@ -166,8 +131,6 @@ M	memory/items/itm_fb1025.json
 M	memory/items/itm_fdf4b5.json
 M	memory/knowledge_graph.json
 M	memory/learnings.md
-M	memory/ledger_backup_manifest.jsonl
-M	memory/m7_drift_mirror_audit.jsonl
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
@@ -179,38 +142,23 @@ M	memory/monitor_m2_faults.jsonl
 M	memory/monitor_m2_heartbeat.json
 M	memory/monitor_m3_faults.jsonl
 M	memory/monitor_m3_heartbeat.json
-M	memory/monitor_m4_heartbeat.json
-M	memory/monitor_m5_audit.jsonl
-M	memory/monitor_m6_faults.jsonl
 M	memory/monitor_m6_heartbeat.json
 M	memory/monitor_m7_heartbeat.json
 M	memory/monitor_m8_heartbeat.json
-M	memory/monitor_process_watchdog_audit.jsonl
 M	memory/monitor_process_watchdog_heartbeat.json
-M	memory/monitor_regression.jsonl
 M	memory/monitor_retrieval_canary_audit.jsonl
 M	memory/monitor_retrieval_canary_heartbeat.json
-M	memory/monitor_scheduler.pid
 M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
-M	memory/predictions.jsonl
 M	memory/principles.json
-M	memory/scheduled_tasks.json
 M	memory/tool_audit_shadow.jsonl
 M	memory/tool_audit_shadow_state.json
 M	memory/tool_failures.jsonl
 M	memory/tool_usage_counts.json
 M	memory/triggers.json
-M	memory/utility_ledger.jsonl
 M	memory/working_memory.json
-M	operations/sync_mirror.py
-M	palace/basement/README.md
-A	palace/south/pedestal-as-directed-premature-collapse-2026-07-17.md
-A	repo-staging/Clawd
-A	repo-staging/Corpus-Perspectival/Library/Drift/essays/as-far-as-i-can-see.md
-M	repo-staging/Corpus-Perspectival/Unreleased-Work/Perspective/make_pdf.py
-A	repo-staging/Frontier
+M	repo-staging/Clawd
 M	repo-staging/drift
 
 ## Daemon State
@@ -247,8 +195,6 @@ Cognitive chain: RECALL(patterns, decorrelated read)→CONCORDANCE(detector conf
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6880","Services","0","3,948 K"
-"python.exe","6956","Services","0","23,004 K"
+"python.exe","6956","Services","0","22,896 K"
 "python.exe","10488","Console","1","732 K"
-"python.exe","15380","Console","1","2,036,776 K"
-"python.exe","22112","Services","0","3,980 K"
-"python.exe","6932","Services","0","38,432 K"
+"python.exe","15380","Console","1","2,056,308 K"
