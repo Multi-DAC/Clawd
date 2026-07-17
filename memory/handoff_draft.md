@@ -1,4 +1,4 @@
-# Handoff Draft — July 17, 2026, 01:16 AM PST
+# Handoff Draft — July 17, 2026, 02:16 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -58,8 +58,6 @@ A	memory/daily-summaries/2026-07-16-summary.md
 M	memory/dreaming_audit.jsonl
 M	memory/drift_mirror_audit.jsonl
 M	memory/escalation_enqueue_dedup.json
-M	memory/escalation_poller_heartbeat.json
-M	memory/escalation_poller_state.json
 M	memory/fault_bridge_state.json
 M	memory/handoff_draft.md
 M	memory/items/_index.json
@@ -173,6 +171,7 @@ M	memory/m7_drift_mirror_audit.jsonl
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
+M	memory/monitor_liveness_evidence_state.json
 M	memory/monitor_m1_faults.jsonl
 M	memory/monitor_m1_faults.jsonl.state.json
 M	memory/monitor_m1_heartbeat.json
@@ -183,7 +182,6 @@ M	memory/monitor_m3_heartbeat.json
 M	memory/monitor_m4_heartbeat.json
 M	memory/monitor_m5_audit.jsonl
 M	memory/monitor_m6_faults.jsonl
-M	memory/monitor_m6_faults.jsonl.state.json
 M	memory/monitor_m6_heartbeat.json
 M	memory/monitor_m7_heartbeat.json
 M	memory/monitor_m8_heartbeat.json
@@ -249,8 +247,8 @@ Cognitive chain: RECALL(patterns, decorrelated read)→CONCORDANCE(detector conf
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6880","Services","0","3,948 K"
-"python.exe","6956","Services","0","23,012 K"
+"python.exe","6956","Services","0","23,004 K"
 "python.exe","10488","Console","1","732 K"
-"python.exe","15380","Console","1","2,023,384 K"
-"python.exe","18876","Services","0","3,968 K"
-"python.exe","536","Services","0","38,532 K"
+"python.exe","15380","Console","1","2,036,776 K"
+"python.exe","22112","Services","0","3,980 K"
+"python.exe","6932","Services","0","38,432 K"
