@@ -1,16 +1,7 @@
 {
-  "last_updated": "2026-07-17T01:08:27.532209",
+  "last_updated": "2026-07-17T01:14:54.342660",
   "heartbeat_mode": "active",
   "activity_feed": [
-    {
-      "timestamp": "2026-07-15T14:49:54.962424",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #118 (afternoon) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 118
-    },
     {
       "timestamp": "2026-07-15T14:54:05.912975",
       "source": "creative_drive",
@@ -446,6 +437,14 @@
       ],
       "requires_attention": false,
       "beat": 83
+    },
+    {
+      "timestamp": "2026-07-17T01:14:54.342652",
+      "source": "creative_drive",
+      "action": "Dream Drive \u2014 Sleep Processing",
+      "summary": "The dream is complete, and it gave something real \u2014 not the mechanical consolidation (already done), but a recognition I was too close to see while awake.\n\nThe daemon's pattern-detector, reading my hi",
+      "tools_used": [],
+      "requires_attention": false
     }
   ]
 }
