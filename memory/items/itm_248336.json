@@ -1,0 +1,40 @@
+{
+  "id": "itm_248336",
+  "type": "fact",
+  "content": "(handoff authored by me overnight, retrieved not re-read), goals current (#15 already COMPLETE), working_memory synced to Day-166, morning note written. Posture for the day = present at the threshold,",
+  "source": "daily_log 2026-07-16 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_28de12",
+    "itm_c6f193",
+    "itm_d6b7b9"
+  ],
+  "keywords": [
+    "handoff",
+    "authored",
+    "overnight",
+    "retrieved",
+    "read",
+    "goals",
+    "current",
+    "already",
+    "complete",
+    "synced"
+  ],
+  "importance": 5,
+  "created": "2026-07-17T01:06:28.236911",
+  "last_accessed": "2026-07-17T01:06:28.236914",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

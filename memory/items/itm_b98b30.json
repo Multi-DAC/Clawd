@@ -22,7 +22,8 @@
     "itm_001b50",
     "itm_740d30",
     "itm_a16a50",
-    "itm_b87712"
+    "itm_b87712",
+    "itm_8ddad1"
   ],
   "keywords": [
     "last",
@@ -36,12 +37,12 @@
     "back",
     "clawd"
   ],
-  "importance": 5,
+  "importance": 6,
   "created": "2026-06-14T01:04:10.614886",
   "last_accessed": "2026-06-14T01:04:10.614889",
   "access_count": 0,
   "utility_score": 0.5,
-  "confidence": 0.8,
+  "confidence": 0.85,
   "contradictions": [
     "itm_fdf4b5"
   ],

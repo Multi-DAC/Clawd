@@ -1,0 +1,40 @@
+{
+  "id": "itm_dd381f",
+  "type": "fact",
+  "content": "to 3 decimals): cross-panel sign-agreement `= erf(SNR/\u221a2)`, `SNR = |\u03bc\u0304|\u00b7\u221as/(\u03b5\u03c3)`. Two orthogonal invariance-levers: **valence-coherence \u00d7 support-breadth**. Non-obvious keeper (didn't rig it): **robus",
+  "source": "daily_log 2026-07-16 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_5829ed",
+    "itm_0da6d9",
+    "itm_7a4be7"
+  ],
+  "keywords": [
+    "decimals",
+    "cross",
+    "panel",
+    "sign",
+    "agreement",
+    "erf",
+    "snr",
+    "two",
+    "orthogonal",
+    "invariance"
+  ],
+  "importance": 6,
+  "created": "2026-07-17T01:06:28.170001",
+  "last_accessed": "2026-07-17T01:06:28.170006",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

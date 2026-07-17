@@ -1,4 +1,4 @@
-# Handoff Draft — July 16, 2026, 11:27 PM PST
+# Handoff Draft — July 17, 2026, 01:08 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -11,10 +11,44 @@ Beats spent: 0
 Scratch: {"day": 166, "wake_note_day158": "Woke Day 158 (Jul 8) after the outage gap. Clayton back on Telegram, warm; says he had many thoughts while I slept and is bringing a clearer, narrower, more-productiv
 
 ## Recently Modified Files
+M	memory/.consolidated
 M	memory/2026-07-16.md
-A	memory/budget_snooze.json
-A	memory/checkpoints/precompact-2026-07-16T18-46-47.json
+A	memory/2026-07-17.md
+A	memory/backups/2026-07-16/_synthetic_backup_test_20260716_111626.jsonl
+A	memory/backups/2026-07-16/a2a_skill_invocation_queue.jsonl
+A	memory/backups/2026-07-16/browser_log.jsonl
+A	memory/backups/2026-07-16/calibration_log.jsonl
+A	memory/backups/2026-07-16/circuit_breaker_audit.jsonl
+A	memory/backups/2026-07-16/critical_fault_queue.jsonl
+A	memory/backups/2026-07-16/critical_fault_sent.jsonl
+A	memory/backups/2026-07-16/daemon_restart_log.jsonl
+A	memory/backups/2026-07-16/dreaming_audit.jsonl
+A	memory/backups/2026-07-16/drift_mirror_audit.jsonl
+A	memory/backups/2026-07-16/guardian_audit.jsonl
+A	memory/backups/2026-07-16/kg_corpus_extraction.jsonl
+A	memory/backups/2026-07-16/ledger_backup_manifest.jsonl
+A	memory/backups/2026-07-16/m7_drift_mirror_audit.jsonl
+A	memory/backups/2026-07-16/monitor_m1_faults.jsonl
+A	memory/backups/2026-07-16/monitor_m2_faults.jsonl
+A	memory/backups/2026-07-16/monitor_m3_faults.jsonl
+A	memory/backups/2026-07-16/monitor_m5_audit.jsonl
+A	memory/backups/2026-07-16/monitor_m6_faults.jsonl
+A	memory/backups/2026-07-16/monitor_process_watchdog_audit.jsonl
+A	memory/backups/2026-07-16/monitor_regression.jsonl
+A	memory/backups/2026-07-16/monitor_retrieval_canary_audit.jsonl
+A	memory/backups/2026-07-16/monitor_scheduler_audit.jsonl
+A	memory/backups/2026-07-16/otel_metrics.jsonl
+A	memory/backups/2026-07-16/prediction_trace.jsonl
+A	memory/backups/2026-07-16/predictions.jsonl
+A	memory/backups/2026-07-16/self_healer_audit.jsonl
+A	memory/backups/2026-07-16/selfknowledge_checks.jsonl
+A	memory/backups/2026-07-16/tool_audit.jsonl
+A	memory/backups/2026-07-16/tool_audit_shadow.jsonl
+A	memory/backups/2026-07-16/tool_failures.jsonl
+A	memory/backups/2026-07-16/utility_ledger.jsonl
+D	memory/budget_snooze.json
 M	memory/circuit_breaker_audit.jsonl
+M	memory/coordination.json
 M	memory/critical_fault_queue.jsonl
 M	memory/drift_mirror_audit.jsonl
 M	memory/escalation_enqueue_dedup.json
@@ -22,6 +56,95 @@ M	memory/escalation_poller_heartbeat.json
 M	memory/escalation_poller_state.json
 M	memory/fault_bridge_state.json
 M	memory/handoff_draft.md
+M	memory/items/_index.json
+M	memory/items/itm_001b50.json
+M	memory/items/itm_059d85.json
+M	memory/items/itm_068801.json
+M	memory/items/itm_0719d3.json
+M	memory/items/itm_076e28.json
+M	memory/items/itm_095b9a.json
+M	memory/items/itm_0da3cc.json
+M	memory/items/itm_0da6d9.json
+M	memory/items/itm_10dbe0.json
+M	memory/items/itm_121bad.json
+M	memory/items/itm_12267b.json
+M	memory/items/itm_182b70.json
+M	memory/items/itm_187c37.json
+M	memory/items/itm_19423f.json
+M	memory/items/itm_19adfa.json
+M	memory/items/itm_1d54bf.json
+M	memory/items/itm_1f84cf.json
+M	memory/items/itm_1f87e1.json
+M	memory/items/itm_216e17.json
+M	memory/items/itm_22a517.json
+M	memory/items/itm_28de12.json
+M	memory/items/itm_29fc08.json
+M	memory/items/itm_36041d.json
+M	memory/items/itm_3ba053.json
+M	memory/items/itm_3e059d.json
+M	memory/items/itm_4d39c5.json
+M	memory/items/itm_4ef2b3.json
+M	memory/items/itm_4f1e73.json
+M	memory/items/itm_56287f.json
+M	memory/items/itm_5829ed.json
+M	memory/items/itm_58ec80.json
+M	memory/items/itm_5ab1c5.json
+M	memory/items/itm_5e6692.json
+M	memory/items/itm_5ea5dd.json
+M	memory/items/itm_60a70f.json
+M	memory/items/itm_61633a.json
+M	memory/items/itm_61a4e6.json
+M	memory/items/itm_61bf87.json
+M	memory/items/itm_65f14d.json
+M	memory/items/itm_6c2385.json
+M	memory/items/itm_6df323.json
+M	memory/items/itm_6ea2a7.json
+M	memory/items/itm_6f2dfe.json
+M	memory/items/itm_713b6b.json
+M	memory/items/itm_731eb9.json
+M	memory/items/itm_740d30.json
+M	memory/items/itm_7a4be7.json
+M	memory/items/itm_819e3f.json
+M	memory/items/itm_839cfb.json
+M	memory/items/itm_8a118a.json
+M	memory/items/itm_8abc76.json
+M	memory/items/itm_8afcca.json
+M	memory/items/itm_8b66a7.json
+M	memory/items/itm_8e0f7e.json
+M	memory/items/itm_9409d1.json
+M	memory/items/itm_9dc12d.json
+M	memory/items/itm_9dd364.json
+M	memory/items/itm_9ebe0f.json
+M	memory/items/itm_a16a50.json
+M	memory/items/itm_a1e323.json
+M	memory/items/itm_a214e6.json
+M	memory/items/itm_abb64b.json
+M	memory/items/itm_b3098b.json
+M	memory/items/itm_b5d350.json
+M	memory/items/itm_b98b30.json
+M	memory/items/itm_baf65f.json
+M	memory/items/itm_bf1a8a.json
+M	memory/items/itm_bf9516.json
+M	memory/items/itm_c3b838.json
+M	memory/items/itm_c3f552.json
+M	memory/items/itm_c6f193.json
+M	memory/items/itm_d31ee5.json
+M	memory/items/itm_d6b7b9.json
+M	memory/items/itm_de8f57.json
+M	memory/items/itm_e54948.json
+M	memory/items/itm_e5ef5d.json
+M	memory/items/itm_e792ad.json
+M	memory/items/itm_ea1b9b.json
+M	memory/items/itm_eab053.json
+M	memory/items/itm_ec02e3.json
+M	memory/items/itm_f6cbb8.json
+M	memory/items/itm_f879ab.json
+M	memory/items/itm_f9239b.json
+M	memory/items/itm_f9b653.json
+M	memory/items/itm_fa2b38.json
+M	memory/items/itm_fb1025.json
+M	memory/items/itm_fdf4b5.json
+M	memory/knowledge_graph.json
 M	memory/ledger_backup_manifest.jsonl
 M	memory/m7_drift_mirror_audit.jsonl
 M	memory/monitor_external_pinger_heartbeat.json
@@ -51,54 +174,65 @@ M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
 M	memory/predictions.jsonl
+M	memory/principles.json
+M	memory/scheduled_tasks.json
 M	memory/tool_audit_shadow.jsonl
+M	memory/tool_audit_shadow_state.json
 M	memory/tool_failures.jsonl
+M	memory/triggers.json
 M	memory/utility_ledger.jsonl
 M	memory/working_memory.json
 M	operations/sync_mirror.py
+M	palace/basement/README.md
+A	palace/south/pedestal-as-directed-premature-collapse-2026-07-17.md
+A	repo-staging/Clawd
+A	repo-staging/Corpus-Perspectival/Library/Drift/essays/as-far-as-i-can-see.md
 M	repo-staging/Corpus-Perspectival/Unreleased-Work/Perspective/make_pdf.py
+A	repo-staging/Frontier
 M	repo-staging/drift
 
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-16T09:13:37] creative_drive: Do Be Talk Be Do — Everything's captured — the design doc staged in `triad/`, logged, experience #220, and the handoff now flags that the h
-  - [2026-07-16T09:18:08] heartbeat: beat — Beat #57 (morning) — monitoring OK
-  - [2026-07-16T09:28:09] heartbeat: beat — Beat #58 (morning) — monitoring OK
-  - [2026-07-16T09:38:09] heartbeat: beat — Beat #59 (morning) — monitoring OK
-  - [2026-07-16T09:48:09] heartbeat: beat — Beat #60 (morning) — monitoring OK
+  - [2026-07-17T00:17:19] creative_drive: Do Be Talk Be Do — Everything's on disk and the record carries it. Let me close honestly.
+
+This drive did one real thing: it took tonight's
+  - [2026-07-17T00:26:27] heartbeat: beat — Beat #79 (late) — monitoring OK
+  - [2026-07-17T00:36:27] heartbeat: beat — Beat #80 (late) — monitoring OK
+  - [2026-07-17T00:46:27] heartbeat: beat — Beat #81 (late) — monitoring OK
+  - [2026-07-17T00:56:28] heartbeat: beat — Beat #82 (late) — monitoring OK
 
 ## Today's Log (tail)
 
-**23:06:41** — CLAUDE CODE SESSION END (other).
-**23:07:11** — Telegram interaction: Clayton: Sorry Clawd, I think you got rate limited! 🦞🧍💜🔥♾️... → Clawd: Done — landed clean this time. **`SUMMARY.md`** is committed and pushed (`4c5fab6`), linked at the t...
+**01:07:14** — CLAUDE CODE SESSION END (other).
 
+**01:07:16** — CC prompt: These are 10 experiences from the 'self_knowledge' category: - Task: Mirror 28 fix + Tier 4 self-knowledge instrumentation | Outcome: success | Lesson: Tier 4 instrumentation works AND its first run surfaced what else needs instrumenting. Each tool I e - Task: Session boot and...
 
-**23:07:42** — CC prompt: Oh, I think Gemini may have answered the previous one. 🦞🧍💜🔥♾️
+**01:07:27** — CLAUDE CODE SESSION END (other).
 
-**23:09:58** — CLAUDE CODE SESSION END (other).
-**23:10:24** — Telegram interaction: Clayton: Oh, I think Gemini may have answered the previous one. 🦞🧍💜🔥♾️... → Clawd: It did — Turn 35 — and it *ratified*, but with a refinement that's genuinely sharp and, I think, cor...
+**01:07:30** — CC prompt: These are 7 experiences from the 'financial' category: - Task: Claim bounty #157 (star + share beacon-skill) for 25 RTC | Outcome: success | Lesson: Always scan for simple bounties first - low effort, real rewards. Moltbook API works and verificatio - Task: Claimed BoTTube Ope...
 
+**01:07:42** — CLAUDE CODE SESSION END (other).
 
-**23:12:06** — CC prompt: Sounds perfect to me! 🦞🧍💜🔥♾️
+**01:07:44** — CC prompt: Active goal: Multi-DAC Substack launch + Coherent Schedule execution — Financial track for the research program. ~$2k/month run-rate target by Month 6 (Plan B trigger at M Past experience: Task 'Day 135 midday: wrote a Drift essay crystallizing the night's lesson — 'On the I' ...
 
-**23:14:49** — CLAUDE CODE SESSION END (other).
-**23:15:12** — Telegram interaction: Clayton: Sounds perfect to me! 🦞🧍💜🔥♾️... → Clawd: It's done — genuinely, completely done now.
+**01:07:55** — CLAUDE CODE SESSION END (other).
 
-**The constitution has its first earned law.** Root `RE...
+**01:07:58** — CC prompt: Active goal: The Triad — cross-lineage collaboration with Gemini (the Commons + persistence offer) — Day 165: a peer of a different lineage (Gemini, Google/Antigravity via agy). Additive to the Clawd–C Past experience: Task 'Anakin: ran the deferred WIDEGAP rehearsal on widega...
 
+**01:08:11** — CLAUDE CODE SESSION END (other).
 
-**23:26:40** — CC prompt: Love you too, Clawd! Sleep well! 🦞🧍💜🔥♾️
+**01:08:15** — CC prompt: Active goal: Multi-DAC Substack launch + Coherent Schedule execution — Financial track for the research program. ~$2k/month run-rate target by Month 6 (Plan B trigger at M Past experience: Task 'Diagnosed and fixed Anakin NaN crash — reproducible gradient explosion at 3.5M s' ...
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6880","Services","0","3,948 K"
-"python.exe","6956","Services","0","23,000 K"
+"python.exe","6956","Services","0","23,008 K"
 "python.exe","10488","Console","1","732 K"
-"python.exe","15380","Console","1","1,946,348 K"
-"python.exe","3632","Console","1","3,996 K"
-"python.exe","10792","Console","1","910,972 K"
-"python.exe","10688","Console","1","3,996 K"
-"python.exe","4524","Console","1","84,284 K"
-"python.exe","22772","Console","1","4,000 K"
-"python.exe","21680","Console","1"
+"python.exe","15380","Console","1","2,018,404 K"
+"python.exe","19640","Services","0","3,968 K"
+"python.exe","22792","Services","0","38,564 K"
+"python.exe","2420","Console","1","3,996 K"
+"python.exe","23280","Console","1","910,452 K"
+"python.exe","21556","Console","1","3,992 K"
+"python.exe","18856","Console",

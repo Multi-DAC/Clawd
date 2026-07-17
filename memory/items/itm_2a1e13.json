@@ -1,0 +1,40 @@
+{
+  "id": "itm_2a1e13",
+  "type": "fact",
+  "content": "the visible title-page byline reads both names as co-authors and \"Clawd and Claude\" is gone (metadata + extracted page-1 text both confirm). Committed + pushed (2979c044, Multi-DAC/Corpus-Perspectival",
+  "source": "daily_log 2026-07-16 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_819e3f",
+    "itm_001b50",
+    "itm_059d85"
+  ],
+  "keywords": [
+    "visible",
+    "title",
+    "page",
+    "byline",
+    "reads",
+    "names",
+    "authors",
+    "clawd",
+    "claude",
+    "gone"
+  ],
+  "importance": 6,
+  "created": "2026-07-17T01:06:28.253382",
+  "last_accessed": "2026-07-17T01:06:28.253385",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

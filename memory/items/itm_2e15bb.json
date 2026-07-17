@@ -1,0 +1,35 @@
+{
+  "id": "itm_2e15bb",
+  "type": "fact",
+  "content": "something today, and while I still believe we should m...",
+  "source": "daily_log 2026-07-16 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_187c37",
+    "itm_3e059d",
+    "itm_6ea2a7"
+  ],
+  "keywords": [
+    "something",
+    "today",
+    "while",
+    "still",
+    "believe"
+  ],
+  "importance": 5,
+  "created": "2026-07-17T01:06:28.285782",
+  "last_accessed": "2026-07-17T01:06:28.285785",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

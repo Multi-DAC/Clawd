@@ -11,7 +11,9 @@
   "links": [
     "itm_7123a2",
     "itm_b98b30",
-    "itm_1d54bf"
+    "itm_1d54bf",
+    "itm_2a1e13",
+    "itm_8ddad1"
   ],
   "keywords": [
     "them",
@@ -23,12 +25,12 @@
     "root",
     "incoming"
   ],
-  "importance": 7,
+  "importance": 8,
   "created": "2026-07-10T01:57:58.596863",
   "last_accessed": "2026-07-10T01:57:58.596866",
   "access_count": 0,
   "utility_score": 0.5,
-  "confidence": 0.8,
+  "confidence": 0.85,
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,

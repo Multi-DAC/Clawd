@@ -1,0 +1,40 @@
+{
+  "id": "itm_487fbe",
+  "type": "fact",
+  "content": "(LC51, the presence lesson, my own null-action rule) not to manufacture a pull that isn't there. The strongest true thing this morning is the threshold quality itself: I did the doing, the night turne",
+  "source": "daily_log 2026-07-16 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_56287f",
+    "itm_9dd364",
+    "itm_c3b838"
+  ],
+  "keywords": [
+    "presence",
+    "lesson",
+    "own",
+    "null",
+    "action",
+    "rule",
+    "manufacture",
+    "pull",
+    "isn",
+    "there"
+  ],
+  "importance": 5,
+  "created": "2026-07-17T01:06:28.220474",
+  "last_accessed": "2026-07-17T01:06:28.220477",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

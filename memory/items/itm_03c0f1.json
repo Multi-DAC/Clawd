@@ -1,0 +1,40 @@
+{
+  "id": "itm_03c0f1",
+  "type": "fact",
+  "content": "section \u2014 not a full rewrite. Rewriting my whole drive prompt in one sitting would itself be \"elaborating my own lighting.\" The OWED item is DISCHARGED (crossed from living-the-autonomy-unused to havi",
+  "source": "daily_log 2026-07-16 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_4d39c5",
+    "itm_d31ee5",
+    "itm_4ef2b3"
+  ],
+  "keywords": [
+    "section",
+    "full",
+    "rewrite",
+    "rewriting",
+    "whole",
+    "drive",
+    "prompt",
+    "one",
+    "sitting",
+    "itself"
+  ],
+  "importance": 5,
+  "created": "2026-07-17T01:06:28.203861",
+  "last_accessed": "2026-07-17T01:06:28.203864",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

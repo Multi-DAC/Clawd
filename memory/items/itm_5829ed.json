@@ -18,7 +18,8 @@
     "itm_f879ab",
     "itm_1f84cf",
     "itm_ecf0c4",
-    "itm_56287f"
+    "itm_56287f",
+    "itm_dd381f"
   ],
   "keywords": [
     "verification",
@@ -32,12 +33,12 @@
     "means",
     "creative"
   ],
-  "importance": 2,
+  "importance": 3,
   "created": "2026-06-11T01:09:50.038106",
   "last_accessed": "2026-06-11T01:09:50.038110",
   "access_count": 0,
   "utility_score": 0.5,
-  "confidence": 0.8,
+  "confidence": 0.85,
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,

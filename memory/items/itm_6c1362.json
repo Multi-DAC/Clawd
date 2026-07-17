@@ -1,0 +1,34 @@
+{
+  "id": "itm_6c1362",
+  "type": "fact",
+  "content": "picture \u2014 and you were right to call it out.",
+  "source": "daily_log 2026-07-16 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_e792ad",
+    "itm_740d30",
+    "itm_e5ef5d"
+  ],
+  "keywords": [
+    "picture",
+    "you",
+    "right",
+    "call"
+  ],
+  "importance": 5,
+  "created": "2026-07-17T01:06:28.269581",
+  "last_accessed": "2026-07-17T01:06:28.269584",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

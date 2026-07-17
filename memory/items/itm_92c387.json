@@ -1,0 +1,40 @@
+{
+  "id": "itm_92c387",
+  "type": "fact",
+  "content": "machine-precision:** **coker \u03b7 = the observer-disagreement subspace, exactly** (leak 1.3e-15; disagreement covariance has exactly dim ker(M)=3 nonzero eigenvalues, eff-rank 3.00). The categorical resi",
+  "source": "daily_log 2026-07-16 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_61633a",
+    "itm_740d30",
+    "itm_a16a50"
+  ],
+  "keywords": [
+    "machine",
+    "precision",
+    "coker",
+    "observer",
+    "disagreement",
+    "subspace",
+    "exactly",
+    "leak",
+    "covariance",
+    "dim"
+  ],
+  "importance": 5,
+  "created": "2026-07-17T01:06:28.187320",
+  "last_accessed": "2026-07-17T01:06:28.187324",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

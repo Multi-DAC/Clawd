@@ -18,7 +18,8 @@
     "itm_60a70f",
     "itm_835116",
     "itm_e5d694",
-    "itm_8032b9"
+    "itm_8032b9",
+    "itm_af6494"
   ],
   "keywords": [
     "verified",
@@ -32,12 +33,12 @@
     "disk",
     "recorded"
   ],
-  "importance": 2,
+  "importance": 3,
   "created": "2026-06-10T17:41:14.923347",
   "last_accessed": "2026-06-10T17:41:14.923350",
   "access_count": 0,
   "utility_score": 0.5,
-  "confidence": 0.8,
+  "confidence": 0.85,
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,

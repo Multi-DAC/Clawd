@@ -1,0 +1,37 @@
+{
+  "id": "itm_af6494",
+  "type": "fact",
+  "content": "\u2014 and it's a genuine catch, not tidiness: **the `.claude` auto-memory is under no git at al...",
+  "source": "daily_log 2026-07-16 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_839cfb",
+    "itm_1d54bf",
+    "itm_0da3cc"
+  ],
+  "keywords": [
+    "genuine",
+    "catch",
+    "tidiness",
+    "claude",
+    "auto",
+    "memory",
+    "git"
+  ],
+  "importance": 5,
+  "created": "2026-07-17T01:06:28.318542",
+  "last_accessed": "2026-07-17T01:06:28.318545",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

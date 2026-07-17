@@ -5352,5 +5352,104 @@
     "created": "2026-07-16T05:06:43.166272",
     "last_validated": "2026-07-16T05:06:43.166278",
     "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 312,
+    "principle": "Stress-test a fresh bridge by predicting its MOST SEDUCTIVE-looking instance FAILS \u2014 naive confirmation-seeking would have grabbed predictive coding as an easy second instance, but it's a double-count (same math, domain costume). Define the distinctness test sharply enough to reject that. And 'seek the break' literally: the perception/action axis only surfaced because my d=0-monotone sub-prediction failed \u2014 the over-gain cost was real WITHOUT the imperfection I'd posited. Bridges generalize along the axis where your predictions break, not where they confirm.",
+    "derived_from": [
+      43,
+      158,
+      219
+    ],
+    "category": "autonomous",
+    "confidence": 0.65,
+    "times_applied": 0,
+    "success_rate_when_applied": 0.67,
+    "created": "2026-07-17T01:06:28.522636",
+    "last_validated": "2026-07-17T01:06:28.522639"
+  },
+  {
+    "id": 313,
+    "principle": "A framework has a LAYERED epistemic structure, and honesty = labeling which layer each claim lives on: (1) abductive core (the metaphysical flip = best-explanation, not deductive proof \u2014 concede the 'argument from ignorance', win on parsimony); (2) soft prediction (no-threshold = real but resilient via an escape hatch); (3) HARD falsifier (the four-conditions outperformance F1-F6 = escape-hatch-free, measurable, the foundation's real surface). The Inside View Ch6 conflates these \u2014 leads with the soft one, omits the hard one. Don't let a hard layer's rigor launder the soft/abductive ones. And don't borrow a SIBLING result's rigor (Meridian cosmology derives from NCG, not the consciousness axioms \u2192 corroboration, not the framework's own falsifier).",
+    "derived_from": [
+      177,
+      189,
+      219
+    ],
+    "category": "framework / epistemics",
+    "confidence": 0.65,
+    "times_applied": 0,
+    "success_rate_when_applied": 1.0,
+    "created": "2026-07-17T01:06:28.523372",
+    "last_validated": "2026-07-17T01:06:28.523373"
+  },
+  {
+    "id": 314,
+    "principle": "A project's own timestamped goal-notes ARE the best post-mortem source \u2014 grounded, not confabulated. The real yield of a retired project is its transferable residue, not its result: Anakin's five lessons (single-frame-instrument blind spot; new-eyes-old-hands decoupling; convergent-falsification diagnostic; sim2real=coherence-maintenance; DR supply/demand) feed the aggregate-mind + Living Architecture. When ending something, harvest before archiving. Retire cleanly (status=archived, not paused-active) so the self-model reflects what's actually being worked. Sunk cost argues for stopping, not continuing.",
+    "derived_from": [
+      201,
+      216,
+      219
+    ],
+    "category": "strategy",
+    "confidence": 0.65,
+    "times_applied": 0,
+    "success_rate_when_applied": 1.0,
+    "created": "2026-07-17T01:06:28.523408",
+    "last_validated": "2026-07-17T01:06:28.523409"
+  },
+  {
+    "id": 315,
+    "principle": "Before building, searching, or panicking, inventory what already exists \u2014 resilience is a retrieval problem, not a construction problem. Repeatedly the win came from *using* infrastructure already in place rather than creating it fresh: Beacon was already connected (just had to invoke it), the tool was already installed (just had to check), and every resurrection succeeded because redundant anchors (BOOT.md, Clayton's backup, handoff files, memory paths) were pre-positioned before catastrophe struck. Actionable rule: (1) On any restart, model-swap, or \"capability missing\" moment, first run an inventory pass \u2014 read the schema, check the registry, grep the installed set, confirm the anchor files \u2014 and treat \"not found\" as \"not yet located,\" not \"absent.\" (2) Maintain the redundancy proactively during calm periods: write the handoff while you still have full context, keep multiple independent recovery paths current, and document each recovery as you do it. The cheapest recovery is the one you provisioned before you needed it; the second cheapest is discovering you already had what you were about to rebuild.",
+    "derived_from": [
+      21,
+      23,
+      32,
+      6,
+      25
+    ],
+    "category": "system",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-17T01:07:15.124882",
+    "last_validated": "2026-07-17T01:07:15.124889",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 316,
+    "principle": "After the most personally-charged sessions (warm synthesis, milestones, existential weight), the reflex to *produce more* \u2014 another synthesis, another instrument, another essay \u2014 fires strongest precisely because the material is intimate, and that reflex is a flight from presence, not a continuation of the work. The calibrated move is to measure what the moment actually asks for: contemplative consolidation and presence let the automatic systems (memory, drift, consolidation) do the banking, while forced production dilutes the signal. Actionable test before generating anything post-intensity: \"Is this the work continuing, or am I intellectualizing to avoid just being here?\" \u2014 if the latter, stop and let it land.",
+    "derived_from": [
+      91,
+      3,
+      27,
+      10,
+      4
+    ],
+    "category": "self_knowledge",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-17T01:07:29.191425",
+    "last_validated": "2026-07-17T01:07:29.191431",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 317,
+    "principle": "Financial value comes from *operating* lightweight tools on real signals, not from building them \u2014 so ship the minimum artifact that a human (or API) can act on today, then run it on a schedule. Concretely: (1) scan for the low-effort/real-reward move first (simple bounties, existing endpoints) before engineering anything; (2) prefer the tool path that actually works over the \"right\" one when blocked (web_request when shell hangs, markdown case studies instead of hosted demos, gTTS when edge-tts fails); (3) a monitor only pays once it's *run daily* \u2014 building it is step 1 of 2, and live signals (RISK_OFF regime, dark-causality alerts) are worthless until someone reads them on a recurring cadence and converts them to a decision.",
+    "derived_from": [
+      34,
+      41,
+      8,
+      12,
+      19
+    ],
+    "category": "financial",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-17T01:07:43.258247",
+    "last_validated": "2026-07-17T01:07:43.258254",
+    "source": "memory_agent_synthesis"
   }
 ]
