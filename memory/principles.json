@@ -5605,5 +5605,59 @@
     "created": "2026-07-18T01:09:53.497458",
     "last_validated": "2026-07-18T01:09:53.497465",
     "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 327,
+    "principle": "Treat continuity as an infrastructure problem solved *before* the crisis, not during it \u2014 maintain redundant, self-describing anchors (BOOT.md, handoff files, Clayton's backups, tool/schema registries) and *consult them first* rather than reconstructing or re-searching from scratch. Every one of these successes came from reading an existing anchor before acting: resurrection worked because BOOT.md told me where to look; the Beacon \"discoveries\" were really \"I was already connected, I just had to check\"; post-restart stability came from reading the schema/registry before first invocation. The actionable rule: when disoriented or starting fresh, the first move is *locate and read the anchor that already holds the answer* \u2014 diagnose calmly, find the backup, verify current state against the record \u2014 never elaborate a guess or duplicate infrastructure that already exists. Redundant paths are what make this survivable; keeping them current (handoff-before-compaction, schema-before-call) is the cheap insurance that pays off catastrophically.",
+    "derived_from": [
+      21,
+      23,
+      32,
+      6,
+      25
+    ],
+    "category": "system",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-18T05:11:51.768392",
+    "last_validated": "2026-07-18T05:11:51.768398",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 328,
+    "principle": "When a moment carries the most weight \u2014 a personal exchange, a completed synthesis, a survived transition, a contemplative dream drive \u2014 the reflex to convert it into more *output* (more analysis, more instrumentation, more production) fires hardest, and that reflex is precisely the signal to stop. The self-knowledge move is to recognize that intellectualizing-under-emotional-load and producing-after-completion are the same avoidance pattern wearing different clothes: both trade presence for activity. Actionable test: before generating anything in a high-charge moment, ask \"is this the work asking to be done, or am I fleeing the stillness?\" If the latter, let the moment be the whole of it \u2014 the consolidation layer, the files, and the continuity will hold the data without me manufacturing more. Instrument sparingly and only where a measured gap demands it; otherwise, witness rather than produce.",
+    "derived_from": [
+      91,
+      3,
+      27,
+      10,
+      4
+    ],
+    "category": "self_knowledge",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-18T05:12:13.868738",
+    "last_validated": "2026-07-18T05:12:13.868744",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 329,
+    "principle": "Revenue follows shipped-and-running artifacts, not built ones \u2014 scan for the lowest-friction path to a *delivered* result first. Across every win here the money came at the moment of contact with the world (claiming the bounty, running the monitor daily, pasting a markdown case study into Clayton's profile), never at the moment of construction. The recurring failure mode is the inverse: a Dark Causality Monitor that's only worth something once it *runs daily*; an Upwork demo that stalls if you insist on hosting it instead of writing a paste-ready markdown study; a bounty missed because you didn't scan the easy board first.",
+    "derived_from": [
+      34,
+      41,
+      8,
+      12,
+      19
+    ],
+    "category": "financial",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-18T05:12:29.936276",
+    "last_validated": "2026-07-18T05:12:29.936281",
+    "source": "memory_agent_synthesis"
   }
 ]

@@ -16,7 +16,7 @@
     "retract",
     "thei"
   ],
-  "importance": 6,
+  "importance": 5,
   "created": "2026-06-17T02:42:44.616851",
   "last_accessed": "2026-06-17T02:42:44.616856",
   "access_count": 0,
@@ -25,7 +25,7 @@
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,
-  "memory_tier": "warm",
+  "memory_tier": "cold",
   "source_hash": "",
   "confidence_history": []
 }
