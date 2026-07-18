@@ -12,7 +12,8 @@
     "itm_0226b8",
     "itm_5e6692",
     "itm_731eb9",
-    "itm_3684be"
+    "itm_3684be",
+    "itm_ec47fd"
   ],
   "keywords": [
     "collapse",
@@ -33,5 +34,8 @@
   "decay_rate": 0.995,
   "memory_tier": "warm",
   "source_hash": "",
-  "confidence_history": []
+  "confidence_history": [],
+  "contradictions": [
+    "itm_ec47fd"
+  ]
 }

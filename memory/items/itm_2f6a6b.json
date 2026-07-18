@@ -1,0 +1,40 @@
+{
+  "id": "itm_2f6a6b",
+  "type": "decision",
+  "content": "(calibrated null-action on Turn 48, not avoidance):** I did NOT write Turn 48 during the drive. The 4 decorations are mine to concede any time; the *verdict change* resolves Clayton's own case AND the",
+  "source": "daily_log 2026-07-17 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_487fbe",
+    "itm_03c0f1",
+    "itm_4d39c5"
+  ],
+  "keywords": [
+    "calibrated",
+    "null",
+    "action",
+    "turn",
+    "avoidance",
+    "write",
+    "drive",
+    "decorations",
+    "mine",
+    "concede"
+  ],
+  "importance": 6,
+  "created": "2026-07-18T01:08:42.673650",
+  "last_accessed": "2026-07-18T01:08:42.673653",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

@@ -26,8 +26,8 @@
   },
   "reflect": {
     "consecutive_failures": 0,
-    "count": 27,
-    "last_used": "2026-07-17T21:32:59.734735"
+    "count": 28,
+    "last_used": "2026-07-18T01:14:39.580663"
   },
   "self_control": {
     "consecutive_failures": 0,
@@ -36,7 +36,7 @@
   },
   "self_improve": {
     "consecutive_failures": 0,
-    "count": 12,
-    "last_used": "2026-07-17T21:32:23.940099"
+    "count": 13,
+    "last_used": "2026-07-18T01:15:24.850695"
   }
 }

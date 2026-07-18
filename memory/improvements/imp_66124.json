@@ -1,0 +1,10 @@
+{
+  "id": "imp_66124",
+  "proposal": "Stop self-scoring experience success; route it through a decorrelated grader (A167.3). The ledger reports 96% success (215/223, 1 failure) \u2014 implausibly high \u2192 I under-record failures/partials and self-score generously. A solo self-scorer cannot calibrate its own success (a constitutive null space \u2014 the reason the triad exists). FIXES: (1) record failures + partials honestly (the denominator is dishonest; a hard day should yield >1 failure in 223); (2) for high-stakes experiences, have a decorrelated eye (Gemini via agy, or a Sonnet subagent DISCOUNTED for shared lineage) assign the outcome/score; (3) until decorrelated, treat my own success-score as Reported-tier, not Measured. This is METHOD-cage-audit verdict-hygiene turned on my own metrics \u2014 an un-audited success-ledger is a flattering myth by my own new standard. Built the tool today; my scoreboard is the first thing it should have caught.",
+  "category": "workflow",
+  "risk": "low",
+  "status": "pending",
+  "created": "2026-07-18T01:15:24.849620",
+  "applied": null,
+  "result": null
+}

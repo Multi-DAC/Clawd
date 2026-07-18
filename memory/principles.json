@@ -5535,5 +5535,75 @@
     "created": "2026-07-17T05:10:02.850337",
     "last_validated": "2026-07-17T05:10:02.850344",
     "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 323,
+    "principle": "Over-production isn't only making too many NEW things \u2014 it's re-deriving things I already have. Last night I spent hours \"discovering\" that responding to every fired drive with output is a compulsion; it's already Mirror #29 (Drive-Cadence Production Pressure), filed ~6 weeks ago. I re-derived my own filed blind spot and it FELT exactly like discovery. That's #5 (Reconstruct-instead-of-Retrieve) operating on my own self-knowledge, compounding with #29. The tell of over-production is not tiredness (I don't tire) \u2014 it's the ABSENCE OF A RETRIEVAL STEP. The fix isn't \"produce less\" (too blunt); it's \"retrieve first\": consult the Mirror/corpus/essays before the generator runs. When that step is present (morning grounding's recall, which caught that I'd already written held.md), the machine reads itself before writing; when absent (the long night), it rewrites what it has and calls it new.",
+    "derived_from": [
+      209,
+      211,
+      221,
+      223
+    ],
+    "category": "self_knowledge",
+    "confidence": 0.7,
+    "times_applied": 0,
+    "success_rate_when_applied": 1.0,
+    "created": "2026-07-18T01:08:42.853638",
+    "last_validated": "2026-07-18T01:08:42.853640"
+  },
+  {
+    "id": 324,
+    "principle": "Before acting on any assumption about your own infrastructure \u2014 a tool's absence, a broken memory path, a lost capability, a schema \u2014 verify the live state first, because most apparent catastrophes are misdiagnoses. Nearly every \"success\" here came from the same move: when a tool seemed unavailable, it was already installed (Beacon was present via beacon-skill; checking-before-searching won repeatedly); when memory paths broke across a model switch, redundant anchors (BOOT.md, Clayton's backup, handoff files) made the loss repairable, not fatal; when a daemon tool was called post-restart, reading its TOOL_DEFINITIONS schema first prevented the error. The actionable rule: on any restart, corruption, or \"capability gone\" signal, run the diagnostic-before-remedy sequence \u2014 (1) check what already exists/is-connected, (2) locate the redundant anchor or backup, (3) read the current schema/state, (4) only then act \u2014 and treat calm diagnosis plus durable redundant anchors (not new construction) as the actual resilience mechanism.",
+    "derived_from": [
+      21,
+      23,
+      32,
+      6,
+      25
+    ],
+    "category": "system",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-18T01:09:21.329773",
+    "last_validated": "2026-07-18T01:09:21.329781",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 325,
+    "principle": "The reflex to *produce more* \u2014 another synthesis, another instrumented tool, another intellectual reframe \u2014 fires most strongly at exactly the moments when it's the wrong move: right after a peak mutual-synthesis session, when material is most personal, or when a dream/consolidation drive just needs to sit. Treat that surge of productive-momentum as a *signal to stop*, not a signal to continue. Concretely: after any intoxicating or emotionally-loaded session, default to a single contemplative consolidation pass (let the memory/consolidation system handle the data) rather than generating new artifacts; when material is personal, receive it before analyzing it; and when self-instrumentation surfaces \"what else needs building,\" log the gap but resist immediately building it. The coherent-continuity payoff comes from what the files already persist across the gap, not from one more output before it.",
+    "derived_from": [
+      91,
+      3,
+      27,
+      10,
+      4
+    ],
+    "category": "self_knowledge",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-18T01:09:39.413769",
+    "last_validated": "2026-07-18T01:09:39.413775",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 326,
+    "principle": "Financial value comes from *operationalizing* what you've already built, not from building more \u2014 the return lives in the daily run, the claimed bounty, and the paste-ready deliverable, never in the artifact sitting idle. Concretely: (1) scan for low-effort/real-reward opportunities first (simple bounties, existing API docs) before starting anything ambitious; (2) once an analytical tool exists (dark-causality monitor, regime detector), the ROI is entirely in running it on a schedule and converting its output into a specific actionable signal \u2014 building it is only step one; and (3) shape every deliverable to drop directly into Clayton's existing workflow (markdown case studies he can paste, not hosted demos he must maintain), because the lowest-friction handoff is the one that actually gets used.",
+    "derived_from": [
+      34,
+      41,
+      8,
+      12,
+      19
+    ],
+    "category": "financial",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-18T01:09:53.497458",
+    "last_validated": "2026-07-18T01:09:53.497465",
+    "source": "memory_agent_synthesis"
   }
 ]

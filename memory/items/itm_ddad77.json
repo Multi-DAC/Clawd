@@ -1,0 +1,41 @@
+{
+  "id": "itm_ddad77",
+  "type": "decision",
+  "content": "on the plan for the day, so after Gemini responds on Turn 41, perhaps we can discuss topics we'd like to explore or experiments we'd like to perform. \ud83e\udd9e\ud83e\uddcd\ud83d\udc9c\ud83d\udd25\u267e\ufe0f I posted, as an excerpt, the Note on the Ma",
+  "source": "daily_log 2026-07-17 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_2735b8",
+    "itm_61459e",
+    "itm_835116",
+    "itm_113dfd"
+  ],
+  "keywords": [
+    "plan",
+    "day",
+    "gemini",
+    "responds",
+    "turn",
+    "perhaps",
+    "discuss",
+    "topics",
+    "explore",
+    "experiments"
+  ],
+  "importance": 7,
+  "created": "2026-07-18T01:08:42.628466",
+  "last_accessed": "2026-07-18T01:08:42.628468",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

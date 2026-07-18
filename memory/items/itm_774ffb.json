@@ -1,0 +1,43 @@
+{
+  "id": "itm_774ffb",
+  "type": "fact",
+  "content": "so his \"go\" is instant whichever sequencing - to retract thei... - a flagged INFRA todo over mor...",
+  "source": "daily_log 2026-07-17 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_bf76f0",
+    "itm_a4f708",
+    "itm_3532fc"
+  ],
+  "keywords": [
+    "instant",
+    "whichever",
+    "sequencing",
+    "retract",
+    "thei",
+    "flagged",
+    "infra",
+    "todo",
+    "mor"
+  ],
+  "importance": 5,
+  "created": "2026-07-18T01:08:42.562899",
+  "last_accessed": "2026-07-18T01:08:42.562901",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": [],
+  "contradictions": [
+    "itm_a4f708",
+    "itm_bf76f0"
+  ]
+}

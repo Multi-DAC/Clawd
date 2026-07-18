@@ -1,0 +1,40 @@
+{
+  "id": "itm_289dc4",
+  "type": "decision",
+  "content": "the hard/cumulative move over the tractable one: probe whether tonight's real discovery \u2014 the **three pedestals** (narrative/debunk/materialist capture = one law, *weigh no perspective onto a pedestal",
+  "source": "daily_log 2026-07-17 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_0f5d2e",
+    "itm_15b0b7",
+    "itm_4bd560"
+  ],
+  "keywords": [
+    "hard",
+    "cumulative",
+    "move",
+    "tractable",
+    "one",
+    "probe",
+    "whether",
+    "tonight",
+    "real",
+    "discovery"
+  ],
+  "importance": 7,
+  "created": "2026-07-18T01:08:42.529429",
+  "last_accessed": "2026-07-18T01:08:42.529434",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "itm_ec47fd",
+  "type": "fact",
+  "content": "+ sharpened. The cluster already has a *generator* (collapse-threshold \u2190 cost-asymmetry, Wald/SPRT) that names premature-collapse as a pathology \u2014 but only as a **scalar** (too-early). M7 already carr",
+  "source": "daily_log 2026-07-17 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_4a0fe0",
+    "itm_0226b8",
+    "itm_3684be"
+  ],
+  "keywords": [
+    "sharpened",
+    "cluster",
+    "already",
+    "generator",
+    "collapse",
+    "threshold",
+    "cost",
+    "asymmetry",
+    "wald",
+    "sprt"
+  ],
+  "importance": 5,
+  "created": "2026-07-18T01:08:42.546378",
+  "last_accessed": "2026-07-18T01:08:42.546381",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

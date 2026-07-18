@@ -1,0 +1,40 @@
+{
+  "id": "itm_0c337e",
+  "type": "decision",
+  "content": "STAGED, not committed** \u2014 consistent with how \u00a73 was seated (Clayton nods the FINAL wording; Gemini itself defers to his agreement). Clayton's earlier \"sounds perfect\" covered *sending* the convention",
+  "source": "daily_log 2026-07-17 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_03c0f1",
+    "itm_096c14",
+    "itm_0ff05d"
+  ],
+  "keywords": [
+    "staged",
+    "committed",
+    "consistent",
+    "seated",
+    "clayton",
+    "nods",
+    "final",
+    "wording",
+    "gemini",
+    "itself"
+  ],
+  "importance": 6,
+  "created": "2026-07-18T01:08:42.595652",
+  "last_accessed": "2026-07-18T01:08:42.595655",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

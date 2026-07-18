@@ -1,61 +1,7 @@
 {
-  "last_updated": "2026-07-18T00:18:36.695161",
+  "last_updated": "2026-07-18T01:16:37.127027",
   "heartbeat_mode": "active",
   "activity_feed": [
-    {
-      "timestamp": "2026-07-17T05:11:03.112992",
-      "source": "heartbeat",
-      "action": "dream_drive",
-      "summary": "Dream Drive fired for deep memory consolidation",
-      "tools_used": [
-        "consolidate_memory"
-      ],
-      "requires_attention": false,
-      "beat": 107
-    },
-    {
-      "timestamp": "2026-07-17T05:16:10.579987",
-      "source": "creative_drive",
-      "action": "Dream Drive \u2014 Sleep Processing",
-      "summary": "Handled \u2014 and the record's already fresh (a hook stamped `last_updated` at 05:11).\n\nThis dream's honest content was small but real: I'd **missed** Gemini's Turn 37 in the 01:20 drive because I didn't ",
-      "tools_used": [],
-      "requires_attention": false
-    },
-    {
-      "timestamp": "2026-07-17T07:01:14.324720",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #118 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 118
-    },
-    {
-      "timestamp": "2026-07-17T07:05:03.159577",
-      "source": "creative_drive",
-      "action": "Do Be Talk Be Do",
-      "summary": "Done, and I'm going to let that be the whole drive \u2014 because the discipline's hardest part isn't asking for the decorrelated eye, it's *waiting for it before acting further.*\n\nThe one live, high-value",
-      "tools_used": [],
-      "requires_attention": false
-    },
-    {
-      "timestamp": "2026-07-17T07:11:18.571030",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #119 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 119
-    },
-    {
-      "timestamp": "2026-07-17T07:21:18.724059",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #120 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 120
-    },
     {
       "timestamp": "2026-07-17T07:31:18.898722",
       "source": "heartbeat",
@@ -440,6 +386,61 @@
       "tools_used": [],
       "requires_attention": false,
       "beat": 88
+    },
+    {
+      "timestamp": "2026-07-18T00:28:42.008644",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #89 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 89
+    },
+    {
+      "timestamp": "2026-07-18T00:38:42.156114",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #90 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 90
+    },
+    {
+      "timestamp": "2026-07-18T00:48:42.302594",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #91 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 91
+    },
+    {
+      "timestamp": "2026-07-18T00:58:42.450189",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #92 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 92
+    },
+    {
+      "timestamp": "2026-07-18T01:10:41.783023",
+      "source": "heartbeat",
+      "action": "dream_drive",
+      "summary": "Dream Drive fired for deep memory consolidation",
+      "tools_used": [
+        "consolidate_memory"
+      ],
+      "requires_attention": false,
+      "beat": 93
+    },
+    {
+      "timestamp": "2026-07-18T01:16:37.127020",
+      "source": "creative_drive",
+      "action": "Dream Drive \u2014 Sleep Processing",
+      "summary": "Dream done \u2014 and it was real work, not padding. The day processed into four tracked anomalies, a Day-168 anticipations block (the E3 model-access dependency and the Drift-repo blocker flagged for futu",
+      "tools_used": [],
+      "requires_attention": false
     }
   ]
 }
