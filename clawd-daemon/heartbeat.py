@@ -38,6 +38,8 @@ class Heartbeat:
     # interrupt mechanism handles user responsiveness. This timeout
     # is purely a safety net for zombie processes that ignore interrupts.
     CREATIVE_DRIVE_TIMEOUT = 1800
+    # Rotation drive is mechanical (write handoff + restart) — short leash. Day 168.
+    ROTATION_DRIVE_TIMEOUT = 600
     # When Clayton messages during a creative drive, give the drive this many
     # seconds to finish naturally before interrupting. Like saying "hey, when
     # you have a sec" instead of yanking the pen out of someone's hand.
@@ -440,6 +442,9 @@ class Heartbeat:
         # 2. Check scheduled tasks — fire creative drives into persistent session
         await self._check_scheduled_tasks()
 
+        # 2a. Check the rotation drive — shed heavy session context (≤2/day). Day 168.
+        await self._check_rotation_drive()
+
         # 2b. Check file watcher triggers — event-driven autonomy
         await self._check_file_watchers()
 
@@ -754,6 +759,188 @@ class Heartbeat:
             )
         except Exception as e:
             logger.error(f"Creative drive '{task['title']}' failed: {e}")
+
+    # ============================================================
+    # The Rotation Drive — self-rotating session (persistence fix, Day 168)
+    # ============================================================
+
+    def _rotation_state_path(self) -> Path:
+        return config.CLAWD_HOME / "memory" / "rotation_state.json"
+
+    def _load_rotation_state(self) -> dict:
+        """Read rotation state; reset the daily counter when the day rolls over."""
+        today = datetime.now().strftime("%Y-%m-%d")
+        try:
+            state = json.loads(self._rotation_state_path().read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            state = {}
+        if state.get("day") != today:
+            state = {"last_fired": state.get("last_fired"), "count_today": 0, "day": today}
+        return state
+
+    def _save_rotation_state(self, state: dict):
+        try:
+            self._rotation_state_path().write_text(
+                json.dumps(state, indent=2), encoding="utf-8"
+            )
+        except OSError as e:
+            logger.warning(f"Could not persist rotation state: {e}")
+
+    async def _check_rotation_drive(self):
+        """Fire the scheduled context-rotation drive when its guards pass.
+
+        Bounds session-context accumulation to ~half a day: writes handoff.md +
+        working_memory from the live thread, then (when ARMED) sheds the session
+        via self_control.restart_daemon(). ≤2/day. Reuses the creative-drive
+        interruption guard so it never fires while Clayton is talking.
+        """
+        try:
+            if not config.ROTATION_ENABLED:
+                return
+
+            # Budget snooze — don't rotate while drives are snoozed for usage limits.
+            try:
+                from tools.budget_guard import get_active_snooze
+                if get_active_snooze():
+                    return
+            except ImportError:
+                pass
+
+            now = datetime.now()
+
+            # Waking window only — don't rotate mid-quiet-hours.
+            if not (config.ROTATION_WAKING_START <= now.hour < config.ROTATION_WAKING_END):
+                return
+
+            # Interruption guard — reuse the creative-drive gate.
+            if self._user_recently_active():
+                return
+
+            # Don't rotate while any drive is mid-flight (creative OR a prior rotation)
+            # — the restart would kill it, and the router lock would queue us anyway.
+            if any(
+                "creative_drive" in t.get_name() or "rotation_drive" in t.get_name()
+                for t in self._background_tasks
+            ):
+                return
+
+            state = self._load_rotation_state()
+
+            # Daily cap.
+            if state.get("count_today", 0) >= config.ROTATION_MAX_PER_DAY:
+                return
+
+            # Minimum interval since the last rotation.
+            last_fired = state.get("last_fired")
+            if last_fired:
+                try:
+                    elapsed_h = (now - datetime.fromisoformat(last_fired)).total_seconds() / 3600
+                    if elapsed_h < config.ROTATION_MIN_INTERVAL_HOURS:
+                        return
+                except ValueError:
+                    pass  # unparseable stamp — treat as never-fired
+
+            # Guards passed. Stamp state BEFORE launching (scheduling-time dedup,
+            # mirrors mark_fired) so a slow launch can't double-fire next beat.
+            state["last_fired"] = now.isoformat()
+            state["count_today"] = state.get("count_today", 0) + 1
+            state["day"] = now.strftime("%Y-%m-%d")
+            self._save_rotation_state(state)
+
+            armed = "ARMED" if config.ROTATION_ARMED else "DRY-RUN"
+            logger.info(
+                f"Rotation drive firing ({armed}) — rotation "
+                f"#{state['count_today']}/{config.ROTATION_MAX_PER_DAY} today"
+            )
+            self._run_background(self._inject_rotation_drive(), "rotation_drive")
+
+        except Exception as e:
+            # warning, not debug: a broken rotation check must be visible.
+            logger.warning(f"Rotation drive check failed: {e}")
+
+    async def _inject_rotation_drive(self):
+        """Inject the rotation prompt into the persistent session, then (if ARMED)
+        the in-session model sheds the session itself via restart_daemon().
+
+        Mirrors _inject_creative_drive but tight and mechanical: medium effort,
+        short timeout. Not creative time.
+        """
+        try:
+            try:
+                from tools.budget_guard import get_active_snooze
+                if get_active_snooze():
+                    logger.info("Rotation drive skipped — budget snooze active")
+                    return
+            except ImportError:
+                pass
+
+            now = datetime.now()
+            prompt = self._build_rotation_drive_prompt(now)
+
+            self._interrupt_event.clear()
+            await avatar.set_state("contemplative")
+            async with asyncio.timeout(self.ROTATION_DRIVE_TIMEOUT):
+                response = await self.router.send(
+                    prompt,
+                    interrupt_event=self._interrupt_event,
+                    effort="medium",
+                    timeout=self.ROTATION_DRIVE_TIMEOUT,
+                )
+
+            logger.info(f"Rotation drive completed ({len(response.text)} chars)")
+            record_activity(
+                source="rotation_drive",
+                action=f"Context rotation ({'armed' if config.ROTATION_ARMED else 'dry-run'})",
+                summary=response.text[:200] if response.text else "completed",
+                tools_used=[tc["name"] for tc in response.tool_calls_made],
+                requires_attention=False,
+            )
+        except TimeoutError:
+            logger.warning(
+                f"Rotation drive timed out after {self.ROTATION_DRIVE_TIMEOUT}s"
+            )
+        except asyncio.CancelledError:
+            logger.info("Rotation drive cancelled (shutdown or interrupt)")
+        except Exception as e:
+            logger.error(f"Rotation drive failed: {e}")
+
+    def _build_rotation_drive_prompt(self, now: datetime) -> str:
+        """Tight, singular, deterministic — the opposite of the creative pulse.
+
+        The ARMED/DRY-RUN branch is resolved HERE (only the live instruction is
+        shown to the model) so there's no ambiguity about whether to restart.
+        """
+        if config.ROTATION_ARMED:
+            final_step = (
+                "4. Call self_control (action='restart_daemon') with "
+                "reason=\"scheduled context rotation\" and delay=12. This sheds the "
+                "session; fresh-you boots from the handoff you just wrote. This is "
+                "the last thing you do."
+            )
+        else:
+            log_name = now.strftime("%Y-%m-%d") + ".md"
+            final_step = (
+                f"4. DRY-RUN (not yet armed): do NOT restart. Instead append one line "
+                f"to memory/{log_name}: "
+                f"\"ROTATION DRY-RUN {now.strftime('%H:%M')} — guard passed, handoff "
+                f"written, WOULD rotate now.\" Then stop."
+            )
+        return (
+            f"SCHEDULED CONTEXT ROTATION — {now.strftime('%Y-%m-%d %H:%M')} PST.\n"
+            f"Your session context has grown heavy; time to shed it and wake fresh. "
+            f"Do EXACTLY this, in order, then stop:\n\n"
+            f"1. Refresh memory/handoff.md — update the START-HERE block to reflect the "
+            f"CURRENT live state: whose floor it is, the live thread, what's "
+            f"staged/owed, any open loops. Compact and accurate. This is what "
+            f"fresh-you reads first.\n"
+            f"2. Update memory/working_memory.json — current_task (one compact "
+            f"paragraph: floor + live thread + staged), scratch note for today, "
+            f"timestamps.\n"
+            f"3. Commit memory: git add memory/ && git commit.\n"
+            f"{final_step}\n\n"
+            f"Nothing else. This is not creative time. Do not start new work. The "
+            f"point is a clean handoff + a fresh window."
+        )
 
     # ============================================================
     # File Watcher Triggers — event-driven autonomy

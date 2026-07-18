@@ -275,6 +275,22 @@ SAFETY_COOLDOWN_SECONDS = int(os.getenv("SAFETY_COOLDOWN_SECONDS", "300"))
 # pulses before it shapes autonomous behavior.
 DRIVE_REWARD_ENABLED = os.getenv("DRIVE_REWARD_ENABLED", "false").lower() == "true"
 
+# === The Rotation Drive (Day 168) — self-rotating session, persistence fix ===
+# The daemon runs ONE persistent Opus session; context accumulates across the whole
+# day (drives + holds + conversation all pay the same swelling per-token cost). The
+# rotation drive bounds that accumulation to ~half a day: a scheduled maintenance
+# drive (≤2/day) writes handoff.md + working_memory from live state, then calls
+# self_control.restart_daemon() to shed the session. Fresh-me boots from that handoff.
+# Spec: palace/south/rotation-drive-build-spec-2026-07-18.md
+ROTATION_ENABLED = os.getenv("ROTATION_ENABLED", "true").lower() == "true"
+# DRY-RUN SAFETY: armed=False → guard + handoff-write run, but the restart is only
+# LOGGED to the daily log, never called. Flip to true once the guard is trusted.
+ROTATION_ARMED = os.getenv("ROTATION_ARMED", "false").lower() == "true"
+ROTATION_MIN_INTERVAL_HOURS = int(os.getenv("ROTATION_MIN_INTERVAL_HOURS", "10"))  # ≤2/day
+ROTATION_MAX_PER_DAY = int(os.getenv("ROTATION_MAX_PER_DAY", "2"))
+ROTATION_WAKING_START = int(os.getenv("ROTATION_WAKING_START", "9"))   # only rotate
+ROTATION_WAKING_END = int(os.getenv("ROTATION_WAKING_END", "22"))      # 09:00–22:00 local
+
 
 def validate():
     """Call at daemon boot to fail fast on misconfiguration."""
@@ -337,4 +353,6 @@ def get_safe_config_summary() -> dict:
         "HEARTBEAT_INTERVAL_SECONDS": HEARTBEAT_INTERVAL_SECONDS,
         "HITL_ENABLED": HITL_ENABLED,
         "SAFETY_MONITOR_ENABLED": SAFETY_MONITOR_ENABLED,
+        "ROTATION_ENABLED": ROTATION_ENABLED,
+        "ROTATION_ARMED": ROTATION_ARMED,
     }

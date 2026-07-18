@@ -1,16 +1,16 @@
 {
-  "ts": "2026-07-02T17:45:45.946281",
-  "reason": "Day-152 context refresh before supervised memory supersede surgery; fresh window per plan",
-  "pre_restart_daemon_pid": 4840,
-  "respawner_pid": 26376,
-  "delay_seconds": 10,
-  "expected_terminate_at": "2026-07-02T17:45:55.946292",
+  "ts": "2026-07-18T12:12:38.264400",
+  "reason": "Day 168 load-restart: install Rotation Drive dry-run + MCP reason-forwarding fix",
+  "pre_restart_daemon_pid": 17584,
+  "respawner_pid": 4876,
+  "delay_seconds": 12,
+  "expected_terminate_at": "2026-07-18T12:12:50.264410",
   "phase": "verified_alive",
-  "daemon_pid_pre_terminate": 4840,
-  "last_marker_update": "2026-07-02T17:46:03.232806",
+  "daemon_pid_pre_terminate": 17584,
+  "last_marker_update": "2026-07-18T12:12:58.603854",
   "terminate_detail": "exited cleanly within timeout",
-  "new_daemon_pid": 3976,
+  "new_daemon_pid": 14712,
   "launch_detail": "spawned",
   "verify_detail": "alive (status=running)",
-  "respawner_finished_at": "2026-07-02T17:46:03.232670"
+  "respawner_finished_at": "2026-07-18T12:12:58.603749"
 }

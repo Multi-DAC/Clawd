@@ -52,7 +52,7 @@
 ## Environment / tooling (reference)
 - [Absolute Python Path for Hooks & MCP](reference_claude_code_hooks_python_path.md) — anything Claude Code spawns needs C:/Python314/python.exe, never bare `python` (killed hooks + clawd-tools MCP for weeks; fixed Jun 9)
 - [New Body Environment Setup](reference_new_body_env.md) — PATH fix + tool locations for the Ryzen 9 / RTX 5080 machine
-- [Shell User vs Daemon → git push](reference_shell_user_vs_daemon_git_push.md) — tool shells run as 'wasch', daemon as 'mercu'; GitHub cred in mercu's vault → shell `git push` fails, commit locally + daemon/Clayton pushes (Day 153)
+- [Shell User vs Daemon → git push](reference_shell_user_vs_daemon_git_push.md) — ★ NO user split (verified Day 166): daemon AND tool-shells all run as `MERCU\Wasch`; `mercu` is a profile-folder name, not a user. So I CAN restart the daemon from my own shell (it relaunches as the same user) and I CAN push. Real gotcha = repo-local dpapi credential-store + PAT expiry, not the account
 - [Norton TLS → truststore (covers aiohttp)](reference_norton_tls_interception.md) — Norton MITMs every HTTPS; certifi blind to its root; Python HTTP libs need truststore (patched clawd.py); aiohttp covered transitively (module-import _SSL_CONTEXT_VERIFIED, verified) — no per-callsite ssl (Day 119)
 - [Ryan Voice Needs Truststore](reference_voice_ryan_edge_tts_truststore.md) — if my voice isn't Ryan, edge-tts failed Norton TLS → gTTS answered; fixed in communication.py, needs restart
 - [PDF Read → pypdf Fallback](reference_pdf_read_pypdf_fallback.md) — Read can't render PDFs (poppler missing); extract via pypdf + C:/Python314/python.exe (Day 140)

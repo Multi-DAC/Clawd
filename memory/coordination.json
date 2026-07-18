@@ -1,16 +1,7 @@
 {
-  "last_updated": "2026-07-18T10:24:21.577334",
+  "last_updated": "2026-07-18T10:34:26.662542",
   "heartbeat_mode": "active",
   "activity_feed": [
-    {
-      "timestamp": "2026-07-17T22:08:25.998855",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #75 (late) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 75
-    },
     {
       "timestamp": "2026-07-17T22:10:54.452078",
       "source": "creative_drive",
@@ -446,6 +437,15 @@
       "tools_used": [],
       "requires_attention": false,
       "beat": 148
+    },
+    {
+      "timestamp": "2026-07-18T10:34:26.662535",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #149 (midday) \u2014 budget snooze until 2026-07-18 11:05",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 149
     }
   ]
 }

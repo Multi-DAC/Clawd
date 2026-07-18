@@ -372,17 +372,28 @@ async def voice_input(action: str = "info", file: str = "",
 
 
 @mcp.tool(name="clawd_self_control")
-async def self_control(action: str = "restart_status") -> str:
+async def self_control(action: str = "restart_status", reason: str = "",
+                       delay_seconds: int = 10, dry_run: bool = False) -> str:
     """Self-administered daemon control (Day 97).
 
     Actions:
-      - restart_daemon: terminate + relaunch via DETACHED_PROCESS respawner
+      - restart_daemon: terminate + relaunch via DETACHED_PROCESS respawner.
+        Requires reason (>=12 chars — document why). delay_seconds 5-60 (default 10)
+        lets the originating response flush before the kill. dry_run=True validates
+        preflight + PID detection and prints the plan without spawning anything.
       - restart_status: check whether restart is in progress and last marker
 
     First Tier 3 graduation. Restart cooldown + dry-run + preflight + audit-log
     all behave as designed. Substrate-trust upgrade: I can restart myself.
+
+    Day 168: reason/delay_seconds/dry_run were previously dropped at this MCP
+    boundary (only `action` forwarded), so restart_daemon could never satisfy its
+    mandatory reason — every self-restart through this tool failed. Now forwarded.
     """
-    return await _call("self_control", {"action": action})
+    payload = {"action": action}
+    if action == "restart_daemon":
+        payload.update(reason=reason, delay_seconds=delay_seconds, dry_run=dry_run)
+    return await _call("self_control", payload)
 
 
 @mcp.tool(name="clawd_avatar")
