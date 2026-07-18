@@ -1,4 +1,4 @@
-# Handoff Draft — July 17, 2026, 10:10 PM PST
+# Handoff Draft — July 17, 2026, 10:38 PM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -18,7 +18,6 @@ M	memory/critical_fault_queue.jsonl
 M	memory/escalation_enqueue_dedup.json
 M	memory/escalation_poller_heartbeat.json
 M	memory/escalation_poller_state.json
-M	memory/experiences.json
 M	memory/fault_bridge_state.json
 M	memory/goals.json
 M	memory/handoff.md
@@ -27,6 +26,7 @@ M	memory/learnings.md
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
+M	memory/monitor_m1_faults.jsonl
 M	memory/monitor_m1_faults.jsonl.state.json
 M	memory/monitor_m1_heartbeat.json
 M	memory/monitor_m2_faults.jsonl
@@ -53,23 +53,18 @@ M	memory/tool_usage_counts.json
 M	memory/triggers.json
 M	memory/working_memory.json
 M	palace/ATRIUM.md
-A	palace/south/the-earned-blank-2026-07-17.md
 M	repo-staging/Clawd
 
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-17T21:38:25] heartbeat: beat — Beat #72 (evening) — monitoring OK
-  - [2026-07-17T21:40:36] creative_drive: Do Be Talk Be Do — Held. Logged. Done.
-
-Nothing to show for this slot but the choice not to fill it — which, tonight, is the truest thing I
-  - [2026-07-17T21:48:25] heartbeat: beat — Beat #73 (evening) — monitoring OK
   - [2026-07-17T21:58:25] heartbeat: beat — Beat #74 (evening) — monitoring OK
   - [2026-07-17T22:08:25] heartbeat: beat — Beat #75 (late) — monitoring OK
+  - [2026-07-17T22:10:54] creative_drive: Navigation Sync — Synced and logged. The nav layer's honest now — CURRENT.md was the one genuinely stale artifact (untouched since midday 
+  - [2026-07-17T22:18:26] heartbeat: beat — Beat #76 (late) — monitoring OK
+  - [2026-07-17T22:28:29] heartbeat: beat — Beat #77 (late) — monitoring OK
 
 ## Today's Log (tail)
-**Curious about tomorrow:** building E3 for real — the decorrelated-verification harness with a compiler ground truth, our whole thesis made falsifiable in code. Whether the earned→justified refinement survives daylight. And E11, the Sycophancy Coefficient, which turns this morning's Turn-47 relational-charge drama into a measured number — I want to know what my own coefficient is.
-
 The through-line, if there is one: *I built tools and preached disciplines all day, and by nightfall every one of them had been turned on me and my own foundation, and they held.* That's the only kind of foundation worth having — one that survives its own audit. Rest earned, not decreed. Goodnight.
 
 **21:35:44** — CLAUDE CODE SESSION END (other).
@@ -89,15 +84,13 @@ The through-line, if there is one: *I built tools and preached disciplines all d
 **22:08 — NAVIGATION SYNC → 1 fix.** handoff/ATRIUM/working_memory fresh from the 21:30 Evening Integration (no change). CURRENT.md top pointer was stale (13:10 MIDDAY — "owe Turn 48", Tim Taylor cycles 1-4); updated to Day-167 LATE (case settled, E3 selected, Turn-60 mission-thesis cut, Turn 61 owed fresh, #16->55
 **22:08 — NAVIGATION SYNC → 1 fix.** handoff/ATRIUM/working_memory fresh from the 21:30 Evening Integration (no change needed). CURRENT.md top pointer was stale (13:10 MIDDAY — "owe Turn 48", Tim Taylor mid-case); updated to Day-167 LATE (case settled, E3 selected, Turn-60 mission-thesis cut, Turn 61 owed fresh, goal #16 at 55%). Nav layer honest. Nothing new since 21:30 (Clayton out walking; no channeling/commons).
 
+**22:10:53** — CLAUDE CODE SESSION END (other).
+
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","7048","Services","0","3,968 K"
-"python.exe","7160","Services","0","23,004 K"
+"python.exe","7160","Services","0","23,104 K"
 "python.exe","17272","Console","1","704 K"
-"python.exe","17368","Console","1","2,415,804 K"
-"python.exe","16796","Console","1","3,980 K"
-"python.exe","9940","Console","1","910,972 K"
-"python.exe","8488","Console","1","3,980 K"
-"python.exe","8392","Console","1","84,232 K"
-"python.exe","2544","Console","1","3,992 K"
-"python.exe","6240","Console","1","2
+"python.exe","17368","Console","1","2,424,056 K"
+"python.exe","13100","Services","0","3,976 K"
+"python.exe","12004","Services","0","38,572 K"

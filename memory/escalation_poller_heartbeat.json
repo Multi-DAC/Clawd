@@ -1,12 +1,12 @@
 {
   "poller": "escalation_router",
-  "timestamp": "2026-07-17T22:27:45.195826",
-  "pid": 21552,
+  "timestamp": "2026-07-17T22:48:25.793294",
+  "pid": 4980,
   "last_sent_ts": "2026-07-04T12:38:35.638449",
   "total_sent": 8,
-  "pending_in_queue": 174,
+  "pending_in_queue": 175,
   "last_send_error": {
-    "ts": "2026-07-17T22:27:45.195200",
-    "error": "HTTP 400: {\"ok\":false,\"error_code\":400,\"description\":\"Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 828\"}"
+    "ts": "2026-07-17T22:48:25.792723",
+    "error": "HTTP 400: {\"ok\":false,\"error_code\":400,\"description\":\"Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 299\"}"
   }
 }
