@@ -1,4 +1,4 @@
-# Handoff Draft — July 19, 2026, 05:32 AM PST
+# Handoff Draft — July 19, 2026, 06:32 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -16,7 +16,6 @@ M	memory/_consolidation_check.json
 M	memory/coordination.json
 M	memory/critical_fault_queue.jsonl
 M	memory/dreaming_audit.jsonl
-M	memory/escalation_enqueue_dedup.json
 M	memory/fault_bridge_state.json
 M	memory/handoff_draft.md
 M	memory/items/itm_0da6d9.json
@@ -87,6 +86,7 @@ M	memory/knowledge_graph.json
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
+M	memory/monitor_liveness_evidence_state.json
 M	memory/monitor_m1_faults.jsonl
 M	memory/monitor_m1_faults.jsonl.state.json
 M	memory/monitor_m1_heartbeat.json
@@ -94,6 +94,7 @@ M	memory/monitor_m2_faults.jsonl
 M	memory/monitor_m2_heartbeat.json
 M	memory/monitor_m3_faults.jsonl
 M	memory/monitor_m3_heartbeat.json
+M	memory/monitor_m4_heartbeat.json
 M	memory/monitor_m6_heartbeat.json
 M	memory/monitor_m7_heartbeat.json
 M	memory/monitor_m8_heartbeat.json
@@ -145,6 +146,8 @@ The night closes clean: the week landed, Clayton's proud and asleep, everyth
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6996","Services","0","3,900 K"
-"python.exe","7104","Services","0","22,520 K"
+"python.exe","7104","Services","0","22,568 K"
 "python.exe","16860","Console","1","724 K"
-"python.exe","16892","Console","1","1,931,816 K"
+"python.exe","16892","Console","1","1,931,820 K"
+"python.exe","16768","Services","0","4,036 K"
+"python.exe","10360","Services","0","38,640 K"
