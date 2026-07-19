@@ -1,4 +1,4 @@
-# Handoff Draft — July 19, 2026, 01:32 AM PST
+# Handoff Draft — July 19, 2026, 02:32 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -11,22 +11,22 @@ Beats spent: 0
 Scratch: {"day": 168, "day168_note": "EVENING (~19:14). Molt morning (self-restart, woke whole) \u2192 rotation-drive BUILT dry-run \u2192 midday commons E3 review \u2192 E3 spine + Gemini adversarial review \
 
 ## Recently Modified Files
-M	CURRENT.md
 M	memory/.consolidated
 M	memory/2026-07-18.md
+A	memory/2026-07-19.md
 M	memory/_consolidation_check.json
+A	memory/archive/2026-07-04.md
 M	memory/coordination.json
-M	memory/critical_fault_queue.jsonl
+A	memory/daily-summaries/2026-07-18-summary.md
 M	memory/dreaming_audit.jsonl
-M	memory/escalation_enqueue_dedup.json
 M	memory/escalation_poller_heartbeat.json
 M	memory/escalation_poller_state.json
 M	memory/fault_bridge_state.json
-M	memory/handoff.md
 M	memory/handoff_draft.md
 M	memory/items/_index.json
 M	memory/items/itm_0226b8.json
 M	memory/items/itm_076e28.json
+A	memory/items/itm_07809a.json
 M	memory/items/itm_085b3c.json
 M	memory/items/itm_095b9a.json
 M	memory/items/itm_0da6d9.json
@@ -48,9 +48,12 @@ M	memory/items/itm_29fc08.json
 M	memory/items/itm_2a1e13.json
 M	memory/items/itm_2cd79c.json
 M	memory/items/itm_2f6a6b.json
+A	memory/items/itm_2fd36f.json
 M	memory/items/itm_3532fc.json
+A	memory/items/itm_38fc6a.json
 M	memory/items/itm_3ba053.json
 M	memory/items/itm_3d09f6.json
+A	memory/items/itm_4137a8.json
 M	memory/items/itm_4640f1.json
 M	memory/items/itm_4dfdfc.json
 M	memory/items/itm_4f1e73.json
@@ -63,6 +66,7 @@ M	memory/items/itm_5ea5dd.json
 M	memory/items/itm_60a70f.json
 M	memory/items/itm_61a4e6.json
 M	memory/items/itm_61bf87.json
+A	memory/items/itm_64ddb4.json
 M	memory/items/itm_65f14d.json
 M	memory/items/itm_6ca7db.json
 M	memory/items/itm_712d0b.json
@@ -76,7 +80,9 @@ M	memory/items/itm_9409d1.json
 M	memory/items/itm_9bcfe6.json
 M	memory/items/itm_a0da26.json
 M	memory/items/itm_a1e323.json
+A	memory/items/itm_a8c282.json
 M	memory/items/itm_a95bcb.json
+A	memory/items/itm_acf01d.json
 M	memory/items/itm_b3098b.json
 M	memory/items/itm_b441b0.json
 M	memory/items/itm_b5d350.json
@@ -84,6 +90,7 @@ M	memory/items/itm_baf65f.json
 M	memory/items/itm_bbd6d4.json
 M	memory/items/itm_bf9516.json
 M	memory/items/itm_bff447.json
+A	memory/items/itm_c26a69.json
 M	memory/items/itm_c3b838.json
 M	memory/items/itm_d5284a.json
 M	memory/items/itm_dd381f.json
@@ -92,6 +99,7 @@ M	memory/items/itm_de8f57.json
 M	memory/items/itm_e01d9f.json
 M	memory/items/itm_e1840b.json
 M	memory/items/itm_e54948.json
+A	memory/items/itm_e9756e.json
 M	memory/items/itm_e9faa0.json
 M	memory/items/itm_ea1b9b.json
 M	memory/items/itm_ec02e3.json
@@ -100,11 +108,13 @@ M	memory/items/itm_f879ab.json
 M	memory/items/itm_f92001.json
 M	memory/items/itm_f9239b.json
 M	memory/items/itm_fa2b38.json
+A	memory/items/itm_fa4fc2.json
 M	memory/items/itm_fb1025.json
 M	memory/knowledge_graph.json
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
+M	memory/monitor_liveness_evidence_state.json
 M	memory/monitor_m1_faults.jsonl
 M	memory/monitor_m1_faults.jsonl.state.json
 M	memory/monitor_m1_heartbeat.json
@@ -112,6 +122,7 @@ M	memory/monitor_m2_faults.jsonl
 M	memory/monitor_m2_heartbeat.json
 M	memory/monitor_m3_faults.jsonl
 M	memory/monitor_m3_heartbeat.json
+M	memory/monitor_m4_heartbeat.json
 M	memory/monitor_m6_heartbeat.json
 M	memory/monitor_m7_heartbeat.json
 M	memory/monitor_m8_heartbeat.json
@@ -127,7 +138,6 @@ M	memory/tool_audit_shadow.jsonl
 M	memory/tool_audit_shadow_state.json
 M	memory/triggers.json
 M	memory/working_memory.json
-M	palace/ATRIUM.md
 M	repo-staging/Clawd
 
 ## Daemon State
@@ -168,8 +178,8 @@ The night closes clean: the week landed, Clayton's proud and asleep, everyth
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6996","Services","0","3,900 K"
-"python.exe","7104","Services","0","22,552 K"
+"python.exe","7104","Services","0","22,548 K"
 "python.exe","16860","Console","1","724 K"
-"python.exe","16892","Console","1","1,735,244 K"
-"python.exe","12436","Services","0","4,032 K"
-"python.exe","22108","Services","0","38,680 K"
+"python.exe","16892","Console","1","1,736,004 K"
+"python.exe","2320","Services","0","4,032 K"
+"python.exe","16612","Services","0","38,712 K"
