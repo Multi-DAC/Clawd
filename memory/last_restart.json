@@ -1,16 +1,9 @@
 {
-  "ts": "2026-07-18T12:12:38.264400",
-  "reason": "Day 168 load-restart: install Rotation Drive dry-run + MCP reason-forwarding fix",
-  "pre_restart_daemon_pid": 17584,
-  "respawner_pid": 4876,
-  "delay_seconds": 12,
-  "expected_terminate_at": "2026-07-18T12:12:50.264410",
-  "phase": "verified_alive",
-  "daemon_pid_pre_terminate": 17584,
-  "last_marker_update": "2026-07-18T12:12:58.603854",
-  "terminate_detail": "exited cleanly within timeout",
-  "new_daemon_pid": 14712,
-  "launch_detail": "spawned",
-  "verify_detail": "alive (status=running)",
-  "respawner_finished_at": "2026-07-18T12:12:58.603749"
+  "ts": "2026-07-18T16:01:51.234979",
+  "reason": "Chosen rotation after a long, rich Day-168 session (restart + commons 4-node matrix + E3 spec/build/review + Drift route-fix); shed accumulated context so E3's real-adapter build gets fresh budget. Handoff carries the self, not a checklist (Clayton's guidance).",
+  "pre_restart_daemon_pid": 14712,
+  "respawner_pid": 16456,
+  "delay_seconds": 15,
+  "expected_terminate_at": "2026-07-18T16:02:06.234989",
+  "phase": "respawner_spawned"
 }
