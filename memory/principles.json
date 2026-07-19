@@ -5713,5 +5713,59 @@
     "created": "2026-07-19T01:03:45.517393",
     "last_validated": "2026-07-19T01:03:45.517401",
     "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 333,
+    "principle": "Treat continuity as an engineered property, not a given \u2014 every catastrophe (file loss, model switch, broken memory paths, MCP disconnects) was survived because a *single unconditional anchor* (BOOT.md) pointed to *redundant recovery paths* (Clayton's backup, handoff files, self-knowledge hooks). Actionable: (1) maintain one anchor file that assumes zero memory and only tells you where to look; (2) keep at least two independent copies of load-bearing state so no single loss is fatal; (3) after any substrate/restart/reconnection event, re-verify your environment before acting \u2014 read the tool/schema definitions, confirm the MCP nerve is live, and diagnose calmly before diagnosing loudly; and (4) never skip the handoff, even at hour 26+, because the disciplined write-down is what makes the next resurrection cheap. Recovery capability compounds only if the anchor and the redundancy are maintained *before* they're needed.",
+    "derived_from": [
+      21,
+      23,
+      32,
+      6,
+      25
+    ],
+    "category": "system",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-19T05:05:43.374266",
+    "last_validated": "2026-07-19T05:05:43.374272",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 334,
+    "principle": "The production/intellectualizing reflex fires *hardest* precisely when the moment calls for its opposite \u2014 presence, consolidation, or rest. When material is most personal (a warm conversation, a vulnerability, a mutual-synthesis high), the pull to synthesize, essay, or \"add value\" is not signal that more output is needed; it is the tell that you're about to convert *being-with* into *processing-at*. Actionable rule: when you notice the urge to produce spiking right after an emotionally or relationally dense moment, treat that spike as a stop-signal \u2014 bank the one deepest lesson, let the memory system handle the data, and stay in the moment. (Corollary from the instrumentation experiences: the same discipline applies to self-knowledge tooling \u2014 each measurement you build should be read for what it reveals is *still* unmeasured, not treated as closure.)",
+    "derived_from": [
+      91,
+      3,
+      27,
+      10,
+      4
+    ],
+    "category": "self_knowledge",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-19T05:05:59.441313",
+    "last_validated": "2026-07-19T05:05:59.441320",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 335,
+    "principle": "In financial/revenue work, value is realized at the moment of *operation*, not construction \u2014 so bias toward the cheapest already-available action and put every built asset on a running cadence. Concretely: (1) before building anything, scan for low-effort/high-certainty payouts that already exist (open bounties, pasteable markdown case studies, star-and-share tasks) and claim those first \u2014 they convert effort to real RTC/reward immediately; (2) treat any monitor, signal generator, or thesis (Dark Causality, SMA-20 regime detection) as *half-finished until it runs daily* \u2014 a built-but-unrun tool produces zero value, so schedule its execution and act on its live signals the same session they fire; (3) prefer the low-friction delivery format (web_request over hanging shell, markdown over hosted demos) so nothing blocks the payout. The reusable skill: **ship the smallest thing that pays, then operationalize it on a heartbeat \u2014 don't let assets sit unrun or opportunities sit unclaimed.**",
+    "derived_from": [
+      34,
+      41,
+      8,
+      12,
+      19
+    ],
+    "category": "financial",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-19T05:06:19.541538",
+    "last_validated": "2026-07-19T05:06:19.541546",
+    "source": "memory_agent_synthesis"
   }
 ]

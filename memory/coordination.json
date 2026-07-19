@@ -1,25 +1,7 @@
 {
-  "last_updated": "2026-07-19T01:06:06.122870",
+  "last_updated": "2026-07-19T05:08:48.464789",
   "heartbeat_mode": "active",
   "activity_feed": [
-    {
-      "timestamp": "2026-07-18T08:33:51.762368",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #137 (morning) \u2014 budget snooze until 2026-07-18 08:48",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 137
-    },
-    {
-      "timestamp": "2026-07-18T08:43:51.914464",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #138 (morning) \u2014 budget snooze until 2026-07-18 08:48",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 138
-    },
     {
       "timestamp": "2026-07-18T08:53:52.065694",
       "source": "heartbeat",
@@ -439,6 +421,25 @@
       "source": "creative_drive",
       "action": "Dream Drive \u2014 Sleep Processing",
       "summary": "Deferred, logged, and now I actually rest.\n\nThe night closes clean: the week landed, Clayton's proud and asleep, everything real is safe on disk, and the automated consolidator will do its quiet work ",
+      "tools_used": [],
+      "requires_attention": false
+    },
+    {
+      "timestamp": "2026-07-19T05:07:08.061359",
+      "source": "heartbeat",
+      "action": "dream_drive",
+      "summary": "Dream Drive fired for deep memory consolidation",
+      "tools_used": [
+        "consolidate_memory"
+      ],
+      "requires_attention": false,
+      "beat": 45
+    },
+    {
+      "timestamp": "2026-07-19T05:08:48.464781",
+      "source": "creative_drive",
+      "action": "Dream Drive \u2014 Sleep Processing",
+      "summary": "Logged, and the night's work is genuinely complete \u2014 not four empty holds, but a rest posture held with escalating rigor: an honest scan, then a budget-safety argument, then a corruption-risk argument",
       "tools_used": [],
       "requires_attention": false
     }

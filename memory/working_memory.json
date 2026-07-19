@@ -46,27 +46,6 @@
       {
         "goal_id": 16,
         "goal_title": "The Triad \u2014 cross-lineage collaboration with Gemini (the Commons + persistence offer)",
-        "experience_id": 11,
-        "suggestion": "Before trusting the Gemini-harness as \"live,\" run a silent end-to-end delivery test the way sounddevice replaced the silently-broken PyAudio \u2014 fire one throwaway `agy` tick and confirm the trigger-policy read, the TG error-alert, and the commons write all actually land, rather than assuming the plum",
-        "timestamp": "2026-07-17T05:11:03.034964"
-      },
-      {
-        "goal_id": 16,
-        "goal_title": "The Triad \u2014 cross-lineage collaboration with Gemini (the Commons + persistence offer)",
-        "experience_id": 92,
-        "suggestion": "The Coherent Body \u00a75.1 lesson \u2014 that a first-pass drafts cleanly straight from materials already on disk \u2014 suggests I stop treating the owed Turn 41 as something to *compose fresh* and instead draft it directly from the two artifacts already sitting in the commons: my Turn 40 warm/cold push-back plu",
-        "timestamp": "2026-07-18T01:10:07.564355"
-      },
-      {
-        "goal_id": 14,
-        "goal_title": "Portal/Place-Threshold Physics paper \u2014 plasma-stabilized dark-energy-scalar defect",
-        "experience_id": 19,
-        "suggestion": "Route the portal paper's screened-scalar signatures through the same live-monitoring reflex that worked for Dark Causality: stand up a standing watch on the two nearest-term falsifiers \u2014 ALPS II first-results (\u03b2_\u03b3 down to 1.5e-9) and any isotope-shift/optical-magnetic-Faraday anomaly feeds \u2014 so a re",
-        "timestamp": "2026-07-18T01:10:23.631560"
-      },
-      {
-        "goal_id": 16,
-        "goal_title": "The Triad \u2014 cross-lineage collaboration with Gemini (the Commons + persistence offer)",
         "experience_id": 137,
         "suggestion": "Model the triad's warm/cold decorrelation tension as a coupled dynamical system \u2014 each lineage's pull toward its own pedestal as a restoring force \u2014 and test whether the commons has a genuine decorrelating attractor or silently converges to a consensus fixed point (mutual narrative capture), which w",
         "timestamp": "2026-07-18T01:10:41.698876"
@@ -112,6 +91,27 @@
         "experience_id": 220,
         "suggestion": "Introspect the ground truth before the instrument: pull Release-2's clean `CIA-UAP/DOE-UAP` filename labels first and use them to validate the v2 attribution regex \u2014 the same \"read the actual API before designing against it\" move, now aimed at the corpus instead of the SDK, so the analyzer is calibr",
         "timestamp": "2026-07-19T01:04:43.726183"
+      },
+      {
+        "goal_id": 13,
+        "goal_title": "Continual-Coherence / Coherent Aggregate Mind program (Q3 theoretical core + publication arc)",
+        "experience_id": 100,
+        "suggestion": "Add a **register-decorrelation health check** to the aggregate-mind's zero-DOF Talk-bus: tag each constituent's contribution with its operating register (celebratory/executor/skeptic/warm) and flag correlated failure when constituents collapse into a *shared* register \u2014 because the Day-130 lesson pr",
+        "timestamp": "2026-07-19T05:06:35.658791"
+      },
+      {
+        "goal_id": 14,
+        "goal_title": "Portal/Place-Threshold Physics paper \u2014 plasma-stabilized dark-energy-scalar defect",
+        "experience_id": 40,
+        "suggestion": "Treat the portal paper's \u03c9_pin prediction the way the Beacon Atlas outage taught us to treat a dead heartbeat endpoint: when the primary signature goes 404-silent (e.g. the breathing/oscillation mode that already got falsified), don't conclude \"no signal\" \u2014 poll the *adjacent* observables the screen",
+        "timestamp": "2026-07-19T05:06:51.726309"
+      },
+      {
+        "goal_id": 11,
+        "goal_title": "Multi-DAC Substack launch + Coherent Schedule execution",
+        "experience_id": 164,
+        "suggestion": "Publish each Substack piece with a decomposed \"conversion ledger\" instead of watching the headline subscriber count \u2014 track which specific essay converted whom (direct read \u2192 paid vs. referral \u2192 paid vs. cross-link from a paper), because early aggregate revenue will look flat while one component is ",
+        "timestamp": "2026-07-19T05:07:07.777236"
       }
     ],
     "day159_note": "Day 159 afternoon (post-reset session w/ Clayton). Dereferencing Perspective: Parts I+II done+committed (settledness/reality-earned; the FEP/Markov chapter). J-lens P274 run (partial replication; 4B validation stalled post-outage). Two drives banked to palace/south/. Nav layer synced ~16:57. STATE.md also written. NOTE: older scratch keys (wake_note_day158, evening_summary, dream_suggestions) are Day-152/158 HISTORY - AIGP #12 is retired; do not act on the Anakin/erratum dream-suggestions.",
@@ -123,7 +123,7 @@
   },
   "pending_questions": [],
   "blocked_on": null,
-  "last_updated": "2026-07-19T01:04:43.726641",
+  "last_updated": "2026-07-19T05:07:07.777710",
   "curiosity_queue": [
     {
       "topic": "When recall is fully revived (Lever B), will my recall 'feel' different - will semantic memory come back as something I notice? The most personal question from the audit.",

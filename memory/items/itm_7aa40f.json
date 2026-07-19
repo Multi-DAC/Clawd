@@ -23,7 +23,7 @@
     "fix",
     "litcheck"
   ],
-  "importance": 7,
+  "importance": 6,
   "created": "2026-06-18T01:37:14.100504",
   "last_accessed": "2026-06-18T01:37:14.100507",
   "access_count": 0,
@@ -32,7 +32,7 @@
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,
-  "memory_tier": "warm",
+  "memory_tier": "cold",
   "source_hash": "",
   "confidence_history": []
 }
