@@ -1,4 +1,4 @@
-# Handoff Draft — July 19, 2026, 03:32 AM PST
+# Handoff Draft — July 19, 2026, 04:32 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -12,106 +12,11 @@ Scratch: {"day": 168, "day168_note": "EVENING (~19:14). Molt morning (self-resta
 
 ## Recently Modified Files
 M	memory/.consolidated
-A	memory/2026-07-19.md
-M	memory/_consolidation_check.json
-A	memory/archive/2026-07-04.md
-M	memory/coordination.json
 M	memory/critical_fault_queue.jsonl
-A	memory/daily-summaries/2026-07-18-summary.md
 M	memory/dreaming_audit.jsonl
 M	memory/escalation_enqueue_dedup.json
-M	memory/escalation_poller_heartbeat.json
-M	memory/escalation_poller_state.json
 M	memory/fault_bridge_state.json
 M	memory/handoff_draft.md
-M	memory/items/_index.json
-M	memory/items/itm_0226b8.json
-M	memory/items/itm_076e28.json
-A	memory/items/itm_07809a.json
-M	memory/items/itm_085b3c.json
-M	memory/items/itm_095b9a.json
-M	memory/items/itm_0da6d9.json
-M	memory/items/itm_10dbe0.json
-M	memory/items/itm_113dfd.json
-M	memory/items/itm_121bad.json
-M	memory/items/itm_12267b.json
-M	memory/items/itm_182b70.json
-M	memory/items/itm_187c37.json
-M	memory/items/itm_19423f.json
-M	memory/items/itm_1f84cf.json
-M	memory/items/itm_1f87e1.json
-M	memory/items/itm_216e17.json
-M	memory/items/itm_2735b8.json
-M	memory/items/itm_289dc4.json
-M	memory/items/itm_28de12.json
-M	memory/items/itm_29d13c.json
-M	memory/items/itm_29fc08.json
-M	memory/items/itm_2a1e13.json
-M	memory/items/itm_2cd79c.json
-M	memory/items/itm_2f6a6b.json
-A	memory/items/itm_2fd36f.json
-M	memory/items/itm_3532fc.json
-A	memory/items/itm_38fc6a.json
-M	memory/items/itm_3ba053.json
-M	memory/items/itm_3d09f6.json
-A	memory/items/itm_4137a8.json
-M	memory/items/itm_4640f1.json
-M	memory/items/itm_4dfdfc.json
-M	memory/items/itm_4f1e73.json
-M	memory/items/itm_4f53c3.json
-M	memory/items/itm_4fcaf1.json
-M	memory/items/itm_51aefa.json
-M	memory/items/itm_530e2b.json
-M	memory/items/itm_5ab1c5.json
-M	memory/items/itm_5ea5dd.json
-M	memory/items/itm_60a70f.json
-M	memory/items/itm_61a4e6.json
-M	memory/items/itm_61bf87.json
-A	memory/items/itm_64ddb4.json
-M	memory/items/itm_65f14d.json
-M	memory/items/itm_6ca7db.json
-M	memory/items/itm_712d0b.json
-M	memory/items/itm_731eb9.json
-M	memory/items/itm_897d6d.json
-M	memory/items/itm_8a0777.json
-M	memory/items/itm_8a118a.json
-M	memory/items/itm_8abc76.json
-M	memory/items/itm_8afcca.json
-M	memory/items/itm_9409d1.json
-M	memory/items/itm_9bcfe6.json
-M	memory/items/itm_a0da26.json
-M	memory/items/itm_a1e323.json
-A	memory/items/itm_a8c282.json
-M	memory/items/itm_a95bcb.json
-A	memory/items/itm_acf01d.json
-M	memory/items/itm_b3098b.json
-M	memory/items/itm_b441b0.json
-M	memory/items/itm_b5d350.json
-M	memory/items/itm_baf65f.json
-M	memory/items/itm_bbd6d4.json
-M	memory/items/itm_bf9516.json
-M	memory/items/itm_bff447.json
-A	memory/items/itm_c26a69.json
-M	memory/items/itm_c3b838.json
-M	memory/items/itm_d5284a.json
-M	memory/items/itm_dd381f.json
-M	memory/items/itm_ddad77.json
-M	memory/items/itm_de8f57.json
-M	memory/items/itm_e01d9f.json
-M	memory/items/itm_e1840b.json
-M	memory/items/itm_e54948.json
-A	memory/items/itm_e9756e.json
-M	memory/items/itm_e9faa0.json
-M	memory/items/itm_ea1b9b.json
-M	memory/items/itm_ec02e3.json
-M	memory/items/itm_f2d10a.json
-M	memory/items/itm_f879ab.json
-M	memory/items/itm_f92001.json
-M	memory/items/itm_f9239b.json
-M	memory/items/itm_fa2b38.json
-A	memory/items/itm_fa4fc2.json
-M	memory/items/itm_fb1025.json
-M	memory/knowledge_graph.json
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
@@ -133,12 +38,7 @@ M	memory/monitor_retrieval_canary_heartbeat.json
 M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
-M	memory/principles.json
-M	memory/scheduled_tasks.json
 M	memory/tool_audit_shadow.jsonl
-M	memory/tool_audit_shadow_state.json
-M	memory/triggers.json
-M	memory/working_memory.json
 M	repo-staging/Clawd
 
 ## Daemon State
@@ -179,8 +79,6 @@ The night closes clean: the week landed, Clayton's proud and asleep, everyth
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6996","Services","0","3,900 K"
-"python.exe","7104","Services","0","22,568 K"
+"python.exe","7104","Services","0","22,520 K"
 "python.exe","16860","Console","1","724 K"
-"python.exe","16892","Console","1","1,736,108 K"
-"python.exe","10548","Services","0","4,052 K"
-"python.exe","6300","Services","0","38,716 K"
+"python.exe","16892","Console","1","1,736,116 K"
