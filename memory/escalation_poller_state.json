@@ -2,7 +2,7 @@
   "last_sent_ts": "2026-07-04T12:38:35.638449",
   "total_sent": 8,
   "last_send_error": {
-    "ts": "2026-07-18T17:13:57.357427",
-    "error": "HTTP 400: {\"ok\":false,\"error_code\":400,\"description\":\"Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 299\"}"
+    "ts": "2026-07-18T21:40:55.303386",
+    "error": "HTTP 400: {\"ok\":false,\"error_code\":400,\"description\":\"Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 774\"}"
   }
 }
