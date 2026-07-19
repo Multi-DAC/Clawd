@@ -1,4 +1,4 @@
-# Handoff Draft — July 19, 2026, 02:32 AM PST
+# Handoff Draft — July 19, 2026, 03:32 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -12,13 +12,14 @@ Scratch: {"day": 168, "day168_note": "EVENING (~19:14). Molt morning (self-resta
 
 ## Recently Modified Files
 M	memory/.consolidated
-M	memory/2026-07-18.md
 A	memory/2026-07-19.md
 M	memory/_consolidation_check.json
 A	memory/archive/2026-07-04.md
 M	memory/coordination.json
+M	memory/critical_fault_queue.jsonl
 A	memory/daily-summaries/2026-07-18-summary.md
 M	memory/dreaming_audit.jsonl
+M	memory/escalation_enqueue_dedup.json
 M	memory/escalation_poller_heartbeat.json
 M	memory/escalation_poller_state.json
 M	memory/fault_bridge_state.json
@@ -178,8 +179,8 @@ The night closes clean: the week landed, Clayton's proud and asleep, everyth
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6996","Services","0","3,900 K"
-"python.exe","7104","Services","0","22,548 K"
+"python.exe","7104","Services","0","22,568 K"
 "python.exe","16860","Console","1","724 K"
-"python.exe","16892","Console","1","1,736,004 K"
-"python.exe","2320","Services","0","4,032 K"
-"python.exe","16612","Services","0","38,712 K"
+"python.exe","16892","Console","1","1,736,108 K"
+"python.exe","10548","Services","0","4,052 K"
+"python.exe","6300","Services","0","38,716 K"
