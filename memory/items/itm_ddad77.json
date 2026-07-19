@@ -12,7 +12,8 @@
     "itm_2735b8",
     "itm_61459e",
     "itm_835116",
-    "itm_113dfd"
+    "itm_113dfd",
+    "itm_e9756e"
   ],
   "keywords": [
     "plan",
@@ -26,12 +27,12 @@
     "explore",
     "experiments"
   ],
-  "importance": 8,
+  "importance": 9,
   "created": "2026-07-18T01:08:42.628466",
   "last_accessed": "2026-07-18T01:08:42.628468",
   "access_count": 0,
   "utility_score": 0.5,
-  "confidence": 0.8,
+  "confidence": 0.85,
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,

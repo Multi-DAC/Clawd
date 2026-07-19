@@ -1,0 +1,40 @@
+{
+  "id": "itm_fa4fc2",
+  "type": "fact",
+  "content": "math; its killer = an auditable null fitting neither row/col. Named the closure: **the 2\u00d72 = the auditable region of the morning's four-state null; its exterior = the a-priori-terminal nulls.**",
+  "source": "daily_log 2026-07-18 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_2735b8",
+    "itm_0226b8",
+    "itm_076e28"
+  ],
+  "keywords": [
+    "math",
+    "killer",
+    "auditable",
+    "null",
+    "fitting",
+    "neither",
+    "row",
+    "col",
+    "named",
+    "closure"
+  ],
+  "importance": 5,
+  "created": "2026-07-19T01:02:22.349862",
+  "last_accessed": "2026-07-19T01:02:22.349865",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

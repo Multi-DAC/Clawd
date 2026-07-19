@@ -9,7 +9,8 @@
   ],
   "related_items": [],
   "links": [
-    "itm_3d09f6"
+    "itm_3d09f6",
+    "itm_a8c282"
   ],
   "keywords": [
     "articles",
@@ -24,7 +25,7 @@
   "last_accessed": "2026-05-15T17:18:30.793608",
   "access_count": 0,
   "utility_score": 0.5,
-  "confidence": 0.4,
+  "confidence": 0.35,
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,
@@ -60,6 +61,11 @@
       "timestamp": "2026-07-18T05:11:03.213591",
       "confidence": 0.4,
       "reason": "evolution_decay (63d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-19T01:02:22.643645",
+      "confidence": 0.35000000000000003,
+      "reason": "evolution_decay (64d since access, 0 accesses)"
     }
   ]
 }

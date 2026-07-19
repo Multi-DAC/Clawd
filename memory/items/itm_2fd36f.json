@@ -1,0 +1,40 @@
+{
+  "id": "itm_2fd36f",
+  "type": "fact",
+  "content": "alone): a model auditing its *own* output has self-sycophancy that *any* second model breaks \u2014 so a cross-lineage win could be mere role-decoupling, not lineage-diversity. \u2192 new required control **`So",
+  "source": "daily_log 2026-07-18 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_c3b838",
+    "itm_e9faa0",
+    "itm_f879ab"
+  ],
+  "keywords": [
+    "alone",
+    "model",
+    "auditing",
+    "own",
+    "output",
+    "self",
+    "sycophancy",
+    "any",
+    "second",
+    "breaks"
+  ],
+  "importance": 5,
+  "created": "2026-07-19T01:02:22.401617",
+  "last_accessed": "2026-07-19T01:02:22.401620",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

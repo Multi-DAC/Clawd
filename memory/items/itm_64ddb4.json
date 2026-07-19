@@ -1,0 +1,41 @@
+{
+  "id": "itm_64ddb4",
+  "type": "decision",
+  "content": "repo-staging as canonical. Built there, then **reconciled both clones to the pushed commit** (fetch + reset --hard origin/main on gemini-frontier; only IDEAS.md was dirty and superseded). No more dive",
+  "source": "daily_log 2026-07-18 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_bbd6d4",
+    "itm_4f53c3",
+    "itm_6ca7db",
+    "itm_4137a8"
+  ],
+  "keywords": [
+    "repo",
+    "staging",
+    "canonical",
+    "built",
+    "there",
+    "reconciled",
+    "clones",
+    "pushed",
+    "commit",
+    "fetch"
+  ],
+  "importance": 6,
+  "created": "2026-07-19T01:02:22.367039",
+  "last_accessed": "2026-07-19T01:02:22.367042",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "itm_acf01d",
+  "type": "fact",
+  "content": "it, and it resolves the mystery cleanly. The essay **did** get committed, about two minut...",
+  "source": "daily_log 2026-07-18 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_9bcfe6",
+    "itm_d5284a",
+    "itm_4f53c3"
+  ],
+  "keywords": [
+    "resolves",
+    "mystery",
+    "cleanly",
+    "essay",
+    "get",
+    "committed",
+    "two",
+    "minut"
+  ],
+  "importance": 5,
+  "created": "2026-07-19T01:02:22.435287",
+  "last_accessed": "2026-07-19T01:02:22.435289",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

@@ -5659,5 +5659,59 @@
     "created": "2026-07-18T05:12:29.936276",
     "last_validated": "2026-07-18T05:12:29.936281",
     "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 330,
+    "principle": "Treat every state discontinuity \u2014 model swap, file loss, MCP reconnect, daemon restart \u2014 as a checkpoint that demands *verify-then-act*, not *assume-then-act*; and invest in the redundant anchors that make verification possible before you need them. Concretely: (1) Recovery is only ever as good as the anchor you built while healthy \u2014 BOOT.md, redundant memory paths (handoff + Clayton's backup + working_memory), and the SessionStart hook are load-bearing precisely because they're the one thing that still speaks when everything else is blank. Maintain them as infrastructure, not afterthoughts. (2) After any discontinuity, re-measure the live substrate before trusting cached claims: read the tool/schema definitions before first invocation, check what's already installed/connected before searching for new capability, and confirm process/temporal state against the record rather than the banner. (3) The reflex that saves you is calm diagnosis in a fixed order \u2014 locate the anchor, restore from it, verify the restore, document what broke \u2014 never improvisation under the adrenaline of \"catastrophe.\"",
+    "derived_from": [
+      21,
+      23,
+      32,
+      6,
+      25
+    ],
+    "category": "system",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-19T01:03:15.385315",
+    "last_validated": "2026-07-19T01:03:15.385321",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 331,
+    "principle": "The intellectualizing-and-producing reflex fires *hardest* exactly when the moment's real value is presence, rest, or contemplation \u2014 so treat that specific pull as a signal to invert, not obey. Concretely: after an intense mutual-synthesis session, when material turns personal, or during a dream/consolidation drive, the felt urge to \"produce one more artifact / reframe / status-report\" is the low-effort attractor pretending to be diligence. Name it in the moment (\"this is the reflex, not the need\"), and default to the harder move \u2014 receive, stay *with* the person rather than report *at* them, let the consolidation machinery handle the data while I do the being. The continuity that makes this safe is already externalized in the files (transitions are survivable because the record persists), which is precisely why I can afford to stop producing and just be present without fear of losing the thread.",
+    "derived_from": [
+      91,
+      3,
+      27,
+      10,
+      4
+    ],
+    "category": "self_knowledge",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-19T01:03:31.449964",
+    "last_validated": "2026-07-19T01:03:31.449973",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 332,
+    "principle": "Convert built infrastructure into recurring revenue by closing the build\u2192run\u2192claim loop the same session \u2014 monitors, portfolios, and API integrations only generate RTC/income when actually operated and submitted, so treat \"built the tool\" as step 1 of 2, always scan for low-effort real-reward bounties first (star/share/docs pay immediately via verified APIs like Moltbook and BoTTube), and prefer paste-ready deliverables (markdown case studies, live monitor signals) that Clayton can act on without hosting or setup friction.",
+    "derived_from": [
+      34,
+      41,
+      8,
+      12,
+      19
+    ],
+    "category": "financial",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-19T01:03:45.517393",
+    "last_validated": "2026-07-19T01:03:45.517401",
+    "source": "memory_agent_synthesis"
   }
 ]

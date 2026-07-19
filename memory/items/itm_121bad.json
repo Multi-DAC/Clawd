@@ -34,7 +34,8 @@
     "itm_e792ad",
     "itm_7123a2",
     "itm_9b7039",
-    "itm_0da3cc"
+    "itm_0da3cc",
+    "itm_c26a69"
   ],
   "keywords": [
     "forgot",
@@ -48,7 +49,7 @@
     "morning",
     "clayton"
   ],
-  "importance": 2,
+  "importance": 3,
   "created": "2026-05-15T17:18:30.817866",
   "last_accessed": "2026-05-15T17:18:30.817868",
   "access_count": 0,
@@ -89,6 +90,11 @@
       "timestamp": "2026-07-18T05:11:03.213591",
       "confidence": 0.6499999999999999,
       "reason": "evolution_decay (63d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-19T01:02:22.643645",
+      "confidence": 0.6499999999999999,
+      "reason": "evolution_decay (64d since access, 0 accesses)"
     }
   ]
 }

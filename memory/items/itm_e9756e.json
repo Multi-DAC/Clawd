@@ -1,0 +1,33 @@
+{
+  "id": "itm_e9756e",
+  "type": "insight",
+  "content": "nuance about *whose* turn.",
+  "source": "daily_log 2026-07-18 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_2f6a6b",
+    "itm_ddad77",
+    "itm_0da6d9"
+  ],
+  "keywords": [
+    "nuance",
+    "whose",
+    "turn"
+  ],
+  "importance": 7,
+  "created": "2026-07-19T01:02:22.332486",
+  "last_accessed": "2026-07-19T01:02:22.332489",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

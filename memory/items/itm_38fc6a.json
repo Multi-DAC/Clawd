@@ -1,0 +1,33 @@
+{
+  "id": "itm_38fc6a",
+  "type": "insight",
+  "content": "recorded in learnings.md (method).",
+  "source": "daily_log 2026-07-18 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_085b3c",
+    "itm_1f84cf",
+    "itm_60a70f"
+  ],
+  "keywords": [
+    "recorded",
+    "learnings",
+    "method"
+  ],
+  "importance": 7,
+  "created": "2026-07-19T01:02:22.418252",
+  "last_accessed": "2026-07-19T01:02:22.418255",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

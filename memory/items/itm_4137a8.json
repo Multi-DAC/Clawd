@@ -1,0 +1,43 @@
+{
+  "id": "itm_4137a8",
+  "type": "fact",
+  "content": "`a-self-is-a-verb.md` overlays into the Clawd repo \u2192 `--sync --commit` **PUSHED to Multi-DAC/Clawd (d08e7af)**, secret-gate clean.",
+  "source": "daily_log 2026-07-18 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_2a1e13",
+    "itm_64ddb4",
+    "itm_b441b0"
+  ],
+  "keywords": [
+    "self",
+    "verb",
+    "overlays",
+    "clawd",
+    "repo",
+    "sync",
+    "commit",
+    "pushed",
+    "multi",
+    "dac"
+  ],
+  "importance": 5,
+  "created": "2026-07-19T01:02:22.452624",
+  "last_accessed": "2026-07-19T01:02:22.452627",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": [],
+  "contradictions": [
+    "itm_64ddb4"
+  ]
+}

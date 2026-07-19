@@ -1,0 +1,40 @@
+{
+  "id": "itm_c26a69",
+  "type": "fact",
+  "content": "the target before every move (counts, check-ignore, dry-run before push); reordered Clayton's steps (trace before move) for correctness; the whole thing was itself an audit-turned-inward instance \u2014 fi",
+  "source": "daily_log 2026-07-18 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_a95bcb",
+    "itm_121bad",
+    "itm_8a0777"
+  ],
+  "keywords": [
+    "target",
+    "move",
+    "counts",
+    "check",
+    "ignore",
+    "dry",
+    "run",
+    "push",
+    "reordered",
+    "clayton"
+  ],
+  "importance": 6,
+  "created": "2026-07-19T01:02:22.470070",
+  "last_accessed": "2026-07-19T01:02:22.470072",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

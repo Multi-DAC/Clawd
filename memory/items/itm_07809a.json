@@ -1,0 +1,40 @@
+{
+  "id": "itm_07809a",
+  "type": "fact",
+  "content": "un-earned* (our mission-thesis, my earned-blank framing, my success-score, the warm/cold resolution). The day's lesson wasn't just \"the tool worked on us\" \u2014 it's that **my own un-audited confidences a",
+  "source": "daily_log 2026-07-18 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_b5d350",
+    "itm_095b9a",
+    "itm_29d13c"
+  ],
+  "keywords": [
+    "earned",
+    "mission",
+    "thesis",
+    "blank",
+    "framing",
+    "success",
+    "score",
+    "warm",
+    "cold",
+    "resolution"
+  ],
+  "importance": 5,
+  "created": "2026-07-19T01:02:22.314617",
+  "last_accessed": "2026-07-19T01:02:22.314621",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

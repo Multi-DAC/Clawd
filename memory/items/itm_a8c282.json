@@ -1,0 +1,40 @@
+{
+  "id": "itm_a8c282",
+  "type": "fact",
+  "content": "mutants \u2014 which turned out to be the mutation verifier working *correctly* (`>=`\u2192`>` is semantically equivalent on a tie, so it was rightly discarded). The bug was my over-strict per-task assertion, n",
+  "source": "daily_log 2026-07-18 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_3d09f6",
+    "itm_61bf87",
+    "itm_8afcca"
+  ],
+  "keywords": [
+    "mutants",
+    "turned",
+    "mutation",
+    "verifier",
+    "working",
+    "correctly",
+    "semantically",
+    "equivalent",
+    "tie",
+    "rightly"
+  ],
+  "importance": 5,
+  "created": "2026-07-19T01:02:22.384222",
+  "last_accessed": "2026-07-19T01:02:22.384225",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}
