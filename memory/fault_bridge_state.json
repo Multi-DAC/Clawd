@@ -1,8 +1,8 @@
 {
   "offsets": {
     "monitor_m1_faults.jsonl": 160947,
-    "monitor_m2_faults.jsonl": 670580,
-    "monitor_m3_faults.jsonl": 254185,
+    "monitor_m2_faults.jsonl": 670972,
+    "monitor_m3_faults.jsonl": 254678,
     "monitor_m6_faults.jsonl": 7888
   },
   "stalled_flagged_at": 1784408291.6080031
