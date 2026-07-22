@@ -38,11 +38,11 @@
   "last_accessed": "2026-06-21T01:24:48.921683",
   "access_count": 0,
   "utility_score": 0.5,
-  "confidence": 0.75,
+  "confidence": 0.8,
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,
-  "memory_tier": "warm",
+  "memory_tier": "cold",
   "source_hash": "",
   "confidence_history": [],
   "contradictions": [

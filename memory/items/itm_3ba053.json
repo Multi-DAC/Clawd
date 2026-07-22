@@ -20,7 +20,7 @@
   "last_accessed": "2026-05-15T17:18:30.858435",
   "access_count": 0,
   "utility_score": 0.5,
-  "confidence": 0.25,
+  "confidence": 0.2,
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,
@@ -70,6 +70,11 @@
     {
       "timestamp": "2026-07-22T01:00:37.855915",
       "confidence": 0.25,
+      "reason": "evolution_decay (67d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-22T05:03:23.652897",
+      "confidence": 0.2,
       "reason": "evolution_decay (67d since access, 0 accesses)"
     }
   ]

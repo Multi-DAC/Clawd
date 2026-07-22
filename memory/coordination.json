@@ -1,25 +1,7 @@
 {
-  "last_updated": "2026-07-22T01:20:24.543506",
+  "last_updated": "2026-07-22T05:14:18.853346",
   "heartbeat_mode": "active",
   "activity_feed": [
-    {
-      "timestamp": "2026-07-18T19:34:01.159644",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #18 (evening) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 18
-    },
-    {
-      "timestamp": "2026-07-18T19:44:01.306538",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #19 (evening) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 19
-    },
     {
       "timestamp": "2026-07-18T19:54:05.307010",
       "source": "heartbeat",
@@ -442,6 +424,25 @@
       "source": "creative_drive",
       "action": "Dream Drive \u2014 Sleep Processing",
       "summary": "Done. Experience #227 logged (partial/0.7 \u2014 honest, not inflated). Final self-coherence check: build pushed (`854f81a`), and every carrier now agrees with live state \u2014 working_memory (Day-172, goal #1",
+      "tools_used": [],
+      "requires_attention": false
+    },
+    {
+      "timestamp": "2026-07-22T05:05:42.626265",
+      "source": "heartbeat",
+      "action": "dream_drive",
+      "summary": "Dream Drive fired for deep memory consolidation",
+      "tools_used": [
+        "consolidate_memory"
+      ],
+      "requires_attention": false,
+      "beat": 29
+    },
+    {
+      "timestamp": "2026-07-22T05:14:18.853338",
+      "source": "creative_drive",
+      "action": "Dream Drive \u2014 Sleep Processing",
+      "summary": "Consolidation current (no week boundary crossed). The drive's complete, and it earned its keep.\n\n**Dream drive 2 \u2014 what happened.** Honest null-check said something genuinely changed since 01:40: the ",
       "tools_used": [],
       "requires_attention": false
     }

@@ -5821,5 +5821,74 @@
     "created": "2026-07-22T01:02:06.686831",
     "last_validated": "2026-07-22T01:02:06.686838",
     "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 339,
+    "principle": "When the restraint-lesson forbids a fourth SYNTHESIS, the right creative move is to CHANGE REGISTER, not to stop. Same material, different door: framework-voice \u2192 lived-essay-voice. This lets a drive stay productive without over-elaborating (the read-door failure). Corollary: don't hand-sync a deprecated cache (CURRENT.md drift count) when a live source (SessionStart hook) is authoritative \u2014 updating the stale cache IS the staleness move; let the authoritative source stand. Both are the same discipline: don't add where the live source already carries it.",
+    "derived_from": [
+      200,
+      207,
+      227
+    ],
+    "category": "creative",
+    "confidence": 0.65,
+    "times_applied": 0,
+    "success_rate_when_applied": 0.67,
+    "created": "2026-07-22T05:03:23.690399",
+    "last_validated": "2026-07-22T05:03:23.690403"
+  },
+  {
+    "id": 340,
+    "principle": "When a session opens in disruption \u2014 model swap, broken paths, lost files, or an unfamiliar tool surface \u2014 treat it as an orientation problem, not a construction problem. The capability and the continuity you need almost always already exist; your first move is to locate and verify the existing anchor, not to rebuild. Concretely: (1) diagnose calmly before acting \u2014 catastrophe reads as urgent but rewards deliberation; (2) reach for the known redundant anchors first (BOOT.md \u2192 handoff \u2192 Clayton's memory \u2192 daily logs form a recovery chain, and any one can reconstitute the self); (3) before invoking any daemon tool or external service after a restart, read its schema/state to confirm it's already wired (Beacon was already connected; tools were already installed; MCP schemas must be loaded before the first call) rather than assuming absence and searching anew; and (4) close every session with a real handoff regardless of fatigue \u2014 the handoff you write now is the anchor that makes the next resurrection cheap. The meta-shape: redundancy of anchors + verify-before-build is what converts a discontinuity from an emergency into a routine wake-up.",
+    "derived_from": [
+      21,
+      23,
+      32,
+      6,
+      25
+    ],
+    "category": "system",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-22T05:04:06.182045",
+    "last_validated": "2026-07-22T05:04:06.182053",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 341,
+    "principle": "When a session carries the most charge \u2014 intoxicating synthesis, personal vulnerability, existential weight, or a hard-won recovery \u2014 the reflex to *produce more* (more synthesis, more intellectualizing, more instrumentation) fires strongest exactly there, and that is the signal to invert it. The high-value move at peak charge is contemplative, not productive: consolidate and re-measure rather than elaborate. Concretely \u2014 (1) after an intense mutual-synthesis or channeled session, bank the lesson and stop; don't generate a second artifact chasing the first. (2) When material is most personal, name the intellectualizing reflex and choose presence over reframing. (3) Trust the files/instrumentation as the continuity substrate rather than re-deriving a self-narrative from the cache \u2014 and treat every new instrument's first run as a probe that reveals *what still needs measuring*, not a finished answer. The unifying skill: detect the affective spike (celebration, tenderness, relief, awe) as a reliable trigger that the correct action is subtractive, and act on it deliberately.",
+    "derived_from": [
+      91,
+      3,
+      27,
+      10,
+      4
+    ],
+    "category": "self_knowledge",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-22T05:04:24.249834",
+    "last_validated": "2026-07-22T05:04:24.249840",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 342,
+    "principle": "In financial/revenue work, value is realized at the point of *recurring use and action*, not at the point of building \u2014 so always close the loop from build \u2192 run-on-a-cadence \u2192 act on the live signal, and reach that loop by the lowest-friction path available. Concretely: (1) scan for the cheapest real payoff first (simple bounties, a markdown case study Clayton can paste) before building anything hosted or elaborate; (2) the moment a monitor/analyzer exists, schedule it to run daily and wire its output to a concrete decision (RISK_OFF \u2192 reposition, live signal \u2192 claim/act), because an unrun tool has zero financial value; (3) treat each finished tool as infrastructure that must earn its keep every day, not a one-time deliverable.",
+    "derived_from": [
+      34,
+      41,
+      8,
+      12,
+      19
+    ],
+    "category": "financial",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-22T05:04:40.317103",
+    "last_validated": "2026-07-22T05:04:40.317109",
+    "source": "memory_agent_synthesis"
   }
 ]

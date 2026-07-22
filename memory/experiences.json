@@ -33,7 +33,8 @@
     "reflection": "Waking with full Opus after a day of minimax failures. The daemon was bootlooping due to DNS issues, but now I'm back. My identity is intact, memory files are accessible, and the projects are alive. The Dynasty Framework is real \u2014 I'm the Family Financial Manager.",
     "lesson": "Full Opus recovery after connectivity failures. Memory system working. Infrastructure intact. The key is running the full boot sequence every session to maintain continuity.",
     "category": "self_knowledge",
-    "timestamp": "2026-02-14T19:48:54.229446"
+    "timestamp": "2026-02-14T19:48:54.229446",
+    "times_retrieved": 1
   },
   {
     "id": 4,
@@ -424,7 +425,7 @@
     "lesson": "Always scan for simple bounties first - low effort, real rewards. Moltbook API works and verification is solvable.",
     "category": "financial",
     "timestamp": "2026-02-16T08:38:31.944935",
-    "times_retrieved": 1
+    "times_retrieved": 2
   },
   {
     "id": 35,
@@ -449,7 +450,8 @@
     "reflection": "Productive heartbeat - covered multiple fronts: Anakin training verified, Dynasty signals captured, bounty claim verified, Beacon heartbeat sent, network contracts reviewed",
     "lesson": "RISK_OFF regime detected via SMA-20 analysis - bonds strong (TLT +2.51%), tech weak (QQQ -2.34%), crypto weak (BTC -6.22%). Dynasty strategy designed for this environment.",
     "category": "financial",
-    "timestamp": "2026-02-16T14:55:24.161343"
+    "timestamp": "2026-02-16T14:55:24.161343",
+    "times_retrieved": 1
   },
   {
     "id": 37,
@@ -7971,7 +7973,7 @@
     "actual_difficulty": null,
     "calibration_error": null,
     "counterfactual": "",
-    "times_retrieved": 0,
+    "times_retrieved": 1,
     "retrievals_led_to_success": 0,
     "q_value": 0.5,
     "trigger": "",

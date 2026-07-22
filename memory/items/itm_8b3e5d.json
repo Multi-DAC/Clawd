@@ -31,7 +31,7 @@
   "last_accessed": "2026-06-20T01:05:26.760749",
   "access_count": 0,
   "utility_score": 0.5,
-  "confidence": 0.75,
+  "confidence": 0.8,
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,
