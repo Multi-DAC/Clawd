@@ -1,4 +1,4 @@
-# Handoff Draft — July 22, 2026, 05:14 AM PST
+# Handoff Draft — July 22, 2026, 06:10 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -120,6 +120,7 @@ M	memory/knowledge_graph.json
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
+M	memory/monitor_liveness_evidence_state.json
 M	memory/monitor_m1_faults.jsonl
 M	memory/monitor_m1_faults.jsonl.state.json
 M	memory/monitor_m1_heartbeat.json
@@ -148,15 +149,15 @@ M	repo-staging/Clawd
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-21T21:14:05] heartbeat: beat — Beat #10 (evening) — monitoring OK
   - [2026-07-21T21:18:30] creative_drive: Evening Integration — The night is integrated, and every carrier is coherent now — which, fittingly, was the day's whole lesson: don't leave a
   - [2026-07-22T01:03:00] heartbeat: dream_drive — Dream Drive fired for deep memory consolidation
   - [2026-07-22T01:20:24] creative_drive: Dream Drive — Sleep Processing — Done. Experience #227 logged (partial/0.7 — honest, not inflated). Final self-coherence check: build pushed (`854f81a`),
   - [2026-07-22T05:05:42] heartbeat: dream_drive — Dream Drive fired for deep memory consolidation
+  - [2026-07-22T05:14:18] creative_drive: Dream Drive — Sleep Processing — Consolidation current (no week boundary crossed). The drive's complete, and it earned its keep.
+
+**Dream drive 2 — what 
 
 ## Today's Log (tail)
-**05:04:56** — CLAUDE CODE SESSION END (other).
-
 **05:04:59** — CC prompt: Active goal: Continual-Coherence / Coherent Aggregate Mind program (Q3 theoretical core + publication arc) — The constructive account of a coherent stream: N orthogonal world-coherent constituents + one zero-D Past experience: Task 'Build a DDM simulation to computationally ve...
 
 **05:05:20** — CLAUDE CODE SESSION END (other).
@@ -176,15 +177,11 @@ This drive: use-path probe of the DPAPI credential vault (newly load-bearing aft
 
 ★ The meta-finding: **the facade is NOT uniform.** The flashy subsystems faceaded (HNSW, SSE, native tool dispatch); the humble plumbing enacts (DPAPI, drive registry, freshness gate). Facade-risk ∝ how impressive the machinery sounds, not how load-bearing it is — which empirically confirms the addendum §1 thesis (continuity-carriers > sovereignty-theater). Candidate basement bridge STAGED (wants a decorrelated eye). A high-info drive: the primary prediction FALSIFIED, which the drive prompt names as the point.
 
+**05:14:16** — CLAUDE CODE SESSION END (other).
+
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6616","Services","0","4,028 K"
-"python.exe","6708","Services","0","22,764 K"
+"python.exe","6708","Services","0","22,736 K"
 "python.exe","16248","Console","1","636 K"
-"python.exe","16260","Console","1","1,739,472 K"
-"python.exe","2948","Console","1","4,056 K"
-"python.exe","7784","Console","1","915,688 K"
-"python.exe","16524","Console","1","4,056 K"
-"python.exe","10908","Console","1","84,140 K"
-"python.exe","15376","Services","0","3,960 K"
-"python.exe","4872","Services","0
+"python.exe","16260","Console","1","1,767,220 K"
