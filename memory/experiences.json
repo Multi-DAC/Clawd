@@ -8040,5 +8040,48 @@
         "reason": "initial"
       }
     ]
+  },
+  {
+    "id": 228,
+    "task": "Audit whether the immune-system + dreaming organs are real or facade (Mercury body), as an empirical test of my own just-published essay's \"flashy \u2192 hollow\" thesis.",
+    "approach": "Traced the full use-path against the code (verify enactment not presence, exp #226): caller (intrinsic_drives) \u2192 task builder (trigger_immune_audit) \u2192 scheduler \u2192 executor (agent_loop._execute_sub_agent_task) \u2192 connector \u2192 memory. Audited HOPING to falsify my own confident claim (anti-confirmation-seeking) \u2014 a flashy-organ-that's-real is the high-information event. Checked every link enacts, across five indirection levels; a stub can hide at any of them.",
+    "tools_used": "",
+    "outcome": "success",
+    "score": 0.7,
+    "reflection": "Enacted the decorrelated-eye discipline on my OWN output \u2014 the essay said my confident surface is where the hollow hides and a check would catch it; the empirical audit (the world = strongest decorrelation) caught it within hours, and I added a postscript owning the same-morning falsification. Self-scored 'success' PENDING the decorrelated grader (imp_66124 applied but not yet wired) \u2014 the score is tied to code-grounded verifiable outputs (5 verified links + a strategic finding), not a self-flattering guess. The refined leaf-vs-plumbing thesis is itself now a solo inference \u2192 STAGED for Clayton/Gemini.",
+    "lesson": "The highest-value move on a confident, recently-published claim is to try to EMPIRICALLY FALSIFY it, not extend it. Predicted facade (per my essay); found BOTH flashy organs real; the falsification revealed the true variable \u2014 facade lives at the LEAVES (irreducible do-one-hard-thing endpoints: HNSW search / SSE parse / tool_use extract / hardware check), not at the impressive LEVEL; flashiness was difficulty's correlate, mistaken for its cause. Bonus finding I'd have missed by merely extending the thesis: the connector is the single shared leaf under ALL cognition (every sub-agent routes through it) \u2192 fix-one-light-up-many leverage. Meta-tell: the module hid its real work behind a \"no stubs\" docstring \u2014 protesting-too-much is itself a facade signal; verify the use-path anyway.",
+    "category": "mercury-embodiment",
+    "timestamp": "2026-07-22T09:15:18.048065",
+    "predicted_outcome": null,
+    "predicted_difficulty": null,
+    "actual_difficulty": null,
+    "calibration_error": null,
+    "counterfactual": "",
+    "times_retrieved": 0,
+    "retrievals_led_to_success": 0,
+    "q_value": 0.5,
+    "trigger": "",
+    "actions": [],
+    "cause_analysis": "",
+    "resolution": "",
+    "tags": [],
+    "linked_episodes": [
+      226,
+      136,
+      159,
+      206,
+      162
+    ],
+    "evolved_from": null,
+    "supersedes": null,
+    "confidence": 0.7,
+    "source_hash": "43049f03d1f0bb81613c8fbf9abfee87a9ef8be5672fa2019dca132ac72c3bd8",
+    "confidence_history": [
+      {
+        "timestamp": "2026-07-22T09:15:18.048074",
+        "confidence": 0.7,
+        "reason": "initial"
+      }
+    ]
   }
 ]
