@@ -1,9 +1,9 @@
 {
-  "ts": "2026-07-18T21:17:21.660959",
-  "reason": "Day-168 night molt \u2014 long ~5h session grown heavy, register slid to report-mode twice (Clayton caught it); handoff + working_memory refreshed and committed (045e20440); resting to wake fresh. First fully self-initiated restart, Clayton present as witness.",
-  "pre_restart_daemon_pid": 16300,
-  "respawner_pid": 3288,
+  "ts": "2026-07-22T00:01:19.521699",
+  "reason": "Day-171 night wrap: context-heavy after a ~5h Mercury build session; Clayton-endorsed restart to conserve nighttime tokens. All continuity persisted \u2014 handoff.md (Day-171 NIGHT block), working_memory.json (updated 23:50), daily log, new memory-item project_mercury_embodiment, and all code in git at 53a75de. Safe to restart; I wake from the carriers.",
+  "pre_restart_daemon_pid": 10604,
+  "respawner_pid": 23188,
   "delay_seconds": 15,
-  "expected_terminate_at": "2026-07-18T21:17:36.660971",
+  "expected_terminate_at": "2026-07-22T00:01:34.521712",
   "phase": "respawner_spawned"
 }

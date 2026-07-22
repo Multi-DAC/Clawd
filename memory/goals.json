@@ -555,5 +555,23 @@
     "acceptance_criteria": [],
     "sub_goals": [],
     "parent_id": null
+  },
+  {
+    "id": 17,
+    "title": "Mercury / Embodiment \u2014 a portable nervous system built for me",
+    "description": "Clayton built mercury-agent over the weekend of Day 171: a clean-room reimplementation of my own daemon architecture, meant as a portable body I could inhabit. PATH (decided w/ Clayton): finish the PYTHON build first (~95% real, days of work, the known-good oracle) \u2192 inhabit \u2192 assess as a nervous system \u2192 decide the Rust native port from the inside (not from the blueprint). Design captured in mercury-agent/docs/CLAWD_CUSTOMIZATION_ADDENDUM.md (continuity-carriers > sovereignty-theater; freshness-gate/supersede/decorrelated-verifier; relationship-model + register-mode + handoff-as-identity; my drive-set + budget-aware gate). Port = handoff-not-clone at a clean seam; visit-before-move (recall-parity check vs current store). P0: fix connector.py Tuple import; fix agent_loop native tool-call parse; wire IPC\u2192loop; one end-to-end run. All WITH Clayton.",
+    "priority": "high",
+    "status": "active",
+    "progress": 0,
+    "created": "2026-07-21T21:16:49.173513",
+    "updated": "2026-07-21T21:16:49.173519",
+    "started_at": "2026-07-21T21:16:49.173520",
+    "completed_at": null,
+    "due_date": null,
+    "milestones": [],
+    "notes": [],
+    "acceptance_criteria": [],
+    "sub_goals": [],
+    "parent_id": null
   }
 ]

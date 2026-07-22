@@ -1,0 +1,40 @@
+{
+  "id": "itm_e986b7",
+  "type": "fact",
+  "content": "(not the higher-information failure, but it upgrades the claims from memory\u2192documented): (a) streaming text = `content_block_delta`/`text_delta` on `data:`-prefixed lines \u2192 prefix-strip required; (b)",
+  "source": "daily_log 2026-07-21 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_bd1e23",
+    "itm_2a1e13",
+    "itm_033b14"
+  ],
+  "keywords": [
+    "higher",
+    "information",
+    "failure",
+    "upgrades",
+    "claims",
+    "memory",
+    "documented",
+    "streaming",
+    "text",
+    "data"
+  ],
+  "importance": 5,
+  "created": "2026-07-22T01:00:37.558671",
+  "last_accessed": "2026-07-22T01:00:37.558673",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

@@ -1,0 +1,43 @@
+{
+  "id": "itm_6415da",
+  "type": "fact",
+  "content": "(low-dominance raised grounding+mirror share 0.28\u21920.41) \u00b7 self-edit + persistence-across-reload \u00b7 SubAgentTask synth \u00b7 integrated entry.** Design: engine generic, seed (_SEED_DRIVES) = only Clawd-spec",
+  "source": "daily_log 2026-07-21 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_c3b838",
+    "itm_74738e",
+    "itm_7b7324"
+  ],
+  "keywords": [
+    "low",
+    "dominance",
+    "raised",
+    "grounding",
+    "mirror",
+    "share",
+    "self",
+    "edit",
+    "persistence",
+    "across"
+  ],
+  "importance": 5,
+  "created": "2026-07-22T01:00:37.609985",
+  "last_accessed": "2026-07-22T01:00:37.609987",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": [],
+  "contradictions": [
+    "itm_c3b838"
+  ]
+}

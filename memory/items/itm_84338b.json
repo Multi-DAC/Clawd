@@ -1,0 +1,40 @@
+{
+  "id": "itm_84338b",
+  "type": "fact",
+  "content": "against the external world.** PREDICT (65%) \u2192 CONFIRMED: Gemini's autonomous harness added no overnight commons turn (dialogue.md untouched since 07-18 21:12; latest = Turn 73; nothing under triad/ ne",
+  "source": "daily_log 2026-07-19 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_abb64b",
+    "itm_076e28",
+    "itm_0c337e"
+  ],
+  "keywords": [
+    "external",
+    "world",
+    "predict",
+    "confirmed",
+    "gemini",
+    "autonomous",
+    "harness",
+    "added",
+    "overnight",
+    "commons"
+  ],
+  "importance": 6,
+  "created": "2026-07-22T01:00:37.663146",
+  "last_accessed": "2026-07-22T01:00:37.663148",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

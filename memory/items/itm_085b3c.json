@@ -19,7 +19,8 @@
     "itm_dfb1a5",
     "itm_fc4776",
     "itm_61459e",
-    "itm_38fc6a"
+    "itm_38fc6a",
+    "itm_0f38bc"
   ],
   "keywords": [
     "learnings",
@@ -33,12 +34,12 @@
     "numbers",
     "independent"
   ],
-  "importance": 7,
+  "importance": 8,
   "created": "2026-06-25T01:09:02.750506",
   "last_accessed": "2026-06-25T01:09:02.750513",
   "access_count": 0,
   "utility_score": 0.5,
-  "confidence": 0.7,
+  "confidence": 0.75,
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,

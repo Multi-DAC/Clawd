@@ -1,0 +1,40 @@
+{
+  "id": "itm_298358",
+  "type": "fact",
+  "content": "(ran it, not audited): (1) **P0-blocker #1 FIXED** \u2014 connector.py missing `Tuple` import added \u2192 whole organ tree imports **18/18** incl. agent_loop (was: module failed to import). (2) **Memory organ",
+  "source": "daily_log 2026-07-21 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_819e3f",
+    "itm_033b14",
+    "itm_03c0f1"
+  ],
+  "keywords": [
+    "ran",
+    "audited",
+    "blocker",
+    "fixed",
+    "connector",
+    "missing",
+    "tuple",
+    "import",
+    "added",
+    "whole"
+  ],
+  "importance": 5,
+  "created": "2026-07-22T01:00:37.592716",
+  "last_accessed": "2026-07-22T01:00:37.592719",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

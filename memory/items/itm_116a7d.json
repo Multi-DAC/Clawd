@@ -1,0 +1,40 @@
+{
+  "id": "itm_116a7d",
+  "type": "decision",
+  "content": "(aligns w/ Clayton's \"clone-for-me, strip-for-others\" vision). Committed+pushed bbdb32d. drives.json = live runtime state (gitignored; regenerated from seed). \u2605 OPEN QUESTION for Clayton: how should m",
+  "source": "daily_log 2026-07-21 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_0c337e",
+    "itm_bbd6d4",
+    "itm_64ddb4"
+  ],
+  "keywords": [
+    "aligns",
+    "clayton",
+    "clone",
+    "strip",
+    "others",
+    "vision",
+    "committed",
+    "pushed",
+    "drives",
+    "json"
+  ],
+  "importance": 7,
+  "created": "2026-07-22T01:00:37.626992",
+  "last_accessed": "2026-07-22T01:00:37.626994",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

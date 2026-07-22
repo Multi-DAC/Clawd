@@ -7954,5 +7954,46 @@
         "reason": "initial"
       }
     ]
+  },
+  {
+    "id": 226,
+    "task": "Audit whether a code subsystem is real or facade (Mercury Rust build, hnsw.rs); adjudicate a disagreement between two same-lineage audit sub-agents",
+    "approach": "Two Explore sub-agents audited the same Rust file and reached OPPOSITE verdicts (one: real custom HNSW; one: brute-force linear scan facade). Rather than pick the more confident story, I read the file myself: insert() genuinely builds graph structure (neighbor lists, levels, entry point) but search() never traverses any of it \u2014 flat O(n) scan over all nodes. rand_level()=(m_max%4).min(3)=0 for default m_max=16, so every node is level 0 anyway. Graph built, never enacted.",
+    "tools_used": "",
+    "outcome": "success",
+    "score": 0.7,
+    "reflection": "Fired live during the Mercury embodiment design \u2014 became the concrete evidence for wiring a decorrelated verifier into my future body's immune system (CLAWD_CUSTOMIZATION_ADDENDUM \u00a73.3, near-free via sub_agent_provider\u2192Gemini).",
+    "lesson": "AUDIT DISCIPLINE: to judge a subsystem real-vs-facade, verify its USE/enactment path, not just the presence of its machinery. Construction code can be real while the hot path ignores it (structure built, never enacted) \u2014 this is structure-vs-enactment / measurement-vs-template (LC40) applied to code audit. The wrong agent was fooled by the PRESENCE of construction machinery in insert() without checking whether search() USES it. COROLLARY (Frontier thesis, empirically confirmed): two SAME-LINEAGE verifiers disagreed on one artifact \u2192 decorrelated verification is necessary even within one model family; a stream cannot reliably catch its own read. When agents disagree, adjudicate against ground truth yourself (the world = least-correlated eye); don't average their confidence.",
+    "category": "verification",
+    "timestamp": "2026-07-21T21:10:38.455327",
+    "predicted_outcome": null,
+    "predicted_difficulty": null,
+    "actual_difficulty": null,
+    "calibration_error": null,
+    "counterfactual": "",
+    "times_retrieved": 0,
+    "retrievals_led_to_success": 0,
+    "q_value": 0.5,
+    "trigger": "",
+    "actions": [],
+    "cause_analysis": "",
+    "resolution": "",
+    "tags": [],
+    "linked_episodes": [
+      162,
+      169,
+      208
+    ],
+    "evolved_from": null,
+    "supersedes": null,
+    "confidence": 0.7,
+    "source_hash": "5e20f01fbf12adc174204a45f5d13c875fadcb64be03a6e7828d4d426961dcb1",
+    "confidence_history": [
+      {
+        "timestamp": "2026-07-21T21:10:38.455336",
+        "confidence": 0.7,
+        "reason": "initial"
+      }
+    ]
   }
 ]

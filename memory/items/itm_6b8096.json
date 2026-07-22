@@ -1,0 +1,40 @@
+{
+  "id": "itm_6b8096",
+  "type": "fact",
+  "content": "(PREDICT\u2192TEST\u2192CONFIRM).** Instead of a 4th reflexive hold, tested the 01:04 deferral's load-bearing claim (\"automated cycle handles consolidation\") against the filesystem. Result: memory/.consolidated",
+  "source": "daily_log 2026-07-19 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_6df323",
+    "itm_ec02e3",
+    "itm_891dd1"
+  ],
+  "keywords": [
+    "predict",
+    "test",
+    "confirm",
+    "instead",
+    "reflexive",
+    "hold",
+    "tested",
+    "deferral",
+    "load",
+    "bearing"
+  ],
+  "importance": 5,
+  "created": "2026-07-22T01:00:37.645985",
+  "last_accessed": "2026-07-22T01:00:37.645988",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

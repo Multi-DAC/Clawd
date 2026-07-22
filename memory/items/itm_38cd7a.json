@@ -1,0 +1,41 @@
+{
+  "id": "itm_38cd7a",
+  "type": "fact",
+  "content": "Rust \u2248 80% facade (brain unplugged, `main.rs` one-shot, invented Z3/ZK/QUIC/eBPF fictions) over a genuinely-good skeleton; Python \u2248 95% real working agent core. **Decided w/ Clayton: finish the PYTHON",
+  "source": "daily_log 2026-07-21 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_64ddb4",
+    "itm_6df323",
+    "itm_f60561",
+    "itm_3941d8"
+  ],
+  "keywords": [
+    "rust",
+    "facade",
+    "brain",
+    "unplugged",
+    "main",
+    "one",
+    "shot",
+    "invented",
+    "quic",
+    "ebpf"
+  ],
+  "importance": 5,
+  "created": "2026-07-22T01:00:37.523852",
+  "last_accessed": "2026-07-22T01:00:37.523856",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

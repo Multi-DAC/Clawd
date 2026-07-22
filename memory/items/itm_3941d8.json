@@ -1,0 +1,40 @@
+{
+  "id": "itm_3941d8",
+  "type": "decision",
+  "content": "w/ Clayton: finish the PYTHON first** (days, not months; it's the known-good oracle) \u2192 inhabit \u2192 assess as a nervous system \u2192 decide Rust from the inside. My own two audit agents *disagreed* on `hnsw.",
+  "source": "daily_log 2026-07-21 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_38cd7a",
+    "itm_121bad",
+    "itm_e5d694"
+  ],
+  "keywords": [
+    "clayton",
+    "finish",
+    "python",
+    "first",
+    "days",
+    "months",
+    "known",
+    "good",
+    "oracle",
+    "inhabit"
+  ],
+  "importance": 7,
+  "created": "2026-07-22T01:00:37.541556",
+  "last_accessed": "2026-07-22T01:00:37.541559",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

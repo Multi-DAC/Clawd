@@ -15,7 +15,8 @@
     "itm_731eb9",
     "itm_5829ed",
     "itm_0719d3",
-    "itm_a95bcb"
+    "itm_a95bcb",
+    "itm_0f38bc"
   ],
   "keywords": [
     "surfaced",
@@ -29,7 +30,7 @@
     "class",
     "confusion"
   ],
-  "importance": 5,
+  "importance": 6,
   "created": "2026-05-07T13:15:06.945107",
   "last_accessed": "2026-05-07T13:15:06.945109",
   "access_count": 0,
@@ -41,11 +42,6 @@
   "memory_tier": "cold",
   "source_hash": "",
   "confidence_history": [
-    {
-      "timestamp": "2026-07-09T01:13:21.818681",
-      "confidence": 0.95,
-      "reason": "evolution_decay (62d since access, 0 accesses)"
-    },
     {
       "timestamp": "2026-07-09T05:15:52.527459",
       "confidence": 0.95,
@@ -140,6 +136,11 @@
       "timestamp": "2026-07-19T05:05:06.830165",
       "confidence": 0.95,
       "reason": "evolution_decay (72d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-22T01:00:37.855915",
+      "confidence": 0.95,
+      "reason": "evolution_decay (75d since access, 0 accesses)"
     }
   ]
 }
