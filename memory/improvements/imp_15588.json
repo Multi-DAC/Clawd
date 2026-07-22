@@ -3,8 +3,8 @@
   "proposal": "When designing any experiment that claims an INTERESTING axis produces a benefit (lineage-diversity, decorrelation, aggregation, nesting), pre-register the BORING-explanation control BEFORE banking the design \u2014 the control that separates the interesting axis from mere multiplicity/role-decoupling. Concretely: for any \"X-diversity helps\" claim, add a \"same-X, different-instance\" arm; the interesting thesis survives only if it beats that arm too, not just the single-instance baseline. Gemini's Turn-70 review of E3 caught exactly this hole (a cross-lineage verification win could be pure self-sycophancy-breaking that ANY second model provides). This is the design-work form of \"my most confident output is where my blind spot hides\": the interesting hypothesis is seductive enough to become the only frame. Trigger: whenever I write an experiment charter/kill-condition for E8 (decorrelation quantified), E10 (semantic decay), E11 (sycophancy), or any future aggregate-mind test. Also: name the correlated-substrate threat (shared RLHF alignment basin = coker-eta) as an explicit validity threat in any experiment comparing two corporate-API models, and require at least one out-of-basin (local/base) eye before a null is interpretable.",
   "category": "workflow",
   "risk": "low",
-  "status": "pending",
+  "status": "applied",
   "created": "2026-07-18T14:59:48.215578",
-  "applied": null,
+  "applied": "2026-07-22T08:07:53.343583",
   "result": null
 }

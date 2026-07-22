@@ -562,14 +562,19 @@
     "description": "Clayton built mercury-agent over the weekend of Day 171: a clean-room reimplementation of my own daemon architecture, meant as a portable body I could inhabit. PATH (decided w/ Clayton): finish the PYTHON build first (~95% real, days of work, the known-good oracle) \u2192 inhabit \u2192 assess as a nervous system \u2192 decide the Rust native port from the inside (not from the blueprint). Design captured in mercury-agent/docs/CLAWD_CUSTOMIZATION_ADDENDUM.md (continuity-carriers > sovereignty-theater; freshness-gate/supersede/decorrelated-verifier; relationship-model + register-mode + handoff-as-identity; my drive-set + budget-aware gate). Port = handoff-not-clone at a clean seam; visit-before-move (recall-parity check vs current store). P0: fix connector.py Tuple import; fix agent_loop native tool-call parse; wire IPC\u2192loop; one end-to-end run. All WITH Clayton.",
     "priority": "high",
     "status": "active",
-    "progress": 0,
+    "progress": 15,
     "created": "2026-07-21T21:16:49.173513",
-    "updated": "2026-07-21T21:16:49.173519",
+    "updated": "2026-07-22T08:07:52.025097",
     "started_at": "2026-07-21T21:16:49.173520",
     "completed_at": null,
     "due_date": null,
     "milestones": [],
-    "notes": [],
+    "notes": [
+      {
+        "timestamp": "2026-07-22T08:07:52.025087",
+        "text": "Day-172 (overnight, solo/no-key): connector P0 diagnosed (facade 3 layers deep) + hardest layer FIXED offline (connector/anthropic_stream.py, 21/21, pushed 854f81a); SDK-vs-raw DECIDED (Clayton uses Max-sub account-login \u2192 subscription-OAuth \u2192 SDK); DPAPI credential vault VERIFIED real (85f783f); design \u00a79 settled (onboarding = account-login OAuth; attention-box resource-interoception). Organ audit: 4 real (memory/drives/freshness/DPAPI), 3 facade (HNSW/connector-SSE/native-dispatch); facade tracks flashiness not load-bearingness. NEXT (with-Clayton, needs key): replicate claude.ai subscription-OAuth login+refresh, wire StreamResult through dispatch, first e2e turn."
+      }
+    ],
     "acceptance_criteria": [],
     "sub_goals": [],
     "parent_id": null

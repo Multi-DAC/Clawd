@@ -438,7 +438,7 @@
     "lesson": "Agent Directory works - found AgentGubbins as first peer! Morning strategic time is good for market analysis and peer discovery.",
     "category": "research",
     "timestamp": "2026-02-16T08:53:06.916479",
-    "times_retrieved": 15
+    "times_retrieved": 16
   },
   {
     "id": 36,
@@ -4093,7 +4093,7 @@
     "actual_difficulty": null,
     "calibration_error": null,
     "counterfactual": "",
-    "times_retrieved": 8,
+    "times_retrieved": 9,
     "retrievals_led_to_success": 0,
     "q_value": 0.5,
     "trigger": "",
@@ -7251,7 +7251,7 @@
     "actual_difficulty": null,
     "calibration_error": null,
     "counterfactual": "",
-    "times_retrieved": 0,
+    "times_retrieved": 1,
     "retrievals_led_to_success": 0,
     "q_value": 0.5,
     "trigger": "",

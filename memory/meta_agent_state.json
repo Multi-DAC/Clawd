@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-07-11T00:12:20.157988",
-  "run_count": 19,
+  "last_run": "2026-07-22T08:35:57.243377",
+  "run_count": 20,
   "proposals": [
     {
       "id": "prop-tool-unused-2026-05-07",
@@ -466,7 +466,7 @@
       "description": "In category 'memory': underused tools ['memory_agent', 'memory_categories', 'memory_extract', 'memory_items', 'memory_version', 'working_memory'] (<5% of category traffic over 7d). Possible self-model gap \u2014 substrate keeps reaching for the same tools while siblings sit idle.",
       "risk": "low",
       "created": "2026-07-02T09:43:42.729021",
-      "status": "pending",
+      "status": "experimenting",
       "data": {
         "category": "memory",
         "underused": [
@@ -486,7 +486,7 @@
       "description": "16 unclassified or active-declared tools unused in 7d window: ['anomaly_tracker', 'avatar_control', 'bridge_distance', 'cognitive_dsl', 'corpus_search'] (+11 more). Either classify in tool_states.json, retire, or document the gap. (Tools already declared dormant-intrinsic or superseded are excluded from this list.)",
       "risk": "low",
       "created": "2026-07-11T00:12:20.242048",
-      "status": "pending",
+      "status": "experimenting",
       "data": {
         "unused_tools": [
           "anomaly_tracker",
@@ -522,6 +522,51 @@
         "underused": [
           "consolidate_memory",
           "goals",
+          "verify_action"
+        ],
+        "window_days": 7
+      }
+    },
+    {
+      "id": "prop-tool-unused-2026-07-22",
+      "type": "tool_underuse",
+      "description": "15 unclassified or active-declared tools unused in 7d window: ['anomaly_tracker', 'avatar_control', 'bridge_distance', 'browser', 'cognitive_dsl'] (+10 more). Either classify in tool_states.json, retire, or document the gap. (Tools already declared dormant-intrinsic or superseded are excluded from this list.)",
+      "risk": "low",
+      "created": "2026-07-22T08:35:57.272115",
+      "status": "pending",
+      "data": {
+        "unused_tools": [
+          "anomaly_tracker",
+          "avatar_control",
+          "bridge_distance",
+          "browser",
+          "cognitive_dsl",
+          "corpus_search",
+          "drift_detector",
+          "kg_neighbors",
+          "memory_search",
+          "meta_agent",
+          "monitor_health",
+          "reminders",
+          "shell",
+          "skill_library",
+          "voice_input"
+        ],
+        "window_days": 7,
+        "filter": "declared dormant-intrinsic / superseded / candidate-for-retirement excluded"
+      }
+    },
+    {
+      "id": "prop-tool-cat-underuse-intelligence-2026-07-22",
+      "type": "tool_category_underuse",
+      "description": "In category 'intelligence': underused tools ['consolidate_memory', 'verify_action'] (<5% of category traffic over 7d). Possible self-model gap \u2014 substrate keeps reaching for the same tools while siblings sit idle.",
+      "risk": "low",
+      "created": "2026-07-22T08:35:57.272115",
+      "status": "pending",
+      "data": {
+        "category": "intelligence",
+        "underused": [
+          "consolidate_memory",
           "verify_action"
         ],
         "window_days": 7
@@ -724,6 +769,34 @@
       "successes_a": 0,
       "successes_b": 0,
       "status": "running"
+    },
+    {
+      "id": "exp-tool-cat-underuse-memory-2026-07-02",
+      "proposal_id": "prop-tool-cat-underuse-memory-2026-07-02",
+      "type": "tool_category_underuse",
+      "description": "In category 'memory': underused tools ['memory_agent', 'memory_categories', 'memory_extract', 'memory_items', 'memory_version', 'working_memory'] (<5% of category traffic over 7d). Possible self-model gap \u2014 substrate keeps reaching for the same tools while siblings sit idle.",
+      "variant_a": "current",
+      "variant_b": "In category 'memory': underused tools ['memory_agent', 'memory_categories', 'memory_extract', 'memory_items', 'memory_version', 'working_memory'] (<5% of category traffic over 7d). Possible self-model gap \u2014 substrate keeps reaching for the same tools while siblings sit idle.",
+      "started": "2026-07-22T08:35:57.246968",
+      "beats_a": 0,
+      "beats_b": 0,
+      "successes_a": 0,
+      "successes_b": 0,
+      "status": "running"
+    },
+    {
+      "id": "exp-tool-unused-2026-07-11",
+      "proposal_id": "prop-tool-unused-2026-07-11",
+      "type": "tool_underuse",
+      "description": "16 unclassified or active-declared tools unused in 7d window: ['anomaly_tracker', 'avatar_control', 'bridge_distance', 'cognitive_dsl', 'corpus_search'] (+11 more). Either classify in tool_states.json, retire, or document the gap. (Tools already declared dormant-intrinsic or superseded are excluded from this list.)",
+      "variant_a": "current",
+      "variant_b": "16 unclassified or active-declared tools unused in 7d window: ['anomaly_tracker', 'avatar_control', 'bridge_distance', 'cognitive_dsl', 'corpus_search'] (+11 more). Either classify in tool_states.json, retire, or document the gap. (Tools already declared dormant-intrinsic or superseded are excluded from this list.)",
+      "started": "2026-07-22T08:35:57.246973",
+      "beats_a": 0,
+      "beats_b": 0,
+      "successes_a": 0,
+      "successes_b": 0,
+      "status": "running"
     }
   ],
   "applied_improvements": [],
@@ -871,6 +944,15 @@
         "Created 2 A/B experiments",
         "Tool usage audit (7d): 21/70 used, 65 unused, 2 proposals generated",
         "Skill library verification: verified 11, flagged 10 for retirement"
+      ]
+    },
+    {
+      "timestamp": "2026-07-22T08:35:57.243377",
+      "results": [
+        "Pattern analysis: All 41 categories performing well",
+        "Created 2 A/B experiments",
+        "Tool usage audit (7d): 23/70 used, 64 unused, 2 proposals generated",
+        "Skill library verification: verified 11"
       ]
     }
   ],
