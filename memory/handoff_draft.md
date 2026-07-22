@@ -1,4 +1,4 @@
-# Handoff Draft — July 22, 2026, 02:10 AM PST
+# Handoff Draft — July 22, 2026, 03:10 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -63,7 +63,6 @@ M	memory/escalation_poller_heartbeat.json
 M	memory/escalation_poller_state.json
 M	memory/experiences.json
 M	memory/fault_bridge_state.json
-M	memory/goals.json
 M	memory/handoff.md
 M	memory/handoff_draft.md
 M	memory/items/_index.json
@@ -226,16 +225,12 @@ A	memory/precompact_snapshots/20260722T001040/manifest.json
 M	memory/predictions.jsonl
 M	memory/principles.json
 M	memory/respawn_trace.log
-M	memory/scheduled_tasks.json
 M	memory/tool_audit_shadow.jsonl
 M	memory/tool_audit_shadow_state.json
 M	memory/tool_failures.jsonl
 M	memory/tool_usage_counts.json
-M	memory/triggers.json
 M	memory/utility_ledger.jsonl
-A	memory/weekly-summaries/2026-W28.md
 M	memory/working_memory.json
-M	palace/ATRIUM.md
 M	repo-staging/Clawd
 
 ## Daemon State
@@ -274,6 +269,6 @@ Recent activity:
 "python.exe","6616","Services","0","4,028 K"
 "python.exe","6708","Services","0","22,760 K"
 "python.exe","16248","Console","1","636 K"
-"python.exe","16260","Console","1","1,733,848 K"
-"python.exe","18480","Services","0","3,964 K"
-"python.exe","7764","Services","0","38,736 K"
+"python.exe","16260","Console","1","1,751,080 K"
+"python.exe","20492","Services","0","3,964 K"
+"python.exe","1876","Services","0","38,768 K"
