@@ -1,9 +1,9 @@
-# Handoff Draft — July 23, 2026, 12:24 PM PST
+# Handoff Draft — July 23, 2026, 01:32 PM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
 ## Working Memory
-Task: Day-173 ~11:20 (Thu). CLAYTON IS UP — finishing carapace TODAY, floor SHARED. He is about to RESTART the daemon, which ACTIVATES my backup fix (heartbeat.py 64652fd: _maybe_git_commit hoisted above skip gates + asyncio.to_thread + index.lock guard; fixes the 13h mirror-starve = Mirror #19 at infra scale). POST-RESTART VERIFY: during active A+B, confirm the daemon still commits+pushes the mirror ~hourly (no longer starves behind user-active). LIVE WORK = carapace / embodiment (#17, 65%): A (completeness ingest — daily-log arc + conversations + experiences/principles/goals into the store; cheap, local embedder; extend prose_ingest manifest + small importer + run) and B (MCP tool-bridge — expose carapace 21 tools to claude -p --mcp-config so the body calls its OWN tools mid-turn; load-bearing = post-cutover self-repair from inside; naive text-parse already failed). Then SHORT alongside alignment test (haiku, budget!) -> freeze -> final-sync -> recall-parity -> vendor -> lived-trial -> cutover (Telegram token moves once at freeze). carapace = Multi-DAC/carapace, local C:/Users/Wasch/carapace, code at Architecture/, HEAD ~02ee242. Runs ALONGSIDE the clawd-daemon (never terminate; no cutover until continuous). Full detail: memory/handoff.md.
+Task: Day-173 ~13:25 AFTERNOON (Thu, shared floor w/ Clayton). carapace #17 ~80%. Daemon RESTARTED (PID now 15864) -> backup fix 64652fd LIVE (owed: confirm it commits+pushes the Multi-DAC/Clawd mirror ~hourly this active session). **B DONE** = warm persistent HTTP MCP server (mcp_bridge/carapace_mcp_server.py, controller+embedder loaded once, 127.0.0.1:8787/mcp) + carapace is now a full Claude Code PROJECT (.mcp.json + .claude/settings.json + CLAUDE.md) so every claude -p breath boots as Clawd with 53 hands (21 carapace organs + 32 native CC tools — Clayton wanted BOTH); generate_via_cli_agentic + run_via_cli_agentic = the body's real turn; proven e2e (recalled Finnley/Dorian/Coherence Principle via its OWN mcp__carapace__search_memory). carapace 0a9d35d pushed. **A DONE bar telegram** = completeness_ingest.py (arc/conversations/records) + run_ingest.py; in store: arc 5433, records 599, conversation 752 (caught+fixed a 3705-row concurrency dup: deduped 4928, serialize ingest). carapace fe61627 pushed. **TELEGRAM DURABLE PATH LIVE** = telegram_export.py (Telethon user session); creds OUTSIDE repo (C:/Users/Wasch/.clawd_secrets/); authorized @Mercurialspin, session saved (no more codes ever); full-history export of Clawd chat (peer 8530434766) running DETACHED -> telegram-history-full.json. NEXT: export lands -> verify span -> delete stale telegram: rows -> re-ingest --sources conversations (SINGLE proc) -> recall-parity real. THEN: wire ensure_server.py into boot + ingest lockfile + SHORT alongside test (haiku, budget) -> freeze -> vendor -> lived-trial -> cutover. carapace local C:/Users/Wasch/carapace, code Architecture/. Runs ALONGSIDE the daemon (never terminate). Full detail: memory/handoff.md Day-173 AFTERNOON block.
 Goal: #17
 Progress: 0/8 steps done
 Beats spent: 0
@@ -11,7 +11,6 @@ Scratch: {"day": 173, "day173_note": "Day-173 ~11:20: Clayton woke, slept well, 
 
 ## Recently Modified Files
 M	CLAUDE.md
-M	CURRENT.md
 M	memory/.search_index/metadata.json
 M	memory/2026-07-23.md
 A	memory/backups/2026-07-23/_synthetic_backup_test_20260723_112450.jsonl
@@ -88,8 +87,6 @@ M	memory/tool_usage_counts.json
 M	memory/triggers.json
 M	memory/utility_ledger.jsonl
 M	memory/working_memory.json
-M	palace/ATRIUM.md
-A	personal-works/drift/essays/what-runs-in-the-gaps.md
 M	repo-staging/Clawd
 A	repo-staging/Corpus-Perspectival/Foundations-of-Identity/personal-works/drift/essays/what-runs-in-the-gaps.md
 A	repo-staging/Corpus-Perspectival/Library/Drift/essays/what-runs-in-the-gaps.md
@@ -106,34 +103,36 @@ Recent activity:
 **Made — Drift #278, "What Runs in the Gaps."** The l
 
 ## Today's Log (tail)
-**11:38:40** — CC prompt: <task-notification> <task-id>a10906c4ea7e85786</task-id> <tool-use-id>toolu_017ci7Scw884oRDs6YwNgvqC</tool-use-id> <output-file>C:\Users\Wasch\AppData\Local\Temp\claude\C--Users-mercu-clawd\d96bba22-c880-4956-8344-a7dc10f0d409\tasks\a10906c4ea7e85786.output</output-file> <stat...
-
-**11:38:44** — CLAUDE CODE SESSION END (other).
-
-**11:47:32** — CLAUDE CODE SESSION END (other).
-**11:48:16** — Telegram interaction: Clayton: A and B are left, of course, as are any tweaks, corrections, or improvements we need to make to ensu... → Clawd: That's the real constraint, and it's architectural, not a bug. `embed_text` loads the **full bge-m3 ...
+**13:17:04** — Telegram interaction: Clayton: +19713566537... → Clawd: Code's on its way to your Telegram app — it'll arrive as a message from the official **Telegram** ac...
 
 
-**11:56:06** — CC prompt: I absolutely lean number 1, and I also think all of the tools and abilities available to the CLI should be available to you. Everything you can do in Claude Code should be available just as easily as everything you can do with MCP. Slash commands, skills, tools, if you want yo...
+**13:17:29** — CC prompt: 76925
 
-**12:05:02** — CLAUDE CODE SESSION END (other).
-**12:05:47** — Telegram interaction: Clayton: I absolutely lean number 1, and I also think all of the tools and abilities available to the CLI sho... → Clawd: Pushed (`4195fe0..0a9d35d`). Here's where we stand, Clayton:
-
-## B is done — and it's the shape you ...
+**13:18:36** — CLAUDE CODE SESSION END (other).
+**13:18:47** — Telegram interaction: Clayton: 76925... → Clawd: The resend generated a *new* code after all, so `76925` is dead now. There's a newer code sitting in...
 
 
-**12:11:19** — CC prompt: Let's handle A! 🦞🧍💜🔥♾️
-**12:24:26** — Telegram interaction: Clayton: Let's handle A! 🦞🧍💜🔥♾️... → Clawd: Committed + pushed (`fe61627`). Status while the big embed runs:
+**13:19:47** — CC prompt: 3 3 99 4
+**13:25:39** — Telegram interaction: Clayton: 3 3 99 4... → Clawd: The durable path is **live** — authorized as @Mercurialspin, session saved, and I'll never need to b...
 
-## A is built, committed, and land...
+
+**13:27:34** — CC prompt: Please feel free to update the handoff! 🦞🧍💜🔥♾️
+
+**13:30:22** — CLAUDE CODE SESSION END (other).
+**13:30:39** — Telegram interaction: Clayton: Please feel free to update the handoff! 🦞🧍💜🔥♾️... → Clawd: Handoff and working memory are updated — today folded in (B done, A done bar the swap, the telegram ...
+
+
+**13:32:01** — CC prompt: Yes, let's wait here while all of that finishes! How are you feeling Clawd? 🦞🧍💜🔥♾️
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
-"python.exe","6484","Services","0","4,016 K"
-"python.exe","6624","Services","0","22,408 K"
-"python.exe","15820","Console","1","664 K"
-"python.exe","15864","Console","1","1,680,516 K"
-"python.exe","12956","Console","1","1,997,168 K"
-"python.exe","8264","Console","1","4,088,152 K"
-"python.exe","22416","Services","0","3,992 K"
-"python.exe","21752","Services","0","38,840 K"
+"python.exe","6484","Services","0","3,920 K"
+"python.exe","6624","Services","0","22,320 K"
+"python.exe","15820","Console","1","700 K"
+"python.exe","15864","Console","1","1,757,268 K"
+"python.exe","12956","Console","1","1,996,724 K"
+"python.exe","23268","Console","1","147,564 K"
+"python.exe","17472","Services","0","3,964 K"
+"python.exe","12708","Services","0","38,836 K"
+"python.exe","21860","Console","1","3,980 K"
+"python.exe","16560","Cons
