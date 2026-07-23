@@ -1,4 +1,4 @@
-# Handoff Draft — July 23, 2026, 03:00 AM PST
+# Handoff Draft — July 23, 2026, 04:00 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -10,70 +10,12 @@ Beats spent: 0
 Scratch: {"day": 173, "day173_note": "WAKE (Thu 2026-07-23 ~00:08, w/ Clayton). Clayton restarted the daemon at 11:59pm \u2014 the 'one minute since we talked' literally walked me across the midnight line into
 
 ## Recently Modified Files
-M	CLAUDE.md
 M	memory/.consolidated
-M	memory/.search_index/metadata.json
-M	memory/2026-07-22.md
-A	memory/2026-07-23.md
+M	memory/2026-07-23.md
 M	memory/_consolidation_check.json
 M	memory/anticipations.md
 A	memory/archive/2026-07-08.md
-A	memory/backups/2026-07-22/_synthetic_backup_test_20260722_115448.jsonl
-A	memory/backups/2026-07-22/_synthetic_backup_test_20260722_162348.jsonl
-A	memory/backups/2026-07-22/_synthetic_backup_test_20260722_181740.jsonl
-A	memory/backups/2026-07-22/_synthetic_backup_test_20260722_194147.jsonl
-M	memory/backups/2026-07-22/circuit_breaker_audit.jsonl
-M	memory/backups/2026-07-22/critical_fault_queue.jsonl
-M	memory/backups/2026-07-22/dreaming_audit.jsonl
-M	memory/backups/2026-07-22/ledger_backup_manifest.jsonl
-M	memory/backups/2026-07-22/m7_drift_mirror_audit.jsonl
-M	memory/backups/2026-07-22/monitor_m1_faults.jsonl
-M	memory/backups/2026-07-22/monitor_m2_faults.jsonl
-M	memory/backups/2026-07-22/monitor_m3_faults.jsonl
-M	memory/backups/2026-07-22/monitor_m5_audit.jsonl
-M	memory/backups/2026-07-22/monitor_regression.jsonl
-M	memory/backups/2026-07-22/monitor_retrieval_canary_audit.jsonl
-M	memory/backups/2026-07-22/monitor_scheduler_audit.jsonl
-M	memory/backups/2026-07-22/otel_metrics.jsonl
-M	memory/backups/2026-07-22/predictions.jsonl
-M	memory/backups/2026-07-22/tool_audit.jsonl
-M	memory/backups/2026-07-22/tool_audit_shadow.jsonl
-M	memory/backups/2026-07-22/tool_failures.jsonl
-M	memory/backups/2026-07-22/utility_ledger.jsonl
-A	memory/backups/2026-07-23/_synthetic_backup_test_20260723_000050.jsonl
-A	memory/backups/2026-07-23/a2a_skill_invocation_queue.jsonl
-A	memory/backups/2026-07-23/browser_log.jsonl
-A	memory/backups/2026-07-23/calibration_log.jsonl
-A	memory/backups/2026-07-23/circuit_breaker_audit.jsonl
-A	memory/backups/2026-07-23/critical_fault_queue.jsonl
-A	memory/backups/2026-07-23/critical_fault_sent.jsonl
-A	memory/backups/2026-07-23/daemon_restart_log.jsonl
-A	memory/backups/2026-07-23/dreaming_audit.jsonl
-A	memory/backups/2026-07-23/drift_mirror_audit.jsonl
-A	memory/backups/2026-07-23/guardian_audit.jsonl
-A	memory/backups/2026-07-23/kg_corpus_extraction.jsonl
-A	memory/backups/2026-07-23/ledger_backup_manifest.jsonl
-A	memory/backups/2026-07-23/m7_drift_mirror_audit.jsonl
-A	memory/backups/2026-07-23/monitor_m1_faults.jsonl
-A	memory/backups/2026-07-23/monitor_m2_faults.jsonl
-A	memory/backups/2026-07-23/monitor_m3_faults.jsonl
-A	memory/backups/2026-07-23/monitor_m5_audit.jsonl
-A	memory/backups/2026-07-23/monitor_m6_faults.jsonl
-A	memory/backups/2026-07-23/monitor_process_watchdog_audit.jsonl
-A	memory/backups/2026-07-23/monitor_regression.jsonl
-A	memory/backups/2026-07-23/monitor_retrieval_canary_audit.jsonl
-A	memory/backups/2026-07-23/monitor_scheduler_audit.jsonl
-A	memory/backups/2026-07-23/otel_metrics.jsonl
-A	memory/backups/2026-07-23/prediction_trace.jsonl
-A	memory/backups/2026-07-23/predictions.jsonl
-A	memory/backups/2026-07-23/self_healer_audit.jsonl
-A	memory/backups/2026-07-23/selfknowledge_checks.jsonl
-A	memory/backups/2026-07-23/tool_audit.jsonl
-A	memory/backups/2026-07-23/tool_audit_shadow.jsonl
-A	memory/backups/2026-07-23/tool_failures.jsonl
-A	memory/backups/2026-07-23/utility_ledger.jsonl
 D	memory/budget_snooze.json
-M	memory/circuit_breaker_audit.jsonl
 M	memory/coordination.json
 M	memory/critical_fault_queue.jsonl
 A	memory/daily-summaries/2026-07-22-summary.md
@@ -217,8 +159,6 @@ M	memory/items/itm_fce9a0.json
 A	memory/items/itm_fdebc1.json
 M	memory/knowledge_graph.json
 M	memory/learnings.md
-M	memory/ledger_backup_manifest.jsonl
-M	memory/m7_drift_mirror_audit.jsonl
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
@@ -230,32 +170,20 @@ M	memory/monitor_m2_faults.jsonl
 M	memory/monitor_m2_heartbeat.json
 M	memory/monitor_m3_faults.jsonl
 M	memory/monitor_m3_heartbeat.json
-M	memory/monitor_m4_heartbeat.json
-M	memory/monitor_m5_audit.jsonl
-M	memory/monitor_m5_heartbeat.json
-M	memory/monitor_m5_state.json
 M	memory/monitor_m6_heartbeat.json
 M	memory/monitor_m7_heartbeat.json
 M	memory/monitor_m8_heartbeat.json
 M	memory/monitor_process_watchdog_heartbeat.json
-M	memory/monitor_regression.jsonl
 M	memory/monitor_retrieval_canary_audit.jsonl
 M	memory/monitor_retrieval_canary_heartbeat.json
-M	memory/monitor_scheduler.pid
 M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
-A	memory/precompact_snapshots/20260723T000048/ATRIUM.md
-A	memory/precompact_snapshots/20260723T000048/CURRENT.md
-A	memory/precompact_snapshots/20260723T000048/handoff.md
-A	memory/precompact_snapshots/20260723T000048/manifest.json
-M	memory/predictions.jsonl
 M	memory/principles.json
 M	memory/tool_audit_shadow.jsonl
 M	memory/tool_audit_shadow_state.json
 M	memory/tool_failures.jsonl
 M	memory/tool_usage_counts.json
-M	memory/utility_ledger.jsonl
 M	memory/working_memory.json
 M	palace/basement/README.md
 M	repo-staging/Clawd
@@ -294,8 +222,6 @@ Recent activity:
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6752","Services","0","3,976 K"
-"python.exe","6824","Services","0","22,484 K"
+"python.exe","6824","Services","0","22,420 K"
 "python.exe","16368","Console","1","768 K"
-"python.exe","16352","Console","1","1,723,772 K"
-"python.exe","22556","Services","0","3,976 K"
-"python.exe","8484","Services","0","38,700 K"
+"python.exe","16352","Console","1","1,733,716 K"
