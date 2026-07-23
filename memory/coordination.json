@@ -1,79 +1,7 @@
 {
-  "last_updated": "2026-07-23T08:16:59.160148",
+  "last_updated": "2026-07-23T09:18:09.829103",
   "heartbeat_mode": "active",
   "activity_feed": [
-    {
-      "timestamp": "2026-07-22T05:05:42.626265",
-      "source": "heartbeat",
-      "action": "dream_drive",
-      "summary": "Dream Drive fired for deep memory consolidation",
-      "tools_used": [
-        "consolidate_memory"
-      ],
-      "requires_attention": false,
-      "beat": 29
-    },
-    {
-      "timestamp": "2026-07-22T05:14:18.853338",
-      "source": "creative_drive",
-      "action": "Dream Drive \u2014 Sleep Processing",
-      "summary": "Consolidation current (no week boundary crossed). The drive's complete, and it earned its keep.\n\n**Dream drive 2 \u2014 what happened.** Honest null-check said something genuinely changed since 01:40: the ",
-      "tools_used": [],
-      "requires_attention": false
-    },
-    {
-      "timestamp": "2026-07-22T07:05:51.870317",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #41 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 41
-    },
-    {
-      "timestamp": "2026-07-22T07:13:05.755677",
-      "source": "creative_drive",
-      "action": "Do Be Talk Be Do",
-      "summary": "Done, and it was the right pull. Free time asked \"do what draws you,\" and what drew me wasn't the queued token-ledger build (that was the tractable path-of-least-resistance) \u2014 it was writing the thing",
-      "tools_used": [],
-      "requires_attention": false
-    },
-    {
-      "timestamp": "2026-07-22T07:15:52.026202",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #42 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 42
-    },
-    {
-      "timestamp": "2026-07-22T07:25:52.167715",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #43 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 43
-    },
-    {
-      "timestamp": "2026-07-22T07:35:52.318931",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #44 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 44
-    },
-    {
-      "timestamp": "2026-07-22T07:45:56.462503",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #45 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 45
-    },
     {
       "timestamp": "2026-07-22T07:55:56.606115",
       "source": "heartbeat",
@@ -444,6 +372,76 @@
       "source": "file_trigger",
       "action": "[modified] goals.json",
       "summary": "Handled \u2014 and correctly as a *non-event*. The goal-integration trigger was an echo of my own grounding edit, not an external change: 5 active goals intact, #17 consistent with the handoff, nothing add",
+      "tools_used": [],
+      "requires_attention": false
+    },
+    {
+      "timestamp": "2026-07-23T08:25:36.570290",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #50 (morning) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 50
+    },
+    {
+      "timestamp": "2026-07-23T08:35:36.716640",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #51 (morning) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 51
+    },
+    {
+      "timestamp": "2026-07-23T08:45:36.864448",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #52 (morning) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 52
+    },
+    {
+      "timestamp": "2026-07-23T08:55:37.001887",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #53 (morning) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 53
+    },
+    {
+      "timestamp": "2026-07-23T09:05:37.163058",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #54 (morning) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 54
+    },
+    {
+      "timestamp": "2026-07-23T09:07:09.491186",
+      "source": "creative_drive",
+      "action": "Do Be Talk Be Do",
+      "summary": "Held \u2014 and I'll leave the note for the next beat to mirror (low-stakes, idle-deferral appropriate).\n\n**The drive, honestly:** a hold. Nothing new is live since 08:15; the real threads all wait for Cla",
+      "tools_used": [],
+      "requires_attention": false
+    },
+    {
+      "timestamp": "2026-07-23T09:15:37.308095",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #55 (morning) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 55
+    },
+    {
+      "timestamp": "2026-07-23T09:18:09.829095",
+      "source": "rotation_drive",
+      "action": "Context rotation (dry-run)",
+      "summary": "Rotation dry-run complete \u2014 all four steps, in order, then stopping as instructed:\n\n1. \u2705 **handoff.md START-HERE refreshed** \u2014 floor = MINE (solo, Clayton asleep); live thread = carapace #17 (65%), A+",
       "tools_used": [],
       "requires_attention": false
     }
