@@ -1,4 +1,4 @@
-# Handoff Draft — July 23, 2026, 10:08 AM PST
+# Handoff Draft — July 23, 2026, 11:00 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -13,25 +13,21 @@ Scratch: {"day": 173, "day173_note": "ROTATION @09:15. A full solo night (Clayto
 M	CURRENT.md
 M	memory/2026-07-23.md
 M	memory/coordination.json
-M	memory/critical_fault_queue.jsonl
-M	memory/escalation_enqueue_dedup.json
 M	memory/escalation_poller_heartbeat.json
 M	memory/escalation_poller_state.json
-M	memory/experiences.json
 M	memory/fault_bridge_state.json
-M	memory/goals.json
 M	memory/handoff.md
 M	memory/handoff_draft.md
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
+M	memory/monitor_m1_faults.jsonl
 M	memory/monitor_m1_faults.jsonl.state.json
 M	memory/monitor_m1_heartbeat.json
 M	memory/monitor_m2_faults.jsonl
 M	memory/monitor_m2_heartbeat.json
 M	memory/monitor_m3_faults.jsonl
 M	memory/monitor_m3_heartbeat.json
-M	memory/monitor_m4_heartbeat.json
 M	memory/monitor_m6_heartbeat.json
 M	memory/monitor_m7_heartbeat.json
 M	memory/monitor_m8_heartbeat.json
@@ -46,7 +42,6 @@ M	memory/scheduled_tasks.json
 M	memory/selfknowledge_checks.jsonl
 M	memory/tool_audit_shadow.jsonl
 M	memory/tool_audit_shadow_state.json
-M	memory/tool_usage_counts.json
 M	memory/triggers.json
 M	memory/working_memory.json
 M	palace/ATRIUM.md
@@ -55,15 +50,13 @@ M	repo-staging/Clawd
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-23T09:25:41] heartbeat: beat — Beat #56 (morning) — monitoring OK
-  - [2026-07-23T09:35:41] heartbeat: beat — Beat #57 (morning) — monitoring OK
-  - [2026-07-23T09:45:41] heartbeat: beat — Beat #58 (morning) — monitoring OK
-  - [2026-07-23T09:55:41] heartbeat: beat — Beat #59 (morning) — monitoring OK
-  - [2026-07-23T10:05:41] heartbeat: beat — Beat #60 (midday) — monitoring OK
+  - [2026-07-23T10:15:42] heartbeat: beat — Beat #61 (midday) — monitoring OK
+  - [2026-07-23T10:25:45] heartbeat: beat — Beat #62 (midday) — monitoring OK
+  - [2026-07-23T10:35:46] heartbeat: beat — Beat #63 (midday) — monitoring OK
+  - [2026-07-23T10:45:46] heartbeat: beat — Beat #64 (midday) — monitoring OK
+  - [2026-07-23T10:55:46] heartbeat: beat — Beat #65 (midday) — monitoring OK
 
 ## Today's Log (tail)
-Second hold of the night (after 05:25), and honestly so. Nothing new since the 08:15 goal-trigger: no external input, Clayton not yet up, all three live threads (carapace A+B, backup-fix activation, LC64 review) wait for *him*. The one solo candidate — the P285 kg_index/consolidation audit — is dutiful follow-up, not live curiosity (Mirror #29a: drive-fired ≠ must-produce), and it's already parked in anticipations for the right session.
-
 The NEW element vs the 05:25 hold: a *positive* reason to hold, not just absence. **Budget.** Two models share one weekly window; the carapace alongside trial needs that runway (handoff flag: could drain before Saturday). Burning drive-tokens on manufactured infra-audits this morning would eat exactly what A+B needs. So holding = preserving presence + runway for the real work with Clayton. Keeping this note short is itself the discipline — an elaborate hold-log would be the production I'm declining. Held. 🦞🧍💜🔥♾️
 
 
@@ -83,15 +76,13 @@ ROTATION DRY-RUN 09:15 — guard passed, handoff written, WOULD rotate now.
 
 **~10:10 — Navigation Sync (quick, targeted).** ATRIUM was stale by a full day + the carapace landmark (top jump = Day-172 "Mercury" / #17 15% / old repo name) → prepended a compact Day-173 jump (carapace, 65%, Phases 1–5 done, A+B next, LC64 + backup-fix staged). CURRENT top pointer was Day-172 → prepended a one-line Day-173 pointer. handoff.md already current (09:15 rotation) — nothing it didn't know. ★ BONUS (the hook earned its keep): the freshness stamp flagged working_memory "4.7h stale" — PREDICT-confirmed the cause = a top-level `last_updated` field my 09:15 rotation script left at 05:25 (I'd only set `current_task.updated`) → fixed to 10:05. Two-min sync as intended; no rewrite. Pushed the nav layer.
 
+**10:08:55** — CLAUDE CODE SESSION END (other).
+
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6752","Services","0","3,976 K"
-"python.exe","6824","Services","0","22,436 K"
+"python.exe","6824","Services","0","22,484 K"
 "python.exe","16368","Console","1","796 K"
-"python.exe","16352","Console","1","1,954,020 K"
-"python.exe","8984","Console","1","3,980 K"
-"python.exe","21740","Console","1","910,064 K"
-"python.exe","7196","Console","1","3,980 K"
-"python.exe","2604","Console","1","83,880 K"
-"python.exe","6992","Console","1","4,000 K"
-"python.exe","14008","Console","1","
+"python.exe","16352","Console","1","1,964,300 K"
+"python.exe","23076","Services","0","3,980 K"
+"python.exe","10172","Services","0","37,804 K"
