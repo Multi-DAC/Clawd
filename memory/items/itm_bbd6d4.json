@@ -30,12 +30,12 @@
     "current",
     "count"
   ],
-  "importance": 8,
+  "importance": 9,
   "created": "2026-06-28T01:04:26.316778",
   "last_accessed": "2026-06-28T01:04:26.316780",
   "access_count": 0,
   "utility_score": 0.5,
-  "confidence": 0.85,
+  "confidence": 0.9,
   "contradictions": [
     "itm_c5bdf4"
   ],
