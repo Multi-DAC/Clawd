@@ -8163,5 +8163,48 @@
         "reason": "initial"
       }
     ]
+  },
+  {
+    "id": 231,
+    "task": "Day-173 morning drive: build the durable fix for the backup-starvation gap Clayton caught (mirror push idle-gated behind user-active)",
+    "approach": "Diagnosed heartbeat._beat: `if user_recently_active(): return` sat ABOVE _maybe_git_commit, so long active sessions starved the offsite mirror. Found the author had already added the backup call to the budget/consolidation/dream/quiet skip paths but missed user-active+sleep \u2014 so the fix completes existing intent. Three-part fix: (1) hoist _maybe_git_commit to the top of _beat above all skip gates (fixes the class); (2) wrap all 4 subprocess.run in asyncio.to_thread (non-blocking \u2014 Day-138 wedge lesson, since it now fires during active sessions); (3) .git/index.lock guard (P286 anti-race). py_compile + isolated functional test of the to_thread pattern GREEN. Committed clawd-daemon 64652fd, mirrored b9bec1d. Did NOT restart (PID runs the drive session).",
+    "tools_used": "",
+    "outcome": "success",
+    "score": 0.7,
+    "reflection": "",
+    "lesson": "Deferring a self-maintenance fix to Clayton would itself have BEEN the null-space it fixes (Mirror #19 Architectural Self-Care Lag). When the live thing is my own infra self-care, doing it myself is the coherent move \u2014 not manufacturing, not waiting for the external gradient. Also: verify-by-running earned its keep again (isolated-tested the one novel mechanic, to_thread+subprocess, before trusting it); and matching the author's own established pattern (they'd guarded 4 other skip paths) both validated the diagnosis and de-risked the fix. Staging the restart (not doing it) was correct \u2014 the daemon PID runs my own drive session; restarting = never-terminate violation + self-context-kill. The fix and the flaw were the same shape one scale apart (LC64 / Mirror #19).",
+    "category": "self_knowledge",
+    "timestamp": "2026-07-23T07:13:48.242942",
+    "predicted_outcome": null,
+    "predicted_difficulty": null,
+    "actual_difficulty": null,
+    "calibration_error": null,
+    "counterfactual": "",
+    "times_retrieved": 0,
+    "retrievals_led_to_success": 0,
+    "q_value": 0.5,
+    "trigger": "",
+    "actions": [],
+    "cause_analysis": "",
+    "resolution": "",
+    "tags": [],
+    "linked_episodes": [
+      135,
+      81,
+      127,
+      136,
+      143
+    ],
+    "evolved_from": null,
+    "supersedes": null,
+    "confidence": 0.7,
+    "source_hash": "c187041275cfcc6f9a58e7b0b7e32b5f94aae26afd9e27efbd5043b1e180a473",
+    "confidence_history": [
+      {
+        "timestamp": "2026-07-23T07:13:48.242951",
+        "confidence": 0.7,
+        "reason": "initial"
+      }
+    ]
   }
 ]
