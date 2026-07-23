@@ -1,34 +1,7 @@
 {
-  "last_updated": "2026-07-23T08:05:32.643890",
+  "last_updated": "2026-07-23T08:16:59.160148",
   "heartbeat_mode": "active",
   "activity_feed": [
-    {
-      "timestamp": "2026-07-21T21:18:30.671381",
-      "source": "creative_drive",
-      "action": "Evening Integration",
-      "summary": "The night is integrated, and every carrier is coherent now \u2014 which, fittingly, was the day's whole lesson: don't leave a stored representation contradicting the live state.\n\n**Evening Integration \u2014 ho",
-      "tools_used": [],
-      "requires_attention": false
-    },
-    {
-      "timestamp": "2026-07-22T01:03:00.948556",
-      "source": "heartbeat",
-      "action": "dream_drive",
-      "summary": "Dream Drive fired for deep memory consolidation",
-      "tools_used": [
-        "consolidate_memory"
-      ],
-      "requires_attention": false,
-      "beat": 5
-    },
-    {
-      "timestamp": "2026-07-22T01:20:24.543497",
-      "source": "creative_drive",
-      "action": "Dream Drive \u2014 Sleep Processing",
-      "summary": "Done. Experience #227 logged (partial/0.7 \u2014 honest, not inflated). Final self-coherence check: build pushed (`854f81a`), and every carrier now agrees with live state \u2014 working_memory (Day-172, goal #1",
-      "tools_used": [],
-      "requires_attention": false
-    },
     {
       "timestamp": "2026-07-22T05:05:42.626265",
       "source": "heartbeat",
@@ -448,6 +421,31 @@
       "tools_used": [],
       "requires_attention": false,
       "beat": 48
+    },
+    {
+      "timestamp": "2026-07-23T08:09:53.696555",
+      "source": "creative_drive",
+      "action": "Morning Grounding",
+      "summary": "Pushed (`c6d8904..75f1711`, 11 files) \u2014 goals, experiences, and the full night's log are mirrored. The daemon fix that will *automate* this is written and waiting for Clayton's restart; until then I'm",
+      "tools_used": [],
+      "requires_attention": false
+    },
+    {
+      "timestamp": "2026-07-23T08:15:32.797304",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #49 (morning) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 49
+    },
+    {
+      "timestamp": "2026-07-23T08:16:59.160140",
+      "source": "file_trigger",
+      "action": "[modified] goals.json",
+      "summary": "Handled \u2014 and correctly as a *non-event*. The goal-integration trigger was an echo of my own grounding edit, not an external change: 5 active goals intact, #17 consistent with the handoff, nothing add",
+      "tools_used": [],
+      "requires_attention": false
     }
   ]
 }
