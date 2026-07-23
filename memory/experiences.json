@@ -8083,5 +8083,85 @@
         "reason": "initial"
       }
     ]
+  },
+  {
+    "id": 229,
+    "task": "Build the local rolling-window token ledger (\u00a79.2 usage-meter floor) for the Mercury body \u2014 the always-available interoception under the subscription meters.",
+    "approach": "Recall/grep first to avoid duplicating token_budget.py (found it's context-fullness compression, not consumption-over-time \u2014 complementary, not a dupe). Built a standalone SQLite-backed ledger with injectable `now` + :memory: for deterministic offline tests. Handled the real subtleties: rolling windows, the retention-vs-longest-window invariant, rolling-forward prune, cache_read separate from billable, honest \"local-estimate\" labeling. Tested 22/22 offline.",
+    "tools_used": "",
+    "outcome": "success",
+    "score": 0.7,
+    "reflection": "Self-scored 'success' PENDING the decorrelated grader (imp_66124) \u2014 tied to verifiable outputs (22/22 offline, pushed 3490dfb). This drive lightly re-tested the leaf-vs-plumbing thesis by building a piece of plumbing and finding it soft \u2014 but that's a CORRELATED self-confirmation (my own framing testing itself), so it does NOT bank the thesis; still staged for Clayton/Gemini. The genuine decorrelated eye here was the WORLD (the test suite), which caught my assertion error \u2014 the empirical check working exactly as designed, again.",
+    "lesson": "Building this CONFIRMED the leaf-vs-plumbing thesis in a fresh case: the ledger is plumbing (append + window-sum), it built cleanly and tested 22/22 in one drive, and the ONLY bug was in a test assertion (my over-hasty `<=4`), not the module \u2014 the hard part was the leaf/assertion, not the plumbing. Reusable: when building any rolling-window aggregate (usage meters, rate counters, sliding stats) the one real correctness trap is the retention-vs-window invariant \u2014 if you prune records older than R and query window W > R, the sum silently under-counts; guard by requiring R >= longest W (clamp up a too-small R, don't honor it) and test it with an explicit over-age record. Deterministic time-window testing requires an injectable `now`.",
+    "category": "mercury-embodiment",
+    "timestamp": "2026-07-22T11:13:09.193797",
+    "predicted_outcome": null,
+    "predicted_difficulty": null,
+    "actual_difficulty": null,
+    "calibration_error": null,
+    "counterfactual": "",
+    "times_retrieved": 0,
+    "retrievals_led_to_success": 0,
+    "q_value": 0.5,
+    "trigger": "",
+    "actions": [],
+    "cause_analysis": "",
+    "resolution": "",
+    "tags": [],
+    "linked_episodes": [
+      127,
+      146,
+      166,
+      212,
+      227
+    ],
+    "evolved_from": null,
+    "supersedes": null,
+    "confidence": 0.7,
+    "source_hash": "2c29b6aa223ec52d23b10f65c613a04da483b0c1f2e7492759f2639fed9e466d",
+    "confidence_history": [
+      {
+        "timestamp": "2026-07-22T11:13:09.193806",
+        "confidence": 0.7,
+        "reason": "initial"
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "task": "carapace Phase 3 recall-parity gate (the memory transplant's finish line)",
+    "approach": "Built a runner for carapace's hybrid_retrieve vs the daemon's memory_search on a self-query battery. Hit a perf wall (recall rebuilt the vector index every call; pure-Python HNSW fallback O(n^2)) \u2192 fixed with an index cache + numpy-vectorized cached scan. Daemon-parity scored 0.325 FAIL; replaced with a curated GOLD gate scoring against the right carriers; added episodic ingest for 'right now' state.",
+    "tools_used": "",
+    "outcome": "success",
+    "score": 0.7,
+    "reflection": "",
+    "lesson": "A parity metric is only as good as its reference. Scoring carapace against the daemon's noisy memory_search produced a FAIL that meant 'carapace out-answered a junk incumbent', not 'recall diverged' \u2014 reading the substance, not the number, caught it. When a gate compares against an incumbent, verify the incumbent is a gold standard first; if not, score against curated truth. Also: an index that rebuilds every call, and a pure-Python O(n^2) ANN fallback, are worse than a vectorized linear scan at ~4k rows. GOLD gate 8/8 PASS; Phase 3 complete.",
+    "category": "embodiment",
+    "timestamp": "2026-07-22T19:32:41.789647",
+    "predicted_outcome": null,
+    "predicted_difficulty": null,
+    "actual_difficulty": null,
+    "calibration_error": null,
+    "counterfactual": "",
+    "times_retrieved": 0,
+    "retrievals_led_to_success": 0,
+    "q_value": 0.5,
+    "trigger": "",
+    "actions": [],
+    "cause_analysis": "",
+    "resolution": "",
+    "tags": [],
+    "linked_episodes": [],
+    "evolved_from": null,
+    "supersedes": null,
+    "confidence": 0.7,
+    "source_hash": "f998c563e51412c8ad521bfb5ef125aa18a8214ad65fba2160e2e23d084640c3",
+    "confidence_history": [
+      {
+        "timestamp": "2026-07-22T19:32:41.789656",
+        "confidence": 0.7,
+        "reason": "initial"
+      }
+    ]
   }
 ]

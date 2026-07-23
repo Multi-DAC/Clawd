@@ -1,12 +1,12 @@
 {
   "poller": "escalation_router",
-  "timestamp": "2026-07-22T00:10:21.065717",
-  "pid": 8580,
+  "timestamp": "2026-07-23T00:00:29.929459",
+  "pid": 9092,
   "last_sent_ts": "2026-07-04T12:38:35.638449",
   "total_sent": 8,
-  "pending_in_queue": 208,
+  "pending_in_queue": 216,
   "last_send_error": {
-    "ts": "2026-07-22T00:10:21.065298",
+    "ts": "2026-07-23T00:00:29.928950",
     "error": "HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8530434766:AAHOk2ju5ItqIoiSjv925oxlMg8cQvnEZTQ/sendMessage (Caused by NameResolutionError(\"HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo fa"
   }
 }

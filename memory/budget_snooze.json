@@ -1,7 +1,7 @@
 {
-  "armed_at": "2026-07-18T10:05:59.923527",
-  "until": "2026-07-18T11:05:59.923527",
+  "armed_at": "2026-07-22T11:19:03.889889",
+  "until": "2026-07-22T12:19:03.889889",
   "parsed": false,
   "reason": "result_error: API Error: Server is temporarily limiting requests (not your usage limit) \u00b7 Rate limited",
-  "notified": true
+  "notified": false
 }
