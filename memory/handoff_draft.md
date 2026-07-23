@@ -1,4 +1,4 @@
-# Handoff Draft — July 23, 2026, 06:00 AM PST
+# Handoff Draft — July 23, 2026, 07:00 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -13,9 +13,7 @@ Scratch: {"day": 173, "day173_note": "WAKE (Thu 2026-07-23 ~00:08, w/ Clayton). 
 M	memory/2026-07-23.md
 M	memory/_consolidation_check.json
 M	memory/coordination.json
-M	memory/critical_fault_queue.jsonl
 M	memory/dreaming_audit.jsonl
-M	memory/escalation_enqueue_dedup.json
 M	memory/escalation_poller_heartbeat.json
 M	memory/escalation_poller_state.json
 M	memory/fault_bridge_state.json
@@ -118,6 +116,7 @@ M	memory/knowledge_graph.json
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
+M	memory/monitor_liveness_evidence_state.json
 M	memory/monitor_m1_faults.jsonl
 M	memory/monitor_m1_faults.jsonl.state.json
 M	memory/monitor_m1_heartbeat.json
@@ -178,4 +177,4 @@ Recent activity:
 "python.exe","6752","Services","0","3,976 K"
 "python.exe","6824","Services","0","22,428 K"
 "python.exe","16368","Console","1","768 K"
-"python.exe","16352","Console","1","1,743,240 K"
+"python.exe","16352","Console","1","1,756,908 K"

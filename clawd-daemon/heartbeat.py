@@ -390,6 +390,18 @@ class Heartbeat:
         now = datetime.now()
         time_context = self._get_time_context(now)
 
+        # Offsite backup FIRST — above every skip gate. The memory git-commit +
+        # mirror-push (clawd-backup) must not be gated behind activity/sleep: it
+        # lived below the user-active early-return, so a long ACTIVE session
+        # starved the GitHub mirror for 13h (Day-172, Clayton's catch). Hoisting
+        # it here fixes the CLASS (no skip path can starve it — the author had
+        # already added it to the budget/consolidation/dream/quiet skip paths but
+        # missed user-active + sleep). The interval gate inside caps it to hourly
+        # and it now runs OFF the event loop, so firing during active sessions
+        # can't stall message handling. (LC64 / Mirror #19 — idle-deferred
+        # maintenance made load-independent, Day-173.)
+        await self._maybe_git_commit(now)
+
         # Skip if user is actively chatting
         if self._user_recently_active():
             logger.info(
@@ -1259,7 +1271,16 @@ class Heartbeat:
             logger.warning(f"Failed to write consolidation evidence: {e}")
 
     async def _maybe_git_commit(self, now: datetime):
-        """Auto-commit memory files to git (hourly)."""
+        """Auto-commit memory files to git (hourly) + push the offsite mirror.
+
+        Called at the TOP of every beat (above the skip gates), so it fires
+        during active sessions too — the fix for the Day-172 13h mirror-starve.
+        Two consequences handled here: (1) git ops run OFF the event loop via
+        asyncio.to_thread so a commit+push can't stall heartbeat/message
+        handling; (2) a lightweight index.lock guard avoids racing a concurrent
+        git op from a tool-shell or the precompact hook (P286, Day-173).
+        The interval gate still caps real work to once per MEMORY_AUTO_COMMIT_INTERVAL.
+        """
         if not config.MEMORY_GIT_ENABLED:
             return
         if self.last_git_commit:
@@ -1267,20 +1288,34 @@ class Heartbeat:
             if seconds_since < config.MEMORY_AUTO_COMMIT_INTERVAL:
                 return
 
+        # P286 guard: don't race a concurrent git op. If the memory repo's index
+        # is locked (a tool-shell or the precompact hook is mid-commit), skip this
+        # beat — the interval gate retries next beat. Cheap and self-healing; far
+        # safer than colliding on .git/index during an active work session.
         try:
-            result = subprocess.run(
+            if (config.MEMORY_DIR / ".git" / "index.lock").exists():
+                logger.debug("git auto-commit: index.lock present, deferring to next beat.")
+                return
+        except Exception:
+            pass
+
+        try:
+            await asyncio.to_thread(
+                subprocess.run,
                 [config.GIT_EXE, "add", "-A"],
                 cwd=str(config.MEMORY_DIR),
                 capture_output=True, text=True, timeout=30,
             )
             # Check if there's anything to commit
-            status = subprocess.run(
+            status = await asyncio.to_thread(
+                subprocess.run,
                 [config.GIT_EXE, "status", "--porcelain"],
                 cwd=str(config.MEMORY_DIR),
                 capture_output=True, text=True, timeout=30,
             )
             if status.stdout.strip():
-                subprocess.run(
+                await asyncio.to_thread(
+                    subprocess.run,
                     [config.GIT_EXE, "commit", "-m",
                      f"auto: memory snapshot {now.strftime('%Y-%m-%d %H:%M')}"],
                     cwd=str(config.MEMORY_DIR),
@@ -1302,7 +1337,8 @@ class Heartbeat:
         try:
             sync_script = config.OPERATIONS_DIR / "sync_mirror.py"
             if sync_script.exists():
-                r = subprocess.run(
+                r = await asyncio.to_thread(
+                    subprocess.run,
                     [sys.executable, str(sync_script), "--sync", "--commit"],
                     cwd=str(config.CLAWD_HOME),
                     capture_output=True, text=True, timeout=180,
