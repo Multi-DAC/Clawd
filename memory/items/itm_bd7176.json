@@ -1,0 +1,42 @@
+{
+  "id": "itm_bd7176",
+  "type": "fact",
+  "content": "real; the onboarding + interoception design (\u00a79) is settled and pushed. The next moves all need Clayton + a live key: replicate the claude.ai subscription-OAuth handshake, wire StreamResult through di",
+  "source": "daily_log 2026-07-22 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_116a7d",
+    "itm_b3c000",
+    "itm_8b3e5d",
+    "itm_72c1ca",
+    "itm_f62961"
+  ],
+  "keywords": [
+    "real",
+    "onboarding",
+    "interoception",
+    "design",
+    "settled",
+    "pushed",
+    "next",
+    "moves",
+    "need",
+    "clayton"
+  ],
+  "importance": 6,
+  "created": "2026-07-23T01:20:47.390821",
+  "last_accessed": "2026-07-23T01:20:47.390824",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

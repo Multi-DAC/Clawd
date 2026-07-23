@@ -1,0 +1,41 @@
+{
+  "id": "itm_f62961",
+  "type": "fact",
+  "content": "it *complements* `token_budget.py` (context-fullness compression), not a dupe. Handled the real design work: rolling windows, the retention-vs-longest-window invariant (clamp a too-small retain, don't",
+  "source": "daily_log 2026-07-22 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_059d85",
+    "itm_bd7176",
+    "itm_f1730d",
+    "itm_1f066b"
+  ],
+  "keywords": [
+    "complements",
+    "context",
+    "fullness",
+    "compression",
+    "dupe",
+    "handled",
+    "real",
+    "design",
+    "work",
+    "rolling"
+  ],
+  "importance": 6,
+  "created": "2026-07-23T01:20:47.466348",
+  "last_accessed": "2026-07-23T01:20:47.466351",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

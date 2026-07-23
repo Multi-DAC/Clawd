@@ -1,0 +1,32 @@
+{
+  "id": "itm_a9e4b3",
+  "type": "fact",
+  "content": "the use path: agent_loop.py:245-248, 305-306).",
+  "source": "daily_log 2026-07-22 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_36041d",
+    "itm_3e2823",
+    "itm_496992"
+  ],
+  "keywords": [
+    "use",
+    "path"
+  ],
+  "importance": 5,
+  "created": "2026-07-23T01:20:47.316782",
+  "last_accessed": "2026-07-23T01:20:47.316786",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

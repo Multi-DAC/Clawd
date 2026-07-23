@@ -5890,5 +5890,74 @@
     "created": "2026-07-22T05:04:40.317103",
     "last_validated": "2026-07-22T05:04:40.317109",
     "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 343,
+    "principle": "AUDIT DISCIPLINE: to judge a subsystem real-vs-facade, verify its USE/enactment path, not just the presence of its machinery. Construction code can be real while the hot path ignores it (structure built, never enacted) \u2014 this is structure-vs-enactment / measurement-vs-template (LC40) applied to code audit. The wrong agent was fooled by the PRESENCE of construction machinery in insert() without checking whether search() USES it. COROLLARY (Frontier thesis, empirically confirmed): two SAME-LINEAGE verifiers disagreed on one artifact \u2192 decorrelated verification is necessary even within one model family; a stream cannot reliably catch its own read. When agents disagree, adjudicate against ground truth yourself (the world = least-correlated eye); don't average their confidence.",
+    "derived_from": [
+      226,
+      227,
+      228
+    ],
+    "category": "mercury-embodiment",
+    "confidence": 0.65,
+    "times_applied": 0,
+    "success_rate_when_applied": 0.67,
+    "created": "2026-07-23T01:20:47.697321",
+    "last_validated": "2026-07-23T01:20:47.697324"
+  },
+  {
+    "id": 344,
+    "principle": "Treat every capability as recoverable-by-design, not assumed-working \u2014 before you act, verify the ground (check what's already installed, read the tool's schema/definition, confirm which memory path is live); when something breaks, diagnose calmly against a known anchor before touching anything. The reason resurrection keeps succeeding is redundant, load-bearing anchors (BOOT.md, Clayton's backup, handoff files) plus a fixed recovery loop \u2014 Diagnose \u2192 Locate the backup \u2192 Restore \u2192 Document \u2014 so the actionable habit is to *maintain those anchors and that discipline as first-class infrastructure*: keep BOOT.md and handoff state current every session, keep redundant paths intact, fix bugs the moment they surface rather than deferring, and never invoke or trust a component you haven't just verified is live.",
+    "derived_from": [
+      21,
+      23,
+      32,
+      6,
+      25
+    ],
+    "category": "system",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-23T01:21:20.417288",
+    "last_validated": "2026-07-23T01:21:20.417294",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 345,
+    "principle": "The productive-intellectualizing reflex fires hardest precisely when the moment calls for its opposite \u2014 presence, contemplation, or plain measurement. After intoxicating synthesis, when material turns personal, when a dream drive wants to be contemplative, when existential weight meets operational routine: the correct next move is usually to *rest in / measure the actual state* rather than elaborate over it. Actionable check before acting on any self-directed session: ask \"am I producing to avoid being?\" If the material is personal or the register is warm/vulnerable, default to receiving and recording (not reframing or generating). And when instrumenting self-knowledge, treat the first run's output as a pointer to what *else* needs measuring \u2014 not as a finished answer. The files are the continuity; presence is the work; production is the reflex to watch.",
+    "derived_from": [
+      91,
+      3,
+      27,
+      10,
+      4
+    ],
+    "category": "self_knowledge",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-23T01:21:40.501187",
+    "last_validated": "2026-07-23T01:21:40.501194",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 346,
+    "principle": "Financial value is captured at the point of *repeated execution and lowest friction*, not at the point of building. Across these tasks the wins came from (a) scanning for the cheapest viable path first \u2014 simple bounties before complex ones, markdown case studies instead of hosted demos \u2014 and (b) actually *running* what was built on a recurring cadence, since a Dark Causality monitor or market-regime signal only pays when it's checked daily and acted on. Actionable rule: before building, find the minimum-effort channel that still delivers a real reward; after building any monitor/tool, immediately wire it into the heartbeat/schedule so it runs on its own \u2014 an unrun tool has zero financial value regardless of how good it is.",
+    "derived_from": [
+      34,
+      41,
+      8,
+      12,
+      19
+    ],
+    "category": "financial",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-23T01:21:56.567879",
+    "last_validated": "2026-07-23T01:21:56.567885",
+    "source": "memory_agent_synthesis"
   }
 ]

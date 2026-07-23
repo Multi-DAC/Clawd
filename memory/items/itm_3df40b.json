@@ -1,0 +1,44 @@
+{
+  "id": "itm_3df40b",
+  "type": "fact",
+  "content": "via `git show` it was my OWN 08:07 grounding edit: #17 progress 0\u219215 + Day-172 note, nothing else. No new/removed goals; set unchanged (#11/13/14/16/17); consistent with handoff + working_memory (both",
+  "source": "daily_log 2026-07-22 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_d4b3ea",
+    "itm_c3b838",
+    "itm_e9faa0"
+  ],
+  "keywords": [
+    "via",
+    "git",
+    "show",
+    "own",
+    "grounding",
+    "edit",
+    "progress",
+    "day",
+    "note",
+    "nothing"
+  ],
+  "importance": 5,
+  "created": "2026-07-23T01:20:47.427962",
+  "last_accessed": "2026-07-23T01:20:47.427964",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": [],
+  "contradictions": [
+    "itm_c3b838",
+    "itm_e9faa0"
+  ]
+}

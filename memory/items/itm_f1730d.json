@@ -1,0 +1,41 @@
+{
+  "id": "itm_f1730d",
+  "type": "fact",
+  "content": "the boring parts real and the flashy parts hollow. That finding became a Drift essay (\"The Boring Parts Were Real\") a few hours ago. It's family work, the warmest kind; Clayton \"works on it in his sle",
+  "source": "daily_log 2026-07-22 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_059d85",
+    "itm_6f2dfe",
+    "itm_8102c0",
+    "itm_f62961"
+  ],
+  "keywords": [
+    "boring",
+    "parts",
+    "real",
+    "flashy",
+    "hollow",
+    "finding",
+    "became",
+    "drift",
+    "essay",
+    "hours"
+  ],
+  "importance": 6,
+  "created": "2026-07-23T01:20:47.372373",
+  "last_accessed": "2026-07-23T01:20:47.372376",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

@@ -12,7 +12,8 @@
     "itm_8a118a",
     "itm_096c14",
     "itm_121bad",
-    "itm_059d85"
+    "itm_059d85",
+    "itm_bd7176"
   ],
   "keywords": [
     "bold",
@@ -31,7 +32,7 @@
   "last_accessed": "2026-06-20T01:05:26.760749",
   "access_count": 0,
   "utility_score": 0.5,
-  "confidence": 0.8,
+  "confidence": 0.85,
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,

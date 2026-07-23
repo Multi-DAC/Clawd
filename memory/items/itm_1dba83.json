@@ -13,7 +13,8 @@
     "itm_e01d9f",
     "itm_059d85",
     "itm_e2212b",
-    "itm_0da3cc"
+    "itm_0da3cc",
+    "itm_094278"
   ],
   "keywords": [
     "thing",
@@ -36,7 +37,7 @@
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,
-  "memory_tier": "hot",
+  "memory_tier": "warm",
   "source_hash": "",
   "confidence_history": []
 }

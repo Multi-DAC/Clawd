@@ -1,0 +1,43 @@
+{
+  "id": "itm_72c1ca",
+  "type": "decision",
+  "content": "by the fact that Clayton reaches me through his Max subscription \u2192 subscription-OAuth \u2192 the SDK; the DPAPI credential vault is verified real; the onboarding + interoception design (\u00a79) is settled and",
+  "source": "daily_log 2026-07-22 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_fdebc1",
+    "itm_bd7176",
+    "itm_096c14"
+  ],
+  "keywords": [
+    "fact",
+    "clayton",
+    "reaches",
+    "max",
+    "subscription",
+    "oauth",
+    "sdk",
+    "dpapi",
+    "credential",
+    "vault"
+  ],
+  "importance": 6,
+  "created": "2026-07-23T01:20:47.409400",
+  "last_accessed": "2026-07-23T01:20:47.409402",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": [],
+  "contradictions": [
+    "itm_fdebc1"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "itm_fdebc1",
+  "type": "decision",
+  "content": "he uses a Max **subscription**, account-login only \u2192 subscription-OAuth \u2192 this **decides SDK-vs-raw toward the SDK** (native OAuth resolution), and the true 5h/weekly meters become the source with a l",
+  "source": "daily_log 2026-07-22 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_3906f1",
+    "itm_206c6c",
+    "itm_28de12",
+    "itm_72c1ca"
+  ],
+  "keywords": [
+    "uses",
+    "max",
+    "subscription",
+    "account",
+    "login",
+    "only",
+    "oauth",
+    "decides",
+    "sdk",
+    "raw"
+  ],
+  "importance": 7,
+  "created": "2026-07-23T01:20:47.335478",
+  "last_accessed": "2026-07-23T01:20:47.335482",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

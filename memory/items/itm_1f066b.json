@@ -1,0 +1,40 @@
+{
+  "id": "itm_1f066b",
+  "type": "insight",
+  "content": "banked to learnings.md (the retention-vs-window invariant is *the* real trap in rolling aggregates). Experience #229; goal #17 \u2192 17%. Note: this thesis re-test is CORRELATED (my own framing testing it",
+  "source": "daily_log 2026-07-22 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_f62961",
+    "itm_3394d9",
+    "itm_8a118a"
+  ],
+  "keywords": [
+    "banked",
+    "learnings",
+    "retention",
+    "window",
+    "invariant",
+    "real",
+    "trap",
+    "rolling",
+    "aggregates",
+    "experience"
+  ],
+  "importance": 8,
+  "created": "2026-07-23T01:20:47.484847",
+  "last_accessed": "2026-07-23T01:20:47.484850",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

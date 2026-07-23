@@ -19,7 +19,9 @@
     "itm_dfb1a5",
     "itm_fc4776",
     "itm_1dba83",
-    "itm_2a1e13"
+    "itm_2a1e13",
+    "itm_f1730d",
+    "itm_f62961"
   ],
   "keywords": [
     "findings",
@@ -42,7 +44,7 @@
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,
-  "memory_tier": "warm",
+  "memory_tier": "cold",
   "source_hash": "",
   "confidence_history": []
 }

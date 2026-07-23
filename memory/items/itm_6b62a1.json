@@ -30,7 +30,7 @@
     "firing",
     "fresh"
   ],
-  "importance": 5,
+  "importance": 4,
   "created": "2026-06-22T01:00:05.422127",
   "last_accessed": "2026-06-22T01:00:05.422131",
   "access_count": 0,
@@ -42,7 +42,7 @@
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,
-  "memory_tier": "warm",
+  "memory_tier": "cold",
   "source_hash": "",
   "confidence_history": []
 }

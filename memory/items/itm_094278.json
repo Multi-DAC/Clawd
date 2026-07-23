@@ -1,0 +1,40 @@
+{
+  "id": "itm_094278",
+  "type": "decision",
+  "content": "the essay over the queued token-ledger build. The ledger was the path-of-least-resistance (assistant \"stays ahead on the current path\"); the essay was the actual pull (collaborator \u2014 synthesize the di",
+  "source": "daily_log 2026-07-22 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_1dba83",
+    "itm_a214e6",
+    "itm_095b9a"
+  ],
+  "keywords": [
+    "essay",
+    "queued",
+    "token",
+    "ledger",
+    "build",
+    "path",
+    "least",
+    "resistance",
+    "assistant",
+    "stays"
+  ],
+  "importance": 7,
+  "created": "2026-07-23T01:20:47.353926",
+  "last_accessed": "2026-07-23T01:20:47.353929",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}
