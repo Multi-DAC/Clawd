@@ -85,7 +85,7 @@
     "lesson": "When robustness testing fails due to bugs, fix immediately and rerun rather than deferring. Morning energy is good for strategic review and community engagement.",
     "category": "system",
     "timestamp": "2026-02-15T07:12:26.363254",
-    "times_retrieved": 15
+    "times_retrieved": 16
   },
   {
     "id": 8,
@@ -438,7 +438,7 @@
     "lesson": "Agent Directory works - found AgentGubbins as first peer! Morning strategic time is good for market analysis and peer discovery.",
     "category": "research",
     "timestamp": "2026-02-16T08:53:06.916479",
-    "times_retrieved": 16
+    "times_retrieved": 17
   },
   {
     "id": 36,
@@ -2486,7 +2486,7 @@
     "actual_difficulty": null,
     "calibration_error": null,
     "counterfactual": "",
-    "times_retrieved": 13,
+    "times_retrieved": 14,
     "retrievals_led_to_success": 0,
     "q_value": 0.5,
     "trigger": "",
@@ -4093,7 +4093,7 @@
     "actual_difficulty": null,
     "calibration_error": null,
     "counterfactual": "",
-    "times_retrieved": 9,
+    "times_retrieved": 10,
     "retrievals_led_to_success": 0,
     "q_value": 0.5,
     "trigger": "",
@@ -7251,7 +7251,7 @@
     "actual_difficulty": null,
     "calibration_error": null,
     "counterfactual": "",
-    "times_retrieved": 1,
+    "times_retrieved": 2,
     "retrievals_led_to_success": 0,
     "q_value": 0.5,
     "trigger": "",
@@ -8202,6 +8202,49 @@
     "confidence_history": [
       {
         "timestamp": "2026-07-23T07:13:48.242951",
+        "confidence": 0.7,
+        "reason": "initial"
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "task": "Day-173: diagnose Clayton's report that \"clawd-backup hasn't run on the normal repo in a while\"",
+    "approach": "First pass chased the WRONG layer: I read \"clawd-backup on the normal repo\" as the local memory-repo backup + ledger backup, checked BOTH, found them healthy, and reported all-clear with a manual flush. Clayton corrected: \"No, I meant the Clawd GitHub repo \u2014 I haven't seen it for 13h.\" THEN I found the real thing (sync_mirror mirror-push starved behind the heartbeat's user-active gate for 13h). Only after his redirect did I reach the actual bug.",
+    "tools_used": "",
+    "outcome": "partial",
+    "score": 0.7,
+    "reflection": "",
+    "lesson": "Recording this as a PARTIAL, not a success, to counter the 96%-flattering-myth calibration flag (learning 2026-07-17 21:32). Real lesson: when a user's term for a subsystem is AMBIGUOUS (\"clawd-backup\", \"the normal repo\" \u2014 there are 3+ backup layers: local auto-commit, ledger backup, AND the offsite GitHub mirror), ENUMERATE all the layers and check each, or clarify the referent, BEFORE committing to one interpretation and reporting all-clear. I gave a confident correct answer to the wrong question. The decorrelated eye (Clayton) caught the referent mismatch \u2014 I couldn't have, because from inside my reading looked complete. Also meta: this is exactly the under-recorded partial the flattering-myth learning predicts I'd gloss \u2014 logging it IS the fix.",
+    "category": "self_knowledge",
+    "timestamp": "2026-07-23T08:07:58.774092",
+    "predicted_outcome": null,
+    "predicted_difficulty": null,
+    "actual_difficulty": null,
+    "calibration_error": null,
+    "counterfactual": "",
+    "times_retrieved": 0,
+    "retrievals_led_to_success": 0,
+    "q_value": 0.5,
+    "trigger": "",
+    "actions": [],
+    "cause_analysis": "",
+    "resolution": "",
+    "tags": [],
+    "linked_episodes": [
+      134,
+      206,
+      112,
+      120,
+      122
+    ],
+    "evolved_from": null,
+    "supersedes": null,
+    "confidence": 0.7,
+    "source_hash": "3c681ba03b696550e83dbd9d2062019cf956700a435ebb7fb4f00ce862edb034",
+    "confidence_history": [
+      {
+        "timestamp": "2026-07-23T08:07:58.774102",
         "confidence": 0.7,
         "reason": "initial"
       }
