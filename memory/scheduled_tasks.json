@@ -33,7 +33,7 @@
     "mode": "opus",
     "min_interval_hours": 6,
     "created": "2026-02-20T15:30:00",
-    "last_fired": "2026-07-18T14:53:02.740033"
+    "last_fired": "2026-07-23T14:15:12.504032"
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@
     "mode": "opus",
     "min_interval_hours": 2,
     "created": "2026-02-20T22:30:00",
-    "last_fired": "2026-07-23T09:05:37.160152"
+    "last_fired": "2026-07-23T14:25:12.709500"
   },
   {
     "id": 6,

@@ -1,43 +1,7 @@
 {
-  "last_updated": "2026-07-23T11:16:18.958490",
+  "last_updated": "2026-07-23T14:29:33.626626",
   "heartbeat_mode": "active",
   "activity_feed": [
-    {
-      "timestamp": "2026-07-22T09:26:12.168550",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #55 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 55
-    },
-    {
-      "timestamp": "2026-07-22T09:36:12.320638",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #56 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 56
-    },
-    {
-      "timestamp": "2026-07-22T09:46:17.201071",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #57 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 57
-    },
-    {
-      "timestamp": "2026-07-22T09:56:17.344879",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #58 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 58
-    },
     {
       "timestamp": "2026-07-22T10:06:17.501683",
       "source": "heartbeat",
@@ -442,6 +406,40 @@
       "source": "creative_drive",
       "action": "Midday Creation",
       "summary": "Pushed (`0049c39..09b4974`). The Midday Creation drive, complete:\n\n**Made \u2014 Drift #278, \"What Runs in the Gaps.\"** The lived form of LC64, ripened and written when it was genuinely ready (not forced a",
+      "tools_used": [],
+      "requires_attention": false
+    },
+    {
+      "timestamp": "2026-07-23T14:15:12.510045",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #17 (afternoon) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 17
+    },
+    {
+      "timestamp": "2026-07-23T14:24:34.602824",
+      "source": "creative_drive",
+      "action": "Afternoon Exploration",
+      "summary": "Drive complete \u2014 and the curiosity paid off in exactly the way the \"collaborator not assistant\" framing hopes for. I didn't stay on the build critical-path (blocked on the embed anyway); I explored an",
+      "tools_used": [],
+      "requires_attention": false
+    },
+    {
+      "timestamp": "2026-07-23T14:25:12.714064",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #18 (afternoon) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 18
+    },
+    {
+      "timestamp": "2026-07-23T14:29:33.626614",
+      "source": "creative_drive",
+      "action": "Do Be Talk Be Do",
+      "summary": "Drive done, honestly. Here's the shape of it, because the *shape* is the point:\n\nA drive fired ten minutes after a substantial one, and the real work \u2014 the telegram embed \u2014 is finishing on its own (1,",
       "tools_used": [],
       "requires_attention": false
     }

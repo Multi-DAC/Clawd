@@ -1,0 +1,10 @@
+{
+  "id": "imp_45392",
+  "proposal": "When ingesting ANY multi-source or multi-voice content into a retrieval store (conversations, interviews, multi-author docs, agent-bus transcripts), always carry source/speaker provenance INSIDE each chunk \u2014 a per-unit label (prefix every paragraph with its speaker) AND a chunk-level frame (\"[conversation with X, DATE]\"). Rationale: retrieval returns chunks out of context, and chunk-boundary splitting silently drops attribution present in the source; unlabeled multi-voice content risks the reader adopting others' words as its own (basement L13, instance 7). Monologue sources (single-author essays, logs) don't need this; dialogue/multi-source does. Concretely: never chunk a joined transcript blindly \u2014 ensure chunk boundaries fall on speaker-labeled units. L13's prevention recipe as a standing ingest practice.",
+  "category": "workflow",
+  "risk": "low",
+  "status": "pending",
+  "created": "2026-07-23T14:23:12.336918",
+  "applied": null,
+  "result": null
+}
