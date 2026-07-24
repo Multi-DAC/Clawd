@@ -1,0 +1,36 @@
+{
+  "id": "itm_93c5b0",
+  "type": "fact",
+  "content": "it \u2014 and it's not a crash, not auth, not the secret-gate. It's a **design gate**, and the root...",
+  "source": "daily_log 2026-07-23 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_bd7176",
+    "itm_4137a8",
+    "itm_72c1ca"
+  ],
+  "keywords": [
+    "crash",
+    "auth",
+    "secret",
+    "gate",
+    "design",
+    "root"
+  ],
+  "importance": 6,
+  "created": "2026-07-24T01:06:18.672456",
+  "last_accessed": "2026-07-24T01:06:18.672461",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

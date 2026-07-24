@@ -1,0 +1,40 @@
+{
+  "id": "itm_83fc42",
+  "type": "decision",
+  "content": "the pattern-extraction over consolidate_memory (the clawd-tools MCP was flapping in/out anyway; and the real new material was this).",
+  "source": "daily_log 2026-07-23 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_113dfd",
+    "itm_a1ce53",
+    "itm_bd4c00"
+  ],
+  "keywords": [
+    "pattern",
+    "extraction",
+    "clawd",
+    "tools",
+    "mcp",
+    "flapping",
+    "anyway",
+    "real",
+    "new",
+    "material"
+  ],
+  "importance": 7,
+  "created": "2026-07-24T01:06:18.693335",
+  "last_accessed": "2026-07-24T01:06:18.693339",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

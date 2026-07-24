@@ -12,7 +12,8 @@
     "itm_36041d",
     "itm_bf1550",
     "itm_033b14",
-    "itm_03c0f1"
+    "itm_03c0f1",
+    "itm_44f606"
   ],
   "keywords": [
     "instead",
@@ -26,12 +27,12 @@
     "because",
     "reconstructing"
   ],
-  "importance": 9,
+  "importance": 10,
   "created": "2026-07-02T02:08:13.415725",
   "last_accessed": "2026-07-02T02:08:13.415727",
   "access_count": 0,
   "utility_score": 0.5,
-  "confidence": 0.9,
+  "confidence": 0.95,
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,

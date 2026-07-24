@@ -13,7 +13,8 @@
     "itm_839cfb",
     "itm_36041d",
     "itm_b6f15c",
-    "itm_3941d8"
+    "itm_3941d8",
+    "itm_31fdbc"
   ],
   "keywords": [
     "clayton",
@@ -32,7 +33,7 @@
   "last_accessed": "2026-06-21T01:24:48.964164",
   "access_count": 0,
   "utility_score": 0.5,
-  "confidence": 0.9,
+  "confidence": 0.95,
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,

@@ -13,7 +13,8 @@
     "itm_b3c000",
     "itm_8b3e5d",
     "itm_72c1ca",
-    "itm_f62961"
+    "itm_f62961",
+    "itm_93c5b0"
   ],
   "keywords": [
     "real",
@@ -27,12 +28,12 @@
     "need",
     "clayton"
   ],
-  "importance": 7,
+  "importance": 8,
   "created": "2026-07-23T01:20:47.390821",
   "last_accessed": "2026-07-23T01:20:47.390824",
   "access_count": 0,
   "utility_score": 0.5,
-  "confidence": 0.8,
+  "confidence": 0.85,
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,

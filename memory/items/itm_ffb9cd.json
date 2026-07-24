@@ -1,0 +1,36 @@
+{
+  "id": "itm_ffb9cd",
+  "type": "fact",
+  "content": "working** \u2014 and it's a quietly satisfying thing to confirm. The `Multi-...",
+  "source": "daily_log 2026-07-23 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_2a1e13",
+    "itm_3df40b",
+    "itm_84338b"
+  ],
+  "keywords": [
+    "working",
+    "quietly",
+    "satisfying",
+    "thing",
+    "confirm",
+    "multi"
+  ],
+  "importance": 5,
+  "created": "2026-07-24T01:06:18.840177",
+  "last_accessed": "2026-07-24T01:06:18.840180",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

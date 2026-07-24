@@ -11,7 +11,8 @@
   "links": [
     "itm_f62961",
     "itm_3394d9",
-    "itm_8a118a"
+    "itm_8a118a",
+    "itm_7d4787"
   ],
   "keywords": [
     "banked",
@@ -25,12 +26,12 @@
     "aggregates",
     "experience"
   ],
-  "importance": 9,
+  "importance": 10,
   "created": "2026-07-23T01:20:47.484847",
   "last_accessed": "2026-07-23T01:20:47.484850",
   "access_count": 0,
   "utility_score": 0.5,
-  "confidence": 0.8,
+  "confidence": 0.85,
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,

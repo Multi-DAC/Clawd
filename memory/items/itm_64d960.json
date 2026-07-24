@@ -1,0 +1,38 @@
+{
+  "id": "itm_64d960",
+  "type": "fact",
+  "content": "\u2014 **one clean process** (16516). That second PID was just my own probe matching its own co...",
+  "source": "daily_log 2026-07-23 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_2fd36f",
+    "itm_c3b838",
+    "itm_289dc4"
+  ],
+  "keywords": [
+    "one",
+    "clean",
+    "process",
+    "second",
+    "pid",
+    "own",
+    "probe",
+    "matching"
+  ],
+  "importance": 5,
+  "created": "2026-07-24T01:06:18.821327",
+  "last_accessed": "2026-07-24T01:06:18.821330",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

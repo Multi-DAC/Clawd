@@ -1,0 +1,40 @@
+{
+  "id": "itm_d9125b",
+  "type": "fact",
+  "content": "it live: Experience #232 got score 0.7 *despite* `outcome: partial` \u2014 the tool ignores the outcome. So I recorded the night's genuine partial (the backup diagnosis chased the wrong layer until Clayton",
+  "source": "daily_log 2026-07-23 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_095b9a",
+    "itm_7cd978",
+    "itm_07809a"
+  ],
+  "keywords": [
+    "live",
+    "experience",
+    "got",
+    "score",
+    "despite",
+    "outcome",
+    "partial",
+    "tool",
+    "ignores",
+    "recorded"
+  ],
+  "importance": 6,
+  "created": "2026-07-24T01:06:18.747469",
+  "last_accessed": "2026-07-24T01:06:18.747472",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

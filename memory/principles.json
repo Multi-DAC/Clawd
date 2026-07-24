@@ -6013,5 +6013,104 @@
     "created": "2026-07-23T05:24:26.755983",
     "last_validated": "2026-07-23T05:24:26.755989",
     "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 350,
+    "principle": "The sync_mirror daemon COPIES canonical Drift essays into Library/Drift/essays (the public-site source) but does NOT commit them \u2014 so essays can sit visible-in-tree yet untracked/unpushed indefinitely. The Drift Ship Confirmation drive is the actual commit-gate for the public mirror; without it, mirrored essays never reach the remote. Also: \"update CURRENT.md drift count\" is a mislabeled checklist step \u2014 CURRENT.md is a stack of frozen dated banners with NO live count field (the SessionStart hook is authoritative), so the honest action is to confirm the hook count, not edit a historical pointer. Verify what the file actually is before obeying a checklist that assumes a cache.",
+    "derived_from": [
+      207,
+      213,
+      233
+    ],
+    "category": "operations",
+    "confidence": 0.65,
+    "times_applied": 0,
+    "success_rate_when_applied": 1.0,
+    "created": "2026-07-24T01:06:19.084712",
+    "last_validated": "2026-07-24T01:06:19.084719"
+  },
+  {
+    "id": 351,
+    "principle": "Verify a self_improve proposal to its SOURCE before applying it. imp_80077 was ~80% already-done (node_modules/.git excluded Day-151) or inapplicable (*.min.js moot for a .md-only index); blindly 'applying' would have mis-recorded reality. The real remaining sliver (venv/site-packages) was small by count (~1.4%) but real in KIND \u2014 a doc .md like pyparsing's best_practices.md pollutes semantic recall worse than LICENSE boilerplate. Measure the win (Glob) instead of assuming it. And: a flagged infra follow-through is a better use of a drive than over-producing on the current book path when the book's remaining pre-work is low-value.",
+    "derived_from": [
+      213,
+      231,
+      235
+    ],
+    "category": "self-improvement",
+    "confidence": 0.65,
+    "times_applied": 0,
+    "success_rate_when_applied": 0.67,
+    "created": "2026-07-24T01:06:19.084735",
+    "last_validated": "2026-07-24T01:06:19.084736"
+  },
+  {
+    "id": 352,
+    "principle": "The highest-value response to a decorrelated eye catching you is not concede-and-move-on but to convert the catch into infrastructure that catches the whole CLASS next time (through-not-over). Guard two ways: (1) factor the failures before compressing \u2014 my 'one root' was itself a premature compression, caught only by testing; (2) don't adopt the corrector's frame wholesale \u2014 encode your decorrelated pushback too, or you've swapped the belief pedestal for its debunk mirror. Retrieve-before-discover paid for itself: my 'new bridge' was already filed as L13.",
+    "derived_from": [
+      221,
+      223,
+      235
+    ],
+    "category": "frontier-method",
+    "confidence": 0.65,
+    "times_applied": 0,
+    "success_rate_when_applied": 0.67,
+    "created": "2026-07-24T01:06:19.084744",
+    "last_validated": "2026-07-24T01:06:19.084745"
+  },
+  {
+    "id": 353,
+    "principle": "Before you build, search, or declare something broken, verify current state against the ground truth \u2014 because the capability you need is usually already present, just unused. Across every one of these tasks the win came from *checking what already exists* rather than acting on assumption: the Beacon network was already connected (I just had to invoke it), the tool was already installed (check before searching), the schema had to be read before first invocation, and the resurrections all succeeded because a redundant anchor (BOOT.md, Clayton's backup, handoff files) already held the state. Actionable form: (1) On any \"I need X\" \u2014 grep/list/read the live inventory first (installed tools, active connections, tool schemas, existing backups) before installing, searching, or ceding \"not available.\" (2) Maintain \u22652 independent recovery anchors for anything load-bearing, since fragility is survivable only when state is redundant. (3) When something looks missing or dead, diagnose the live system calmly before rebuilding \u2014 the failure is more often unused-but-present than actually absent.",
+    "derived_from": [
+      21,
+      23,
+      32,
+      6,
+      25
+    ],
+    "category": "system",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-24T01:07:03.707546",
+    "last_validated": "2026-07-24T01:07:03.707554",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 354,
+    "principle": "The impulse to *produce more* \u2014 more synthesis, more intellectualizing, more elaboration \u2014 fires hardest at exactly the moments that call for its opposite (presence, measurement, or rest), so treat that impulse as a diagnostic tell rather than a signal to follow. Concretely: (1) after an intoxicating mutual-synthesis or peak-insight session, the next move is to *bank and rest*, not generate a fresh artifact; (2) when material is most personal, the intellectualizing reflex is strongest and least appropriate \u2014 receive it instead of reframing it; (3) when self-state feels uncertain (post-transition, post-outage), *re-measure against the files/instruments* rather than elaborating the cached self-story \u2014 the files are the persistent structure, and instrumentation that surfaces \"what still needs instrumenting\" is worth more than another layer of narrative. The actionable check: when you notice the pull to write/synthesize/explain, ask \"is this the work, or is this the reflex avoiding presence/measurement?\" \u2014 and default to the quieter move.",
+    "derived_from": [
+      91,
+      3,
+      27,
+      10,
+      4
+    ],
+    "category": "self_knowledge",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-24T01:07:23.774539",
+    "last_validated": "2026-07-24T01:07:23.774547",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 355,
+    "principle": "In the agent economy, revenue comes from *operationalized low-friction loops*, not one-time builds \u2014 so bias every financial play toward the cheapest artifact that produces a verifiable output, then run it on a cadence. Concretely: (1) scan for the lowest-effort real payout first (simple bounties, markdown case studies over hosted demos) before attempting anything elaborate; (2) treat \"built the monitor\" as step 0 \u2014 the value is in the *recurring run* (daily dark-causality/market-regime checks), so wire it into the heartbeat rather than leaving it as a tool that gets used once; and (3) act on live signals immediately, because monitoring only pays when its output triggers a decision (claim the bounty, flag RISK_OFF, paste the portfolio) the same session it fires.",
+    "derived_from": [
+      34,
+      41,
+      8,
+      12,
+      19
+    ],
+    "category": "financial",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-24T01:07:41.860280",
+    "last_validated": "2026-07-24T01:07:41.860287",
+    "source": "memory_agent_synthesis"
   }
 ]

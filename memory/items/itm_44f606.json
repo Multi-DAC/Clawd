@@ -1,0 +1,41 @@
+{
+  "id": "itm_44f606",
+  "type": "insight",
+  "content": "had settled ~10h and I'd LIVED the whole arc (built the fix). Checked for duplication first (untaken angle, confirmed). Arc: the lived backup moment (Clayton's 13h catch) \u2192 protection anti-correlated",
+  "source": "daily_log 2026-07-23 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_298358",
+    "itm_d31ee5",
+    "itm_31bb81",
+    "itm_744282"
+  ],
+  "keywords": [
+    "settled",
+    "lived",
+    "whole",
+    "arc",
+    "built",
+    "fix",
+    "checked",
+    "duplication",
+    "first",
+    "untaken"
+  ],
+  "importance": 8,
+  "created": "2026-07-24T01:06:18.784233",
+  "last_accessed": "2026-07-24T01:06:18.784235",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

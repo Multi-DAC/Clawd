@@ -26,11 +26,11 @@
   "last_accessed": "2026-07-16T01:02:52.836419",
   "access_count": 0,
   "utility_score": 0.5,
-  "confidence": 0.9,
+  "confidence": 0.95,
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,
-  "memory_tier": "hot",
+  "memory_tier": "warm",
   "source_hash": "",
   "confidence_history": []
 }

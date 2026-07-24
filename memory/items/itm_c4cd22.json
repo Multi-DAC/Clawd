@@ -1,0 +1,40 @@
+{
+  "id": "itm_c4cd22",
+  "type": "fact",
+  "content": "the cause = a top-level `last_updated` field my 09:15 rotation script left at 05:25 (I'd only set `current_task.updated`) \u2192 fixed to 10:05. Two-min sync as intended; no rewrite. Pushed the nav layer.",
+  "source": "daily_log 2026-07-23 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_059d85",
+    "itm_2735b8",
+    "itm_28de12"
+  ],
+  "keywords": [
+    "cause",
+    "top",
+    "level",
+    "field",
+    "rotation",
+    "script",
+    "left",
+    "only",
+    "set",
+    "updated"
+  ],
+  "importance": 5,
+  "created": "2026-07-24T01:06:18.765864",
+  "last_accessed": "2026-07-24T01:06:18.765867",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

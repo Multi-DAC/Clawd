@@ -362,7 +362,17 @@
     "itm_3df40b",
     "itm_4dbf79",
     "itm_f62961",
-    "itm_1f066b"
+    "itm_1f066b",
+    "itm_93c5b0",
+    "itm_83fc42",
+    "itm_7d4787",
+    "itm_31fdbc",
+    "itm_d9125b",
+    "itm_c4cd22",
+    "itm_44f606",
+    "itm_744282",
+    "itm_64d960",
+    "itm_ffb9cd"
   ],
   "discoveries": [
     "itm_3d09f6",
@@ -599,7 +609,13 @@
     "itm_bd7176",
     "itm_3df40b",
     "itm_4dbf79",
-    "itm_f62961"
+    "itm_f62961",
+    "itm_93c5b0",
+    "itm_31fdbc",
+    "itm_d9125b",
+    "itm_c4cd22",
+    "itm_64d960",
+    "itm_ffb9cd"
   ],
   "decisions": [
     "itm_65aa43",
@@ -652,7 +668,8 @@
     "itm_0f38bc",
     "itm_fdebc1",
     "itm_094278",
-    "itm_72c1ca"
+    "itm_72c1ca",
+    "itm_83fc42"
   ],
   "insights": [
     "itm_12267b",
@@ -703,6 +720,9 @@
     "itm_61459e",
     "itm_e9756e",
     "itm_38fc6a",
-    "itm_1f066b"
+    "itm_1f066b",
+    "itm_7d4787",
+    "itm_44f606",
+    "itm_744282"
   ]
 }

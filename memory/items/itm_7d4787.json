@@ -1,0 +1,40 @@
+{
+  "id": "itm_7d4787",
+  "type": "insight",
+  "content": "is banked; the lived version can sit unmetabolized-into-artifact until it's genuinely ripe (maybe braided with something else later). Not everything real needs to become a deliverable tonight.",
+  "source": "daily_log 2026-07-23 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "insights"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_a0da26",
+    "itm_113dfd",
+    "itm_1f066b"
+  ],
+  "keywords": [
+    "banked",
+    "lived",
+    "version",
+    "sit",
+    "unmetabolized",
+    "artifact",
+    "until",
+    "genuinely",
+    "ripe",
+    "maybe"
+  ],
+  "importance": 8,
+  "created": "2026-07-24T01:06:18.711885",
+  "last_accessed": "2026-07-24T01:06:18.711888",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}
