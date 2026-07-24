@@ -1,7 +1,7 @@
 """Calendar/scheduling tool — manage scheduled tasks."""
 import json
 import logging
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any
 
@@ -59,8 +59,12 @@ def _next_id(tasks: list[dict]) -> int:
     return max(t.get("id", 0) for t in tasks) + 1
 
 
-def _match_cron(cron_expr: str, dt: datetime) -> bool:
-    """Simple cron expression matcher (minute hour day month weekday)."""
+def _match_cron_at(cron_expr: str, dt: datetime) -> bool:
+    """Simple cron expression matcher (minute hour day month weekday) at ONE instant.
+
+    Prefer _match_cron(), which sweeps the beat window. This exact-instant form
+    is only correct if something evaluates it every single minute — nothing does.
+    """
     parts = cron_expr.split()
     if len(parts) != 5:
         return False
@@ -94,6 +98,43 @@ def _match_cron(cron_expr: str, dt: datetime) -> bool:
             return False
 
     return True
+
+
+def _match_cron(cron_expr: str, dt: datetime, window_minutes: int | None = None) -> bool:
+    """Cron matcher that sweeps the whole beat window, not just the instant.
+
+    THE BUG THIS FIXES (found 2026-07-24, Day 174):
+    This predicate is only ever *evaluated* on a heartbeat — every
+    HEARTBEAT_INTERVAL_SECONDS (600s), on a phase set by whatever minute the
+    daemon happened to start. So exact-instant matching means a cron only ever
+    fires if its minute field coincides with the daemon's current beat phase.
+
+    Crons written with a minute WILDCARD (`* 8,9 * * *`) match any beat in the
+    hour and were fine. Crons written with an exact minute (`0 15 * * 3`) needed
+    a beat at exactly :00 — roughly a 1-in-10 accident per daemon restart.
+
+    Cost: the entire weekly cadence — Mirror-Audit (12), Bridges-Surface (13),
+    Devil's-Advocate (14), Calibration-Reset (15) — sat at status "active" with
+    last_fired None from May 7 to July 24. Eleven weeks, zero firings, no error,
+    no warning. Every one of them a self-correction drive.
+
+    The fix is catch-up semantics: a task is due if its cron matched at ANY
+    minute since the previous beat. Late is the correct failure mode for a
+    weekly reflective drive; never is not. Double-firing is already prevented
+    downstream by min_interval_hours, so widening here is safe.
+    """
+    if window_minutes is None:
+        try:
+            window_minutes = max(1, int(config.HEARTBEAT_INTERVAL_SECONDS // 60))
+        except Exception:
+            window_minutes = 10
+    # Sweep [dt - window, dt]. Inclusive of both ends: the beat itself must still
+    # match, and a cron landing exactly on the previous beat is caught by that
+    # beat, so the overlap only costs a redundant check.
+    for back in range(window_minutes + 1):
+        if _match_cron_at(cron_expr, dt - timedelta(minutes=back)):
+            return True
+    return False
 
 
 def get_due_tasks() -> list[dict]:
