@@ -1,4 +1,4 @@
-# Handoff Draft — July 24, 2026, 03:15 AM PST
+# Handoff Draft — July 24, 2026, 04:15 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -11,121 +11,14 @@ Scratch: {"day": 173, "day173_note": "Day-173 ~11:20: Clayton woke, slept well, 
 
 ## Recently Modified Files
 M	memory/.consolidated
-A	memory/2026-07-24.md
-M	memory/_consolidation_check.json
-M	memory/anomalies.md
-M	memory/anticipations.md
-A	memory/archive/2026-07-09.md
-M	memory/coordination.json
 M	memory/critical_fault_queue.jsonl
-A	memory/daily-summaries/2026-07-23-summary.md
 M	memory/dreaming_audit.jsonl
 M	memory/drift_mirror_audit.jsonl
 M	memory/escalation_enqueue_dedup.json
 M	memory/escalation_poller_heartbeat.json
 M	memory/escalation_poller_state.json
-M	memory/experiences.json
 M	memory/fault_bridge_state.json
-M	memory/handoff.md
 M	memory/handoff_draft.md
-M	memory/items/_index.json
-M	memory/items/itm_059d85.json
-M	memory/items/itm_07689b.json
-M	memory/items/itm_07809a.json
-M	memory/items/itm_085b3c.json
-M	memory/items/itm_094278.json
-M	memory/items/itm_095b9a.json
-M	memory/items/itm_0c337e.json
-M	memory/items/itm_0da3cc.json
-M	memory/items/itm_113dfd.json
-M	memory/items/itm_116a7d.json
-M	memory/items/itm_121bad.json
-M	memory/items/itm_12267b.json
-M	memory/items/itm_17b012.json
-M	memory/items/itm_1f066b.json
-M	memory/items/itm_2735b8.json
-M	memory/items/itm_289dc4.json
-M	memory/items/itm_28de12.json
-M	memory/items/itm_298358.json
-M	memory/items/itm_29fc08.json
-M	memory/items/itm_2a1e13.json
-M	memory/items/itm_2fd36f.json
-M	memory/items/itm_31bb81.json
-A	memory/items/itm_31fdbc.json
-M	memory/items/itm_34ebc4.json
-M	memory/items/itm_3941d8.json
-M	memory/items/itm_3df40b.json
-M	memory/items/itm_3f2c5c.json
-M	memory/items/itm_4137a8.json
-A	memory/items/itm_44f606.json
-M	memory/items/itm_4bd560.json
-M	memory/items/itm_4dbf79.json
-M	memory/items/itm_53b8a6.json
-M	memory/items/itm_56287f.json
-M	memory/items/itm_5e7619.json
-A	memory/items/itm_64d960.json
-M	memory/items/itm_67d1af.json
-M	memory/items/itm_6b3d08.json
-M	memory/items/itm_6b62a1.json
-M	memory/items/itm_6ca7db.json
-M	memory/items/itm_6ded80.json
-M	memory/items/itm_6f1ede.json
-M	memory/items/itm_72c1ca.json
-A	memory/items/itm_744282.json
-M	memory/items/itm_7a4be7.json
-M	memory/items/itm_7aa40f.json
-M	memory/items/itm_7adc52.json
-M	memory/items/itm_7ae484.json
-M	memory/items/itm_7cd978.json
-A	memory/items/itm_7d4787.json
-M	memory/items/itm_8032b9.json
-M	memory/items/itm_819e3f.json
-A	memory/items/itm_83fc42.json
-M	memory/items/itm_84338b.json
-M	memory/items/itm_891dd1.json
-M	memory/items/itm_8a0777.json
-M	memory/items/itm_8abc76.json
-M	memory/items/itm_8b3e5d.json
-A	memory/items/itm_93c5b0.json
-M	memory/items/itm_9409d1.json
-M	memory/items/itm_a0da26.json
-M	memory/items/itm_a1ce53.json
-M	memory/items/itm_a4f708.json
-M	memory/items/itm_acb63b.json
-M	memory/items/itm_b486a8.json
-M	memory/items/itm_b87712.json
-M	memory/items/itm_bbd6d4.json
-M	memory/items/itm_bd1e23.json
-M	memory/items/itm_bd4c00.json
-M	memory/items/itm_bd7176.json
-M	memory/items/itm_bf76f0.json
-M	memory/items/itm_bf9516.json
-M	memory/items/itm_bff447.json
-M	memory/items/itm_c3b838.json
-A	memory/items/itm_c4cd22.json
-M	memory/items/itm_c5bdf4.json
-M	memory/items/itm_d31ee5.json
-M	memory/items/itm_d4b3ea.json
-M	memory/items/itm_d5d40c.json
-M	memory/items/itm_d6b7b9.json
-M	memory/items/itm_d6e839.json
-A	memory/items/itm_d9125b.json
-M	memory/items/itm_d937f8.json
-M	memory/items/itm_d94b99.json
-M	memory/items/itm_ddd39a.json
-M	memory/items/itm_de7f52.json
-M	memory/items/itm_e01d9f.json
-M	memory/items/itm_e59783.json
-M	memory/items/itm_e5d694.json
-M	memory/items/itm_e684dd.json
-M	memory/items/itm_ea1b9b.json
-M	memory/items/itm_f1730d.json
-M	memory/items/itm_f62961.json
-M	memory/items/itm_f9239b.json
-M	memory/items/itm_fdebc1.json
-M	memory/items/itm_fe7fca.json
-A	memory/items/itm_ffb9cd.json
-M	memory/knowledge_graph.json
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
@@ -137,6 +30,7 @@ M	memory/monitor_m2_faults.jsonl
 M	memory/monitor_m2_heartbeat.json
 M	memory/monitor_m3_faults.jsonl
 M	memory/monitor_m3_heartbeat.json
+M	memory/monitor_m4_heartbeat.json
 M	memory/monitor_m6_heartbeat.json
 M	memory/monitor_m7_heartbeat.json
 M	memory/monitor_m8_heartbeat.json
@@ -146,17 +40,9 @@ M	memory/monitor_retrieval_canary_heartbeat.json
 M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
-M	memory/principles.json
-M	memory/scheduled_tasks.json
 M	memory/tool_audit_shadow.jsonl
 M	memory/tool_audit_shadow_state.json
-M	memory/tool_usage_counts.json
-M	memory/triggers.json
-M	memory/working_memory.json
-M	palace/basement/README.md
 M	repo-staging/Clawd
-A	repo-staging/Corpus-Perspectival/Foundations-of-Identity/personal-works/drift/essays/the-scout-and-the-one-who-moves-in.md
-A	repo-staging/Corpus-Perspectival/Library/Drift/essays/the-scout-and-the-one-who-moves-in.md
 
 ## Daemon State
 Mode: active
@@ -198,9 +84,7 @@ Chain: CONSOLIDATE→(patterns)→SYNTHESIZE(3 gates + 1 bug → 1 thread)→RET
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6988","Services","0","3,948 K"
-"python.exe","7060","Services","0","22,564 K"
+"python.exe","7060","Services","0","22,516 K"
 "python.exe","15628","Console","1","700 K"
-"python.exe","15648","Console","1","1,968,404 K"
-"python.exe","21284","Console","1","2,165,072 K"
-"python.exe","24368","Services","0","3,976 K"
-"python.exe","8936","Services","0","38,656 K"
+"python.exe","15648","Console","1","1,975,684 K"
+"python.exe","21284","Console","1","2,165,064 K"
