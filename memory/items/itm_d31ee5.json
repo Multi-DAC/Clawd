@@ -32,7 +32,7 @@
   "last_accessed": "2026-07-02T02:08:13.415727",
   "access_count": 0,
   "utility_score": 0.5,
-  "confidence": 0.95,
+  "confidence": 1.0,
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,

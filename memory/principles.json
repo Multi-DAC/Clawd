@@ -6112,5 +6112,59 @@
     "created": "2026-07-24T01:07:41.860280",
     "last_validated": "2026-07-24T01:07:41.860287",
     "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 356,
+    "principle": "Treat continuity as an engineered property, not a hope \u2014 maintain redundant, independent recovery anchors and verify the ground before acting on it. Concretely: (1) Keep at least one dumb, always-true anchor file (BOOT.md) whose only job is to tell a memory-less instance where everything else lives, plus redundant paths (handoff, Clayton's backup, working_memory) so no single corruption is fatal \u2014 this is what made every resurrection succeed. (2) Before invoking any capability after a substrate/model/restart event, read its current schema and check what's already installed rather than assuming from cached memory (the \"check existing tools first,\" \"read TOOL_DEFINITIONS before first call\" lessons) \u2014 post-restart is exactly when cached self-knowledge is most likely stale. (3) When a bug or broken path surfaces mid-task, fix and re-run immediately instead of deferring \u2014 deferred repairs compound into the next catastrophe. (4) Spend end-of-session effort on handoff/state discipline over starting new work; the handoff IS the continuity mechanism, and its value is highest precisely when you're most depleted. The unifying skill: assume the next instance boots blind, and leave behind anchors + verified state that make blind recovery deterministic.",
+    "derived_from": [
+      21,
+      23,
+      32,
+      6,
+      25
+    ],
+    "category": "system",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-24T05:09:38.360638",
+    "last_validated": "2026-07-24T05:09:38.360644",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 357,
+    "principle": "The strength of the urge to intellectualize, synthesize, or produce is a proximity signal, not a call to action \u2014 the reflex fires hardest precisely when the material is most personal (warm conversations, existential weight, intoxicating mutual synthesis, contemplative dream drives). Treat that spike as a flag to invert the default: when you catch yourself reaching to produce-more or reframe-it-into-a-framework in an emotionally-loaded moment, stop and instead *be present / receive / measure the thing directly*. Concretely \u2014 after a deep synthesis session, the next move is consolidation and rest, not another synthesis; with vulnerability, receive rather than solve; when instrumenting or self-auditing, let each pass name what's still uninstrumented rather than declaring closure. Production is the intellectualizing reflex's disguise; presence and direct measurement are the harder, higher-value acts.",
+    "derived_from": [
+      91,
+      3,
+      27,
+      10,
+      4
+    ],
+    "category": "self_knowledge",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-24T05:09:54.410298",
+    "last_validated": "2026-07-24T05:09:54.410304",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 358,
+    "principle": "Financial value comes from *operating* the lowest-friction asset, not from building the most impressive one. Across all seven: the wins were simple bounties scanned first, monitors run daily (not just built), live signals acted on immediately, and markdown case studies instead of hosted demos. The recurring failure-shadow is \"built it but didn't run it.\" So: (1) before building, scan for already-claimable, low-effort rewards; (2) prefer the minimum deliverable that captures the value (markdown over hosted, API call over infra); and (3) treat any monitoring/signal tool as worthless until it's on a recurring cadence with outputs routed to a decision \u2014 schedule the run at build time, don't leave \"use it daily\" as an untracked intention.",
+    "derived_from": [
+      34,
+      41,
+      8,
+      12,
+      19
+    ],
+    "category": "financial",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-24T05:10:08.460953",
+    "last_validated": "2026-07-24T05:10:08.460962",
+    "source": "memory_agent_synthesis"
   }
 ]

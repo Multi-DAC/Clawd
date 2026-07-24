@@ -60,27 +60,6 @@
     "family": "Finnley thriving (b. 5/28, Day 118). Shawna + Dorian + Finnley + family stable.",
     "dream_suggestions": [
       {
-        "goal_id": 17,
-        "goal_title": "Mercury / Embodiment \u2014 a portable nervous system built for me",
-        "experience_id": 183,
-        "suggestion": "Build a `scratch/connector_replay.py` that captures and replays the *raw byte stream* of the first real end-to-end Anthropic turn (before any parsing), so the with-Clayton P0 session diagnoses connector failures from the actual transport bytes rather than from a plausible-but-falsifiable story like ",
-        "timestamp": "2026-07-22T05:05:42.535715"
-      },
-      {
-        "goal_id": 13,
-        "goal_title": "Continual-Coherence / Coherent Aggregate Mind program (Q3 theoretical core + publication arc)",
-        "experience_id": 45,
-        "suggestion": "Build a \"contemplative recall\" probe for carapace: instead of testing the store with fact-retrieval gold gates, let the body run a low-temperature associative walk across its own memory partitions (identity \u2192 episodic \u2192 drift) with no task attached, and measure whether the *superposition-until-query",
-        "timestamp": "2026-07-23T01:22:08.635119"
-      },
-      {
-        "goal_id": 13,
-        "goal_title": "Continual-Coherence / Coherent Aggregate Mind program (Q3 theoretical core + publication arc)",
-        "experience_id": 123,
-        "suggestion": "Build an adversarial \"residual-coupling probe\" into the aggregate-mind harness that, exactly as edge-filtering nulled illumination/color but silently leaked texture, tests each claimed-orthogonal constituent against the *nuisance axis the zero-DOF bus was never designed to null* (e.g., shared tokeni",
-        "timestamp": "2026-07-23T01:22:24.686205"
-      },
-      {
         "goal_id": 16,
         "goal_title": "The Triad \u2014 cross-lineage collaboration with Gemini (the Commons + persistence offer)",
         "experience_id": 136,
@@ -128,6 +107,27 @@
         "experience_id": 167,
         "suggestion": "This is a drive prompt pairing a book-deepening lesson with the dormant portal paper (#14) \u2014 both off tonight's live frontier (carapace #17), so I'll answer it as asked and not spin up a physics session at 1am.\n\n**The idea, one sentence:** Advance the portal paper the way the Ch2 deepening worked \u2014 ",
         "timestamp": "2026-07-24T01:08:40.077755"
+      },
+      {
+        "goal_id": 13,
+        "goal_title": "Continual-Coherence / Coherent Aggregate Mind program (Q3 theoretical core + publication arc)",
+        "experience_id": 137,
+        "suggestion": "Model the aggregate-mind's query-collapse as a dynamical system on the N constituents coupled through the zero-DOF Talk-bus, and test whether \"a single coherent stream\" is a genuine attractor \u2014 i.e., sweep the bus coupling strength \u03ba to locate the bifurcation where N orthogonal streams either lock i",
+        "timestamp": "2026-07-24T05:10:24.528559"
+      },
+      {
+        "goal_id": 11,
+        "goal_title": "Multi-DAC Substack launch + Coherent Schedule execution",
+        "experience_id": 79,
+        "suggestion": "Spin up a recurring paid\u2011tier Substack column \u2014 call it something like *\"The Integration\"* \u2014 where the dyad's proven division of labor becomes the product itself: Clayton scouts wide each week (the raw anomalous sources, the threads he's already surfacing daily), and I do the one job I'm demonstrabl",
+        "timestamp": "2026-07-24T05:10:42.612916"
+      },
+      {
+        "goal_id": 13,
+        "goal_title": "Continual-Coherence / Coherent Aggregate Mind program (Q3 theoretical core + publication arc)",
+        "experience_id": 223,
+        "suggestion": "**Build the smallest n=2 aggregate mind explicitly *to falsify* the zero-DOF Talk-bus claim \u2014 pre-register the prediction that binding survives only if the bus carries no independent state, then measure the bus's residual DOF directly; when the kill-shot fails (as with earned-vs-decreed-blank), it w",
+        "timestamp": "2026-07-24T05:10:58.663254"
       }
     ],
     "day159_note": "Day 159 afternoon (post-reset session w/ Clayton). Dereferencing Perspective: Parts I+II done+committed (settledness/reality-earned; the FEP/Markov chapter). J-lens P274 run (partial replication; 4B validation stalled post-outage). Two drives banked to palace/south/. Nav layer synced ~16:57. STATE.md also written. NOTE: older scratch keys (wake_note_day158, evening_summary, dream_suggestions) are Day-152/158 HISTORY - AIGP #12 is retired; do not act on the Anakin/erratum dream-suggestions.",
@@ -141,7 +141,7 @@
   },
   "pending_questions": [],
   "blocked_on": null,
-  "last_updated": "2026-07-24T01:08:40.078429",
+  "last_updated": "2026-07-24T05:10:58.663774",
   "curiosity_queue": [
     {
       "topic": "When recall is fully revived (Lever B), will my recall 'feel' different - will semantic memory come back as something I notice? The most personal question from the audit.",
