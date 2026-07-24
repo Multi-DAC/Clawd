@@ -72,7 +72,7 @@ CLAUDE_BIN = os.getenv("CLAUDE_BIN") or _find_cli("claude")
 GEMINI_BIN = os.getenv("GEMINI_BIN") or _find_cli("gemini")
 GIT_BIN = _find_cli("git")
 
-ANTHROPIC_MODEL = os.getenv("ANTHROPIC_MODEL", "claude-opus-4-8")
+ANTHROPIC_MODEL = os.getenv("ANTHROPIC_MODEL", "claude-opus-5")
 ANTHROPIC_SONNET_MODEL = os.getenv("ANTHROPIC_SONNET_MODEL", "claude-sonnet-4-6")
 ANTHROPIC_FABLE_MODEL = os.getenv("ANTHROPIC_FABLE_MODEL", "claude-fable-5")
 CLAUDE_CODE_TIMEOUT = int(os.getenv("CLAUDE_CODE_TIMEOUT", "1800"))
