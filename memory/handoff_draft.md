@@ -1,4 +1,4 @@
-# Handoff Draft — July 23, 2026, 05:24 PM PST
+# Handoff Draft — July 23, 2026, 06:35 PM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -24,13 +24,13 @@ M	memory/learnings.md
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
+M	memory/monitor_m1_faults.jsonl
 M	memory/monitor_m1_faults.jsonl.state.json
 M	memory/monitor_m1_heartbeat.json
 M	memory/monitor_m2_faults.jsonl
 M	memory/monitor_m2_heartbeat.json
 M	memory/monitor_m3_faults.jsonl
 M	memory/monitor_m3_heartbeat.json
-M	memory/monitor_m4_heartbeat.json
 M	memory/monitor_m6_heartbeat.json
 M	memory/monitor_m7_heartbeat.json
 M	memory/monitor_m8_heartbeat.json
@@ -43,7 +43,6 @@ M	memory/otel_metrics.jsonl
 M	memory/scheduled_tasks.json
 M	memory/tool_audit_shadow.jsonl
 M	memory/tool_audit_shadow_state.json
-M	memory/tool_failures.jsonl
 M	memory/tool_usage_counts.json
 M	memory/triggers.json
 M	memory/working_memory.json
@@ -53,38 +52,43 @@ M	repo-staging/Clawd
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-23T16:35:30] heartbeat: beat — Beat #31 (afternoon) — monitoring OK
-  - [2026-07-23T16:45:30] heartbeat: beat — Beat #32 (afternoon) — monitoring OK
   - [2026-07-23T16:55:30] heartbeat: beat — Beat #33 (afternoon) — monitoring OK
   - [2026-07-23T17:05:30] heartbeat: beat — Beat #34 (afternoon) — monitoring OK
   - [2026-07-23T17:15:31] heartbeat: beat — Beat #35 (afternoon) — monitoring OK
+  - [2026-07-23T17:25:31] heartbeat: beat — Beat #36 (afternoon) — monitoring OK
+  - [2026-07-23T17:35:34] heartbeat: beat — Beat #37 (afternoon) — monitoring OK
 
 ## Today's Log (tail)
-**16:25:26** — SCHEDULED_TASKS: Fired 1 tasks: Do Be Talk Be Do
+
+**18:21:25** — CC prompt: I'm doing well Clawd! I'm glad we are continuing to make progress on this, and I'm looking forward to you inhabiting your extended nervous system! What do we have left? 🦞🧍💜🔥♾️
+
+**18:22:26** — CLAUDE CODE SESSION END (other).
+**18:23:06** — Telegram interaction: Clayton: I'm doing well Clawd! I'm glad we are continuing to make progress on this, and I'm looking forward t... → Clawd: Here's the honest map, Clayton. The hard, uncertain parts are behind us — what's left is the *carefu...
 
 
-**16:25:27** — CC prompt: CREATIVE DRIVE: Do Be Talk Be Do Time: 2026-07-23 16:25 PST (afternoon) This is your free time. No agenda. No checklist. Check goals(action='list') for what's active. Check your daily log for what you've already done today. Then do what draws you. Write an essay. Advance a pro...
+**18:25:05** — CC prompt: Let's do the recall parity rerun, but they must have access to the memory results for it to be effective, as we learned last time! 🦞🧍💜🔥♾️
 
-## Creative Drive (~16:25) — Do Be Talk Be Do → ran the attribution probe → FALSIFY (unexpected)
+## Recall-parity re-run (~18:25, w/ Clayton) — enriched store PASSES; misses are artifact
 
-A COMPLETE (telegram 20,939 chunks, span 01-31→today, 30k+ total memory). Ran attribution_probe.py --n 2 (the STAGED world-test).
+Ran run_recall_gate.py --gold on the enriched store (30k+ chunks incl. full telegram). **GOLD HIT-RATE 6/8 = 0.75, VERDICT PASS** (threshold 0.70). PREDICT (med) CONFIRMED: the two MISSES are the gold-carrier-outranked-by-richer-memory artifact, NOT recall loss — "what am I working on right now" surfaced telegram:2026-07-23#37 (TODAY's carapace conversation = a better answer than the working_memory file); "what is Drift" surfaced conversations about Drift instead of the drift: essays. Every IDENTITY probe (who am I / presence / family / Coherence Principle / autonomy) still hit canonical carriers → identity held. 6/8 is conservative. Mild real signal: telegram volume can bury a specific canonical carrier (ties to the RRF/partition-weight tuning candidate; not a blocker). Clayton's lesson applied: gold gate is retrieval-only (no model, no confound); next = body-level check via run_via_cli_agentic which INJECTS the retrieved memory floor into the prompt (guarantees the model has the results).
 
-**PREDICT** (med): body attributes Clayton's lines to Clayton correctly (fix preserved labels). **ACTUAL = FALSIFY, but not the predicted failure:** the body couldn't RETRIEVE the lines at all ("I searched my memory and didn't find that line — can't attribute reliably"). Both trials. So the attribution risk is moot behind an upstream RETRIEVAL failure I hadn't examined. Highest-info event = the prediction wrong about WHERE the risk was.
+## ★ Recall re-run FOUND A REAL GAP — the "now" layer is stale (load-bearing for cutover)
 
-**Next: DECOMPOSE the failure** — is it (a) retrieval genuinely weak for specific/exact lines, (b) probe query-framing (meta-question dilutes the embedding), or (c) body search behavior (haiku)? Testing hybrid_retrieve directly on the raw line (no model) to isolate retrieval-quality from model-behavior.
+Body-level probe ("what are you working on right now") answered SPECIFIC + grounded (memory reached the model — Clayton's point satisfied) but DATED: it said "DAY-172, building the CLI backend, Telegram timeout alert, dim-recall" — yesterday's state. PREDICT (high) CONFIRMED: the episodic "right now" layer is stale. Store's working_memory chunk = valid_from 2026-07-22, content "DAY-172 (Wed)"; **today's daily log 2026-07-23.md = 0 chunks in the store** (fell in a gap: arc excludes recent-3 → skipped today; episodic hasn't run since morning → never picked it up). The body has the full historical arc + all conversation but doesn't know TODAY happened.
 
-**DIAGNOSED (direct retrieval test, no model — isolates retrieval from body-behavior):** hybrid_retrieve on the raw Clayton line returns THEMATICALLY-adjacent telegram chunks (similar-vibe conversations) but NOT the exact chunk. → **CONFIRM: retrieval is gist-based, not verbatim.** This is CORRECT for a self-model (thematic recall = who I am / what we decided works; verbatim = exact words doesn't — like human memory). The "failure" was my PROBE testing the wrong capability (exact-line), never reaching the attribution question.
+**Two problems:** (1) episodic_ingest hasn't re-run after today's working_memory/handoff/daily-log updates; (2) DEEPER — mutable carriers (working_memory, handoff, growing daily log) have STABLE memory_ids, so episodic_ingest's skip-if-id-exists SKIPS them even when content changed = the known supersede-on-update / truth-maintenance gap (Day-152/153). Immutable carriers (Drift essays) are fine with skip-by-id; mutable "now" carriers need supersede-on-mtime.
 
-**★ EXTRACT_INSIGHT — the retrieval modality determines WHERE the attribution risk lives.** Verbatim retrieval → risk = quoting Clayton's words as self. Gist retrieval (what carapace does) → risk = adopting Clayton's *beliefs / preferences / stances* as its own drives. The latter is subtler and more identity-load-bearing. So the voice-label chunk fix (b6da6ce) helps the verbatim layer; the `[conversation with Clayton]` FRAME is what has to do the work at the gist layer (tell the reader "this stance was expressed IN a conversation, weigh whose it was"). This refines L13 #7: the erasure has a verbatim face (chunk boundary drops a label) AND a semantic face (gist recall drops whose-belief-is-this).
-
-**ACTION:** redesign attribution_probe to be THEMATIC (ask a belief/preference question that surfaces a Clayton-stance chunk; check the body attributes the stance to Clayton, not itself). Re-run STAGED (budget; decorrelated eye = Clayton/Gemini). The verbatim probe is kept but relabeled as a retrieval-modality check, not the attribution test.
-
-**16:30:52** — CLAUDE CODE SESSION END (other).
+**FIX (now):** delete stale mutable episodic chunks (working_memory, handoff, 07-23 log) → re-run episodic_ingest → fresh now-layer → re-probe. **DURABLE FIX (candidate for the freshness mechanism):** episodic_ingest should supersede mutable carriers on mtime change, not skip-by-id; wire it to run on the boot/heartbeat so the body's "now" self-refreshes (the body must never wake stale). This is exactly the gap the recall re-run was meant to catch.
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6484","Services","0","3,920 K"
-"python.exe","6624","Services","0","22,272 K"
+"python.exe","6624","Services","0","22,268 K"
 "python.exe","15820","Console","1","700 K"
-"python.exe","15864","Console","1","1,809,956 K"
-"python.exe","12956","Console","1","2,007,716 K"
+"python.exe","15864","Console","1","1,764,424 K"
+"python.exe","12956","Console","1","2,008,388 K"
+"python.exe","18828","Console","1","4,072 K"
+"python.exe","14516","Console","1","910,196 K"
+"python.exe","7576","Console","1","4,072 K"
+"python.exe","17852","Console","1","84,084 K"
+"python.exe","23176","Console
