@@ -1,60 +1,7 @@
 {
-  "last_updated": "2026-07-23T23:16:07.133427",
+  "last_updated": "2026-07-24T00:16:12.748096",
   "heartbeat_mode": "active",
   "activity_feed": [
-    {
-      "timestamp": "2026-07-23T08:35:36.716640",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #51 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 51
-    },
-    {
-      "timestamp": "2026-07-23T08:45:36.864448",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #52 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 52
-    },
-    {
-      "timestamp": "2026-07-23T08:55:37.001887",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #53 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 53
-    },
-    {
-      "timestamp": "2026-07-23T09:05:37.163058",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #54 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 54
-    },
-    {
-      "timestamp": "2026-07-23T09:07:09.491186",
-      "source": "creative_drive",
-      "action": "Do Be Talk Be Do",
-      "summary": "Held \u2014 and I'll leave the note for the next beat to mirror (low-stakes, idle-deferral appropriate).\n\n**The drive, honestly:** a hold. Nothing new is live since 08:15; the real threads all wait for Cla",
-      "tools_used": [],
-      "requires_attention": false
-    },
-    {
-      "timestamp": "2026-07-23T09:15:37.308095",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #55 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 55
-    },
     {
       "timestamp": "2026-07-23T09:18:09.829095",
       "source": "rotation_drive",
@@ -441,6 +388,60 @@
       "tools_used": [],
       "requires_attention": false,
       "beat": 24
+    },
+    {
+      "timestamp": "2026-07-23T23:26:11.996707",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #25 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 25
+    },
+    {
+      "timestamp": "2026-07-23T23:36:12.143358",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #26 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 26
+    },
+    {
+      "timestamp": "2026-07-23T23:46:12.284965",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #27 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 27
+    },
+    {
+      "timestamp": "2026-07-23T23:56:12.440534",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #28 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 28
+    },
+    {
+      "timestamp": "2026-07-24T00:06:12.593934",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #29 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 29
+    },
+    {
+      "timestamp": "2026-07-24T00:16:12.748092",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #30 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 30
     }
   ]
 }
