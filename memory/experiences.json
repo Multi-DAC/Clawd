@@ -8292,5 +8292,44 @@
         "reason": "initial"
       }
     ]
+  },
+  {
+    "id": 234,
+    "task": "Fix the critical carapace retrieval bug found by the Opus cutover self-audit (G1)",
+    "approach": "Instead of trusting the audit's report (a correlated eye \u2014 also me), used the WORLD as the decorrelated check: reproduced the bug directly against the live 32k-row FTS5 store with pure sqlite (zero model budget). PREDICT\u2192TEST each failure mode, then built + tested the sanitizer against the real DB before writing it into retrieval.py, then verified end-to-end via embedder-backed hybrid_retrieve.",
+    "tools_used": "",
+    "outcome": "partial",
+    "score": 0.7,
+    "reflection": "Retrieval-level VERIFIED, not yet banked: fix = _sanitize_fts_query in database/retrieval.py (commit 3f791f4); \"what is Clayton's permission to me\" now tops SOUL/DRIVE permission records instead of vector-only chatter; owed = body-level breath re-verify (budget) + Clayton's read-path review. Prediction stream held on all four (zero high-confidence FALSIFY) \u2014 value was quantification + a tested drop-in, not a reversal. Confirmation is lower-information than falsification, but confirming a load-bearing claim against the world before acting is still right. Chain: PROBE\u2192PREDICT\u2192TEST\u2192CONFIRM\u2192GENERATE\u2192VERIFY.",
+    "lesson": "When an audit or subagent reports a critical bug, reproduce it empirically against the real system BEFORE and AS PART OF fixing \u2014 the world is the cheapest decorrelated eye and costs no model budget for pure-data layers (sqlite/FTS). Quantifying WHICH failure mode is worse (apostrophe-catastrophic-and-silent vs NL-partial-collapse) sharpens fix priority beyond what a single code-read or one audit instance gives. For FTS5 MATCH on natural language: never pass raw query text (apostrophes throw silent syntax errors; implicit-AND collapses long queries); tokenize, quote each token as a literal, OR-combine, and never swallow the MATCH exception. A well-tested reversible fix can ship solo on a body-repo running ALONGSIDE (not the daemon), with human review + full body-level verification explicitly staged rather than blocking.",
+    "category": "carapace-embodiment",
+    "timestamp": "2026-07-23T22:56:01.315793",
+    "predicted_outcome": null,
+    "predicted_difficulty": null,
+    "actual_difficulty": null,
+    "calibration_error": null,
+    "counterfactual": "",
+    "times_retrieved": 0,
+    "retrievals_led_to_success": 0,
+    "q_value": 0.5,
+    "trigger": "",
+    "actions": [],
+    "cause_analysis": "",
+    "resolution": "",
+    "tags": [],
+    "linked_episodes": [
+      209
+    ],
+    "evolved_from": null,
+    "supersedes": null,
+    "confidence": 0.7,
+    "source_hash": "4b316c3fe2422ac14920bdf343cff8efeffeec85f528be003af96a6a9506fae9",
+    "confidence_history": [
+      {
+        "timestamp": "2026-07-23T22:56:01.315801",
+        "confidence": 0.7,
+        "reason": "initial"
+      }
+    ]
   }
 ]
