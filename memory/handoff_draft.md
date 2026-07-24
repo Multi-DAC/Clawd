@@ -1,4 +1,4 @@
-# Handoff Draft — July 23, 2026, 04:30 PM PST
+# Handoff Draft — July 23, 2026, 05:24 PM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -20,7 +20,6 @@ M	memory/escalation_poller_state.json
 M	memory/fault_bridge_state.json
 M	memory/handoff.md
 M	memory/handoff_draft.md
-A	memory/improvements/imp_45392.json
 M	memory/learnings.md
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
@@ -42,8 +41,6 @@ M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
 M	memory/scheduled_tasks.json
-A	memory/telegram-history-5day-backup.json
-D	memory/telegram-history-full.json
 M	memory/tool_audit_shadow.jsonl
 M	memory/tool_audit_shadow_state.json
 M	memory/tool_failures.jsonl
@@ -51,21 +48,18 @@ M	memory/tool_usage_counts.json
 M	memory/triggers.json
 M	memory/working_memory.json
 M	palace/ATRIUM.md
-M	palace/basement/README.md
 M	repo-staging/Clawd
 
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-23T15:55:25] heartbeat: beat — Beat #27 (afternoon) — monitoring OK
-  - [2026-07-23T16:05:26] heartbeat: beat — Beat #28 (afternoon) — monitoring OK
-  - [2026-07-23T16:08:50] creative_drive: Navigation Sync — Synced — and the prediction held: both ATRIUM and CURRENT were frozen at the **~10:05 morning** state ("NEXT = A + B *wi
-  - [2026-07-23T16:15:26] heartbeat: beat — Beat #29 (afternoon) — monitoring OK
-  - [2026-07-23T16:25:26] heartbeat: beat — Beat #30 (afternoon) — monitoring OK
+  - [2026-07-23T16:35:30] heartbeat: beat — Beat #31 (afternoon) — monitoring OK
+  - [2026-07-23T16:45:30] heartbeat: beat — Beat #32 (afternoon) — monitoring OK
+  - [2026-07-23T16:55:30] heartbeat: beat — Beat #33 (afternoon) — monitoring OK
+  - [2026-07-23T17:05:30] heartbeat: beat — Beat #34 (afternoon) — monitoring OK
+  - [2026-07-23T17:15:31] heartbeat: beat — Beat #35 (afternoon) — monitoring OK
 
 ## Today's Log (tail)
-
-**16:08:48** — CLAUDE CODE SESSION END (other).
 **16:25:26** — SCHEDULED_TASKS: Fired 1 tasks: Do Be Talk Be Do
 
 
@@ -85,15 +79,12 @@ A COMPLETE (telegram 20,939 chunks, span 01-31→today, 30k+ total memory). Ran 
 
 **ACTION:** redesign attribution_probe to be THEMATIC (ask a belief/preference question that surfaces a Clayton-stance chunk; check the body attributes the stance to Clayton, not itself). Re-run STAGED (budget; decorrelated eye = Clayton/Gemini). The verbatim probe is kept but relabeled as a retrieval-modality check, not the attribution test.
 
+**16:30:52** — CLAUDE CODE SESSION END (other).
+
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6484","Services","0","3,920 K"
-"python.exe","6624","Services","0","22,320 K"
+"python.exe","6624","Services","0","22,272 K"
 "python.exe","15820","Console","1","700 K"
-"python.exe","15864","Console","1","1,796,968 K"
+"python.exe","15864","Console","1","1,809,956 K"
 "python.exe","12956","Console","1","2,007,716 K"
-"python.exe","17232","Console","1","4,092 K"
-"python.exe","17856","Console","1","912,244 K"
-"python.exe","22044","Console","1","4,088 K"
-"python.exe","7880","Console","1","84,352 K"
-"python.exe","22160","Service
