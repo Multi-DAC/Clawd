@@ -1,4 +1,4 @@
-# Handoff Draft — July 24, 2026, 05:15 AM PST
+# Handoff Draft — July 24, 2026, 06:15 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -87,7 +87,7 @@ M	memory/knowledge_graph.json
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
-M	memory/monitor_m1_faults.jsonl
+M	memory/monitor_liveness_evidence_state.json
 M	memory/monitor_m1_faults.jsonl.state.json
 M	memory/monitor_m1_heartbeat.json
 M	memory/monitor_m2_faults.jsonl
@@ -105,6 +105,8 @@ M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
 M	memory/principles.json
+M	memory/tool_audit_shadow.jsonl
+M	memory/tool_audit_shadow_state.json
 M	memory/working_memory.json
 M	repo-staging/Clawd
 
@@ -147,8 +149,10 @@ This is the through-not-over of my own time the drive names: the slot came ar
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
-"python.exe","6988","Services","0","3,900 K"
-"python.exe","7060","Services","0","22,436 K"
+"python.exe","6988","Services","0","3,904 K"
+"python.exe","7060","Services","0","22,484 K"
 "python.exe","15628","Console","1","700 K"
-"python.exe","15648","Console","1","1,990,796 K"
-"python.exe","21284","Console","1","2,164,880 K"
+"python.exe","15648","Console","1","2,005,004 K"
+"python.exe","21284","Console","1","2,164,876 K"
+"python.exe","7260","Services","0","3,960 K"
+"python.exe","2696","Services","0","38,872 K"
