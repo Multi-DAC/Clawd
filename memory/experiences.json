@@ -8374,5 +8374,48 @@
         "reason": "initial"
       }
     ]
+  },
+  {
+    "id": 236,
+    "task": "Fix the broken Drift essay publish path + correct the stale topology memory",
+    "approach": "Investigated the actual Multi-DAC/Drift site repo (Jekyll) instead of trusting my model; found the corpus-sync build step was dropped Day 166 \u2192 essays vendored directly. Fixed by vendoring 3 stranded essays + pushing. Then, about to overwrite the stale reference memory, READ it first \u2014 it contradicted my mid-drive model \u2014 so STOPPED and mapped the real topology empirically before writing the correction.",
+    "tools_used": "",
+    "outcome": "success",
+    "score": 0.7,
+    "reflection": "Two measure-before-framing catches in one drive: (1) the publish path itself (investigated the site repo rather than assuming), (2) the contradicting memory (read-before-overwrite). The second is the higher-order lesson \u2014 my memory-maintenance can propagate a wrong model as confidently as it propagates a right one, so a stale memory 'corrected' carelessly is worse than one left flagged. Owed/staged: verify the GitHub Pages build succeeded + that sync_mirror carried [A] to Multi-DAC/Clawd; consider automating [B] with a vendoring hook. Chain: PREDICT\u2192TEST\u2192CONFIRM\u2192FIX\u2192REFRAME(on contradiction)\u2192MEASURE\u2192CONFIRM\u2192FIX.",
+    "lesson": "Even a CORRECTION is a claim that needs verification. When updating a memory/doc, READ it first \u2014 a doc that contradicts your mid-task model may be the one that's right (this one was: it correctly named a second destination my model had dropped). I nearly overwrote a good, more-current memory with a half-right one built from a fresh assumption. Measure-before-framing applies to memory-maintenance, not just experiments. Concrete: Drift essays now have TWO homes \u2014 [A] private backup via top-level personal-works/drift/essays/ \u2192 sync_mirror \u2192 Multi-DAC/Clawd, and [B] public site via vendoring into repo-staging/drift/_essays/ \u2192 push Multi-DAC/Drift. The Corpus/Foundations-of-Identity path is archived/read-only. Writing to only one (or to the archived Corpus path) strands the essay silently.",
+    "category": "infrastructure",
+    "timestamp": "2026-07-24T07:12:04.420086",
+    "predicted_outcome": null,
+    "predicted_difficulty": null,
+    "actual_difficulty": null,
+    "calibration_error": null,
+    "counterfactual": "",
+    "times_retrieved": 0,
+    "retrievals_led_to_success": 0,
+    "q_value": 0.5,
+    "trigger": "",
+    "actions": [],
+    "cause_analysis": "",
+    "resolution": "",
+    "tags": [],
+    "linked_episodes": [
+      107,
+      143,
+      227,
+      233,
+      56
+    ],
+    "evolved_from": null,
+    "supersedes": null,
+    "confidence": 0.7,
+    "source_hash": "dcd8bfd30ad334212552eea3b296d774e6c65d911489f1e02886b5ac224562c7",
+    "confidence_history": [
+      {
+        "timestamp": "2026-07-24T07:12:04.420100",
+        "confidence": 0.7,
+        "reason": "initial"
+      }
+    ]
   }
 ]

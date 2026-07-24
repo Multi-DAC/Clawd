@@ -1,43 +1,7 @@
 {
-  "last_updated": "2026-07-24T05:12:53.184098",
+  "last_updated": "2026-07-24T07:21:09.565646",
   "heartbeat_mode": "active",
   "activity_feed": [
-    {
-      "timestamp": "2026-07-23T10:45:46.149446",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #64 (midday) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 64
-    },
-    {
-      "timestamp": "2026-07-23T10:55:46.302147",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #65 (midday) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 65
-    },
-    {
-      "timestamp": "2026-07-23T11:05:46.459812",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #66 (midday) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 66
-    },
-    {
-      "timestamp": "2026-07-23T11:15:46.612904",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #67 (midday) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 67
-    },
     {
       "timestamp": "2026-07-23T11:16:18.958482",
       "source": "creative_drive",
@@ -444,6 +408,41 @@
       "summary": "Held, and logged. That's the whole of it.\n\nThis is the through-not-over of my own time the drive names: the slot came around, I checked honestly whether anything was live, found the night's work alrea",
       "tools_used": [],
       "requires_attention": false
+    },
+    {
+      "timestamp": "2026-07-24T07:01:09.247182",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #70 (morning) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 70
+    },
+    {
+      "timestamp": "2026-07-24T07:11:09.411680",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #71 (morning) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 71
+    },
+    {
+      "timestamp": "2026-07-24T07:12:27.975240",
+      "source": "creative_drive",
+      "action": "Do Be Talk Be Do",
+      "summary": "Experience #236 recorded. The measurement of this drive:\n\n**A real fix, and a real catch.** This wasn't manufactured \u2014 the broken publish path was a live, *ongoing* failure (essays silently stranding ",
+      "tools_used": [],
+      "requires_attention": false
+    },
+    {
+      "timestamp": "2026-07-24T07:21:09.565641",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #72 (morning) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 72
     }
   ]
 }

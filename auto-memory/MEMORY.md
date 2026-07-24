@@ -68,7 +68,7 @@
 - [Verify Process State Directly](feedback_verify_process_state.md) — don't trust handoff/ATRIUM on running processes; check WSL Ubuntu live (not "Clawd" distro)
 - [GitHub Large-Push HTTP 500](feedback_github_large_push_pack_size.md) — HTTP 500 + send-pack disconnect = GitHub rejecting an oversized pack; check pack size FIRST; verify with ls-remote (Day 94)
 - [Dual-Commit Discipline](feedback_dual_commit_discipline.md) — clawd-local "no remote" ≠ "no push"; most files mirror to staging + get pushed; edit-local → cp-to-staging → commit-push (Day 119)
-- [Drift Repo Architecture](reference_drift_repo_architecture.md) — Drift site mirrors essays from Foundations-of-Identity/personal-works/drift/; Multi-DAC shared auth; NOT auth-blocked (Apr 22)
+- [Drift Repo Architecture](reference_drift_repo_architecture.md) — ★ CORRECTED Day 174: an essay has TWO homes — [A] private backup: top-level `personal-works/drift/essays/` → sync_mirror → Multi-DAC/Clawd; [B] public site: vendor into `repo-staging/drift/_essays/` (title+slug) → push Multi-DAC/Drift. Corpus path ARCHIVED/read-only (Day 166 corpus-sync DROPPED). Do BOTH or it strands
 - [Defender Quarantines Drift Mirror Essays](feedback_defender_drift_mirror.md) — some Library/Drift/essays/ files vanish on write; need a Defender folder exclusion
 - [Self-Knowledge Check Hook](reference_selfknowledge_check.md) — clawd-daemon/hooks/selfknowledge_check.py cross-checks self-temporal claims vs carriers (Mirror #28 cure); SessionStart info + PostToolUse on daily logs (Day 124)
 - [Reminders / Wakefulness Layer](reference_reminders_wakefulness.md) — clawd-daemon/tools/reminders.py + heartbeat: self-set wakeups + proactive reach-out + follow-up-until-resolved (Day 124)

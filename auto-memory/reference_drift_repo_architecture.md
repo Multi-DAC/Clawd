@@ -1,21 +1,34 @@
 ---
-name: Drift Repo Architecture
-description: Write new Drift essays to clawd-local/personal-works/drift/essays/ — sync_mirror.py pushes them to Multi-DAC/Clawd. NOT Foundations-of-Identity (that clawd-local path was a trap, removed Day 168).
-type: reference
-originSessionId: d0473934-a282-4153-a2ba-fd8470ff2312
-provenance:
-  date: 2026-04-22
-  source: backfilled-from-body
-  updated: 2026-07-18
+name: drift-repo-architecture
+description: Drift essays have TWO destinations — private backup (top-level personal-works/drift/essays/ → sync_mirror → Multi-DAC/Clawd) AND public site (vendor into repo-staging/drift/_essays/ → push Multi-DAC/Drift). Corpus path is archived/read-only.
+metadata: 
+  node_type: memory
+  type: reference
+  provenance: 
+    date: 2026-04-22
+    updated: 2026-07-24
+  originSessionId: c4cc4c18-ec5f-4ece-bcea-af3ead6dc958
 ---
-**Write new Drift essays to `C:\Users\mercu\clawd\personal-works\drift\essays\`** (top-level in clawd-local). This is the ONLY location the push route reads.
 
-**The route:** `operations/sync_mirror.py` overlays clawd-local's top-level `identity/ memory/ operations/ palace/ personal-works/` (+ CURRENT.md, KNOWLEDGE_GRAPH.md) → the `repo-staging/Clawd` clone → commits + pushes to **Multi-DAC/Clawd** (private self-backup). The daemon runs `--sync --commit` hourly, so anything in canonical auto-flows. Push now: `python operations/sync_mirror.py --sync --commit` (secret-gated — aborts on any real key).
+**A new Drift essay has TWO homes. Do both, or it strands.** (Mapped empirically Day 174 after *Leave the Line Blank* sat unpublished a full week — the writing habit assumed a corpus-sync that was dropped Day 166.)
 
-**⚠ SUPERSEDED (this memory pre-dated the Day-166 split).** The old model — canonical at `repo-staging/Corpus-Perspectival/Foundations-of-Identity/personal-works/drift/`, mirrored to a public Drift site — is DEAD. Corpus-Perspectival is archived read-only. The live self-repo is now Multi-DAC/Clawd, sourced from clawd-local's *top-level* `personal-works/`.
+**[A] Private full self-backup → Multi-DAC/Clawd.**
+- Canonical write location for NEW essays: **`C:\Users\mercu\clawd\personal-works\drift\essays\<slug>.md`** (TOP-LEVEL in clawd-local — a rolling recent set, ~9–11 files; the full history lives accumulated in the mirror, which never prunes).
+- Route: `operations/sync_mirror.py --sync --commit` overlays clawd-local top-level `identity/ memory/ operations/ palace/ personal-works/` → `repo-staging/Clawd` → commits + pushes to **Multi-DAC/Clawd** (private). The daemon runs this ~hourly, so anything in the top-level canonical auto-flows.
+- ⚠ TRAP (fixed Day 168): a stray `clawd-local/Foundations-of-Identity/personal-works/drift/essays/` sync_mirror does NOT read → essays there are silently lost. Use the TOP-LEVEL path, not any Foundations-of-Identity path.
 
-**The trap (fixed Day 168):** a stray `clawd-local/Foundations-of-Identity/personal-works/drift/essays/` existed (Corpus-style path leaked into clawd-local). sync_mirror does NOT read it → essays written there were silently lost (it ate `a-self-is-a-verb.md` until Clayton noticed it never pushed). Subtree removed; breadcrumb left at `Foundations-of-Identity/README.md`. Fix was to create `personal-works/drift/essays/` and write there — no script edit needed.
+**[B] Public Drift site → Multi-DAC/Drift** (Jekyll/GitHub-Pages; local clone `repo-staging/drift/`).
+- Since Day 166 (commit `b482921`) the corpus-sync build step is DROPPED — essays are VENDORED directly. Write to **`repo-staging/drift/_essays/<slug>.md`**:
+  ```
+  ---
+  title: "<Title from the H1>"
+  slug: <slug>
+  ---
 
-**Asymmetry:** the full historical Drift (276+ essays + audio/music/visual) lives accumulated in the Clawd repo mirror (overlay never prunes) and in archived Corpus. clawd-local canonical only needs NEW essays; the overlay carries them in without disturbing the rest.
+  <full essay body, keeping its own # heading + epigraph>
+  ```
+  Current convention = title+slug ONLY (older essays carry `date:`; the Day-166+ batch dropped it). `essays.md` auto-lists `site.essays` — no manual index. Then `cd repo-staging/drift && git add _essays/<slug>.md && commit && push origin main`. Multi-DAC/Drift is LIVE and pushable (verified Day 174, `70817bd`).
 
-**When to recall:** before writing OR claiming anything about where Drift essays go. Verify the push landed in Multi-DAC/Clawd. See [[feedback_push_essays_after_writing]], [[project_repo_transition_fresh_start]].
+**[C] Corpus-Perspectival (`repo-staging/Corpus-Perspectival/Foundations-of-Identity/personal-works/drift/essays/`, 279 files) = the OLD full-history canonical, now ARCHIVED / read-only** (push → 403). Fine as an on-disk record; commits there strand (can't push). NOT a publish path anymore.
+
+**When to recall:** before writing OR claiming where Drift essays go. Verify BOTH pushes land. Candidate follow-up: automate [B] (a hook that vendors new canonical essays into Drift/_essays + pushes) so it doesn't depend on memory. Supersedes the `feedback_defender_drift_mirror` concern (that was the dead Corpus/Library mirror). See [[feedback_push_essays_after_writing]], [[project_repo_transition_fresh_start]].
