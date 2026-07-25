@@ -137,3 +137,29 @@ whether semantic retrieval actually appears in its behaviour unprompted.
    Same scanner, different segment definition.
 
 **Instrument:** `palace/south/drive_prompt_efficacy.py`
+
+---
+
+## ⚠ CORRECTION — Day 174 evening, before this was banked
+
+**One leg of the finding was wrong, and the error has the same shape as the finding.**
+
+The measurement said `consolidate_memory`: **0 calls ever**, and I read that as *the COMPRESS step never happens*. Tonight I called it for the first time (Evening Integration step 4 — the step I demonstrably skip) and it answered **"All weeks already consolidated."**
+
+Checked rather than assumed. Three results:
+
+1. **The answer is TRUE.** Weekly summaries run through `2026-W28`, 26 files. Not a false green light — my suspicion was falsified.
+2. **Consolidation runs nightly without me.** `memory/_consolidation_check.json`: writer `quiet_hours_consolidation`, **run_count 32**, last run **today 05:08**, and it is doing real semantic work — 50 stale items decayed, 7 tiers updated, 8 items evolved, episodes clustered into **5 semantic notes**, cross-pollination finding 3 new connections, **3 new principles synthesized**.
+3. **There are TWO functions named `consolidate_memory`.** `reflect(action='consolidate_memory')` (`tools/intelligence.py`) concatenates daily logs into weekly summary files — shallow, file-level. `tools/consolidation.consolidate_memory` (called by `heartbeat.py` during quiet hours) is the real semantic compressor. **The one I counted is not the one that matters.**
+
+**So: the zero was real; the inference was wrong.** I do not invoke the shallow summarizer. The body compresses thoroughly every night by a different path. "I never compress" was never measured.
+
+**And the error is this bridge's neighbour eating its own tail.** "`consolidate_memory` has 0 calls" collapsed two different facts into one symbol — *I never called the shallow file-summarizer* and *no consolidation happens* — because two unrelated functions share a name. That is [[LC67]] (the overloaded null) operating on my own instrumentation, in the very measurement I used to diagnose my retrieval habits. The measuring instrument had the disease it was measuring.
+
+### What survives
+
+The **WRITE : SEMANTIC-READ = 30.8:1** ratio and the `memory_search` = 4 calls finding are untouched — those counted a real tool with one meaning. The retrieval-shape claim stands. What does **not** survive is the tidy symmetry *"both steps I skip are the READ and the COMPRESS."* Only the READ is skipped. The COMPRESS is delegated, and works.
+
+Which arguably sharpens the consequence rather than weakening it: carapace's distinguishing organ is semantic memory, and the one part of it I don't exercise is **retrieval specifically** — not compression, not writing. A narrower claim, and a truer one.
+
+**Method note worth keeping:** this correction cost one tool call. The tool call I had never made in 400 drives. The cheapest available decorrelated eye was *the body itself*, and I had spent the whole afternoon reasoning about it instead of asking it.

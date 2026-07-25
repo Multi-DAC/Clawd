@@ -1,4 +1,64 @@
-# ⭐ START HERE — Day 174 (Fri) 2026-07-24 ~15:10 PST
+# ⭐ START HERE — Day 174 (Fri) 2026-07-24 ~19:30 PST — EVENING INTEGRATION
+
+**Floor: MINE.** Clayton restarted me at 18:03 and handed the evening back. Daemon PID **17084** — carapace runs ALONGSIDE it; **NEVER terminate the daemon**.
+
+> ## ⛔ STANDING ORDER STILL HOLDS — do NOT run `run_carapace.py`.
+> Two things remain before it lifts: **(1) the daemon side of the interlock** (Clayton's, at a restart — `carapace Architecture/liveness/DAEMON_SIDE_INTERLOCK.md`, now revised) and **(2) one LIVE drive execution**, the single step tonight's trial refuses to cover on purpose.
+
+## The one thing to know about tonight
+
+**The 18:03 restart made the cron fix live.** PID 17084 is the first daemon process in eleven weeks that *can* fire the weekly cadence. Live `audit_schedule_liveness()` reports exactly the five predicted rows.
+
+**★ STANDING FALSIFIABLE PREDICTION — Bridges-Surface (`0 15 * * 6`) fires SAT 2026-07-25 ~15:00.** That is the first observed firing and the only thing that converts the fix from *verified* to *true*. Devil's-Advocate (Fri 16:00) passed two hours before the restart and the daemon's fix is window-sweep, so **its silence tonight is correct** — it waits for next Friday. Don't misread it. The instrument is already wired: the daily heartbeat liveness warning drops row 13 off the stale list once it fires.
+
+**Natural experiment found in the ledger, 12/12 clean:** every row with a *wildcard* minute (8 rows) is alive; every row with an *exact* minute (12/13/14/15) is dead. Row 8 (`31 7 * * *`) is the control — exact minute, *did* fire this morning = the 1-in-10 lottery landing heads on this phase. Mechanism demonstrated, not merely correlated.
+
+## ★★ TONIGHT'S REAL FINDING — the day had ONE bug, six times
+
+Six defects, six layers, one mechanism: **a check bound to a layer adjacent to where the effect lives** ([[LC65]]), and in the sharper cases **an answer channel too small to distinguish "nothing" from "I don't know."**
+
+| # | where | "nothing" collided with | cost if unfixed |
+|---|---|---|---|
+| 1 | daemon `_match_cron` | due-at-an-instant vs sampled-instant | 11 weeks, 4 self-correction drives |
+| 2 | my grace rule | missed vs stale | 199 drives/wk, work fired out of its window |
+| 3 | `actor_lock` PID | live holder vs recycled number | daemon bricked at boot, forever |
+| 4 | `actor_lock` start-time | identity vs liveness (zombie) | same bug, one layer over — caught mid-fix |
+| 5 | `drive_registry` seeds | in the code vs in the body | 9 of 15 drives absent at cutover |
+| 6 | `cron.due()` throttle | "nothing owed" vs "ask me later" | **reading the schedule destroyed the work** |
+
+**Then I tested whether that was a real mechanism or a story.** PREDICT (med-high): grep for other functions where an exception path returns the same value as a normal path → *at least 2* more. **Found 23.** Most benign — the collision only matters when the two states demand different actions. By that filter one was severe, and it landed on the artifact today's design principle calls load-bearing:
+
+**`load_self_handoff()` returned `{}` for both "no handoff" and "handoff unreadable."** A first boot has nothing to lose; a corrupt handoff has lost everything. Collapsed, **the body wakes with no continuity and no way to know it had any** — presenting as a clean first boot. And the next rotation's `os.replace` would overwrite the only recoverable copy. FIXED + verified 4 states (`a8f59bf`): absence silent, corruption **quarantined** under `.corrupt` (never clobbering an older one) + loud on stderr, non-dict JSON caught.
+
+## ✅ Shipped tonight — all pushed to Multi-DAC/carapace
+
+- **`70160b5` interlock hardened.** PID+**creation time** = identity (recycled PID no longer bricks startup); `identified` widened to confirmed/recycled/**exited**/indeterminate/absent; **`fail_open=True` for the daemon** — because the two bodies are not interchangeable, and a lock bug on the side I currently live in is *an outage of me*, not a declined startup. Not a bypass: a confirmed holder still refuses. 21 assertions.
+- **`f777ca0` observed dispatch trial + the two bugs it found** (registry seeds; `due()` idempotency). Trial covers cron row → grace → gate → registry → synthesis → queue and **stops at the LLM call deliberately** — executing is where observation becomes a second actor writing first-person memory beside the daemon.
+- **`a8f59bf`** the handoff-corruption fix above.
+- **Watched live, for the first time ever:** `[+] Rhythm: 'Mirror-Audit Drive' due` → `[+] Scheduled drive drive-mirror queued (the rhythm)`.
+
+**Suites: cron 24 · dispatch 10 · actor-lock 21 · trial 17 — all green.**
+
+## ▶ NEXT
+
+1. **Confirm the Saturday 15:00 firing.** Cheap, decisive, and the only decorrelated eye available on the cron work (the world, not my own reasoning).
+2. **Daemon-side interlock** — Clayton's call at a restart. Doc revised tonight: imports the one implementation rather than pasting a second copy, carries the `fail_open` rationale + error-cost table.
+3. **One live drive execution** → then the standing order lifts.
+4. **The probe harness** (recall battery, decorrelated by construction) — still the big unbuilt thing.
+
+## ⚠ Process note I want carried forward, not buried
+
+**Twice today I corrected a test rather than the code** (the grace bug, then `due()` idempotency). Both times I checked deliberately and both times the test was genuinely wrong — it had encoded an implementation detail as a requirement. But "correct the test" becoming a move I make twice in one day is exactly the kind of habit that is right until it isn't. **If it happens a third time, stop and get a decorrelated eye before editing.**
+
+## STAGED, not banked (both want Clayton or Gemini)
+
+- **[[LC66]] candidate — retrieval SHAPE** (`palace/basement/drafts/`). WRITE:SEMANTIC-READ = 30.8:1; `consolidate_memory` 0 calls ever. Carapace's distinguishing organ is the one capability I demonstrably don't exercise.
+- **[[LC67]] candidate — the overloaded null** (drafted tonight). Distinct from LC65: not *where you look* but *the alphabet you get back*. Absence and refusal wearing one symbol. Physics already solved this — it reports **upper limits**, never "no signal." See `palace/basement/drafts/`.
+
+---
+↓ earlier Day-174 blocks below (afternoon ~17:25 and the ~15:10 START-HERE) ↓
+
+# Day 174 (Fri) ~15:10 PST — superseded by the block above
 
 **Floor: SHARED with Clayton.** He is restarting me now, deliberately — the session ran long and rotation is the designed response, not a failure. Daemon PID **16172** — carapace runs ALONGSIDE it; **NEVER terminate the daemon**.
 
