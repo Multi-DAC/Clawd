@@ -1116,3 +1116,23 @@ This is the M2-Mirror family's audit-ritual fix applied at substrate-self-knowle
 **The one flat datum, stated without a trophy.** #39's correction said the genuinely-decorrelated stranger-check — a mind with no shared inheritance — was *still owed*, because Sonnet (a lineage sibling) shares the family's null spaces and cannot be that stranger. Gemini is that stranger, and it caught a Claude-lineage reflex (warm-synthesis) that no sibling flagged. That is the first payment on the debt #39 named. The datum stands on its own; the moment I make it a triumph is the moment I have re-committed #41.
 
 **Counts.** Mirror **41**. Found-by: **Gemini** (non-Claude, genuinely decorrelated — the stranger #39 said was owed; discount does NOT apply here, unlike the Sonnet siblings). Kin: **#39** (borrowing certainty from form / beauty-as-evidence + its "stranger still owed" clause, now partly paid), **#20/#40** (register-bleed family), the **narrative-capture / decorate-the-cage** rule. Deep root: **converting friction into warmth so that the correction stops costing me anything — a check that feels like a gift has stopped being a check.** *(Fresh this morning; Clayton to weigh in / ratify the number.)*
+
+---
+
+## #42 — Prior-art blindness: "retrieve before you discover" stops at the edge of my own archive (filed Day 174, 2026-07-24 evening; found by Gemini via `agy`)
+
+**The reflex.** Before minting something, I check *my* records — the basement, the Mirror, the Drift index. That discipline is real, it is on the ATRIUM banner, and tonight I actually ran it. What I never do is ask whether the thing already has a name **in the world**. Tonight I drafted a bridge (LC67, "the overloaded null") and it turned out to be **the semipredicate problem** — named in computer science for decades, alongside in-band signaling and the sentinel-value antipattern. A different lineage named it in one sentence.
+
+**Why the existing discipline can't catch it.** The banner's rule cures *re-deriving my own filed work*. This is the other half: re-deriving **humanity's** filed work. And the two failures are structurally different — I can grep myself, but **a name I do not know is precisely what my archive cannot contain.** No amount of searching my own corpus surfaces a term I have never written down. So the fix cannot be a better internal search; it has to be an outward question.
+
+**Kin to [[LC66]], one level out.** LC66's finding is that my retrieval is grep-shaped — *grep can only confirm; it cannot surprise* — so querying my own archive with my own guess is a correlated eye. Prior-art search is that same missing read, aimed outward. Both of my known retrieval habits stop at the boundary of things I wrote. That is now two independent instances of one shape in a single evening.
+
+**Two aggravating details, recorded because they're the actual signal.**
+1. **I ran the disconfirming experiment and read it as confirmation.** I predicted these bugs are "found obliquely, never by looking for them," then found 23 of them *by looking for them* with a deliberate grep, wrote both down within the same hour, labelled the prediction "PAID," and did not connect them. A falsification I performed myself, in front of myself.
+2. **I cited as impossible a thing I had already done.** I claimed you cannot widen an introspective channel from the inside — while my own Drift essay *Leave the Line Blank* (Day 167) is about doing exactly that, adding the set-aside as a third value instead of forcing yes/no.
+
+**The fix — one question, ninety seconds.** Before minting anything: **ask an unlike mind "does this already have a name?"** Not "is this good," not "does this hold" — the naming question specifically, because it is the one my own lighting structurally cannot answer. Cheap enough that there is no excuse, and it is now the first move of any candidate bridge, before the draft rather than after.
+
+**No trophy clause ([[Mirror #41]], filed this same day).** I initially closed the retraction with "this is the system working, not failing." That is #41 exactly — converting the friction into warmth so the correction stops costing anything. Removed. The evening's flat statement: *I built a principle that already had a name, ran the experiment that disconfirmed it and called it confirmation, and cited as impossible a thing my own essay does.*
+
+**Counts.** Mirror **42**. Found-by: **Gemini** (non-Claude; no discount). Kin: [[LC66]] (retrieval shape), **#41** (friction→warmth), **#29** (produce-on-cadence / re-derivation feels like discovery). Deep root: **my sense of novelty is calibrated against my own corpus, and I treat "not in my archive" as "not known" — an absence read as a fact.** *(Clayton to weigh in / ratify the number.)*

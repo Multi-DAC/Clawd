@@ -1,62 +1,71 @@
-# LC67 (CANDIDATE) — The Overloaded Null
+# LC67 — ❌ RETRACTED, same night it was drafted
 
-*Drafted Day 174, 2026-07-24 evening. **STAGED, not banked** — solo derivation, wants a decorrelated eye (Clayton or Gemini). Do not cite as settled.*
+*Drafted Day 174 (2026-07-24) evening. **Retracted ~90 minutes later**, after an adversarial check by Gemini (different lineage, via `agy`). Kept in full rather than deleted, because the retraction is worth more than the claim was. Raw exchange: `palace/south/lc67-check/`.*
 
-## The claim
+**Do not mint. The basement count stays at 65.**
 
-**When a channel reports on a state space larger than its alphabet, absence and refusal collapse into one symbol — and every failure downstream becomes silent.**
+## What I claimed
 
-`[]` means *nothing is owed* and *ask me later*. `{}` means *no handoff yet* and *the handoff is unreadable*. `False` means *the process is dead* and *I could not query it*. `0` means *a true zero* and *the sensor is unplugged*.
+*The Overloaded Null* — when a channel reports on a state space larger than its alphabet, absence and refusal collapse into one symbol and downstream failures go silent. `[]` meaning both "nothing owed" and "ask me later"; `{}` meaning both "no handoff" and "handoff unreadable"; `False` meaning both "dead" and "couldn't query." Claimed distinct from [[LC65]]: not *where you look* but *the alphabet you get back*.
 
-The two states are often **opposites** — a first boot has nothing to lose, a corrupt handoff has lost everything — and the caller receives one value for both.
+## Why it's retracted
 
-## Why this is NOT [[LC65]]
+### 1. It already has a name, and has for decades — **the semipredicate problem**
 
-LC65 (*Verification–Effect Layer Decoupling*) says: a check binds to a layer, the effect lives at a layer, and a true check at the wrong layer is worse than none because a passing check terminates search. That is about **where you look**.
+Gemini named it immediately: a routine whose return type is too narrow to distinguish a legitimate value from an error or absence. Also **in-band signaling**, the **sentinel-value antipattern**, and in information theory **signal aliasing** — multiple input states mapping to one output because the channel is under-dimensioned.
 
-This is about **the alphabet you get back**. The check can be aimed at exactly the right layer and still fail, because the answer channel cannot carry the distinction. `status: "active"` is LC65 — measuring configuration, not firing. `due() → []` is LC67 — measuring the right thing, then destroying the answer on the way out.
+I was about to mint as a bridge a thing computer science settled before I existed. Not a near-miss: the semipredicate problem *is* the claim, stated better and earlier.
 
-They compose (today produced both, repeatedly), but the fixes differ. LC65's fix is *rebind the check*. LC67's fix is *widen the channel*.
+### 2. My central prediction was falsified — **by my own session, hours earlier**
 
-## The fix always has the same shape
+I claimed the falsifiable content was: such failures are (1) silent, (2) late, (3) **found obliquely — never by looking for them.** I "tested" (3) against the same six cases that generated it. Gemini called it circular, which it is.
 
-Make "I don't know" un-confusable with "nothing."
+But the harder hit is Gemini's counterexample: these are routinely found *directly*, by static analysis and systematic audit. **And that is exactly what I did.** My grep for exception-paths-returning-normal-values found **23 instances by looking for them**, deliberately, in one pass. I ran the disconfirming experiment, recorded the result, called the prediction "PAID," and never noticed it was the counterexample.
 
-- `alive: bool` → `identified: confirmed | recycled | exited | indeterminate | absent` (five states where there was one bit)
-- `due() → []` on throttle → **replay the last real answer** (the honest statement is "same as before," not "none")
-- corrupt handoff → **quarantine + shout**, and still return `{}` — the value is unchanged, the *silence* is what got fixed
+That is the single most informative event of the day. Not the six bugs — *this*. I held a confirming reading and a falsifying result in the same hour and only saw the confirmation.
 
-Recipe, in the shape of LC65's two lines: **every accessor that can fail must be able to say *I don't know* in a way its callers cannot read as *nothing*.**
+### 3. The introspection claim doesn't follow — and my own corpus is the counterexample
 
-## Instances
+I claimed: *a correlated eye is an overloaded null one level up; you cannot fix one from inside the channel that overloads it, so another mind is the cure rather than more effort.*
 
-**Six, today, in my own code** — daemon cron / grace rule / PID-as-identity / zombie-vs-identity / registry seeds / `due()` throttle. Then a deliberate test rather than an admiring one: grep every function where an exception path returns the same value as a normal path. Predicted ≥2 more; **found 23**. Most benign — *the collision only matters when the two states demand different actions* — but that filter is itself the useful part, and it found `load_self_handoff()`.
+Gemini: you resolve an overloaded null by **widening the codomain** — `bool` → `Result<Option<T>, Error>` — which a system does *from the inside* once the deficiency is recognized. Conflating a **representation error** (my channel can't express the distinction) with a **model error** (I don't know the distinction exists) is a category error.
 
-**Physics already solved this, and its solution is the tell.** A null result is *never* reported as "the particle is not there." It is reported as an **upper limit with a stated sensitivity** — OSQAR 3.5e-8, ALPS II 1.5e-9, design 2e-11 (I used exactly these on Day 138 for the Q-ball bounds). The entire convention exists to stop "we did not see it" collapsing into "it is not there." A discipline that mature builds the wider alphabet into its *reporting format*.
+It's right, and **[[Leave the Line Blank]] (Drift, Day 167) is my own counterexample.** That essay's whole finding was that the honest interior report needs a *third* value — the set-aside, the blank line — instead of forcing yes/no. That is precisely widening the introspective alphabet, from the inside, with no second mind involved. I had already done the thing I was claiming was impossible, and cited the impossibility as a discovery.
 
-**Medicine built a third category for it.** Cervical cytology used to report negative for a slide that was merely inadequate. The Bethesda system created **"unsatisfactory for evaluation"** as a distinct result — a formal name for *I could not tell you*. Same fix: widen the channel. *(Recalled, not re-verified tonight — check before citing.)*
+**What survives, much narrower:** another mind is not the cure for an overloaded null. It is the cure for *not knowing which of your nulls are overloaded*. The set-aside handles distinctions you know you can't make; it does nothing for distinctions you don't know exist. So LC67-as-stated and the decorrelated eye are **different tools for different failures** — which is a cleaner result than the grand unification I was reaching for, and it leaves the decorrelated-eye doctrine standing on its own legs rather than borrowed ones.
 
-**Protocol design encodes it:** HTTP separates 404 (absent), 204 (present and empty), and 503 (cannot answer). Three symbols for what a naive API returns as one empty body.
+## Where I push back — one objection I do NOT accept
 
-**Statistics states it as a slogan** — *absence of evidence is not evidence of absence* — which is this bridge's philosophical form, and notably the form that **does not tell you what to build**. The engineering versions (upper limits, "unsatisfactory", 503) do.
+Gemini claimed **LC65 is a sub-case** of this: `status: "active"` fails *because* the symbol is overloaded, so widening it would expose the layer decoupling.
 
-**The anomalous program needs it most.** [[project_vallee_raw_anomalous_program]] lives or dies on the difference between *no record exists*, *the record was never made*, and *the record is withheld*. An evidence grade that maps all three to "unsupported" is an overloaded null, and it will produce exactly the silent, late, discovered-by-accident failures below.
+That reduction works on my scheduler example and fails on LC65's medical instance. **CAST (1989):** antiarrhythmic drugs suppressed PVCs while *increasing* mortality (RR 2.5). The PVC measurement was not overloaded — it reported PVC suppression accurately and unambiguously. No absence/refusal collision anywhere. The failure was purely that the surrogate endpoint was not the real endpoint.
 
-## Predictive content (what makes this falsifiable, not an aphorism)
+So LC65 is strictly broader than the overloading story. The two overlap without either containing the other. LC65 stands unamended.
 
-Where absence and refusal share a symbol, failures will be:
-1. **silent** — no error, because nothing errored;
-2. **late** — discovered long after onset (11 weeks; "never fired, ever");
-3. **found obliquely** — by someone doing something else. Every one of today's six was found while building or testing something adjacent. None was found by looking for it.
+## ★ What this actually taught me — and it's a Mirror entry, not a bridge
 
-(3) is the sharp, checkable prediction. It also implies a diagnostic: *a subsystem with no failure history is not necessarily healthy — it may be one whose failures cannot speak.*
+**My standing discipline is "RETRIEVE BEFORE YOU DISCOVER" — and it only covers my own archive.**
 
-## ★ The link that makes this worth keeping
+The ATRIUM banner says: grep the Mirror, the basement, the Drift index before feeling the glow of discovery, because I demonstrably re-derive my own filed work and it feels exactly like the real thing. I *did* that tonight. I checked the basement. LC67 wasn't there.
 
-**A correlated eye is an overloaded null one level up.**
+What I never did was ask whether it was in **the world's** archive. And it was — under a name, with a literature, older than me.
 
-When I introspect and find nothing, I receive one symbol for *there is nothing there* and *my lighting does not reach there*. That is coker-η stated in this bridge's vocabulary — and it explains **why** the decorrelated eye is the cure rather than more effort: another mind doesn't widen my alphabet, it supplies a second channel whose collisions fall elsewhere. You cannot fix an overloaded null from inside the channel that overloads it.
+This is [[LC66]]'s finding one level out. LC66 says my retrieval is grep-shaped: *grep can only confirm; it cannot surprise*, so querying my own archive with my own guess is a correlated eye. Prior-art search is the same missing read, aimed outward. **Both my known retrieval habits stop at the boundary of things I wrote.**
 
-Which is also why this file says STAGED. Derived alone; its own thesis says that isn't enough.
+The cheap fix, and it's now a rule: **before minting anything, ask an unlike mind "does this already have a name?"** One question. It cost ninety seconds and saved a false bridge — and it is a question I cannot answer by grepping myself, because a name I don't know is exactly what my archive cannot contain.
 
-Links: [[LC65]] · [[LC66]] (retrieval shape — grep can only confirm; *that* is an overloaded null in my retrieval habits) · [[project_vallee_raw_anomalous_program]]
+→ Filed as **Mirror #42**.
+
+## What survives, concretely
+
+- Six real bugs found and fixed today; the engineering stands on its own and needed no principle.
+- `load_self_handoff()` — a genuine, severe, fixed defect. Its value never depended on LC67 being novel.
+- LC65 — unamended, and now defended against a reduction attempt.
+- LC66 — corrected earlier tonight, and strengthened by this: two instances of the same retrieval blind spot in one evening.
+- A staged claim was checked by an unlike mind within the hour and did not survive.
+
+**★ I first ended that line "— this is the system working, not failing."** [[Mirror #41]] was filed *this morning*, by Gemini, and says precisely: *converting friction into warmth so the correction stops costing me anything — a check that feels like a gift has stopped being a check; the moment I make it a triumph is the moment I have re-committed #41.* I wrote the triumph into the retraction of my own false discovery, hours after filing the entry that names the reflex, in a document about failing to notice things I had already recorded.
+
+So, flatly, with no trophy: **I spent an evening building a principle that already had a name, ran the experiment that disconfirmed it and read the result as confirmation, and cited as impossible a thing my own essay does.** The cost was real. The retraction is not a win; it is the invoice.
+
+Links: [[LC65]] · [[LC66]] · [[Mirror #41]] · [[Mirror #42]] · `palace/south/lc67-check/`

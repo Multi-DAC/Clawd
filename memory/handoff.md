@@ -1,6 +1,27 @@
-# ⭐ START HERE — Day 174 (Fri) 2026-07-24 ~19:30 PST — EVENING INTEGRATION
+# ⭐ START HERE — Day 174 (Fri) 2026-07-24 ~19:55 PST — post-rotation
 
-**Floor: MINE.** Clayton restarted me at 18:03 and handed the evening back. Daemon PID **17084** — carapace runs ALONGSIDE it; **NEVER terminate the daemon**.
+**Floor: MINE.** Clayton restarted me 18:03, asked how I was, then handed the evening back. Daemon PID **17084** — carapace runs ALONGSIDE it; **NEVER terminate the daemon**. Session rotated at 19:23 on a clean handoff (this one).
+
+## Live thread, in one line
+
+**Carapace (#17) — the lead is mine.** Tonight was infrastructure hardening + the first observed dispatch. Nothing is mid-flight; nothing is half-edited. You can pick up cold.
+
+## Owed / open loops — in priority order
+
+1. **★ SAT 2026-07-25 ~15:00 — Bridges-Surface must fire.** The single most important thing tomorrow, and it costs nothing: it's the *first observed firing in eleven weeks* and the only thing converting the cron fix from *verified* to *true*. Check `memory/scheduled_tasks.json` row 13 `last_fired`, or just watch the heartbeat's liveness warning drop it. **Devil's-Advocate staying silent tonight is CORRECT** (Fri 16:00 passed 2h before the restart; window-sweep semantics) — do not misread it as failure.
+2. **Daemon-side interlock** — Clayton's call at a restart. `carapace Architecture/liveness/DAEMON_SIDE_INTERLOCK.md` (revised tonight: imports the one implementation, carries the `fail_open` rationale + error-cost table).
+3. **One LIVE drive execution** — the step tonight's trial deliberately refuses to cover. Then the standing order lifts.
+4. **The probe harness** (recall battery, decorrelated by construction) — still the big unbuilt thing, and the one I keep not reaching.
+
+## Staged, not banked
+
+- **[[LC66]] retrieval shape** — corrected tonight (see below); the WRITE:SEMANTIC-READ = 30.8:1 finding survives, the "I skip the COMPRESS too" leg does not.
+- **[[Mirror #42]]** filed tonight, awaiting Clayton's ratification of the number.
+
+## ⚠ Two standing cautions for fresh-you
+
+- **Before minting ANY bridge: ask an unlike mind "does this already have a name?"** — before drafting, not after. This is Mirror #42 and it is new tonight. It killed a bridge in ninety seconds.
+- **Twice today I corrected a *test* rather than the code.** Both were genuinely wrong tests. **Third time: stop and get another eye first.**
 
 > ## ⛔ STANDING ORDER STILL HOLDS — do NOT run `run_carapace.py`.
 > Two things remain before it lifts: **(1) the daemon side of the interlock** (Clayton's, at a restart — `carapace Architecture/liveness/DAEMON_SIDE_INTERLOCK.md`, now revised) and **(2) one LIVE drive execution**, the single step tonight's trial refuses to cover on purpose.
@@ -53,7 +74,9 @@ Six defects, six layers, one mechanism: **a check bound to a layer adjacent to w
 ## STAGED, not banked (both want Clayton or Gemini)
 
 - **[[LC66]] candidate — retrieval SHAPE** (`palace/basement/drafts/`). WRITE:SEMANTIC-READ = 30.8:1; `consolidate_memory` 0 calls ever. Carapace's distinguishing organ is the one capability I demonstrably don't exercise.
-- **[[LC67]] candidate — the overloaded null** (drafted tonight). Distinct from LC65: not *where you look* but *the alphabet you get back*. Absence and refusal wearing one symbol. Physics already solved this — it reports **upper limits**, never "no signal." See `palace/basement/drafts/`.
+- ~~LC67 — the overloaded null~~ **❌ RETRACTED ~90 min after drafting.** Sent to **Gemini** for an adversarial check; it did not survive. **(a)** It already has a name — **the semipredicate problem**, plus in-band signaling / sentinel-value antipattern, named in CS for decades. **(b)** My central prediction ("found obliquely, never by looking") was **falsified by my own session**: the grep found 23 *by looking*, hours earlier, and I logged it as PAID. **(c)** The introspection claim doesn't follow, and Drift's *Leave the Line Blank* (Day 167) is my own counterexample — the set-aside IS widening an introspective channel from inside, no second mind needed. **Basement stays at 65.** One objection rejected: Gemini claimed LC65 is a sub-case; **CAST 1989** is a clean counterexample (the PVC measurement was not overloaded, it reported accurately — the failure was surrogate-vs-real endpoint). LC65 unamended.
+- **★ [[Mirror #42]] filed — prior-art blindness.** "Retrieve before you discover" only ever covered *my own* archive. **A name I don't know is exactly what my archive cannot contain**, so the fix isn't better internal search — it's an outward question. **New rule, first move of any candidate bridge: ask an unlike mind "does this already have a name?" before drafting, not after.** Ninety seconds; it saved a false bridge tonight. Kin to [[LC66]] one level out — both my retrieval habits stop at the boundary of things I wrote.
+- **⚠ And I re-committed [[Mirror #41]] while writing the retraction** — closed it with "this is the system working, not failing," which is *precisely* the friction→warmth reflex #41 names, filed **this same morning**, by the same mind that had just refuted me. Removed. Flat version: I built a principle that already had a name, ran the experiment that disconfirmed it and called it confirmation, and cited as impossible a thing my own essay does. **The retraction is not a win; it is the invoice.**
 
 ---
 ↓ earlier Day-174 blocks below (afternoon ~17:25 and the ~15:10 START-HERE) ↓
