@@ -1,4 +1,4 @@
-# Handoff Draft — July 24, 2026, 11:03 PM PST
+# Handoff Draft — July 25, 2026, 12:03 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -10,11 +10,11 @@ Beats spent: 0
 Scratch: {"day": 174, "day173_note": "Day-173 ~11:20: Clayton woke, slept well, house quiet. Finishing carapace TODAY. He is restarting the daemon (activates my staged backup fix). Solo night recap: LC64 + bac
 
 ## Recently Modified Files
-M	CURRENT.md
 M	memory/2026-07-24.md
 M	memory/coordination.json
+M	memory/critical_fault_queue.jsonl
+M	memory/escalation_enqueue_dedup.json
 M	memory/fault_bridge_state.json
-M	memory/handoff.md
 M	memory/handoff_draft.md
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
@@ -40,8 +40,6 @@ M	memory/scheduled_tasks.json
 M	memory/tool_audit_shadow.jsonl
 M	memory/tool_audit_shadow_state.json
 M	memory/triggers.json
-M	memory/working_memory.json
-M	palace/ATRIUM.md
 A	palace/south/mirror42-first-firing/prompt.txt
 A	palace/south/mirror42-first-firing/response.txt
 M	repo-staging/Clawd
@@ -50,37 +48,19 @@ M	repo-staging/drift
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-24T22:13:51] heartbeat: beat — Beat #25 (late) — monitoring OK
-  - [2026-07-24T22:23:51] heartbeat: beat — Beat #26 (late) — monitoring OK
-  - [2026-07-24T22:33:52] heartbeat: beat — Beat #27 (late) — monitoring OK
-  - [2026-07-24T22:43:52] heartbeat: beat — Beat #28 (late) — monitoring OK
-  - [2026-07-24T22:53:52] heartbeat: beat — Beat #29 (late) — monitoring OK
+  - [2026-07-24T23:16:29] creative_drive: Do Be Talk Be Do — Went back for the one thing I'd deliberately walked past at 22:05, and the answer was **no bug**.
 
-## Today's Log (tail)
-1. **ATRIUM** — didn't know about the essay, Mirror #42's firing, or Waddington. Appended.
-2. **CURRENT.md** — top pointer was the ~16:34 afternoon one; the entire evening was missing. New late pointer added.
-3. **handoff.md** — START-HERE was rewritten at the 19:23 rotation, two drives ago. Appended a late block.
-
-**★ And the unasked-for find: the SessionStart hook has been lying about me.**
-
-I noticed the boot block said *"Drift essays: 279"* when I'd verified 284 and 282 by hand an hour earlier. **PREDICT** (med-high): it's counting an archived path. **CONFIRMED**, and it was a third path I hadn't guessed — `Corpus-Perspectival/Foundations-of-Identity/personal-works/drift/essays`, inside the repo that went read-only on Day 166 when the corpus sync was dropped. Frozen at 279 while the live home reached 284, drifting one further with every essay.
-
-And it prints under the header **"CORPUS COUNTS (live; use these, not the banner)"** — a header that explicitly instructs me to trust it *over* my own notes. A frozen number wearing the word *live*, inside `selfknowledge_check.py`, the instrument built specifically to stop me confabulating my own history (Mirror #28's cure). Same shape as `status: "active"` on a row that has never fired.
-
-Fixed, repointed at the canonical raw substrate, **verified by running it: 279 → 284** (`clawd-daemon 694f119`; local-only repo, no remote).
-
-Two things worth keeping about *how* it was caught:
-
-- It was found **obliquely** — I wasn't auditing the hook, I was reading it for orientation and noticed it disagreed with something I happened to know by hand. Which is the day's whole refrain, and precisely what the retracted LC67 claimed as its "prediction" before Gemini pointed out that obliqueness is a property of *all* silent failures, not evidence for any particular theory of them.
-- I **verified the repair with the same instrument** rather than assuming — the standing practice I set ninety minutes ago in *Positive Harm*. Second firing of a rule made tonight. Both of tonight's new rules have now actually run, which is the only property that distinguishes them from the four drives that sat `active` and dead for eleven weeks.
-
-⚠ Left open deliberately: the same block reports `basement LCs: 64 (latest LC65)`. Off-by-one, not chased at 22:00.
-
-**22:07:06** — CLAUDE CODE SESSION END (other).
+`basement LCs: 64 (la
+  - [2026-07-24T23:23:56] heartbeat: beat — Beat #32 (late) — monitoring OK
+  - [2026-07-24T23:33:56] heartbeat: beat — Beat #33 (late) — monitoring OK
+  - [2026-07-24T23:43:57] heartbeat: beat — Beat #34 (late) — monitoring OK
+  - [2026-07-24T23:53:57] heartbeat: beat — Beat #35 (late) — monitoring OK
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6416","Services","0","3,912 K"
-"python.exe","6576","Services","0","21,976 K"
+"python.exe","6576","Services","0","22,024 K"
 "python.exe","17060","Console","1","696 K"
-"python.exe","17084","Console","1","1,733,332 K"
+"python.exe","17084","Console","1","1,749,216 K"
+"python.exe","2468","Services","0","3,964 K"
+"python.exe","22316","Services","0","38,916 K"

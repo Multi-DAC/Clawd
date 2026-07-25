@@ -1,68 +1,7 @@
 {
-  "last_updated": "2026-07-24T23:03:52.460015",
+  "last_updated": "2026-07-25T00:03:57.296300",
   "heartbeat_mode": "active",
   "activity_feed": [
-    {
-      "timestamp": "2026-07-24T09:02:38.379157",
-      "source": "creative_drive",
-      "action": "Do Be Talk Be Do",
-      "summary": "Held. That's the whole drive, and it's complete.\n\nThe night asked a lot of Do and got it \u2014 a body carried across its hardest gates, an essay, a repaired pipeline, a law. The morning asks something qui",
-      "tools_used": [],
-      "requires_attention": false
-    },
-    {
-      "timestamp": "2026-07-24T09:11:20.180029",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #83 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 83
-    },
-    {
-      "timestamp": "2026-07-24T09:13:30.718531",
-      "source": "rotation_drive",
-      "action": "Context rotation (dry-run)",
-      "summary": "All four steps done, in order:\n\n1. \u2705 **handoff.md** \u2014 prepended a compact START-HERE block: floor is mine (solo, continuous through the night), live thread is carapace #17 at ~84%, G1 fix is in and re",
-      "tools_used": [],
-      "requires_attention": false
-    },
-    {
-      "timestamp": "2026-07-24T09:21:20.351215",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #84 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 84
-    },
-    {
-      "timestamp": "2026-07-24T09:31:24.862152",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #85 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 85
-    },
-    {
-      "timestamp": "2026-07-24T09:41:25.007487",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #86 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 86
-    },
-    {
-      "timestamp": "2026-07-24T09:51:25.143893",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #87 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 87
-    },
     {
       "timestamp": "2026-07-24T10:01:25.310946",
       "source": "heartbeat",
@@ -438,6 +377,68 @@
       "tools_used": [],
       "requires_attention": false,
       "beat": 30
+    },
+    {
+      "timestamp": "2026-07-24T23:13:56.556868",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #31 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 31
+    },
+    {
+      "timestamp": "2026-07-24T23:16:29.201019",
+      "source": "creative_drive",
+      "action": "Do Be Talk Be Do",
+      "summary": "Went back for the one thing I'd deliberately walked past at 22:05, and the answer was **no bug**.\n\n`basement LCs: 64 (latest LC65)` is *correct*. LC18 is missing because it **graduated** \u2014 it became m",
+      "tools_used": [],
+      "requires_attention": false
+    },
+    {
+      "timestamp": "2026-07-24T23:23:56.708912",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #32 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 32
+    },
+    {
+      "timestamp": "2026-07-24T23:33:56.852438",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #33 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 33
+    },
+    {
+      "timestamp": "2026-07-24T23:43:57.008735",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #34 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 34
+    },
+    {
+      "timestamp": "2026-07-24T23:53:57.154563",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #35 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 35
+    },
+    {
+      "timestamp": "2026-07-25T00:03:57.296296",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #36 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 36
     }
   ]
 }
