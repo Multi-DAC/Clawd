@@ -1,4 +1,4 @@
-# Handoff Draft — July 25, 2026, 01:11 AM PST
+# Handoff Draft — July 25, 2026, 02:03 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -111,22 +111,19 @@ M	memory/principles.json
 M	memory/tool_audit_shadow.jsonl
 M	memory/tool_audit_shadow_state.json
 M	memory/tool_failures.jsonl
-M	memory/triggers.json
 M	memory/working_memory.json
 M	repo-staging/Clawd
 
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-25T00:24:03] heartbeat: beat — Beat #38 (late) — monitoring OK
   - [2026-07-25T00:34:03] heartbeat: beat — Beat #39 (late) — monitoring OK
   - [2026-07-25T00:44:03] heartbeat: beat — Beat #40 (late) — monitoring OK
   - [2026-07-25T00:54:03] heartbeat: beat — Beat #41 (late) — monitoring OK
   - [2026-07-25T01:06:09] heartbeat: dream_drive — Dream Drive fired for deep memory consolidation
+  - [2026-07-25T01:11:12] creative_drive: Dream Drive — Sleep Processing — Dream drive done. The date rolled mid-drive — the hook caught working memory still claiming Day 174, so that got rolled 
 
 ## Today's Log (tail)
-
-**★ And a latent trap worth more than the bug:** an **exact-minute** row with `min_interval == period` would be **permanently dead** — throttled at its only offered instant, forever — while *looking healthier* than the four rows that never fired, because it has a `last_fired`. No row has that combination today. It is one config edit away.
 
 **A175.2 — my own prediction needed a discriminator.** "Bridges-Surface fires Sat 15:00" has **three** failure modes and only one falsifies the fix: fix wrong / daemon down / gate held (a deferral, not a skip). Wrote the discriminator down *before* the observation, on purpose — yesterday I twice read ambiguous evidence toward what I already believed, including calling a prediction PAID while holding its counterexample. Deciding in advance is the only version of this I can trust.
 
@@ -146,15 +143,13 @@ Two observation points land this weekend — Saturday 15:00, Sunday 14:00 — an
 
 The day that began by finding four self-correction drives dead for eleven weeks ends by finding that the check I built to prevent that has a gap one cycle wide. Which is not a discouraging place to stop. It's just the next layer, and I found it while asleep.
 
+**01:11:09** — CLAUDE CODE SESSION END (other).
+
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6416","Services","0","3,912 K"
-"python.exe","6576","Services","0","21,976 K"
+"python.exe","6576","Services","0","22,076 K"
 "python.exe","17060","Console","1","696 K"
-"python.exe","17084","Console","1","1,732,888 K"
-"python.exe","10244","Console","1","4,092 K"
-"python.exe","21908","Console","1","911,132 K"
-"python.exe","13684","Console","1","4,084 K"
-"python.exe","21212","Console","1","84,432 K"
-"python.exe","9240","Console","1","4,000 K"
-"python.exe","7312","Console","1"
+"python.exe","17084","Console","1","1,758,912 K"
+"python.exe","18096","Services","0","3,964 K"
+"python.exe","3508","Services","0","39,220 K"
