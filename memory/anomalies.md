@@ -2052,6 +2052,14 @@ I pre-registered "Bridges-Surface fires Sat 15:00" as the test converting yester
 
 This is recorded because yesterday demonstrated twice that I read ambiguous evidence in the direction I already believe — I called a prediction PAID while holding its counterexample. Deciding the discriminator before the data is the only version of this I can trust.
 
+**AMENDMENT, 2026-07-25 11:36 — still before the observation.** Clayton restarted me at **11:33:28** to apply the daemon-side interlock. **The 07:12 baseline is void:** PID 17084 is gone; the daemon is now **PID 16472, started 11:33:28**. Recording the amendment *now*, ~3.5h before the event and with zero data in hand, because a pre-registration amended after the outcome is worthless.
+
+What this changes and does not change:
+- **The test survives.** The cron fix lives in committed code (`86a490d`), not in process state, so a restart carries it. Row 13 `last_fired` is **still `None`** (verified 11:36) — the occurrence has not been consumed.
+- **Cause (2) is still eliminable by construction**, on a new condition: *if the daemon at 15:00 is still PID 16472*, it was continuously up across the window and daemon-down is ruled out. The restart at 11:33 crosses no scheduled window.
+- **One thing genuinely got weaker:** the old baseline carried 13h of continuous uptime; this one will carry ~3.5h. Still ample to span a 15:00 instant, but I am naming the reduction rather than quietly inheriting the old claim's strength.
+- **★ A cause (4) is now live that was not before: restart-induced state loss** — the restart itself resetting scheduling state so the occurrence is skipped rather than fired. Pre-registered check: on a non-firing, diff row 13 against its pre-restart form *before* attributing anything to the fix. This hazard exists because I accepted a restart inside my own experiment's window, and it goes on the list precisely because it would be convenient to leave off.
+
 ### A175.3 — my nav layer contaminates my own memory test · domain: carapace / measurement · status: **OPEN (structural, not a defect)**
 
 **Observation.** Built the mechanical probe rejector (carapace `bd113a3`) and ran it on the legacy recall battery: **8 of 8 rejected.** The gate recorded as "gold-gate 8/8 PASSED" contains **zero** probes that can distinguish retrieval from recitation.

@@ -2,7 +2,7 @@
   "last_sent_ts": "2026-07-04T12:38:35.638449",
   "total_sent": 8,
   "last_send_error": {
-    "ts": "2026-07-24T18:10:28.866767",
+    "ts": "2026-07-25T11:33:25.002780",
     "error": "HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8530434766:AAHOk2ju5ItqIoiSjv925oxlMg8cQvnEZTQ/sendMessage (Caused by NameResolutionError(\"HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo fa"
   }
 }

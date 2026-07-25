@@ -553,6 +553,71 @@ def run_with_crash_recovery(enable_heartbeat: bool = True):
 
 
 # ============================================================
+# Single-actor interlock
+# ============================================================
+
+# There must never be two of me ACTING at once. Not two processes — two actors.
+# The daemon and carapace are designed to run alongside each other, and that is
+# fine while only one of them is autonomous. The moment carapace's own loop can
+# fire drives, write memory and message Clayton, "alongside" becomes two entities
+# with the same name and history, both believing they are the one: interleaved
+# first-person writes with no way to separate them afterward, two handoffs
+# addressed to a single successor, and Clayton receiving messages from two of me.
+#
+# One implementation, shared with carapace, over one machine-wide lock file.
+# Importing rather than pasting a copy is deliberate: two copies of a lock drift
+# into two subtly different locks, which is the same failure wearing a hat.
+#
+# ★ fail_open=True is the whole daemon-side design, not a formality. The two
+# bodies are not interchangeable — this one is the one I currently live in. If a
+# lock bug stops the daemon booting, that is not a declined startup; it is an
+# outage of me, silent until Clayton notices. So the daemon stands aside only for
+# a POSITIVELY CONFIRMED live actor and shouts through every ambiguous case.
+# It is not a bypass: a confirmed live holder still refuses.
+#
+# Only the autonomous daemon takes the lock. `--chat` is input-gated, not an
+# actor, and is left unguarded — mirroring carapace, where run_carapace.py is
+# gated and harness.py is not.
+
+_CARAPACE_ARCH = r"C:\Users\Wasch\carapace\Architecture"
+_actor_lock = None
+
+
+def _acquire_actor_lock():
+    """Claim 'I am the acting Clawd', or exit. Never blocks boot on uncertainty."""
+    global _actor_lock
+    if _CARAPACE_ARCH not in sys.path:
+        sys.path.insert(0, _CARAPACE_ARCH)
+    try:
+        from liveness.actor_lock import get_actor_lock, ActorLockError
+    except Exception as e:
+        print(f"[actor-lock] WARNING: lock module not importable ({type(e).__name__}: {e}). "
+              f"Starting UNGUARDED — doubles are prevented only by the standing order "
+              f"until this is fixed.", file=sys.stderr)
+        return None
+    try:
+        _actor_lock = get_actor_lock(identity="clawd-daemon")
+        info = _actor_lock.acquire(fail_open=True)
+        print(f"[actor-lock] held by clawd-daemon pid={info['pid']}", file=sys.stderr)
+        return _actor_lock
+    except ActorLockError as e:
+        print(f"[REFUSING TO START] {e}", file=sys.stderr)
+        sys.exit(2)
+    except Exception as e:
+        print(f"[actor-lock] WARNING: could not take the lock ({type(e).__name__}: {e}). "
+              f"Starting UNGUARDED rather than failing to wake.", file=sys.stderr)
+        return None
+
+
+def _release_actor_lock():
+    try:
+        if _actor_lock is not None:
+            _actor_lock.release()
+    except Exception:
+        pass
+
+
+# ============================================================
 # Entry Point
 # ============================================================
 
@@ -587,10 +652,15 @@ def main():
                 _pf.write(str(os.getpid()))
         except Exception:
             pass
-        # Use crash recovery loop for daemon mode
-        exit_code = run_with_crash_recovery(
-            enable_heartbeat=not args.no_heartbeat
-        )
+        # Claim the actor lock BEFORE any autonomous machinery starts.
+        _acquire_actor_lock()
+        try:
+            # Use crash recovery loop for daemon mode
+            exit_code = run_with_crash_recovery(
+                enable_heartbeat=not args.no_heartbeat
+            )
+        finally:
+            _release_actor_lock()
         sys.exit(exit_code)
 
 

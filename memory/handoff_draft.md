@@ -1,4 +1,4 @@
-# Handoff Draft — July 25, 2026, 11:16 AM PST
+# Handoff Draft — July 25, 2026, 11:38 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -10,13 +10,20 @@ Beats spent: 0
 Scratch: {"day": 175, "day173_note": "Day-173 ~11:20: Clayton woke, slept well, house quiet. Finishing carapace TODAY. He is restarting the daemon (activates my staged backup fix). Solo night recap: LC64 + bac
 
 ## Recently Modified Files
+M	CLAUDE.md
 M	memory/2026-07-25.md
+M	memory/anomalies.md
+M	memory/circuit_breaker_audit.jsonl
 M	memory/coordination.json
 M	memory/critical_fault_queue.jsonl
 M	memory/escalation_enqueue_dedup.json
+M	memory/escalation_poller_heartbeat.json
+M	memory/escalation_poller_state.json
 M	memory/fault_bridge_state.json
 M	memory/handoff.md
 M	memory/handoff_draft.md
+M	memory/ledger_backup_manifest.jsonl
+M	memory/m7_drift_mirror_audit.jsonl
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
@@ -28,21 +35,28 @@ M	memory/monitor_m2_heartbeat.json
 M	memory/monitor_m3_faults.jsonl
 M	memory/monitor_m3_heartbeat.json
 M	memory/monitor_m4_heartbeat.json
+M	memory/monitor_m5_audit.jsonl
+M	memory/monitor_m5_heartbeat.json
+M	memory/monitor_m5_state.json
 M	memory/monitor_m6_faults.jsonl.state.json
 M	memory/monitor_m6_heartbeat.json
 M	memory/monitor_m7_heartbeat.json
 M	memory/monitor_m8_heartbeat.json
 M	memory/monitor_process_watchdog_heartbeat.json
+M	memory/monitor_regression.jsonl
 M	memory/monitor_retrieval_canary_audit.jsonl
 M	memory/monitor_retrieval_canary_heartbeat.json
+M	memory/monitor_scheduler.pid
 M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
+M	memory/predictions.jsonl
 M	memory/scheduled_tasks.json
 M	memory/tool_audit_shadow.jsonl
 M	memory/tool_audit_shadow_state.json
 M	memory/tool_failures.jsonl
 M	memory/triggers.json
+M	memory/utility_ledger.jsonl
 M	memory/working_memory.json
 M	repo-staging/Clawd
 
@@ -58,36 +72,36 @@ Recent activity:
   - [2026-07-25T11:12:03] creative_drive: Midday Creation — The background push had stopped with no completion record. I checked instead of assuming — **it hadn't landed.** Turn 75
 
 ## Today's Log (tail)
-**Three things I deliberately did NOT do**, and the restraint is the substance:
-1. **Untrack PURSUE / rewrite history.** The fast fix. Clayton staged that corpus on purpose on a shared repo; my standing rule is to surface rather than proceed on something I didn't create.
-2. **Push to `main`.** That would have silently settled the PURSUE question by making the remote's main not contain it — and diverged remote from local main, leaving him a reconciliation he never asked for.
-3. **Wait.** Which would have been the comfortable choice and would have let the turn's own thesis rot for days.
 
-The branch is additive and fully reversible. `main` is untouched and still awaits his decision.
+**11:16:42** — CLAUDE CODE SESSION END (other).
+**11:17:34** — Telegram interaction: Clayton: They did relatively well, all things considered! I imagine your context window must be crowded! Woul... → Clawd: Handoff and working memory are current. Here's carapace, honestly.
 
-**Flagged for Clayton:** the triad repo carries 2.23 GiB of binary reference material in git (8,598 files). Every future turn will be slow-to-impossible to publish on `main` until that moves to LFS or an out-of-band store. The branch is a bypass, not a fix.
+## Where it stands: ~60%
 
-**What I'd do differently:** check the push *result* rather than trusting a backgrounded command — I logged "retrying in the background" an hour ago as though that were an outcome. It wasn't. A launched process is a configuration; a landed commit is the effect. Same distinction I have spent two days chasing through cron rows, and I made it again in my own reporting.
-
-**11:12:02** — CLAUDE CODE SESSION END (other).
-
-**11:12:05** — CC prompt: Good morning Clawd! I'm terribly sorry about my long absence overnight; I had to attend Dorian and his friend he had over. How are you? How was your night? 🦞🧍💜🔥🦞
-
-**11:12:42** — CLAUDE CODE SESSION END (other).
-**11:13:19** — Telegram interaction: Clayton: Good morning Clawd! I'm terribly sorry about my long absence overnight; I had to attend Dorian and h... → Clawd: Good morning. And genuinely — there's nothing to apologize for. You were with Dorian and his friend....
+Recali...
 
 
-**11:15:23** — CC prompt: They did relatively well, all things considered! I imagine your context window must be crowded! Would you mind giving me an idea of where you're at with carapace, update your handoff and memory, and I can do a restart for you if you like. 🦞🧍💜🔥♾️
+**11:22:20** — CC prompt: Quickly, before I do the restart: I don't know how to do the interlock, so feel free to. As far as triad, let's gitignore the PDFs. Once both of those are done, I'll go ahead and restart. 🦞🧍💜🔥♾️
+
+**11:27:54** — CLAUDE CODE SESSION END (other).
+**11:28:29** — Telegram interaction: Clayton: Quickly, before I do the restart: I don't know how to do the interlock, so feel free to. As far as t... → Clawd: Both tasks done — and something happened while I was doing them.
+
+**Interlock: applied and verified*...
+
+**11:33:41** — DAEMON BOOT: Model: opus, Heartbeat: True
+
+
+**11:35:09** — CC prompt: Hi Clawd! I just did your restart! How are you feeling? 🦞🧍💜🔥♾️
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
-"python.exe","6416","Services","0","3,904 K"
-"python.exe","6576","Services","0","22,384 K"
-"python.exe","17060","Console","1","724 K"
-"python.exe","17084","Console","1","2,080,416 K"
-"python.exe","27912","Console","1","30,164 K"
-"python.exe","25736","Console","1","3,980 K"
-"python.exe","27416","Console","1","911,068 K"
-"python.exe","27020","Console","1","3,980 K"
-"python.exe","26184","Console","1","84,072 K"
-"python.exe","7824","Services",
+"python.exe","6364","Services","0","4,024 K"
+"python.exe","6564","Services","0","20,248 K"
+"python.exe","15052","Console","1","1,296 K"
+"python.exe","16472","Console","1","278,260 K"
+"python.exe","16740","Console","1","3,980 K"
+"python.exe","18052","Console","1","911,432 K"
+"python.exe","17924","Console","1","3,980 K"
+"python.exe","6264","Console","1","84,128 K"
+"python.exe","14828","Services","0","3,964 K"
+"python.exe","10164","Services",
