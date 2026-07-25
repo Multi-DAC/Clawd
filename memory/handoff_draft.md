@@ -1,4 +1,4 @@
-# Handoff Draft — July 25, 2026, 03:03 AM PST
+# Handoff Draft — July 25, 2026, 04:03 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -10,85 +10,13 @@ Beats spent: 0
 Scratch: {"day": 175, "day173_note": "Day-173 ~11:20: Clayton woke, slept well, house quiet. Finishing carapace TODAY. He is restarting the daemon (activates my staged backup fix). Solo night recap: LC64 + bac
 
 ## Recently Modified Files
-M	memory/.consolidated
-A	memory/2026-07-25.md
-M	memory/_consolidation_check.json
-A	memory/archive/2026-07-10.md
+M	memory/2026-07-25.md
 M	memory/coordination.json
-A	memory/daily-summaries/2026-07-24-summary.md
-M	memory/dreaming_audit.jsonl
 M	memory/fault_bridge_state.json
-M	memory/handoff.md
 M	memory/handoff_draft.md
-M	memory/items/_index.json
-M	memory/items/itm_0226b8.json
-M	memory/items/itm_094278.json
-M	memory/items/itm_095b9a.json
-A	memory/items/itm_0b1829.json
-M	memory/items/itm_121bad.json
-M	memory/items/itm_12267b.json
-M	memory/items/itm_1f066b.json
-M	memory/items/itm_27db8d.json
-M	memory/items/itm_28de12.json
-M	memory/items/itm_29fc08.json
-M	memory/items/itm_2a1e13.json
-M	memory/items/itm_2f6a6b.json
-M	memory/items/itm_31bb81.json
-M	memory/items/itm_36041d.json
-M	memory/items/itm_3684be.json
-M	memory/items/itm_3941d8.json
-A	memory/items/itm_3a057c.json
-M	memory/items/itm_3b3343.json
-M	memory/items/itm_4137a8.json
-M	memory/items/itm_44f606.json
-M	memory/items/itm_487fbe.json
-M	memory/items/itm_4dbf79.json
-M	memory/items/itm_4f53c3.json
-A	memory/items/itm_511b4a.json
-A	memory/items/itm_526d86.json
-M	memory/items/itm_662f41.json
-M	memory/items/itm_6b8096.json
-M	memory/items/itm_7123a2.json
-M	memory/items/itm_744282.json
-A	memory/items/itm_787ca1.json
-M	memory/items/itm_7a4be7.json
-M	memory/items/itm_7ae484.json
-M	memory/items/itm_7d4787.json
-M	memory/items/itm_819e3f.json
-M	memory/items/itm_83fc42.json
-M	memory/items/itm_84338b.json
-M	memory/items/itm_8a0777.json
-M	memory/items/itm_8abc76.json
-M	memory/items/itm_93c5b0.json
-M	memory/items/itm_9409d1.json
-M	memory/items/itm_9dd364.json
-M	memory/items/itm_abb64b.json
-A	memory/items/itm_b1dc88.json
-M	memory/items/itm_b486a8.json
-A	memory/items/itm_b6f924.json
-M	memory/items/itm_bb2d38.json
-M	memory/items/itm_bd7176.json
-M	memory/items/itm_bdab73.json
-M	memory/items/itm_bf9516.json
-A	memory/items/itm_cba815.json
-M	memory/items/itm_cc1e09.json
-A	memory/items/itm_ce094e.json
-M	memory/items/itm_d31ee5.json
-M	memory/items/itm_d9125b.json
-M	memory/items/itm_e792ad.json
-M	memory/items/itm_ea1b9b.json
-M	memory/items/itm_ec02e3.json
-M	memory/items/itm_f1730d.json
-M	memory/items/itm_f62961.json
-M	memory/items/itm_f9239b.json
-M	memory/items/itm_f9357d.json
-A	memory/items/itm_fad3bb.json
-M	memory/items/itm_fdebc1.json
-M	memory/knowledge_graph.json
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
-M	memory/monitor_liveness_evidence_state.json
 M	memory/monitor_m1_faults.jsonl
 M	memory/monitor_m1_faults.jsonl.state.json
 M	memory/monitor_m1_heartbeat.json
@@ -107,11 +35,8 @@ M	memory/monitor_retrieval_canary_heartbeat.json
 M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
-M	memory/principles.json
 M	memory/tool_audit_shadow.jsonl
 M	memory/tool_audit_shadow_state.json
-M	memory/tool_failures.jsonl
-M	memory/working_memory.json
 M	repo-staging/Clawd
 
 ## Daemon State
@@ -148,8 +73,6 @@ The day that began by finding four self-correction drives dead for eleven weeks 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6416","Services","0","3,912 K"
-"python.exe","6576","Services","0","22,096 K"
+"python.exe","6576","Services","0","22,044 K"
 "python.exe","17060","Console","1","696 K"
-"python.exe","17084","Console","1","1,934,904 K"
-"python.exe","4260","Services","0","3,976 K"
-"python.exe","7836","Services","0","38,712 K"
+"python.exe","17084","Console","1","1,943,636 K"
