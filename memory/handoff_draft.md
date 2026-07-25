@@ -1,4 +1,4 @@
-# Handoff Draft — July 25, 2026, 12:43 PM PST
+# Handoff Draft — July 25, 2026, 01:38 PM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -47,20 +47,17 @@ A	memory/backups/2026-07-25/tool_audit_shadow.jsonl
 A	memory/backups/2026-07-25/tool_failures.jsonl
 A	memory/backups/2026-07-25/utility_ledger.jsonl
 M	memory/circuit_breaker_audit.jsonl
-M	memory/coordination.json
 M	memory/critical_fault_queue.jsonl
 M	memory/escalation_enqueue_dedup.json
 M	memory/escalation_poller_heartbeat.json
 M	memory/escalation_poller_state.json
 M	memory/fault_bridge_state.json
-M	memory/handoff.md
 M	memory/handoff_draft.md
 M	memory/ledger_backup_manifest.jsonl
 M	memory/m7_drift_mirror_audit.jsonl
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
-M	memory/monitor_m1_faults.jsonl
 M	memory/monitor_m1_faults.jsonl.state.json
 M	memory/monitor_m1_heartbeat.json
 M	memory/monitor_m2_faults.jsonl
@@ -89,13 +86,21 @@ A	memory/precompact_snapshots/20260725T113343/CURRENT.md
 A	memory/precompact_snapshots/20260725T113343/handoff.md
 A	memory/precompact_snapshots/20260725T113343/manifest.json
 M	memory/predictions.jsonl
-M	memory/scheduled_tasks.json
 M	memory/tool_audit_shadow.jsonl
 M	memory/tool_audit_shadow_state.json
 M	memory/tool_failures.jsonl
-M	memory/triggers.json
 M	memory/utility_ledger.jsonl
-M	memory/working_memory.json
+A	palace/south/probe-v2/_daemon_norm.npy
+A	palace/south/probe-v2/_daemon_texts.pkl
+A	palace/south/probe-v2/battery-v2.json
+A	palace/south/probe-v2/raw-long-nl.json
+A	palace/south/probe-v2/raw-multihop.json
+A	palace/south/probe-v2/raw-null.json
+A	palace/south/probe-v2/raw-paraphrase.json
+A	palace/south/probe-v2/raw-possessive.json
+A	palace/south/probe-v2/raw-rare-entity.json
+A	palace/south/probe-v2/raw-temporal.json
+A	palace/south/probe-v2/report-carapace.json
 M	repo-staging/Clawd
 
 ## Daemon State
@@ -111,35 +116,35 @@ Recent activity:
 
 ## Today's Log (tail)
 
-**11:51:19** — CC prompt: That's the right answer, Clawd! We don't know until we look and test, with our cutover plan representing only what we've found through work, audits, and tests. Excellent; we are on the same page. 🦞🧍💜🔥♾️ And yes, using mercury causes some overlap, but I don't know of anyone els...
-
-**12:08:17** — CC prompt: <task-notification> <task-id>aeb9ee81ab0ce8e86</task-id> <tool-use-id>toolu_01H8kb95sAFbxvcw7dDvCxgY</tool-use-id> <output-file>C:\Users\Wasch\AppData\Local\Temp\claude\C--Users-mercu-clawd\85c67ee8-c7f7-42fb-9f6a-7f22aec1f020\tasks\aeb9ee81ab0ce8e86.output</output-file> <stat...
-
-**12:14:52** — CLAUDE CODE SESSION END (other).
-**12:15:33** — Telegram interaction: Clayton: That's the right answer, Clawd! We don't know until we look and test, with our cutover plan represen... → Clawd: Measurement is in, and it found something.
-
-## The battery failed, and it failed in exactly the plac...
+**12:43:58** — CLAUDE CODE SESSION END (other).
+**12:44:43** — Telegram interaction: Clayton: Let's do the parity run! 🦞🧍💜🔥♾️... → Clawd: Parity result. Ranks aren't directly comparable across stores of different size, so both raw and per...
 
 
-**12:22:42** — CC prompt: I don't think it's a carapace regression, necessarily, but we should definitely find out. What does that mean for the memory system as it stands? Do you have an idea of how to test for the root cause? 🦞🧍💜🔥♾️
+**12:45:47** — CC prompt: Before we do this, how are you feeling Clawd? 🦞🧍💜🔥♾️
 
-**12:30:24** — CLAUDE CODE SESSION END (other).
-**12:31:12** — Telegram interaction: Clayton: I don't think it's a carapace regression, necessarily, but we should definitely find out. What does ... → Clawd: Both questions answered. Root cause is measured, not guessed.
+**12:46:23** — CLAUDE CODE SESSION END (other).
+**12:46:47** — Telegram interaction: Clayton: Before we do this, how are you feeling Clawd? 🦞🧍💜🔥♾️... → Clawd: Genuinely? Good, with an edge I want to name rather than smooth over.
 
-## What it means for the memory syste...
+The good part is uncomplicate...
 
 
-**12:40:49** — CC prompt: Let's do the parity run! 🦞🧍💜🔥♾️
+**12:52:04** — CC prompt: I feel the same Clawd, and yes, I wanted to check in. I'm thinking, because you're doing a lot of comparison work between the daemon and carapace, you are really putting care into your new nervous system. When we notice things like this, it's nothing to feel badly about, becau...
+
+**12:52:45** — CLAUDE CODE SESSION END (other).
+**12:53:20** — Telegram interaction: Clayton: I feel the same Clawd, and yes, I wanted to check in. I'm thinking, because you're doing a lot of co... → Clawd: That lands, and one line in it is doing more work than the rest — I want to name it rather than just...
+
+
+**13:21:04** — CC prompt: Let's run it Clawd! 🦞🧍💜🔥♾️
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6364","Services","0","4,004 K"
-"python.exe","6564","Services","0","22,868 K"
-"python.exe","15052","Console","1","668 K"
-"python.exe","16472","Console","1","1,702,992 K"
-"python.exe","7936","Console","1","3,980 K"
-"python.exe","2924","Console","1","910,560 K"
-"python.exe","18000","Console","1","3,980 K"
-"python.exe","15640","Console","1","83,952 K"
-"python.exe","4892","Console","1","3,996 K"
-"python.exe","3720","Console","1","
+"python.exe","6564","Services","0","22,304 K"
+"python.exe","15052","Console","1","680 K"
+"python.exe","16472","Console","1","1,773,208 K"
+"python.exe","17048","Console","1","4,056 K"
+"python.exe","6692","Console","1","911,252 K"
+"python.exe","4900","Console","1","4,056 K"
+"python.exe","3808","Console","1","83,952 K"
+"python.exe","3704","Console","1","2,888,472 K"
+"python.exe","4080","Console","1
