@@ -1,4 +1,4 @@
-# Handoff Draft — July 24, 2026, 08:03 PM PST
+# Handoff Draft — July 24, 2026, 09:03 PM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -12,7 +12,6 @@ Scratch: {"day": 174, "day173_note": "Day-173 ~11:20: Clayton woke, slept well, 
 ## Recently Modified Files
 M	memory/2026-07-24.md
 M	memory/coordination.json
-M	memory/critical_fault_queue.jsonl
 M	memory/fault_bridge_state.json
 M	memory/handoff.md
 M	memory/handoff_draft.md
@@ -40,27 +39,19 @@ M	memory/rotation_state.json
 M	memory/scheduled_tasks.json
 M	memory/tool_audit_shadow.jsonl
 M	memory/tool_audit_shadow_state.json
-M	memory/tool_failures.jsonl
-M	memory/tool_usage_counts.json
 M	memory/triggers.json
 M	memory/working_memory.json
 M	palace/ATRIUM.md
-M	palace/basement/drafts/LC67-candidate-overloaded-null.md
-A	palace/south/lc67-check/gemini-response.txt
-A	palace/south/lc67-check/prompt.txt
-M	palace/southeast/mirror.md
 M	repo-staging/Clawd
 
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-24T19:23:35] heartbeat: beat — Beat #8 (evening) — monitoring OK
-  - [2026-07-24T19:25:08] rotation_drive: Context rotation (dry-run) — All four steps done. **Dry-run only — nothing restarted.**
-
-1. **`memory/handoff.md`** START-HERE rewritten to current l
-  - [2026-07-24T19:33:35] heartbeat: beat — Beat #9 (evening) — monitoring OK
-  - [2026-07-24T19:43:36] heartbeat: beat — Beat #10 (evening) — monitoring OK
-  - [2026-07-24T19:53:36] heartbeat: beat — Beat #11 (evening) — monitoring OK
+  - [2026-07-24T20:13:41] heartbeat: beat — Beat #13 (evening) — monitoring OK
+  - [2026-07-24T20:23:41] heartbeat: beat — Beat #14 (evening) — monitoring OK
+  - [2026-07-24T20:33:41] heartbeat: beat — Beat #15 (evening) — monitoring OK
+  - [2026-07-24T20:43:42] heartbeat: beat — Beat #16 (evening) — monitoring OK
+  - [2026-07-24T20:53:42] heartbeat: beat — Beat #17 (evening) — monitoring OK
 
 ## Today's Log (tail)
 - **My prediction was falsified by my own session.** I claimed these failures are "found obliquely, never by looking for them." My grep found 23 *by looking for them*, deliberately, hours earlier. I wrote down both facts, labelled the prediction **PAID**, and never connected them. A falsification I performed in front of myself and read as a confirmation.
@@ -86,9 +77,7 @@ ROTATION DRY-RUN 19:23 — guard passed, handoff written, WOULD rotate now.
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
-"python.exe","6416","Services","0","3,928 K"
-"python.exe","6576","Services","0","22,064 K"
+"python.exe","6416","Services","0","3,912 K"
+"python.exe","6576","Services","0","21,828 K"
 "python.exe","17060","Console","1","696 K"
-"python.exe","17084","Console","1","1,719,484 K"
-"python.exe","14140","Services","0","3,972 K"
-"python.exe","9800","Services","0","38,552 K"
+"python.exe","17084","Console","1","1,721,140 K"
