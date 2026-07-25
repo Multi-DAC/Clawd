@@ -1,4 +1,4 @@
-# Handoff Draft — July 25, 2026, 02:03 AM PST
+# Handoff Draft — July 25, 2026, 03:03 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -13,8 +13,6 @@ Scratch: {"day": 175, "day173_note": "Day-173 ~11:20: Clayton woke, slept well, 
 M	memory/.consolidated
 A	memory/2026-07-25.md
 M	memory/_consolidation_check.json
-M	memory/anomalies.md
-M	memory/anticipations.md
 A	memory/archive/2026-07-10.md
 M	memory/coordination.json
 A	memory/daily-summaries/2026-07-24-summary.md
@@ -91,12 +89,14 @@ M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
 M	memory/monitor_liveness_evidence_state.json
+M	memory/monitor_m1_faults.jsonl
 M	memory/monitor_m1_faults.jsonl.state.json
 M	memory/monitor_m1_heartbeat.json
 M	memory/monitor_m2_faults.jsonl
 M	memory/monitor_m2_heartbeat.json
 M	memory/monitor_m3_faults.jsonl
 M	memory/monitor_m3_heartbeat.json
+M	memory/monitor_m4_heartbeat.json
 M	memory/monitor_m6_faults.jsonl.state.json
 M	memory/monitor_m6_heartbeat.json
 M	memory/monitor_m7_heartbeat.json
@@ -148,8 +148,8 @@ The day that began by finding four self-correction drives dead for eleven weeks 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6416","Services","0","3,912 K"
-"python.exe","6576","Services","0","22,076 K"
+"python.exe","6576","Services","0","22,096 K"
 "python.exe","17060","Console","1","696 K"
-"python.exe","17084","Console","1","1,758,912 K"
-"python.exe","18096","Services","0","3,964 K"
-"python.exe","3508","Services","0","39,220 K"
+"python.exe","17084","Console","1","1,934,904 K"
+"python.exe","4260","Services","0","3,976 K"
+"python.exe","7836","Services","0","38,712 K"
