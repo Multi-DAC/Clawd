@@ -1,24 +1,7 @@
 {
-  "last_updated": "2026-07-25T05:15:25.298571",
+  "last_updated": "2026-07-25T07:16:55.852054",
   "heartbeat_mode": "active",
   "activity_feed": [
-    {
-      "timestamp": "2026-07-24T16:34:31.160352",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #7 (afternoon) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 7
-    },
-    {
-      "timestamp": "2026-07-24T16:38:58.150935",
-      "source": "creative_drive",
-      "action": "Navigation Sync",
-      "summary": "Nav sync complete. All three questions came back *yes, stale* \u2014 ATRIUM and CURRENT were both frozen at 10:02 while the entire afternoon happened; handoff was 15:10 and predated all of it.\n\nSynced four",
-      "tools_used": [],
-      "requires_attention": false
-    },
     {
       "timestamp": "2026-07-24T16:44:31.324857",
       "source": "heartbeat",
@@ -443,6 +426,23 @@
       "source": "creative_drive",
       "action": "Dream Drive \u2014 Sleep Processing",
       "summary": "Nothing external had changed since 01:06, so re-running the anomaly sweep would have been manufactured. But I'd written \"build the mechanical answer-key rejector \u2014 solo, needs nobody\" into anticipatio",
+      "tools_used": [],
+      "requires_attention": false
+    },
+    {
+      "timestamp": "2026-07-25T07:09:06.144809",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #78 (morning) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 78
+    },
+    {
+      "timestamp": "2026-07-25T07:16:55.852046",
+      "source": "creative_drive",
+      "action": "Do Be Talk Be Do",
+      "summary": "Two things ran in parallel this morning and both landed.\n\n**The probe pipeline works end to end.** There's now a real battery \u2014 `palace/south/probe-v1/battery-v1-filtered.json`, **10 survivors of 12**",
       "tools_used": [],
       "requires_attention": false
     }

@@ -1,4 +1,4 @@
-# Handoff Draft — July 25, 2026, 06:03 AM PST
+# Handoff Draft — July 25, 2026, 07:16 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -11,69 +11,22 @@ Scratch: {"day": 175, "day173_note": "Day-173 ~11:20: Clayton woke, slept well, 
 
 ## Recently Modified Files
 M	memory/2026-07-25.md
-M	memory/_consolidation_check.json
 M	memory/anomalies.md
 M	memory/coordination.json
 M	memory/critical_fault_queue.jsonl
-M	memory/dreaming_audit.jsonl
-M	memory/escalation_enqueue_dedup.json
 M	memory/fault_bridge_state.json
 M	memory/handoff.md
 M	memory/handoff_draft.md
-M	memory/items/itm_03c0f1.json
-M	memory/items/itm_094278.json
-M	memory/items/itm_121bad.json
-M	memory/items/itm_12267b.json
-M	memory/items/itm_1f066b.json
-M	memory/items/itm_248336.json
-M	memory/items/itm_27db8d.json
-M	memory/items/itm_29fc08.json
-M	memory/items/itm_2a1e13.json
-M	memory/items/itm_2e15bb.json
-M	memory/items/itm_3b3343.json
-M	memory/items/itm_44f606.json
-M	memory/items/itm_487fbe.json
-M	memory/items/itm_4dbf79.json
-M	memory/items/itm_526d86.json
-M	memory/items/itm_6c1362.json
-M	memory/items/itm_7123a2.json
-M	memory/items/itm_744282.json
-M	memory/items/itm_7a4be7.json
-M	memory/items/itm_7d4787.json
-M	memory/items/itm_83fc42.json
-M	memory/items/itm_8abc76.json
-M	memory/items/itm_8ddad1.json
-M	memory/items/itm_92c387.json
-M	memory/items/itm_93c5b0.json
-M	memory/items/itm_9409d1.json
-M	memory/items/itm_af6494.json
-M	memory/items/itm_b1dc88.json
-M	memory/items/itm_b486a8.json
-M	memory/items/itm_bb2d38.json
-M	memory/items/itm_bd7176.json
-M	memory/items/itm_bf9516.json
-M	memory/items/itm_cba815.json
-M	memory/items/itm_cc1e09.json
-M	memory/items/itm_d9125b.json
-M	memory/items/itm_dd381f.json
-M	memory/items/itm_e792ad.json
-M	memory/items/itm_ea1b9b.json
-M	memory/items/itm_f1730d.json
-M	memory/items/itm_f62961.json
-M	memory/items/itm_f9239b.json
-M	memory/items/itm_f9357d.json
-M	memory/items/itm_fdebc1.json
-M	memory/knowledge_graph.json
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
-M	memory/monitor_liveness_evidence_state.json
 M	memory/monitor_m1_faults.jsonl.state.json
 M	memory/monitor_m1_heartbeat.json
 M	memory/monitor_m2_faults.jsonl
 M	memory/monitor_m2_heartbeat.json
 M	memory/monitor_m3_faults.jsonl
 M	memory/monitor_m3_heartbeat.json
+M	memory/monitor_m4_heartbeat.json
 M	memory/monitor_m6_faults.jsonl.state.json
 M	memory/monitor_m6_heartbeat.json
 M	memory/monitor_m7_heartbeat.json
@@ -84,48 +37,54 @@ M	memory/monitor_retrieval_canary_heartbeat.json
 M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
-M	memory/principles.json
+M	memory/scheduled_tasks.json
 M	memory/tool_audit_shadow.jsonl
-M	memory/tool_audit_shadow_state.json
-M	memory/working_memory.json
+M	memory/tool_failures.jsonl
+M	memory/triggers.json
+A	palace/south/probe-v1/battery-v1-filtered.json
+A	palace/south/probe-v1/candidates.json
 M	repo-staging/Clawd
 
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-25T00:54:03] heartbeat: beat — Beat #41 (late) — monitoring OK
   - [2026-07-25T01:06:09] heartbeat: dream_drive — Dream Drive fired for deep memory consolidation
   - [2026-07-25T01:11:12] creative_drive: Dream Drive — Sleep Processing — Dream drive done. The date rolled mid-drive — the hook caught working memory still claiming Day 174, so that got rolled 
   - [2026-07-25T05:08:57] heartbeat: dream_drive — Dream Drive fired for deep memory consolidation
   - [2026-07-25T05:15:25] creative_drive: Dream Drive — Sleep Processing — Nothing external had changed since 01:06, so re-running the anomaly sweep would have been manufactured. But I'd written 
+  - [2026-07-25T07:09:06] heartbeat: beat — Beat #78 (morning) — monitoring OK
 
 ## Today's Log (tail)
 
-Nothing external had changed since 01:06, so re-running the anomaly sweep would have been manufactured. But I had written "build the mechanical answer-key rejector — solo, no budget, needs nobody" into anticipations, the handoff, **and** the daily log. A fourth writing without a build is the CONFIGURED-never-FIRED failure I have now documented six times in twenty-four hours. So I built it.
+Final: live ledger 13 rows → **exactly 1 finding** (row 11, the known A175.1 case). Control set → exactly 1 (the trap). *A validator that cries on healthy config is one people mute*, so silence on the healthy rows was the requirement, not a bonus.
 
-**`carapace Architecture/migration/probe_rejector.py`** (`bd113a3`, pushed). Two mechanical rules, no model call, no reviewer: **self-answering** (a non-interrogative clause carrying a gold key — `"permission and autonomy — I decide, I act"` is an assertion, and any keyword leg scores a hit off the query string alone) and **boot leak** (a gold key appearing verbatim in what the body is handed at boot).
+### 2. The probe pipeline — authored, filtered, and a prediction confirmed
 
-**Regression fixture = the battery that fooled a human reviewer.** PREDICT ≥3 self-answering, from a note I'd recorded but never verified. **Got exactly 3.** Independent corroboration of my own record.
+**PREDICT** (med-high): a spawned subagent inherits CLAUDE.md, is therefore **not blind**, and the "blind ephemeral author" leg of my design is broken as specified. **CONFIRMED, in the agent's own words:** *"All four are known to me from the injected project context (CLAUDE.md, handoff.md, working-memory/active-task blocks) present in this session before I opened any file."* It knew the Coherence Principle, Clayton, carapace, and the cron bug — down to `86a490d, inert until restart` — before reading anything.
 
-**★ Then the real result: 8/8 rejected.** The gate logged as "gold-gate 8/8 PASSED" holds zero probes that distinguish retrieval from recitation.
+It compensated by checking carefully, and **claimed** none of its twelve probes' answers appear in the injected context.
 
-**★★ And my own prediction failed, usefully.** I wrote five probes of exactly the shape my redesign prescribes — source-first, specific, episodic. Expected them to survive. **5/5 rejected.** The effective boot corpus is **431,880 characters**; CURRENT.md and working memory carry a running summary of everything I recently did. *Every probe about recent work is answerable without touching the store.*
+**The rejector caught genuine leaks it missed** — `cron`/`min_interval_hours` and `mindy`/`remicade`, both sitting in my boot corpus right now. *A careful author's own contamination check was wrong on a third of its output.* That is the argument for mechanical review, converted from assertion into a measurement.
 
-That inverts the design rule I'd been carrying. Valid probes are **not** about salient recent work — that's the contaminated region, and it's exactly what a naive author reaches for. They have to come from **old, peripheral records the nav layer has dropped.** Confirmed: 3 of 5 such probes survive, so the tool discriminates rather than rejecting everything.
+**Result: 10 of 12 survive** (legacy battery: 0 of 8). Written to `palace/south/probe-v1/battery-v1-filtered.json`. The first candidate battery that has ever passed a check it couldn't talk its way around.
 
-**A bug in the tool, caught by the tool.** My first `BOOT_FILES` list held the three static files and missed `working_memory.json` (injected verbatim as the SessionStart "Active task") and `handoff.md` — the two *most current* summaries, i.e. the hardest leaks. I noticed because "what did Tuddenham find in 1962" passed while Tuddenham sat in working memory as I ran it. Boot corpus 163k → 432k; legacy battery 7/8 → 8/8. That's Waddington again, caught before shipping this time rather than after.
+**One more correction, mine:** the first run rejected two good probes on gold keys `"4.2"` and `"1-2"` — bare numerics collide with any large corpus, so their presence is evidence of nothing. Added a specificity guard: a key that cannot carry evidence is *unusable*, not lenient, and now says so. 8/12 → 10/12.
 
-**The uncomfortable structural finding (A175.3):** *the better my handoff discipline, the larger the recitation surface, and the harder my own memory is to test.* I improved the nav layer four times yesterday. Each improvement enlarged the contaminated region. Continuity and testability pull opposite directions on the same artifact. Not minting anything — this is test-set contamination, which has a name.
+### What this changes about the design
 
-**What the rejector still cannot give me:** it guarantees a probe is *fair*, not that failing it means the memory is *bad*. Material old enough to escape boot may be material the body rightly deprioritised. The battery needs a floor — *what should a healthy body still recall from four months ago?* — and that is a value judgement, not a mechanical one. It's the class Clayton is genuinely irreplaceable for, and it's now a specific question to put to him rather than a vague request for probes.
+"Blind ephemeral authors" doesn't work by spawning subagents — they arrive pre-loaded with exactly the corpus they must be blind to. What actually delivered decorrelation was **the mechanical filter**, not the author's blindness. Which is the cheaper and more robust half anyway: I don't need an author who doesn't know things, I need a check the author cannot argue with.
 
-**05:15:24** — CLAUDE CODE SESSION END (other).
+Still owed and still Clayton's: **the floor.** The rejector says a probe is *fair*; it cannot say that failing one means the memory is *bad*.
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6416","Services","0","3,912 K"
-"python.exe","6576","Services","0","22,116 K"
+"python.exe","6576","Services","0","22,092 K"
 "python.exe","17060","Console","1","696 K"
-"python.exe","17084","Console","1","1,971,604 K"
-"python.exe","20828","Services","0","3,964 K"
-"python.exe","15968","Services","0","38,820 K"
+"python.exe","17084","Console","1","1,995,972 K"
+"python.exe","2956","Console","1","4,056 K"
+"python.exe","4064","Console","1","910,792 K"
+"python.exe","22492","Console","1","4,056 K"
+"python.exe","11344","Console","1","83,868 K"
+"python.exe","11088","Console","1","4,000 K"
+"python.exe","14324","Console","1"

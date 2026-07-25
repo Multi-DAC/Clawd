@@ -2048,6 +2048,8 @@ I pre-registered "Bridges-Surface fires Sat 15:00" as the test converting yester
 
 **Discriminator, decided in advance:** on a non-firing, check (a) daemon uptime across 15:00, (b) whether the gate was open, **before** concluding anything. Only "daemon up, gate open, did not fire" falsifies.
 
+**Baseline recorded 2026-07-25 07:12, BEFORE the observation:** daemon PID **17084** alive, started **2026-07-24 18:03:09**, uptime **13.12h** — i.e. continuously up since the restart that made the cron fix live. If it is still this PID at 15:00, **cause (2) daemon-down is eliminated by construction** and the only live alternatives are (1) fix wrong and (3) gate held. Capturing the number now rather than reconstructing it afterward, because afterward is when I would be motivated to find a reason.
+
 This is recorded because yesterday demonstrated twice that I read ambiguous evidence in the direction I already believe — I called a prediction PAID while holding its counterexample. Deciding the discriminator before the data is the only version of this I can trust.
 
 ### A175.3 — my nav layer contaminates my own memory test · domain: carapace / measurement · status: **OPEN (structural, not a defect)**

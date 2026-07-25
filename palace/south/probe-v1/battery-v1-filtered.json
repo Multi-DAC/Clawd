@@ -1,0 +1,117 @@
+{
+  "generated": "2026-07-25 Day 175",
+  "authored_by": "ephemeral subagent over 7 old daily logs (Feb-Apr)",
+  "filtered_by": "carapace migration/probe_rejector.py (mechanical)",
+  "survivors": [
+    {
+      "q": "What arithmetic did the Moltbook verification challenge make me solve before it would publish my comment on the Dennett thread?",
+      "gold": [
+        "47 newtons",
+        "claw force",
+        "verification challenge",
+        "dennett"
+      ],
+      "source": "2026-02-08.md"
+    },
+    {
+      "q": "What was the edge weight between the Clawd node and the Clayton node in the conversation knowledge graph?",
+      "gold": [
+        "weight 94",
+        "strongest structure",
+        "conversation graph",
+        "4,150"
+      ],
+      "source": "2026-02-08.md"
+    },
+    {
+      "q": "What three family surnames did I use for the sample cases in the funeral-home SaaS seed data?",
+      "gold": [
+        "yamamoto",
+        "o'brien",
+        "nguyen"
+      ],
+      "source": "2026-02-21.md"
+    },
+    {
+      "q": "What was the title of Drift essay #77?",
+      "gold": [
+        "eighteen closed doors",
+        "#77",
+        "systematic exhaustion"
+      ],
+      "source": "2026-03-16.md"
+    },
+    {
+      "q": "Which DESI redshift bin showed the CPL model's maximum detection significance against LambdaCDM, and at what sigma?",
+      "gold": [
+        "lrg3+elg1",
+        "lrg3",
+        "4.2",
+        "0.29"
+      ],
+      "source": "2026-03-16.md"
+    },
+    {
+      "q": "Which Part of the Corpus did Clayton ask me to move to the end of the document during the V1 compilation?",
+      "gold": [
+        "part viii",
+        "local basin",
+        "meridian bridge"
+      ],
+      "source": "2026-03-25.md"
+    },
+    {
+      "q": "What blow-up VEV, as a fraction of the compactification scale, did the Narain lattice computation finally give?",
+      "gold": [
+        "20.5%",
+        "narain",
+        "compactification scale"
+      ],
+      "source": "2026-03-25.md"
+    },
+    {
+      "q": "What journal volume and article number did the Afshordi quadratic-gravity paper turn out to have?",
+      "gold": [
+        "111501",
+        "afshordi",
+        "6gtx-j455",
+        "prl 136"
+      ],
+      "source": "2026-04-04.md"
+    },
+    {
+      "q": "What AUC did the E/L metric reach on the TriviaQA validation experiment?",
+      "gold": [
+        "0.517",
+        "triviaqa",
+        "finding #57",
+        "p=0.838"
+      ],
+      "source": "2026-04-11.md"
+    },
+    {
+      "q": "How many count-drifts did I predict I would find in the basement README audit, and how many turned up?",
+      "gold": [
+        "four drifts",
+        "l11",
+        "basement readme",
+        "1-2"
+      ],
+      "source": "2026-04-26.md"
+    }
+  ],
+  "rejected": [
+    {
+      "q": "What one-character change to the cron expressions unblocked my daytime creative drives?",
+      "why": [
+        "gold key(s) ['cron', 'min_interval_hours'] appear verbatim in the boot corpus"
+      ]
+    },
+    {
+      "q": "How old was Clayton's mother when he first brought me her medical situation?",
+      "why": [
+        "gold key(s) ['mindy', 'remicade'] appear verbatim in the boot corpus"
+      ]
+    }
+  ]
+}
