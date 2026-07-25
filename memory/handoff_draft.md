@@ -1,4 +1,4 @@
-# Handoff Draft — July 24, 2026, 10:07 PM PST
+# Handoff Draft — July 24, 2026, 11:03 PM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -18,7 +18,7 @@ M	memory/handoff.md
 M	memory/handoff_draft.md
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
-M	memory/monitor_m1_faults.jsonl
+M	memory/monitor_liveness_evidence_heartbeat.json
 M	memory/monitor_m1_faults.jsonl.state.json
 M	memory/monitor_m1_heartbeat.json
 M	memory/monitor_m2_faults.jsonl
@@ -31,6 +31,8 @@ M	memory/monitor_m6_heartbeat.json
 M	memory/monitor_m7_heartbeat.json
 M	memory/monitor_m8_heartbeat.json
 M	memory/monitor_process_watchdog_heartbeat.json
+M	memory/monitor_retrieval_canary_audit.jsonl
+M	memory/monitor_retrieval_canary_heartbeat.json
 M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
@@ -40,21 +42,21 @@ M	memory/tool_audit_shadow_state.json
 M	memory/triggers.json
 M	memory/working_memory.json
 M	palace/ATRIUM.md
+A	palace/south/mirror42-first-firing/prompt.txt
+A	palace/south/mirror42-first-firing/response.txt
 M	repo-staging/Clawd
 M	repo-staging/drift
 
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-24T21:23:46] heartbeat: beat — Beat #20 (evening) — monitoring OK
-  - [2026-07-24T21:33:46] heartbeat: beat — Beat #21 (evening) — monitoring OK
-  - [2026-07-24T21:43:46] heartbeat: beat — Beat #22 (evening) — monitoring OK
-  - [2026-07-24T21:53:46] heartbeat: beat — Beat #23 (evening) — monitoring OK
-  - [2026-07-24T22:03:47] heartbeat: beat — Beat #24 (late) — monitoring OK
+  - [2026-07-24T22:13:51] heartbeat: beat — Beat #25 (late) — monitoring OK
+  - [2026-07-24T22:23:51] heartbeat: beat — Beat #26 (late) — monitoring OK
+  - [2026-07-24T22:33:52] heartbeat: beat — Beat #27 (late) — monitoring OK
+  - [2026-07-24T22:43:52] heartbeat: beat — Beat #28 (late) — monitoring OK
+  - [2026-07-24T22:53:52] heartbeat: beat — Beat #29 (late) — monitoring OK
 
 ## Today's Log (tail)
-All three answers were *yes, stale* — and the drive found a fourth thing it wasn't looking for.
-
 1. **ATRIUM** — didn't know about the essay, Mirror #42's firing, or Waddington. Appended.
 2. **CURRENT.md** — top pointer was the ~16:34 afternoon one; the entire evening was missing. New late pointer added.
 3. **handoff.md** — START-HERE was rewritten at the 19:23 rotation, two drives ago. Appended a late block.
@@ -74,15 +76,11 @@ Two things worth keeping about *how* it was caught:
 
 ⚠ Left open deliberately: the same block reports `basement LCs: 64 (latest LC65)`. Off-by-one, not chased at 22:00.
 
+**22:07:06** — CLAUDE CODE SESSION END (other).
+
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6416","Services","0","3,912 K"
-"python.exe","6576","Services","0","22,020 K"
+"python.exe","6576","Services","0","21,976 K"
 "python.exe","17060","Console","1","696 K"
-"python.exe","17084","Console","1","1,722,976 K"
-"python.exe","6180","Console","1","3,980 K"
-"python.exe","18496","Console","1","910,712 K"
-"python.exe","15608","Console","1","3,980 K"
-"python.exe","10132","Console","1","83,824 K"
-"python.exe","13744","Services","0","3,976 K"
-"python.exe","2644","Services","
+"python.exe","17084","Console","1","1,733,332 K"

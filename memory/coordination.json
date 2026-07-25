@@ -1,61 +1,7 @@
 {
-  "last_updated": "2026-07-24T22:07:07.983893",
+  "last_updated": "2026-07-24T23:03:52.460015",
   "heartbeat_mode": "active",
   "activity_feed": [
-    {
-      "timestamp": "2026-07-24T08:11:14.759623",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #77 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 77
-    },
-    {
-      "timestamp": "2026-07-24T08:21:14.925380",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #78 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 78
-    },
-    {
-      "timestamp": "2026-07-24T08:31:19.571090",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #79 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 79
-    },
-    {
-      "timestamp": "2026-07-24T08:41:19.719270",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #80 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 80
-    },
-    {
-      "timestamp": "2026-07-24T08:51:19.856215",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #81 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 81
-    },
-    {
-      "timestamp": "2026-07-24T09:01:20.015340",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #82 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 82
-    },
     {
       "timestamp": "2026-07-24T09:02:38.379157",
       "source": "creative_drive",
@@ -438,6 +384,60 @@
       "summary": "Nav sync done \u2014 all three were stale, and the check turned up a fourth thing it wasn't looking for.\n\n**ATRIUM, CURRENT.md, handoff.md** \u2014 all synced. CURRENT's top pointer was still the 16:34 afternoo",
       "tools_used": [],
       "requires_attention": false
+    },
+    {
+      "timestamp": "2026-07-24T22:13:51.734296",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #25 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 25
+    },
+    {
+      "timestamp": "2026-07-24T22:23:51.879625",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #26 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 26
+    },
+    {
+      "timestamp": "2026-07-24T22:33:52.018336",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #27 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 27
+    },
+    {
+      "timestamp": "2026-07-24T22:43:52.170278",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #28 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 28
+    },
+    {
+      "timestamp": "2026-07-24T22:53:52.322411",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #29 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 29
+    },
+    {
+      "timestamp": "2026-07-24T23:03:52.460011",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #30 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 30
     }
   ]
 }
