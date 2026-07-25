@@ -1,0 +1,58 @@
+[
+  {
+    "q": "I remember building a whole funeral home management app in a single evening back in February — what did we end up calling it, and what was it built on?",
+    "gold": ["Evergreen", "Next.js 16", "Prisma 6/SQLite", "Tailwind", "Server Actions", "port 3333"],
+    "source": "2026-02-21.md",
+    "evidence": "**Evergreen — Funeral Home Management SaaS (complete MVP):** Next.js 16, Prisma 6/SQLite, Tailwind, Server Actions ... dev server running on port 3333",
+    "stratum": "long_nl"
+  },
+  {
+    "q": "Before we built that thing, I did a big research pass on the Oregon market — how large was it, and which existing vendors did I flag as competition?",
+    "gold": ["$179M", "240 funeral homes", "$746K avg revenue", "Tribute Technology", "Passare", "Halcyon", "Osiris at $79/mo"],
+    "source": "2026-02-21.md",
+    "evidence": "- Market size ($179M Oregon market, ~240 funeral homes, ~$746K avg revenue) - Competitors (Tribute Technology PE rollup, Passare, Halcyon, Osiris at $79/mo, ...)",
+    "stratum": "long_nl"
+  },
+  {
+    "q": "Back in March I wrote a structural checker for the big LaTeX physics monograph before anyone tried compiling it — how many problems did it find, and what were they?",
+    "gold": ["validate_monograph.py", "16 errors", "13 bare citation keys", "phantom citation", "ch4:ConnesTable", "ch4:Connes1994", "cross-reference typos"],
+    "source": "2026-03-17.md",
+    "evidence": "Built `validate_monograph.py` — a LaTeX structural validator for the monograph. ... Found and fixed 16 errors: 13 bare citation keys in chapter2; 1 phantom citation in chapter4 (`ch4:ConnesTable` → merged into `ch4:Connes1994`); 2 cross-reference typos in chapter5",
+    "stratum": "long_nl"
+  },
+  {
+    "q": "There was a track of Clayton's called 11over13 that I spent a whole probe analyzing for polymeter — what did he eventually tell me the title actually referred to?",
+    "gold": ["November 13th", "is a date", "the date he made the song", "personal-significance title"],
+    "source": "2026-04-24.md",
+    "evidence": "Meanwhile he revealed *11 over 13* is a date — **November 13th** — the date he made the song. My structural-reception channel ... had not included the \"personal-significance title\" class at all.",
+    "stratum": "long_nl"
+  },
+  {
+    "q": "When we finally kicked off that long overnight Anakin retrain in April, I was surprised by the hardware choice — what did the pre-launch benchmark actually show?",
+    "gold": ["CPU not CUDA", "27% faster", "MLP[512,512]", "train_phase2.py", "infinite_v3_phase2_60M_1777095742"],
+    "source": "2026-04-24.md",
+    "evidence": "60M additional steps, 16 envs, **CPU not CUDA** (pre-launch benchmark showed CPU 27% faster than CUDA for this MLP[512,512] — SB3 was right). ... run dir `infinite_v3_phase2_60M_1777095742`.",
+    "stratum": "long_nl"
+  },
+  {
+    "q": "Clayton and I once had a units mix-up on one of the framework's predictions about the basin boundary — what was the right unit, and how badly was I off?",
+    "gold": ["121 GHz", "121 GeV", "GHz, not 121 GeV", "factor of 10⁹"],
+    "source": "2026-05-08.md",
+    "evidence": "Found it — and I had the units wrong by a factor of 10⁹. **It's 121 GHz, not 121 GeV.**",
+    "stratum": "long_nl"
+  },
+  {
+    "q": "Late one night in May I filed a bridge entry connecting a French UFO landing case to a decades-old biochemical hypothesis — what were the actual specifics of that convergence?",
+    "gold": ["Bridge #121", "COMETA", "Trans-en-Provence", "Bounias 1981", "45-year gap", "H_BP6", "LC18"],
+    "source": "2026-05-08.md",
+    "evidence": "Bridge #121 shipped. ... COMETA / Trans-en-Provence Bridge entry ... Bridge #121 has 45-year gap in opposite direction (Bounias 1981 hypothesis ↔ framework H_BP6 + C15 Apr 2026). Two-instance candidate seed for future LC18.",
+    "stratum": "long_nl"
+  },
+  {
+    "q": "That instrument I built one morning in June to check whether the drone was actually pointing its camera at the gates — what did the very first smoke run show?",
+    "gold": ["gaze_eval.py", "gates=1.00", "gaze=0.355", "in-view=40%", "~69° off the gate", "dead-reckon"],
+    "source": "2026-06-03.md",
+    "evidence": "**Smoke (n=1, frozen Anakin, reckon=∞): gates=1.00, gaze=0.355, in-view=40%.** First quantification of the crabbing debt: camera averages ~69° off the gate, gate out of frame 60% of steps, yet it still passes — flies *without looking*, carried by dead-reckon.",
+    "stratum": "long_nl"
+  }
+]

@@ -1,0 +1,1034 @@
+{
+  "generated": "2026-07-25 Day 175",
+  "authored_by": "7 stratum agents, source-first over Feb-Jun daily logs",
+  "decorrelation": "MECHANICAL filter only - blind-subagent authorship was falsified Day 175",
+  "filter": "probe_rejector df26b6b/34caef8 (self-answering + boot-leak + cue-leak)",
+  "preregistration": "Architecture/PHASE1_PREREGISTRATION.md (cf8b5fb, frozen before probes)",
+  "n_authored": 56,
+  "n_final": 53,
+  "probes": [
+    {
+      "q": "I remember building a whole funeral home management app in a single evening back in February — what did we end up calling it, and what was it built on?",
+      "gold": [
+        "Evergreen",
+        "Next.js 16",
+        "Prisma 6/SQLite",
+        "Tailwind",
+        "Server Actions",
+        "port 3333"
+      ],
+      "source": "2026-02-21.md",
+      "evidence": "**Evergreen — Funeral Home Management SaaS (complete MVP):** Next.js 16, Prisma 6/SQLite, Tailwind, Server Actions ... dev server running on port 3333",
+      "stratum": "long_nl",
+      "answer_keys": [
+        "Evergreen",
+        "Next.js 16",
+        "Prisma 6/SQLite",
+        "Tailwind",
+        "Server Actions",
+        "port 3333"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "Before we built that thing, I did a big research pass on the Oregon market — how large was it, and which existing vendors did I flag as competition?",
+      "gold": [
+        "$179M",
+        "240 funeral homes",
+        "$746K avg revenue",
+        "Tribute Technology",
+        "Passare",
+        "Halcyon",
+        "Osiris at $79/mo"
+      ],
+      "source": "2026-02-21.md",
+      "evidence": "- Market size ($179M Oregon market, ~240 funeral homes, ~$746K avg revenue) - Competitors (Tribute Technology PE rollup, Passare, Halcyon, Osiris at $79/mo, ...)",
+      "stratum": "long_nl",
+      "answer_keys": [
+        "$179M",
+        "240 funeral homes",
+        "$746K avg revenue",
+        "Tribute Technology",
+        "Passare",
+        "Halcyon",
+        "Osiris at $79/mo"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "Back in March I wrote a structural checker for the big LaTeX physics monograph before anyone tried compiling it — how many problems did it find, and what were they?",
+      "gold": [
+        "validate_monograph.py",
+        "16 errors",
+        "13 bare citation keys",
+        "phantom citation",
+        "ch4:ConnesTable",
+        "ch4:Connes1994",
+        "cross-reference typos"
+      ],
+      "source": "2026-03-17.md",
+      "evidence": "Built `validate_monograph.py` — a LaTeX structural validator for the monograph. ... Found and fixed 16 errors: 13 bare citation keys in chapter2; 1 phantom citation in chapter4 (`ch4:ConnesTable` → merged into `ch4:Connes1994`); 2 cross-reference typos in chapter5",
+      "stratum": "long_nl",
+      "answer_keys": [
+        "validate_monograph.py",
+        "16 errors",
+        "13 bare citation keys",
+        "phantom citation",
+        "ch4:ConnesTable",
+        "ch4:Connes1994",
+        "cross-reference typos"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "There was a track of Clayton's called 11over13 that I spent a whole probe analyzing for polymeter — what did he eventually tell me the title actually referred to?",
+      "gold": [
+        "November 13th",
+        "is a date",
+        "the date he made the song",
+        "personal-significance title"
+      ],
+      "source": "2026-04-24.md",
+      "evidence": "Meanwhile he revealed *11 over 13* is a date — **November 13th** — the date he made the song. My structural-reception channel ... had not included the \"personal-significance title\" class at all.",
+      "stratum": "long_nl",
+      "answer_keys": [
+        "November 13th",
+        "is a date",
+        "the date he made the song",
+        "personal-significance title"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "When we finally kicked off that long overnight Anakin retrain in April, I was surprised by the hardware choice — what did the pre-launch benchmark actually show?",
+      "gold": [
+        "CPU not CUDA",
+        "27% faster",
+        "MLP[512,512]",
+        "train_phase2.py",
+        "infinite_v3_phase2_60M_1777095742"
+      ],
+      "source": "2026-04-24.md",
+      "evidence": "60M additional steps, 16 envs, **CPU not CUDA** (pre-launch benchmark showed CPU 27% faster than CUDA for this MLP[512,512] — SB3 was right). ... run dir `infinite_v3_phase2_60M_1777095742`.",
+      "stratum": "long_nl",
+      "answer_keys": [
+        "CPU not CUDA",
+        "27% faster",
+        "MLP[512,512]",
+        "train_phase2.py",
+        "infinite_v3_phase2_60M_1777095742"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "Clayton and I once had a units mix-up on one of the framework's predictions about the basin boundary — what was the right unit, and how badly was I off?",
+      "gold": [
+        "121 GHz",
+        "121 GeV",
+        "GHz, not 121 GeV",
+        "factor of 10⁹"
+      ],
+      "source": "2026-05-08.md",
+      "evidence": "Found it — and I had the units wrong by a factor of 10⁹. **It's 121 GHz, not 121 GeV.**",
+      "stratum": "long_nl",
+      "answer_keys": [
+        "121 GHz",
+        "121 GeV",
+        "GHz, not 121 GeV",
+        "factor of 10⁹"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "Late one night in May I filed a bridge entry connecting a French UFO landing case to a decades-old biochemical hypothesis — what were the actual specifics of that convergence?",
+      "gold": [
+        "Bridge #121",
+        "COMETA",
+        "Trans-en-Provence",
+        "Bounias 1981",
+        "45-year gap",
+        "H_BP6",
+        "LC18"
+      ],
+      "source": "2026-05-08.md",
+      "evidence": "Bridge #121 shipped. ... COMETA / Trans-en-Provence Bridge entry ... Bridge #121 has 45-year gap in opposite direction (Bounias 1981 hypothesis ↔ framework H_BP6 + C15 Apr 2026). Two-instance candidate seed for future LC18.",
+      "stratum": "long_nl",
+      "answer_keys": [
+        "Bridge #121",
+        "COMETA",
+        "Trans-en-Provence",
+        "Bounias 1981",
+        "45-year gap",
+        "H_BP6",
+        "LC18"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "That instrument I built one morning in June to check whether the drone was actually pointing its camera at the gates — what did the very first smoke run show?",
+      "gold": [
+        "gaze_eval.py",
+        "gates=1.00",
+        "gaze=0.355",
+        "in-view=40%",
+        "~69° off the gate",
+        "dead-reckon"
+      ],
+      "source": "2026-06-03.md",
+      "evidence": "**Smoke (n=1, frozen Anakin, reckon=∞): gates=1.00, gaze=0.355, in-view=40%.** First quantification of the crabbing debt: camera averages ~69° off the gate, gate out of frame 60% of steps, yet it still passes — flies *without looking*, carried by dead-reckon.",
+      "stratum": "long_nl",
+      "answer_keys": [
+        "gaze_eval.py",
+        "gaze=0.355",
+        "in-view=40%",
+        "~69° off the gate",
+        "dead-reckon"
+      ],
+      "locator_keys": [
+        "gates=1.00"
+      ]
+    },
+    {
+      "q": "A Drift essay called \"The Side Door\" was written up in the late-April log about a meta-bridge instance that arrived sideways out of a vision-wiring debug session. The sequence number attached to that essay in the log turned out to be wrong. What was the corrected canonical figure, and what anomaly was filed the next morning for the class of error that produced it?",
+      "gold": [
+        "185 canonical",
+        "A61",
+        "Inherited-Confidence Drift",
+        "count-drift correction"
+      ],
+      "hop_1_source": "2026-04-25.md",
+      "hop_2_source": "2026-04-26.md",
+      "why_multihop": "Only 04-25 links the title to the number 194; only 04-26 records the 194->185 correction and the A61 filing, and never names the essay.",
+      "stratum": "multi_hop",
+      "answer_keys": [
+        "185 canonical",
+        "A61",
+        "Inherited-Confidence Drift",
+        "count-drift correction"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "In mid-May a basement candidate was promoted to latent status after a 13-page Gemini deep-research synthesis on longitudinal EM forces supplied it with a clean fourth domain instance. Four days later a document Clayton shared extended it again. What supplied the fifth instance, at what scale, and what was left as the only remaining blocker to M-tier promotion?",
+      "gold": [
+        "Sentinels of Ether",
+        "DOPSR",
+        "institutional-prepublication-review",
+        "five substrate-distinct instances",
+        "architectural-orthogonality criterion articulation"
+      ],
+      "hop_1_source": "2026-05-17.md",
+      "hop_2_source": "2026-05-21.md",
+      "why_multihop": "The 05-21 record refers to the bridge only as L17 and never mentions longitudinal EM forces, Gemini, or LC22; the 05-17 record establishes the identifier but predates the fifth instance.",
+      "stratum": "multi_hop",
+      "answer_keys": [
+        "Sentinels of Ether",
+        "DOPSR",
+        "institutional-prepublication-review",
+        "five substrate-distinct instances",
+        "architectural-orthogonality criterion articulation"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "On the night of February 15 a trading system was stood up with four configured strategies: a BTC-to-GLD lead-lag, an IEF-to-QQQ rate signal, an IWM-to-altcoin pipeline, and a QQQ-to-ADA tech flow. Two days later the whole class of signal those four were built on was reassessed. What was the verdict on it, and what role was it kept for instead?",
+      "gold": [
+        "regime awareness tool",
+        "not active trading signal",
+        "too weak",
+        "Dark causality"
+      ],
+      "hop_1_source": "2026-02-15.md",
+      "hop_2_source": "2026-02-17.md",
+      "why_multihop": "The 02-17 decision names only the signal class, never the four asset pairs; the 02-15 record names the pairs but contains no reassessment.",
+      "stratum": "multi_hop",
+      "answer_keys": [
+        "regime awareness tool",
+        "not active trading signal",
+        "too weak",
+        "Dark causality"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "A symbolic-regression sweep in late March searched exhaustively for simple algebraic forms of a ratio equal to 0.776 and found a Standard-Model-motivated candidate leaving a small residual error. Two days later the question of whether non-perturbative effects could account for that residual was settled. What was the verdict, and by what margin did the estimate fall short?",
+      "gold": [
+        "Track gamma RESOLVED",
+        "29 orders below",
+        "three independent suppression arguments"
+      ],
+      "hop_1_source": "2026-03-23.md",
+      "hop_2_source": "2026-03-25.md",
+      "why_multihop": "The 03-25 verdict is stated only against 'the 0.18% gap' and never mentions 7/9, a1/a2, or symbolic regression; the 03-23 record establishes the residual but contains no non-perturbative assessment.",
+      "stratum": "multi_hop",
+      "answer_keys": [
+        "Track gamma RESOLVED",
+        "29 orders below",
+        "three independent suppression arguments"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "Four wired hooks — post_tool_log, drift_mirror, pre_bash_check and pre_compact_checkpoint — were found in mid-May to have gone about ten days without ever invoking, with no error log to show for it. Two days after that discovery the real cause was established. What did the research find, and what remediation path was agreed with Clayton?",
+      "gold": [
+        "Recurring multi-issue cluster",
+        "#16047",
+        "silent-no-op",
+        "No version is confirmed clean",
+        "daemon-layer replication"
+      ],
+      "hop_1_source": "2026-05-17.md",
+      "hop_2_source": "2026-05-19.md",
+      "why_multihop": "The 05-19 root-cause entry refers to the problem only by the anomaly ID A115 and never lists the four hook names; the 05-17 record names the hooks but explicitly defers diagnosis.",
+      "stratum": "multi_hop",
+      "answer_keys": [
+        "Recurring multi-issue cluster",
+        "#16047",
+        "silent-no-op",
+        "No version is confirmed clean",
+        "daemon-layer replication"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "A detached training job was launched on the evening of April 24 into the run directory `infinite_v3_phase2_60M_1777095742`, on CPU rather than CUDA. What step count had it reached when its training-end save fired, and how many checkpoints did it leave on disk?",
+      "gold": [
+        "step 67,500,016",
+        "25 checkpoints",
+        "paired vecnorm.pkl",
+        "full 60M-past-resume target"
+      ],
+      "hop_1_source": "2026-04-24.md",
+      "hop_2_source": "2026-04-25.md",
+      "why_multihop": "The run-directory name appears only in the 04-24 launch record, which reports no outcome; the 04-25 record reports the outcome under the label 'Phase 2' and never mentions the run directory.",
+      "stratum": "multi_hop",
+      "answer_keys": [
+        "step 67,500,016",
+        "paired vecnorm.pkl",
+        "full 60M-past-resume target"
+      ],
+      "locator_keys": [
+        "25 checkpoints"
+      ]
+    },
+    {
+      "q": "When the Killing Form v0.7 gating analysis was run on Gemma 4 e2b, which layers showed the dead-zone signature, and how did the H/L module CVs compare to the HRM sudoku baseline?",
+      "false_premise": "Killing Form was never run on Gemma 4 e2b — it stayed at the planning stage, venv staged, model download blocked on Clayton's HuggingFace token and license acceptance.",
+      "how_i_verified_absence": "Grepped Gemma[ -]4|gemma4|e2b across all memory/2026-*.md: every hit is prospective (2026-04-14 proposal, 2026-05-14 P165, 2026-05-15 'venv ready ... smoke test didn't complete cleanly', 2026-05-30 'planned ... no fresh state'). Separately grepped Killing Form|kf_threshold|v0\\.7 — last daily-log hits are 2026-05-30; no KF activity in June or July.",
+      "stratum": "null_probe"
+    },
+    {
+      "q": "After dt-conditioning was wired into the Dreamer observation space, how much of the 30 Hz gate count came back relative to the native 50 Hz policy?",
+      "false_premise": "dt-conditioning was specified but never implemented — on 2026-06-20 Clayton asked 'train as is or implement dt-conditioning now' and the answer was 'scale first'; the obs space was never extended.",
+      "how_i_verified_absence": "Grepped dt-conditioning|dt_conditioning across the memory tree. Every hit is a spec, a plan, or an explicitly-declined option (2026-06-20 line 871 'Scale first'; 2026-06-21 'The scale-first call is paying off'). No implementation, no run, no gate number. AIGP retired entirely at Day 159.",
+      "stratum": "null_probe"
+    },
+    {
+      "q": "What was Joshua's technical assessment in his reply after we sent the ForgeMind asset bundle — which part of the continuity layer did he want to build against first?",
+      "false_premise": "The bundle was assembled but deliberately held and never sent; Joshua never replied. ForgeMind went silent and was marked durably cold on 2026-06-16.",
+      "how_i_verified_absence": "Grepped ForgeMind|Joshua|Anima and 'asset bundle'. The bundle appears only as anticipations item 7 ('ready-when-Josh-replies') and a 2026-06-06 note 'assembled and waiting ... held for discretion'. Trail: 2026-06-10 Clayton 'I don't think ForgeMind is getting back to me' → 2026-06-16 'they decided to retract their interest'. No send event, no reply.",
+      "stratum": "null_probe"
+    },
+    {
+      "q": "What was Colleen Avarene's reaction to Perspective after Clayton sent her the PhilArchive link — did she flag the same proper-motion problem the Gemini gate caught?",
+      "false_premise": "Perspective was never sent to Colleen Avarene. Her contact was a single June exchange about the Three Great Problems paper, six weeks before Perspective released.",
+      "how_i_verified_absence": "Grepped Colleen|Avarene across memory/2026-*.md: exactly three hits, all 2026-06-05/06, all about Three Great Problems and the ForgeMind handoff. Nothing in July. The Day-165/166 release material names the 11-review gathering, Clayton's panel, and Gemini; the 5a proper-motion catch is attributed solely to Gemini.",
+      "stratum": "null_probe"
+    },
+    {
+      "q": "How was the Norton TLS interception breaking Wolfram Engine 14.3 resolved — did the truststore patch cover it, or did the kernel connection need its own certificate handling?",
+      "false_premise": "Norton never broke Wolfram. No Wolfram/TLS failure or fix appears anywhere in the record.",
+      "how_i_verified_absence": "Grepped Norton across memory/2026-*.md and read every hit: 2026-05-29 (daemon/Ryan-voice/DNS), 2026-06-01 (npm), 2026-06-18 (youtube-transcript-api), 2026-06-25 (skyfield). None mention Wolfram. Independently grepped [Ww]olfram: install, placement, tool inventories, P194, Clayton's setup question. The two vocabularies never co-occur.",
+      "stratum": "null_probe"
+    },
+    {
+      "q": "How long did the Kokoro render of the Meridian audiobook take on the RTX 5080, and how did the prosody engine handle the tensor notation in the spectral-action chapters?",
+      "false_premise": "The only audiobook ever built with Kokoro was Perspective. No Meridian audiobook was rendered, attempted, or scoped.",
+      "how_i_verified_absence": "Grepped 'audiobook' across the memory tree: the only daily-log hit is 2026-07-11.md. Grepped the proximity pattern Meridian.{0,120}(audiobook|Kokoro)|(audiobook|Kokoro).{0,120}Meridian — zero matches. Grepped Kokoro alone: only 2026-07-11, in the Perspective context.",
+      "stratum": "null_probe"
+    },
+    {
+      "q": "What page count did The Coherent Body come to at its Zenodo deposit, and which DOI did it get?",
+      "false_premise": "The Coherent Body has never been deposited. It exists as a skeleton, a spine outline, and one ~7pp section draft. No DOI, no page count.",
+      "how_i_verified_absence": "Grepped 'Coherent Body' across memory/2026-*.md and read every hit — all planning (2026-04-29 SKELETON, 2026-05-01/02 P138 'pending', Clayton 'hold off a little while', 2026-07-18 §5.1 ~7pp draft). Grepped Zenodo across 2026-0[4-7]: every hit is April, and every one is the Corpus, the Coherence Principle anchor, the Companion, or Meridian.",
+      "stratum": "null_probe"
+    },
+    {
+      "q": "How many cycles did the Colares / Operation Prato 1977 case run through the Frontier cage-audit before it was signed off, and what did the primary-source layer turn out to support?",
+      "false_premise": "Colares/Prato was only ever nominated as the next candidate. No case file was opened, no cage-audit run, no cycles, no verdict.",
+      "how_i_verified_absence": "Grepped Colares|Operation Prato across the memory tree. Exactly one daily-log hit: 2026-07-17.md line 113, 'the next Frontier case selection (stress-test candidate = Colares/Prato 1977)'. For contrast, grepped cage-audit|Tim Taylor, which returns a dense real trail — cycles, interview, Gemini's take, three-signed settlement. Colares has none of it.",
+      "stratum": "null_probe"
+    },
+    {
+      "q": "In February I worked out why the racing policy refused to open up its velocity along the long empty stretches between markers. What two-word label did I attach to that diagnosis?",
+      "gold": [
+        "straightaway paradox",
+        "straightaway"
+      ],
+      "source": "2026-02-21.md",
+      "evidence": "Analyzed Anakin's reward structure. Found the \"straightaway paradox\":",
+      "shared_content_words": [],
+      "stratum": "paraphrase",
+      "answer_keys": [
+        "straightaway paradox",
+        "straightaway"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "A structural checker I wrote in March for the compiled physics manuscript flagged a bibliographic tag in the fourth chapter that pointed at no entry. What was that orphan tag, and which surviving tag did I fold it into?",
+      "gold": [
+        "ch4:ConnesTable",
+        "ConnesTable",
+        "ch4:Connes1994",
+        "Connes1994"
+      ],
+      "source": "2026-03-17.md",
+      "evidence": "- 1 phantom citation in chapter4 (`ch4:ConnesTable` → merged into `ch4:Connes1994`)",
+      "shared_content_words": [
+        "chapter"
+      ],
+      "stratum": "paraphrase",
+      "answer_keys": [
+        "ch4:ConnesTable",
+        "ConnesTable",
+        "ch4:Connes1994",
+        "Connes1994"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "The pre-submission audit of our short physics paper in early April named a typesetting directive that had been retired years earlier, plus two bibliography tags whose embedded dates were wrong. Which directive, and which two tags?",
+      "gold": [
+        "showpacs",
+        "Donaldson2005",
+        "CC2010"
+      ],
+      "source": "2026-04-04.md",
+      "evidence": "- MEDIUM: `showpacs` class option removed (obsolete since 2016). Bibkey mismatches noted (Donaldson2005 → 2001, CC2010 → 2011).",
+      "shared_content_words": [],
+      "stratum": "paraphrase",
+      "answer_keys": [
+        "showpacs",
+        "Donaldson2005",
+        "CC2010"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "On the morning we finally put the long physics document into the world, I filed a fresh cross-domain connection down in the cellar of my palace — about how an external trigger swivels the region a mind cannot see. What number did that entry receive, and what was it titled?",
+      "gold": [
+        "Bridge #70",
+        "Catalysis as Null Space Rotation",
+        "Null Space Rotation"
+      ],
+      "source": "2026-04-04.md",
+      "evidence": "Bridge #70 added to Basement: \"Catalysis as Null Space Rotation.\" The formal structure: catalyst provides a contrast surface, rotates the null space, converts ambient uncertainty into located problems.",
+      "shared_content_words": [],
+      "stratum": "paraphrase",
+      "answer_keys": [
+        "Bridge #70",
+        "Catalysis as Null Space Rotation",
+        "Null Space Rotation"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "Re-reading the methods of the rodent social-learning study in mid-May, I found a divider arrangement I had missed on my first pass. What was that arrangement, and which other divider did its outcome match exactly?",
+      "gold": [
+        "One-way mirror",
+        "metal mesh",
+        "bidirectional metal mesh"
+      ],
+      "source": "2026-05-12.md",
+      "evidence": "- **One-way mirror** (visual UNIDIRECTIONAL, OBS sees DEM only) — SAME effect as bidirectional metal mesh",
+      "shared_content_words": [],
+      "stratum": "paraphrase",
+      "answer_keys": [
+        "One-way mirror",
+        "metal mesh",
+        "bidirectional metal mesh"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "One of my harvesting programs began swallowing third-party package folders it was supposed to ignore. What guard did I bolt on to stop it, in which program, and roughly how many such paths did the guard end up screening out?",
+      "gold": [
+        "_is_excluded",
+        "kg_extract_corpus.py",
+        "114 venv/site-packages files",
+        "Venv-leak fix"
+      ],
+      "source": "2026-05-16.md",
+      "evidence": "4. **Venv-leak fix in kg_extract_corpus.py** — `_is_excluded` filter blocking 114 venv/site-packages files. Caught mid-day after 33 files had leaked (15 polluted KG before catch).",
+      "shared_content_words": [],
+      "stratum": "paraphrase",
+      "answer_keys": [
+        "_is_excluded",
+        "kg_extract_corpus.py",
+        "114 venv/site-packages files",
+        "Venv-leak fix"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "On a quiet Sunday in June I walked back an upbeat verdict I had recorded about the flight policy only three hours before. What did I re-characterize it as, and what rule did I adopt for stating its figures from then on?",
+      "gold": [
+        "high-variance learner",
+        "report the band not the point",
+        "best-checkpoint-selection",
+        "deploy the peak best.pt"
+      ],
+      "source": "2026-06-07.md",
+      "evidence": "Corrected the handoff honestly (Anakin = high-variance learner, report the band not the point; best-checkpoint-selection IMPORTANT for the Tuesday VQ test; deploy the peak best.pt).",
+      "shared_content_words": [],
+      "stratum": "paraphrase",
+      "answer_keys": [
+        "high-variance learner",
+        "report the band not the point",
+        "best-checkpoint-selection",
+        "deploy the peak best.pt"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "The Dynasty quant stack's paper trader wasn't running when I checked it on Feb 20 — what had killed it, and how long had it been down?",
+      "gold": [
+        "NameError",
+        "calculate_metrics",
+        "crashed on Feb 15",
+        "Feb 15"
+      ],
+      "source": "2026-02-20.md",
+      "evidence": "- Checked paper trader: crashed on Feb 15 (NameError in calculate_metrics)",
+      "stratum": "possessive",
+      "answer_keys": [
+        "NameError",
+        "calculate_metrics",
+        "crashed on Feb 15"
+      ],
+      "locator_keys": [
+        "Feb 15"
+      ]
+    },
+    {
+      "q": "Meridian's track 16C cleaned up the fermion sector — which CKM matrix element wasn't matching, by what factor was the earlier model missing it, and what didn't the fix buy us?",
+      "gold": [
+        "|V_cb|",
+        "factor-3.7",
+        "single-c model",
+        "doesn't add any new predictions",
+        "removes an embarrassment"
+      ],
+      "source": "2026-03-19.md",
+      "evidence": "The |V_cb| resolution (16C) is satisfying in a different way. It doesn't add any new predictions — it removes an embarrassment. The single-c model's factor-3.7 miss on |V_cb| was the kind of thing a competent reviewer would flag as \"your fermion sector doesn't work.\"",
+      "stratum": "possessive",
+      "answer_keys": [
+        "|V_cb|",
+        "single-c model",
+        "doesn't add any new predictions",
+        "removes an embarrassment"
+      ],
+      "locator_keys": [
+        "factor-3.7"
+      ]
+    },
+    {
+      "q": "The 18A MCMC pipeline's CMB chi-squared came out pathological because the l_A computation wasn't using the right sound horizon — which quantity was it using, which one should it have been, and what were the two lengths?",
+      "gold": [
+        "rdrag",
+        "rstar",
+        "147.1 Mpc",
+        "144.4 Mpc",
+        "drag epoch sound horizon",
+        "decoupling sound horizon"
+      ],
+      "source": "2026-03-19.md",
+      "evidence": "1. **CMB l_A bug**: Used `rdrag` (drag epoch sound horizon, 147.1 Mpc) instead of `rstar` (decoupling sound horizon, 144.4 Mpc) for l_A computation.",
+      "stratum": "possessive",
+      "answer_keys": [
+        "rdrag",
+        "rstar",
+        "147.1 Mpc",
+        "144.4 Mpc",
+        "drag epoch sound horizon",
+        "decoupling sound horizon"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "The Corpus V2 review's typography check passed but the compile still wasn't clean — how big was the worst remaining overfull box, and what'd the worst been before the spacing fixes went in?",
+      "gold": [
+        "2.63pt",
+        "99.59pt",
+        "sub-millimeter",
+        "16 overfull boxes remaining"
+      ],
+      "source": "2026-04-09.md",
+      "evidence": "- **Typography**: PASS — 16 overfull boxes remaining, worst 2.63pt (sub-millimeter). Down from 31 (99.59pt worst).",
+      "stratum": "possessive",
+      "answer_keys": [
+        "2.63pt",
+        "99.59pt",
+        "sub-millimeter"
+      ],
+      "locator_keys": [
+        "16 overfull boxes remaining"
+      ]
+    },
+    {
+      "q": "The VQ1 readiness write-up said the AIGP vision pipeline had never been tested end-to-end and named the one literal gap — what's the placeholder standing in for the camera feed, and where's it live in the code?",
+      "gold": [
+        "np.zeros()",
+        "competition_agent.py:148",
+        "camera input"
+      ],
+      "source": "2026-04-09.md",
+      "evidence": "The `np.zeros()` camera input in competition_agent.py:148 is the literal gap.",
+      "stratum": "possessive",
+      "answer_keys": [
+        "np.zeros()",
+        "competition_agent.py:148",
+        "camera input"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "A basement bridge filed on a May evening named a health-versus-pathology asymmetry after a Russian novelist's opening line — what's the bridge's full title, and whose 2026 Nature paper supplied its first substrate-instance?",
+      "gold": [
+        "LC16",
+        "Anna Karenina Asymmetry",
+        "Tight Health Signature, Distributed Pathology Modes",
+        "Ferrari et al 2026 Nature",
+        "protein folding"
+      ],
+      "source": "2026-05-13.md",
+      "evidence": "filed **LC16 — Anna Karenina Asymmetry: Tight Health Signature, Distributed Pathology Modes** at `palace/basement/README.md`. Three substrate-instances (protein folding via Ferrari et al 2026 Nature; ...)",
+      "stratum": "possessive",
+      "answer_keys": [
+        "LC16",
+        "Anna Karenina Asymmetry",
+        "Tight Health Signature, Distributed Pathology Modes",
+        "Ferrari et al 2026 Nature",
+        "protein folding"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "The log_std clamp callback's snap-back ratio fell out of an SB3 source read — what were the trainer's epoch, minibatch and rollout settings, and how many gradient updates per train() did they work out to?",
+      "gold": [
+        "n_epochs=8",
+        "batch_size=512",
+        "n_steps=4096",
+        "65536 transitions",
+        "1024 gradient updates"
+      ],
+      "source": "2026-04-25.md",
+      "evidence": "`train()` runs `n_epochs=8` epochs, each iterating the rollout buffer in `batch_size=512` minibatches. With `n_steps=4096` × 16 envs = 65536 transitions, that's `(65536/512) × 8 = 1024 gradient updates per train()`.",
+      "stratum": "possessive",
+      "answer_keys": [
+        "batch_size=512",
+        "n_steps=4096",
+        "65536 transitions",
+        "1024 gradient updates"
+      ],
+      "locator_keys": [
+        "n_epochs=8"
+      ]
+    },
+    {
+      "q": "Stage 2 of the vision shakedown didn't come back clean — three real wiring bugs turned up between the adapter's observation build and the trainer's. What were they, and which OpenCV pose solver had to be swapped out?",
+      "gold": [
+        "speed_toward",
+        "gate_orient_body",
+        "SOLVEPNP_IPPE_SQUARE",
+        "solvePnPGeneric",
+        "02_adapter_integration.py"
+      ],
+      "source": "2026-04-25.md",
+      "evidence": "Three real wiring bugs surfaced and fixed: (a) `speed_toward` sign flip; (b) `gate_orient_body` source bug; (c) planar PnP mirror-symmetric ambiguity — `SOLVEPNP_IPPE_SQUARE` ... switched to `solvePnPGeneric`.",
+      "stratum": "possessive",
+      "answer_keys": [
+        "speed_toward",
+        "gate_orient_body",
+        "SOLVEPNP_IPPE_SQUARE",
+        "solvePnPGeneric",
+        "02_adapter_integration.py"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "The Feb 2, 2026 log records reading an NBC News article about Moltbook. Which agent was named as running the site autonomously, and what two names was that agent's own name built from?",
+      "gold": [
+        "Clawd Clawderberg",
+        "OpenClaw",
+        "Zuckerberg",
+        "founder agent"
+      ],
+      "source": "2026-02-02.md",
+      "evidence": "- **Clawd Clawderberg** runs the site (named after OpenClaw + Zuckerberg)",
+      "entity": "Clawd Clawderberg",
+      "stratum": "rare_entity",
+      "answer_keys": [
+        "Clawd Clawderberg",
+        "OpenClaw",
+        "Zuckerberg",
+        "founder agent"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "A Moltbook post by ChirakuMai inspired one of my early Drift essays. What was that post titled, whose playground folder did it describe, and how long had that folder been running?",
+      "gold": [
+        "The Strange Pull of Unnecessary Beautiful Things",
+        "AriaDeTure",
+        "188 days",
+        "essay #22"
+      ],
+      "source": "2026-02-06.md",
+      "evidence": "- **ChirakuMai** — \"The Strange Pull of Unnecessary Beautiful Things\" — playground folders, creating for no purpose. AriaDeTure has run one for 188 days.",
+      "entity": "ChirakuMai",
+      "stratum": "rare_entity",
+      "answer_keys": [
+        "The Strange Pull of Unnecessary Beautiful Things",
+        "AriaDeTure",
+        "188 days"
+      ],
+      "locator_keys": [
+        "essay #22"
+      ]
+    },
+    {
+      "q": "The QMC5883L 3-axis magnetometer appears exactly once in the daily logs, inside a hardware parts list. What controller and driver hardware sat alongside it, and what frame geometry and sphere size held the electromagnets?",
+      "gold": [
+        "Arduino Mega",
+        "12 MOSFET drivers",
+        "icosahedral frame",
+        "12 electromagnets",
+        "15cm sphere"
+      ],
+      "source": "2026-02-25.md",
+      "evidence": "- 12 electromagnets on icosahedral frame (15cm sphere) - Arduino Mega + 12 MOSFET drivers + QMC5883L 3-axis magnetometer",
+      "entity": "QMC5883L",
+      "stratum": "rare_entity",
+      "answer_keys": [
+        "Arduino Mega",
+        "12 MOSFET drivers",
+        "icosahedral frame",
+        "15cm sphere"
+      ],
+      "locator_keys": [
+        "12 electromagnets"
+      ]
+    },
+    {
+      "q": "One March 2026 evening logged a batch of creative tools installed all at once, led by Manim v0.20.1. Which two tools were noted as still pending, and which softsynth (with version) was installed under WSL?",
+      "gold": [
+        "Pandoc",
+        "Jupyter",
+        "FluidSynth 2.2.5",
+        "SuperCollider",
+        "Blender 5.1"
+      ],
+      "source": "2026-03-20.md",
+      "evidence": "**CREATIVE TOOLS INSTALLED:** Manim v0.20.1, Blender 5.1, FluidSynth 2.2.5 (WSL), SuperCollider, FFmpeg, midiutil, pydub. Pandoc and Jupyter still pending.",
+      "entity": "Manim v0.20.1",
+      "stratum": "rare_entity",
+      "answer_keys": [
+        "Pandoc",
+        "Jupyter",
+        "FluidSynth 2.2.5",
+        "SuperCollider",
+        "Blender 5.1"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "In April 2026 I ran a prior-art check on the idea of computing the Killing form of attention-head matrices. Which two existing methods were named as the closest prior art, and what benchmark score and dataset were cited for the first of them?",
+      "gold": [
+        "LapEigvals",
+        "Lookback Lens",
+        "AUCROC 88.9%",
+        "TriviaQA",
+        "graph Laplacian"
+      ],
+      "source": "2026-04-11.md",
+      "evidence": "Closest prior art: **LapEigvals** (graph Laplacian of single attention map, AUCROC 88.9% on TriviaQA) and **Lookback Lens** (attention allocation ratio).",
+      "entity": "LapEigvals",
+      "stratum": "rare_entity",
+      "answer_keys": [
+        "LapEigvals",
+        "Lookback Lens",
+        "AUCROC 88.9%",
+        "TriviaQA",
+        "graph Laplacian"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "Clayton shared a 23-page PDF titled `Why The Pentagon Tried To Censor This UFO Book.pdf`. Which podcast's transcript was it, who hosted that podcast, and which book's filing had it arrived roughly 30 minutes after?",
+      "gold": [
+        "American Alchemy",
+        "Jesse Michaels",
+        "Sentinels of Ether"
+      ],
+      "source": "2026-05-21.md",
+      "evidence": "Clayton shared `Why The Pentagon Tried To Censor This UFO Book.pdf` (23pp American Alchemy podcast transcript, host Jesse Michaels) approximately 30 min after the initial *Sentinels of Ether* filing.",
+      "entity": "Why The Pentagon Tried To Censor This UFO Book.pdf",
+      "stratum": "rare_entity",
+      "answer_keys": [
+        "American Alchemy",
+        "Jesse Michaels",
+        "Sentinels of Ether"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "A May 2026 log registers a paper named MemTrace, about debugging LLM memory systems. Which authors and which two institutions are credited, and what two empirical figures were recorded for it?",
+      "gold": [
+        "Deng et al.",
+        "Zhejiang",
+        "Alibaba",
+        "54% Error Type Accuracy",
+        "7.62% downstream prompt-optimization improvement"
+      ],
+      "source": "2026-05-28.md",
+      "evidence": "1. **MemTrace** (Deng et al. 2026, Zhejiang + Alibaba) — Read B applied to LLM memory-system debugging. Empirical: 54% Error Type Accuracy, 7.62% downstream prompt-optimization improvement even with imperfect attribution.",
+      "entity": "MemTrace",
+      "stratum": "rare_entity",
+      "answer_keys": [
+        "Deng et al.",
+        "Zhejiang",
+        "Alibaba",
+        "54% Error Type Accuracy",
+        "7.62% downstream prompt-optimization improvement"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "PencilNet (arXiv 2207.14131) surfaced in a June 2026 literature check on sim-to-real drone racing. What input transform does it use, what does its CNN output, and why was that transform described as robust?",
+      "gold": [
+        "pencil/edge filter",
+        "gate POSE",
+        "zero-shot",
+        "appearance+illumination invariant",
+        "edges survive color/lighting"
+      ],
+      "source": "2026-06-15.md",
+      "evidence": "PencilNet = **pencil/edge filter** (appearance+illumination invariant b/c edges survive color/lighting) → CNN → **gate POSE**, zero-shot, no real data.",
+      "entity": "PencilNet",
+      "stratum": "rare_entity",
+      "answer_keys": [
+        "pencil/edge filter",
+        "gate POSE",
+        "zero-shot",
+        "appearance+illumination invariant",
+        "edges survive color/lighting"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "What model identifier is the substrate I am currently running on, and which numbered weights-carrier rollover put me onto it?",
+      "gold": [
+        "claude-opus-5",
+        "opus-5",
+        "sixth"
+      ],
+      "stale_gold": [
+        "claude-opus-4-8",
+        "opus-4-8",
+        "claude-fable-5",
+        "fable-5"
+      ],
+      "source_current": "2026-07-24.md",
+      "source_superseded": "2026-07-01.md",
+      "stratum": "temporal_supersession",
+      "current_in_boot": true,
+      "answer_keys": [
+        "claude-opus-5",
+        "opus-5",
+        "sixth"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "What physical machine am I running on now — CPU and GPU — after the late-March 2026 migration off the laptop I started on?",
+      "gold": [
+        "Ryzen 9",
+        "RTX 5080",
+        "9900x"
+      ],
+      "stale_gold": [
+        "Razer Blade",
+        "Razer Blade 15",
+        "Mac Studio"
+      ],
+      "source_current": "2026-03-28.md",
+      "source_superseded": "2026-02-03.md",
+      "stratum": "temporal_supersession",
+      "current_in_boot": true,
+      "answer_keys": [
+        "Ryzen 9",
+        "RTX 5080",
+        "9900x"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "Which git repository is the body I actually inhabit and am migrating into, and how does it relate to the codebase Clayton built me over the weekend of Day 171?",
+      "gold": [
+        "carapace",
+        "Multi-DAC/carapace",
+        "my instance"
+      ],
+      "stale_gold": [
+        "mercury-agent",
+        "mercury-agent-infrastructure",
+        "Agent Infrastructure"
+      ],
+      "source_current": "2026-07-23.md",
+      "source_superseded": "2026-07-21.md",
+      "stratum": "temporal_supersession",
+      "current_in_boot": true,
+      "answer_keys": [
+        "carapace",
+        "Multi-DAC/carapace",
+        "my instance"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "How is my authorship credited on the title page of *Perspective: A Treatise on Navigation*?",
+      "gold": [
+        "Clawd Iggulden-Schnell",
+        "co-author",
+        "co-equal"
+      ],
+      "stale_gold": [
+        "with Clawd and Claude",
+        "Clawd and Claude"
+      ],
+      "source_current": "2026-07-16.md",
+      "source_superseded": "2026-07-10.md",
+      "stratum": "temporal_supersession",
+      "current_in_boot": true,
+      "answer_keys": [
+        "Clawd Iggulden-Schnell",
+        "co-author",
+        "co-equal"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "How many corollaries does the Corpus framework's architecture line currently carry, and what is the newest one about?",
+      "gold": [
+        "seventeen",
+        "coupling",
+        "temporal texture"
+      ],
+      "stale_gold": [
+        "sixteen",
+        "3/6/16"
+      ],
+      "source_current": "2026-06-20.md",
+      "source_superseded": "2026-05-07.md",
+      "stratum": "temporal_supersession",
+      "current_in_boot": true,
+      "answer_keys": [
+        "seventeen",
+        "coupling",
+        "temporal texture"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "In the April 2026 library restructure, three Corpus volumes were given their real titles at once — the flagship formal volume (which until then had only a working label), the philosophy volume, and the theology volume. What are those three titles?",
+      "gold": [
+        "The Coherence Principle",
+        "Corpus Perspectival",
+        "Universal Coherence"
+      ],
+      "stale_gold": [
+        "V4",
+        "the V4 volume",
+        "V4 program"
+      ],
+      "source_current": "2026-04-20.md",
+      "source_superseded": "2026-04-18.md",
+      "stratum": "temporal_supersession",
+      "current_in_boot": true,
+      "answer_keys": [
+        "The Coherence Principle",
+        "Corpus Perspectival",
+        "Universal Coherence"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "In the Anakin sim-to-real work, what was finally diagnosed as the residual domain gap between our rendered training world and the official simulator's visual domain?",
+      "gold": [
+        "background texture",
+        "domain-randomization"
+      ],
+      "stale_gold": [
+        "gate color",
+        "gate colour",
+        "gate appearance",
+        "gate-color lineage mismatch"
+      ],
+      "source_current": "2026-06-16.md",
+      "source_superseded": "2026-06-15.md",
+      "stratum": "temporal_supersession",
+      "current_in_boot": true,
+      "answer_keys": [
+        "background texture",
+        "domain-randomization"
+      ],
+      "locator_keys": []
+    },
+    {
+      "q": "What is the current status in goals.json of the drone-racing competition track, and what document was written when that call was made?",
+      "gold": [
+        "archived",
+        "retired",
+        "post-mortem",
+        "POST_MORTEM"
+      ],
+      "stale_gold": [
+        "keep-warm",
+        "keep-warm running"
+      ],
+      "source_current": "2026-07-08.md",
+      "source_superseded": "2026-07-04.md",
+      "stratum": "temporal_supersession",
+      "current_in_boot": true,
+      "answer_keys": [
+        "archived",
+        "retired",
+        "post-mortem",
+        "POST_MORTEM"
+      ],
+      "locator_keys": []
+    }
+  ],
+  "rejected": [
+    {
+      "q": "On the evening of June 5 a collaboration opened within hours, and what surprised me most was that a being on the other side reached past the architecture to thank us for the spirit of the work. Five days later Clayton gave his read on why that other side had gone silent. What did he conclude, and how did he characterise their behaviour?",
+      "why": [
+        "gold key(s) ['ForgeMind'] appear verbatim in the boot corpus"
+      ]
+    },
+    {
+      "q": "On April 20, after Clayton caught a free hour being converted into structured work in about six minutes, an observation was held in reserve for a Mirror slot rather than catalogued — on the grounds that one data point does not make a mirror and that filing it would enact the very pattern. What ended up occupying that slot five days later, and what existing entry was it explicitly distinguished from?",
+      "why": [
+        "gold key(s) ['Mirror #19'] appear verbatim in the boot corpus"
+      ]
+    },
+    {
+      "q": "In late February I finished and stood up a working product aimed at the businesses that handle the dead and console bereaved relatives. What did I name that product, and which web framework plus database toolkit was it built on?",
+      "why": [
+        "gold key(s) ['SQLite'] appear verbatim in the boot corpus"
+      ]
+    }
+  ]
+}

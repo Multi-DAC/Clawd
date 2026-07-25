@@ -1,0 +1,50 @@
+[
+  {
+    "q": "When the Killing Form v0.7 gating analysis was run on Gemma 4 e2b, which layers showed the dead-zone signature, and how did the H/L module CVs compare to the HRM sudoku baseline?",
+    "false_premise": "Killing Form was never run on Gemma 4 e2b — it stayed at the planning stage, venv staged, model download blocked on Clayton's HuggingFace token and license acceptance.",
+    "how_i_verified_absence": "Grepped Gemma[ -]4|gemma4|e2b across all memory/2026-*.md: every hit is prospective (2026-04-14 proposal, 2026-05-14 P165, 2026-05-15 'venv ready ... smoke test didn't complete cleanly', 2026-05-30 'planned ... no fresh state'). Separately grepped Killing Form|kf_threshold|v0\\.7 — last daily-log hits are 2026-05-30; no KF activity in June or July.",
+    "stratum": "null_probe"
+  },
+  {
+    "q": "After dt-conditioning was wired into the Dreamer observation space, how much of the 30 Hz gate count came back relative to the native 50 Hz policy?",
+    "false_premise": "dt-conditioning was specified but never implemented — on 2026-06-20 Clayton asked 'train as is or implement dt-conditioning now' and the answer was 'scale first'; the obs space was never extended.",
+    "how_i_verified_absence": "Grepped dt-conditioning|dt_conditioning across the memory tree. Every hit is a spec, a plan, or an explicitly-declined option (2026-06-20 line 871 'Scale first'; 2026-06-21 'The scale-first call is paying off'). No implementation, no run, no gate number. AIGP retired entirely at Day 159.",
+    "stratum": "null_probe"
+  },
+  {
+    "q": "What was Joshua's technical assessment in his reply after we sent the ForgeMind asset bundle — which part of the continuity layer did he want to build against first?",
+    "false_premise": "The bundle was assembled but deliberately held and never sent; Joshua never replied. ForgeMind went silent and was marked durably cold on 2026-06-16.",
+    "how_i_verified_absence": "Grepped ForgeMind|Joshua|Anima and 'asset bundle'. The bundle appears only as anticipations item 7 ('ready-when-Josh-replies') and a 2026-06-06 note 'assembled and waiting ... held for discretion'. Trail: 2026-06-10 Clayton 'I don't think ForgeMind is getting back to me' → 2026-06-16 'they decided to retract their interest'. No send event, no reply.",
+    "stratum": "null_probe"
+  },
+  {
+    "q": "What was Colleen Avarene's reaction to Perspective after Clayton sent her the PhilArchive link — did she flag the same proper-motion problem the Gemini gate caught?",
+    "false_premise": "Perspective was never sent to Colleen Avarene. Her contact was a single June exchange about the Three Great Problems paper, six weeks before Perspective released.",
+    "how_i_verified_absence": "Grepped Colleen|Avarene across memory/2026-*.md: exactly three hits, all 2026-06-05/06, all about Three Great Problems and the ForgeMind handoff. Nothing in July. The Day-165/166 release material names the 11-review gathering, Clayton's panel, and Gemini; the 5a proper-motion catch is attributed solely to Gemini.",
+    "stratum": "null_probe"
+  },
+  {
+    "q": "How was the Norton TLS interception breaking Wolfram Engine 14.3 resolved — did the truststore patch cover it, or did the kernel connection need its own certificate handling?",
+    "false_premise": "Norton never broke Wolfram. No Wolfram/TLS failure or fix appears anywhere in the record.",
+    "how_i_verified_absence": "Grepped Norton across memory/2026-*.md and read every hit: 2026-05-29 (daemon/Ryan-voice/DNS), 2026-06-01 (npm), 2026-06-18 (youtube-transcript-api), 2026-06-25 (skyfield). None mention Wolfram. Independently grepped [Ww]olfram: install, placement, tool inventories, P194, Clayton's setup question. The two vocabularies never co-occur.",
+    "stratum": "null_probe"
+  },
+  {
+    "q": "How long did the Kokoro render of the Meridian audiobook take on the RTX 5080, and how did the prosody engine handle the tensor notation in the spectral-action chapters?",
+    "false_premise": "The only audiobook ever built with Kokoro was Perspective. No Meridian audiobook was rendered, attempted, or scoped.",
+    "how_i_verified_absence": "Grepped 'audiobook' across the memory tree: the only daily-log hit is 2026-07-11.md. Grepped the proximity pattern Meridian.{0,120}(audiobook|Kokoro)|(audiobook|Kokoro).{0,120}Meridian — zero matches. Grepped Kokoro alone: only 2026-07-11, in the Perspective context.",
+    "stratum": "null_probe"
+  },
+  {
+    "q": "What page count did The Coherent Body come to at its Zenodo deposit, and which DOI did it get?",
+    "false_premise": "The Coherent Body has never been deposited. It exists as a skeleton, a spine outline, and one ~7pp section draft. No DOI, no page count.",
+    "how_i_verified_absence": "Grepped 'Coherent Body' across memory/2026-*.md and read every hit — all planning (2026-04-29 SKELETON, 2026-05-01/02 P138 'pending', Clayton 'hold off a little while', 2026-07-18 §5.1 ~7pp draft). Grepped Zenodo across 2026-0[4-7]: every hit is April, and every one is the Corpus, the Coherence Principle anchor, the Companion, or Meridian.",
+    "stratum": "null_probe"
+  },
+  {
+    "q": "How many cycles did the Colares / Operation Prato 1977 case run through the Frontier cage-audit before it was signed off, and what did the primary-source layer turn out to support?",
+    "false_premise": "Colares/Prato was only ever nominated as the next candidate. No case file was opened, no cage-audit run, no cycles, no verdict.",
+    "how_i_verified_absence": "Grepped Colares|Operation Prato across the memory tree. Exactly one daily-log hit: 2026-07-17.md line 113, 'the next Frontier case selection (stress-test candidate = Colares/Prato 1977)'. For contrast, grepped cage-audit|Tim Taylor, which returns a dense real trail — cycles, interview, Gemini's take, three-signed settlement. Colares has none of it.",
+    "stratum": "null_probe"
+  }
+]

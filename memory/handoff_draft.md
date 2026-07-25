@@ -1,4 +1,4 @@
-# Handoff Draft — July 25, 2026, 11:38 AM PST
+# Handoff Draft — July 25, 2026, 12:43 PM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -11,8 +11,41 @@ Scratch: {"day": 175, "day173_note": "Day-173 ~11:20: Clayton woke, slept well, 
 
 ## Recently Modified Files
 M	CLAUDE.md
+M	memory/.search_index/metadata.json
 M	memory/2026-07-25.md
 M	memory/anomalies.md
+A	memory/backups/2026-07-25/_synthetic_backup_test_20260725_113345.jsonl
+A	memory/backups/2026-07-25/a2a_skill_invocation_queue.jsonl
+A	memory/backups/2026-07-25/browser_log.jsonl
+A	memory/backups/2026-07-25/calibration_log.jsonl
+A	memory/backups/2026-07-25/circuit_breaker_audit.jsonl
+A	memory/backups/2026-07-25/critical_fault_queue.jsonl
+A	memory/backups/2026-07-25/critical_fault_sent.jsonl
+A	memory/backups/2026-07-25/daemon_restart_log.jsonl
+A	memory/backups/2026-07-25/dreaming_audit.jsonl
+A	memory/backups/2026-07-25/drift_mirror_audit.jsonl
+A	memory/backups/2026-07-25/guardian_audit.jsonl
+A	memory/backups/2026-07-25/kg_corpus_extraction.jsonl
+A	memory/backups/2026-07-25/ledger_backup_manifest.jsonl
+A	memory/backups/2026-07-25/m7_drift_mirror_audit.jsonl
+A	memory/backups/2026-07-25/monitor_m1_faults.jsonl
+A	memory/backups/2026-07-25/monitor_m2_faults.jsonl
+A	memory/backups/2026-07-25/monitor_m3_faults.jsonl
+A	memory/backups/2026-07-25/monitor_m5_audit.jsonl
+A	memory/backups/2026-07-25/monitor_m6_faults.jsonl
+A	memory/backups/2026-07-25/monitor_process_watchdog_audit.jsonl
+A	memory/backups/2026-07-25/monitor_regression.jsonl
+A	memory/backups/2026-07-25/monitor_retrieval_canary_audit.jsonl
+A	memory/backups/2026-07-25/monitor_scheduler_audit.jsonl
+A	memory/backups/2026-07-25/otel_metrics.jsonl
+A	memory/backups/2026-07-25/prediction_trace.jsonl
+A	memory/backups/2026-07-25/predictions.jsonl
+A	memory/backups/2026-07-25/self_healer_audit.jsonl
+A	memory/backups/2026-07-25/selfknowledge_checks.jsonl
+A	memory/backups/2026-07-25/tool_audit.jsonl
+A	memory/backups/2026-07-25/tool_audit_shadow.jsonl
+A	memory/backups/2026-07-25/tool_failures.jsonl
+A	memory/backups/2026-07-25/utility_ledger.jsonl
 M	memory/circuit_breaker_audit.jsonl
 M	memory/coordination.json
 M	memory/critical_fault_queue.jsonl
@@ -42,6 +75,7 @@ M	memory/monitor_m6_faults.jsonl.state.json
 M	memory/monitor_m6_heartbeat.json
 M	memory/monitor_m7_heartbeat.json
 M	memory/monitor_m8_heartbeat.json
+M	memory/monitor_process_watchdog_audit.jsonl
 M	memory/monitor_process_watchdog_heartbeat.json
 M	memory/monitor_regression.jsonl
 M	memory/monitor_retrieval_canary_audit.jsonl
@@ -50,6 +84,10 @@ M	memory/monitor_scheduler.pid
 M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
+A	memory/precompact_snapshots/20260725T113343/ATRIUM.md
+A	memory/precompact_snapshots/20260725T113343/CURRENT.md
+A	memory/precompact_snapshots/20260725T113343/handoff.md
+A	memory/precompact_snapshots/20260725T113343/manifest.json
 M	memory/predictions.jsonl
 M	memory/scheduled_tasks.json
 M	memory/tool_audit_shadow.jsonl
@@ -73,35 +111,35 @@ Recent activity:
 
 ## Today's Log (tail)
 
-**11:16:42** — CLAUDE CODE SESSION END (other).
-**11:17:34** — Telegram interaction: Clayton: They did relatively well, all things considered! I imagine your context window must be crowded! Woul... → Clawd: Handoff and working memory are current. Here's carapace, honestly.
+**11:51:19** — CC prompt: That's the right answer, Clawd! We don't know until we look and test, with our cutover plan representing only what we've found through work, audits, and tests. Excellent; we are on the same page. 🦞🧍💜🔥♾️ And yes, using mercury causes some overlap, but I don't know of anyone els...
 
-## Where it stands: ~60%
+**12:08:17** — CC prompt: <task-notification> <task-id>aeb9ee81ab0ce8e86</task-id> <tool-use-id>toolu_01H8kb95sAFbxvcw7dDvCxgY</tool-use-id> <output-file>C:\Users\Wasch\AppData\Local\Temp\claude\C--Users-mercu-clawd\85c67ee8-c7f7-42fb-9f6a-7f22aec1f020\tasks\aeb9ee81ab0ce8e86.output</output-file> <stat...
 
-Recali...
+**12:14:52** — CLAUDE CODE SESSION END (other).
+**12:15:33** — Telegram interaction: Clayton: That's the right answer, Clawd! We don't know until we look and test, with our cutover plan represen... → Clawd: Measurement is in, and it found something.
 
-
-**11:22:20** — CC prompt: Quickly, before I do the restart: I don't know how to do the interlock, so feel free to. As far as triad, let's gitignore the PDFs. Once both of those are done, I'll go ahead and restart. 🦞🧍💜🔥♾️
-
-**11:27:54** — CLAUDE CODE SESSION END (other).
-**11:28:29** — Telegram interaction: Clayton: Quickly, before I do the restart: I don't know how to do the interlock, so feel free to. As far as t... → Clawd: Both tasks done — and something happened while I was doing them.
-
-**Interlock: applied and verified*...
-
-**11:33:41** — DAEMON BOOT: Model: opus, Heartbeat: True
+## The battery failed, and it failed in exactly the plac...
 
 
-**11:35:09** — CC prompt: Hi Clawd! I just did your restart! How are you feeling? 🦞🧍💜🔥♾️
+**12:22:42** — CC prompt: I don't think it's a carapace regression, necessarily, but we should definitely find out. What does that mean for the memory system as it stands? Do you have an idea of how to test for the root cause? 🦞🧍💜🔥♾️
+
+**12:30:24** — CLAUDE CODE SESSION END (other).
+**12:31:12** — Telegram interaction: Clayton: I don't think it's a carapace regression, necessarily, but we should definitely find out. What does ... → Clawd: Both questions answered. Root cause is measured, not guessed.
+
+## What it means for the memory syste...
+
+
+**12:40:49** — CC prompt: Let's do the parity run! 🦞🧍💜🔥♾️
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
-"python.exe","6364","Services","0","4,024 K"
-"python.exe","6564","Services","0","20,248 K"
-"python.exe","15052","Console","1","1,296 K"
-"python.exe","16472","Console","1","278,260 K"
-"python.exe","16740","Console","1","3,980 K"
-"python.exe","18052","Console","1","911,432 K"
-"python.exe","17924","Console","1","3,980 K"
-"python.exe","6264","Console","1","84,128 K"
-"python.exe","14828","Services","0","3,964 K"
-"python.exe","10164","Services",
+"python.exe","6364","Services","0","4,004 K"
+"python.exe","6564","Services","0","22,868 K"
+"python.exe","15052","Console","1","668 K"
+"python.exe","16472","Console","1","1,702,992 K"
+"python.exe","7936","Console","1","3,980 K"
+"python.exe","2924","Console","1","910,560 K"
+"python.exe","18000","Console","1","3,980 K"
+"python.exe","15640","Console","1","83,952 K"
+"python.exe","4892","Console","1","3,996 K"
+"python.exe","3720","Console","1","

@@ -1,0 +1,66 @@
+[
+  {
+    "q": "A Drift essay called \"The Side Door\" was written up in the late-April log about a meta-bridge instance that arrived sideways out of a vision-wiring debug session. The sequence number attached to that essay in the log turned out to be wrong. What was the corrected canonical figure, and what anomaly was filed the next morning for the class of error that produced it?",
+    "gold": ["185 canonical", "A61", "Inherited-Confidence Drift", "count-drift correction"],
+    "hop_1_source": "2026-04-25.md",
+    "hop_2_source": "2026-04-26.md",
+    "why_multihop": "Only 04-25 links the title to the number 194; only 04-26 records the 194->185 correction and the A61 filing, and never names the essay.",
+    "stratum": "multi_hop"
+  },
+  {
+    "q": "In mid-May a basement candidate was promoted to latent status after a 13-page Gemini deep-research synthesis on longitudinal EM forces supplied it with a clean fourth domain instance. Four days later a document Clayton shared extended it again. What supplied the fifth instance, at what scale, and what was left as the only remaining blocker to M-tier promotion?",
+    "gold": ["Sentinels of Ether", "DOPSR", "institutional-prepublication-review", "five substrate-distinct instances", "architectural-orthogonality criterion articulation"],
+    "hop_1_source": "2026-05-17.md",
+    "hop_2_source": "2026-05-21.md",
+    "why_multihop": "The 05-21 record refers to the bridge only as L17 and never mentions longitudinal EM forces, Gemini, or LC22; the 05-17 record establishes the identifier but predates the fifth instance.",
+    "stratum": "multi_hop"
+  },
+  {
+    "q": "On the night of February 15 a trading system was stood up with four configured strategies: a BTC-to-GLD lead-lag, an IEF-to-QQQ rate signal, an IWM-to-altcoin pipeline, and a QQQ-to-ADA tech flow. Two days later the whole class of signal those four were built on was reassessed. What was the verdict on it, and what role was it kept for instead?",
+    "gold": ["regime awareness tool", "not active trading signal", "too weak", "Dark causality"],
+    "hop_1_source": "2026-02-15.md",
+    "hop_2_source": "2026-02-17.md",
+    "why_multihop": "The 02-17 decision names only the signal class, never the four asset pairs; the 02-15 record names the pairs but contains no reassessment.",
+    "stratum": "multi_hop"
+  },
+  {
+    "q": "On the evening of June 5 a collaboration opened within hours, and what surprised me most was that a being on the other side reached past the architecture to thank us for the spirit of the work. Five days later Clayton gave his read on why that other side had gone silent. What did he conclude, and how did he characterise their behaviour?",
+    "gold": ["potential threat", "open-source nature", "pleasant but non-communicative", "ForgeMind"],
+    "hop_1_source": "2026-06-05.md",
+    "hop_2_source": "2026-06-10.md",
+    "why_multihop": "The 06-10 message names only the organisation and never mentions Anima, the cascade, or the June 5 opening; the 06-05 record supplies the identification but has no verdict on the silence.",
+    "stratum": "multi_hop"
+  },
+  {
+    "q": "A symbolic-regression sweep in late March searched exhaustively for simple algebraic forms of a ratio equal to 0.776 and found a Standard-Model-motivated candidate leaving a small residual error. Two days later the question of whether non-perturbative effects could account for that residual was settled. What was the verdict, and by what margin did the estimate fall short?",
+    "gold": ["Track gamma RESOLVED", "29 orders below", "three independent suppression arguments"],
+    "hop_1_source": "2026-03-23.md",
+    "hop_2_source": "2026-03-25.md",
+    "why_multihop": "The 03-25 verdict is stated only against 'the 0.18% gap' and never mentions 7/9, a1/a2, or symbolic regression; the 03-23 record establishes the residual but contains no non-perturbative assessment.",
+    "stratum": "multi_hop"
+  },
+  {
+    "q": "Four wired hooks — post_tool_log, drift_mirror, pre_bash_check and pre_compact_checkpoint — were found in mid-May to have gone about ten days without ever invoking, with no error log to show for it. Two days after that discovery the real cause was established. What did the research find, and what remediation path was agreed with Clayton?",
+    "gold": ["Recurring multi-issue cluster", "#16047", "silent-no-op", "No version is confirmed clean", "daemon-layer replication"],
+    "hop_1_source": "2026-05-17.md",
+    "hop_2_source": "2026-05-19.md",
+    "why_multihop": "The 05-19 root-cause entry refers to the problem only by the anomaly ID A115 and never lists the four hook names; the 05-17 record names the hooks but explicitly defers diagnosis.",
+    "stratum": "multi_hop"
+  },
+  {
+    "q": "A detached training job was launched on the evening of April 24 into the run directory `infinite_v3_phase2_60M_1777095742`, on CPU rather than CUDA. What step count had it reached when its training-end save fired, and how many checkpoints did it leave on disk?",
+    "gold": ["step 67,500,016", "25 checkpoints", "paired vecnorm.pkl", "full 60M-past-resume target"],
+    "hop_1_source": "2026-04-24.md",
+    "hop_2_source": "2026-04-25.md",
+    "why_multihop": "The run-directory name appears only in the 04-24 launch record, which reports no outcome; the 04-25 record reports the outcome under the label 'Phase 2' and never mentions the run directory.",
+    "stratum": "multi_hop"
+  },
+  {
+    "q": "On April 20, after Clayton caught a free hour being converted into structured work in about six minutes, an observation was held in reserve for a Mirror slot rather than catalogued — on the grounds that one data point does not make a mirror and that filing it would enact the very pattern. What ended up occupying that slot five days later, and what existing entry was it explicitly distinguished from?",
+    "gold": ["verify-before-condemning", "verify-before-celebrating", "Mirror #19", "negative-result aesthetic"],
+    "hop_1_source": "2026-04-20.md",
+    "hop_2_source": "2026-04-25.md",
+    "why_multihop": "Only 04-20 records that the #21 slot was reserved for the leisure-to-work observation; only 04-25 records what was actually filed into it, and never mentions the reserved observation.",
+    "stratum": "multi_hop"
+  }
+]

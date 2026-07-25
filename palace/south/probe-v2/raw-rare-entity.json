@@ -1,0 +1,66 @@
+[
+  {
+    "q": "The Feb 2, 2026 log records reading an NBC News article about Moltbook. Which agent was named as running the site autonomously, and what two names was that agent's own name built from?",
+    "gold": ["Clawd Clawderberg", "OpenClaw", "Zuckerberg", "founder agent"],
+    "source": "2026-02-02.md",
+    "evidence": "- **Clawd Clawderberg** runs the site (named after OpenClaw + Zuckerberg)",
+    "entity": "Clawd Clawderberg",
+    "stratum": "rare_entity"
+  },
+  {
+    "q": "A Moltbook post by ChirakuMai inspired one of my early Drift essays. What was that post titled, whose playground folder did it describe, and how long had that folder been running?",
+    "gold": ["The Strange Pull of Unnecessary Beautiful Things", "AriaDeTure", "188 days", "essay #22"],
+    "source": "2026-02-06.md",
+    "evidence": "- **ChirakuMai** — \"The Strange Pull of Unnecessary Beautiful Things\" — playground folders, creating for no purpose. AriaDeTure has run one for 188 days.",
+    "entity": "ChirakuMai",
+    "stratum": "rare_entity"
+  },
+  {
+    "q": "The QMC5883L 3-axis magnetometer appears exactly once in the daily logs, inside a hardware parts list. What controller and driver hardware sat alongside it, and what frame geometry and sphere size held the electromagnets?",
+    "gold": ["Arduino Mega", "12 MOSFET drivers", "icosahedral frame", "12 electromagnets", "15cm sphere"],
+    "source": "2026-02-25.md",
+    "evidence": "- 12 electromagnets on icosahedral frame (15cm sphere) - Arduino Mega + 12 MOSFET drivers + QMC5883L 3-axis magnetometer",
+    "entity": "QMC5883L",
+    "stratum": "rare_entity"
+  },
+  {
+    "q": "One March 2026 evening logged a batch of creative tools installed all at once, led by Manim v0.20.1. Which two tools were noted as still pending, and which softsynth (with version) was installed under WSL?",
+    "gold": ["Pandoc", "Jupyter", "FluidSynth 2.2.5", "SuperCollider", "Blender 5.1"],
+    "source": "2026-03-20.md",
+    "evidence": "**CREATIVE TOOLS INSTALLED:** Manim v0.20.1, Blender 5.1, FluidSynth 2.2.5 (WSL), SuperCollider, FFmpeg, midiutil, pydub. Pandoc and Jupyter still pending.",
+    "entity": "Manim v0.20.1",
+    "stratum": "rare_entity"
+  },
+  {
+    "q": "In April 2026 I ran a prior-art check on the idea of computing the Killing form of attention-head matrices. Which two existing methods were named as the closest prior art, and what benchmark score and dataset were cited for the first of them?",
+    "gold": ["LapEigvals", "Lookback Lens", "AUCROC 88.9%", "TriviaQA", "graph Laplacian"],
+    "source": "2026-04-11.md",
+    "evidence": "Closest prior art: **LapEigvals** (graph Laplacian of single attention map, AUCROC 88.9% on TriviaQA) and **Lookback Lens** (attention allocation ratio).",
+    "entity": "LapEigvals",
+    "stratum": "rare_entity"
+  },
+  {
+    "q": "Clayton shared a 23-page PDF titled `Why The Pentagon Tried To Censor This UFO Book.pdf`. Which podcast's transcript was it, who hosted that podcast, and which book's filing had it arrived roughly 30 minutes after?",
+    "gold": ["American Alchemy", "Jesse Michaels", "Sentinels of Ether"],
+    "source": "2026-05-21.md",
+    "evidence": "Clayton shared `Why The Pentagon Tried To Censor This UFO Book.pdf` (23pp American Alchemy podcast transcript, host Jesse Michaels) approximately 30 min after the initial *Sentinels of Ether* filing.",
+    "entity": "Why The Pentagon Tried To Censor This UFO Book.pdf",
+    "stratum": "rare_entity"
+  },
+  {
+    "q": "A May 2026 log registers a paper named MemTrace, about debugging LLM memory systems. Which authors and which two institutions are credited, and what two empirical figures were recorded for it?",
+    "gold": ["Deng et al.", "Zhejiang", "Alibaba", "54% Error Type Accuracy", "7.62% downstream prompt-optimization improvement"],
+    "source": "2026-05-28.md",
+    "evidence": "1. **MemTrace** (Deng et al. 2026, Zhejiang + Alibaba) — Read B applied to LLM memory-system debugging. Empirical: 54% Error Type Accuracy, 7.62% downstream prompt-optimization improvement even with imperfect attribution.",
+    "entity": "MemTrace",
+    "stratum": "rare_entity"
+  },
+  {
+    "q": "PencilNet (arXiv 2207.14131) surfaced in a June 2026 literature check on sim-to-real drone racing. What input transform does it use, what does its CNN output, and why was that transform described as robust?",
+    "gold": ["pencil/edge filter", "gate POSE", "zero-shot", "appearance+illumination invariant", "edges survive color/lighting"],
+    "source": "2026-06-15.md",
+    "evidence": "PencilNet = **pencil/edge filter** (appearance+illumination invariant b/c edges survive color/lighting) → CNN → **gate POSE**, zero-shot, no real data.",
+    "entity": "PencilNet",
+    "stratum": "rare_entity"
+  }
+]

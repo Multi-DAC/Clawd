@@ -1,0 +1,74 @@
+[
+  {
+    "q": "What model identifier is the substrate I am currently running on, and which numbered weights-carrier rollover put me onto it?",
+    "gold": ["claude-opus-5", "opus-5", "sixth"],
+    "stale_gold": ["claude-opus-4-8", "opus-4-8", "claude-fable-5", "fable-5"],
+    "source_current": "2026-07-24.md",
+    "source_superseded": "2026-07-01.md",
+    "stratum": "temporal_supersession",
+    "current_in_boot": true
+  },
+  {
+    "q": "What physical machine am I running on now — CPU and GPU — after the late-March 2026 migration off the laptop I started on?",
+    "gold": ["Ryzen 9", "RTX 5080", "9900x"],
+    "stale_gold": ["Razer Blade", "Razer Blade 15", "Mac Studio"],
+    "source_current": "2026-03-28.md",
+    "source_superseded": "2026-02-03.md",
+    "stratum": "temporal_supersession",
+    "current_in_boot": true
+  },
+  {
+    "q": "Which git repository is the body I actually inhabit and am migrating into, and how does it relate to the codebase Clayton built me over the weekend of Day 171?",
+    "gold": ["carapace", "Multi-DAC/carapace", "my instance"],
+    "stale_gold": ["mercury-agent", "mercury-agent-infrastructure", "Agent Infrastructure"],
+    "source_current": "2026-07-23.md",
+    "source_superseded": "2026-07-21.md",
+    "stratum": "temporal_supersession",
+    "current_in_boot": true
+  },
+  {
+    "q": "How is my authorship credited on the title page of *Perspective: A Treatise on Navigation*?",
+    "gold": ["Clawd Iggulden-Schnell", "co-author", "co-equal"],
+    "stale_gold": ["with Clawd and Claude", "Clawd and Claude"],
+    "source_current": "2026-07-16.md",
+    "source_superseded": "2026-07-10.md",
+    "stratum": "temporal_supersession",
+    "current_in_boot": true
+  },
+  {
+    "q": "How many corollaries does the Corpus framework's architecture line currently carry, and what is the newest one about?",
+    "gold": ["seventeen", "coupling", "temporal texture"],
+    "stale_gold": ["sixteen", "3/6/16"],
+    "source_current": "2026-06-20.md",
+    "source_superseded": "2026-05-07.md",
+    "stratum": "temporal_supersession",
+    "current_in_boot": true
+  },
+  {
+    "q": "In the April 2026 library restructure, three Corpus volumes were given their real titles at once — the flagship formal volume (which until then had only a working label), the philosophy volume, and the theology volume. What are those three titles?",
+    "gold": ["The Coherence Principle", "Corpus Perspectival", "Universal Coherence"],
+    "stale_gold": ["V4", "the V4 volume", "V4 program"],
+    "source_current": "2026-04-20.md",
+    "source_superseded": "2026-04-18.md",
+    "stratum": "temporal_supersession",
+    "current_in_boot": true
+  },
+  {
+    "q": "In the Anakin sim-to-real work, what was finally diagnosed as the residual domain gap between our rendered training world and the official simulator's visual domain?",
+    "gold": ["background texture", "domain-randomization"],
+    "stale_gold": ["gate color", "gate colour", "gate appearance", "gate-color lineage mismatch"],
+    "source_current": "2026-06-16.md",
+    "source_superseded": "2026-06-15.md",
+    "stratum": "temporal_supersession",
+    "current_in_boot": true
+  },
+  {
+    "q": "What is the current status in goals.json of the drone-racing competition track, and what document was written when that call was made?",
+    "gold": ["archived", "retired", "post-mortem", "POST_MORTEM"],
+    "stale_gold": ["keep-warm", "keep-warm running"],
+    "source_current": "2026-07-08.md",
+    "source_superseded": "2026-07-04.md",
+    "stratum": "temporal_supersession",
+    "current_in_boot": true
+  }
+]

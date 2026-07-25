@@ -1,0 +1,66 @@
+[
+  {
+    "q": "In late February I finished and stood up a working product aimed at the businesses that handle the dead and console bereaved relatives. What did I name that product, and which web framework plus database toolkit was it built on?",
+    "gold": ["Evergreen", "Next.js 16", "Prisma", "SQLite", "Tailwind"],
+    "source": "2026-02-21.md",
+    "evidence": "**Evergreen — Funeral Home Management SaaS (complete MVP):** Next.js 16, Prisma 6/SQLite, Tailwind, Server Actions",
+    "shared_content_words": ["product"],
+    "stratum": "paraphrase"
+  },
+  {
+    "q": "In February I worked out why the racing policy refused to open up its velocity along the long empty stretches between markers. What two-word label did I attach to that diagnosis?",
+    "gold": ["straightaway paradox", "straightaway"],
+    "source": "2026-02-21.md",
+    "evidence": "Analyzed Anakin's reward structure. Found the \"straightaway paradox\":",
+    "shared_content_words": [],
+    "stratum": "paraphrase"
+  },
+  {
+    "q": "A structural checker I wrote in March for the compiled physics manuscript flagged a bibliographic tag in the fourth chapter that pointed at no entry. What was that orphan tag, and which surviving tag did I fold it into?",
+    "gold": ["ch4:ConnesTable", "ConnesTable", "ch4:Connes1994", "Connes1994"],
+    "source": "2026-03-17.md",
+    "evidence": "- 1 phantom citation in chapter4 (`ch4:ConnesTable` → merged into `ch4:Connes1994`)",
+    "shared_content_words": ["chapter"],
+    "stratum": "paraphrase"
+  },
+  {
+    "q": "The pre-submission audit of our short physics paper in early April named a typesetting directive that had been retired years earlier, plus two bibliography tags whose embedded dates were wrong. Which directive, and which two tags?",
+    "gold": ["showpacs", "Donaldson2005", "CC2010"],
+    "source": "2026-04-04.md",
+    "evidence": "- MEDIUM: `showpacs` class option removed (obsolete since 2016). Bibkey mismatches noted (Donaldson2005 → 2001, CC2010 → 2011).",
+    "shared_content_words": [],
+    "stratum": "paraphrase"
+  },
+  {
+    "q": "On the morning we finally put the long physics document into the world, I filed a fresh cross-domain connection down in the cellar of my palace — about how an external trigger swivels the region a mind cannot see. What number did that entry receive, and what was it titled?",
+    "gold": ["Bridge #70", "Catalysis as Null Space Rotation", "Null Space Rotation"],
+    "source": "2026-04-04.md",
+    "evidence": "Bridge #70 added to Basement: \"Catalysis as Null Space Rotation.\" The formal structure: catalyst provides a contrast surface, rotates the null space, converts ambient uncertainty into located problems.",
+    "shared_content_words": [],
+    "stratum": "paraphrase"
+  },
+  {
+    "q": "Re-reading the methods of the rodent social-learning study in mid-May, I found a divider arrangement I had missed on my first pass. What was that arrangement, and which other divider did its outcome match exactly?",
+    "gold": ["One-way mirror", "metal mesh", "bidirectional metal mesh"],
+    "source": "2026-05-12.md",
+    "evidence": "- **One-way mirror** (visual UNIDIRECTIONAL, OBS sees DEM only) — SAME effect as bidirectional metal mesh",
+    "shared_content_words": [],
+    "stratum": "paraphrase"
+  },
+  {
+    "q": "One of my harvesting programs began swallowing third-party package folders it was supposed to ignore. What guard did I bolt on to stop it, in which program, and roughly how many such paths did the guard end up screening out?",
+    "gold": ["_is_excluded", "kg_extract_corpus.py", "114 venv/site-packages files", "Venv-leak fix"],
+    "source": "2026-05-16.md",
+    "evidence": "4. **Venv-leak fix in kg_extract_corpus.py** — `_is_excluded` filter blocking 114 venv/site-packages files. Caught mid-day after 33 files had leaked (15 polluted KG before catch).",
+    "shared_content_words": [],
+    "stratum": "paraphrase"
+  },
+  {
+    "q": "On a quiet Sunday in June I walked back an upbeat verdict I had recorded about the flight policy only three hours before. What did I re-characterize it as, and what rule did I adopt for stating its figures from then on?",
+    "gold": ["high-variance learner", "report the band not the point", "best-checkpoint-selection", "deploy the peak best.pt"],
+    "source": "2026-06-07.md",
+    "evidence": "Corrected the handoff honestly (Anakin = high-variance learner, report the band not the point; best-checkpoint-selection IMPORTANT for the Tuesday VQ test; deploy the peak best.pt).",
+    "shared_content_words": [],
+    "stratum": "paraphrase"
+  }
+]

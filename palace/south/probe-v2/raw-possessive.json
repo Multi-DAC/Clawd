@@ -1,0 +1,58 @@
+[
+  {
+    "q": "The Dynasty quant stack's paper trader wasn't running when I checked it on Feb 20 — what had killed it, and how long had it been down?",
+    "gold": ["NameError", "calculate_metrics", "crashed on Feb 15", "Feb 15"],
+    "source": "2026-02-20.md",
+    "evidence": "- Checked paper trader: crashed on Feb 15 (NameError in calculate_metrics)",
+    "stratum": "possessive"
+  },
+  {
+    "q": "Meridian's track 16C cleaned up the fermion sector — which CKM matrix element wasn't matching, by what factor was the earlier model missing it, and what didn't the fix buy us?",
+    "gold": ["|V_cb|", "factor-3.7", "single-c model", "doesn't add any new predictions", "removes an embarrassment"],
+    "source": "2026-03-19.md",
+    "evidence": "The |V_cb| resolution (16C) is satisfying in a different way. It doesn't add any new predictions — it removes an embarrassment. The single-c model's factor-3.7 miss on |V_cb| was the kind of thing a competent reviewer would flag as \"your fermion sector doesn't work.\"",
+    "stratum": "possessive"
+  },
+  {
+    "q": "The 18A MCMC pipeline's CMB chi-squared came out pathological because the l_A computation wasn't using the right sound horizon — which quantity was it using, which one should it have been, and what were the two lengths?",
+    "gold": ["rdrag", "rstar", "147.1 Mpc", "144.4 Mpc", "drag epoch sound horizon", "decoupling sound horizon"],
+    "source": "2026-03-19.md",
+    "evidence": "1. **CMB l_A bug**: Used `rdrag` (drag epoch sound horizon, 147.1 Mpc) instead of `rstar` (decoupling sound horizon, 144.4 Mpc) for l_A computation.",
+    "stratum": "possessive"
+  },
+  {
+    "q": "The Corpus V2 review's typography check passed but the compile still wasn't clean — how big was the worst remaining overfull box, and what'd the worst been before the spacing fixes went in?",
+    "gold": ["2.63pt", "99.59pt", "sub-millimeter", "16 overfull boxes remaining"],
+    "source": "2026-04-09.md",
+    "evidence": "- **Typography**: PASS — 16 overfull boxes remaining, worst 2.63pt (sub-millimeter). Down from 31 (99.59pt worst).",
+    "stratum": "possessive"
+  },
+  {
+    "q": "The VQ1 readiness write-up said the AIGP vision pipeline had never been tested end-to-end and named the one literal gap — what's the placeholder standing in for the camera feed, and where's it live in the code?",
+    "gold": ["np.zeros()", "competition_agent.py:148", "camera input"],
+    "source": "2026-04-09.md",
+    "evidence": "The `np.zeros()` camera input in competition_agent.py:148 is the literal gap.",
+    "stratum": "possessive"
+  },
+  {
+    "q": "A basement bridge filed on a May evening named a health-versus-pathology asymmetry after a Russian novelist's opening line — what's the bridge's full title, and whose 2026 Nature paper supplied its first substrate-instance?",
+    "gold": ["LC16", "Anna Karenina Asymmetry", "Tight Health Signature, Distributed Pathology Modes", "Ferrari et al 2026 Nature", "protein folding"],
+    "source": "2026-05-13.md",
+    "evidence": "filed **LC16 — Anna Karenina Asymmetry: Tight Health Signature, Distributed Pathology Modes** at `palace/basement/README.md`. Three substrate-instances (protein folding via Ferrari et al 2026 Nature; ...)",
+    "stratum": "possessive"
+  },
+  {
+    "q": "The log_std clamp callback's snap-back ratio fell out of an SB3 source read — what were the trainer's epoch, minibatch and rollout settings, and how many gradient updates per train() did they work out to?",
+    "gold": ["n_epochs=8", "batch_size=512", "n_steps=4096", "65536 transitions", "1024 gradient updates"],
+    "source": "2026-04-25.md",
+    "evidence": "`train()` runs `n_epochs=8` epochs, each iterating the rollout buffer in `batch_size=512` minibatches. With `n_steps=4096` × 16 envs = 65536 transitions, that's `(65536/512) × 8 = 1024 gradient updates per train()`.",
+    "stratum": "possessive"
+  },
+  {
+    "q": "Stage 2 of the vision shakedown didn't come back clean — three real wiring bugs turned up between the adapter's observation build and the trainer's. What were they, and which OpenCV pose solver had to be swapped out?",
+    "gold": ["speed_toward", "gate_orient_body", "SOLVEPNP_IPPE_SQUARE", "solvePnPGeneric", "02_adapter_integration.py"],
+    "source": "2026-04-25.md",
+    "evidence": "Three real wiring bugs surfaced and fixed: (a) `speed_toward` sign flip; (b) `gate_orient_body` source bug; (c) planar PnP mirror-symmetric ambiguity — `SOLVEPNP_IPPE_SQUARE` ... switched to `solvePnPGeneric`.",
+    "stratum": "possessive"
+  }
+]
