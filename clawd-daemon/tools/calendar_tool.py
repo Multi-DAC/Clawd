@@ -137,6 +137,70 @@ def _match_cron(cron_expr: str, dt: datetime, window_minutes: int | None = None)
     return False
 
 
+_CRON_PERIOD_HINT_HOURS = {  # coarse expected period, for staleness only
+    "weekly": 168.0, "daily": 24.0,
+}
+
+
+def audit_schedule_liveness(now: datetime | None = None) -> list[dict]:
+    """Report recurring tasks that are CONFIGURED but not FIRING.
+
+    Why this exists (Day 174): the beat-phase bug (see _match_cron) left four
+    weekly drives at status "active", last_fired None, for eleven weeks. No
+    error, no warning, nothing. The ledger's green light bound to the layer
+    "is configured" while the effect we cared about lived at the layer "has
+    fired" — and because the light was green, nobody looked. A true check at
+    the wrong layer is worse than no check, because a passing check terminates
+    search. This is the check that binds to the right layer.
+
+        Binds to:  observed firing history (last_fired vs expected period)
+        Certifies: this drive is actually part of my life
+
+    A task is STALE if it has never fired since creation past one full expected
+    period, or has not fired in 2x its expected period. Expected period is
+    inferred from min_interval_hours, falling back to the cron's weekday field.
+    """
+    now = now or datetime.now()
+    stale = []
+    for task in _load_tasks():
+        if not task.get("recurring") or task.get("status") != "active":
+            continue
+        # Expected period = how often this drive is SUPPOSED to happen.
+        # min_interval_hours is a debounce FLOOR, not a period; the cadence lives
+        # in the cron. Take whichever is coarser:
+        #   weekday field set  -> weekly ("0 15 * * 3")
+        #   hour field set     -> daily  ("* 8,9 * * *")
+        #   fully open         -> the debounce is the period ("* * * * *")
+        cron = (task.get("when") or "").split()
+        if len(cron) == 5 and cron[4] != "*":
+            cron_period_h = 168.0
+        elif len(cron) == 5 and cron[1] != "*":
+            cron_period_h = 24.0
+        else:
+            cron_period_h = 0.0
+        period_h = max(float(task.get("min_interval_hours") or 0), cron_period_h) or 24.0
+
+        # Measure from the last firing; if it has NEVER fired, measure from birth.
+        ref_field, ref = "last_fired", task.get("last_fired")
+        if not ref:
+            ref_field, ref = "created", task.get("created")
+        if not ref:
+            continue
+        try:
+            age_h = (now - datetime.fromisoformat(ref)).total_seconds() / 3600
+        except (ValueError, TypeError):
+            continue
+
+        limit = period_h if ref_field == "created" else period_h * 2
+        if age_h > limit:
+            stale.append({
+                "id": task.get("id"), "title": task.get("title"), "cron": task.get("when"),
+                "never_fired": ref_field == "created",
+                "hours_since": round(age_h, 1), "expected_period_h": period_h,
+            })
+    return stale
+
+
 def get_due_tasks() -> list[dict]:
     """Get tasks that are due now. Called by heartbeat.
 

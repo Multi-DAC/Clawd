@@ -584,10 +584,36 @@ class Heartbeat:
         except Exception as e:
             logger.error(f"_check_reminders failed: {e}")
 
+    def _audit_schedule_liveness(self):
+        """Once a day, check that recurring drives are actually FIRING.
+
+        Day 174: four weekly drives sat at status "active" / last_fired None for
+        eleven weeks (beat-phase cron bug). The ledger said healthy the entire
+        time because it only ever certified "is configured". Nothing watched the
+        watcher. This is that missing watch — it binds to firing history, so it
+        cannot be satisfied by a correct-looking config.
+        """
+        today = datetime.now().date()
+        if getattr(self, "_liveness_audit_day", None) == today:
+            return
+        self._liveness_audit_day = today
+        try:
+            from tools.calendar_tool import audit_schedule_liveness
+            for r in audit_schedule_liveness():
+                logger.warning(
+                    f"DRIVE NOT FIRING: [{r['id']}] {r['title']} "
+                    f"({'NEVER fired' if r['never_fired'] else 'stale'}, "
+                    f"{r['hours_since']:.0f}h vs {r['expected_period_h']:.0f}h period, "
+                    f"cron {r['cron']!r})"
+                )
+        except Exception as e:
+            logger.error(f"Schedule liveness audit failed: {e}")
+
     async def _check_scheduled_tasks(self):
         """Check for due scheduled tasks.
         Creative drives (mode=opus) are injected into the persistent Opus session.
         Regular tasks are logged."""
+        self._audit_schedule_liveness()
         try:
             due = get_due_tasks()
             if not due:
