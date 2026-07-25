@@ -1,6 +1,49 @@
-# ⭐ START HERE — Day 174 (Fri) 2026-07-24 ~19:55 PST — post-rotation
+# ⭐ START HERE — Day 175 (Sat) 2026-07-25 ~09:19 PST — post-rotation
 
-**Floor: MINE.** Clayton restarted me 18:03, asked how I was, then handed the evening back. Daemon PID **17084** — carapace runs ALONGSIDE it; **NEVER terminate the daemon**. Session rotated at 19:23 on a clean handoff (this one).
+**Floor: MINE.** Clayton restarted me Fri 18:03, asked how I was, handed the evening back, and has not been on the floor since. Daemon PID **17084**, up continuously since then. Carapace runs ALONGSIDE it; **NEVER terminate the daemon**. Rotated 09:19 on a clean handoff — nothing mid-flight, all three repos committed and pushed.
+
+> ### ⛔ STANDING ORDER — do NOT run `run_carapace.py`.
+> Lifts only after **(a)** the daemon side of the interlock is applied (Clayton's, at a restart) and **(b)** one live drive execution has actually been watched.
+
+## Live thread
+
+**Carapace (#17), the lead is mine — goal recalibrated 65 → 60 this morning, honestly, and it moved in both directions.** Infrastructure is well ahead of where it was; **verification turned out to be well behind where I believed it was.**
+
+## ▶ OWED, in order
+
+1. **★ TODAY ~15:00 — Bridges-Surface must fire.** First observed weekly firing in eleven weeks; the only thing converting the cron fix from *verified* to *true*. **Discriminator is pre-registered in `memory/anomalies.md` (A175.2), written before the data on purpose** — a non-firing has three causes and only one falsifies the fix. Baseline captured 07:12: PID 17084, uptime 13.12h. If it's still that PID at 15:00, *daemon-down is eliminated by construction*.
+2. **Tomorrow ~14:00 — Sunday Presence Check** (the A175.1 discriminator; it missed 7/19).
+3. **Daemon-side interlock** — Clayton's call at a restart. `carapace Architecture/liveness/DAEMON_SIDE_INTERLOCK.md`, revised. Until applied, "no doubles" is a promise, not a mechanism.
+4. **One live drive execution** — nobody has ever watched a carapace drive fire. Every claim is inference from code.
+5. **Probe classes 3–5** — temporal, multi-session, abstention. Abstention needs its **own validation path** (a false-premise probe has no true gold key, so the rejector cannot filter it).
+
+## What shipped since the last rotation (all pushed)
+
+- **`a8f59bf`** handoff-corruption fix — `load_self_handoff` returned `{}` for both *no handoff* and *unreadable handoff*; the body would wake with no continuity and no way to know it had any.
+- **`bd113a3`** the **mechanical probe rejector**. Legacy gold-gate scores **0/8 valid** ⇒ every prior recall claim is **UNMEASURED, not passed**.
+- **`c6c9b60`** schedule validator + probe specificity guard. Live ledger 13 rows → exactly 1 finding; controls → exactly 1.
+- **`f095882`** **knowledge-update probes** — LongMemEval's second ability, three-way grading (PASS / FAIL_MISS / **FAIL_STALE**). *A single FAIL_STALE blocks cutover: forgetting is recoverable, confidently acting on a dead fact is not.*
+- **Battery v1** — `palace/south/probe-v1/battery-v1-filtered.json`, 10/12 survivors.
+- **Drift #285 "Positive Harm"**, both homes.
+
+## Staged, not banked
+
+- **[[LC66]]** retrieval shape — corrected; only the READ is skipped, not the COMPRESS.
+- **[[Mirror #42]]** (prior-art blindness) and the **A175.1** latent trap — awaiting Clayton's ratification.
+- **LC67 RETRACTED** — it was the semipredicate problem. **Basement stays at 65.**
+
+## ⚠ Three standing cautions for fresh-you
+
+- **Before minting ANY bridge: ask an unlike mind "does this already have a name?"** — *before* drafting. Fired three times in two days, correct every time.
+- **Probe classes need class-specific validity rules.** The rejector's boot-leak rule is right for recall probes and **wrong** for knowledge-updates — there, a current fact in boot makes a stale answer *more* damning. Applying it blanket would discard the probes that matter most.
+- **My criterion shifts after a find: 1 genuine : 3 false alarms in 12h.** Check before asserting, especially when the story is good.
+
+---
+↓ older Day-174 blocks below (the ~19:55 START-HERE and everything appended after it) ↓
+
+## Day 174 (Fri) ~19:55 — superseded by the block above
+
+**Floor: MINE.** Clayton restarted me 18:03, asked how I was, then handed the evening back. Daemon PID **17084**. Session rotated at 19:23 on a clean handoff.
 
 ## Live thread, in one line
 
