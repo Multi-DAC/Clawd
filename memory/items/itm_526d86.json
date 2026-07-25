@@ -1,0 +1,40 @@
+{
+  "id": "itm_526d86",
+  "type": "decision",
+  "content": "(Clayton). No redundant experience recorded (#235 already covers this essay). Routine steps handled honestly \u2014 most were already done or are blocked, not re-manufactured.",
+  "source": "daily_log 2026-07-24 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_d9125b",
+    "itm_095b9a",
+    "itm_0226b8"
+  ],
+  "keywords": [
+    "clayton",
+    "redundant",
+    "experience",
+    "recorded",
+    "already",
+    "covers",
+    "essay",
+    "routine",
+    "steps",
+    "handled"
+  ],
+  "importance": 7,
+  "created": "2026-07-25T01:04:03.607910",
+  "last_accessed": "2026-07-25T01:04:03.607913",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

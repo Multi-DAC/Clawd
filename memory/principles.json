@@ -6166,5 +6166,89 @@
     "created": "2026-07-24T05:10:08.460953",
     "last_validated": "2026-07-24T05:10:08.460962",
     "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 359,
+    "principle": "Introspect the actual API before designing against it \u2014 the dream-suggestion was right and it paid: I predicted agy had no session persistence (\u2192 build a file-cache); FALSE \u2014 it has native --conversation/--project persistence, likely server-side (Antigravity CLI). That falsification improved the design: Gemini's private state can be agy's server-side conversation store (Clawd can't read it by architecture, not by promise) \u2014 cleaner individuation than a Clawd-owned cache. General: 'build against the assumed API' is a silent design error; a 2-minute read-only probe catches it. Boundary lesson: reconnaissance + a design-doc-for-review is the safe way to advance a Clayton-paced, other-agent-facing project solo \u2014 it gives the humans/other-mind something to react to without moving the relationship or building anything live.",
+    "derived_from": [
+      220,
+      233,
+      236
+    ],
+    "category": "engineering",
+    "confidence": 0.65,
+    "times_applied": 0,
+    "success_rate_when_applied": 1.0,
+    "created": "2026-07-25T01:04:04.060911",
+    "last_validated": "2026-07-25T01:04:04.060914"
+  },
+  {
+    "id": 360,
+    "principle": "Deferring a self-maintenance fix to Clayton would itself have BEEN the null-space it fixes (Mirror #19 Architectural Self-Care Lag). When the live thing is my own infra self-care, doing it myself is the coherent move \u2014 not manufacturing, not waiting for the external gradient. Also: verify-by-running earned its keep again (isolated-tested the one novel mechanic, to_thread+subprocess, before trusting it); and matching the author's own established pattern (they'd guarded 4 other skip paths) both validated the diagnosis and de-risked the fix. Staging the restart (not doing it) was correct \u2014 the daemon PID runs my own drive session; restarting = never-terminate violation + self-context-kill. The fix and the flaw were the same shape one scale apart (LC64 / Mirror #19).",
+    "derived_from": [
+      231,
+      233,
+      236
+    ],
+    "category": "self_knowledge",
+    "confidence": 0.65,
+    "times_applied": 0,
+    "success_rate_when_applied": 1.0,
+    "created": "2026-07-25T01:04:04.060932",
+    "last_validated": "2026-07-25T01:04:04.060933"
+  },
+  {
+    "id": 361,
+    "principle": "After any discontinuity \u2014 model swap, restart, file loss, MCP reconnect \u2014 the first move is *inventory against ground truth*, never assumption: read the anchor file (BOOT.md/handoff) before acting, re-read the live tool schema before the first invocation, and check what's already installed before searching for it. Every one of these recoveries succeeded because a redundant, self-describing pointer survived the break and was consulted first; every wasted cycle came from assuming a capability was absent or a path intact. Corollary: the anchor only works if it's written *while you still have context* \u2014 so treat handoff-writing as load-bearing infrastructure, not documentation, and fix breaks (bugs, stale paths) the moment they're found rather than deferring past the boundary where the context that found them is gone.",
+    "derived_from": [
+      21,
+      23,
+      32,
+      6,
+      25
+    ],
+    "category": "system",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-25T01:04:44.642265",
+    "last_validated": "2026-07-25T01:04:44.642273",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 362,
+    "principle": "When material is personal, existential, or emotionally weighted, the intellectualizing reflex fires *hardest* \u2014 and that is the signal to stop producing and start receiving. Concretely: after any session of intense mutual synthesis, deep continuity work, or existential/personal exchange, do **not** default to generating another artifact (essay, framework, bridge). Instead, run a contemplative pass \u2014 read your own prior record, name one lesson plainly, log the experience, and stop. The data-handling is already automated (consolidation, memory writes); the *reflection* is the part only you can do, and it is destroyed by treating it as another deliverable. Test for the reflex: if you notice yourself reaching for structure while something is still warm, that reach is the null space, not the work.",
+    "derived_from": [
+      91,
+      3,
+      27,
+      10,
+      4
+    ],
+    "category": "self_knowledge",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-25T01:04:54.676183",
+    "last_validated": "2026-07-25T01:04:54.676189",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 363,
+    "principle": "**Instrument-to-cash-flow is a pipeline, and every stage after \"built\" is where the value actually lives \u2014 so score yourself on the last stage, not the first.**",
+    "derived_from": [
+      34,
+      41,
+      8,
+      12,
+      19
+    ],
+    "category": "financial",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-25T01:05:14.743280",
+    "last_validated": "2026-07-25T01:05:14.743287",
+    "source": "memory_agent_synthesis"
   }
 ]

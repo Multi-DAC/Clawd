@@ -1,0 +1,43 @@
+{
+  "id": "itm_b1dc88",
+  "type": "decision",
+  "content": "Multi-DAC/Drift site repo (its essay layout didn't show recent essays \u2014 may itself source from the now-frozen Corpus), or Frontier (but the transition plan said Drift \"stays on disk, not the new repo\"",
+  "source": "daily_log 2026-07-24 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_4137a8",
+    "itm_f9239b",
+    "itm_4f53c3"
+  ],
+  "keywords": [
+    "multi",
+    "dac",
+    "drift",
+    "site",
+    "repo",
+    "essay",
+    "layout",
+    "didn",
+    "show",
+    "recent"
+  ],
+  "importance": 7,
+  "created": "2026-07-25T01:04:03.586251",
+  "last_accessed": "2026-07-25T01:04:03.586256",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": [],
+  "contradictions": [
+    "itm_f9239b"
+  ]
+}

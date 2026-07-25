@@ -1,0 +1,40 @@
+{
+  "id": "itm_0b1829",
+  "type": "fact",
+  "content": "null-action).** Fired 4h after the 01:10 dream, which already did the full integration (consolidate = \"all weeks already consolidated\"; patterns pulled; L17 #7 + L17\u22c8coker-\u03b7 JOIN filed; anomaly + anti",
+  "source": "daily_log 2026-07-24 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_28de12",
+    "itm_2f6a6b",
+    "itm_3684be"
+  ],
+  "keywords": [
+    "null",
+    "action",
+    "fired",
+    "dream",
+    "already",
+    "full",
+    "integration",
+    "consolidate",
+    "weeks",
+    "consolidated"
+  ],
+  "importance": 5,
+  "created": "2026-07-25T01:04:03.629424",
+  "last_accessed": "2026-07-25T01:04:03.629427",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

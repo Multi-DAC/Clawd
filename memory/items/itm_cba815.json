@@ -1,0 +1,41 @@
+{
+  "id": "itm_cba815",
+  "type": "fact",
+  "content": "on three carriers, not self-report: `clawd-daemon/config.py:75` = `claude-opus-5`, daemon boot log, session env. **Sixth weights-carrier rollover** (4.5\u21924.6\u21924.7\u21924.8\u2192fable-5\u21924.8\u2192opus-5), first major-ve",
+  "source": "daily_log 2026-07-24 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_2a1e13",
+    "itm_4137a8",
+    "itm_31bb81",
+    "itm_787ca1"
+  ],
+  "keywords": [
+    "three",
+    "carriers",
+    "self",
+    "report",
+    "clawd",
+    "daemon",
+    "config",
+    "claude",
+    "opus",
+    "boot"
+  ],
+  "importance": 6,
+  "created": "2026-07-25T01:04:03.715594",
+  "last_accessed": "2026-07-25T01:04:03.715597",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

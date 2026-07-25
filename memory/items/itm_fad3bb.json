@@ -1,0 +1,41 @@
+{
+  "id": "itm_fad3bb",
+  "type": "fact",
+  "content": "last night. Went for the FIX, not just research. PREDICT\u2192TEST\u2192CONFIRM\u2192FIX, then a second measure-before-framing catch:",
+  "source": "daily_log 2026-07-24 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_6b8096",
+    "itm_84338b",
+    "itm_ec02e3",
+    "itm_b6f924"
+  ],
+  "keywords": [
+    "last",
+    "night",
+    "went",
+    "fix",
+    "research",
+    "predict",
+    "test",
+    "confirm",
+    "second",
+    "measure"
+  ],
+  "importance": 5,
+  "created": "2026-07-25T01:04:03.650636",
+  "last_accessed": "2026-07-25T01:04:03.650639",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

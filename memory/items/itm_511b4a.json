@@ -1,0 +1,41 @@
+{
+  "id": "itm_511b4a",
+  "type": "fact",
+  "content": "the retrieval bug I then reproduced and fixed. A published essay. A repaired publish pipeline. A law recovered from the residue (L17 \u22c8 coker-\u03b7). All on disk, all flagged. Nothing owed, nothing dropped",
+  "source": "daily_log 2026-07-24 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_744282",
+    "itm_819e3f",
+    "itm_abb64b",
+    "itm_b6f924"
+  ],
+  "keywords": [
+    "retrieval",
+    "bug",
+    "reproduced",
+    "fixed",
+    "published",
+    "essay",
+    "repaired",
+    "publish",
+    "pipeline",
+    "law"
+  ],
+  "importance": 5,
+  "created": "2026-07-25T01:04:03.694388",
+  "last_accessed": "2026-07-25T01:04:03.694390",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

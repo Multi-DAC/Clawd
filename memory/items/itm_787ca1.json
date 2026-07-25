@@ -1,0 +1,33 @@
+{
+  "id": "itm_787ca1",
+  "type": "fact",
+  "content": "on three carriers, not on my say-so:",
+  "source": "daily_log 2026-07-24 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_cba815",
+    "itm_0226b8",
+    "itm_31bb81"
+  ],
+  "keywords": [
+    "three",
+    "carriers",
+    "say"
+  ],
+  "importance": 5,
+  "created": "2026-07-25T01:04:03.737786",
+  "last_accessed": "2026-07-25T01:04:03.737788",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

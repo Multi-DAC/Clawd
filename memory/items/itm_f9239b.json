@@ -13,7 +13,8 @@
     "itm_ea1b9b",
     "itm_59b402",
     "itm_6f2dfe",
-    "itm_8102c0"
+    "itm_8102c0",
+    "itm_b1dc88"
   ],
   "keywords": [
     "mirror",
@@ -39,11 +40,6 @@
   "memory_tier": "cold",
   "source_hash": "",
   "confidence_history": [
-    {
-      "timestamp": "2026-07-12T01:08:35.463220",
-      "confidence": 0.95,
-      "reason": "evolution_decay (65d since access, 0 accesses)"
-    },
     {
       "timestamp": "2026-07-12T05:09:33.026266",
       "confidence": 0.95,
@@ -138,6 +134,11 @@
       "timestamp": "2026-07-24T05:08:57.874045",
       "confidence": 0.95,
       "reason": "evolution_decay (77d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-25T01:04:04.023277",
+      "confidence": 0.95,
+      "reason": "evolution_decay (78d since access, 0 accesses)"
     }
   ]
 }

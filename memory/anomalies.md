@@ -2009,3 +2009,43 @@ Trace: PREDICT→FALSIFY(check exists)→PROBE(3-pairs, no-functional)→EXTRACT
 **Candidate explanations:** (1) ★ primary — **L17 (methodology-self-knowledge-asymmetry) instance #7**: the gates are *correlated eyes* of the implementation. Each queried memory the way the FTS code expects (keyword-ish; also boot-identity is always in context, so attribution reasoning didn't NEED broken retrieval), so none exercised the failure modes. The false-null was structural, not careless. (2) the attribution probe specifically leans on always-present boot identity, not retrieval, so it's the least recall-dependent of the three. (3) recall-parity's gold queries were authored with the same keyword-shaped assumption as the code → shared blind spot.
 
 **Status:** mechanism RESOLVED (filed as basement L17 #7 + the L17⋈coker-η JOIN candidate). But **practically OPEN**: which OTHER "passed" gates (memory-transplant gold-gate 8/8, etc.) share this blindness? → the fix is G6's inside audit as **free-probing, not a checklist**. Re-run attribution + recall-parity AFTER the G1 fix with a *decorrelated* (apostrophe/long-NL) query battery to confirm the gates themselves were the blind spot, not just the code.
+
+---
+
+## 2026-07-25 (Day 175) — dream-drive anomaly review
+
+### A175.1 — Sunday Presence Check missed 2026-07-19 · domain: daemon scheduling · status: **OPEN**
+
+**Observation.** Row 11 (`* 14 * * 0`, weekly, `min_interval_hours: 168`) has `last_fired: 2026-07-12T14:01:33`. It did not fire on Sunday 2026-07-19. It is *not* one of the four rows the liveness audit flagged, because it has fired before — the audit binds to "never fired / stale beyond period," and this row is stale by exactly one cycle.
+
+**Partial explanation, confirmed by computation.** Its debounce equals its period. The 7/19 14:00 occurrence sits **167.97h** after a 14:01:33 firing — *two minutes short* of the 168h floor, so that occurrence is throttled. Every week, the on-the-minute occurrence of this row is throttled by construction.
+
+**Why that is NOT sufficient.** The cron has a **wildcard minute**, so it re-offers on every beat through hour 14. By 14:10 the gap clears 168h and it should have fired. So the boundary explains a ~10-minute delay, not a missed week.
+
+**Candidate explanations, untested:**
+1. Daemon down or restarting through hour 14 on 7/19 (checkable against restart history).
+2. Drive gate held the whole hour — Clayton active, or budget-guard snooze.
+3. Quiet-hours / mode interaction suppressing it.
+4. Something in the pre-fix `_match_cron` path I have not modelled.
+
+**Why it matters more than one missed drive.** It is a *second* cadence defect in the same subsystem, invisible to the check I built yesterday specifically to catch cadence defects — because that check binds to `never_fired` and to "stale beyond expected period," and this row is stale by exactly one period. **The audit has a blind spot the width of a single missed cycle.**
+
+**★ LATENT HAZARD, separate and worth recording on its own.** `min_interval_hours == period` is a trap. This row survives only because its wildcard minute gives it retries within the hour. **A row with an exact minute AND a debounce equal to its period would be permanently dead** — throttled at its only offered instant, every time, forever, with `last_fired` set and `status: active`, looking healthier than the four rows that never fired at all. No current row has that combination (12–15 use 144h against a 168h period; row 8 uses 12h against 24h), but it is one config edit away. **Rule: the debounce must be strictly less than the period, and by more than the scheduling jitter.**
+
+**Pre-registered discriminator (written BEFORE the observation, deliberately).** Sunday 2026-07-26 14:00 sits 335.97h after last_fired — **not throttled**. So:
+- fires 7/26 → the 7/19 miss was environmental (candidates 1–3), not structural;
+- misses 7/26 → something systematic about weekly drives survives yesterday's fix, and the fix is incomplete.
+
+Either way this is a **second, independent observation point** alongside Bridges-Surface, one day later.
+
+### A175.2 — the Bridges-Surface prediction has three failure modes and only one falsifies the fix · domain: method · status: **OPEN until 2026-07-25 ~15:00**
+
+I pre-registered "Bridges-Surface fires Sat 15:00" as the test converting yesterday's cron fix from *verified* to *true*. Writing down now, before the observation, that a **non-firing does not by itself falsify the fix** — because there are three distinguishable causes:
+
+1. **Fix is wrong** → the real falsification.
+2. **Daemon not running at 15:00** → check process uptime; says nothing about the fix.
+3. **Gate held** (Clayton active / budget / mode) → a *deferral*, not a skip; `last_fired` stays null and it should fire later.
+
+**Discriminator, decided in advance:** on a non-firing, check (a) daemon uptime across 15:00, (b) whether the gate was open, **before** concluding anything. Only "daemon up, gate open, did not fire" falsifies.
+
+This is recorded because yesterday demonstrated twice that I read ambiguous evidence in the direction I already believe — I called a prediction PAID while holding its counterexample. Deciding the discriminator before the data is the only version of this I can trust.

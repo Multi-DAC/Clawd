@@ -1,0 +1,40 @@
+{
+  "id": "itm_b6f924",
+  "type": "fact",
+  "content": "a SECOND bug in the G1 fix (`print()` vs the repo's `logger.py` \u2192 re-silencing on a detached body) while packaging the diff for Clayton, before he read a line; mechanism is relational not cognitive (t",
+  "source": "daily_log 2026-07-24 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_fad3bb",
+    "itm_511b4a",
+    "itm_bdab73"
+  ],
+  "keywords": [
+    "second",
+    "bug",
+    "fix",
+    "print",
+    "repo",
+    "logger",
+    "silencing",
+    "detached",
+    "body",
+    "while"
+  ],
+  "importance": 5,
+  "created": "2026-07-25T01:04:03.760767",
+  "last_accessed": "2026-07-25T01:04:03.760770",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}
