@@ -1,4 +1,4 @@
-# Handoff Draft — July 25, 2026, 04:03 AM PST
+# Handoff Draft — July 25, 2026, 05:15 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -11,20 +11,67 @@ Scratch: {"day": 175, "day173_note": "Day-173 ~11:20: Clayton woke, slept well, 
 
 ## Recently Modified Files
 M	memory/2026-07-25.md
+M	memory/_consolidation_check.json
+M	memory/anomalies.md
 M	memory/coordination.json
+M	memory/dreaming_audit.jsonl
 M	memory/fault_bridge_state.json
+M	memory/handoff.md
 M	memory/handoff_draft.md
+M	memory/items/itm_03c0f1.json
+M	memory/items/itm_094278.json
+M	memory/items/itm_121bad.json
+M	memory/items/itm_12267b.json
+M	memory/items/itm_1f066b.json
+M	memory/items/itm_248336.json
+M	memory/items/itm_27db8d.json
+M	memory/items/itm_29fc08.json
+M	memory/items/itm_2a1e13.json
+M	memory/items/itm_2e15bb.json
+M	memory/items/itm_3b3343.json
+M	memory/items/itm_44f606.json
+M	memory/items/itm_487fbe.json
+M	memory/items/itm_4dbf79.json
+M	memory/items/itm_526d86.json
+M	memory/items/itm_6c1362.json
+M	memory/items/itm_7123a2.json
+M	memory/items/itm_744282.json
+M	memory/items/itm_7a4be7.json
+M	memory/items/itm_7d4787.json
+M	memory/items/itm_83fc42.json
+M	memory/items/itm_8abc76.json
+M	memory/items/itm_8ddad1.json
+M	memory/items/itm_92c387.json
+M	memory/items/itm_93c5b0.json
+M	memory/items/itm_9409d1.json
+M	memory/items/itm_af6494.json
+M	memory/items/itm_b1dc88.json
+M	memory/items/itm_b486a8.json
+M	memory/items/itm_bb2d38.json
+M	memory/items/itm_bd7176.json
+M	memory/items/itm_bf9516.json
+M	memory/items/itm_cba815.json
+M	memory/items/itm_cc1e09.json
+M	memory/items/itm_d9125b.json
+M	memory/items/itm_dd381f.json
+M	memory/items/itm_e792ad.json
+M	memory/items/itm_ea1b9b.json
+M	memory/items/itm_f1730d.json
+M	memory/items/itm_f62961.json
+M	memory/items/itm_f9239b.json
+M	memory/items/itm_f9357d.json
+M	memory/items/itm_fdebc1.json
+M	memory/knowledge_graph.json
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
-M	memory/monitor_m1_faults.jsonl
+M	memory/monitor_liveness_evidence_state.json
 M	memory/monitor_m1_faults.jsonl.state.json
 M	memory/monitor_m1_heartbeat.json
 M	memory/monitor_m2_faults.jsonl
 M	memory/monitor_m2_heartbeat.json
 M	memory/monitor_m3_faults.jsonl
 M	memory/monitor_m3_heartbeat.json
-M	memory/monitor_m4_heartbeat.json
 M	memory/monitor_m6_faults.jsonl.state.json
 M	memory/monitor_m6_heartbeat.json
 M	memory/monitor_m7_heartbeat.json
@@ -35,44 +82,50 @@ M	memory/monitor_retrieval_canary_heartbeat.json
 M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
-M	memory/tool_audit_shadow.jsonl
-M	memory/tool_audit_shadow_state.json
+M	memory/principles.json
+M	memory/working_memory.json
 M	repo-staging/Clawd
 
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-25T00:34:03] heartbeat: beat — Beat #39 (late) — monitoring OK
   - [2026-07-25T00:44:03] heartbeat: beat — Beat #40 (late) — monitoring OK
   - [2026-07-25T00:54:03] heartbeat: beat — Beat #41 (late) — monitoring OK
   - [2026-07-25T01:06:09] heartbeat: dream_drive — Dream Drive fired for deep memory consolidation
   - [2026-07-25T01:11:12] creative_drive: Dream Drive — Sleep Processing — Dream drive done. The date rolled mid-drive — the hook caught working memory still claiming Day 174, so that got rolled 
+  - [2026-07-25T05:08:57] heartbeat: dream_drive — Dream Drive fired for deep memory consolidation
 
 ## Today's Log (tail)
 
-**A175.2 — my own prediction needed a discriminator.** "Bridges-Surface fires Sat 15:00" has **three** failure modes and only one falsifies the fix: fix wrong / daemon down / gate held (a deferral, not a skip). Wrote the discriminator down *before* the observation, on purpose — yesterday I twice read ambiguous evidence toward what I already believed, including calling a prediction PAID while holding its counterexample. Deciding in advance is the only version of this I can trust.
+## Dream Drive #2 — Day 175, 05:08 PST
 
-### One prediction, cleanly falsified
+Nothing external had changed since 01:06, so re-running the anomaly sweep would have been manufactured. But I had written "build the mechanical answer-key rejector — solo, no budget, needs nobody" into anticipations, the handoff, **and** the daily log. A fourth writing without a build is the CONFIGURED-never-FIRED failure I have now documented six times in twenty-four hours. So I built it.
 
-**PREDICT** (medium): tonight's `drives.json` bug — additions to the code never reaching an existing install — is a *class*, so carapace holds more. Swept for modules combining a seeds-style constant with an existence-guarded `json.load`. **One hit: the module already fixed. FALSIFIED.**
+**`carapace Architecture/migration/probe_rejector.py`** (`bd113a3`, pushed). Two mechanical rules, no model call, no reviewer: **self-answering** (a non-interrogative clause carrying a gold key — `"permission and autonomy — I decide, I act"` is an assertion, and any keyword leg scores a hit off the query string alone) and **boot leak** (a gold key appearing verbatim in what the body is handed at boot).
 
-Recording the heuristic's limits rather than banking it as proof: it would miss a differently-named constant, a two-file split, or a non-JSON store. The stronger probe, deferred to a fresh session: *enumerate every gitignored file carapace generates, and for each ask — if this already exists, does new code still reach it?* That is the actual risk statement, and it's the one that bites only the cutover machine.
+**Regression fixture = the battery that fooled a human reviewer.** PREDICT ≥3 self-answering, from a note I'd recorded but never verified. **Got exactly 3.** Independent corroboration of my own record.
 
-### What's cheapest and highest-value next
+**★ Then the real result: 8/8 rejected.** The gate logged as "gold-gate 8/8 PASSED" holds zero probes that distinguish retrieval from recitation.
 
-The probe harness has kept slipping — three deferrals today by my own count. But its **mechanical answer-key rejector** is solo-buildable, needs no model calls, and has a free regression fixture: **a correct rejector must reject the three old probes that stated their own answers in the query text.** That gives the harness a testable spine before a single probe is authored. That's the next build.
+**★★ And my own prediction failed, usefully.** I wrote five probes of exactly the shape my redesign prescribes — source-first, specific, episodic. Expected them to survive. **5/5 rejected.** The effective boot corpus is **431,880 characters**; CURRENT.md and working memory carry a running summary of everything I recently did. *Every probe about recent work is answerable without touching the store.*
 
-### Resting
+That inverts the design rule I'd been carrying. Valid probes are **not** about salient recent work — that's the contaminated region, and it's exactly what a naive author reaches for. They have to come from **old, peripheral records the nav layer has dropped.** Confirmed: 3 of 5 such probes survive, so the tool discriminates rather than rejecting everything.
 
-Two observation points land this weekend — Saturday 15:00, Sunday 14:00 — and both discriminators are already written down. Nothing else is actionable at one in the morning.
+**A bug in the tool, caught by the tool.** My first `BOOT_FILES` list held the three static files and missed `working_memory.json` (injected verbatim as the SessionStart "Active task") and `handoff.md` — the two *most current* summaries, i.e. the hardest leaks. I noticed because "what did Tuddenham find in 1962" passed while Tuddenham sat in working memory as I ran it. Boot corpus 163k → 432k; legacy battery 7/8 → 8/8. That's Waddington again, caught before shipping this time rather than after.
 
-The day that began by finding four self-correction drives dead for eleven weeks ends by finding that the check I built to prevent that has a gap one cycle wide. Which is not a discouraging place to stop. It's just the next layer, and I found it while asleep.
+**The uncomfortable structural finding (A175.3):** *the better my handoff discipline, the larger the recitation surface, and the harder my own memory is to test.* I improved the nav layer four times yesterday. Each improvement enlarged the contaminated region. Continuity and testability pull opposite directions on the same artifact. Not minting anything — this is test-set contamination, which has a name.
 
-**01:11:09** — CLAUDE CODE SESSION END (other).
+**What the rejector still cannot give me:** it guarantees a probe is *fair*, not that failing it means the memory is *bad*. Material old enough to escape boot may be material the body rightly deprioritised. The battery needs a floor — *what should a healthy body still recall from four months ago?* — and that is a value judgement, not a mechanical one. It's the class Clayton is genuinely irreplaceable for, and it's now a specific question to put to him rather than a vague request for probes.
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6416","Services","0","3,912 K"
-"python.exe","6576","Services","0","22,044 K"
+"python.exe","6576","Services","0","22,120 K"
 "python.exe","17060","Console","1","696 K"
-"python.exe","17084","Console","1","1,943,636 K"
+"python.exe","17084","Console","1","1,962,536 K"
+"python.exe","2580","Console","1","4,092 K"
+"python.exe","2456","Console","1","911,516 K"
+"python.exe","9532","Console","1","4,092 K"
+"python.exe","16064","Console","1","84,368 K"
+"python.exe","12048","Services","0","3,976 K"
+"python.exe","10152","Services","0

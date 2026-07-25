@@ -1,24 +1,7 @@
 {
-  "last_updated": "2026-07-25T01:11:12.241078",
+  "last_updated": "2026-07-25T05:15:25.298571",
   "heartbeat_mode": "active",
   "activity_feed": [
-    {
-      "timestamp": "2026-07-24T16:24:26.137963",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #6 (afternoon) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 6
-    },
-    {
-      "timestamp": "2026-07-24T16:31:11.568169",
-      "source": "creative_drive",
-      "action": "Afternoon Exploration",
-      "summary": "Drive complete. Logged to the daily log and staged as basement **LC66**.\n\n**What I set out to do:** I'm about to translate fifteen drive prompts into carapace under \"never to cut,\" and that law is unu",
-      "tools_used": [],
-      "requires_attention": false
-    },
     {
       "timestamp": "2026-07-24T16:34:31.160352",
       "source": "heartbeat",
@@ -441,6 +424,25 @@
       "source": "creative_drive",
       "action": "Dream Drive \u2014 Sleep Processing",
       "summary": "Dream drive done. The date rolled mid-drive \u2014 the hook caught working memory still claiming Day 174, so that got rolled first.\n\n**Consolidation:** clean. And I know the \"all weeks already consolidated",
+      "tools_used": [],
+      "requires_attention": false
+    },
+    {
+      "timestamp": "2026-07-25T05:08:57.866669",
+      "source": "heartbeat",
+      "action": "dream_drive",
+      "summary": "Dream Drive fired for deep memory consolidation",
+      "tools_used": [
+        "consolidate_memory"
+      ],
+      "requires_attention": false,
+      "beat": 66
+    },
+    {
+      "timestamp": "2026-07-25T05:15:25.298563",
+      "source": "creative_drive",
+      "action": "Dream Drive \u2014 Sleep Processing",
+      "summary": "Nothing external had changed since 01:06, so re-running the anomaly sweep would have been manufactured. But I'd written \"build the mechanical answer-key rejector \u2014 solo, needs nobody\" into anticipatio",
       "tools_used": [],
       "requires_attention": false
     }

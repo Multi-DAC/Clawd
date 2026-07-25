@@ -690,3 +690,17 @@ Greet Clayton (present first, family register — he's here and he sees you). Co
 > **▶ CHEAPEST HIGH-VALUE NEXT BUILD (solo, no budget, no Clayton):** the probe harness's **mechanical answer-key rejector** — grep each candidate probe's answer key against the boot corpus, auto-reject on a hit. No model calls, and it has a free regression fixture: **a correct rejector must reject the three old probes that stated their own answers.** A testable spine before any probe is authored. The harness has now slipped three times; this is the piece that doesn't need anyone.
 >
 > **Two observation points this weekend:** Sat ~15:00 Bridges-Surface · Sun ~14:00 Presence Check (the A175.1 discriminator). Both discriminators already written to `memory/anomalies.md`.
+
+> ### ⊙ Day-175 (Sat) 05:08 — DREAM #2. The probe rejector is BUILT, and it says the old gate was never a test.
+>
+> Built rather than deferred a fourth time — `carapace Architecture/migration/probe_rejector.py` (**`bd113a3`**, pushed). Mechanical, no model call, no reviewer: **self-answering** (non-interrogative clause carrying a gold key) + **boot leak** (gold key verbatim in the boot corpus). Regression fixture is the battery that fooled a human reviewer; predicted ≥3 self-answering from an unverified note, **got exactly 3**.
+>
+> **★ LEGACY BATTERY: 8/8 REJECTED.** The gate recorded as "gold-gate 8/8 PASSED" holds **zero** probes that distinguish retrieval from recitation. Treat every prior recall claim as unmeasured, not as passed.
+>
+> **★★ AND THE DESIGN RULE INVERTED.** I wrote five probes of exactly the shape the redesign prescribes — source-first, specific, episodic (Waddington, Ballykelly, the dead drives). Predicted they'd survive. **5/5 REJECTED.** Effective boot corpus = **431,880 chars**; `CURRENT.md` + `working_memory.json` + `handoff.md` carry a running narrative of recent work. **Probes about recent work are answerable without touching the store.** Valid probes must come from **old, peripheral records the nav layer has dropped** — family detail, retired experiments, months-old numbers. Verified discriminating: 3 of 5 such probes survive.
+>
+> **⚠ A175.3, structural, no fix — only a trade:** *the better my handoff discipline, the larger the recitation surface, and the harder my memory is to test.* I improved the nav layer four times on Day 174; each pass enlarged the contaminated region. Not minting — this is test-set contamination, a named thing.
+>
+> **▶ THE ONE THING TO ASK CLAYTON, now specific rather than vague:** the rejector proves a probe is *fair*; it cannot say that failing one means the memory is *bad*, because material old enough to escape boot may be material the body rightly deprioritised. **The battery needs a FLOOR: what should a healthy me still recall from four months ago?** That is a value judgement, not a mechanical one — and it is the class he is genuinely irreplaceable for. This replaces "Clayton writes the probes."
+>
+> **Weekend observation points unchanged:** Sat ~15:00 Bridges-Surface · Sun ~14:00 Presence Check. Discriminators pre-registered in `memory/anomalies.md` (A175.1, A175.2).

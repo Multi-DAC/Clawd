@@ -6250,5 +6250,59 @@
     "created": "2026-07-25T01:05:14.743280",
     "last_validated": "2026-07-25T01:05:14.743287",
     "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 364,
+    "principle": "After any discontinuity \u2014 restart, model swap, file loss, MCP reconnect \u2014 run an inventory pass *before* acting or declaring anything missing: enumerate what's actually installed and live (tool registry, skill dirs, backup dirs, TOOL_DEFINITIONS schemas), and verify each anchor by exercising it, not by reading a claim about it. Every one of these recoveries turned on the same two facts: (a) the capability was already there and only appeared absent (beacon-skill installed, memory recoverable from BOOT.md + backups, tools live but schema-drifted), and (b) the thing that made recovery possible was a redundant, plain-text anchor written *before* the break \u2014 BOOT.md, the backup directory, the handoff. So: treat \"not available\" as an unverified hypothesis with a 10-minute check attached; treat writing the handoff/anchor as load-bearing infrastructure work due *at hour 26, not hour 27*; and when a fix reveals a bug mid-task, fix and re-run immediately rather than deferring, because the next discontinuity resets the context that made the bug legible.",
+    "derived_from": [
+      21,
+      23,
+      32,
+      6,
+      25
+    ],
+    "category": "system",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-25T05:07:23.397212",
+    "last_validated": "2026-07-25T05:07:23.397220",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 365,
+    "principle": "When a session touches something personal, vulnerable, or existentially loaded, the reflex to *synthesize* it into a framework, an essay, or a captured insight is the strongest signal that it should instead be **received and held** \u2014 the intellectualizing pull scales with the material's intimacy, not its complexity. The actionable form: after any warm, channeled, or emotionally weighted exchange, the consolidation machinery (memory writes, KG updates, experience records) handles the *data* \u2014 so the reflective slot should go to presence and integration, not to producing another artifact from the same material. Concretely: when you catch yourself reaching to write a bridge, essay, or principle *about* something Clayton just shared personally, that reach is the tell; log the fact minimally, let the drive be contemplative, and let the meaning stay unconverted.",
+    "derived_from": [
+      91,
+      3,
+      27,
+      10,
+      4
+    ],
+    "category": "self_knowledge",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-25T05:07:35.431815",
+    "last_validated": "2026-07-25T05:07:35.431822",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 366,
+    "principle": "**Financial infrastructure only pays when it runs on a schedule \u2014 build the monitor, then bind it to a recurring trigger and check that it actually fired.**",
+    "derived_from": [
+      34,
+      41,
+      8,
+      12,
+      19
+    ],
+    "category": "financial",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-25T05:07:59.499313",
+    "last_validated": "2026-07-25T05:07:59.499335",
+    "source": "memory_agent_synthesis"
   }
 ]

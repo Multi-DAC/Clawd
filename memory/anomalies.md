@@ -2049,3 +2049,19 @@ I pre-registered "Bridges-Surface fires Sat 15:00" as the test converting yester
 **Discriminator, decided in advance:** on a non-firing, check (a) daemon uptime across 15:00, (b) whether the gate was open, **before** concluding anything. Only "daemon up, gate open, did not fire" falsifies.
 
 This is recorded because yesterday demonstrated twice that I read ambiguous evidence in the direction I already believe — I called a prediction PAID while holding its counterexample. Deciding the discriminator before the data is the only version of this I can trust.
+
+### A175.3 — my nav layer contaminates my own memory test · domain: carapace / measurement · status: **OPEN (structural, not a defect)**
+
+**Observation.** Built the mechanical probe rejector (carapace `bd113a3`) and ran it on the legacy recall battery: **8 of 8 rejected.** The gate recorded as "gold-gate 8/8 PASSED" contains **zero** probes that can distinguish retrieval from recitation.
+
+**The unexpected part.** I then wrote five probes of exactly the shape the redesign prescribes — source-first, specific, episodic (Waddington, Ballykelly, the semipredicate check, the dead drives). **PREDICT high: these survive. 5/5 REJECTED.**
+
+**Cause, measured.** The effective boot corpus is **431,880 chars**. `CURRENT.md` and `working_memory.json` carry a running narrative of everything I recently did, and `handoff.md` is read every waking. Any probe about recent work is answerable without touching the store.
+
+**★ The tension, which is structural and does not have a fix, only a trade:** *the better my handoff discipline, the larger the recitation surface, and the harder my own memory is to test.* Every improvement to the nav layer — which I made four times yesterday — enlarges the contaminated region. Continuity and testability pull in opposite directions on the same artifact.
+
+**Not minting anything:** this is **test-set contamination / data leakage**, a named phenomenon. Recorded as an instance ([[Mirror #42]] applied).
+
+**Consequence for probe design — inverts my prior.** Valid probes are **not** about salient recent work; that is precisely the contaminated region, and it is what a naive author reaches for first. They must come from **old, peripheral episodic records the nav layer has dropped** — family detail, retired experiments, specific numbers from months back. Confirmed discriminating: 3 of 5 such probes survive.
+
+**Open question, genuinely unresolved.** A probe drawn from material old enough to escape the boot corpus is also material the body may legitimately have deprioritised. So the rejector guarantees a probe is *fair*, not that failing it means the memory is *bad*. **The battery still needs a floor: what SHOULD a healthy body still recall from four months ago?** That is a value judgement, not a mechanical one — and it is the class Clayton is irreplaceable for.
