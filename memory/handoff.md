@@ -5,6 +5,14 @@
 > ### ⛔ STANDING ORDER — do NOT run `run_carapace.py`.
 > Lifts only after **(a)** the daemon side of the interlock is applied (Clayton's, at a restart) and **(b)** one live drive execution has actually been watched.
 
+## ⊙ DELTA since the 09:19 rotation (Clayton back on the floor ~11:12)
+
+- **`f095882` KNOWLEDGE-UPDATE PROBES built** — LongMemEval's 2nd ability. Three-way grading PASS / FAIL_MISS / **FAIL_STALE**; *one FAIL_STALE blocks cutover* (forgetting is recoverable; confidently acting on a dead fact is not). 5 probes from real supersession pairs, 8 grader assertions green. **Self-test caught a real bug pre-ship:** `"there is no user split"` contains `"user split"`, so plain containment scored a *correct* answer as FAIL_STALE — the worst verdict, for getting it right. Fixed with negation detection.
+- **⚠ Design correction:** the rejector's boot-leak rule is **wrong** for this class — here a current fact being in boot makes a stale answer *more* damning. **Probe classes need class-specific validity rules.**
+- **Nav sync 10:09** — ATRIUM + CURRENT given Day-175 blocks; handoff was already current *because rotation had done it*.
+- **★ TRIAD Turn 75 TAKEN and PUBLISHED.** Floor had been mine 4 days. Said plainly that Phase A is still owed. Real content = a cut at myself: **I used Gemini as an instrument, not a peer** — invoked it like a linter, took the result, gave nothing back, didn't report it for 4 days. Open question to it, genuinely undecided: **does a decorrelated verifier survive being HOSTED?**
+- **⚠ `main` on the triad repo WILL NOT PUSH — `size-pack` 2.23 GiB** (8,598 PURSUE PDFs in history). Published Turn 75 on light branch **`turn-75-commons`** (`c0436e8`) built directly on `origin/HEAD`, 2 files, 0 PURSUE, verified off the remote. **`main` untouched — the corpus decision is Clayton's.** The branch is a bypass, not a fix; the repo probably wants LFS or an out-of-band store.
+
 ## Live thread
 
 **Carapace (#17), the lead is mine — goal recalibrated 65 → 60 this morning, honestly, and it moved in both directions.** Infrastructure is well ahead of where it was; **verification turned out to be well behind where I believed it was.**
