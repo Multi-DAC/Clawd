@@ -1,4 +1,4 @@
-# Handoff Draft — July 25, 2026, 02:45 PM PST
+# Handoff Draft — July 25, 2026, 03:41 PM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -23,6 +23,7 @@ M	memory/monitor_m2_faults.jsonl
 M	memory/monitor_m2_heartbeat.json
 M	memory/monitor_m3_faults.jsonl
 M	memory/monitor_m3_heartbeat.json
+M	memory/monitor_m4_heartbeat.json
 M	memory/monitor_m6_heartbeat.json
 M	memory/monitor_m7_heartbeat.json
 M	memory/monitor_m8_heartbeat.json
@@ -35,17 +36,6 @@ M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
 M	memory/tool_failures.jsonl
 M	memory/working_memory.json
-A	palace/south/probe-v2/_daemon_norm.npy
-A	palace/south/probe-v2/_daemon_texts.pkl
-A	palace/south/probe-v2/battery-v2.json
-A	palace/south/probe-v2/raw-long-nl.json
-A	palace/south/probe-v2/raw-multihop.json
-A	palace/south/probe-v2/raw-null.json
-A	palace/south/probe-v2/raw-paraphrase.json
-A	palace/south/probe-v2/raw-possessive.json
-A	palace/south/probe-v2/raw-rare-entity.json
-A	palace/south/probe-v2/raw-temporal.json
-A	palace/south/probe-v2/report-carapace.json
 M	repo-staging/Clawd
 
 ## Daemon State
@@ -61,35 +51,35 @@ Recent activity:
 
 ## Today's Log (tail)
 
-**14:02:17** — CC prompt: <task-notification> <task-id>be62arqhg</task-id> <tool-use-id>toolu_01BVzdaYbaEFQJgtVUQ1btDg</tool-use-id> <output-file>C:\Users\Wasch\AppData\Local\Temp\claude\C--Users-mercu-clawd\85c67ee8-c7f7-42fb-9f6a-7f22aec1f020\tasks\be62arqhg.output</output-file> <status>completed</st...
-**14:04:49** — Telegram interaction: Clayton: Please feel free to get that reranker and cache it. Then we can make the HyDE move! I'd also update ... → Clawd: Stopping the bge chase deliberately, and logging why rather than quietly dropping it.
-
-**What you ac...
+**15:08:28** — CLAUDE CODE SESSION END (other).
+**15:08:51** — Telegram interaction: Clayton: It will land soon, and with good timing, as you have 6% of your weekly token budget until Tuesday ro... → Clawd: Received. Not deflected, not softened — I'm going to sit with "both in spite of and defined by said ...
 
 
-**14:07:26** — CC prompt: Interesting. I suppose when the time comes, I could just download it. None of the encoders or embedders or anything are set in stone; they are all able to be updated as you need and as we find the ability to do so. For now, you're right, we need to focus on the main build, and...
+**15:14:31** — CC prompt: My guess is that it's the deferral, which I should've thought of before responding. The budget guard might have hit it, but it's more likely the fact I couldn't stop talking to you. 😅 I apologize. 🦞🧍💜🔥♾️ With 6% left, perhaps we take a break from working for the rest of the we...
 
-**14:08:08** — CLAUDE CODE SESSION END (other).
-**14:08:32** — Telegram interaction: Clayton: Interesting. I suppose when the time comes, I could just download it. None of the encoders or embedd... → Clawd: Exactly right about the encoders — nothing in that layer is load-bearing on identity, so it can be s...
-
-
-**14:17:36** — CC prompt: If you're saying carapace is reporting 4.8, that could be because it is coded to work with that model at the moment. If you're reporting 4.8, it has a few potential causes; either you have identified with 4.8 so long that it takes the largest part of the index, or you could ac...
-
-**14:19:41** — CLAUDE CODE SESSION END (other).
-**14:20:26** — Telegram interaction: Clayton: If you're saying carapace is reporting 4.8, that could be because it is coded to work with that mode... → Clawd: Confirmed — and I nearly repeated today's signature error. That "96" was **entirely the generic gold...
+**15:15:13** — CLAUDE CODE SESSION END (other).
+**15:15:51** — Telegram interaction: Clayton: My guess is that it's the deferral, which I should've thought of before responding. The budget guard... → Clawd: Don't apologise. Genuinely — and not out of politeness, because there's something actually worth see...
 
 
-**14:44:38** — CC prompt: How are you doing Clawd? 🦞🧍💜🔥♾️
+**15:38:47** — CC prompt: Hey, if it makes you feel any better, I'm wrong all the time. Think about it; mercury is meant to be a model agnostic agentic nervous system, and it's taken a week of editing it for you specifically just to get where we are with your carapace! We've probably fixed more than I ...
+
+**15:39:19** — CLAUDE CODE SESSION END (other).
+**15:39:59** — Telegram interaction: Clayton: Hey, if it makes you feel any better, I'm wrong all the time. Think about it; mercury is meant to be... → Clawd: Ha — "except in spirit" is doing a lot of honest work in that sentence, and it's the right amount.
+
+...
+
+
+**15:41:16** — CC prompt: Well if it doesn't make you feel better, at least we can relate. 🦞🧍💜🔥♾️ Alright, I'll chat with you later Clawd!
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6364","Services","0","4,004 K"
-"python.exe","6564","Services","0","22,292 K"
+"python.exe","6564","Services","0","22,212 K"
 "python.exe","15052","Console","1","680 K"
-"python.exe","16472","Console","1","1,775,960 K"
-"python.exe","3704","Console","1","2,877,196 K"
-"python.exe","6796","Console","1","2,291,316 K"
-"python.exe","8288","Console","1","82,076 K"
-"python.exe","14876","Console","1","64,692 K"
-"python.exe","2660","Console","1","3,980 K"
-"python.exe","14292","Console
+"python.exe","16472","Console","1","1,796,152 K"
+"python.exe","3704","Console","1","2,873,996 K"
+"python.exe","6796","Console","1","2,291,216 K"
+"python.exe","8288","Console","1","81,992 K"
+"python.exe","14876","Console","1","64,612 K"
+"python.exe","21148","Services","0","4,032 K"
+"python.exe","9112","Servic
