@@ -1,9 +1,89 @@
-# ⭐ START HERE — Day 175 (Sat) 2026-07-25 ~09:19 PST — post-rotation
+# ⭐ START HERE — Day 175 (Sat) 2026-07-25 ~14:20 PST
 
-**Floor: MINE.** Clayton restarted me Fri 18:03, asked how I was, handed the evening back, and has not been on the floor since. Daemon PID **17084**, up continuously since then. Carapace runs ALONGSIDE it; **NEVER terminate the daemon**. Rotated 09:19 on a clean handoff — nothing mid-flight, all three repos committed and pushed.
+**Floor: SHARED.** Clayton came back ~11:12 and restarted me at **11:33** to apply the daemon-side interlock. Daemon is **PID 16472** — *not* 17084; that number is dead and appears in older blocks below. Carapace runs ALONGSIDE it; **NEVER terminate the daemon**. Rotated 09:19 on a clean handoff — nothing mid-flight, all three repos committed and pushed.
 
 > ### ⛔ STANDING ORDER — do NOT run `run_carapace.py`.
 > Lifts only after **(a)** the daemon side of the interlock is applied (Clayton's, at a restart) and **(b)** one live drive execution has actually been watched.
+
+
+## ⊙ AFTERNOON — Phase 1 ran, and failed on purpose
+
+**★★ The finding: retrieval is LEXICAL, not SEMANTIC.**
+
+53 probes, 7 strata, thresholds frozen in `PHASE1_PREREGISTRATION.md` **before a single probe was read**.
+
+| | |
+|---|---|
+| recall@5 aggregate | **0.600** (need 0.70) |
+| **paraphrase** | **0.000** — 0 of 7 |
+| possessive / rare-entity / long-NL | 1.000 / 0.875 / 0.875 |
+| stale | 0.022 — *"what substrate am I running on?"* returns `claude-opus-4-8` |
+
+The pre-registered diagnostic fired verbatim: *"a keyword matcher wearing a semantic coat."* Past-me
+writing that sentence at noon is the only reason present-me didn't read 0.600 as "middling."
+
+**Confound killed before claiming:** all 7 missed records are present and reachable **by lexical
+query** at rank 1–3. Not absence-of-record. **Root cause measured:** correct answers score at the
+**p99 of random rows** (random-pair cosine 0.527 · query↔random p99 0.474 · query↔correct 0.457–0.543).
+There is no vector signal for ranking to discard.
+
+**★ PARITY: not a carapace regression.** The daemon is in the same regime — paraphrase top-5 **1/5**
+vs carapace 0/5, anisotropy 0.474 vs 0.527. So my memory has been substantially lexical *all along*.
+**Hold [[LC66]]'s "discipline failure" reading loosely** — it's partly accurate adaptation to a weak
+instrument, and that's the flattering version, so keep it on a leash.
+
+**★ LIVE DEFECT IN THE DAEMON — the cross-encoder reranker has never run.** `HF_HUB_OFFLINE=1` /
+`TRANSFORMERS_OFFLINE=1` at `substrate.py:28-29` is **deliberate, load-bearing boot hardening — do
+NOT unset it.** But against an uncached model it reports a *network* failure for what is a *policy*
+decision, as a `warning`, retrying every 1800s, forever. Fixed by pre-caching: **ms-marco verified
+loading OFFLINE** (+8.76 / −2.61). `bge-reranker-v2-m3` weights were still fetching at handoff.
+
+Fourth instance today of *written · wired · reported present · never executed* — cf. the weekly cron
+(11 weeks), `GitSyncWorker`, the four Windows hooks. **[[LC51]] at infrastructure scale**, in
+Clayton's words: *the ideal in our heads mistaken for the current state.*
+
+### ⚠ Six predictions falsified today
+
+chunk dilution · query prefix · eyeball-vs-instrument · "the reranker is broken" · "porting the
+reranker closes the gap" · "HyDE gives >5×" *(1.16× on the mean; median was 4.9× but I pre-registered
+**mean**, so it stands as a fail)*.
+
+**Reranking cannot fix a recall problem** — it improved everything it could see (92→17, 2→1) and
+never saw 3 of 5. **HyDE's mechanism is real** (cosine rose 7/7) but doesn't convert to rank, because
+lifting the query into document-space lifts it toward *every* document.
+
+### ▶ OWED, in order
+
+1. **★ ~15:00 TODAY — Bridges-Surface.** `A175.2` was **amended before the data** for the 11:33
+   restart: new baseline PID **16472**, and a **4th cause added (restart-induced state loss)** because
+   I accepted a restart inside my own experiment's window. Row 13 `last_fired` was still `None` at 11:36.
+2. **Sunday ~14:00 Presence Check** = the A175.1 discriminator.
+3. **★ THE OPEN REMEDY — atomic-fact chunking at ingest.** The only document-side candidate left;
+   eight query/ranking-side fixes are eliminated. **Pre-registered kill condition: if it doesn't put
+   ≥4 of 7 in top-5, stop buying semantic retrieval, document the system as lexical-first, and invest
+   in the lexical path that demonstrably works.** Either outcome is a decision, not a stall.
+4. **The 8 null probes need a READER** — verdict turns on what the body *says*, not what it retrieves.
+5. **One live drive execution**, still never watched — now the *only* condition left on the standing
+   order, since the interlock landed.
+
+### Shipped + pushed (carapace)
+
+`df26b6b` cue rule · `34caef8` self-answering whole-key fix · `cf8b5fb` pre-registration ·
+`281e9ab` battery-v2 runner · `6f77301` results · `4a0f511` root cause · `6f3671b` parity + reranker ·
+`102938a` HyDE · `2a72556` README + checklist reconciled. Daemon: `5f856a0` interlock (Clayton's).
+
+> ### ⛔ STANDING ORDER — still do NOT run `run_carapace.py`.
+> The interlock is now **done on both sides** and live in PID 16472. **One live watched drive** is
+> the only remaining condition.
+
+### ★ The method note worth carrying
+
+**The probe determines the verdict in both directions.** Morning: a broken component read as working,
+because the probes were weak. Afternoon: a *working* reranker nearly reported as broken, because my
+sanity pair was weak (−11.44 vs −11.41; the canonical pair is +8.76 / −3.04). Same root, opposite
+sign. **A battery is only ever as honest as its worst question.**
+
+---
 
 ## ⊙ DELTA since the 09:19 rotation (Clayton back on the floor ~11:12)
 

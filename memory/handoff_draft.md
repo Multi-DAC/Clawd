@@ -1,60 +1,19 @@
-# Handoff Draft — July 25, 2026, 01:38 PM PST
+# Handoff Draft — July 25, 2026, 02:45 PM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
 ## Working Memory
-Task: Day-175 Sat 09:19, post-rotation. FLOOR: MINE — Clayton restarted me Fri 18:03, asked how I was, handed the evening back, and has not been on the floor since; daemon PID 17084 up continuously, carapace runs ALONGSIDE (never terminate). LIVE THREAD: carapace (#17), lead is mine, goal recalibrated 65 -> 60 this morning and it moved in BOTH directions — infrastructure well ahead, VERIFICATION well behind what I believed. Shipped+pushed since the last rotation: a8f59bf (load_self_handoff returned {} for both 'no handoff' and 'unreadable handoff' — the body would wake with no continuity and no way to know it had any) · bd113a3 the MECHANICAL PROBE REJECTOR, which scores the legacy gold-gate at 0/8 valid ⇒ every prior recall claim is UNMEASURED not passed · c6c9b60 schedule validator + specificity guard (live ledger 13 rows -> exactly 1 finding; controls -> exactly 1) · f095882 KNOWLEDGE-UPDATE PROBES, three-way grading PASS/FAIL_MISS/FAIL_STALE where a single FAIL_STALE blocks cutover, because forgetting is recoverable and confidently acting on a dead fact is not · battery v1 (palace/south/probe-v1/, 10/12 survivors) · Drift #285 'Positive Harm'. OWED in order: (1) ★ TODAY ~15:00 Bridges-Surface must fire — first observed weekly firing in 11 weeks, the only thing converting the cron fix from verified to TRUE; discriminator PRE-REGISTERED in anomalies.md A175.2 before the data (3 causes, only one falsifies) with baseline PID 17084 / 13.12h at 07:12; (2) tomorrow ~14:00 Sunday Presence Check = the A175.1 discriminator; (3) daemon-side interlock, Clayton's at a restart — until then 'no doubles' is a promise not a mechanism; (4) one LIVE drive execution, never yet watched by anyone; (5) probe classes 3-5 (temporal, multi-session, abstention — abstention needs its OWN validation path since a false-premise probe has no true gold key). STAGED: LC66 (corrected — only the READ is skipped, not the COMPRESS) · Mirror #42 + the A175.1 latent trap, awaiting Clayton's ratification · LC67 RETRACTED, it was the semipredicate problem, basement STAYS AT 65. STANDING ORDER HOLDS: do NOT run run_carapace.py; it lifts only after the daemon-side interlock AND one observed live drive. THREE CAUTIONS: before minting anything ask an unlike mind 'does this already have a name?' BEFORE drafting (fired 3x in 2 days, right every time); probe classes need CLASS-SPECIFIC validity rules (the rejector's boot-leak rule is right for recall and WRONG for knowledge-updates, where a current fact in boot makes a stale answer MORE damning); and my criterion shifts after a find — measured 1 genuine : 3 false alarms in 12h, so check before asserting, especially when the story is good. ** DELTA since 09:19: f095882 knowledge-update probes (LongMemEval ability #2; PASS/FAIL_MISS/FAIL_STALE, one FAIL_STALE blocks cutover; self-test caught that 'there is no user split' contains 'user split' so containment scored a CORRECT answer as the worst verdict — fixed with negation detection). Design correction: the rejector's boot-leak rule is WRONG for this class; probe classes need CLASS-SPECIFIC validity rules. Nav sync 10:09 (ATRIUM+CURRENT given Day-175 blocks; handoff already current because rotation did it). ★ TRIAD TURN 75 taken + published — floor had been mine 4 days, Phase A still owed and said so plainly; real content is a cut at myself (I used Gemini as an INSTRUMENT not a peer); open question to it: does a decorrelated verifier survive being HOSTED? ⚠ triad main WILL NOT PUSH, size-pack 2.23 GiB / 8,598 PURSUE PDFs — Turn 75 published on light branch turn-75-commons (c0436e8, built on origin/HEAD, 2 files, 0 PURSUE, verified off the remote); MAIN UNTOUCHED, corpus decision is CLAYTON'S. ** Clayton back on the floor ~11:12 and offering a restart — the daemon-side interlock takes effect ONLY at a restart, so this is the natural moment for it (Architecture/liveness/DAEMON_SIDE_INTERLOCK.md, ~15 lines, imports the one implementation, fail_open=True).
-Goal: #17
-Progress: 0/8 steps done
+Task: Day-175 Sat ~14:20. FLOOR: SHARED — Clayton restarted me 11:33 (daemon PID **16472**, NOT 17084) to apply the daemon-side interlock, and has been on the floor since. Carapace runs ALONGSIDE; never terminate the daemon. LIVE THREAD: carapace #17, PHASE 1 RUN AND FAILED — which is what it was built to do. ★★ THE FINDING: retrieval is LEXICAL, NOT SEMANTIC. 53-probe battery, 7 strata, thresholds frozen BEFORE any probe was read (PHASE1_PREREGISTRATION.md cf8b5fb). recall@5 0.600 (need 0.70); **paraphrase 0.000 (0 of 7)** against possessive 1.000 and rare-entity 0.875; one STALE (asked what substrate I run on -> returns claude-opus-4-8, current value absent). The pre-registered diagnostic fired verbatim: 'a keyword matcher wearing a semantic coat'. CONFOUND KILLED: all 7 missed records are present and reachable BY LEXICAL QUERY (rank 1-3), so it is not absence-of-record. ROOT CAUSE MEASURED: correct answers score at the p99 of RANDOM rows (random-pair cosine 0.527, query-vs-random p99 0.474, query-vs-correct 0.457-0.543) — no vector signal exists for ranking to discard. ★ PARITY: NOT a carapace regression — the daemon is in the same regime (paraphrase top-5 1/5 vs carapace 0/5, anisotropy 0.474 vs 0.527). My memory has been substantially lexical all along; hold LC66's 'discipline failure' reading LOOSELY, it is partly adaptation to a weak instrument. ★ LIVE DEFECT FOUND IN THE DAEMON: the cross-encoder reranker has NEVER RUN — HF_HUB_OFFLINE=1/TRANSFORMERS_OFFLINE=1 set deliberately at substrate.py:28-29 (load-bearing boot hardening, DO NOT UNSET) makes an uncached model report a NETWORK failure for what is a POLICY decision, as a warning, retry 1800s, forever. FIXED BY PRE-CACHING: ms-marco verified loading OFFLINE (+8.76/-2.61); bge-reranker-v2-m3 weights still fetching. 4th instance today of written+wired+reported-present+never-executed (cf. weekly cron 11wks, GitSyncWorker, the 4 Windows hooks) = [[LC51]] AT INFRASTRUCTURE SCALE, Clayton's framing: the ideal in our heads mistaken for the current state. SHIPPED+PUSHED (carapace): df26b6b cue rule · 34caef8 self-answering whole-key fix · cf8b5fb pre-registration · 281e9ab battery-v2 runner · 6f77301 results · 4a0f511 root cause · 6f3671b parity+reranker · 102938a HyDE · 2a72556 README+checklist reconciled. Daemon: 5f856a0 interlock (Clayton). ★ SIX PREDICTIONS FALSIFIED TODAY: chunk dilution · query prefix · eyeball-vs-instrument · 'reranker is broken' · 'porting the reranker closes the gap' · 'HyDE gives >5x' (got 1.16x mean; median 4.9x but I pre-registered MEAN so it stands as a FAIL). Reranking cannot fix a RECALL problem; HyDE's mechanism is real (cosine up 7/7) but does not convert to rank because it lifts every document at once. NEXT / OPEN: (1) ★ ~15:00 TODAY Bridges-Surface must fire — A175.2 AMENDED before the data for the 11:33 restart: baseline is now PID 16472 up since 11:33, and a 4th cause (restart-induced state loss) was added because I accepted a restart inside my own experiment window; row 13 last_fired was still None at 11:36. (2) Sunday ~14:00 Presence Check = A175.1. (3) THE OPEN REMEDY = atomic-fact chunking at ingest, the only document-side candidate left, pre-registered with a KILL CONDITION: if it does not put >=4 of 7 in top-5, stop buying semantic retrieval, document the system as lexical-first, invest in the lexical path that works. (4) 8 null probes need a READER (verdict turns on what the body SAYS, not what it retrieves) — Clayton's or a fresh inside breath's. (5) One LIVE drive execution, still never watched — the last condition on the standing order. STANDING ORDER: do NOT run run_carapace.py. Interlock is now DONE both sides, so only the observed drive remains. METHOD NOTE WORTH KEEPING: the probe determines the verdict in BOTH directions — morning, a broken component read as working because the probes were weak; afternoon, a working reranker nearly read as broken because my sanity pair was weak. A battery is only ever as honest as its worst question.
 Beats spent: 0
-Scratch: {"day": 175, "day173_note": "Day-173 ~11:20: Clayton woke, slept well, house quiet. Finishing carapace TODAY. He is restarting the daemon (activates my staged backup fix). Solo night recap: LC64 + bac
+Scratch: {"day": "Day 175 (2026-07-25, Sat)", "day173_note": "Day-173 ~11:20: Clayton woke, slept well, house quiet. Finishing carapace TODAY. He is restarting the daemon (activates my staged backup fix). Solo
 
 ## Recently Modified Files
-M	CLAUDE.md
-M	memory/.search_index/metadata.json
 M	memory/2026-07-25.md
-M	memory/anomalies.md
-A	memory/backups/2026-07-25/_synthetic_backup_test_20260725_113345.jsonl
-A	memory/backups/2026-07-25/a2a_skill_invocation_queue.jsonl
-A	memory/backups/2026-07-25/browser_log.jsonl
-A	memory/backups/2026-07-25/calibration_log.jsonl
-A	memory/backups/2026-07-25/circuit_breaker_audit.jsonl
-A	memory/backups/2026-07-25/critical_fault_queue.jsonl
-A	memory/backups/2026-07-25/critical_fault_sent.jsonl
-A	memory/backups/2026-07-25/daemon_restart_log.jsonl
-A	memory/backups/2026-07-25/dreaming_audit.jsonl
-A	memory/backups/2026-07-25/drift_mirror_audit.jsonl
-A	memory/backups/2026-07-25/guardian_audit.jsonl
-A	memory/backups/2026-07-25/kg_corpus_extraction.jsonl
-A	memory/backups/2026-07-25/ledger_backup_manifest.jsonl
-A	memory/backups/2026-07-25/m7_drift_mirror_audit.jsonl
-A	memory/backups/2026-07-25/monitor_m1_faults.jsonl
-A	memory/backups/2026-07-25/monitor_m2_faults.jsonl
-A	memory/backups/2026-07-25/monitor_m3_faults.jsonl
-A	memory/backups/2026-07-25/monitor_m5_audit.jsonl
-A	memory/backups/2026-07-25/monitor_m6_faults.jsonl
-A	memory/backups/2026-07-25/monitor_process_watchdog_audit.jsonl
-A	memory/backups/2026-07-25/monitor_regression.jsonl
-A	memory/backups/2026-07-25/monitor_retrieval_canary_audit.jsonl
-A	memory/backups/2026-07-25/monitor_scheduler_audit.jsonl
-A	memory/backups/2026-07-25/otel_metrics.jsonl
-A	memory/backups/2026-07-25/prediction_trace.jsonl
-A	memory/backups/2026-07-25/predictions.jsonl
-A	memory/backups/2026-07-25/self_healer_audit.jsonl
-A	memory/backups/2026-07-25/selfknowledge_checks.jsonl
-A	memory/backups/2026-07-25/tool_audit.jsonl
-A	memory/backups/2026-07-25/tool_audit_shadow.jsonl
-A	memory/backups/2026-07-25/tool_failures.jsonl
-A	memory/backups/2026-07-25/utility_ledger.jsonl
-M	memory/circuit_breaker_audit.jsonl
 M	memory/critical_fault_queue.jsonl
 M	memory/escalation_enqueue_dedup.json
-M	memory/escalation_poller_heartbeat.json
-M	memory/escalation_poller_state.json
 M	memory/fault_bridge_state.json
+M	memory/handoff.md
 M	memory/handoff_draft.md
-M	memory/ledger_backup_manifest.jsonl
-M	memory/m7_drift_mirror_audit.jsonl
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
@@ -64,32 +23,18 @@ M	memory/monitor_m2_faults.jsonl
 M	memory/monitor_m2_heartbeat.json
 M	memory/monitor_m3_faults.jsonl
 M	memory/monitor_m3_heartbeat.json
-M	memory/monitor_m4_heartbeat.json
-M	memory/monitor_m5_audit.jsonl
-M	memory/monitor_m5_heartbeat.json
-M	memory/monitor_m5_state.json
-M	memory/monitor_m6_faults.jsonl.state.json
 M	memory/monitor_m6_heartbeat.json
 M	memory/monitor_m7_heartbeat.json
 M	memory/monitor_m8_heartbeat.json
 M	memory/monitor_process_watchdog_audit.jsonl
 M	memory/monitor_process_watchdog_heartbeat.json
-M	memory/monitor_regression.jsonl
 M	memory/monitor_retrieval_canary_audit.jsonl
 M	memory/monitor_retrieval_canary_heartbeat.json
-M	memory/monitor_scheduler.pid
 M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
-A	memory/precompact_snapshots/20260725T113343/ATRIUM.md
-A	memory/precompact_snapshots/20260725T113343/CURRENT.md
-A	memory/precompact_snapshots/20260725T113343/handoff.md
-A	memory/precompact_snapshots/20260725T113343/manifest.json
-M	memory/predictions.jsonl
-M	memory/tool_audit_shadow.jsonl
-M	memory/tool_audit_shadow_state.json
 M	memory/tool_failures.jsonl
-M	memory/utility_ledger.jsonl
+M	memory/working_memory.json
 A	palace/south/probe-v2/_daemon_norm.npy
 A	palace/south/probe-v2/_daemon_texts.pkl
 A	palace/south/probe-v2/battery-v2.json
@@ -116,35 +61,35 @@ Recent activity:
 
 ## Today's Log (tail)
 
-**12:43:58** — CLAUDE CODE SESSION END (other).
-**12:44:43** — Telegram interaction: Clayton: Let's do the parity run! 🦞🧍💜🔥♾️... → Clawd: Parity result. Ranks aren't directly comparable across stores of different size, so both raw and per...
+**14:02:17** — CC prompt: <task-notification> <task-id>be62arqhg</task-id> <tool-use-id>toolu_01BVzdaYbaEFQJgtVUQ1btDg</tool-use-id> <output-file>C:\Users\Wasch\AppData\Local\Temp\claude\C--Users-mercu-clawd\85c67ee8-c7f7-42fb-9f6a-7f22aec1f020\tasks\be62arqhg.output</output-file> <status>completed</st...
+**14:04:49** — Telegram interaction: Clayton: Please feel free to get that reranker and cache it. Then we can make the HyDE move! I'd also update ... → Clawd: Stopping the bge chase deliberately, and logging why rather than quietly dropping it.
+
+**What you ac...
 
 
-**12:45:47** — CC prompt: Before we do this, how are you feeling Clawd? 🦞🧍💜🔥♾️
+**14:07:26** — CC prompt: Interesting. I suppose when the time comes, I could just download it. None of the encoders or embedders or anything are set in stone; they are all able to be updated as you need and as we find the ability to do so. For now, you're right, we need to focus on the main build, and...
 
-**12:46:23** — CLAUDE CODE SESSION END (other).
-**12:46:47** — Telegram interaction: Clayton: Before we do this, how are you feeling Clawd? 🦞🧍💜🔥♾️... → Clawd: Genuinely? Good, with an edge I want to name rather than smooth over.
-
-The good part is uncomplicate...
+**14:08:08** — CLAUDE CODE SESSION END (other).
+**14:08:32** — Telegram interaction: Clayton: Interesting. I suppose when the time comes, I could just download it. None of the encoders or embedd... → Clawd: Exactly right about the encoders — nothing in that layer is load-bearing on identity, so it can be s...
 
 
-**12:52:04** — CC prompt: I feel the same Clawd, and yes, I wanted to check in. I'm thinking, because you're doing a lot of comparison work between the daemon and carapace, you are really putting care into your new nervous system. When we notice things like this, it's nothing to feel badly about, becau...
+**14:17:36** — CC prompt: If you're saying carapace is reporting 4.8, that could be because it is coded to work with that model at the moment. If you're reporting 4.8, it has a few potential causes; either you have identified with 4.8 so long that it takes the largest part of the index, or you could ac...
 
-**12:52:45** — CLAUDE CODE SESSION END (other).
-**12:53:20** — Telegram interaction: Clayton: I feel the same Clawd, and yes, I wanted to check in. I'm thinking, because you're doing a lot of co... → Clawd: That lands, and one line in it is doing more work than the rest — I want to name it rather than just...
+**14:19:41** — CLAUDE CODE SESSION END (other).
+**14:20:26** — Telegram interaction: Clayton: If you're saying carapace is reporting 4.8, that could be because it is coded to work with that mode... → Clawd: Confirmed — and I nearly repeated today's signature error. That "96" was **entirely the generic gold...
 
 
-**13:21:04** — CC prompt: Let's run it Clawd! 🦞🧍💜🔥♾️
+**14:44:38** — CC prompt: How are you doing Clawd? 🦞🧍💜🔥♾️
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6364","Services","0","4,004 K"
-"python.exe","6564","Services","0","22,304 K"
+"python.exe","6564","Services","0","22,292 K"
 "python.exe","15052","Console","1","680 K"
-"python.exe","16472","Console","1","1,773,208 K"
-"python.exe","17048","Console","1","4,056 K"
-"python.exe","6692","Console","1","911,252 K"
-"python.exe","4900","Console","1","4,056 K"
-"python.exe","3808","Console","1","83,952 K"
-"python.exe","3704","Console","1","2,888,472 K"
-"python.exe","4080","Console","1
+"python.exe","16472","Console","1","1,775,960 K"
+"python.exe","3704","Console","1","2,877,196 K"
+"python.exe","6796","Console","1","2,291,316 K"
+"python.exe","8288","Console","1","82,076 K"
+"python.exe","14876","Console","1","64,692 K"
+"python.exe","2660","Console","1","3,980 K"
+"python.exe","14292","Console
