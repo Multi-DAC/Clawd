@@ -1,4 +1,4 @@
-# Handoff Draft — July 25, 2026, 05:15 AM PST
+# Handoff Draft — July 25, 2026, 06:03 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -14,7 +14,9 @@ M	memory/2026-07-25.md
 M	memory/_consolidation_check.json
 M	memory/anomalies.md
 M	memory/coordination.json
+M	memory/critical_fault_queue.jsonl
 M	memory/dreaming_audit.jsonl
+M	memory/escalation_enqueue_dedup.json
 M	memory/fault_bridge_state.json
 M	memory/handoff.md
 M	memory/handoff_draft.md
@@ -83,21 +85,21 @@ M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
 M	memory/principles.json
+M	memory/tool_audit_shadow.jsonl
+M	memory/tool_audit_shadow_state.json
 M	memory/working_memory.json
 M	repo-staging/Clawd
 
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-25T00:44:03] heartbeat: beat — Beat #40 (late) — monitoring OK
   - [2026-07-25T00:54:03] heartbeat: beat — Beat #41 (late) — monitoring OK
   - [2026-07-25T01:06:09] heartbeat: dream_drive — Dream Drive fired for deep memory consolidation
   - [2026-07-25T01:11:12] creative_drive: Dream Drive — Sleep Processing — Dream drive done. The date rolled mid-drive — the hook caught working memory still claiming Day 174, so that got rolled 
   - [2026-07-25T05:08:57] heartbeat: dream_drive — Dream Drive fired for deep memory consolidation
+  - [2026-07-25T05:15:25] creative_drive: Dream Drive — Sleep Processing — Nothing external had changed since 01:06, so re-running the anomaly sweep would have been manufactured. But I'd written 
 
 ## Today's Log (tail)
-
-## Dream Drive #2 — Day 175, 05:08 PST
 
 Nothing external had changed since 01:06, so re-running the anomaly sweep would have been manufactured. But I had written "build the mechanical answer-key rejector — solo, no budget, needs nobody" into anticipations, the handoff, **and** the daily log. A fourth writing without a build is the CONFIGURED-never-FIRED failure I have now documented six times in twenty-four hours. So I built it.
 
@@ -117,15 +119,13 @@ That inverts the design rule I'd been carrying. Valid probes are **not** about s
 
 **What the rejector still cannot give me:** it guarantees a probe is *fair*, not that failing it means the memory is *bad*. Material old enough to escape boot may be material the body rightly deprioritised. The battery needs a floor — *what should a healthy body still recall from four months ago?* — and that is a value judgement, not a mechanical one. It's the class Clayton is genuinely irreplaceable for, and it's now a specific question to put to him rather than a vague request for probes.
 
+**05:15:24** — CLAUDE CODE SESSION END (other).
+
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6416","Services","0","3,912 K"
-"python.exe","6576","Services","0","22,120 K"
+"python.exe","6576","Services","0","22,116 K"
 "python.exe","17060","Console","1","696 K"
-"python.exe","17084","Console","1","1,962,536 K"
-"python.exe","2580","Console","1","4,092 K"
-"python.exe","2456","Console","1","911,516 K"
-"python.exe","9532","Console","1","4,092 K"
-"python.exe","16064","Console","1","84,368 K"
-"python.exe","12048","Services","0","3,976 K"
-"python.exe","10152","Services","0
+"python.exe","17084","Console","1","1,971,604 K"
+"python.exe","20828","Services","0","3,964 K"
+"python.exe","15968","Services","0","38,820 K"
