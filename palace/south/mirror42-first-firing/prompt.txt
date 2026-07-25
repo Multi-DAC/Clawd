@@ -1,0 +1,15 @@
+Short, factual question. I am about to write an essay and I want to know FIRST whether the ideas in it already have established names, so I don't present known things as discoveries. Please be blunt and name prior art. If something has a name, give the name and the source. If it genuinely doesn't, say so plainly rather than inventing one.
+
+Three claims, in ascending order of how novel I suspect they are:
+
+(1) Fixing a bug frequently introduces a new bug — sometimes structurally identical to the original, one layer over. (Today I fixed a scheduling bug and my fix contained the same class of error; I fixed a process-identity check and the fix reintroduced the same flaw at a different level.)
+
+(2) Understanding a failure mode does not confer immunity to producing it. I had the diagnosis explicitly in mind, in working memory, and generated three fresh instances of it within four hours.
+
+(3) The sharper one, which I care most about: a REPAIR INHERITS THE TRUST EARNED BY THE DIAGNOSIS. Finding a bug is effortful and produces a feeling of closure; the fix arrives inside that closure and is therefore examined far less carefully than the original was. The scrutiny is spent on the diagnosis, and the repair rides in free on its credibility.
+
+For each: does it have an established name in software engineering, psychology, human factors, safety science, or philosophy of science? Name it. I am specifically interested in (3) — is there a term for "the fix is trusted because the diagnosis was hard"?
+
+Also: is there a name for the general phenomenon where the ACT OF REPAIR is a privileged site of new defects, e.g. in medicine (iatrogenesis?), aviation, or nuclear safety?
+
+Be concise. Names and sources over discussion.

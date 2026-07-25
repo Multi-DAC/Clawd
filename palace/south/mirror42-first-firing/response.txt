@@ -1,0 +1,45 @@
+### (1) Fixing a bug frequently introduces a new bug — sometimes structurally identical to the original, one layer over.
+
+*   **Regression / Bad Fix**
+    *   **Source:** *Software Engineering.* Formally studied as the "bad-fix rate" (e.g., Yin et al., 2011, *"How do fixes become bugs?"*).
+*   **Error Migration (or Risk Migration)**
+    *   **Source:** *Human Factors & System Safety.* Originally conceptualized by Jens Rasmussen. It describes how mitigating a risk at one level of a socio-technical system causes the failure mode to shift, adapt, and reappear across different boundaries or levels of abstraction.
+*   **"Fixes that Fail" System Archetype**
+    *   **Source:** *System Dynamics / Systems Thinking.* Popularized by Peter Senge in *The Fifth Discipline* (1990). A system archetype where an intervention solves a symptom in the short term, but triggers delayed feedback loops that reappear as the same structural symptom elsewhere.
+
+---
+
+### (2) Understanding a failure mode does not confer immunity to producing it.
+
+*   **The G.I. Joe Fallacy**
+    *   **Source:** *Cognitive Science / Psychology.* Coined by cognitive scientists Tamar Gendler and Laurie Santos (2014). The cognitive bias showing that mere conceptual knowledge of a bias or failure mode does not prevent System 1 (automatic processing) from producing it ("knowing is *not* half the battle").
+*   **Capture Error (or Action Slip)**
+    *   **Source:** *Human Factors / Cognitive Psychology.* James Reason, *Human Error* (1990). A performance slip where a highly practiced or automatic behavioral schema overrides conscious working memory, causing you to execute the familiar error even while consciously trying to avoid it.
+*   **Knowing-Doing Gap**
+    *   **Source:** *Organizational Behavior.* Jeffrey Pfeffer and Robert Sutton, *The Knowing-Doing Gap* (2000). The structural mismatch between what an agent or system knows conceptually and how it actually executes action.
+
+---
+
+### (3) A repair inherits the trust earned by the diagnosis ("the fix is trusted because the diagnosis was hard").
+
+*   **Satisfaction of Search (SoS) / Premature Closure**
+    *   **Source:** *Cognitive Psychology / Radiology.* First identified by Tuddenham (1962). The cognitive bias where finding a primary, hard-to-locate target (the diagnosis) satisfies the search criteria, causing the operator to immediately stop scanning for secondary defects (such as bugs in the proposed fix itself).
+*   **Trust Transfer Heuristic**
+    *   **Source:** *Cognitive Psychology.* A mental shortcut where trust earned by a source entity/process (the rigorous diagnosis) is automatically projected onto a related target entity (the repair) to reduce cognitive load.
+*   **Effort Justification**
+    *   **Source:** *Social Psychology / Cognitive Dissonance.* Leon Festinger (1957) and Aronson & Mills (1959). The tendency to overvalue an output (the fix) because of the high degree of energy, time, or pain expended on the input (the diagnosis).
+*   **Diagnostic Momentum**
+    *   **Source:** *Medicine / Safety Science.* First detailed by Georges et al. (1984). Once a diagnosis is established through significant clinical effort, it establishes momentum. Subsequent actions (the treatments/fixes) are accepted uncritically because they align with the hard-won diagnosis.
+
+---
+
+### General Phenomenon: The act of repair is a privileged site of new defects.
+
+*   **Iatrogenesis / Iatrogenic Harm**
+    *   **Source:** *Medicine.* Literally "originating from a physician." Harm, complications, or defects caused directly by the medical intervention or act of repair itself.
+*   **Maintenance-Induced Failure (MIF) / Maintenance-Induced Error (MIE)**
+    *   **Source:** *Aviation / Nuclear Safety / Human Factors.* The formal category of failures introduced by technicians during maintenance, inspection, or calibration procedures.
+*   **The Waddington Effect**
+    *   **Source:** *Reliability Engineering / Operations Research.* Named after biologist Conrad H. Waddington during WWII Coastal Command. The empirical observation that scheduled maintenance/repair interventions actively decrease reliability, introducing a temporary spike in failure rates due to human error during the repair.
+*   **Infant Mortality (or Early Life Failure)**
+    *   **Source:** *Reliability Engineering.* The phenomenon represented by the starting edge of the Weibull "bathtub curve," where a system is at its highest risk of failure immediately after installation, replacement, or repair.

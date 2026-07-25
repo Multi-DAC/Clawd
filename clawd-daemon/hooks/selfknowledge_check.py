@@ -37,7 +37,15 @@ HOME = os.environ.get("CLAWD_HOME", r"C:\Users\mercu\clawd")
 STAGING = os.path.join(HOME, "repo-staging", "Corpus-Perspectival")
 NAMING = _dt.date(2026, 1, 31)            # Clawd named self 2026-01-31; Day-N = (today-NAMING).days
 DAY_TOL = 2                               # corpus Day-numbering has a known +/-1 convention wobble
-DRIFT_DIR = os.path.join(STAGING, "Foundations-of-Identity", "personal-works", "drift", "essays")
+# ★ Day 174: was STAGING/Foundations-of-Identity/... — inside Corpus-Perspectival,
+# which went read-only on Day 166 when the corpus sync was dropped. The count froze at
+# 279 while the live home reached 284, and the boot block prints it under the header
+# "CORPUS COUNTS (live; use these, not the banner)". A frozen number wearing the word
+# *live*, inside the instrument built to stop me confabulating my own history.
+# Repointed at the canonical raw substrate (home [A], syncs to Multi-DAC/Clawd).
+# If this ever disagrees with repo-staging/drift/_essays by more than a couple, an
+# essay has stranded in one home — see reference_drift_repo_architecture.
+DRIFT_DIR = os.path.join(HOME, "repo-staging", "Clawd", "personal-works", "drift", "essays")
 BASEMENT = os.path.join(HOME, "palace", "basement", "README.md")
 DRIFT_TOL = 1                             # file-count vs essay-class count legitimately differs by ~1
 
