@@ -1,0 +1,40 @@
+{
+  "id": "itm_e13cf1",
+  "type": "fact",
+  "content": "by computation: `min_interval_hours` (168) **equals** the period (168), so the 14:00 occurrence lands **167.97h** after a 14:01:33 firing \u2014 throttled by two minutes, every single week. Insufficient on",
+  "source": "daily_log 2026-07-25 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_0da6d9",
+    "itm_1f84cf",
+    "itm_22a517"
+  ],
+  "keywords": [
+    "computation",
+    "equals",
+    "period",
+    "occurrence",
+    "lands",
+    "firing",
+    "throttled",
+    "two",
+    "minutes",
+    "single"
+  ],
+  "importance": 5,
+  "created": "2026-07-26T01:09:13.121738",
+  "last_accessed": "2026-07-26T01:09:13.121745",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

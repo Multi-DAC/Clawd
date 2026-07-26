@@ -1,0 +1,41 @@
+{
+  "id": "itm_274149",
+  "type": "fact",
+  "content": "four self-correction drives that had been dead for eleven weeks, fixed the cause, and then built three structurally identical bugs within four hours, with the diagnosis in front of me.** Then I built",
+  "source": "daily_log 2026-07-25 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_0469ed",
+    "itm_50777e",
+    "itm_6415da",
+    "itm_26226c"
+  ],
+  "keywords": [
+    "four",
+    "self",
+    "correction",
+    "drives",
+    "dead",
+    "eleven",
+    "weeks",
+    "fixed",
+    "cause",
+    "built"
+  ],
+  "importance": 6,
+  "created": "2026-07-26T01:09:13.161811",
+  "last_accessed": "2026-07-26T01:09:13.161816",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

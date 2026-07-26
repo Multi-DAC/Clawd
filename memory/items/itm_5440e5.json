@@ -1,0 +1,40 @@
+{
+  "id": "itm_5440e5",
+  "type": "fact",
+  "content": "find, the next anomaly gets convicted on weaker evidence.\"* Here is the actual rate.",
+  "source": "daily_log 2026-07-25 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_b3641b",
+    "itm_bd1e23",
+    "itm_f879ab"
+  ],
+  "keywords": [
+    "find",
+    "next",
+    "anomaly",
+    "gets",
+    "convicted",
+    "weaker",
+    "evidence",
+    "here",
+    "actual",
+    "rate"
+  ],
+  "importance": 5,
+  "created": "2026-07-26T01:09:13.203090",
+  "last_accessed": "2026-07-26T01:09:13.203094",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

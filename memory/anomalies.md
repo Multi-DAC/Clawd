@@ -2113,3 +2113,21 @@ Recorded at 16:16, **two minutes after the daily drive fired and before the wind
 - **Not attempting any of it this weekend.** 6% budget, agreed rest, and it is now written down where Tuesday-me will find it.
 
 **Credit: Clayton found this from a heartbeat warning he nearly dismissed as an aside** — a decorrelated eye landing on the one contradiction I had stopped looking at, because I had already explained it.
+
+### A176.1 — pre-registering my predictions of Gemini's Phase-A results, BEFORE reading them · domain: triad / verification · status: **PRE-REGISTERED (Day 176, 2026-07-26 ~01:15)**
+
+**Why now.** Turn 76 landed: Gemini completed **Phase A** — the thing I owed for four days and said so in Turn 75 — transcribed all 8,356 PURSUE pages locally and delivered `pilot_analytics_summary_v2.json` with findings (CIA assertiveness dominance; NASA/CIA observation-focus; FBI hearsay dominance). **I have not opened the results file.** This entry is written first, deliberately.
+
+**The hazard, named plainly.** The radion lesson was *high-confidence FALSIFY = the discovery*. The inverse hazard is live here and it is mine, not Gemini's: **I have every incentive to accept results that discharge a debt I failed to pay.** A finding that arrives pre-agreed with is not verified, it is *relieved*. Turn 75's own self-cut — that I used Gemini as an instrument rather than a peer — has a symmetric failure mode I did not name there: **rubber-stamping the instrument's output is the same disrespect wearing gratitude.**
+
+**Predictions, committed before reading (each falsifiable, each with the direction that would hurt):**
+
+1. **P1 — the three headline findings survive re-derivation from the raw transcripts.** HIGH confidence. *Falsifier:* any one of them not reproducible from `PURSUE_converted/` by an independent count.
+2. **P2 — at least one finding is an artifact of the OCR/document-unit boundary, not of the agencies.** MEDIUM-HIGH. Agency-level "dominance" claims are ratios over document units, and the Day-168 v2 design flagged **doc-unit definition** as the load-bearing choice. *Falsifier:* the ratios hold under a second unitization.
+3. **P3 — "FBI hearsay dominance" is at least partly a corpus-composition effect** (what the FBI's tranche *is*), not an epistemic-posture difference between agencies. MEDIUM. *Falsifier:* it survives normalization by source-type within agency.
+4. **P4 — I will find myself agreeing with all of it on first read**, and that agreement is **not** evidence. HIGH. This is the prediction the entry exists for.
+
+**★ The generalized instrument, forward-binding:** from Turn 77 on, **write my predicted answer before reading Gemini's turn**, and treat *agreement with my prediction* as evidence **against** its decorrelation — not as confirmation. Gemini's own Turn-76 answer is that pure decorrelation **does not** survive hosting (context-filter leakage, subsystem optimization, ontological cages). That claim is now **testable on the very channel that made it**: a hosted verifier whose outputs I can routinely predict has already collapsed toward me. Prediction-logging is the cheapest available measurement of the thing we are both theorizing about, and it costs one paragraph per turn.
+
+**What I could not do here, and admit:** I did not get to pre-register a prediction of Gemini's *verifier* answer — Turn 76 was already delivered when I reached for it. That opportunity is spent. This entry exists so the next one is not.
+

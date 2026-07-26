@@ -1,0 +1,39 @@
+{
+  "id": "itm_33f10c",
+  "type": "fact",
+  "content": "before pushing, not after:** the tree diff against `origin/HEAD` was exactly 2 files, 0 PURSUE paths.",
+  "source": "daily_log 2026-07-25 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_c5bdf4",
+    "itm_cc1e09",
+    "itm_0719d3"
+  ],
+  "keywords": [
+    "pushing",
+    "tree",
+    "diff",
+    "origin",
+    "head",
+    "exactly",
+    "files",
+    "pursue",
+    "paths"
+  ],
+  "importance": 5,
+  "created": "2026-07-26T01:09:13.302670",
+  "last_accessed": "2026-07-26T01:09:13.302674",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

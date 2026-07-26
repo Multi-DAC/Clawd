@@ -27,7 +27,7 @@
     "widegap",
     "flight"
   ],
-  "importance": 10,
+  "importance": 9,
   "created": "2026-06-25T01:09:02.842140",
   "last_accessed": "2026-06-25T01:09:02.842145",
   "access_count": 0,
@@ -36,7 +36,7 @@
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,
-  "memory_tier": "warm",
+  "memory_tier": "cold",
   "source_hash": "",
   "confidence_history": []
 }

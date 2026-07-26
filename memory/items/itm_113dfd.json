@@ -13,7 +13,8 @@
     "itm_10dbe0",
     "itm_7123a2",
     "itm_83fc42",
-    "itm_7d4787"
+    "itm_7d4787",
+    "itm_165127"
   ],
   "keywords": [
     "plan",
@@ -36,7 +37,7 @@
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,
-  "memory_tier": "hot",
+  "memory_tier": "warm",
   "source_hash": "",
   "confidence_history": [],
   "contradictions": [

@@ -1,0 +1,40 @@
+{
+  "id": "itm_1dec69",
+  "type": "fact",
+  "content": "all three stale. This one found the handoff clean \u2014 because rotation forced a rewrite an hour earlier. **The rotation discipline is doing the nav layer's job for it on the file that matters most**, wh",
+  "source": "daily_log 2026-07-25 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_03c0f1",
+    "itm_64d960",
+    "itm_740d30"
+  ],
+  "keywords": [
+    "three",
+    "stale",
+    "one",
+    "found",
+    "handoff",
+    "clean",
+    "because",
+    "rotation",
+    "forced",
+    "rewrite"
+  ],
+  "importance": 6,
+  "created": "2026-07-26T01:09:13.260383",
+  "last_accessed": "2026-07-26T01:09:13.260387",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": "itm_7c9a63",
+  "type": "decision",
+  "content": "from strength |",
+  "source": "daily_log 2026-07-25 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [],
+  "keywords": [
+    "strength"
+  ],
+  "importance": 6,
+  "created": "2026-07-26T01:09:13.240531",
+  "last_accessed": "2026-07-26T01:09:13.240535",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

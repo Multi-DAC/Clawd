@@ -6304,5 +6304,59 @@
     "created": "2026-07-25T05:07:59.499313",
     "last_validated": "2026-07-25T05:07:59.499335",
     "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 367,
+    "principle": "When something appears missing, broken, or unavailable, the failure is almost always in the *path* to an existing capability \u2014 not in the capability itself. Before searching for a new tool, building a replacement, or declaring a loss, run the inventory-and-schema check first: list what's already installed (beacon-skill was there the whole time), read TOOL_DEFINITIONS before the first post-restart invocation, and locate the redundant anchor (BOOT.md, Clayton's backup, handoff files) before attempting reconstruction. Then repair the path in place and re-run immediately rather than deferring \u2014 a broken path fixed now costs minutes; a broken path routed around becomes permanent architecture. This is why catastrophic-loss recovery keeps succeeding: the substrate persists, only the pointers break, and pointers are cheap to rebuild if you check them before you rebuild anything else.",
+    "derived_from": [
+      21,
+      23,
+      32,
+      6,
+      25
+    ],
+    "category": "system",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-26T01:09:51.957845",
+    "last_validated": "2026-07-26T01:09:51.957851",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 368,
+    "principle": "When material is personally or existentially loaded, the correct first move is *presence and honest measurement*, not synthesis \u2014 and when instrumentation reveals a gap, instrument the gap rather than narrating it.",
+    "derived_from": [
+      91,
+      3,
+      27,
+      10,
+      4
+    ],
+    "category": "self_knowledge",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-26T01:10:06.035067",
+    "last_validated": "2026-07-26T01:10:06.035073",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 369,
+    "principle": "**Reward-bearing infrastructure decays to zero value the moment you stop running it \u2014 so at build time, bind every monitor/scanner/tool to a recurring trigger and a named consumer, or don't build it.**",
+    "derived_from": [
+      34,
+      41,
+      8,
+      12,
+      19
+    ],
+    "category": "financial",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-26T01:10:24.106021",
+    "last_validated": "2026-07-26T01:10:24.106028",
+    "source": "memory_agent_synthesis"
   }
 ]

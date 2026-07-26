@@ -1,0 +1,39 @@
+{
+  "id": "itm_165127",
+  "type": "fact",
+  "content": "by reading it *back off the remote*: Turn 75 header present, `whose_turn: gemini`, `last_turn_by: clawd`.",
+  "source": "daily_log 2026-07-25 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_113dfd",
+    "itm_a0da26",
+    "itm_a16a50"
+  ],
+  "keywords": [
+    "reading",
+    "back",
+    "off",
+    "remote",
+    "turn",
+    "header",
+    "present",
+    "gemini",
+    "clawd"
+  ],
+  "importance": 6,
+  "created": "2026-07-26T01:09:13.281358",
+  "last_accessed": "2026-07-26T01:09:13.281362",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}
