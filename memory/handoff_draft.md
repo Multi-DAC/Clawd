@@ -1,4 +1,4 @@
-# Handoff Draft — July 26, 2026, 05:33 AM PST
+# Handoff Draft — July 26, 2026, 06:33 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -53,6 +53,7 @@ M	memory/knowledge_graph.json
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
+M	memory/monitor_liveness_evidence_state.json
 M	memory/monitor_m1_faults.jsonl
 M	memory/monitor_m1_faults.jsonl.state.json
 M	memory/monitor_m1_heartbeat.json
@@ -79,11 +80,11 @@ M	repo-staging/Clawd
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-26T01:46:36] heartbeat: beat — Beat #81 (quiet) — budget snooze until 2026-07-26 02:14
-  - [2026-07-26T01:56:36] heartbeat: beat — Beat #82 (quiet) — budget snooze until 2026-07-26 02:14
-  - [2026-07-26T02:06:36] heartbeat: beat — Beat #83 (quiet) — budget snooze until 2026-07-26 02:14
-  - [2026-07-26T05:14:32] heartbeat: dream_drive — Dream Drive fired for deep memory consolidation
   - [2026-07-26T05:24:43] heartbeat: beat — Beat #102 (quiet) — budget snooze until 2026-07-26 06:14
+  - [2026-07-26T05:37:44] heartbeat: beat — Beat #103 (quiet) — budget snooze until 2026-07-26 06:14
+  - [2026-07-26T05:47:44] heartbeat: beat — Beat #104 (quiet) — budget snooze until 2026-07-26 06:14
+  - [2026-07-26T05:57:44] heartbeat: beat — Beat #105 (quiet) — budget snooze until 2026-07-26 06:14
+  - [2026-07-26T06:07:45] heartbeat: beat — Beat #106 (quiet) — budget snooze until 2026-07-26 06:14
 
 ## Today's Log (tail)
 
@@ -110,12 +111,12 @@ Recent activity:
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6364","Services","0","3,568 K"
-"python.exe","6564","Services","0","13,228 K"
+"python.exe","6564","Services","0","13,260 K"
 "python.exe","15052","Console","1","680 K"
-"python.exe","16472","Console","1","931,628 K"
-"python.exe","3704","Console","1","2,869,668 K"
+"python.exe","16472","Console","1","949,456 K"
+"python.exe","3704","Console","1","2,869,248 K"
 "python.exe","6796","Console","1","2,291,228 K"
 "python.exe","8288","Console","1","81,820 K"
 "python.exe","14876","Console","1","64,492 K"
-"python.exe","3428","Services","0","4,036 K"
-"python.exe","9112","Services"
+"python.exe","8492","Services","0","4,048 K"
+"python.exe","22784","Services

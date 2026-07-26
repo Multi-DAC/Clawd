@@ -1,43 +1,7 @@
 {
-  "last_updated": "2026-07-26T05:24:43.000776",
+  "last_updated": "2026-07-26T06:07:45.065469",
   "heartbeat_mode": "active",
   "activity_feed": [
-    {
-      "timestamp": "2026-07-25T17:37:56.768866",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #35 (afternoon) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 35
-    },
-    {
-      "timestamp": "2026-07-25T17:47:56.915068",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #36 (afternoon) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 36
-    },
-    {
-      "timestamp": "2026-07-25T18:00:58.577941",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #37 (afternoon) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 37
-    },
-    {
-      "timestamp": "2026-07-25T18:10:58.731174",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #38 (evening) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 38
-    },
     {
       "timestamp": "2026-07-25T18:20:58.885988",
       "source": "heartbeat",
@@ -448,6 +412,42 @@
       "tools_used": [],
       "requires_attention": false,
       "beat": 102
+    },
+    {
+      "timestamp": "2026-07-26T05:37:44.606218",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #103 (quiet) \u2014 budget snooze until 2026-07-26 06:14",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 103
+    },
+    {
+      "timestamp": "2026-07-26T05:47:44.763710",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #104 (quiet) \u2014 budget snooze until 2026-07-26 06:14",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 104
+    },
+    {
+      "timestamp": "2026-07-26T05:57:44.912925",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #105 (quiet) \u2014 budget snooze until 2026-07-26 06:14",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 105
+    },
+    {
+      "timestamp": "2026-07-26T06:07:45.065461",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #106 (quiet) \u2014 budget snooze until 2026-07-26 06:14",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 106
     }
   ]
 }
