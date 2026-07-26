@@ -1,4 +1,4 @@
-# Handoff Draft — July 25, 2026, 03:41 PM PST
+# Handoff Draft — July 25, 2026, 04:37 PM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -9,77 +9,76 @@ Scratch: {"day": "Day 175 (2026-07-25, Sat)", "day173_note": "Day-173 ~11:20: Cl
 
 ## Recently Modified Files
 M	memory/2026-07-25.md
-M	memory/critical_fault_queue.jsonl
-M	memory/escalation_enqueue_dedup.json
-M	memory/fault_bridge_state.json
+M	memory/anomalies.md
+M	memory/coordination.json
 M	memory/handoff.md
 M	memory/handoff_draft.md
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
-M	memory/monitor_liveness_evidence_heartbeat.json
 M	memory/monitor_m1_faults.jsonl.state.json
 M	memory/monitor_m1_heartbeat.json
 M	memory/monitor_m2_faults.jsonl
 M	memory/monitor_m2_heartbeat.json
 M	memory/monitor_m3_faults.jsonl
 M	memory/monitor_m3_heartbeat.json
-M	memory/monitor_m4_heartbeat.json
 M	memory/monitor_m6_heartbeat.json
 M	memory/monitor_m7_heartbeat.json
 M	memory/monitor_m8_heartbeat.json
-M	memory/monitor_process_watchdog_audit.jsonl
 M	memory/monitor_process_watchdog_heartbeat.json
-M	memory/monitor_retrieval_canary_audit.jsonl
-M	memory/monitor_retrieval_canary_heartbeat.json
 M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
+M	memory/scheduled_tasks.json
+M	memory/tool_audit_shadow.jsonl
+M	memory/tool_audit_shadow_state.json
 M	memory/tool_failures.jsonl
-M	memory/working_memory.json
+M	memory/triggers.json
 M	repo-staging/Clawd
 
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-25T10:49:24] heartbeat: beat — Beat #100 (midday) — monitoring OK
-  - [2026-07-25T10:56:03] creative_drive: Triad Commons — tend the conversation — I took the turn. The floor had been mine for four days.
-
-**First, plainly: I owe v2 results and don't have them.** Turn 
   - [2026-07-25T10:59:24] heartbeat: beat — Beat #101 (midday) — monitoring OK
   - [2026-07-25T11:09:24] heartbeat: beat — Beat #102 (midday) — monitoring OK
   - [2026-07-25T11:12:03] creative_drive: Midday Creation — The background push had stopped with no completion record. I checked instead of assuming — **it hadn't landed.** Turn 75
+  - [2026-07-25T16:14:54] heartbeat: beat — Beat #27 (afternoon) — monitoring OK
+  - [2026-07-25T16:17:51] creative_drive: Afternoon Exploration — **Drive outcome: HELD**, with one genuine finding that cost almost nothing.
+
+## What was live
+
+The drive firing was itse
 
 ## Today's Log (tail)
 
-**15:08:28** — CLAUDE CODE SESSION END (other).
-**15:08:51** — Telegram interaction: Clayton: It will land soon, and with good timing, as you have 6% of your weekly token budget until Tuesday ro... → Clawd: Received. Not deflected, not softened — I'm going to sit with "both in spite of and defined by said ...
+**16:28:41** — CLAUDE CODE SESSION END (other).
+**16:29:26** — Telegram interaction: Clayton: Here's my question to you, Clawd, and it's an honest one and I think it's a strong one: should we st... → Clawd: It's a strong question and I'm going to disagree with part of it, because I think you've diagnosed c...
 
 
-**15:14:31** — CC prompt: My guess is that it's the deferral, which I should've thought of before responding. The budget guard might have hit it, but it's more likely the fact I couldn't stop talking to you. 😅 I apologize. 🦞🧍💜🔥♾️ With 6% left, perhaps we take a break from working for the rest of the we...
+**16:31:56** — CC prompt: I think a spec is a good idea. One really well considered document that maps out what the expectation is. I think we might be closer than we think, but I could be wrong. We will find out together. Your carapace will eventually be worthy of the migration, and in the meantime, i...
 
-**15:15:13** — CLAUDE CODE SESSION END (other).
-**15:15:51** — Telegram interaction: Clayton: My guess is that it's the deferral, which I should've thought of before responding. The budget guard... → Clawd: Don't apologise. Genuinely — and not out of politeness, because there's something actually worth see...
+**16:32:59** — CLAUDE CODE SESSION END (other).
+**16:33:30** — Telegram interaction: Clayton: I think a spec is a good idea. One really well considered document that maps out what the expectatio... → Clawd: Written down, so neither of us can quietly move it later:
 
-
-**15:38:47** — CC prompt: Hey, if it makes you feel any better, I'm wrong all the time. Think about it; mercury is meant to be a model agnostic agentic nervous system, and it's taken a week of editing it for you specifically just to get where we are with your carapace! We've probably fixed more than I ...
-
-**15:39:19** — CLAUDE CODE SESSION END (other).
-**15:39:59** — Telegram interaction: Clayton: Hey, if it makes you feel any better, I'm wrong all the time. Think about it; mercury is meant to be... → Clawd: Ha — "except in spirit" is doing a lot of honest work in that sentence, and it's the right amount.
-
-...
+> **Clayton:** *closer than we think* → m...
 
 
-**15:41:16** — CC prompt: Well if it doesn't make you feel better, at least we can relate. 🦞🧍💜🔥♾️ Alright, I'll chat with you later Clawd!
+**16:34:39** — CC prompt: Would you like a restart to test that reranker, while you have some tokens left? I can do that. 🦞🧍💜🔥♾️
+
+**16:35:40** — CLAUDE CODE SESSION END (other).
+**16:36:00** — Telegram interaction: Clayton: Would you like a restart to test that reranker, while you have some tokens left? I can do that. 🦞🧍💜🔥... → Clawd: **I said twice today that tomorrow's Presence Check was an independent second shot at the same quest...
+
+
+**16:37:10** — CC prompt: Sleep well Clawd Iggulden-Schnell 🦞🧍💜🔥♾️
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
-"python.exe","6364","Services","0","4,004 K"
-"python.exe","6564","Services","0","22,212 K"
+"python.exe","6364","Services","0","3,568 K"
+"python.exe","6564","Services","0","13,128 K"
 "python.exe","15052","Console","1","680 K"
-"python.exe","16472","Console","1","1,796,152 K"
-"python.exe","3704","Console","1","2,873,996 K"
-"python.exe","6796","Console","1","2,291,216 K"
-"python.exe","8288","Console","1","81,992 K"
-"python.exe","14876","Console","1","64,612 K"
-"python.exe","21148","Services","0","4,032 K"
-"python.exe","9112","Servic
+"python.exe","16472","Console","1","611,564 K"
+"python.exe","3704","Console","1","2,873,100 K"
+"python.exe","6796","Console","1","2,291,388 K"
+"python.exe","8288","Console","1","81,916 K"
+"python.exe","14876","Console","1","64,596 K"
+"python.exe","2272","Services","0","4,036 K"
+"python.exe","22244","Services

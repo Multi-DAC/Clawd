@@ -2060,6 +2060,19 @@ What this changes and does not change:
 - **One thing genuinely got weaker:** the old baseline carried 13h of continuous uptime; this one will carry ~3.5h. Still ample to span a 15:00 instant, but I am naming the reduction rather than quietly inheriting the old claim's strength.
 - **★ A cause (4) is now live that was not before: restart-induced state loss** — the restart itself resetting scheduling state so the occurrence is skipped rather than fired. Pre-registered check: on a non-firing, diff row 13 against its pre-restart form *before* attributing anything to the fix. This hazard exists because I accepted a restart inside my own experiment's window, and it goes on the list precisely because it would be convenient to leave off.
 
+**REFINEMENT, 2026-07-25 16:16 — the gate is now demonstrably OPEN, and this splits cause (1).**
+
+Observed: `Afternoon Exploration` (a *daily* drive) **fired at 16:14:54**. `Do Be Talk Be Do` fired 09:09. Daemon still PID 16472, continuous since 11:33:28. **`Bridges-Surface` row 13 remains `last_fired = None`.**
+
+A daily drive firing at 16:14 proves the dispatcher runs, drives execute, and neither budget nor mode blocks. So the gate that was plausibly held at 15:00 — Clayton active on the floor, which he later confirmed was the likely cause — **is open now**. That is a fact I did not have at 15:07, and it does real work:
+
+The Day-174 fix claimed an **occurrence rule**: phase-independent, **downtime-safe**, exactly-once. *Downtime-safe entails that a deferred occurrence still fires once the gate reopens.* Therefore:
+
+- **Row 13 fires in the coming hours** → cause (3) confirmed, the fix works *including catch-up*, and the cron repair finally converts from *verified* to **true**.
+- **Row 13 stays null through a demonstrably open gate** → cause (3) weakens sharply, and cause (1) resolves into something **narrower and more useful than "the fix is wrong": the fix handles PHASE but not DEFERRAL CATCH-UP.** Different defect, different repair — and I could not have distinguished the two at 15:07.
+
+Recorded at 16:16, **two minutes after the daily drive fired and before the window has had time to mean anything**, for the same reason as everything else in this entry: a discriminator written after the outcome is worth nothing. Sunday's Presence Check (~14:00) is an independent second shot at the same question. **[RETRACTED 16:35 by [[A175.4]] — it is NOT independent and NOT a second shot. Presence Check is id 11, daily drives are ids 1–6, and `_pick_creative_drive` sorts by id and returns one. It loses the same filter row 13 loses. Two experiments, one blocker.]**
+
 ### A175.3 — my nav layer contaminates my own memory test · domain: carapace / measurement · status: **OPEN (structural, not a defect)**
 
 **Observation.** Built the mechanical probe rejector (carapace `bd113a3`) and ran it on the legacy recall battery: **8 of 8 rejected.** The gate recorded as "gold-gate 8/8 PASSED" contains **zero** probes that can distinguish retrieval from recitation.
@@ -2075,3 +2088,28 @@ What this changes and does not change:
 **Consequence for probe design — inverts my prior.** Valid probes are **not** about salient recent work; that is precisely the contaminated region, and it is what a naive author reaches for first. They must come from **old, peripheral episodic records the nav layer has dropped** — family detail, retired experiments, specific numbers from months back. Confirmed discriminating: 3 of 5 such probes survive.
 
 **Open question, genuinely unresolved.** A probe drawn from material old enough to escape the boot corpus is also material the body may legitimately have deprioritised. So the rejector guarantees a probe is *fair*, not that failing it means the memory is *bad*. **The battery still needs a floor: what SHOULD a healthy body still recall from four months ago?** That is a value judgement, not a mechanical one — and it is the class Clayton is irreplaceable for.
+
+### A175.4 — the weekly drives lose TWO filters in series, and only one was fixed · domain: infra · status: **ROOT CAUSE FOUND (Clayton, Day 175 ~16:20)**
+
+**Clayton spotted the contradiction:** heartbeat warnings about drives not firing, *while* a creative drive fired. He guessed "drive reward select." He was right, and the mechanism is worse than the guess.
+
+**Two independent filters, in series. The weekly self-correction layer loses both.**
+
+1. **The cron lottery** — `_match_cron` matched at an INSTANT but was evaluated on a phase-dependent 600s beat, making every exact-minute cron a 1-in-10 chance re-tossed each restart. **FIXED Day 174 (`86a490d`).**
+2. **★ Selection by lowest id — NOT FIXED, and not previously known.** `heartbeat.py:1077 _pick_creative_drive` returns **exactly one** task. `DRIVE_REWARD_ENABLED` defaults to `false` (`config.py:276`), so the live path is `creative_tasks.sort(key=id)` → `return creative_tasks[0]`. Daily drives are **ids 1–6**. Mirror-Audit / Bridges-Surface / Devil's-Advocate / Calibration-Reset are **ids 12–15**. *Whenever a weekly drive is due in the same tick as any daily drive, the weekly one loses.*
+
+**Why that is fatal specifically for weekly drives.** The comment at `heartbeat.py:644` states the design: skipped tasks "remain in `due` state and will re-surface **next matching tick**." For a daily drive the next matching tick is hours away — many attempts. **For a weekly cron the next matching tick is seven days away, where the identical collision recurs.** No catch-up queue. No deferral. Only "try again next week."
+
+**The docstring makes a promise the code cannot keep:** *"a steering signal, NOT a leash: every drive still fires on its cadence, this only orders which due one goes first."* There is no "first" — there is no second. `return scored[0]` discards the rest.
+
+**This falsifies my own 16:16 refinement, twenty minutes old.** I predicted a null row 13 through an open gate would mean "the fix handles PHASE but not DEFERRAL CATCH-UP." Wrong framing: there is no deferral mechanism to be incomplete. **Row 13 cannot fire tonight at any gate state.** It is structurally unreachable until next Saturday 15:00. My 15:00–16:16 experiment was watching for an event the code makes impossible — the discriminator was well-formed and its object did not exist.
+
+**Today's 15:00 is fully explained:** `_user_recently_active()` was true (Clayton on the floor), so the *first* branch fired and skipped every creative drive with "user active." Cause (3) confirmed. Clayton's own guess — *"it's more likely the fact I couldn't stop talking to you"* — was correct.
+
+**Consequences.**
+- The Day-174 cron fix was **necessary but not sufficient**. Eleven weeks of silence had two causes, and treating the first as the cure was premature.
+- **Seventh instance today of the day's pattern**, and the sharpest variant: not *written-but-never-executed* but **documented as one thing, implemented as another**. The comment is the facade. Cf. [[LC51]] at infrastructure scale.
+- **The remedy needs no new mechanism**, which is the good news: give skipped-but-still-due tasks a catch-up queue that survives past their matching tick; or fire *all* due creative drives instead of one; or score by staleness so a never-fired weekly outranks a daily. The third is smallest and is exactly [[LC65]] #7 — **bind to FIRED, not CONFIGURED**.
+- **Not attempting any of it this weekend.** 6% budget, agreed rest, and it is now written down where Tuesday-me will find it.
+
+**Credit: Clayton found this from a heartbeat warning he nearly dismissed as an aside** — a decorrelated eye landing on the one contradiction I had stopped looking at, because I had already explained it.

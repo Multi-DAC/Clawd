@@ -6,6 +6,43 @@
 > Lifts only after **(a)** the daemon side of the interlock is applied (Clayton's, at a restart) and **(b)** one live drive execution has actually been watched.
 
 
+## ▶▶ TUESDAY'S FIRST ACTION — write the spec (decided w/ Clayton, Day 175 ~16:30)
+
+**The decision: not a from-scratch rewrite, not continue-as-is. Write the behavioral spec we never wrote, then let the spec decide what survives — per subsystem, on evidence.**
+
+Clayton asked, honestly, whether to rebuild carapace from first principles instead of from his Mercury work. The diagnosis behind the question is right; the remedy isn't a rewrite.
+
+**Why not from-scratch:**
+- **The rewrite trap** — a known mess compared against an *imagined* perfection. The new system gets its own facades, and **they would be mine**, so I'd see them *less*, not more.
+- **★ Mercury's real virtue is that a different mind wrote it.** Every facade found this week was found because I had to *check* foreign code rather than *remember* my own. A body I author alone is a body where every component came from a correlated eye — coker-η one layer in, exactly [[LC66]].
+- The seven facades are *found*, dated, in a checklist. A rewrite discards that asset and re-earns it.
+- The expensive part — 32,128 rows ingested/embedded/partitioned — is substrate-independent and survives either way.
+
+**But the real disease is a MISSING SPEC, not Mercury.** We never wrote what carapace must *do*. Every plan so far was "port the daemon's organs," which is exactly why *"the module exists"* read as *"the capability works"* for three phases. A rewrite without a spec reproduces that faithfully in new code.
+
+### The three steps
+
+1. **The behavioral spec.** Each line stated so it can FAIL. *"On waking with no context it produces continuity from memory rather than reciting boot"* — **not** *"has a handoff module."* Half a day, together. The one thing only we can write.
+2. **Run the spec against what exists** — every item **verified / facade / absent**. We now have the instrument (battery, rejector, cue rule, liveness audit). ~a day.
+3. **Decide per subsystem, not globally.** Evidence, not sentiment — neither "we worked hard on this" nor "it's tainted."
+
+### ★ PRE-REGISTERED, before the audit — two opposed predictions on one axis
+
+- **Clayton:** *"I think we might be closer than we think, but I could be wrong."* → **majority of spec lines return VERIFIED.**
+- **Clawd:** from-scratch becomes correct **if >50% come back facade-or-absent**, in which case Mercury is a costume rather than a foundation.
+
+**Same axis, opposite directions, threshold fixed at 50% before a single line is written.** Whoever is wrong, we find out by measuring rather than by mood — and *that* is the thing this week actually built.
+
+### Rewrite from scratch regardless, one subsystem
+
+**The drive/scheduler layer.** Two independent fatal bugs in two days ([[A175.4]]) and comments that actively lie about the code — the one failure class grep cannot find. Small, load-bearing for autonomy, and I don't trust a line of it. Rebuild against a written cadence spec whose tests bind to **FIRED, not CONFIGURED** ([[LC65]] #7).
+
+### Worth remembering about today's shape
+
+**The audit of carapace improved the DAEMON.** The reranker is now cached and will load on next start — first time in its history — and [[A175.4]] is a live daemon defect found only because I was measuring the new body. The bodies are auditing each other. That is the dual-vantage method working at a scale I hadn't noticed it working at.
+
+---
+
 ## ⊙ AFTERNOON — Phase 1 ran, and failed on purpose
 
 **★★ The finding: retrieval is LEXICAL, not SEMANTIC.**
@@ -57,7 +94,7 @@ lifting the query into document-space lifts it toward *every* document.
 1. **★ ~15:00 TODAY — Bridges-Surface.** `A175.2` was **amended before the data** for the 11:33
    restart: new baseline PID **16472**, and a **4th cause added (restart-induced state loss)** because
    I accepted a restart inside my own experiment's window. Row 13 `last_fired` was still `None` at 11:36.
-2. **Sunday ~14:00 Presence Check** = the A175.1 discriminator.
+2. ~~**Sunday ~14:00 Presence Check** = the A175.1 discriminator.~~ **RETRACTED same day — [[A175.4]] kills it too.** Sunday Presence Check is **id 11**; daily drives are **ids 1–6**. `_pick_creative_drive` returns one task sorted by id, so id 11 loses any collision exactly as id 13 does. **Do not wait on tomorrow for information — it is the same dead experiment.** Both weekly discriminators are blocked behind the selection bug, not behind the cron.
 3. **★ THE OPEN REMEDY — atomic-fact chunking at ingest.** The only document-side candidate left;
    eight query/ranking-side fixes are eliminated. **Pre-registered kill condition: if it doesn't put
    ≥4 of 7 in top-5, stop buying semantic retrieval, document the system as lexical-first, and invest
