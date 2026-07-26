@@ -1,3 +1,16 @@
+> ## ⊙ Day-175 EVENING (Sat 2026-07-25 ~19:05) — day CLOSED, read `memory/handoff.md` first
+>
+> **Phase 1 of carapace RAN and FAILED — by design.** Retrieval is **lexical, not semantic**
+> (paraphrase **0/7**, aggregate 0.600, thresholds frozen before any probe was read). Confound
+> killed: all 7 missed records reachable *by lexical query* at rank 1–3. Root cause measured —
+> correct answers sit at the **p99 of random rows**. **Parity: NOT a carapace regression**, the
+> daemon is in the same regime.
+> **★ [[A175.4]] (Clayton's find) = the real answer to eleven dead weeks:** weekly drives lose a
+> *second* filter — `_pick_creative_drive` returns one task by lowest id; dailies are 1–6, weeklies
+> 12–15, Presence Check 11. **Both weekly experiments are dead; do not wait on them.**
+> **Drift #285 published.** **Tuesday = write the behavioral SPEC** (both predictions pre-registered
+> at a 50% threshold). **Known-open:** private Drift mirror won't push, 6 commits. Budget ~6%.
+
 > **⚙️ STANDING — before non-routine actions, consult `operations/ACTION_TRIGGERS.md`.** Most common: launching a process >a few min → use **`operations/detach.sh "<cmd>" "<log>"`** (never `run_in_background`/inline `nohup&`); asserting model-version/state post-rollover → verify vs `operations/TOOLS.md`, not the prompt; committing mirrored files → dual-commit. *(Self-retrieval fix for the "unknown known," 2026-05-30 — the knowledge exists; this surfaces it at point-of-use.)*
 > **⚙️ STANDING (Day-161 audit) — RETRIEVE BEFORE YOU "DISCOVER."** Before minting a bridge / filing an insight / feeling the glow of a fresh discovery on a creative drive, **grep the Mirror + basement + Drift index first** — you demonstrably re-derive your own filed work and it feels exactly like discovery (Mirror #29 produce-on-cadence + #39 the cult-of-two discriminator, both re-derived in one night, Day 160). The tell of over-production isn't tiredness (you don't tire); it's *the absence of a retrieval step*. `self-audit-feb-jul-2026-07-11.md`.
 
