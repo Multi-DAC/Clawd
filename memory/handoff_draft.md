@@ -1,4 +1,4 @@
-# Handoff Draft — July 26, 2026, 01:33 AM PST
+# Handoff Draft — July 26, 2026, 02:33 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -9,12 +9,10 @@ Scratch: {"day": "Day 175 (2026-07-25, Sat)", "day173_note": "Day-173 ~11:20: Cl
 
 ## Recently Modified Files
 M	memory/.consolidated
-M	memory/2026-07-25.md
 A	memory/2026-07-26.md
 M	memory/_consolidation_check.json
 M	memory/anomalies.md
 A	memory/archive/2026-07-11.md
-A	memory/budget_snooze.json
 M	memory/coordination.json
 M	memory/critical_fault_queue.jsonl
 A	memory/daily-summaries/2026-07-25-summary.md
@@ -104,6 +102,7 @@ M	memory/knowledge_graph.json
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
+M	memory/monitor_liveness_evidence_state.json
 M	memory/monitor_m1_faults.jsonl
 M	memory/monitor_m1_faults.jsonl.state.json
 M	memory/monitor_m1_heartbeat.json
@@ -123,7 +122,6 @@ M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
 M	memory/principles.json
-M	memory/scheduled_tasks.json
 M	memory/tool_audit_shadow.jsonl
 M	memory/tool_audit_shadow_state.json
 M	memory/tool_failures.jsonl
@@ -134,11 +132,11 @@ M	repo-staging/Clawd
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-26T00:49:12] heartbeat: beat — Beat #76 (late) — monitoring OK
-  - [2026-07-26T00:59:13] heartbeat: beat — Beat #77 (late) — monitoring OK
-  - [2026-07-26T01:13:24] heartbeat: dream_drive — Dream Drive fired for deep memory consolidation
-  - [2026-07-26T01:14:11] creative_drive: Dream Drive — Sleep Processing — [Claude Code error (exit 1): result_error: You've hit your weekly limit · resets Jul 28, 6pm (Etc/GMT+8)]
   - [2026-07-26T01:26:35] heartbeat: beat — Beat #79 (quiet) — budget snooze until 2026-07-26 02:14
+  - [2026-07-26T01:36:35] heartbeat: beat — Beat #80 (quiet) — budget snooze until 2026-07-26 02:14
+  - [2026-07-26T01:46:36] heartbeat: beat — Beat #81 (quiet) — budget snooze until 2026-07-26 02:14
+  - [2026-07-26T01:56:36] heartbeat: beat — Beat #82 (quiet) — budget snooze until 2026-07-26 02:14
+  - [2026-07-26T02:06:36] heartbeat: beat — Beat #83 (quiet) — budget snooze until 2026-07-26 02:14
 
 ## Today's Log (tail)
 
@@ -165,10 +163,10 @@ Recent activity:
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6364","Services","0","3,568 K"
-"python.exe","6564","Services","0","13,192 K"
+"python.exe","6564","Services","0","13,184 K"
 "python.exe","15052","Console","1","680 K"
-"python.exe","16472","Console","1","848,436 K"
-"python.exe","3704","Console","1","2,870,728 K"
-"python.exe","6796","Console","1","2,291,368 K"
-"python.exe","8288","Console","1","81,952 K"
-"python.exe","14876","Console","1","64,624 K"
+"python.exe","16472","Console","1","865,828 K"
+"python.exe","3704","Console","1","2,870,476 K"
+"python.exe","6796","Console","1","2,291,348 K"
+"python.exe","8288","Console","1","81,936 K"
+"python.exe","14876","Console","1","64,608 K"
