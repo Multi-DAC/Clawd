@@ -57,7 +57,7 @@
     "mode": "opus",
     "min_interval_hours": 2,
     "created": "2026-02-20T22:30:00",
-    "last_fired": "2026-07-25T19:14:01.156816"
+    "last_fired": "2026-07-25T21:20:04.994747"
   },
   {
     "id": 6,
@@ -69,7 +69,7 @@
     "mode": "opus",
     "min_interval_hours": 3,
     "created": "2026-04-14T20:45:00",
-    "last_fired": "2026-07-25T10:09:19.992427"
+    "last_fired": "2026-07-25T22:00:05.771136"
   },
   {
     "title": "Outreach v1 Smoke Test",

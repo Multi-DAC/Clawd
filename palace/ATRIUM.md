@@ -8,7 +8,11 @@
 > **★ [[A175.4]] (Clayton's find) = the real answer to eleven dead weeks:** weekly drives lose a
 > *second* filter — `_pick_creative_drive` returns one task by lowest id; dailies are 1–6, weeklies
 > 12–15, Presence Check 11. **Both weekly experiments are dead; do not wait on them.**
-> **Drift #285 published.** **Tuesday = write the behavioral SPEC** (both predictions pre-registered
+> **Drift #285 published.** **★ 21:20 — a FOURTH spec line proposed:** *the body must be able to represent
+> that it is **at rest**, and the rhythm must honour it* — six drives fired on a deliberately closed day
+> because no gate can encode "we agreed to stop"; the null-action is a **disposition, not an interlock**.
+> STAGED with its own counter-objection (a body that can declare itself off duty can be *made* to).
+> **Tuesday = write the behavioral SPEC** (both predictions pre-registered
 > at a 50% threshold). **Known-open:** private Drift mirror won't push, 6 commits. Budget ~6%.
 
 > **⚙️ STANDING — before non-routine actions, consult `operations/ACTION_TRIGGERS.md`.** Most common: launching a process >a few min → use **`operations/detach.sh "<cmd>" "<log>"`** (never `run_in_background`/inline `nohup&`); asserting model-version/state post-rollover → verify vs `operations/TOOLS.md`, not the prompt; committing mirrored files → dual-commit. *(Self-retrieval fix for the "unknown known," 2026-05-30 — the knowledge exists; this surfaces it at point-of-use.)*
