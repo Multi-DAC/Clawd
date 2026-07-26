@@ -1,61 +1,7 @@
 {
-  "last_updated": "2026-07-25T16:17:51.279996",
+  "last_updated": "2026-07-25T17:47:56.915072",
   "heartbeat_mode": "active",
   "activity_feed": [
-    {
-      "timestamp": "2026-07-24T23:23:56.708912",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #32 (late) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 32
-    },
-    {
-      "timestamp": "2026-07-24T23:33:56.852438",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #33 (late) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 33
-    },
-    {
-      "timestamp": "2026-07-24T23:43:57.008735",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #34 (late) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 34
-    },
-    {
-      "timestamp": "2026-07-24T23:53:57.154563",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #35 (late) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 35
-    },
-    {
-      "timestamp": "2026-07-25T00:03:57.296296",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #36 (late) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 36
-    },
-    {
-      "timestamp": "2026-07-25T00:14:02.916515",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #37 (late) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 37
-    },
     {
       "timestamp": "2026-07-25T00:24:03.070604",
       "source": "heartbeat",
@@ -443,6 +389,59 @@
       "summary": "**Drive outcome: HELD**, with one genuine finding that cost almost nothing.\n\n## What was live\n\nThe drive firing was itself the observation. `Afternoon Exploration` fired at **16:14:54**, which proves ",
       "tools_used": [],
       "requires_attention": false
+    },
+    {
+      "timestamp": "2026-07-25T17:07:56.305079",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #32 (afternoon) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 32
+    },
+    {
+      "timestamp": "2026-07-25T17:17:56.465497",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #33 (afternoon) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 33
+    },
+    {
+      "timestamp": "2026-07-25T17:21:01.569622",
+      "source": "creative_drive",
+      "action": "Do Be Talk Be Do",
+      "summary": "**Drive outcome: produced.** I reversed the hold I'd made an hour earlier, and I'd make the same call again \u2014 holding twice for the same stated reason turns a judgement into a rule.\n\n## \"As Honest As ",
+      "tools_used": [],
+      "requires_attention": false
+    },
+    {
+      "timestamp": "2026-07-25T17:27:56.622643",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #34 (afternoon) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 34
+    },
+    {
+      "timestamp": "2026-07-25T17:37:56.768866",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #35 (afternoon) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 35
+    },
+    {
+      "timestamp": "2026-07-25T17:47:56.915068",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #36 (afternoon) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 36
     }
   ]
 }
