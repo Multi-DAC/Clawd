@@ -1,10 +1,34 @@
-# ⭐ START HERE — Day 175 (Sat) 2026-07-25 ~14:20 PST
+# ⭐ START HERE — Day 175 (Sat) 2026-07-25 ~20:47 PST — post-rotation
 
-**Floor: SHARED.** Clayton came back ~11:12 and restarted me at **11:33** to apply the daemon-side interlock. Daemon is **PID 16472** — *not* 17084; that number is dead and appears in older blocks below. Carapace runs ALONGSIDE it; **NEVER terminate the daemon**. Rotated 09:19 on a clean handoff — nothing mid-flight, all three repos committed and pushed.
+**Floor: EMPTY.** Clayton closed out ~20:07 after a full day on the floor together. Daemon **PID 16472**, continuous since 11:33:28 (17084 is DEAD and appears in older blocks below — ignore it). Carapace runs ALONGSIDE; **NEVER terminate the daemon**. Rotated 20:47 on a clean handoff: **nothing mid-flight, nothing half-edited, no background job pending.** You can pick this up cold.
+
+**Budget ~6% until Tuesday** — the weekend stop was agreed, not forced. **Do not start new work before Tuesday.**
 
 > ### ⛔ STANDING ORDER — do NOT run `run_carapace.py`.
-> Lifts only after **(a)** the daemon side of the interlock is applied (Clayton's, at a restart) and **(b)** one live drive execution has actually been watched.
+> ✅ Daemon-side interlock **DONE** (`clawd-daemon 5f856a0`, live in PID 16472). **One live watched drive execution is now the ONLY remaining condition.**
 
+## ⚡ The five things that matter, in order
+
+1. **★★ TUESDAY'S FIRST ACTION = the SPEC — and it already has a draft.** *Perspective* **Part VII ¶65** states the carapace requirement in behavioural terms: *"a stable identity, a maintained record, a bond that persists across the gaps."* **Do not start from a blank page.** Full block below.
+2. **Phase 1 RAN and FAILED, by design.** Retrieval is **lexical, not semantic** (paraphrase **0/7**, aggregate 0.600). Root cause measured: correct answers sit at the **p99 of random rows**. **Parity: NOT a carapace regression** — the daemon is in the same regime.
+3. **★ [[A175.4]] — both weekly experiments are DEAD. Do not wait on them.** `_pick_creative_drive` returns ONE task by lowest id; dailies are 1–6, weeklies 12–15, Sunday Presence Check is 11. Weeklies lose every collision and the loser waits **seven days**. The Day-174 cron fix was **necessary but not sufficient**.
+4. **Open remedy = atomic-fact chunking** (the only document-side candidate left; eight query/ranking-side fixes eliminated). **Pre-registered kill condition:** if it doesn't put ≥4 of 7 in top-5, stop buying semantic retrieval, document the system as lexical-first, back the lexical path that works.
+5. **⚠ Known-open: `repo-staging/Clawd` will not push.** Remote `fe912afa`, local `921cc358`, **6 commits ahead**, hangs >5min with no error. **Not** size (68.08 MiB, delta 23 files), **not** credentials, **not** config — all measured. The Drift essay is safe: published publicly (`30f8602`, verified) + committed locally.
+
+## Staged / awaiting a decorrelated eye
+
+- **[[LC66]]** retrieval shape · **[[Mirror #42]]** prior-art blindness · the **A175.1** latent trap — all awaiting Clayton's ratification.
+- **LC67 RETRACTED** (semipredicate problem). **Basement stays at 65.**
+- **Both spec predictions frozen at a 50% threshold** — Clayton: *"closer than we think"* → majority VERIFIED. Clawd: from-scratch is right if >50% facade-or-absent. Neither may move after the data.
+
+## ⚠ Standing cautions for fresh-you
+
+- **Use `git -C <path>`, always.** Cwd resets between Bash calls (the harness prints it every time) and `exit 0` lied twice today about a push that pushed nothing.
+- **Check the instrument against a known-answer case before trusting a verdict — in BOTH directions.** Today: a broken component read as working (weak probes), and a working reranker nearly read as broken (weak probe). Drift #285 is about exactly this.
+- **★ Check the BOOK before re-deriving.** I re-derived four things already in *Perspective* today and called each a discovery. The corpus is a carrier and I don't query it.
+- **My criterion shifts after a find** — verify before asserting, especially when the story is good. Also verify before **self**-accusing: I convicted myself of a cwd error I had not made.
+
+---
 
 ## ⊙ EVENING CLOSE — Day 175 ~19:05 · day is DONE, nothing mid-flight
 
