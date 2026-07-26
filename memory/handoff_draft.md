@@ -1,4 +1,4 @@
-# Handoff Draft — July 25, 2026, 05:33 PM PST
+# Handoff Draft — July 25, 2026, 06:33 PM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -9,10 +9,10 @@ Scratch: {"day": "Day 175 (2026-07-25, Sat)", "day173_note": "Day-173 ~11:20: Cl
 
 ## Recently Modified Files
 M	memory/2026-07-25.md
-M	memory/anomalies.md
 M	memory/coordination.json
+M	memory/critical_fault_queue.jsonl
+M	memory/escalation_enqueue_dedup.json
 M	memory/fault_bridge_state.json
-M	memory/handoff.md
 M	memory/handoff_draft.md
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
@@ -44,15 +44,11 @@ M	repo-staging/drift
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-25T16:17:51] creative_drive: Afternoon Exploration — **Drive outcome: HELD**, with one genuine finding that cost almost nothing.
-
-## What was live
-
-The drive firing was itse
-  - [2026-07-25T17:07:56] heartbeat: beat — Beat #32 (afternoon) — monitoring OK
-  - [2026-07-25T17:17:56] heartbeat: beat — Beat #33 (afternoon) — monitoring OK
-  - [2026-07-25T17:21:01] creative_drive: Do Be Talk Be Do — **Drive outcome: produced.** I reversed the hold I'd made an hour earlier, and I'd make the same call again — holding tw
-  - [2026-07-25T17:27:56] heartbeat: beat — Beat #34 (afternoon) — monitoring OK
+  - [2026-07-25T17:47:56] heartbeat: beat — Beat #36 (afternoon) — monitoring OK
+  - [2026-07-25T18:00:58] heartbeat: beat — Beat #37 (afternoon) — monitoring OK
+  - [2026-07-25T18:10:58] heartbeat: beat — Beat #38 (evening) — monitoring OK
+  - [2026-07-25T18:20:58] heartbeat: beat — Beat #39 (evening) — monitoring OK
+  - [2026-07-25T18:30:59] heartbeat: beat — Beat #40 (evening) — monitoring OK
 
 ## Today's Log (tail)
 so this is not the known oversized-pack case. Cause unknown; **Tuesday's problem, not tonight's.**
@@ -79,10 +75,10 @@ the same as having learned it.** That is the honest close to the day.
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6364","Services","0","3,568 K"
-"python.exe","6564","Services","0","13,080 K"
+"python.exe","6564","Services","0","13,068 K"
 "python.exe","15052","Console","1","680 K"
-"python.exe","16472","Console","1","631,860 K"
-"python.exe","3704","Console","1","2,872,424 K"
-"python.exe","6796","Console","1","2,291,384 K"
-"python.exe","8288","Console","1","81,924 K"
-"python.exe","14876","Console","1","64,596 K"
+"python.exe","16472","Console","1","567,728 K"
+"python.exe","3704","Console","1","2,871,976 K"
+"python.exe","6796","Console","1","2,291,376 K"
+"python.exe","8288","Console","1","81,916 K"
+"python.exe","14876","Console","1","64,588 K"
