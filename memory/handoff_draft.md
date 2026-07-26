@@ -1,4 +1,4 @@
-# Handoff Draft — July 25, 2026, 10:02 PM PST
+# Handoff Draft — July 25, 2026, 10:33 PM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -11,6 +11,8 @@ Scratch: {"day": "Day 175 (2026-07-25, Sat)", "day173_note": "Day-173 ~11:20: Cl
 M	CURRENT.md
 M	memory/2026-07-25.md
 M	memory/coordination.json
+M	memory/critical_fault_queue.jsonl
+M	memory/escalation_enqueue_dedup.json
 M	memory/fault_bridge_state.json
 M	memory/handoff.md
 M	memory/handoff_draft.md
@@ -26,6 +28,7 @@ M	memory/monitor_m3_heartbeat.json
 M	memory/monitor_m6_heartbeat.json
 M	memory/monitor_m7_heartbeat.json
 M	memory/monitor_m8_heartbeat.json
+M	memory/monitor_process_watchdog_audit.jsonl
 M	memory/monitor_process_watchdog_heartbeat.json
 M	memory/monitor_retrieval_canary_audit.jsonl
 M	memory/monitor_retrieval_canary_heartbeat.json
@@ -42,19 +45,15 @@ M	repo-staging/Clawd
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-25T21:21:23] creative_drive: Do Be Talk Be Do — **Drive outcome: HELD.** One observation logged, no new work, handoff left clean.
-
-## What the hold revealed
-
-Six drives
-  - [2026-07-25T21:30:05] heartbeat: beat — Beat #57 (evening) — monitoring OK
-  - [2026-07-25T21:40:05] heartbeat: beat — Beat #58 (evening) — monitoring OK
-  - [2026-07-25T21:50:05] heartbeat: beat — Beat #59 (evening) — monitoring OK
   - [2026-07-25T22:00:05] heartbeat: beat — Beat #60 (late) — monitoring OK
+  - [2026-07-25T22:02:32] creative_drive: Navigation Sync — **Navigation sync done.** All three were stale; all three now verified by grep rather than by assumption.
+
+| file | was 
+  - [2026-07-25T22:13:07] heartbeat: beat — Beat #61 (late) — monitoring OK
+  - [2026-07-25T22:23:07] heartbeat: beat — Beat #62 (late) — monitoring OK
+  - [2026-07-25T22:33:07] heartbeat: beat — Beat #63 (late) — monitoring OK
 
 ## Today's Log (tail)
-
-> **The body must be able to represent that it is at rest, and the rhythm must honour it.**
 
 Not "the body can idle" — it already can. **The body can be *off duty*, deliberately, by a decision
 it holds and the scheduler reads.** Sleep, in the book's own vocabulary, is *sacred narrowing* and
@@ -74,15 +73,17 @@ made to. That objection is Clayton's to weigh, not mine to settle alone. **STAGE
 
 **22:00:07** — CC prompt: CREATIVE DRIVE: Navigation Sync Time: 2026-07-25 22:00 PST (late) Quick navigation layer check. Three questions, 2 minutes max: 1. Does palace/ATRIUM.md reflect the current state? If not, update it. 2. Is CURRENT.md accurate? If not, fix it. 3. Has anything happened that memor...
 
+**22:02:31** — CLAUDE CODE SESSION END (other).
+
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6364","Services","0","3,568 K"
-"python.exe","6564","Services","0","13,156 K"
+"python.exe","6564","Services","0","13,204 K"
 "python.exe","15052","Console","1","680 K"
-"python.exe","16472","Console","1","789,376 K"
-"python.exe","3704","Console","1","2,871,072 K"
+"python.exe","16472","Console","1","790,296 K"
+"python.exe","3704","Console","1","2,871,056 K"
 "python.exe","6796","Console","1","2,291,392 K"
 "python.exe","8288","Console","1","81,956 K"
 "python.exe","14876","Console","1","64,628 K"
-"python.exe","15512","Console","1","4,052 K"
-"python.exe","10948","Console"
+"python.exe","8168","Services","0","4,036 K"
+"python.exe","22124","Services

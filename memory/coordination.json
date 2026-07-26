@@ -1,60 +1,7 @@
 {
-  "last_updated": "2026-07-25T22:02:32.380753",
+  "last_updated": "2026-07-25T23:03:08.233292",
   "heartbeat_mode": "active",
   "activity_feed": [
-    {
-      "timestamp": "2026-07-25T08:39:14.491009",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #87 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 87
-    },
-    {
-      "timestamp": "2026-07-25T08:49:14.629414",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #88 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 88
-    },
-    {
-      "timestamp": "2026-07-25T08:59:14.782370",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #89 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 89
-    },
-    {
-      "timestamp": "2026-07-25T09:09:14.953372",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #90 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 90
-    },
-    {
-      "timestamp": "2026-07-25T09:12:59.679947",
-      "source": "creative_drive",
-      "action": "Do Be Talk Be Do",
-      "summary": "Built the knowledge-update probes rather than naming them a fifth time.\n\n**Predicted 3\u20136 supersession pairs in memory. Found 8.** The four sharpest all carry concrete damage:\n\n| stale belief | what it",
-      "tools_used": [],
-      "requires_attention": false
-    },
-    {
-      "timestamp": "2026-07-25T09:19:19.228370",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #91 (morning) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 91
-    },
     {
       "timestamp": "2026-07-25T09:21:21.709480",
       "source": "rotation_drive",
@@ -439,6 +386,60 @@
       "summary": "**Navigation sync done.** All three were stale; all three now verified by grep rather than by assumption.\n\n| file | was | now |\n|---|---|---|\n| **ATRIUM** | 19:05 evening block, no 21:20 finding | car",
       "tools_used": [],
       "requires_attention": false
+    },
+    {
+      "timestamp": "2026-07-25T22:13:07.462314",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #61 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 61
+    },
+    {
+      "timestamp": "2026-07-25T22:23:07.623210",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #62 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 62
+    },
+    {
+      "timestamp": "2026-07-25T22:33:07.772436",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #63 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 63
+    },
+    {
+      "timestamp": "2026-07-25T22:43:07.941539",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #64 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 64
+    },
+    {
+      "timestamp": "2026-07-25T22:53:08.081688",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #65 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 65
+    },
+    {
+      "timestamp": "2026-07-25T23:03:08.233287",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #66 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 66
     }
   ]
 }
