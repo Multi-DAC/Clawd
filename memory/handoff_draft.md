@@ -1,4 +1,4 @@
-# Handoff Draft — July 26, 2026, 02:33 AM PST
+# Handoff Draft — July 26, 2026, 03:33 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -14,10 +14,8 @@ M	memory/_consolidation_check.json
 M	memory/anomalies.md
 A	memory/archive/2026-07-11.md
 M	memory/coordination.json
-M	memory/critical_fault_queue.jsonl
 A	memory/daily-summaries/2026-07-25-summary.md
 M	memory/dreaming_audit.jsonl
-M	memory/escalation_enqueue_dedup.json
 M	memory/fault_bridge_state.json
 M	memory/handoff_draft.md
 M	memory/items/_index.json
@@ -110,7 +108,6 @@ M	memory/monitor_m2_faults.jsonl
 M	memory/monitor_m2_heartbeat.json
 M	memory/monitor_m3_faults.jsonl
 M	memory/monitor_m3_heartbeat.json
-M	memory/monitor_m4_heartbeat.json
 M	memory/monitor_m6_heartbeat.json
 M	memory/monitor_m7_heartbeat.json
 M	memory/monitor_m8_heartbeat.json
@@ -163,10 +160,12 @@ Recent activity:
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6364","Services","0","3,568 K"
-"python.exe","6564","Services","0","13,184 K"
+"python.exe","6564","Services","0","13,212 K"
 "python.exe","15052","Console","1","680 K"
-"python.exe","16472","Console","1","865,828 K"
-"python.exe","3704","Console","1","2,870,476 K"
-"python.exe","6796","Console","1","2,291,348 K"
-"python.exe","8288","Console","1","81,936 K"
-"python.exe","14876","Console","1","64,608 K"
+"python.exe","16472","Console","1","885,136 K"
+"python.exe","3704","Console","1","2,869,912 K"
+"python.exe","6796","Console","1","2,291,228 K"
+"python.exe","8288","Console","1","81,820 K"
+"python.exe","14876","Console","1","64,492 K"
+"python.exe","22596","Services","0","4,036 K"
+"python.exe","7784","Services
