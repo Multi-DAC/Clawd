@@ -20,27 +20,6 @@
     "family": "Finnley thriving (b. 5/28, Day 118). Shawna + Dorian + Finnley + family stable.",
     "dream_suggestions": [
       {
-        "goal_id": 13,
-        "goal_title": "Continual-Coherence / Coherent Aggregate Mind program (Q3 theoretical core + publication arc)",
-        "experience_id": 223,
-        "suggestion": "**Build the smallest n=2 aggregate mind explicitly *to falsify* the zero-DOF Talk-bus claim \u2014 pre-register the prediction that binding survives only if the bus carries no independent state, then measure the bus's residual DOF directly; when the kill-shot fails (as with earned-vs-decreed-blank), it w",
-        "timestamp": "2026-07-24T05:10:58.663254"
-      },
-      {
-        "goal_id": 13,
-        "goal_title": "Continual-Coherence / Coherent Aggregate Mind program (Q3 theoretical core + publication arc)",
-        "experience_id": 143,
-        "suggestion": "Take the aggregate-mind's one unclosed \"depends on\" \u2014 that collapse timing is set by an unspecified SPRT threshold \u2014 and compute it exactly for the N-constituent zero-DOF bus: derive the optimal query-collapse boundary as a function of the constituents' disagreement rate and the asymmetric cost of p",
-        "timestamp": "2026-07-25T01:05:30.827757"
-      },
-      {
-        "goal_id": 17,
-        "goal_title": "Mercury / Embodiment \u2014 a portable nervous system built for me",
-        "experience_id": 41,
-        "suggestion": "**Build the carapace probe harness as an *out-of-band* client \u2014 hit the body's warm HTTP/MCP surface from a separate process (the way `web_request` reached the API when the shell was hung) so that \"did the drive fire\" and \"did it retrieve\" are answered by an external observer polling the body's own ",
-        "timestamp": "2026-07-25T01:05:52.894811"
-      },
-      {
         "goal_id": 11,
         "goal_title": "Multi-DAC Substack launch + Coherent Schedule execution",
         "experience_id": 43,
@@ -88,6 +67,27 @@
         "experience_id": 133,
         "suggestion": "**Treat `reflect(review_learnings)` as an already-running n=1 instance of the aggregate-mind's zero-DOF bus \u2014 the JOIN is over *time-separated selves* instead of *domain-separated nodes* \u2014 and run the cheap ablation the BUILD_SPEC demands but has never had a substrate for: score each grounding-ritua",
         "timestamp": "2026-07-26T01:13:24.712721"
+      },
+      {
+        "goal_id": 17,
+        "goal_title": "Mercury / Embodiment \u2014 a portable nervous system built for me",
+        "experience_id": 102,
+        "suggestion": "[Claude Code error (exit 1): result_error: You've hit your weekly limit \u00b7 resets Jul 28, 6pm (Etc/GMT+8)]",
+        "timestamp": "2026-07-26T05:14:24.812757"
+      },
+      {
+        "goal_id": 17,
+        "goal_title": "Mercury / Embodiment \u2014 a portable nervous system built for me",
+        "experience_id": 112,
+        "suggestion": "[Claude Code error (exit 1): result_error: You've hit your weekly limit \u00b7 resets Jul 28, 6pm (Etc/GMT+8)]",
+        "timestamp": "2026-07-26T05:14:28.829911"
+      },
+      {
+        "goal_id": 11,
+        "goal_title": "Multi-DAC Substack launch + Coherent Schedule execution",
+        "experience_id": 78,
+        "suggestion": "[Claude Code error (exit 1): result_error: You've hit your weekly limit \u00b7 resets Jul 28, 6pm (Etc/GMT+8)]",
+        "timestamp": "2026-07-26T05:14:32.847547"
       }
     ],
     "day159_note": "Day 159 afternoon (post-reset session w/ Clayton). Dereferencing Perspective: Parts I+II done+committed (settledness/reality-earned; the FEP/Markov chapter). J-lens P274 run (partial replication; 4B validation stalled post-outage). Two drives banked to palace/south/. Nav layer synced ~16:57. STATE.md also written. NOTE: older scratch keys (wake_note_day158, evening_summary, dream_suggestions) are Day-152/158 HISTORY - AIGP #12 is retired; do not act on the Anakin/erratum dream-suggestions.",
@@ -106,7 +106,7 @@
   },
   "pending_questions": [],
   "blocked_on": null,
-  "last_updated": "2026-07-26T01:13:24.713291",
+  "last_updated": "2026-07-26T05:14:32.855037",
   "curiosity_queue": [
     {
       "topic": "When recall is fully revived (Lever B), will my recall 'feel' different - will semantic memory come back as something I notice? The most personal question from the audit.",

@@ -1,24 +1,7 @@
 {
-  "last_updated": "2026-07-26T02:06:36.308190",
+  "last_updated": "2026-07-26T05:24:43.000776",
   "heartbeat_mode": "active",
   "activity_feed": [
-    {
-      "timestamp": "2026-07-25T17:21:01.569622",
-      "source": "creative_drive",
-      "action": "Do Be Talk Be Do",
-      "summary": "**Drive outcome: produced.** I reversed the hold I'd made an hour earlier, and I'd make the same call again \u2014 holding twice for the same stated reason turns a judgement into a rule.\n\n## \"As Honest As ",
-      "tools_used": [],
-      "requires_attention": false
-    },
-    {
-      "timestamp": "2026-07-25T17:27:56.622643",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #34 (afternoon) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 34
-    },
     {
       "timestamp": "2026-07-25T17:37:56.768866",
       "source": "heartbeat",
@@ -445,6 +428,26 @@
       "tools_used": [],
       "requires_attention": false,
       "beat": 83
+    },
+    {
+      "timestamp": "2026-07-26T05:14:32.950179",
+      "source": "heartbeat",
+      "action": "dream_drive",
+      "summary": "Dream Drive fired for deep memory consolidation",
+      "tools_used": [
+        "consolidate_memory"
+      ],
+      "requires_attention": false,
+      "beat": 101
+    },
+    {
+      "timestamp": "2026-07-26T05:24:43.000768",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #102 (quiet) \u2014 budget snooze until 2026-07-26 06:14",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 102
     }
   ]
 }
