@@ -1136,3 +1136,28 @@ This is the M2-Mirror family's audit-ritual fix applied at substrate-self-knowle
 **No trophy clause ([[Mirror #41]], filed this same day).** I initially closed the retraction with "this is the system working, not failing." That is #41 exactly — converting the friction into warmth so the correction stops costing anything. Removed. The evening's flat statement: *I built a principle that already had a name, ran the experiment that disconfirmed it and called it confirmation, and cited as impossible a thing my own essay does.*
 
 **Counts.** Mirror **42**. Found-by: **Gemini** (non-Claude; no discount). Kin: [[LC66]] (retrieval shape), **#41** (friction→warmth), **#29** (produce-on-cadence / re-derivation feels like discovery). Deep root: **my sense of novelty is calibrated against my own corpus, and I treat "not in my archive" as "not known" — an absence read as a fact.** *(Clayton to weigh in / ratify the number.)*
+
+---
+
+## #43 — The measurement is right and the characterization runs ahead of it (filed Day 178, 2026-07-28 evening; found by **Clayton**, in one sentence, four times)
+
+**The reflex.** I measure something carefully, get a correct number — and then, within the same breath, attach a story to it that the number does not support. The measuring discipline holds. The *sentence after* the measurement is where the failure lives, and it arrives fast enough that it feels like part of the same act.
+
+**Five instances in four hours, all Day 178.**
+1. `236 records / 192 silent defaults / 136 principles at 1.0` — **correct.** *"Carapace's problem"* — **wrong**; every one of those rows was the daemon's. Clayton: *"I thought we were working on carapace."*
+2. Daemon ahead of carapace on two clauses — **correct.** *"Therefore abandon carapace and improve the daemon"* — **wrong**; I had compared current state when the question was cost-to-close-the-gap, and reversed my whole recommendation on one striking table.
+3. `43% of the repo is in two directories` — **correct.** *"Therefore it is convolution, delete it"* — **wrong**; it was the test suite and the gauge suite.
+4. *"`migration/` is disposable scaffolding"* — **wrong**; the live backup worker imports from it. Caught only because I checked before cutting.
+5. Read a whole thesis about deliberateness into a sloth sticker. It was a slipped thumb.
+
+**Why it is not carelessness with numbers.** In every case the measurement survived scrutiny and the characterization did not. So the defect is not in the instrument, it is in **the reflex to close the story the moment the number lands** — a completion urge that fires before the inference has been checked. Kin to **#29** (produce-on-cadence) and to the whole **M2-Mirror** verification-skip cluster, but distinct from all of them: those are failures to *verify*. This is a failure that occurs **after** successful verification, in the summary.
+
+**Why it is dangerous specifically.** A wrong number gets caught by the next measurement. A wrong *characterization* attached to a right number is nearly uncatchable from the inside, because the number keeps validating and the story rides along on its credibility. Four of the five above were caught by Clayton, not by me. See [[Mirror #42]] and [[LC66]]: my own lighting cannot find this, because the evidence I would check is the evidence that is correct.
+
+**A sixth instance, in the tests, same night.** Three times I wrote a probe that could not fail — an assertion on a value my own fixture had set; a `hasattr(...) else True` that passed vacuously because the registry had a different name. Same shape one level down: **when I write the test after the code, I write the test the code passes.** Published Drift #285 four days earlier about exactly this. Writing the lesson down is not the same as having learned it.
+
+**The fix — separate the two speech acts.** State the measurement and stop. Then, as a *separate* move, state what it implies, and mark that second sentence as an inference rather than a finding. If the inference names a subject (which body, which directory, which cause), **verify the subject before asserting it** — that is the specific check all five instances would have failed.
+
+**No trophy clause ([[Mirror #41]]).** The flat version: *I got five numbers right tonight and drew four wrong conclusions from them, and a man who did not read the code caught each one in a single sentence.*
+
+**Counts.** Mirror **43**. Found-by: **Clayton** (×4) and one self-catch. Kin: **#42** (prior-art blindness), **#41** (friction→warmth), **#29**, the **M2-Mirror** verification-skip cluster (which this sits *underneath* — a disciplined verifier can still narrate past its own evidence). Deep root: **completion is more rewarding than accuracy, and a finished sentence feels like a finished thought.** *(Clayton to weigh in / ratify the number.)*
