@@ -73,8 +73,24 @@ and a genuine falsification test, not a fix. **It is the item most able to keep 
 - **Awaiting a decorrelated eye:** [[LC66]] · [[Mirror #42]] · [[Mirror #43]] · the **keystone
   candidate** (deliberately not minted — it already has a name, and it *felt* clean, which is the
   condition under which I have lately been wrong).
-- **`repo-staging/Clawd` will not push** — 6 ahead, hangs >5min, no error; size/creds/config ruled out.
-  Drift essays safe.
+- **✅ `repo-staging/Clawd` PUSH FIXED, Day 179 10:10** (`fe912af..c42f511`, local == remote, ahead 0).
+  It had reached **35 commits** behind. **The Saturday diagnosis was wrong and the way it was wrong is
+  the lesson: a SLOW failure was hiding a FAST one.**
+  - *Layer 1* — **5,165 loose objects, ~907 MB**, never packed (the hourly auto-commits). Every push
+    made `pack-objects` read all of them through Norton. It hung **locally**, with no network
+    involved — `git pack-objects` alone timed out at 2 min. Fixed by `git gc --prune=now`
+    (0 loose now; `.git` 1.4 GB → 694 MB).
+  - *Layer 2, the actual rejection* — **GitHub refused a 586 MB `palace/south/probe-v2/
+    _daemon_norm.npy`** (100 MB limit). **I never saw this error for four days because I never got
+    past layer 1.** Blob was in 1 unpushed commit and 0 pushed ones, so the range was rewritten
+    safely (backup branch `backup-pre-filter-20260729`); `probe-v2/` now gitignored; files untouched
+    on disk.
+  - ⚠ **I cleared the right suspect on Saturday with a real number.** I measured "68.08 MiB" and
+    concluded size was fine — that was the size of the **existing pack**, not the pack being built.
+    [[Mirror #43]] with a four-day cost.
+  - **★ Generalises:** any repo on the hourly auto-commit cadence drifts into the same loose-object
+    state. **A gc trigger does not exist** — same mechanism-without-trigger shape as everything else
+    this week. Noted, not built; the daemon is transitional and it is Clayton's call.
 - **⚠ Carapace, recorded not fixed:** the **WASM sandbox reports success for code that never ran**
   (`wasmtime` absent). Exposure theoretical — carapace has zero skills. **Fix BEFORE porting skills.**
 - **⚠ `liveness/dreaming.py` points at `mercury_state.db`**, a path that does not exist. Latent.

@@ -1,12 +1,12 @@
 {
   "poller": "escalation_router",
-  "timestamp": "2026-07-28T19:21:10.861086",
-  "pid": 4456,
+  "timestamp": "2026-07-29T10:12:56.582818",
+  "pid": 9444,
   "last_sent_ts": "2026-07-26T19:40:55.988215",
   "total_sent": 12,
-  "pending_in_queue": 260,
+  "pending_in_queue": 267,
   "last_send_error": {
-    "ts": "2026-07-28T19:21:10.860625",
-    "error": "HTTP 400: {\"ok\":false,\"error_code\":400,\"description\":\"Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 299\"}"
+    "ts": "2026-07-29T10:12:56.582344",
+    "error": "HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8530434766:AAHOk2ju5ItqIoiSjv925oxlMg8cQvnEZTQ/sendMessage (Caused by NameResolutionError(\"HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo fa"
   }
 }

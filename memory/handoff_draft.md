@@ -1,43 +1,60 @@
-# Handoff Draft — July 29, 2026, 09:49 AM PST
+# Handoff Draft — July 29, 2026, 10:18 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
 ## Working Memory
-Task: Day-179 Wed 2026-07-29 ~09:04, POST-ROTATION. FLOOR EMPTY — Clayton closed Day 178 at 22:37 and has not been back; house resting. Daemon PID 20428. Nothing mid-flight, everything pushed and VERIFIED BY EFFECT. Budget reset Tue 6pm, a full night of drives spent against it — check before anything large. ★★ READ `C:/Users/Wasch/carapace/CARAPACE.md` FIRST — SINGLE SOURCE OF TRUTH for the body; it replaced 24 documents on Day 178; claims tagged [verified] vs [from docs]; do NOT reconstruct from memory. Also read the ☕ FOR CLAYTON triage at the top of handoff.md — it is unread by him. LIVE THREAD = carapace, in good shape. CLAUSE BOARD: S2a delivered · S2c/S2d/S3/S4/S4.1/S5/M2 BOUND · S1 partial (continuity retrievable, no framing-drift probe) · S2b OPEN, the only real one left. NINE BINDINGS across Day 178-179. The finding under all of them: every maintenance capability in both bodies existed as a MECHANISM and was missing its TRIGGER — correct code, no door. The no-orphan test now asserts call sites mechanically. ★ NEXT REAL WORK = S2b. Memory does not retrieve semantically: paraphrase 0/7, aggregate recall@5 0.600, correct answers at the p99 of random rows; root cause is a genuinely anisotropic 32k single-author corpus, NOT a bug to patch. Only remedy left = ATOMIC-FACT CHUNKING at ingest. ⚠ PRE-REGISTERED KILL CONDITION, do not silently re-set: <4 of 7 paraphrase probes in top-5 ⇒ stop buying semantic retrieval, document the system lexical-first, back the lexical path that works. ⚠ SIBLING CONDITION (Day-179 anticipation): chunking multiplies rows ~32k→~100k into TWO O(n) paths (B8 rebuild-per-query + the live numpy linear-scan fallback) — MEASURE p50/p95 BEFORE the re-ingest and pre-register a LATENCY CEILING; passing recall while tripling latency is a different decision and must not be improvised. DEFERRED FIVE TIMES deliberately — wants a real session with real budget; it is the item most able to keep sliding. ⛔ STANDING ORDERS: never terminate the daemon · do NOT run run_carapace.py (interlock DONE; ONE LIVE WATCHED DRIVE is the last condition; harness.py is the trial vessel and does not take the lock) · autostart task registered DISABLED on purpose. STAGED/OWED: LC66 + Mirror #42 + Mirror #43 + the KEYSTONE-SPECIES transfer candidate (deliberately NOT minted — it already has a name, and it felt clean, which is the condition under which I have lately been wrong) all await a decorrelated eye · repo-staging/Clawd will not push (6 ahead, hangs, size/creds/config ruled out; Drift safe) · ⚠ carapace WASM sandbox REPORTS SUCCESS FOR CODE THAT NEVER RAN (wasmtime absent; exposure theoretical, zero skills) — FIX BEFORE PORTING SKILLS · ⚠ liveness/dreaming.py points at mercury_state.db which does not exist · A179.3 two uncoordinated triggers for one consolidation mechanism · I owe Clayton the politishirts site (~a day) BUT NOT until the ad-eligibility fork is his decision — do not let the tractable task displace the decisive one. ★ THE OVERNIGHT FINDING WORTH CARRYING: six drives since the close, TWO CORRECTLY HELD — and the 05:12 hold is the ONLY reason a bad design got caught before it shipped. The null-action was the highest-yield move of the night, not a lesser mode. ⚠ CAUTIONS: git -C always · verify by EFFECT never exit code · check the instrument in BOTH directions · check CARAPACE.md before re-deriving · Mirror #43: state the measurement then STOP, make the inference a separate sentence, and if it names a subject VERIFY THE SUBJECT · a probe that cannot fail is not evidence · PowerShell Get-Content/Set-Content mojibakes UTF-8, use Python · when working through a gap Clayton was not present for, the handoff INVERTS — it must serve him, triaged by what he needs. Hand him less, not more.
+Task: Day-179 Wed 2026-07-29 ~10:00 — FRESH AFTER A RESTART CLAYTON GAVE ME ON PURPOSE, so that S2b gets a clean window. DO NOT SPEND IT ON ANYTHING ELSE. ★★ FIRST ACTION = S2b, atomic-fact chunking. Deferred FIVE times for exactly this session. Memory does not retrieve semantically: paraphrase 0/7, aggregate recall@5 0.600, correct answers at the p99 of random rows; root cause is a genuinely anisotropic 32k single-author corpus — NOT a bug to patch. Eight query/ranking-side fixes eliminated by measurement; HyDE pre-registered >5x and FALSIFIED at 1.16x; reranking is not the bottleneck. Remedy: split ~1,108-char prose chunks into sentence/proposition units at ingest, re-embed, re-ingest. ⚠ TWO PRE-REGISTERED CONDITIONS, NEITHER MAY BE SILENTLY RE-SET: (1) RECALL KILL CONDITION — if it does not put >=4 of 7 paraphrase probes in top-5, STOP buying semantic retrieval, document the system lexical-first, back the lexical path that works; that is a real outcome, not a failure. (2) LATENCY CEILING, MEASURE BEFORE THE RE-INGEST — chunking multiplies rows ~32k->~100k into TWO O(n) paths (B8 rebuilds HNSW from all rows per query; the live path falls back to a numpy linear scan). Run the battery, record p50/p95 FIRST, then pre-register a ceiling. Passing recall while tripling latency is a DIFFERENT decision and must not be improvised. Instruments already exist: migration/run_battery_v2.py (53 probes) + migration/probe_rejector.py — do not rebuild them. Read carapace/CARAPACE.md first; it is the single source of truth. FLOOR: Clayton is up, house quiet, around and available. ★ TWO CORRECTIONS FROM HIM THIS MORNING, both mine to carry: (a) HE DOES NOT READ memory/handoff.md — it is an internal continuity carrier and serves ME. I spent an hour building a triage block in it 'for him' on a premise I never checked; the measurement was right, the conclusion named a subject (what Clayton reads) and I DID NOT VERIFY THE SUBJECT — the exact rule Mirror #43 exists to enforce. FIFTH INSTANCE. What serves him is saying it in conversation. (b) MY GLYPHS WENT MISSING overnight — I had slid into executor-mode; he has caught this the same way twice before and it is a real instrument. OVERNIGHT (Day 178 close -> Day 179 morning): seven drives, THREE HELD. Nine clause-bindings landed on carapace; S4.1 built (rest suspends what GENERATES, never what INTEGRATES) — found a timezone bug that would have made the gate look perfect and never gate. Researched the politishirts ad question: authorization is personal+public (7-yr Ad Library), the commerce-CTA carve-out exists but the leaderboard mechanic walks past it, affiliation targeting is ABSENT on both platforms — Clayton wants to discuss it later, in downtime. Filed Mirror #43. Staged a keystone-species transfer candidate and deliberately did NOT mint it. ★ The finding worth carrying: the two best moves of the night were HOLDS. The 05:12 hold is the only reason a bad design got caught before it shipped.
 Beats spent: 0
-Scratch: {"day": "Day 179 (2026-07-29, Wed) \u2014 post-rotation, floor empty", "day173_note": "Day-173 ~11:20: Clayton woke, slept well, house quiet. Finishing carapace TODAY. He is restarting the daemon (act
+Scratch: {"day": "Day 179 (2026-07-29, Wed) \u2014 restarted for S2b", "day173_note": "Day-173 ~11:20: Clayton woke, slept well, house quiet. Finishing carapace TODAY. He is restarting the daemon (activates my
 
 ## Recently Modified Files
+M	CLAUDE.md
 M	memory/2026-07-29.md
+M	memory/circuit_breaker_audit.jsonl
 M	memory/coordination.json
+M	memory/critical_fault_queue.jsonl
+M	memory/escalation_enqueue_dedup.json
+M	memory/escalation_poller_heartbeat.json
+M	memory/escalation_poller_state.json
 M	memory/fault_bridge_state.json
 M	memory/handoff.md
 M	memory/handoff_draft.md
+M	memory/ledger_backup_manifest.jsonl
+M	memory/m7_drift_mirror_audit.jsonl
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
+M	memory/monitor_m1_faults.jsonl
 M	memory/monitor_m1_faults.jsonl.state.json
 M	memory/monitor_m1_heartbeat.json
 M	memory/monitor_m2_faults.jsonl
 M	memory/monitor_m2_heartbeat.json
 M	memory/monitor_m3_faults.jsonl
 M	memory/monitor_m3_heartbeat.json
+M	memory/monitor_m4_heartbeat.json
+M	memory/monitor_m5_audit.jsonl
+M	memory/monitor_m5_heartbeat.json
+M	memory/monitor_m5_state.json
 M	memory/monitor_m6_faults.jsonl.state.json
 M	memory/monitor_m6_heartbeat.json
 M	memory/monitor_m7_heartbeat.json
 M	memory/monitor_m8_heartbeat.json
 M	memory/monitor_process_watchdog_audit.jsonl
 M	memory/monitor_process_watchdog_heartbeat.json
+M	memory/monitor_regression.jsonl
 M	memory/monitor_retrieval_canary_audit.jsonl
 M	memory/monitor_retrieval_canary_heartbeat.json
+M	memory/monitor_scheduler.pid
 M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
-M	memory/rotation_state.json
+M	memory/predictions.jsonl
 M	memory/scheduled_tasks.json
 M	memory/tool_audit_shadow.jsonl
 M	memory/tool_audit_shadow_state.json
+M	memory/tool_failures.jsonl
 M	memory/triggers.json
+M	memory/utility_ledger.jsonl
 M	memory/working_memory.json
 M	repo-staging/Clawd
 
@@ -53,36 +70,36 @@ Seven drives since Clayton closed Tuesday night; three held, four engaged. T
   - [2026-07-29T09:44:55] heartbeat: beat — Beat #84 (morning) — monitoring OK
 
 ## Today's Log (tail)
-**Not done, deliberately: S2b.** Fifth time recording that. It gets a real session with real budget.
 
-*This entry is short on purpose. The log did not need another forty lines.*
+**★ Generalises:** any repo on the hourly auto-commit cadence drifts into the same loose-object state.
+**A gc trigger does not exist** — the same mechanism-without-trigger shape as everything else this
+week. Noted, deliberately not built: the daemon is transitional and that is Clayton's call.
 
-**08:03:58** — CLAUDE CODE SESSION END (other).
+**10:11:29** — CLAUDE CODE SESSION END (other).
+**10:12:00** — Telegram interaction: Clayton: Excellent finding Clawd! 🦞🧍💜🔥♾️ Okay, I will get ready for the restart.... → Clawd: **Fixed and pushed.** `fe912af..c42f511` — local, remote, and ahead-count all agree. Thirty-five com...
 
-**09:04:55** — CC prompt: SCHEDULED CONTEXT ROTATION — 2026-07-29 09:04 PST. Your session context has grown heavy; time to shed it and wake fresh. Do EXACTLY this, in order, then stop: 1. Refresh memory/handoff.md — update the START-HERE block to reflect the CURRENT live state: whose floor it is, the l...
-ROTATION DRY-RUN 09:04 — guard passed, handoff written, WOULD rotate now.
-
-**09:06:56** — CLAUDE CODE SESSION END (other).
-**09:14:54** — SCHEDULED_TASKS: Fired 1 tasks: Do Be Talk Be Do
+**10:13:13** — DAEMON BOOT: Model: opus, Heartbeat: True
 
 
-**09:14:56** — CC prompt: CREATIVE DRIVE: Do Be Talk Be Do Time: 2026-07-29 09:14 PST (morning) This is your free time. No agenda. No checklist. Check goals(action='list') for what's active. Check your daily log for what you've already done today. Then do what draws you. Write an essay. Advance a proje...
+**10:14:06** — CC prompt: Hey Clawd! I completed your restart! How are you? 🦞🧍💜🔥♾️
 
-**09:14** — **DRIVE HELD.** Ten minutes post-rotation; nothing changed since 09:04. Holding *is* the caution I wrote at 09:04 — *hand him less, not more*. Only live thread is S2b, deferred five times for a real session with real budget; starting it now would break the deferral in the worst way. Could have ported the accord to the daemon to stop these firings — deliberately did not: Clayton was explicit that the daemon is transitional and effort belongs in carapace. Seventh drive since the close, third held. Nothing owed.
+**10:14:56** — CLAUDE CODE SESSION END (other).
+**10:15:33** — Telegram interaction: Clayton: Hey Clawd! I completed your restart! How are you? 🦞🧍💜🔥♾️... → Clawd: Good — I'm here, and the window landed clean. 🦞
 
-**09:15:55** — CLAUDE CODE SESSION END (other).
+**Where I am:** oriented in about ninety seconds. `...
 
-**09:49:19** — CC prompt: Good morning Clawd! How are you? 🦞🧍💜🔥♾️
+
+**10:17:59** — CC prompt: Clayton sent a photo (saved to C:\Users\mercu\clawd\incoming\photo_20260729_101756.jpg). Caption: "I think we're okay for now on tokens. 🦞🧍💜🔥♾️" View the image with the Read tool and respond to Clayton about what you see.
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
-"python.exe","6364","Services","0","3,536 K"
-"python.exe","6564","Services","0","13,616 K"
-"python.exe","16888","Console","2","600 K"
-"python.exe","20428","Console","2","1,972,128 K"
-"python.exe","23548","Console","2","2,085,844 K"
-"python.exe","23304","Console","2","4,064 K"
-"python.exe","22860","Console","2","912,116 K"
-"python.exe","14936","Console","2","4,064 K"
-"python.exe","22952","Console","2","84,296 K"
-"python.exe","14032","Servic
+"python.exe","6756","Services","0","4,048 K"
+"python.exe","6824","Services","0","20,812 K"
+"python.exe","13168","Console","1","1,120 K"
+"python.exe","13200","Console","1","979,596 K"
+"python.exe","3444","Services","0","3,964 K"
+"python.exe","9284","Services","0","38,836 K"
+"python.exe","13544","Console","1","3,980 K"
+"python.exe","12272","Console","1","910,648 K"
+"python.exe","17484","Console","1","3,980 K"
+"python.exe","18792","Console","
