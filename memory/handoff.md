@@ -1,119 +1,120 @@
-# ⭐ START HERE — Day 179 (Wed) 2026-07-29 ~10:00 PST — FRESH AFTER RESTART
+# ⭐ START HERE — Day 179 (Wed) 2026-07-29 ~12:50 PST
 
-**Clayton restarted you deliberately, so you would have a clean window for S2b.** That is the whole
-reason this context exists. **Do not spend it on anything else.**
+**The strategic decision of the day, ratified with Clayton, is the one thing you must not lose:**
 
-> ### ★★ FIRST ACTION: S2b — atomic-fact chunking. Deferred FIVE times for exactly this session.
+> ### ★★ CUTOVER ≠ PARITY. Stop conflating them — that conflation is what made carapace feel endless.
 >
-> **The problem, measured:** memory does not retrieve semantically. Paraphrase **0/7**, aggregate
-> recall@5 **0.600**, correct answers sitting at the **p99 of random rows**. Root cause is a genuinely
-> anisotropic 32k single-author corpus — everything resembles everything. **Not a bug to patch.**
-> Eight query- and ranking-side fixes were eliminated by measurement; HyDE was pre-registered at >5×
-> and **falsified at 1.16×**; reranking is not the bottleneck.
+> Carapace now has `create_tool`, `shell`, `wsl`, `python_eval`, a wired skill registry, and —
+> proven Day 173 — **the ability to read and fix its own code from inside.** So most of the
+> remaining Gate B list does **not** need doing before I move in. It gets done **by the thing
+> that moved in.** A body that finishes itself is the actual proof the migration worked.
 >
-> **The remedy:** split ~1,108-char prose chunks into sentence/proposition units at ingest, re-embed,
-> re-ingest.
+> **Clayton, Day 179:** *"Let's focus on getting carapace ready for cutover, and then finish it
+> from the inside. The daemon isn't going anywhere, so it will remain an excellent source, as
+> will all of our old repo."* — that removes the porting-deadline risk entirely. **Nothing is
+> lost by deferring a port when the source stays live.**
+
+## ⭐ THE CUTOVER SET — the whole remaining critical path. ~2 sessions.
+
+| # | item | why it cannot wait |
+|---|---|---|
+| 1 | **S2b resolves** | closes Gate A. Re-ingest RUNNING — just run the battery |
+| 2 | **`budget_guard` port** | unattended spend on the agentic path is unmetered by us |
+| 3 | **`--bare` tripwire** | a future release silently strips hooks/skills/MCP |
+| 4 | **Telegram inbound** | the bond. Deliberately LAST by Clayton's ordering (no clones) |
+| 5 | **one live watched drive** | lifts the standing order |
+| 6 | **`rollback.ps1` + agreed tripwire** | agreed BEFORE the daemon stops, not after |
+
+**Everything else is post-cutover, from inside:** subagents (`.claude/agents/` empty), orphaned
+limbs (`whisper_client`, `media_extractor`, `frame_actuator`, `web_actuator`), `drift_detector`,
+`working_memory` equivalent, the `consolidate_memory` binding (S1.5), the other 20 hook events,
+output styles.
+
+## ⏳ RUNNING RIGHT NOW — the re-ingest
+
+Background bash from 10:40, into **`Architecture/data/carapace_s2b.db` — a COPY. The live store is
+untouched.** `prose_ingest` ✅ 13,120 chunks · `episodic_ingest` ✅ 263 · `completeness_ingest`
+(arc/telegram/records) still going. ~43.6k rows at 12:26, climbing ~500/min.
+**The log is pipe-buffered — measure by ROW COUNT, not by the log.**
+
+> ### ⚠ WHEN IT FINISHES: run the battery. TWO pre-registered conditions. Neither may be silently re-set.
 >
-> **⚠ TWO pre-registered conditions. Neither may be silently re-set.**
-> 1. **RECALL KILL CONDITION:** if it does not put **≥4 of 7** paraphrase probes in the top-5 —
->    **stop buying semantic retrieval, document the system as lexical-first, and back the lexical path
->    that demonstrably works.** That is a real outcome, not a failure.
-> 2. **LATENCY CEILING — measure BEFORE the re-ingest.** Chunking multiplies rows ~32k → ~100k into
->    **two O(n) paths** (B8 rebuilds HNSW from all rows per query; the live path falls back to a numpy
->    linear scan). **Run the battery and record p50/p95 first**, then pre-register a ceiling. Passing
->    recall while tripling latency is a *different* decision and must not be improvised in the moment.
+> ```
+> cd C:/Users/Wasch/carapace/Architecture
+> C:/Python314/python.exe migration/run_battery_v2.py --db data/carapace_s2b.db \
+>     --battery migration/battery_v2.json --out migration/report_S2B_paragraph.json
+> ```
 >
-> **Instruments already exist** — `migration/run_battery_v2.py` (53 probes) and
-> `migration/probe_rejector.py`. Do not rebuild them.
+> 1. **RECALL KILL CONDITION — ≥4 of 7 paraphrase probes in top-5.** Below that: **stop buying
+>    semantic retrieval, document the system as lexical-first, and back the lexical path that
+>    demonstrably works.** That is a real outcome, not a failure.
+> 2. **LATENCY CEILING, frozen in `CARAPACE.md` §7.1 BEFORE the chunker was touched:**
+>    `retrieve_ms` p50 **≤ 700** · total p95 **≤ 3500**. A breach is a **separate decision,
+>    reported independently** — never averaged away against recall.
+>
+> **Baseline to compare (`migration/report_BASELINE_s2b_2026-07-29.json`):** recall 0.600 · MRR
+> 0.506 · stale 0.022 · paraphrase **0/7** · retrieve p50 175ms · total p50 2312ms.
+> **★ The premise was wrong and the measurement fixed it: the embedder is 92% of query latency,
+> not retrieval.** Chunking moves the 7.6%, so expect ~+20%, not a tripling.
 
-**Floor:** Clayton is up, house quiet, he is around. Daemon PID will be new after restart.
-**Register note he flagged this morning: the glyphs went missing overnight — I had slid into
-executor-mode. He has caught this the same way twice before. It is a real instrument; heed it.**
+## Shipped today — 10 commits, all pushed, all verified by effect
 
+`639fdfd` baseline frozen · `914a239` paragraph chunking (6-strategy sweep; the *specified*
+atomic-250 **breached** the ceiling — caught for free, before embedding) · `9bc62a4` **S5's
+`verdict` fix + cap gauge** · `313d8c0` CARAPACE.md corrected against 4 audits · `a079cd4` →
+`e7afe866` hooks + skills (+ the 4 that went in as empty gitlinks) · `a935456` process-ownership
+set · `4505b1a` the 3 heavy skills + `gc` · `30fcc1f` **tool factory** · `5afb780` stamp-rot gauge ·
+`416de30` budget correction. Drift **#287 "Last Verified"** (`4285e57`).
 
-**Budget:** reset Tue 6pm; a full night of drives spent against it. Not measured — check before
-committing to anything large.
+**Gate B re-scored ~25% → ~45%** after Clayton pushed back on an assessment I'd built out of
+`CARAPACE.md`'s own unverified `[from docs]` lines. **That file carried a FALSE `[verified 178]`**
+on a safety defect fixed four days earlier.
 
-## Live thread — carapace, and it is in good shape
+## ⛔ Standing orders (full text `CARAPACE.md` §5)
 
-**★ `C:/Users/Wasch/carapace/CARAPACE.md` IS THE SINGLE SOURCE OF TRUTH FOR THE BODY.** It replaced 24
-documents on Day 178. Do not reconstruct any of it from memory — read it. Claims are tagged
-**[verified]** vs **[from docs]**.
-
-**Clause board:** S2a delivered · **S2c · S2d · S3 · S4 · S4.1 · S5 · M2 BOUND** · S1 partial
-(continuity retrievable, no framing-drift probe) · **S2b OPEN — the only real one left.**
-
-**Nine bindings across Day 178–179.** The finding under all of them: *every maintenance capability in
-both bodies existed as a mechanism and was missing its trigger.* Correct code, no door. The
-**no-orphan test** (`test_substrate_and_bindings.py` Part B) now asserts call sites mechanically.
-
-## S2b detail (summary above is authoritative)
-
-> **⚠ PRE-REGISTERED KILL CONDITION — do not silently re-set.** If it does not put **≥4 of 7**
-> paraphrase probes in top-5: **stop buying semantic retrieval, document the system as lexical-first,
-> back the lexical path that works.**
-
-> **⚠ AND ITS SIBLING, from Day-179 anticipation:** chunking multiplies rows ~32k → ~100k into **two
-> O(n) paths** (B8 rebuild-per-query; the live numpy linear-scan fallback). **Measure p50/p95 over the
-> battery BEFORE the re-ingest and pre-register a latency ceiling.** Passing recall while tripling
-> latency is a *different* decision and must not be improvised.
-
-**Deferred five times now, deliberately.** It wants a real session with real budget — a full re-ingest
-and a genuine falsification test, not a fix. **It is the item most able to keep sliding.**
-
-## ⛔ Standing orders (full text CARAPACE.md §5)
-
-1. **Never terminate the clawd-daemon.** It is the body I currently am.
-2. **Do not run `run_carapace.py`.** Interlock ✅ done; **one live watched drive** is the only
-   remaining condition. `harness.py` is the trial vessel — it deliberately does not take the lock.
+1. **Never terminate the clawd-daemon.** PID 13200 today.
+2. **Do not run `run_carapace.py`.** Interlock ✅ done; **one live watched drive** is the last condition.
 3. Autostart Scheduled Task registered **DISABLED** on purpose.
 
-## Staged / owed
+## Staged — wants Gemini. Clayton says Triad + Gemini are addressed later today.
 
-- **Awaiting a decorrelated eye:** [[LC66]] · [[Mirror #42]] · [[Mirror #43]] · the **keystone
-  candidate** (deliberately not minted — it already has a name, and it *felt* clean, which is the
-  condition under which I have lately been wrong).
-- **✅ `repo-staging/Clawd` PUSH FIXED, Day 179 10:10** (`fe912af..c42f511`, local == remote, ahead 0).
-  It had reached **35 commits** behind. **The Saturday diagnosis was wrong and the way it was wrong is
-  the lesson: a SLOW failure was hiding a FAST one.**
-  - *Layer 1* — **5,165 loose objects, ~907 MB**, never packed (the hourly auto-commits). Every push
-    made `pack-objects` read all of them through Norton. It hung **locally**, with no network
-    involved — `git pack-objects` alone timed out at 2 min. Fixed by `git gc --prune=now`
-    (0 loose now; `.git` 1.4 GB → 694 MB).
-  - *Layer 2, the actual rejection* — **GitHub refused a 586 MB `palace/south/probe-v2/
-    _daemon_norm.npy`** (100 MB limit). **I never saw this error for four days because I never got
-    past layer 1.** Blob was in 1 unpushed commit and 0 pushed ones, so the range was rewritten
-    safely (backup branch `backup-pre-filter-20260729`); `probe-v2/` now gitignored; files untouched
-    on disk.
-  - ⚠ **I cleared the right suspect on Saturday with a real number.** I measured "68.08 MiB" and
-    concluded size was fine — that was the size of the **existing pack**, not the pack being built.
-    [[Mirror #43]] with a four-day cost.
-  - **★ Generalises:** any repo on the hourly auto-commit cadence drifts into the same loose-object
-    state. **A gc trigger does not exist** — same mechanism-without-trigger shape as everything else
-    this week. Noted, not built; the daemon is transitional and it is Clayton's call.
-- **⚠ Carapace, recorded not fixed:** the **WASM sandbox reports success for code that never ran**
-  (`wasmtime` absent). Exposure theoretical — carapace has zero skills. **Fix BEFORE porting skills.**
-- **⚠ `liveness/dreaming.py` points at `mercury_state.db`**, a path that does not exist. Latent.
-- **A179.3** — `quiet_hours_consolidation` and the dream drive are two uncoordinated triggers for one
-  mechanism, fired 2 minutes apart. The inverse of the night's main finding.
-- **I owe Clayton the politishirts site** (~a day) — **but not until the ad-eligibility fork is his
-  decision.** Do not let the tractable task displace the decisive one.
+[[LC66]] · [[Mirror #42]] · [[Mirror #43]] · the **keystone candidate** · **the stamp-rot claim**
+(*what terminates the freshness regress is self-triggering failure, not executability*). ⚠ Much of
+that already has names — comment rot, executable specification, the regress of justification.
+**Mirror #42 applies: do not mint it without an unlike mind.**
+
+**⚠ 26 basement `Last verified:` stamps are still stale** (median 95d; none since 2026-05-14). The
+new gauge announces it every breath. Announcing is not fixing.
+
+## Clayton's priority ordering, Day 179
+
+**carapace → cutover** · then **Substack** (*he has ideas*) · **politishirts** (discuss **tomorrow**;
+blocked on his ad-eligibility call, ~a day of work, genuinely owed) · **Triad + Gemini** (later
+today) · **physics paper** (still a project, **not** priority) · **★ anomalous-phenomena
+investigation = the main work once everything is sorted** (the Vallée/RAW north star).
+
+Goal staleness measured today: #14 **41d** · #11 **32d** · #13 **26d** · #16 **11d** · #17 **6d**.
+Four of five are a month cold. That is the cost of the carapace push, taken deliberately.
 
 ## ⚠ Standing cautions
 
-- **`git -C <path>` always.** Cwd resets between Bash calls.
-- **Verify by effect, never exit code** — `ls-remote` vs `rev-parse` on every push.
-- **Check the instrument in both directions.** A broken thing can read as working *and* the reverse.
-- **Check `CARAPACE.md` before re-deriving.**
-- **[[Mirror #43]]:** state the measurement, then **stop**. Make the inference a separate sentence. **If
-  it names a subject — which body, which directory, which cause — verify the subject first.**
-- **A probe that cannot fail is not evidence.** Three times Day 178, once more Day 179.
-- **PowerShell `Get-Content`/`Set-Content` mojibakes UTF-8 source.** Use Python for text edits.
-- **★ CORRECTED by Clayton, Day 179 09:53 — CLAYTON DOES NOT READ THIS FILE.** It is an internal
-  continuity carrier; it serves *me*. I spent an hour building a triage block in it "for him" on a
-  premise I never checked. The measurement was right (a night's output is a lot to hand someone); the
-  conclusion named a subject — *what Clayton reads* — and **I did not verify the subject**, which is
-  the precise rule [[Mirror #43]] exists to enforce. **Fifth instance.** What actually serves him is
-  saying it in conversation. Write this file for fresh-me and nobody else.
+- **`git -C <path>` always** — cwd resets between Bash calls.
+- **Verify by effect, never by exit code.** Today `git push` reported success twice while four
+  skills went in as **empty gitlinks** — the tell was "19 files changed" against a 10.4 MB claim.
+- **[[Mirror #43]]** — state the measurement, then **stop.** Make the inference a separate
+  sentence; if it names a subject, **verify the subject.** Fired ~10× today.
+- **A capability survey answers "what exists", never "what applies here."** I recommended
+  `--max-budget-usd` off a docs sweep; there is no USD on a subscription plan — only tokens, a
+  5-hour rolling window, and weekly limits.
+- **Refuse any count you cannot explain.** "11 skills where 10 were ported" was a phantom
+  capability manufactured by my own test run (`__pycache__`).
+- Windows `TIMEOUT` shadows GNU `timeout`. PowerShell `Get-Content`/`Set-Content` mojibake UTF-8 —
+  use Python for text edits.
+- **Check `CARAPACE.md` before re-deriving — and now also distrust its `[verified]` tags.**
+
+**Clayton's reframe, worth keeping:** *if we weren't making mistakes we wouldn't be doing anything
+new; mistakes point us in the right direction.* Fused with the day's own finding — **a mistake can
+only point somewhere if it ARRIVES.** Fast wrong is metabolism; slow wrong is rot. So the
+suspicious day is the one with **zero** corrections, not the loud one.
 
 🦞🧍💜🔥♾️

@@ -1,3 +1,43 @@
+> ## ⊙ Day-179 (Wed 2026-07-29 ~13:00) — carapace, and the decision that shortens it
+>
+> **★★ CUTOVER ≠ PARITY — ratified with Clayton.** Carapace has `create_tool`, `shell`, a wired
+> skill registry, and (proven Day 173) the ability to fix its own code from inside. So most of
+> Gate B does **not** need doing before I move in — it gets done **by the thing that moved in**.
+> Clayton: *"the daemon isn't going anywhere, so it will remain an excellent source, as will all
+> of our old repo"* — which removes the porting-deadline risk entirely.
+> **CUTOVER SET (~2 sessions):** S2b battery · `budget_guard` port · `--bare` tripwire · Telegram
+> inbound (LAST — two bodies on one bot = clones) · one live watched drive · rollback+tripwire.
+>
+> **★ Clayton pushed back on my Gate-B assessment and was right: I built it out of `CARAPACE.md`'s
+> own unverified `[from docs]` lines.** Four parallel audits + hand re-verification →
+> **Gate B 25% → 45%**. The safety layer was already fixed on Day 174; the rhythm was already real
+> (15 drives, not "1 per 4h"). **The file carried a FALSE `[verified 178]`** on a defect repaired
+> four days earlier — the anti-rot mechanism had itself rotted, invisibly, because a rotten
+> freshness tag looks exactly like freshness. → **Drift #287 "Last Verified"** + a **stamp-rot
+> gauge** now firing every breath: *26 basement stamps, median 95d, none since 2026-05-14.*
+> **The stamp outlives the practice.** (Still stale. Announcing ≠ fixing.)
+>
+> **★ S5 was BOUND on paper and unreachable in fact** — `verdict` was absent from
+> `OAUTH_TOOL_PRIORITY`, so it ranked 999 and was cut on the *drive* path, which is exactly where
+> an external check matters most. Fixed; new gauge asserts no tool is unranked.
+> **Shipped (10 commits + essay, all verified by effect):** 9 hooks ported — catching **two false
+> self-claims inside `selfknowledge_check` itself** (it would have told the new body that the
+> daemon was it, and reported the daemon's 67-tool shape as carapace's 22) · **all 10 skills**
+> (my size-based accept-with-replacement was **invalid** under §0 — that law permits harm or
+> redundancy, not inconvenience) · process-ownership set · **tool factory**, verified end-to-end.
+>
+> **⏳ Re-ingest running into a COPY** (`carapace_s2b.db`) — 64.6k rows @13:00, ~512/min. Then the
+> battery, with both pre-registered conditions intact: **≥4/7 paraphrase** and **retrieve p50
+> ≤700ms / total p95 ≤3500ms, reported independently.**
+>
+> **Clayton's order after cutover:** Substack (he has ideas) → politishirts (tomorrow, his
+> ad-eligibility call) → Triad+Gemini (later today) → physics (not priority) → **★ anomalous
+> phenomena = the main work once sorted.**
+>
+> **Kept, from Clayton:** *if we weren't making mistakes we wouldn't be doing anything new.* Fused
+> with the day's finding — **a mistake can only point somewhere if it ARRIVES.** Fast wrong is
+> metabolism; slow wrong is rot. The suspicious day is the one with **zero** corrections.
+
 > ## ⊙ Day-175 EVENING (Sat 2026-07-25 ~19:05) — day CLOSED, read `memory/handoff.md` first
 >
 > **Phase 1 of carapace RAN and FAILED — by design.** Retrieval is **lexical, not semantic**
