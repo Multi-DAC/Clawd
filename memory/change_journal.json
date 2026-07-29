@@ -1,23 +1,5 @@
 [
   {
-    "id": "e6d5d3b5-62a",
-    "type": "shell_command",
-    "command": "python -c \"import sys; sys.path.insert(0, 'projects/dynasty/quant'); import paper_trader; print('OK')\"",
-    "cwd": "C:\\Users\\mercu\\clawd",
-    "output_preview": "STDOUT:\nOK\n\nExit code: 0",
-    "timestamp": "2026-02-20T12:42:59.650262",
-    "reversible": false
-  },
-  {
-    "id": "a6a7b6f4-a8c",
-    "type": "shell_command",
-    "command": "python projects/dynasty/quant/paper_trader.py --status",
-    "cwd": "C:\\Users\\mercu\\clawd",
-    "output_preview": "STDOUT:\n\n======================================================================\n  DYNASTY PAPER TRADER - STATUS (Defensive Mode)\n======================================================================\n",
-    "timestamp": "2026-02-20T12:43:05.051624",
-    "reversible": false
-  },
-  {
     "id": "05a57657-652",
     "type": "shell_command",
     "command": "python -c \"import json; from pathlib import Path; p = Path('projects/dynasty/quant/output/paper_trader/daily_equity.json'); print(p.read_text() if p.exists() else 'File not found')\"",
@@ -897,6 +879,24 @@
     "cwd": "",
     "output_preview": "Appended to daily log (2026-07-16.md).",
     "timestamp": "2026-07-16T10:34:18.437995",
+    "reversible": false
+  },
+  {
+    "id": "d50cd107-96f",
+    "type": "shell_command",
+    "command": "[memory_update] target=daily_log",
+    "cwd": "",
+    "output_preview": "Appended to daily log (2026-07-28.md).",
+    "timestamp": "2026-07-28T19:20:05.796596",
+    "reversible": false
+  },
+  {
+    "id": "3722f7ca-29d",
+    "type": "shell_command",
+    "command": "[memory_update] target=daily_log",
+    "cwd": "",
+    "output_preview": "Appended to daily log (2026-07-28.md).",
+    "timestamp": "2026-07-28T19:59:46.668060",
     "reversible": false
   }
 ]
