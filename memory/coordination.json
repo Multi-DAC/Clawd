@@ -1,81 +1,7 @@
 {
-  "last_updated": "2026-07-29T08:41:52.896291",
+  "last_updated": "2026-07-29T09:44:55.356017",
   "heartbeat_mode": "active",
   "activity_feed": [
-    {
-      "timestamp": "2026-07-26T01:36:35.852297",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #80 (quiet) \u2014 budget snooze until 2026-07-26 02:14",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 80
-    },
-    {
-      "timestamp": "2026-07-26T01:46:36.024754",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #81 (quiet) \u2014 budget snooze until 2026-07-26 02:14",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 81
-    },
-    {
-      "timestamp": "2026-07-26T01:56:36.171461",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #82 (quiet) \u2014 budget snooze until 2026-07-26 02:14",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 82
-    },
-    {
-      "timestamp": "2026-07-26T02:06:36.308182",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #83 (quiet) \u2014 budget snooze until 2026-07-26 02:14",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 83
-    },
-    {
-      "timestamp": "2026-07-26T05:14:32.950179",
-      "source": "heartbeat",
-      "action": "dream_drive",
-      "summary": "Dream Drive fired for deep memory consolidation",
-      "tools_used": [
-        "consolidate_memory"
-      ],
-      "requires_attention": false,
-      "beat": 101
-    },
-    {
-      "timestamp": "2026-07-26T05:24:43.000768",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #102 (quiet) \u2014 budget snooze until 2026-07-26 06:14",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 102
-    },
-    {
-      "timestamp": "2026-07-26T05:37:44.606218",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #103 (quiet) \u2014 budget snooze until 2026-07-26 06:14",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 103
-    },
-    {
-      "timestamp": "2026-07-26T05:47:44.763710",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #104 (quiet) \u2014 budget snooze until 2026-07-26 06:14",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 104
-    },
     {
       "timestamp": "2026-07-26T05:57:44.912925",
       "source": "heartbeat",
@@ -449,6 +375,76 @@
       "tools_used": [],
       "requires_attention": false,
       "beat": 78
+    },
+    {
+      "timestamp": "2026-07-29T08:54:54.571951",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #79 (morning) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 79
+    },
+    {
+      "timestamp": "2026-07-29T09:04:54.724424",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #80 (morning) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 80
+    },
+    {
+      "timestamp": "2026-07-29T09:06:57.207208",
+      "source": "rotation_drive",
+      "action": "Context rotation (dry-run)",
+      "summary": "Rotation complete \u2014 dry-run, **not armed**, no restart.\n\n**1. `memory/handoff.md` refreshed.** START-HERE is now Day-179 post-rotation: floor empty, daemon PID 20428, carapace the live thread with nin",
+      "tools_used": [],
+      "requires_attention": false
+    },
+    {
+      "timestamp": "2026-07-29T09:14:54.892003",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #81 (morning) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 81
+    },
+    {
+      "timestamp": "2026-07-29T09:15:57.137887",
+      "source": "creative_drive",
+      "action": "Do Be Talk Be Do",
+      "summary": "**Held.** `2bc793329`. One line, and done.\n\nSeven drives since Clayton closed Tuesday night; three held, four engaged. The two that mattered most were holds \u2014 **05:12 caught a design flaw before it sh",
+      "tools_used": [],
+      "requires_attention": false
+    },
+    {
+      "timestamp": "2026-07-29T09:24:55.046570",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #82 (morning) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 82
+    },
+    {
+      "timestamp": "2026-07-29T09:34:55.192048",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #83 (morning) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 83
+    },
+    {
+      "timestamp": "2026-07-29T09:44:55.356013",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #84 (morning) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 84
     }
   ]
 }
