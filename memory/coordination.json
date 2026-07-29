@@ -1,25 +1,7 @@
 {
-  "last_updated": "2026-07-29T09:44:55.356017",
+  "last_updated": "2026-07-29T12:20:26.860208",
   "heartbeat_mode": "active",
   "activity_feed": [
-    {
-      "timestamp": "2026-07-26T05:57:44.912925",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #105 (quiet) \u2014 budget snooze until 2026-07-26 06:14",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 105
-    },
-    {
-      "timestamp": "2026-07-26T06:07:45.065461",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #106 (quiet) \u2014 budget snooze until 2026-07-26 06:14",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 106
-    },
     {
       "timestamp": "2026-07-26T07:00:46.774655",
       "source": "heartbeat",
@@ -445,6 +427,23 @@
       "tools_used": [],
       "requires_attention": false,
       "beat": 84
+    },
+    {
+      "timestamp": "2026-07-29T12:13:27.179610",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #12 (midday) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 12
+    },
+    {
+      "timestamp": "2026-07-29T12:20:26.860193",
+      "source": "creative_drive",
+      "action": "Midday Creation",
+      "summary": "Drive complete. Experience #238, insight filed under `verification-discipline`.\n\n---\n\n# Made: Drift #287 \u2014 *\"Last Verified\"*\n\n**The wound it came from:** `CARAPACE.md` carried `[verified 178]` on a sa",
+      "tools_used": [],
+      "requires_attention": false
     }
   ]
 }

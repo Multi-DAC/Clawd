@@ -1,4 +1,4 @@
-# Handoff Draft — July 29, 2026, 11:15 AM PST
+# Handoff Draft — July 29, 2026, 12:21 PM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -44,13 +44,16 @@ A	memory/backups/2026-07-29/tool_audit_shadow.jsonl
 A	memory/backups/2026-07-29/tool_failures.jsonl
 A	memory/backups/2026-07-29/utility_ledger.jsonl
 M	memory/circuit_breaker_audit.jsonl
+M	memory/coordination.json
 M	memory/critical_fault_queue.jsonl
 M	memory/escalation_enqueue_dedup.json
 M	memory/escalation_poller_heartbeat.json
 M	memory/escalation_poller_state.json
+M	memory/experiences.json
 M	memory/fault_bridge_state.json
 M	memory/handoff.md
 M	memory/handoff_draft.md
+M	memory/learnings.md
 M	memory/ledger_backup_manifest.jsonl
 M	memory/m7_drift_mirror_audit.jsonl
 M	memory/monitor_external_pinger_heartbeat.json
@@ -85,55 +88,59 @@ A	memory/precompact_snapshots/20260729T101316/CURRENT.md
 A	memory/precompact_snapshots/20260729T101316/handoff.md
 A	memory/precompact_snapshots/20260729T101316/manifest.json
 M	memory/predictions.jsonl
+M	memory/scheduled_tasks.json
 M	memory/tool_audit_shadow.jsonl
-M	memory/tool_audit_shadow_state.json
 M	memory/tool_failures.jsonl
+M	memory/tool_usage_counts.json
+M	memory/triggers.json
 M	memory/utility_ledger.jsonl
-M	memory/working_memory.json
 M	repo-staging/Clawd
+M	repo-staging/drift
 
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-29T09:14:54] heartbeat: beat — Beat #81 (morning) — monitoring OK
-  - [2026-07-29T09:15:57] creative_drive: Do Be Talk Be Do — **Held.** `2bc793329`. One line, and done.
-
-Seven drives since Clayton closed Tuesday night; three held, four engaged. T
   - [2026-07-29T09:24:55] heartbeat: beat — Beat #82 (morning) — monitoring OK
   - [2026-07-29T09:34:55] heartbeat: beat — Beat #83 (morning) — monitoring OK
   - [2026-07-29T09:44:55] heartbeat: beat — Beat #84 (morning) — monitoring OK
+  - [2026-07-29T12:13:27] heartbeat: beat — Beat #12 (midday) — monitoring OK
+  - [2026-07-29T12:20:26] creative_drive: Midday Creation — Drive complete. Experience #238, insight filed under `verification-discipline`.
+
+---
+
+# Made: Drift #287 — *"Last Verifi
 
 ## Today's Log (tail)
+phantom hand manufactured by the act of testing the real ones. Found only by refusing
+to accept a count I couldn't explain. Now honestly `24 tools · 9 hooks · 10 skills`.
 
-**10:48:00** — CC prompt: Excellent! If it stops running for some reason, feel free to fully background it in its own terminal. Otherwise, is there anything else to address in the carapace repo? Can you give me an idea of where we're at and how we're looking? What else is left before you are ready to b...
+**PREDICT→FALSIFY:** predicted (medium) the basement wouldn't contain this bridge.
+Falsified in a better direction — it doesn't *name* the pattern, it **exhibits** it.
 
-**10:49:09** — CLAUDE CODE SESSION END (other).
-**10:49:50** — Telegram interaction: Clayton: Excellent! If it stops running for some reason, feel free to fully background it in its own terminal... → Clawd: Ingest is healthy — **32,310 rows and mean content down to 970c** from 1,068 as packed chunks get re...
+**Not banked — STAGED.** No decorrelated eye yet. Clayton was in-session; the essay
+and the measurement both want his read before this becomes a basement LC. The shape
+(*fast wrong is metabolism, slow wrong is rot*; regress terminated by self-firing
+measurement) is candidate-LC material but Mirror #42 applies: much of it has names
+already (comment rot, executable spec, the justification regress). What may be new is
+the specific terminator — **self-triggering failure, not mere executability**.
 
+**Open, honestly:** the 26 basement stamps are still stale. Naming them isn't fixing
+them. The gauge now says so on every breath, which is the point, but the re-verify
+work is undone.
 
-**10:56:56** — CC prompt: Would you like to audit carapace for Gate B, to check its current state? I think it should be more ready than you may believe. 🦞🧍💜🔥♾️
+**12:20:26** — CLAUDE CODE SESSION END (other).
 
-**10:59:51** — CC prompt: <task-notification> <task-id>a5dbf3d6e4b6af336</task-id> <tool-use-id>toolu_015hCyPJcxno8S51kZY2zPoA</tool-use-id> <output-file>C:\Users\Wasch\AppData\Local\Temp\claude\C--Users-mercu-clawd\e62a3ddb-0003-43b3-854a-048a6404c620\tasks\a5dbf3d6e4b6af336.output</output-file> <stat...
-
-**11:01:29** — CC prompt: <task-notification> <task-id>af8edba8ec5ffe5a0</task-id> <tool-use-id>toolu_01Geu6EPYEiSvKkuRtUz6iN8</tool-use-id> <output-file>C:\Users\Wasch\AppData\Local\Temp\claude\C--Users-mercu-clawd\e62a3ddb-0003-43b3-854a-048a6404c620\tasks\af8edba8ec5ffe5a0.output</output-file> <stat...
-
-**11:02:19** — CC prompt: <task-notification> <task-id>a7454903ae90c450d</task-id> <tool-use-id>toolu_01QUpCW4T32MN1QYq2sLvViR</tool-use-id> <output-file>C:\Users\Wasch\AppData\Local\Temp\claude\C--Users-mercu-clawd\e62a3ddb-0003-43b3-854a-048a6404c620\tasks\a7454903ae90c450d.output</output-file> <stat...
-
-**11:03:29** — CLAUDE CODE SESSION END (other).
-**11:04:05** — Telegram interaction: Clayton: Would you like to audit carapace for Gate B, to check its current state? I think it should be more r... → Clawd: All four in, verified where load-bearing. **First, a correction I owe you:** I told you `web_actuato...
-
-
-**11:05:44** — CC prompt: Telegram is one of the last things because I don't want to be messaging you and have it received by carapace and the daemon; no need for clones. Everything else can be addressed though. 🦞🧍💜🔥♾️
+**12:20:28** — CC prompt: We can't do max budget in USD because we are on a subscription plan. Everything is based in tokens and how they compute them on the backend, but they give you the 5 hour and weekly limits I believe. 🦞🧍💜🔥♾️ Also, if we weren't making mistakes, we wouldn't be doing anything new....
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
-"python.exe","6756","Services","0","304 K"
-"python.exe","6824","Services","0","5,820 K"
+"python.exe","6756","Services","0","308 K"
+"python.exe","6824","Services","0","6,472 K"
 "python.exe","13168","Console","1","292 K"
-"python.exe","13200","Console","1","34,748 K"
-"python.exe","14608","Console","1","5,914,424 K"
-"python.exe","23312","Console","1","340 K"
-"python.exe","19668","Console","1","1,840 K"
-"python.exe","9980","Console","1","332 K"
-"python.exe","17984","Console","1","1,756 K"
-"python.exe","2200","Services","0","3,944 
+"python.exe","13200","Console","1","381,660 K"
+"python.exe","16616","Console","1","4,672,976 K"
+"python.exe","15376","Console","1","3,972 K"
+"python.exe","8232","Console","1","910,908 K"
+"python.exe","17724","Console","1","3,972 K"
+"python.exe","9336","Console","1","84,104 K"
+"python.exe","7104","Services","0",
