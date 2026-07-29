@@ -1,4 +1,4 @@
-# Handoff Draft — July 29, 2026, 01:12 AM PST
+# Handoff Draft — July 29, 2026, 02:00 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -156,15 +156,17 @@ M	repo-staging/Clawd
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-29T00:25:54] heartbeat: beat — Beat #31 (late) — monitoring OK
   - [2026-07-29T00:35:54] heartbeat: beat — Beat #32 (late) — monitoring OK
   - [2026-07-29T00:45:54] heartbeat: beat — Beat #33 (late) — monitoring OK
   - [2026-07-29T00:55:55] heartbeat: beat — Beat #34 (late) — monitoring OK
   - [2026-07-29T01:08:16] heartbeat: dream_drive — Dream Drive fired for deep memory consolidation
+  - [2026-07-29T01:12:43] creative_drive: Dream Drive — Sleep Processing — Both committed and verified by effect. `0fffde4c8` and `be59fdb`.
+
+## What the dream surfaced
+
+**The accord would have s
 
 ## Today's Log (tail)
-and **A179.2** (this) · `anticipations.md` ×3.
-
 **★ ANTICIPATION worth reading before touching S2b:** atomic-fact chunking will multiply rows ~32k →
 ~100k, and **B8** (HNSW rebuilds from all rows per query) plus the live **numpy linear-scan fallback**
 are both O(n). **The remedy that fixes recall may triple retrieval latency**, precisely when the
@@ -184,15 +186,12 @@ to prevent it — in the other body.
 
 **Held, then integrated, then stopped.** Nothing else was live; S2b is deliberately untouched.
 
+**01:12:41** — CLAUDE CODE SESSION END (other).
+
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6364","Services","0","3,536 K"
-"python.exe","6564","Services","0","13,848 K"
+"python.exe","6564","Services","0","13,684 K"
 "python.exe","16888","Console","2","600 K"
-"python.exe","20428","Console","2","1,685,972 K"
-"python.exe","23548","Console","2","2,089,796 K"
-"python.exe","22324","Console","2","4,052 K"
-"python.exe","17024","Console","2","915,336 K"
-"python.exe","6576","Console","2","4,052 K"
-"python.exe","4656","Console","2","83,972 K"
-"python.exe","15464","Console"
+"python.exe","20428","Console","2","1,691,656 K"
+"python.exe","23548","Console","2","2,088,540 K"
