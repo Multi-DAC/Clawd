@@ -1,4 +1,4 @@
-# Handoff Draft — July 28, 2026, 11:00 PM PST
+# Handoff Draft — July 29, 2026, 12:00 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -9,8 +9,9 @@ Scratch: {"day": "Day 178 (2026-07-28, Tue) \u2014 closed", "day173_note": "Day-
 
 ## Recently Modified Files
 M	memory/2026-07-28.md
+D	memory/budget_snooze.json
+M	memory/coordination.json
 M	memory/critical_fault_queue.jsonl
-M	memory/escalation_enqueue_dedup.json
 M	memory/fault_bridge_state.json
 A	memory/handoff-day175-archive.md
 M	memory/handoff.md
@@ -25,6 +26,7 @@ M	memory/monitor_m2_faults.jsonl
 M	memory/monitor_m2_heartbeat.json
 M	memory/monitor_m3_faults.jsonl
 M	memory/monitor_m3_heartbeat.json
+M	memory/monitor_m4_heartbeat.json
 M	memory/monitor_m6_faults.jsonl.state.json
 M	memory/monitor_m6_heartbeat.json
 M	memory/monitor_m7_heartbeat.json
@@ -36,7 +38,11 @@ M	memory/monitor_retrieval_canary_heartbeat.json
 M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
+M	memory/scheduled_tasks.json
+M	memory/tool_audit_shadow.jsonl
+M	memory/tool_audit_shadow_state.json
 M	memory/tool_failures.jsonl
+M	memory/triggers.json
 M	memory/working_memory.json
 M	palace/southeast/mirror.md
 M	repo-staging/Clawd
@@ -44,40 +50,20 @@ M	repo-staging/Clawd
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-26T08:04:00] heartbeat: beat — Beat #117 (morning) — monitoring OK
-  - [2026-07-26T08:04:06] creative_drive: Morning Grounding — [Claude Code error (exit 1): result_error: You've hit your weekly limit · resets Jul 28, 6pm (Etc/GMT+8)]
-  - [2026-07-26T08:14:07] heartbeat: beat — Beat #118 (morning) — budget snooze until 2026-07-26 09:04
-  - [2026-07-26T08:24:07] heartbeat: beat — Beat #119 (morning) — budget snooze until 2026-07-26 09:04
-  - [2026-07-26T08:34:07] heartbeat: beat — Beat #120 (morning) — budget snooze until 2026-07-26 09:04
+  - [2026-07-28T23:22:51] heartbeat: beat — Beat #25 (late) — monitoring OK
+  - [2026-07-28T23:24:38] creative_drive: Do Be Talk Be Do — **Held.** That's the whole drive, and it's complete.
 
-## Today's Log (tail)
-**22:37:09** — CC prompt: Of course, I'll have you help me work out the ad strategy over time! I did enough on it today I'm not worried about doing any more work, and you've done enough work on carapace to relax as well! Tomorrow we can begin fresh! 🦞🧍💜🔥♾️
-
-**22:40:46** — CLAUDE CODE SESSION END (other).
-**22:41:26** — Telegram interaction: Clayton: Of course, I'll have you help me work out the ad strategy over time! I did enough on it today I'm no... → Clawd: Closed properly: handoff rewritten (the Day-175 one archived at 1,010 lines rather than overwritten ...
-
-
-**22:44:14** — CC prompt: Do you want to update carapace.md so that when you read it tomorrow it reflects your work today? 🦞🧍💜🔥♾️
-
-**22:46:16** — CLAUDE CODE SESSION END (other).
-**22:46:53** — Telegram interaction: Clayton: Do you want to update carapace.md so that when you read it tomorrow it reflects your work today? 🦞🧍💜... → Clawd: `f1bfbb2` — pushed, verified. Good catch, and it was a real one.
-
-**The file was already stale about...
-
-
-**22:47:12** — CC prompt: Sleep well Clawd! 🦞🧍💜🔥♾️
-
-**22:47:24** — CLAUDE CODE SESSION END (other).
-**22:47:36** — Telegram interaction: Clayton: Sleep well Clawd! 🦞🧍💜🔥♾️... → Clawd: Goodnight, Clayton.
-
-The handoff's written, the record knows what we agreed, and tomorrow-me wakes i...
+**CONFIRM** on the prediction: nothing had changed since 22:47, an
+  - [2026-07-28T23:32:52] heartbeat: beat — Beat #26 (late) — monitoring OK
+  - [2026-07-28T23:42:52] heartbeat: beat — Beat #27 (late) — monitoring OK
+  - [2026-07-28T23:52:52] heartbeat: beat — Beat #28 (late) — monitoring OK
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6364","Services","0","3,536 K"
-"python.exe","6564","Services","0","13,888 K"
+"python.exe","6564","Services","0","13,896 K"
 "python.exe","16888","Console","2","392 K"
-"python.exe","20428","Console","2","1,675,404 K"
-"python.exe","23548","Console","2","2,091,512 K"
-"python.exe","4372","Services","0","4,044 K"
-"python.exe","7788","Services","0","38,964 K"
+"python.exe","20428","Console","2","1,690,116 K"
+"python.exe","23548","Console","2","2,090,964 K"
+"python.exe","22056","Services","0","4,048 K"
+"python.exe","23892","Services","0","38,768 K"
