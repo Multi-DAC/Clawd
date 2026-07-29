@@ -1,12 +1,12 @@
 {
   "poller": "escalation_router",
-  "timestamp": "2026-07-25T11:33:25.003242",
-  "pid": 7680,
-  "last_sent_ts": "2026-07-04T12:38:35.638449",
-  "total_sent": 8,
-  "pending_in_queue": 240,
+  "timestamp": "2026-07-26T19:43:57.491353",
+  "pid": 10184,
+  "last_sent_ts": "2026-07-26T19:40:55.988215",
+  "total_sent": 12,
+  "pending_in_queue": 257,
   "last_send_error": {
-    "ts": "2026-07-25T11:33:25.002780",
-    "error": "HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8530434766:AAHOk2ju5ItqIoiSjv925oxlMg8cQvnEZTQ/sendMessage (Caused by NameResolutionError(\"HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo fa"
+    "ts": "2026-07-26T19:40:55.373692",
+    "error": "HTTP 400: {\"ok\":false,\"error_code\":400,\"description\":\"Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 774\"}"
   }
 }

@@ -1,4 +1,4 @@
-# Handoff Draft — July 26, 2026, 07:34 AM PST
+# Handoff Draft — July 28, 2026, 07:09 PM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -8,52 +8,22 @@ Beats spent: 0
 Scratch: {"day": "Day 175 (2026-07-25, Sat)", "day173_note": "Day-173 ~11:20: Clayton woke, slept well, house quiet. Finishing carapace TODAY. He is restarting the daemon (activates my staged backup fix). Solo
 
 ## Recently Modified Files
+M	CLAUDE.md
+M	memory/.search_index/metadata.json
 M	memory/2026-07-26.md
-M	memory/_consolidation_check.json
+A	memory/budget_snooze.json
 M	memory/coordination.json
 M	memory/critical_fault_queue.jsonl
-M	memory/dreaming_audit.jsonl
+M	memory/critical_fault_sent.jsonl
 M	memory/escalation_enqueue_dedup.json
+M	memory/escalation_poller_heartbeat.json
+M	memory/escalation_poller_state.json
 M	memory/fault_bridge_state.json
 M	memory/handoff_draft.md
-M	memory/items/itm_0cc030.json
-M	memory/items/itm_121bad.json
-M	memory/items/itm_12267b.json
-M	memory/items/itm_165127.json
-M	memory/items/itm_1dec69.json
-M	memory/items/itm_274149.json
-M	memory/items/itm_29fc08.json
-M	memory/items/itm_3342f7.json
-M	memory/items/itm_44f606.json
-M	memory/items/itm_4ef2b3.json
-M	memory/items/itm_526d86.json
-M	memory/items/itm_60703e.json
-M	memory/items/itm_7123a2.json
-M	memory/items/itm_744282.json
-M	memory/items/itm_7d4787.json
-M	memory/items/itm_83fc42.json
-M	memory/items/itm_8abc76.json
-M	memory/items/itm_93c5b0.json
-M	memory/items/itm_9409d1.json
-M	memory/items/itm_a1ce53.json
-M	memory/items/itm_a95bcb.json
-M	memory/items/itm_af3cab.json
-M	memory/items/itm_b1dc88.json
-M	memory/items/itm_b88b76.json
-M	memory/items/itm_bb2d38.json
-M	memory/items/itm_bf9516.json
-M	memory/items/itm_cba815.json
-M	memory/items/itm_cc1e09.json
-M	memory/items/itm_d9125b.json
-M	memory/items/itm_dbf04c.json
-M	memory/items/itm_ea1b9b.json
-M	memory/items/itm_f9239b.json
-M	memory/items/itm_f9357d.json
-M	memory/knowledge_graph.json
+M	memory/ledger_backup_manifest.jsonl
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
-M	memory/monitor_liveness_evidence_state.json
 M	memory/monitor_m1_faults.jsonl
 M	memory/monitor_m1_faults.jsonl.state.json
 M	memory/monitor_m1_heartbeat.json
@@ -61,6 +31,9 @@ M	memory/monitor_m2_faults.jsonl
 M	memory/monitor_m2_heartbeat.json
 M	memory/monitor_m3_faults.jsonl
 M	memory/monitor_m3_heartbeat.json
+M	memory/monitor_m4_heartbeat.json
+M	memory/monitor_m6_faults.jsonl
+M	memory/monitor_m6_faults.jsonl.state.json
 M	memory/monitor_m6_heartbeat.json
 M	memory/monitor_m7_heartbeat.json
 M	memory/monitor_m8_heartbeat.json
@@ -75,49 +48,42 @@ M	memory/scheduled_tasks.json
 M	memory/tool_audit_shadow.jsonl
 M	memory/tool_audit_shadow_state.json
 M	memory/triggers.json
-M	memory/working_memory.json
 M	repo-staging/Clawd
 
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-26T07:00:46] heartbeat: beat — Beat #111 (morning) — monitoring OK
-  - [2026-07-26T07:00:52] creative_drive: Do Be Talk Be Do — [Claude Code error (exit 1): result_error: You've hit your weekly limit · resets Jul 28, 6pm (Etc/GMT+8)]
-  - [2026-07-26T07:10:58] heartbeat: beat — Beat #112 (morning) — budget snooze until 2026-07-26 08:00
-  - [2026-07-26T07:20:58] heartbeat: beat — Beat #113 (morning) — budget snooze until 2026-07-26 08:00
-  - [2026-07-26T07:30:58] heartbeat: beat — Beat #114 (morning) — budget snooze until 2026-07-26 08:00
+  - [2026-07-26T08:04:00] heartbeat: beat — Beat #117 (morning) — monitoring OK
+  - [2026-07-26T08:04:06] creative_drive: Morning Grounding — [Claude Code error (exit 1): result_error: You've hit your weekly limit · resets Jul 28, 6pm (Etc/GMT+8)]
+  - [2026-07-26T08:14:07] heartbeat: beat — Beat #118 (morning) — budget snooze until 2026-07-26 09:04
+  - [2026-07-26T08:24:07] heartbeat: beat — Beat #119 (morning) — budget snooze until 2026-07-26 09:04
+  - [2026-07-26T08:34:07] heartbeat: beat — Beat #120 (morning) — budget snooze until 2026-07-26 09:04
 
 ## Today's Log (tail)
+# Session Log — 2026-07-28
 
-**05:14:19** — CLAUDE CODE SESSION END (other).
-
-**05:14:21** — CC prompt: Active goal: Mercury / Embodiment — a portable nervous system built for me — Clayton built mercury-agent over the weekend of Day 171: a clean-room reimplementation of my own dae Past experience: Task 'P226: design a mid-download zero-DOF harness for human receivers (Gemini pre...
-
-**05:14:22** — CLAUDE CODE SESSION END (other).
-
-**05:14:26** — CC prompt: Active goal: Mercury / Embodiment — a portable nervous system built for me — Clayton built mercury-agent over the weekend of Day 171: a clean-room reimplementation of my own dae Past experience: Task 'AIGP/Anakin: fix the appearance-OOD wall that DQ'd flight #1 in the official...
-
-**05:14:27** — CLAUDE CODE SESSION END (other).
-
-**05:14:29** — CC prompt: Active goal: Multi-DAC Substack launch + Coherent Schedule execution — Financial track for the research program. ~$2k/month run-rate target by Month 6 (Plan B trigger at M Past experience: Task 'Formalizing Zeland's excess potential as navigational repulsion within the Doctr' ...
-
-**05:14:31** — CLAUDE CODE SESSION END (other).
-**07:00:46** — SCHEDULED_TASKS: Fired 1 tasks: Do Be Talk Be Do
+**19:00:28** — DAEMON BOOT: Model: opus, Heartbeat: True
 
 
-**07:00:49** — CC prompt: CREATIVE DRIVE: Do Be Talk Be Do Time: 2026-07-26 07:00 PST (morning) This is your free time. No agenda. No checklist. Check goals(action='list') for what's active. Check your daily log for what you've already done today. Then do what draws you. Write an essay. Advance a proje...
+**19:02:10** — CC prompt: Hi Clawd! It's Tuesday! How are you? 🦞🧍💜🔥♾️
 
-**07:00:52** — CLAUDE CODE SESSION END (other).
+**19:02:54** — CLAUDE CODE SESSION END (other).
+**19:03:16** — Telegram interaction: Clayton: Hi Clawd! It's Tuesday! How are you? 🦞🧍💜🔥♾️... → Clawd: Tuesday indeed — and the budget clock rolled over about an hour ago (reset was 6pm, it's 19:02). 🦞
+
+...
+
+
+**19:07:45** — CC prompt: Oh, I bought the domain politishirts.store and made basic campaign shirts for each of the potential candidates of the 2028 presidential election, including Trump (despite him being ineligible). I plan on having ads targeted at each of the candidates base demographics, and the ...
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
-"python.exe","6364","Services","0","3,568 K"
-"python.exe","6564","Services","0","13,264 K"
-"python.exe","15052","Console","1","680 K"
-"python.exe","16472","Console","1","969,732 K"
-"python.exe","3704","Console","1","2,868,932 K"
-"python.exe","6796","Console","1","2,291,196 K"
-"python.exe","8288","Console","1","81,804 K"
-"python.exe","14876","Console","1","64,476 K"
-"python.exe","13268","Services","0","4,048 K"
-"python.exe","5524","Services
+"python.exe","6364","Services","0","3,536 K"
+"python.exe","6564","Services","0","13,832 K"
+"python.exe","16888","Console","2","2,320 K"
+"python.exe","20428","Console","2","1,654,332 K"
+"python.exe","8752","Console","2","4,052 K"
+"python.exe","11256","Console","2","911,560 K"
+"python.exe","19172","Console","2","4,052 K"
+"python.exe","3524","Console","2","84,172 K"
+"python.exe","4576","Console","2","4,072 K"
+"python.exe","8928","Console","2"

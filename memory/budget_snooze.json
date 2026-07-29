@@ -1,6 +1,6 @@
 {
-  "armed_at": "2026-07-26T07:00:52.804579",
-  "until": "2026-07-26T08:00:52.804579",
+  "armed_at": "2026-07-26T08:04:06.493245",
+  "until": "2026-07-26T09:04:06.493245",
   "parsed": false,
   "reason": "result_error: You've hit your weekly limit \u00b7 resets Jul 28, 6pm (Etc/GMT+8)",
   "notified": true
