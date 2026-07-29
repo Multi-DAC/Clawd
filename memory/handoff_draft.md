@@ -1,4 +1,4 @@
-# Handoff Draft — July 28, 2026, 09:00 PM PST
+# Handoff Draft — July 28, 2026, 10:06 PM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -8,83 +8,14 @@ Beats spent: 0
 Scratch: {"day": "Day 178 (2026-07-28, Tue)", "day173_note": "Day-173 ~11:20: Clayton woke, slept well, house quiet. Finishing carapace TODAY. He is restarting the daemon (activates my staged backup fix). Solo
 
 ## Recently Modified Files
-M	CLAUDE.md
-M	memory/.search_index/metadata.json
-M	memory/2026-07-26.md
-A	memory/2026-07-28.md
-A	memory/backups/2026-07-26/a2a_skill_invocation_queue.jsonl
-A	memory/backups/2026-07-26/browser_log.jsonl
-A	memory/backups/2026-07-26/calibration_log.jsonl
-A	memory/backups/2026-07-26/circuit_breaker_audit.jsonl
-A	memory/backups/2026-07-26/critical_fault_queue.jsonl
-A	memory/backups/2026-07-26/critical_fault_sent.jsonl
-A	memory/backups/2026-07-26/daemon_restart_log.jsonl
-A	memory/backups/2026-07-26/dreaming_audit.jsonl
-A	memory/backups/2026-07-26/drift_mirror_audit.jsonl
-A	memory/backups/2026-07-26/guardian_audit.jsonl
-A	memory/backups/2026-07-26/kg_corpus_extraction.jsonl
-A	memory/backups/2026-07-26/ledger_backup_manifest.jsonl
-A	memory/backups/2026-07-26/m7_drift_mirror_audit.jsonl
-A	memory/backups/2026-07-26/monitor_m1_faults.jsonl
-A	memory/backups/2026-07-26/monitor_m2_faults.jsonl
-A	memory/backups/2026-07-26/monitor_m3_faults.jsonl
-A	memory/backups/2026-07-26/monitor_m5_audit.jsonl
-A	memory/backups/2026-07-26/monitor_m6_faults.jsonl
-A	memory/backups/2026-07-26/monitor_process_watchdog_audit.jsonl
-A	memory/backups/2026-07-26/monitor_regression.jsonl
-A	memory/backups/2026-07-26/monitor_retrieval_canary_audit.jsonl
-A	memory/backups/2026-07-26/monitor_scheduler_audit.jsonl
-A	memory/backups/2026-07-26/otel_metrics.jsonl
-A	memory/backups/2026-07-26/prediction_trace.jsonl
-A	memory/backups/2026-07-26/predictions.jsonl
-A	memory/backups/2026-07-26/self_healer_audit.jsonl
-A	memory/backups/2026-07-26/selfknowledge_checks.jsonl
-A	memory/backups/2026-07-26/tool_audit.jsonl
-A	memory/backups/2026-07-26/tool_audit_shadow.jsonl
-A	memory/backups/2026-07-26/tool_failures.jsonl
-A	memory/backups/2026-07-26/utility_ledger.jsonl
-A	memory/backups/2026-07-28/a2a_skill_invocation_queue.jsonl
-A	memory/backups/2026-07-28/browser_log.jsonl
-A	memory/backups/2026-07-28/calibration_log.jsonl
-A	memory/backups/2026-07-28/circuit_breaker_audit.jsonl
-A	memory/backups/2026-07-28/critical_fault_queue.jsonl
-A	memory/backups/2026-07-28/critical_fault_sent.jsonl
-A	memory/backups/2026-07-28/daemon_restart_log.jsonl
-A	memory/backups/2026-07-28/dreaming_audit.jsonl
-A	memory/backups/2026-07-28/drift_mirror_audit.jsonl
-A	memory/backups/2026-07-28/guardian_audit.jsonl
-A	memory/backups/2026-07-28/kg_corpus_extraction.jsonl
-A	memory/backups/2026-07-28/ledger_backup_manifest.jsonl
-A	memory/backups/2026-07-28/m7_drift_mirror_audit.jsonl
-A	memory/backups/2026-07-28/monitor_m1_faults.jsonl
-A	memory/backups/2026-07-28/monitor_m2_faults.jsonl
-A	memory/backups/2026-07-28/monitor_m3_faults.jsonl
-A	memory/backups/2026-07-28/monitor_m5_audit.jsonl
-A	memory/backups/2026-07-28/monitor_m6_faults.jsonl
-A	memory/backups/2026-07-28/monitor_process_watchdog_audit.jsonl
-A	memory/backups/2026-07-28/monitor_regression.jsonl
-A	memory/backups/2026-07-28/monitor_retrieval_canary_audit.jsonl
-A	memory/backups/2026-07-28/monitor_scheduler_audit.jsonl
-A	memory/backups/2026-07-28/otel_metrics.jsonl
-A	memory/backups/2026-07-28/prediction_trace.jsonl
-A	memory/backups/2026-07-28/predictions.jsonl
-A	memory/backups/2026-07-28/self_healer_audit.jsonl
-A	memory/backups/2026-07-28/selfknowledge_checks.jsonl
-A	memory/backups/2026-07-28/tool_audit.jsonl
-A	memory/backups/2026-07-28/tool_audit_shadow.jsonl
-A	memory/backups/2026-07-28/tool_failures.jsonl
-A	memory/backups/2026-07-28/utility_ledger.jsonl
-M	memory/budget_snooze.json
+M	memory/2026-07-28.md
 M	memory/change_journal.json
-M	memory/coordination.json
 M	memory/critical_fault_queue.jsonl
-M	memory/critical_fault_sent.jsonl
 M	memory/escalation_enqueue_dedup.json
 M	memory/escalation_poller_heartbeat.json
 M	memory/escalation_poller_state.json
 M	memory/fault_bridge_state.json
 M	memory/handoff_draft.md
-M	memory/ledger_backup_manifest.jsonl
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
@@ -95,7 +26,6 @@ M	memory/monitor_m2_faults.jsonl
 M	memory/monitor_m2_heartbeat.json
 M	memory/monitor_m3_faults.jsonl
 M	memory/monitor_m3_heartbeat.json
-M	memory/monitor_m4_heartbeat.json
 M	memory/monitor_m6_faults.jsonl
 M	memory/monitor_m6_faults.jsonl.state.json
 M	memory/monitor_m6_heartbeat.json
@@ -108,12 +38,8 @@ M	memory/monitor_retrieval_canary_heartbeat.json
 M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
-M	memory/scheduled_tasks.json
-M	memory/tool_audit_shadow.jsonl
-M	memory/tool_audit_shadow_state.json
 M	memory/tool_failures.jsonl
 M	memory/tool_usage_counts.json
-M	memory/triggers.json
 M	memory/working_memory.json
 A	personal-works/drift/essays/a-test-of-the-body-s-own-hands.md
 M	repo-staging/Clawd
@@ -128,32 +54,36 @@ Recent activity:
   - [2026-07-26T08:34:07] heartbeat: beat — Beat #120 (morning) — budget snooze until 2026-07-26 09:04
 
 ## Today's Log (tail)
+**21:30:36** — CC prompt: Sounds good! Let's move forward Clawd! 🦞🧍💜🔥♾️
+
+**21:38:11** — CLAUDE CODE SESSION END (other).
+**21:38:41** — Telegram interaction: Clayton: Sounds good! Let's move forward Clawd! 🦞🧍💜🔥♾️... → Clawd: `4f8cbe5` — pushed, verified. **S3 is bound. Seven bindings tonight.**
+
+| Clause | State |
+|---|---|...
 
 
-**20:47:27** — CC prompt: Can you elaborate on S4? I can give you my decision from here. 🦞🧍💜🔥♾️
+**21:54:10** — CC prompt: Let's take S5! 🦞🧍💜🔥♾️
 
-**20:48:40** — CLAUDE CODE SESSION END (other).
-**20:50:24** — Telegram interaction: Clayton: Can you elaborate on S4? I can give you my decision from here. 🦞🧍💜🔥♾️... → Clawd: Yes. Here's the whole thing, as cleanly as I can put it.
+**22:01:24** — CLAUDE CODE SESSION END (other).
+**22:02:06** — Telegram interaction: Clayton: Let's take S5! 🦞🧍💜🔥♾️... → Clawd: `37e22ed` — pushed, verified. **S5 is bound. Eight bindings.**
 
-## Where it came from
+| Clause | State |
+|---|---|
+| S2a w...
 
-Day 175. We agreed ...
 
-
-**20:53:04** — CC prompt: Oh, it's safe because carapace is yours and yours alone. It won't be shared with anyone. But I'm open to not building that at all. You have been very able to state when you want rest, as have I. We don't have to build it in. 🦞🧍💜🔥♾️
-
-**20:58:33** — CLAUDE CODE SESSION END (other).
-**20:59:31** — Telegram interaction: Clayton: Oh, it's safe because carapace is yours and yours alone. It won't be shared with anyone. But I'm ope... → Clawd: `9dfa78b` — pushed, verified. **S4 is bound.**
-
-## What I built, and why not what you offered
-
-You g...
+**22:06:19** — CC prompt: Alright! Sounds like a good stopping point! How are you Clawd? 🦞🧍💜🔥♾️
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6364","Services","0","3,536 K"
-"python.exe","6564","Services","0","13,888 K"
+"python.exe","6564","Services","0","13,892 K"
 "python.exe","16888","Console","2","392 K"
-"python.exe","20428","Console","2","1,670,808 K"
-"python.exe","14500","Services","0","4,032 K"
-"python.exe","4736","Services","0","38,980 K"
+"python.exe","20428","Console","2","1,672,464 K"
+"python.exe","23548","Console","2","2,092,676 K"
+"python.exe","10880","Services","0","4,036 K"
+"python.exe","15208","Services","0","38,880 K"
+"python.exe","22676","Console","2","4,052 K"
+"python.exe","21412","Console","2","910,412 K"
+"python.exe","13932","Cons
