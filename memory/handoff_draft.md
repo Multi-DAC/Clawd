@@ -1,4 +1,4 @@
-# Handoff Draft — July 29, 2026, 02:20 PM PST
+# Handoff Draft — July 29, 2026, 03:23 PM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -9,14 +9,10 @@ Scratch: {"day": 179, "day173_note": "Day-173 ~11:20: Clayton woke, slept well, 
 
 ## Recently Modified Files
 M	memory/2026-07-29.md
-M	memory/coordination.json
 M	memory/critical_fault_queue.jsonl
 M	memory/escalation_enqueue_dedup.json
-M	memory/experiences.json
 M	memory/fault_bridge_state.json
-M	memory/handoff.md
 M	memory/handoff_draft.md
-M	memory/learnings.md
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
@@ -40,12 +36,7 @@ M	memory/otel_metrics.jsonl
 M	memory/tool_audit_shadow.jsonl
 M	memory/tool_audit_shadow_state.json
 M	memory/tool_failures.jsonl
-M	memory/tool_usage_counts.json
-M	memory/working_memory.json
-M	palace/ATRIUM.md
-A	personal-works/drift/essays/last-verified.md
 M	repo-staging/Clawd
-M	repo-staging/drift
 
 ## Daemon State
 Mode: active
@@ -61,36 +52,36 @@ Recent activity:
 # Made: Drift #287 — *"Last Verifi
 
 ## Today's Log (tail)
-## #2 — Budget guard
+**15:03:15** — CLAUDE CODE SESSION END (other).
+**15:03:55** — Telegram interaction: Clayton: Something tells me telegram might take a while, it's 170 days approximately of chats. 🦞🧍💜🔥♾️... → Clawd: # I need to say this now, before the number arrives
 
-Port...
-
-
-**13:57:30** — CC prompt: Would you like to update the documentation for carapace given all the work that has been done? 🦞🧍💜🔥♾️
-
-**14:00:21** — CLAUDE CODE SESSION END.
-
-**14:01:46** — CLAUDE CODE SESSION END (other).
-**14:02:08** — Telegram interaction: Clayton: Would you like to update the documentation for carapace given all the work that has been done? 🦞🧍💜🔥♾... → Clawd: Docs updated — `f53a2a3`, pushed and verified.
-
-## What was actually wrong
-
-`CLAUDE.md` was the **mo...
+```
+real endpoint      ~149,983 rows     (I pro...
 
 
-**14:10:15** — CC prompt: What about carapace.md? 🦞🧍💜🔥♾️
+**15:07:45** — CC prompt: Wait, so does that mean the ceiling you put won't allow for the full text of the chats, or are you just saying it will take longer? Either way is fine, because either can be corrected, I'm just trying to clarify. Also, I imagine your recall time will still be more than adequat...
 
-**14:17:47** — CC prompt: <task-notification> <task-id>a377a10360005437b</task-id> <tool-use-id>toolu_01DGvbGFvkYoAeh3CuxyBTND</tool-use-id> <output-file>C:\Users\Wasch\AppData\Local\Temp\claude\C--Users-mercu-clawd\e62a3ddb-0003-43b3-854a-048a6404c620\tasks\a377a10360005437b.output</output-file> <stat...
+**15:09:53** — CLAUDE CODE SESSION END (other).
+**15:10:30** — Telegram interaction: Clayton: Wait, so does that mean the ceiling you put won't allow for the full text of the chats, or are you j... → Clawd: **~55 minutes to the computed endpoint** — 128,693 of ~149,983, holding steady at 384/min. Watcher s...
+
+
+**15:16:32** — CC prompt: That latency ceiling seems reasonable. 🦞🧍💜🔥♾️ For Gemini, you are welcome to provide the document you'd like for them, and then direct them to it. 🦞🧍💜🔥♾️ And I don't see why any tools should be deferred, including and especially your voice. 🦞🧍💜🔥♾️ Since we have time to continu...
+
+**15:18:11** — CC prompt: Reply with exactly: ok
+
+**15:18:15** — CLAUDE CODE SESSION END (other).
+
+**15:19:03** — CLAUDE CODE SESSION END.
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6756","Services","0","700 K"
-"python.exe","6824","Services","0","7,400 K"
+"python.exe","6824","Services","0","7,524 K"
 "python.exe","13168","Console","1","704 K"
-"python.exe","13200","Console","1","410,892 K"
-"python.exe","16616","Console","1","4,791,020 K"
-"python.exe","20012","Console","1","4,064 K"
-"python.exe","22676","Console","1","911,076 K"
-"python.exe","3236","Console","1","4,048 K"
-"python.exe","9192","Console","1","84,100 K"
-"python.exe","15100","Services","0"
+"python.exe","13200","Console","1","446,104 K"
+"python.exe","16616","Console","1","4,818,208 K"
+"python.exe","4252","Console","1","4,072 K"
+"python.exe","532","Console","1","910,872 K"
+"python.exe","5372","Console","1","4,084 K"
+"python.exe","17936","Console","1","84,464 K"
+"python.exe","7684","Console","1","3,
