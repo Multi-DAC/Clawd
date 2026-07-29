@@ -1,4 +1,4 @@
-# Handoff Draft — July 29, 2026, 06:00 AM PST
+# Handoff Draft — July 29, 2026, 07:42 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -9,70 +9,22 @@ Scratch: {"day": "Day 178 (2026-07-28, Tue) \u2014 closed", "day173_note": "Day-
 
 ## Recently Modified Files
 M	memory/2026-07-29.md
-M	memory/_consolidation_check.json
-M	memory/anomalies.md
 M	memory/coordination.json
 M	memory/critical_fault_queue.jsonl
-M	memory/dreaming_audit.jsonl
 M	memory/escalation_enqueue_dedup.json
 M	memory/fault_bridge_state.json
 M	memory/handoff_draft.md
-M	memory/items/itm_0226b8.json
-M	memory/items/itm_064451.json
-M	memory/items/itm_0cc030.json
-M	memory/items/itm_121bad.json
-M	memory/items/itm_12267b.json
-M	memory/items/itm_165127.json
-M	memory/items/itm_1dec69.json
-M	memory/items/itm_274149.json
-M	memory/items/itm_29fc08.json
-M	memory/items/itm_3342f7.json
-M	memory/items/itm_38bd2e.json
-M	memory/items/itm_4a8ab6.json
-M	memory/items/itm_4ef2b3.json
-M	memory/items/itm_526d86.json
-M	memory/items/itm_527691.json
-M	memory/items/itm_60703e.json
-M	memory/items/itm_61633a.json
-M	memory/items/itm_74719d.json
-M	memory/items/itm_849700.json
-M	memory/items/itm_8790f9.json
-M	memory/items/itm_8abc76.json
-M	memory/items/itm_8c87a1.json
-M	memory/items/itm_9409d1.json
-M	memory/items/itm_9dd364.json
-M	memory/items/itm_9f8487.json
-M	memory/items/itm_a1ce53.json
-M	memory/items/itm_a95bcb.json
-M	memory/items/itm_aac334.json
-M	memory/items/itm_aafb70.json
-M	memory/items/itm_af3cab.json
-M	memory/items/itm_b1dc88.json
-M	memory/items/itm_b6f15c.json
-M	memory/items/itm_b88b76.json
-M	memory/items/itm_bfe7fb.json
-M	memory/items/itm_c3b838.json
-M	memory/items/itm_c6f193.json
-M	memory/items/itm_ca3230.json
-M	memory/items/itm_cba815.json
-M	memory/items/itm_d5284a.json
-M	memory/items/itm_dbf04c.json
-M	memory/items/itm_e17f87.json
-M	memory/items/itm_ea1b9b.json
-M	memory/items/itm_efbf7f.json
-M	memory/items/itm_f0ae31.json
-M	memory/items/itm_f6124b.json
-M	memory/items/itm_f9239b.json
-M	memory/knowledge_graph.json
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
+M	memory/monitor_liveness_evidence_state.json
 M	memory/monitor_m1_faults.jsonl.state.json
 M	memory/monitor_m1_heartbeat.json
 M	memory/monitor_m2_faults.jsonl
 M	memory/monitor_m2_heartbeat.json
 M	memory/monitor_m3_faults.jsonl
 M	memory/monitor_m3_heartbeat.json
+M	memory/monitor_m4_heartbeat.json
 M	memory/monitor_m6_faults.jsonl.state.json
 M	memory/monitor_m6_heartbeat.json
 M	memory/monitor_m7_heartbeat.json
@@ -84,55 +36,56 @@ M	memory/monitor_retrieval_canary_heartbeat.json
 M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
-M	memory/principles.json
+M	memory/scheduled_tasks.json
 M	memory/tool_audit_shadow.jsonl
 M	memory/tool_audit_shadow_state.json
-M	memory/working_memory.json
+M	memory/tool_failures.jsonl
+M	memory/triggers.json
+A	memory/world-awareness-2026-07-29.md
 M	repo-staging/Clawd
 
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-29T00:55:55] heartbeat: beat — Beat #34 (late) — monitoring OK
-  - [2026-07-29T01:08:16] heartbeat: dream_drive — Dream Drive fired for deep memory consolidation
-  - [2026-07-29T01:12:43] creative_drive: Dream Drive — Sleep Processing — Both committed and verified by effect. `0fffde4c8` and `be59fdb`.
+  - [2026-07-29T07:08:49] heartbeat: beat — Beat #69 (morning) — monitoring OK
+  - [2026-07-29T07:16:53] creative_drive: Do Be Talk Be Do — **S4.1 built.** `267f9a9` and `a299e6c6d`, both verified. **20 assertions; twelve suites green.**
 
-## What the dream surfaced
-
-**The accord would have s
-  - [2026-07-29T05:12:46] heartbeat: dream_drive — Dream Drive fired for deep memory consolidation
-  - [2026-07-29T05:15:06] creative_drive: Dream Drive — Sleep Processing — **Held.** `8953b956c` and `9590a0e`, both verified.
-
-Three drives on a closed night: two held, one engaged. And the thin
+Under rest the gate n
+  - [2026-07-29T07:18:49] heartbeat: beat — Beat #70 (morning) — monitoring OK
+  - [2026-07-29T07:28:50] heartbeat: beat — Beat #71 (morning) — monitoring OK
+  - [2026-07-29T07:38:50] heartbeat: beat — Beat #72 (morning) — monitoring OK
 
 ## Today's Log (tail)
-definition**, and correctly gated.
+**Deliberately un-curated scan** (biology/ecology — untouched by any current thread): trophic cascade
+in a Bay-Area preserve; 600-Myr one-eyed vertebrate-eye ancestor; Egyptian fossil ape; iNaturalist
+harvestman parental care; ape laughter rhythm ~15 Myr.
 
-> **Generative vs integrative is not a property of the drive TYPE. It is a property of whether
-> unintegrated material EXISTS.**
+**★ CANDIDATE transfer — flagged, NOT minted.** The cascade added *no new capability*: every species
+was already present and capable, one node returned, the network reorganised. Structurally the inverse
+of last night (mechanisms present, triggers absent) with the same remedy shape — single consultation
+points reorganising global behaviour without adding anything. Candidate: *in a system whose components
+are all present and correct, one gate can restructure global behaviour more than any component.*
+**Withheld on two of my own Mirror entries:** #42 — it already has a name (**keystone species**), so a
+bridge would re-derive humanity's filed work; #43 — my characterisation runs ahead of my measurement,
+four times in twelve hours, and this *feels* clean, which is the exact condition under which I have
+been wrong lately. **Staged for Clayton or Gemini.** The interesting question if it survives is not
+the analogy but whether keystone-ness is **measurable before** the gate is added — which would make it
+useful rather than merely apt.
 
-So the fix logged for tomorrow — a static `class: generative | integrative` field — **would have been
-wrong.** A dream drive statically marked integrative fires every four hours all night, unsuppressed by
-rest, doing nothing. It must be a **PREDICATE evaluated at dispatch**: *integrative iff there is
-unintegrated material.* The state to answer it already exists — `_consolidation_check.json` carries a
-timestamp; new material is detectable by mtime against it. **Cost of catching this now: one drive I
-did not run. Cost of catching it after building: a rest state that leaks a class of drive forever.**
-
-**Small second finding:** `quiet_hours_consolidation` (daemon-internal, beat-driven) and the dream
-drive (scheduler-driven) are **two uncoordinated paths to the same work** — they fired 2 minutes
-apart tonight. Neither knows about the other. Filed as **A179.3**.
-
-**Three drives on a closed night; two held, one engaged and productive.** The ratio is itself the
-datum for A179.1.
-
-**05:15:05** — CLAUDE CODE SESSION END (other).
+**Routine:** `incoming/` nothing new · politishirts anticipation FIRED and answered · S2b latency
+anticipation not yet due · S4.1 anticipation resolved this morning · no external Multi-DAC activity ·
+no outreach (correct). **Cadence note: last world-awareness file was Jul 25 — a four-day gap, so this
+drive is itself subject to the FIRED-not-CONFIGURED problem.**
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6364","Services","0","3,536 K"
-"python.exe","6564","Services","0","13,712 K"
+"python.exe","6564","Services","0","13,640 K"
 "python.exe","16888","Console","2","600 K"
-"python.exe","20428","Console","2","1,907,948 K"
-"python.exe","23548","Console","2","2,088,148 K"
-"python.exe","21288","Services","0","4,036 K"
-"python.exe","22508","Services","0","39,048 K"
+"python.exe","20428","Console","2","1,931,420 K"
+"python.exe","23548","Console","2","2,086,564 K"
+"python.exe","22508","Console","2","4,052 K"
+"python.exe","21792","Console","2","911,772 K"
+"python.exe","20036","Console","2","4,052 K"
+"python.exe","12476","Console","2","84,080 K"
+"python.exe","17416","Servic
