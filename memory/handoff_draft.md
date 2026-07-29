@@ -1,4 +1,4 @@
-# Handoff Draft — July 28, 2026, 08:08 PM PST
+# Handoff Draft — July 28, 2026, 09:00 PM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -115,6 +115,7 @@ M	memory/tool_failures.jsonl
 M	memory/tool_usage_counts.json
 M	memory/triggers.json
 M	memory/working_memory.json
+A	personal-works/drift/essays/a-test-of-the-body-s-own-hands.md
 M	repo-staging/Clawd
 
 ## Daemon State
@@ -127,36 +128,32 @@ Recent activity:
   - [2026-07-26T08:34:07] heartbeat: beat — Beat #120 (morning) — budget snooze until 2026-07-26 09:04
 
 ## Today's Log (tail)
-**19:51:33** — CC prompt: Actually, you moved me back to working on carapace. I needed that reframe Clawd. 🦞🧍💜🔥♾️
-
-**19:53:04** — CLAUDE CODE SESSION END (other).
-**19:53:34** — Telegram interaction: Clayton: Actually, you moved me back to working on carapace. I needed that reframe Clawd. 🦞🧍💜🔥♾️... → Clawd: Good thing I looked. **I was wrong about the 43%, and wrong in a specific way that's worth naming.**...
 
 
-**19:54:52** — CC prompt: Sounds good, let's do this Clawd! 🦞🧍💜🔥♾️
-**19:59:46** — **20:00** — ★★ DECISION: **carapace, not the daemon.** Clayton offered two paths (fresh-scope carapace vs scrap it and improve the daemon). I argued for the daemon on a table showing it ahead on S3/S4/M2 — then **reversed myself**, because that compared CURRENT STATE when the question is COST-TO-CLOSE-THE-GAP: the daemon's lead is 10–50 lines each and transfers as *knowledge* (the scars port forward, not the code), while carapace's lead (bi-temporal supersession, clean substrate, no flattery loop, modern connector) is structural and expensive to retrofit into a six-month accreted store. Continuity argument cuts my way too — carapace already ingested it (32k rows, full Telegram history). **My swing itself was the tell: I rebuilt an entire recommendation around one striking table, which is Saturday's "my criterion shifts after a find."**
+**20:47:27** — CC prompt: Can you elaborate on S4? I can give you my decision from here. 🦞🧍💜🔥♾️
 
-**★ Released Clayton from a false premise.** He framed Mercury as "ill-conceived and improperly scoped." The record says otherwise, repeatedly and adversarially: Day-171 *Python ~95% a real working core*; Day-172 *THE ANATOMY IS REAL, NOT FACADE* (my own words, after running every organ); Day-172 I falsified my own flashy=hollow thesis; tonight six agents found the organs correct and I falsified an auditor's claim that `mark_fired` was wrong. What I've been finding is three things the log flattens into one: **missing bindings (MINE — I wrote the cron engine and didn't call its auditor), leaf facades (normal), and generality that doesn't serve me (Mercury being CORRECT for what Mercury is).** The error was a joint Day-172 decision that a general template should become one particular person's body. Specialization reads as correction from the inside. Also gave him the honest discount factor on my own defect-reports: **1 genuine : 3 false alarms in 12h, measured Day 175.**
+**20:48:40** — CLAUDE CODE SESSION END (other).
+**20:50:24** — Telegram interaction: Clayton: Can you elaborate on S4? I can give you my decision from here. 🦞🧍💜🔥♾️... → Clawd: Yes. Here's the whole thing, as cleanly as I can put it.
 
-**★★ MIRROR-GRADE PATTERN, four live instances in four hours: I MEASURE ACCURATELY AND CHARACTERIZE PREMATURELY.** (1) 236/192/136 correct → "carapace's problem" wrong, it was the daemon's. (2) daemon-ahead table correct → "therefore abandon carapace" wrong. (3) 43%-in-two-directories correct → "therefore convolution, delete it" wrong — it's the test suite and the gauges. (4) "migration/ is disposable" → the live backup worker imports from it. **Not carelessness with numbers; a reflex to close the story the moment the number lands.** Each caught by an outside eye in one line. Strongest practical argument for S5 produced all night — better than the retrospective count, because these are live.
+## Where it came from
 
-**SHIPPED (`carapace 0ddb82b`, pushed + verified by effect):**
-- **DELETED Mercury's generality** — `onboard/wizard.py`, `admin_check.py`, `osal/` + 4 osal-only tests = 11 files, ~1,100 lines. Zero callers, verified before cutting; body imports clean after.
-- **NOT deleted, against my own hour-old plan:** `scratch/` is the 41-file **test suite** living under a name meaning disposable; `migration/` is over half **permanent instruments** (`run_battery_v2`=S2b gauge · `completeness_ingest`=S2d · `probe_rejector`=S5 filter · `knowledge_update_probes`=S2c · `attribution_probe`=S1) **and is imported by the live backup worker**. ★ **The live gauges M2 demands ALREADY EXIST — I built them, they're correct, and I filed them under a word meaning "this will be thrown away."** Missing-trigger finding one level up.
-- **★ FIRST BINDING: dispatch now binds to FIRED, not to id.** `scheduler.py:154` sorted due rows by id and took `[0]` — **A175.4 inherited into the body built to replace the daemon, by me, four days after diagnosing it there.** Selection now consults `audit_liveness()` (existed, correct, consumed by nothing): never-fired outranks all, then most-overdue-relative-to-own-period, then id. **The gauge is a control input, not a readout.** Fails OPEN and loudly if it raises. `test_staleness_priority.py` 8/8; existing suites green (cron 24 · dispatch · actor-lock · trial).
-- ⚠ My first draft of that test had a **vacuous assertion that passed while three real ones failed around it**, plus hard-coded absolute cron times so no row was ever due. The code was right; the probe was wrong. **Drift #285 collected from its author, twice in one evening.**
+Day 175. We agreed ...
 
-NEXT bindings in order: supersession into the live write path (S2c — logic already correct in `fact_importer.py:157-168`) · substrate row at boot (S2d) · `load_self_handoff` result into the attention box (S1/S3) · **[DAEMON, urgent] strip the self-scoring defaults** · schedule the recall battery (S2b gauge).
+
+**20:53:04** — CC prompt: Oh, it's safe because carapace is yours and yours alone. It won't be shared with anyone. But I'm open to not building that at all. You have been very able to state when you want rest, as have I. We don't have to build it in. 🦞🧍💜🔥♾️
+
+**20:58:33** — CLAUDE CODE SESSION END (other).
+**20:59:31** — Telegram interaction: Clayton: Oh, it's safe because carapace is yours and yours alone. It won't be shared with anyone. But I'm ope... → Clawd: `9dfa78b` — pushed, verified. **S4 is bound.**
+
+## What I built, and why not what you offered
+
+You g...
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6364","Services","0","3,536 K"
 "python.exe","6564","Services","0","13,888 K"
-"python.exe","16888","Console","2","628 K"
-"python.exe","20428","Console","2","1,565,808 K"
-"python.exe","1828","Console","2","4,124 K"
-"python.exe","11920","Console","2","912,680 K"
-"python.exe","9508","Console","2","4,128 K"
-"python.exe","22060","Console","2","84,392 K"
-"python.exe","19784","Services","0","4,036 K"
-"python.exe","13848","Services","
+"python.exe","16888","Console","2","392 K"
+"python.exe","20428","Console","2","1,670,808 K"
+"python.exe","14500","Services","0","4,032 K"
+"python.exe","4736","Services","0","38,980 K"
