@@ -11,7 +11,8 @@
   "links": [
     "itm_03c0f1",
     "itm_64d960",
-    "itm_740d30"
+    "itm_740d30",
+    "itm_aafb70"
   ],
   "keywords": [
     "three",
@@ -25,12 +26,12 @@
     "forced",
     "rewrite"
   ],
-  "importance": 7,
+  "importance": 8,
   "created": "2026-07-26T01:09:13.260383",
   "last_accessed": "2026-07-26T01:09:13.260387",
   "access_count": 0,
   "utility_score": 0.5,
-  "confidence": 0.8,
+  "confidence": 0.85,
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,

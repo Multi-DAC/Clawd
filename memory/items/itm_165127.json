@@ -11,7 +11,8 @@
   "links": [
     "itm_113dfd",
     "itm_a0da26",
-    "itm_a16a50"
+    "itm_a16a50",
+    "itm_408324"
   ],
   "keywords": [
     "reading",
@@ -24,12 +25,12 @@
     "gemini",
     "clawd"
   ],
-  "importance": 7,
+  "importance": 8,
   "created": "2026-07-26T01:09:13.281358",
   "last_accessed": "2026-07-26T01:09:13.281362",
   "access_count": 0,
   "utility_score": 0.5,
-  "confidence": 0.8,
+  "confidence": 0.85,
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,

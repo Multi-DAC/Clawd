@@ -1,0 +1,40 @@
+{
+  "id": "itm_8b4d33",
+  "type": "decision",
+  "content": "that a general template should become one particular person's body. Specialization reads as correction from the inside. Also gave him the honest discount factor on my own defect-reports: **1 genuine :",
+  "source": "daily_log 2026-07-28 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_2a1e13",
+    "itm_849700",
+    "itm_b98b30"
+  ],
+  "keywords": [
+    "general",
+    "template",
+    "become",
+    "one",
+    "particular",
+    "person",
+    "body",
+    "specialization",
+    "reads",
+    "correction"
+  ],
+  "importance": 6,
+  "created": "2026-07-29T01:05:55.299911",
+  "last_accessed": "2026-07-29T01:05:55.299916",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

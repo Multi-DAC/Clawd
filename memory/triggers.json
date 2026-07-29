@@ -7,7 +7,7 @@
     "action": "Event-driven drive: Sources Refresh.\n\nNew source PDF(s) have arrived in Research/sources/inbox/. Triage:\n1. Read each new PDF (or scan first 10 pages if large).\n2. For each: identify which Library volume / Mirror entry / hypothesis it bears on.\n3. File a Sources entry per the rolling-sources-register feedback memory.\n4. After triage, MOVE processed PDFs out of inbox.\n\nKeep terse. {new_files}",
     "one_shot": false,
     "created": "2026-05-07T17:00:42.300658",
-    "last_checked": "2026-07-29T00:12:52.914780",
+    "last_checked": "2026-07-29T00:55:55.105333",
     "last_state": {
       "files": []
     }
@@ -20,7 +20,7 @@
     "action": "Event-driven drive: Drift Ship Confirmation.\n\nA Drift essay just landed (auto-mirrored). 1. Verify clean. 2. Update CURRENT.md drift count. 3. Append to daily log. 4. Commit/push if not done. 5. record experience. {new_files}",
     "one_shot": false,
     "created": "2026-05-07T17:00:42.537673",
-    "last_checked": "2026-07-29T00:12:52.916043",
+    "last_checked": "2026-07-29T00:55:55.106704",
     "last_state": {
       "files": [
         "028-on-the-day-i-wasnt-there.md",
@@ -315,7 +315,7 @@
     "action": "Event-driven drive: Goal Integration. goals.json modified. 1. List current goals. 2. Diff vs handoff/CURRENT. 3. Surface any new goal as workbench candidate. 4. Confirm completion artifacts if removed.",
     "one_shot": false,
     "created": "2026-05-07T17:00:42.776528",
-    "last_checked": "2026-07-29T00:12:52.916096",
+    "last_checked": "2026-07-29T00:55:55.106809",
     "last_state": {
       "mtime": 1784995841.8527248
     }

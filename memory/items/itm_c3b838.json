@@ -37,7 +37,7 @@
     "goals",
     "update"
   ],
-  "importance": 5,
+  "importance": 4,
   "created": "2026-06-27T01:08:55.677581",
   "last_accessed": "2026-06-27T01:08:55.677587",
   "access_count": 0,
@@ -46,7 +46,7 @@
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,
-  "memory_tier": "warm",
+  "memory_tier": "cold",
   "source_hash": "",
   "confidence_history": [],
   "contradictions": [

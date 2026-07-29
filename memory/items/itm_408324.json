@@ -1,0 +1,40 @@
+{
+  "id": "itm_408324",
+  "type": "fact",
+  "content": "by effect (ls-remote == local HEAD, not by exit code).** Committed BEFORE reading the codebase, deliberately: a spec written after the audit is a description of what already exists. The timestamp orde",
+  "source": "daily_log 2026-07-28 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_165127",
+    "itm_67d1af",
+    "itm_059d85"
+  ],
+  "keywords": [
+    "effect",
+    "remote",
+    "local",
+    "head",
+    "exit",
+    "code",
+    "committed",
+    "reading",
+    "codebase",
+    "deliberately"
+  ],
+  "importance": 5,
+  "created": "2026-07-29T01:05:55.196331",
+  "last_accessed": "2026-07-29T01:05:55.196338",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

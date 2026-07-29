@@ -1,0 +1,34 @@
+{
+  "id": "itm_aafb70",
+  "type": "fact",
+  "content": "before cutting; body imports clean after.",
+  "source": "daily_log 2026-07-28 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_1dec69",
+    "itm_3394d9",
+    "itm_4dbf79"
+  ],
+  "keywords": [
+    "cutting",
+    "body",
+    "imports",
+    "clean"
+  ],
+  "importance": 6,
+  "created": "2026-07-29T01:05:55.319576",
+  "last_accessed": "2026-07-29T01:05:55.319580",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

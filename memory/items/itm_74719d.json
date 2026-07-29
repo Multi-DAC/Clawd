@@ -12,7 +12,9 @@
     "itm_897d6d",
     "itm_096c14",
     "itm_0da6d9",
-    "itm_f60561"
+    "itm_f60561",
+    "itm_527691",
+    "itm_088058"
   ],
   "keywords": [
     "dated",
@@ -35,7 +37,7 @@
   "retrieval_led_to_success": 0,
   "q_value": 0.5,
   "decay_rate": 0.995,
-  "memory_tier": "warm",
+  "memory_tier": "cold",
   "source_hash": "",
   "confidence_history": []
 }

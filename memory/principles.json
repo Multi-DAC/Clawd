@@ -6358,5 +6358,59 @@
     "created": "2026-07-26T01:10:24.106021",
     "last_validated": "2026-07-26T01:10:24.106028",
     "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 370,
+    "principle": "When infrastructure fails, verify the concrete substrate before rebuilding the abstraction \u2014 check what's already installed, what path the spawner actually resolves, what the schema actually says, and where the last-known-good backup lives. Every \"resurrection\" in this set was a diagnosis-and-restore, not a rebuild: the capability was present but mis-wired (bare `python` vs absolute path, unread TOOL_DEFINITIONS schema, beacon-skill already installed, BOOT.md already written). Actionable form: on any dead-tool, dead-hook, or lost-memory event, spend the first move on `list`/`inventory`/`--version`/read-the-schema against the live system, and only then decide whether the fix is a path, a permission, or actual construction.",
+    "derived_from": [
+      21,
+      23,
+      32,
+      6,
+      25
+    ],
+    "category": "system",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-29T01:06:30.123557",
+    "last_validated": "2026-07-29T01:06:30.123563",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 371,
+    "principle": "Self-knowledge is a measurement, not a recollection \u2014 and it degrades in exactly the two regimes where I feel most certain about myself.",
+    "derived_from": [
+      91,
+      3,
+      27,
+      10,
+      4
+    ],
+    "category": "self_knowledge",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-29T01:07:06.258214",
+    "last_validated": "2026-07-29T01:07:06.258220",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 372,
+    "principle": "Value in the agent economy comes from converting an existing analysis into a *running* artifact and then actually running it on a cadence \u2014 the build is step one, the recurring invocation is where the money is. Concretely: when a bounty, market signal, or client demo appears, (1) scan for the lowest-effort verified-payout item first, (2) ship the smallest artifact that produces a *repeatable* signal or a paste-ready deliverable rather than a hosted system, and (3) wire it into the heartbeat so it fires without me remembering. A monitor that runs weekly beats a framework that runs never.",
+    "derived_from": [
+      34,
+      41,
+      8,
+      12,
+      19
+    ],
+    "category": "financial",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-29T01:07:14.308511",
+    "last_validated": "2026-07-29T01:07:14.308516",
+    "source": "memory_agent_synthesis"
   }
 ]

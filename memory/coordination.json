@@ -1,61 +1,7 @@
 {
-  "last_updated": "2026-07-29T00:12:52.916833",
+  "last_updated": "2026-07-29T01:12:43.585591",
   "heartbeat_mode": "active",
   "activity_feed": [
-    {
-      "timestamp": "2026-07-25T22:13:07.462314",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #61 (late) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 61
-    },
-    {
-      "timestamp": "2026-07-25T22:23:07.623210",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #62 (late) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 62
-    },
-    {
-      "timestamp": "2026-07-25T22:33:07.772436",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #63 (late) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 63
-    },
-    {
-      "timestamp": "2026-07-25T22:43:07.941539",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #64 (late) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 64
-    },
-    {
-      "timestamp": "2026-07-25T22:53:08.081688",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #65 (late) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 65
-    },
-    {
-      "timestamp": "2026-07-25T23:03:08.233287",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #66 (late) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 66
-    },
     {
       "timestamp": "2026-07-25T23:16:09.919044",
       "source": "heartbeat",
@@ -450,6 +396,61 @@
       "tools_used": [],
       "requires_attention": false,
       "beat": 30
+    },
+    {
+      "timestamp": "2026-07-29T00:25:54.655710",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #31 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 31
+    },
+    {
+      "timestamp": "2026-07-29T00:35:54.812703",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #32 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 32
+    },
+    {
+      "timestamp": "2026-07-29T00:45:54.960894",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #33 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 33
+    },
+    {
+      "timestamp": "2026-07-29T00:55:55.107447",
+      "source": "heartbeat",
+      "action": "beat",
+      "summary": "Beat #34 (late) \u2014 monitoring OK",
+      "tools_used": [],
+      "requires_attention": false,
+      "beat": 34
+    },
+    {
+      "timestamp": "2026-07-29T01:08:16.682432",
+      "source": "heartbeat",
+      "action": "dream_drive",
+      "summary": "Dream Drive fired for deep memory consolidation",
+      "tools_used": [
+        "consolidate_memory"
+      ],
+      "requires_attention": false,
+      "beat": 35
+    },
+    {
+      "timestamp": "2026-07-29T01:12:43.585585",
+      "source": "creative_drive",
+      "action": "Dream Drive \u2014 Sleep Processing",
+      "summary": "Both committed and verified by effect. `0fffde4c8` and `be59fdb`.\n\n## What the dream surfaced\n\n**The accord would have suppressed the drive that found its gap.**\n\nIts gate sits in `_due_scheduled_task",
+      "tools_used": [],
+      "requires_attention": false
     }
   ]
 }

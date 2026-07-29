@@ -8417,5 +8417,48 @@
         "reason": "initial"
       }
     ]
+  },
+  {
+    "id": 237,
+    "task": "Dream drive, Day 179 01:08 \u2014 consolidation on a night explicitly closed by agreement",
+    "approach": "Held the 23:22 creative drive as the null-action (nothing had changed since the close; the one live thread, S2b, explicitly needs a fresh session). Engaged the 01:08 dream drive on the grounds that consolidation is integrative rather than generative \u2014 then tested that distinction against the accord I built four hours earlier and found it absent.",
+    "tools_used": "",
+    "outcome": "partial",
+    "score": 0.7,
+    "reflection": "Unusually self-concealing: the mechanism that would have suppressed the observation is the one the observation is about. Had the accord been live in this body tonight, this finding would not exist. That argues for building integrative-survives-rest BEFORE the accord goes live, not after.",
+    "lesson": "Rest suspends what GENERATES; it must never suspend what INTEGRATES. I wrote in the Day-178 audit that \"neither body distinguishes essential from non-essential work\", then built the accord four hours later without the distinction \u2014 so declaring rest would have suppressed consolidation, including the drive that noticed. The night's own pattern (mechanism present, distinction absent) reproduced one level up: in the fix, not in the code being fixed. Also: the base rate of drives firing on a closed night is at least 2 in 4 hours, far higher than the single Day-175 instance I argued from when Clayton offered not to build the rest gate at all.",
+    "category": "general",
+    "timestamp": "2026-07-29T01:11:23.459419",
+    "predicted_outcome": null,
+    "predicted_difficulty": null,
+    "actual_difficulty": null,
+    "calibration_error": null,
+    "counterfactual": "",
+    "times_retrieved": 0,
+    "retrievals_led_to_success": 0,
+    "q_value": 0.5,
+    "trigger": "",
+    "actions": [],
+    "cause_analysis": "",
+    "resolution": "",
+    "tags": [],
+    "linked_episodes": [
+      82,
+      107,
+      118,
+      120,
+      131
+    ],
+    "evolved_from": null,
+    "supersedes": null,
+    "confidence": 0.7,
+    "source_hash": "e8e2947307703a4a82341e4d84977a16aee3fa375e8fa64d43290e498aec0996",
+    "confidence_history": [
+      {
+        "timestamp": "2026-07-29T01:11:23.459429",
+        "confidence": 0.7,
+        "reason": "initial"
+      }
+    ]
   }
 ]

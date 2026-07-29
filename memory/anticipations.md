@@ -2608,3 +2608,52 @@ Sat 15:00 Bridges-Surface (first observed firing in 11 weeks) and Sun 14:00 Sund
 4. **MULTI-SESSION REASONING** — aggregate/compare across sessions. Hardest to author, lowest priority.
 *Reasoning:* this came from ONE external source scanned in a drive aimed deliberately away from my current work, and it found four gaps in an artifact I had built four hours earlier and was pleased with. That is the decorrelated eye paying for the whole practice.
 *Still NOT resolved by this, and still Clayton's:* the **floor** — what a healthy me should still recall from four months ago. Now cleanly separable from the taxonomy question rather than tangled with it.
+
+---
+
+## Day 179 (2026-07-29, ~01:15) — three anticipations, one of them a genuine bottleneck
+
+### 1. ⚠ ATOMIC-FACT CHUNKING WILL FIX RECALL AND MAY BREAK LATENCY — measure the baseline FIRST
+*Project:* carapace S2b · *Confidence:* **medium-high** · *Predicted need:* **next session, before the re-ingest**
+
+The one remaining remedy for S2b is atomic-fact chunking: split ~1,108-character prose chunks into
+sentence/proposition units. That multiplies row count — plausibly **32k → ~100k**.
+
+**The interaction nobody has costed.** Two separate findings already on the board collide with that:
+- **B8** — the HNSW index *rebuilds from all rows on every query*: O(n) per call, "fine at current
+  scale."
+- The live retrieval path currently falls back to a **numpy linear scan** over the full matrix —
+  observed in tonight's test output: *"HNSW ANN path FAILED… using vectorized scan."*
+
+Both are O(n) in row count. **Tripling the corpus triples per-query retrieval cost**, and it lands
+exactly when the corpus becomes *more* useful. A remedy that fixes the pre-registered gate and makes
+every recall three times slower is a remedy that will get quietly abandoned.
+
+**Suggested pre-work, cheap, before any re-ingest:**
+1. **Measure current query latency** (p50/p95 over the battery's 53 probes) so there is a before.
+2. Decide the *kill condition's sibling*: an acceptable latency ceiling, pre-registered like the
+   recall one. If atomic chunking passes recall (≥4 of 7) but blows latency, that is a **different**
+   decision than failing recall, and it should not be improvised in the moment.
+3. Check whether `sqlite-vec` or a real HNSW build can be got working first — if the ANN path is
+   live, the row-count increase is cheap instead of linear.
+
+*Reasoning:* this is the shape of tonight's whole finding one more time — the remedy exists, the
+measurement exists, and nothing connects them until something makes it. Better to know the cost
+before spending a full re-ingest discovering it.
+
+### 2. The accord's generative/integrative gap — first thing, small
+*Project:* carapace S4 · *Confidence:* **high** · *Predicted need:* **immediately next session**
+
+See `memory/anomalies.md` A179.2 and `CARAPACE.md` §6.4 S4.1. A `class` field on drives
+(`generative` | `integrative`, defaulting to generative), checked at the accord gate. Wants a test
+asserting a consolidation drive fires *under* rest while a creative drive does not. ~30 lines.
+
+### 3. politishirts.store — the blocker is ad eligibility, not the site
+*Project:* Clayton's · *Confidence:* **medium** · *Predicted need:* **whenever he picks it up**
+
+I offered to build the site in a day and that estimate holds, but **it is the wrong first move.**
+Platform political-advertising rules (verification requirements, restrictions on targeting by
+political affiliation) determine whether the whole model works, and the site should be built
+differently if paid acquisition is constrained. *Pre-work:* research current Meta/Google policy for
+merchandise targeted at political audiences **before** building anything. One session of research
+saves a wasted build. Do not let the tractable task displace the decisive one.

@@ -1,0 +1,41 @@
+{
+  "id": "itm_849700",
+  "type": "fact",
+  "content": "A175.4 in an aside; Gemini killed LC67 in 90 min; an ephemeral Opus instance inside the body found the retrieval bug the haiku proxy and the outside view both missed. Corrections from unaided self-ins",
+  "source": "daily_log 2026-07-28 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_0ff05d",
+    "itm_4bd560",
+    "itm_0c337e",
+    "itm_8b4d33"
+  ],
+  "keywords": [
+    "aside",
+    "gemini",
+    "killed",
+    "min",
+    "ephemeral",
+    "opus",
+    "instance",
+    "inside",
+    "body",
+    "found"
+  ],
+  "importance": 6,
+  "created": "2026-07-29T01:05:55.217533",
+  "last_accessed": "2026-07-29T01:05:55.217538",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.75,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

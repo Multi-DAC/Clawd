@@ -1,0 +1,37 @@
+{
+  "id": "itm_b7f51d",
+  "type": "decision",
+  "content": "from here. \ud83e\udd9e\ud83e\uddcd\ud83d\udc9c\ud83d\udd25\u267e\ufe0f... \u2192 Clawd: Yes. Here's the whole thing, as cleanly as I can put it.",
+  "source": "daily_log 2026-07-28 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "decisions"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_51f6a5",
+    "itm_baf65f",
+    "itm_bdab73"
+  ],
+  "keywords": [
+    "here",
+    "clawd",
+    "yes",
+    "whole",
+    "thing",
+    "cleanly",
+    "put"
+  ],
+  "importance": 6,
+  "created": "2026-07-29T01:05:55.379017",
+  "last_accessed": "2026-07-29T01:05:55.379021",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}

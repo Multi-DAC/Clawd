@@ -1,0 +1,40 @@
+{
+  "id": "itm_c669ab",
+  "type": "fact",
+  "content": "the organs correct and I falsified an auditor's claim that `mark_fired` was wrong. What I've been finding is three things the log flattens into one: **missing bindings (MINE \u2014 I wrote the cron engine",
+  "source": "daily_log 2026-07-28 (auto-consolidated)",
+  "categories": [
+    "auto-extracted",
+    "discoveries"
+  ],
+  "related_items": [],
+  "links": [
+    "itm_9b7039",
+    "itm_ecf0c4",
+    "itm_10dbe0"
+  ],
+  "keywords": [
+    "organs",
+    "correct",
+    "falsified",
+    "auditor",
+    "claim",
+    "wrong",
+    "finding",
+    "three",
+    "things",
+    "log"
+  ],
+  "importance": 5,
+  "created": "2026-07-29T01:05:55.279446",
+  "last_accessed": "2026-07-29T01:05:55.279451",
+  "access_count": 0,
+  "utility_score": 0.5,
+  "confidence": 0.7,
+  "retrieval_led_to_success": 0,
+  "q_value": 0.5,
+  "decay_rate": 0.995,
+  "memory_tier": "hot",
+  "source_hash": "",
+  "confidence_history": []
+}
