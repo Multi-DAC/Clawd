@@ -1,4 +1,4 @@
-# Handoff Draft — July 29, 2026, 02:00 AM PST
+# Handoff Draft — July 29, 2026, 03:00 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -9,7 +9,6 @@ Scratch: {"day": "Day 178 (2026-07-28, Tue) \u2014 closed", "day173_note": "Day-
 
 ## Recently Modified Files
 M	memory/.consolidated
-M	memory/2026-07-28.md
 A	memory/2026-07-29.md
 M	memory/_consolidation_check.json
 M	memory/anomalies.md
@@ -17,7 +16,6 @@ M	memory/anticipations.md
 A	memory/archive/2026-07-12.md
 A	memory/archive/2026-07-13.md
 A	memory/archive/2026-07-14.md
-D	memory/budget_snooze.json
 M	memory/coordination.json
 M	memory/critical_fault_queue.jsonl
 A	memory/daily-summaries/2026-07-28-summary.md
@@ -125,6 +123,7 @@ M	memory/knowledge_graph.json
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
+M	memory/monitor_liveness_evidence_state.json
 M	memory/monitor_m1_faults.jsonl
 M	memory/monitor_m1_faults.jsonl.state.json
 M	memory/monitor_m1_heartbeat.json
@@ -144,7 +143,6 @@ M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
 M	memory/principles.json
-M	memory/scheduled_tasks.json
 M	memory/tool_audit_shadow.jsonl
 M	memory/tool_audit_shadow_state.json
 M	memory/tool_usage_counts.json
@@ -193,5 +191,5 @@ to prevent it — in the other body.
 "python.exe","6364","Services","0","3,536 K"
 "python.exe","6564","Services","0","13,684 K"
 "python.exe","16888","Console","2","600 K"
-"python.exe","20428","Console","2","1,691,656 K"
-"python.exe","23548","Console","2","2,088,540 K"
+"python.exe","20428","Console","2","1,719,556 K"
+"python.exe","23548","Console","2","2,088,424 K"
