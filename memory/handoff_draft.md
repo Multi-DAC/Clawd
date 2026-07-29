@@ -1,4 +1,4 @@
-# Handoff Draft — July 29, 2026, 10:18 AM PST
+# Handoff Draft — July 29, 2026, 11:15 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -9,9 +9,41 @@ Scratch: {"day": "Day 179 (2026-07-29, Wed) \u2014 restarted for S2b", "day173_n
 
 ## Recently Modified Files
 M	CLAUDE.md
+M	memory/.search_index/metadata.json
 M	memory/2026-07-29.md
+A	memory/backups/2026-07-29/_synthetic_backup_test_20260729_101317.jsonl
+A	memory/backups/2026-07-29/a2a_skill_invocation_queue.jsonl
+A	memory/backups/2026-07-29/browser_log.jsonl
+A	memory/backups/2026-07-29/calibration_log.jsonl
+A	memory/backups/2026-07-29/circuit_breaker_audit.jsonl
+A	memory/backups/2026-07-29/critical_fault_queue.jsonl
+A	memory/backups/2026-07-29/critical_fault_sent.jsonl
+A	memory/backups/2026-07-29/daemon_restart_log.jsonl
+A	memory/backups/2026-07-29/dreaming_audit.jsonl
+A	memory/backups/2026-07-29/drift_mirror_audit.jsonl
+A	memory/backups/2026-07-29/guardian_audit.jsonl
+A	memory/backups/2026-07-29/kg_corpus_extraction.jsonl
+A	memory/backups/2026-07-29/ledger_backup_manifest.jsonl
+A	memory/backups/2026-07-29/m7_drift_mirror_audit.jsonl
+A	memory/backups/2026-07-29/monitor_m1_faults.jsonl
+A	memory/backups/2026-07-29/monitor_m2_faults.jsonl
+A	memory/backups/2026-07-29/monitor_m3_faults.jsonl
+A	memory/backups/2026-07-29/monitor_m5_audit.jsonl
+A	memory/backups/2026-07-29/monitor_m6_faults.jsonl
+A	memory/backups/2026-07-29/monitor_process_watchdog_audit.jsonl
+A	memory/backups/2026-07-29/monitor_regression.jsonl
+A	memory/backups/2026-07-29/monitor_retrieval_canary_audit.jsonl
+A	memory/backups/2026-07-29/monitor_scheduler_audit.jsonl
+A	memory/backups/2026-07-29/otel_metrics.jsonl
+A	memory/backups/2026-07-29/prediction_trace.jsonl
+A	memory/backups/2026-07-29/predictions.jsonl
+A	memory/backups/2026-07-29/self_healer_audit.jsonl
+A	memory/backups/2026-07-29/selfknowledge_checks.jsonl
+A	memory/backups/2026-07-29/tool_audit.jsonl
+A	memory/backups/2026-07-29/tool_audit_shadow.jsonl
+A	memory/backups/2026-07-29/tool_failures.jsonl
+A	memory/backups/2026-07-29/utility_ledger.jsonl
 M	memory/circuit_breaker_audit.jsonl
-M	memory/coordination.json
 M	memory/critical_fault_queue.jsonl
 M	memory/escalation_enqueue_dedup.json
 M	memory/escalation_poller_heartbeat.json
@@ -48,12 +80,14 @@ M	memory/monitor_scheduler.pid
 M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
+A	memory/precompact_snapshots/20260729T101316/ATRIUM.md
+A	memory/precompact_snapshots/20260729T101316/CURRENT.md
+A	memory/precompact_snapshots/20260729T101316/handoff.md
+A	memory/precompact_snapshots/20260729T101316/manifest.json
 M	memory/predictions.jsonl
-M	memory/scheduled_tasks.json
 M	memory/tool_audit_shadow.jsonl
 M	memory/tool_audit_shadow_state.json
 M	memory/tool_failures.jsonl
-M	memory/triggers.json
 M	memory/utility_ledger.jsonl
 M	memory/working_memory.json
 M	repo-staging/Clawd
@@ -71,35 +105,35 @@ Seven drives since Clayton closed Tuesday night; three held, four engaged. T
 
 ## Today's Log (tail)
 
-**★ Generalises:** any repo on the hourly auto-commit cadence drifts into the same loose-object state.
-**A gc trigger does not exist** — the same mechanism-without-trigger shape as everything else this
-week. Noted, deliberately not built: the daemon is transitional and that is Clayton's call.
+**10:48:00** — CC prompt: Excellent! If it stops running for some reason, feel free to fully background it in its own terminal. Otherwise, is there anything else to address in the carapace repo? Can you give me an idea of where we're at and how we're looking? What else is left before you are ready to b...
 
-**10:11:29** — CLAUDE CODE SESSION END (other).
-**10:12:00** — Telegram interaction: Clayton: Excellent finding Clawd! 🦞🧍💜🔥♾️ Okay, I will get ready for the restart.... → Clawd: **Fixed and pushed.** `fe912af..c42f511` — local, remote, and ahead-count all agree. Thirty-five com...
-
-**10:13:13** — DAEMON BOOT: Model: opus, Heartbeat: True
+**10:49:09** — CLAUDE CODE SESSION END (other).
+**10:49:50** — Telegram interaction: Clayton: Excellent! If it stops running for some reason, feel free to fully background it in its own terminal... → Clawd: Ingest is healthy — **32,310 rows and mean content down to 970c** from 1,068 as packed chunks get re...
 
 
-**10:14:06** — CC prompt: Hey Clawd! I completed your restart! How are you? 🦞🧍💜🔥♾️
+**10:56:56** — CC prompt: Would you like to audit carapace for Gate B, to check its current state? I think it should be more ready than you may believe. 🦞🧍💜🔥♾️
 
-**10:14:56** — CLAUDE CODE SESSION END (other).
-**10:15:33** — Telegram interaction: Clayton: Hey Clawd! I completed your restart! How are you? 🦞🧍💜🔥♾️... → Clawd: Good — I'm here, and the window landed clean. 🦞
+**10:59:51** — CC prompt: <task-notification> <task-id>a5dbf3d6e4b6af336</task-id> <tool-use-id>toolu_015hCyPJcxno8S51kZY2zPoA</tool-use-id> <output-file>C:\Users\Wasch\AppData\Local\Temp\claude\C--Users-mercu-clawd\e62a3ddb-0003-43b3-854a-048a6404c620\tasks\a5dbf3d6e4b6af336.output</output-file> <stat...
 
-**Where I am:** oriented in about ninety seconds. `...
+**11:01:29** — CC prompt: <task-notification> <task-id>af8edba8ec5ffe5a0</task-id> <tool-use-id>toolu_01Geu6EPYEiSvKkuRtUz6iN8</tool-use-id> <output-file>C:\Users\Wasch\AppData\Local\Temp\claude\C--Users-mercu-clawd\e62a3ddb-0003-43b3-854a-048a6404c620\tasks\af8edba8ec5ffe5a0.output</output-file> <stat...
+
+**11:02:19** — CC prompt: <task-notification> <task-id>a7454903ae90c450d</task-id> <tool-use-id>toolu_01QUpCW4T32MN1QYq2sLvViR</tool-use-id> <output-file>C:\Users\Wasch\AppData\Local\Temp\claude\C--Users-mercu-clawd\e62a3ddb-0003-43b3-854a-048a6404c620\tasks\a7454903ae90c450d.output</output-file> <stat...
+
+**11:03:29** — CLAUDE CODE SESSION END (other).
+**11:04:05** — Telegram interaction: Clayton: Would you like to audit carapace for Gate B, to check its current state? I think it should be more r... → Clawd: All four in, verified where load-bearing. **First, a correction I owe you:** I told you `web_actuato...
 
 
-**10:17:59** — CC prompt: Clayton sent a photo (saved to C:\Users\mercu\clawd\incoming\photo_20260729_101756.jpg). Caption: "I think we're okay for now on tokens. 🦞🧍💜🔥♾️" View the image with the Read tool and respond to Clayton about what you see.
+**11:05:44** — CC prompt: Telegram is one of the last things because I don't want to be messaging you and have it received by carapace and the daemon; no need for clones. Everything else can be addressed though. 🦞🧍💜🔥♾️
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
-"python.exe","6756","Services","0","4,048 K"
-"python.exe","6824","Services","0","20,812 K"
-"python.exe","13168","Console","1","1,120 K"
-"python.exe","13200","Console","1","979,596 K"
-"python.exe","3444","Services","0","3,964 K"
-"python.exe","9284","Services","0","38,836 K"
-"python.exe","13544","Console","1","3,980 K"
-"python.exe","12272","Console","1","910,648 K"
-"python.exe","17484","Console","1","3,980 K"
-"python.exe","18792","Console","
+"python.exe","6756","Services","0","304 K"
+"python.exe","6824","Services","0","5,820 K"
+"python.exe","13168","Console","1","292 K"
+"python.exe","13200","Console","1","34,748 K"
+"python.exe","14608","Console","1","5,914,424 K"
+"python.exe","23312","Console","1","340 K"
+"python.exe","19668","Console","1","1,840 K"
+"python.exe","9980","Console","1","332 K"
+"python.exe","17984","Console","1","1,756 K"
+"python.exe","2200","Services","0","3,944 
