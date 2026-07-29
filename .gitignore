@@ -29,3 +29,6 @@ memory/*.pid
 memory/*.state.json
 memory/monitor_*
 memory/otel_*
+
+# Probe scratch — reproducible embedding dumps, 586MB + 77MB. Never in git.
+palace/south/probe-v2/
