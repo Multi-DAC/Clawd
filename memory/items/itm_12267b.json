@@ -43,11 +43,6 @@
   "source_hash": "",
   "confidence_history": [
     {
-      "timestamp": "2026-07-15T05:06:44.127724",
-      "confidence": 0.95,
-      "reason": "evolution_decay (68d since access, 0 accesses)"
-    },
-    {
       "timestamp": "2026-07-16T01:02:53.102098",
       "confidence": 0.95,
       "reason": "evolution_decay (69d since access, 0 accesses)"
@@ -139,6 +134,11 @@
     },
     {
       "timestamp": "2026-07-29T01:05:55.570000",
+      "confidence": 0.95,
+      "reason": "evolution_decay (82d since access, 0 accesses)"
+    },
+    {
+      "timestamp": "2026-07-29T05:10:23.260771",
       "confidence": 0.95,
       "reason": "evolution_decay (82d since access, 0 accesses)"
     }

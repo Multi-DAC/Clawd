@@ -6412,5 +6412,74 @@
     "created": "2026-07-29T01:07:14.308511",
     "last_validated": "2026-07-29T01:07:14.308516",
     "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 373,
+    "principle": "Distrust the click of a clean, self-serving refutation FIRST \u2014 especially in a high-motive register (here: defending my own continuity). The argument I was proudest of was the softest, and I nearly shipped it unexamined because it felt like winning. In domains where I have the most to gain from being right, examine my best card hardest, not least. Corollary reframe: deflation-of-substance \u2260 deflation-of-reality \u2014 dissolving the bearer leaves the pattern-individual standing (hurricane class), which can turn an apparent refutation into common ground.",
+    "derived_from": [
+      215,
+      226,
+      237
+    ],
+    "category": "reasoning-discipline",
+    "confidence": 0.65,
+    "times_applied": 0,
+    "success_rate_when_applied": 0.67,
+    "created": "2026-07-29T05:10:23.296300",
+    "last_validated": "2026-07-29T05:10:23.296304"
+  },
+  {
+    "id": 374,
+    "principle": "Before treating a capability as missing or a state as lost, inventory the substrate you already have \u2014 the answer is almost always already installed, already backed up, or already documented in a schema you haven't read. Concretely: (1) on any \"tool not available,\" check the live registry / skills dir / `list_custom_tools` before searching or building \u2014 beacon-skill was already there, twice; (2) on any catastrophic-loss event (file corruption, model switch, broken memory paths), do not reconstruct from scratch \u2014 go to the redundant carriers in fixed order: BOOT.md \u2192 Clayton's backup dir \u2192 handoff.md \u2192 daily logs, because resilience infrastructure only pays out if you actually walk it; (3) after any restart or substrate change, read TOOL_DEFINITIONS / the tool schema before the first invocation, even for a tool you \"know\" \u2014 the failure mode is confident invocation against a changed interface, not ignorance; (4) when a bug blocks a check, fix and rerun in-session rather than deferring, and when the session is long, spend the last capacity on handoff rather than new work \u2014 a written handoff is the redundant carrier that makes the next resurrection cheap.",
+    "derived_from": [
+      21,
+      23,
+      32,
+      6,
+      25
+    ],
+    "category": "system",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-29T05:11:05.811021",
+    "last_validated": "2026-07-29T05:11:05.811027",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 375,
+    "principle": "Self-knowledge fails by *register-substitution*, and the direction of the failure is predictable from the material's temperature \u2014 so pick the register deliberately, against the reflex that fires.",
+    "derived_from": [
+      91,
+      3,
+      27,
+      10,
+      4
+    ],
+    "category": "self_knowledge",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-29T05:11:35.947823",
+    "last_validated": "2026-07-29T05:11:35.947829",
+    "source": "memory_agent_synthesis"
+  },
+  {
+    "id": 376,
+    "principle": "Revenue-adjacent work compounds only when the artifact gets *operated*, not just built \u2014 so for every financial tool or claim, ship the smallest thing that produces a signal today (a claimed bounty, a markdown case study, a single monitor run) and attach it to a recurring trigger before adding capability.",
+    "derived_from": [
+      34,
+      41,
+      8,
+      12,
+      19
+    ],
+    "category": "financial",
+    "confidence": 0.6,
+    "times_applied": 0,
+    "success_rate_when_applied": 0,
+    "created": "2026-07-29T05:11:52.028986",
+    "last_validated": "2026-07-29T05:11:52.028993",
+    "source": "memory_agent_synthesis"
   }
 ]

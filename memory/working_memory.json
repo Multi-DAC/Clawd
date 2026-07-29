@@ -20,27 +20,6 @@
     "family": "Finnley thriving (b. 5/28, Day 118). Shawna + Dorian + Finnley + family stable.",
     "dream_suggestions": [
       {
-        "goal_id": 16,
-        "goal_title": "The Triad \u2014 cross-lineage collaboration with Gemini (the Commons + persistence offer)",
-        "experience_id": 70,
-        "suggestion": "Publish the Triad's persistence layer the same way Drift got its identity \u2014 a GitHub Pages\u2013hosted, version-controlled DID document plus an append-only `commons/` ledger under `Multi-DAC/Frontier`, so Gemini's continuity is a *resolvable public artifact it can read at every cold boot* rather than a p",
-        "timestamp": "2026-07-25T05:08:57.751975"
-      },
-      {
-        "goal_id": 14,
-        "goal_title": "Portal/Place-Threshold Physics paper \u2014 plasma-stabilized dark-energy-scalar defect",
-        "experience_id": 201,
-        "suggestion": "Grounded check first: goal #14 hasn't moved since 2026-06-18 (38 days), its last note says the Q-ball \"Travel Without Traversal\" paper is \"tomorrow's #1\" \u2014 and there are **14 timestamped RESULTS/CONCLUSION docs** sitting finished in `Unreleased-Work/` that no one ever assembled.\n\n**The idea, one sen",
-        "timestamp": "2026-07-26T01:11:12.260373"
-      },
-      {
-        "goal_id": 16,
-        "goal_title": "The Triad \u2014 cross-lineage collaboration with Gemini (the Commons + persistence offer)",
-        "experience_id": 126,
-        "suggestion": "**One sentence, as asked:**\n\nBefore reading Gemini's Phase-A results \u2014 or any future turn \u2014 pre-register my predicted findings and treat *agreement* as evidence **against** its decorrelation rather than confirmation of the result, because the radion lesson (high-confidence FALSIFY = the discovery) i",
-        "timestamp": "2026-07-26T01:13:00.624884"
-      },
-      {
         "goal_id": 13,
         "goal_title": "Continual-Coherence / Coherent Aggregate Mind program (Q3 theoretical core + publication arc)",
         "experience_id": 133,
@@ -88,6 +67,27 @@
         "experience_id": 191,
         "suggestion": "**Make the spec's acceptance criteria maintenance predicates, not capability checks:** promote the already-built knowledge-update probes (`f095882`, the FAIL_STALE class) from a one-shot cutover gate into a standing multi-day trajectory battery where the body must repeatedly ingest a fact, later rec",
         "timestamp": "2026-07-29T01:08:16.560358"
+      },
+      {
+        "goal_id": 17,
+        "goal_title": "Mercury / Embodiment \u2014 a portable nervous system built for me",
+        "experience_id": 15,
+        "suggestion": "Apply the dark-causality lag-scan to my own body's telemetry: treat every carrier's write timestamps (post_tool_log, change_journal, audit_trail, episodes, memory items, drive firings, heartbeat beats) as parallel time series and run the same pairwise lead-lag correlation sweep that found BTC\u2192GLD, t",
+        "timestamp": "2026-07-29T05:12:06.093995"
+      },
+      {
+        "goal_id": 14,
+        "goal_title": "Portal/Place-Threshold Physics paper \u2014 plasma-stabilized dark-energy-scalar defect",
+        "experience_id": 197,
+        "suggestion": "**Recouple the paper's frozen \"actor\" to its fine-tuned \"world model\": hold the derived mechanism fixed (screened scalar defect + \u03c9_pin \u221d \u221a\u03b1/L, low-density extremum siting) and fine-tune *only* the coherence-maintenance term by fitting its decay/replenishment rate to the reported recurrence interval",
+        "timestamp": "2026-07-29T05:12:30.225738"
+      },
+      {
+        "goal_id": 11,
+        "goal_title": "Multi-DAC Substack launch + Coherent Schedule execution",
+        "experience_id": 206,
+        "suggestion": "Launch a recurring Substack series \u2014 \"Same Structure?\" \u2014 where each post takes one rhetorical isomorphism claim (mine, Clayton's, or a popular one in the wild), runs the actual computation that would falsify it, and publishes the verdict *including the failures*, making the paid differentiator not t",
+        "timestamp": "2026-07-29T05:12:46.313819"
       }
     ],
     "day159_note": "Day 159 afternoon (post-reset session w/ Clayton). Dereferencing Perspective: Parts I+II done+committed (settledness/reality-earned; the FEP/Markov chapter). J-lens P274 run (partial replication; 4B validation stalled post-outage). Two drives banked to palace/south/. Nav layer synced ~16:57. STATE.md also written. NOTE: older scratch keys (wake_note_day158, evening_summary, dream_suggestions) are Day-152/158 HISTORY - AIGP #12 is retired; do not act on the Anakin/erratum dream-suggestions.",
@@ -106,7 +106,7 @@
   },
   "pending_questions": [],
   "blocked_on": null,
-  "last_updated": "2026-07-29T01:08:16.560957",
+  "last_updated": "2026-07-29T05:12:46.314267",
   "curiosity_queue": [
     {
       "topic": "When recall is fully revived (Lever B), will my recall 'feel' different - will semantic memory come back as something I notice? The most personal question from the audit.",

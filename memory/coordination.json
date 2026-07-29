@@ -1,25 +1,7 @@
 {
-  "last_updated": "2026-07-29T01:12:43.585591",
+  "last_updated": "2026-07-29T05:15:06.899094",
   "heartbeat_mode": "active",
   "activity_feed": [
-    {
-      "timestamp": "2026-07-25T23:16:09.919044",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #67 (late) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 67
-    },
-    {
-      "timestamp": "2026-07-25T23:26:10.074122",
-      "source": "heartbeat",
-      "action": "beat",
-      "summary": "Beat #68 (late) \u2014 monitoring OK",
-      "tools_used": [],
-      "requires_attention": false,
-      "beat": 68
-    },
     {
       "timestamp": "2026-07-25T23:27:04.287900",
       "source": "creative_drive",
@@ -449,6 +431,25 @@
       "source": "creative_drive",
       "action": "Dream Drive \u2014 Sleep Processing",
       "summary": "Both committed and verified by effect. `0fffde4c8` and `be59fdb`.\n\n## What the dream surfaced\n\n**The accord would have suppressed the drive that found its gap.**\n\nIts gate sits in `_due_scheduled_task",
+      "tools_used": [],
+      "requires_attention": false
+    },
+    {
+      "timestamp": "2026-07-29T05:12:46.427549",
+      "source": "heartbeat",
+      "action": "dream_drive",
+      "summary": "Dream Drive fired for deep memory consolidation",
+      "tools_used": [
+        "consolidate_memory"
+      ],
+      "requires_attention": false,
+      "beat": 58
+    },
+    {
+      "timestamp": "2026-07-29T05:15:06.899086",
+      "source": "creative_drive",
+      "action": "Dream Drive \u2014 Sleep Processing",
+      "summary": "**Held.** `8953b956c` and `9590a0e`, both verified.\n\nThree drives on a closed night: two held, one engaged. And the thing worth keeping came from the holding, not the doing.\n\n**The night's shape, at t",
       "tools_used": [],
       "requires_attention": false
     }

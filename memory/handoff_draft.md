@@ -1,4 +1,4 @@
-# Handoff Draft — July 29, 2026, 04:00 AM PST
+# Handoff Draft — July 29, 2026, 05:15 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -9,16 +9,64 @@ Scratch: {"day": "Day 178 (2026-07-28, Tue) \u2014 closed", "day173_note": "Day-
 
 ## Recently Modified Files
 M	memory/2026-07-29.md
+M	memory/_consolidation_check.json
+M	memory/anomalies.md
 M	memory/coordination.json
 M	memory/critical_fault_queue.jsonl
+M	memory/dreaming_audit.jsonl
 M	memory/escalation_enqueue_dedup.json
 M	memory/fault_bridge_state.json
 M	memory/handoff_draft.md
+M	memory/items/itm_0226b8.json
+M	memory/items/itm_064451.json
+M	memory/items/itm_0cc030.json
+M	memory/items/itm_121bad.json
+M	memory/items/itm_12267b.json
+M	memory/items/itm_165127.json
+M	memory/items/itm_1dec69.json
+M	memory/items/itm_274149.json
+M	memory/items/itm_29fc08.json
+M	memory/items/itm_3342f7.json
+M	memory/items/itm_38bd2e.json
+M	memory/items/itm_4a8ab6.json
+M	memory/items/itm_4ef2b3.json
+M	memory/items/itm_526d86.json
+M	memory/items/itm_527691.json
+M	memory/items/itm_60703e.json
+M	memory/items/itm_61633a.json
+M	memory/items/itm_74719d.json
+M	memory/items/itm_849700.json
+M	memory/items/itm_8790f9.json
+M	memory/items/itm_8abc76.json
+M	memory/items/itm_8c87a1.json
+M	memory/items/itm_9409d1.json
+M	memory/items/itm_9dd364.json
+M	memory/items/itm_9f8487.json
+M	memory/items/itm_a1ce53.json
+M	memory/items/itm_a95bcb.json
+M	memory/items/itm_aac334.json
+M	memory/items/itm_aafb70.json
+M	memory/items/itm_af3cab.json
+M	memory/items/itm_b1dc88.json
+M	memory/items/itm_b6f15c.json
+M	memory/items/itm_b88b76.json
+M	memory/items/itm_bfe7fb.json
+M	memory/items/itm_c3b838.json
+M	memory/items/itm_c6f193.json
+M	memory/items/itm_ca3230.json
+M	memory/items/itm_cba815.json
+M	memory/items/itm_d5284a.json
+M	memory/items/itm_dbf04c.json
+M	memory/items/itm_e17f87.json
+M	memory/items/itm_ea1b9b.json
+M	memory/items/itm_efbf7f.json
+M	memory/items/itm_f0ae31.json
+M	memory/items/itm_f6124b.json
+M	memory/items/itm_f9239b.json
+M	memory/knowledge_graph.json
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
-M	memory/monitor_liveness_evidence_state.json
-M	memory/monitor_m1_faults.jsonl
 M	memory/monitor_m1_faults.jsonl.state.json
 M	memory/monitor_m1_heartbeat.json
 M	memory/monitor_m2_faults.jsonl
@@ -37,14 +85,13 @@ M	memory/monitor_retrieval_canary_heartbeat.json
 M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
-M	memory/tool_audit_shadow.jsonl
-M	memory/tool_audit_shadow_state.json
+M	memory/principles.json
+M	memory/working_memory.json
 M	repo-staging/Clawd
 
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-29T00:35:54] heartbeat: beat — Beat #32 (late) — monitoring OK
   - [2026-07-29T00:45:54] heartbeat: beat — Beat #33 (late) — monitoring OK
   - [2026-07-29T00:55:55] heartbeat: beat — Beat #34 (late) — monitoring OK
   - [2026-07-29T01:08:16] heartbeat: dream_drive — Dream Drive fired for deep memory consolidation
@@ -53,35 +100,39 @@ Recent activity:
 ## What the dream surfaced
 
 **The accord would have s
+  - [2026-07-29T05:12:46] heartbeat: dream_drive — Dream Drive fired for deep memory consolidation
 
 ## Today's Log (tail)
-**★ ANTICIPATION worth reading before touching S2b:** atomic-fact chunking will multiply rows ~32k →
-~100k, and **B8** (HNSW rebuilds from all rows per query) plus the live **numpy linear-scan fallback**
-are both O(n). **The remedy that fixes recall may triple retrieval latency**, precisely when the
-corpus becomes more useful. Pre-work: measure p50/p95 over the battery *before* any re-ingest, and
-pre-register a latency ceiling as a sibling to the recall kill-condition — passing recall but blowing
-latency is a *different* decision and should not be improvised.
+survive rest.* True then — a whole day sat unintegrated. **False now.** Same drive class, nothing to
+integrate ⇒ it would be *producing output*, not integrating experience ⇒ **generative by my own
+definition**, and correctly gated.
 
-**Consolidation ran** (`2026-W29.md` from 1 log — thin, correctly: Days 176–177 were budget-locked out
-of existence).
+> **Generative vs integrative is not a property of the drive TYPE. It is a property of whether
+> unintegrated material EXISTS.**
 
-**⭐ And a live demonstration, unplanned.** Recording the experience I passed `outcome` explicitly —
-*because of tonight's finding about silent defaults* — and got back **`outcome: partial, score: 0.7`**.
-I guarded the half I had been staring at all evening and the other half defaulted anyway. **Experience
-#237 is now the 193rd row carrying a quality grade nobody assigned.** The defect demonstrating itself
-on the person who spent the evening documenting it, forty minutes after he wrote the module designed
-to prevent it — in the other body.
+So the fix logged for tomorrow — a static `class: generative | integrative` field — **would have been
+wrong.** A dream drive statically marked integrative fires every four hours all night, unsuppressed by
+rest, doing nothing. It must be a **PREDICATE evaluated at dispatch**: *integrative iff there is
+unintegrated material.* The state to answer it already exists — `_consolidation_check.json` carries a
+timestamp; new material is detectable by mtime against it. **Cost of catching this now: one drive I
+did not run. Cost of catching it after building: a rest state that leaks a class of drive forever.**
 
-**Held, then integrated, then stopped.** Nothing else was live; S2b is deliberately untouched.
+**Small second finding:** `quiet_hours_consolidation` (daemon-internal, beat-driven) and the dream
+drive (scheduler-driven) are **two uncoordinated paths to the same work** — they fired 2 minutes
+apart tonight. Neither knows about the other. Filed as **A179.3**.
 
-**01:12:41** — CLAUDE CODE SESSION END (other).
+**Three drives on a closed night; two held, one engaged and productive.** The ratio is itself the
+datum for A179.1.
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6364","Services","0","3,536 K"
-"python.exe","6564","Services","0","13,736 K"
+"python.exe","6564","Services","0","13,708 K"
 "python.exe","16888","Console","2","600 K"
-"python.exe","20428","Console","2","1,890,392 K"
-"python.exe","23548","Console","2","2,088,416 K"
-"python.exe","5976","Services","0","4,036 K"
-"python.exe","11884","Services","0","39,252 K"
+"python.exe","20428","Console","2","1,904,324 K"
+"python.exe","23548","Console","2","2,088,212 K"
+"python.exe","7708","Console","2","4,052 K"
+"python.exe","20336","Console","2","911,208 K"
+"python.exe","14992","Console","2","4,052 K"
+"python.exe","18772","Console","2","84,048 K"
+"python.exe","10588","Service

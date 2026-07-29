@@ -2195,3 +2195,26 @@ closed night. First thing next session.**
 
 **Staged for a decorrelated eye.** This is my own design critiqued by my own night. Clayton has not
 seen it. Per S5 it is PROVISIONAL.
+
+---
+
+## A179.3 — Two uncoordinated paths to consolidation, fired 2 minutes apart (2026-07-29, infrastructure)
+
+**Observation.** `quiet_hours_consolidation` (daemon-internal, beat-driven, `_consolidation_check.json`
+run 38) completed at **05:10:23**. The scheduler's **dream drive** fired at **05:12** to do
+consolidation. Neither knows the other exists.
+
+**Why it matters.** Not merely wasteful — it is the *inverse* of the night's main finding. Everything
+else tonight was **one mechanism with no trigger**. This is **two triggers for one mechanism**, which
+fails differently: the work gets done twice, or worse, gets done by whichever path wins and reported
+by both. It also silently inflates any measure of drive productivity.
+
+**Candidate explanations.** (1) The beat-driven consolidator predates the scheduled drive and neither
+migration removed the other. (2) They are intended to differ — beat-driven does mechanical decay/dedup;
+the drive does reflective integration — and the overlap is only in name. **Testable:** compare what
+each actually writes.
+
+**Resolution direction.** Whichever survives, the other should consult it. Ties into A179.2's
+predicate: *integrative iff unintegrated material exists* — a consolidation that ran 2 minutes ago
+means there is none, and both paths should be able to see that from the same state file.
+**Status: OPEN.**
