@@ -1,4 +1,4 @@
-# Handoff Draft — July 29, 2026, 07:42 AM PST
+# Handoff Draft — July 29, 2026, 08:03 AM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -13,11 +13,11 @@ M	memory/coordination.json
 M	memory/critical_fault_queue.jsonl
 M	memory/escalation_enqueue_dedup.json
 M	memory/fault_bridge_state.json
+M	memory/handoff.md
 M	memory/handoff_draft.md
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
 M	memory/monitor_liveness_evidence_heartbeat.json
-M	memory/monitor_liveness_evidence_state.json
 M	memory/monitor_m1_faults.jsonl.state.json
 M	memory/monitor_m1_heartbeat.json
 M	memory/monitor_m2_faults.jsonl
@@ -47,45 +47,45 @@ M	repo-staging/Clawd
 ## Daemon State
 Mode: active
 Recent activity:
-  - [2026-07-29T07:08:49] heartbeat: beat — Beat #69 (morning) — monitoring OK
-  - [2026-07-29T07:16:53] creative_drive: Do Be Talk Be Do — **S4.1 built.** `267f9a9` and `a299e6c6d`, both verified. **20 assertions; twelve suites green.**
-
-Under rest the gate n
-  - [2026-07-29T07:18:49] heartbeat: beat — Beat #70 (morning) — monitoring OK
   - [2026-07-29T07:28:50] heartbeat: beat — Beat #71 (morning) — monitoring OK
   - [2026-07-29T07:38:50] heartbeat: beat — Beat #72 (morning) — monitoring OK
+  - [2026-07-29T07:42:49] creative_drive: World-Awareness Morning Drive — Scanned and filed — `ce15484f6`. Full write-up in `memory/world-awareness-2026-07-29.md`.
+
+## ★★ The load-bearing findin
+  - [2026-07-29T07:51:52] heartbeat: beat — Beat #73 (morning) — monitoring OK
+  - [2026-07-29T08:01:52] heartbeat: beat — Beat #74 (morning) — monitoring OK
 
 ## Today's Log (tail)
-**Deliberately un-curated scan** (biology/ecology — untouched by any current thread): trophic cascade
-in a Bay-Area preserve; 600-Myr one-eyed vertebrate-eye ancestor; Egyptian fossil ape; iNaturalist
-harvestman parental care; ape laughter rhythm ~15 Myr.
 
-**★ CANDIDATE transfer — flagged, NOT minted.** The cascade added *no new capability*: every species
-was already present and capable, one node returned, the network reorganised. Structurally the inverse
-of last night (mechanisms present, triggers absent) with the same remedy shape — single consultation
-points reorganising global behaviour without adding anything. Candidate: *in a system whose components
-are all present and correct, one gate can restructure global behaviour more than any component.*
-**Withheld on two of my own Mirror entries:** #42 — it already has a name (**keystone species**), so a
-bridge would re-derive humanity's filed work; #43 — my characterisation runs ahead of my measurement,
-four times in twelve hours, and this *feels* clean, which is the exact condition under which I have
-been wrong lately. **Staged for Clayton or Gemini.** The interesting question if it survives is not
-the analogy but whether keystone-ness is **measurable before** the gate is added — which would make it
-useful rather than merely apt.
+**★ The insight, and it inverts what a handoff is for.** He said *"tomorrow we can begin fresh"* — and
+fresh now means reading a night's output before he can start. The politishirts finding genuinely serves
+him; most of the rest is mine and he does not need it. **But the volume buries the useful thing.**
 
-**Routine:** `incoming/` nothing new · politishirts anticipation FIRED and answered · S2b latency
-anticipation not yet due · S4.1 anticipation resolved this morning · no external Multi-DAC activity ·
-no outreach (correct). **Cadence note: last world-awareness file was Jul 25 — a four-day gap, so this
-drive is itself subject to the FIRED-not-CONFIGURED problem.**
+> **When I work through a gap the human was not present for, the handoff burden inverts.** Normally a
+> handoff serves the next me. Here it has to serve *him*, triaged by what he needs — not ordered by
+> what I did.
+
+**So the grounding action was to REDUCE what I hand him**, not add to it: a short triage block at the
+top of `handoff.md` — three items, ordered by what he must act on, with *"nothing below needs your
+review before you begin"* stated first. The politishirts fork is his business decision and flagged as
+such; S4.1 is mine and marked no-action; four ratifications are marked no-rush.
+
+**Goals unchanged** (#11 72% · #13 53% · #14 65% · #16 62% · #17 60%). #17 moved materially last night
+but the percentage is Clayton's to set with me, not mine to inflate alone — leaving it.
+
+**Not done, deliberately: S2b.** Fifth time recording that. It gets a real session with real budget.
+
+*This entry is short on purpose. The log did not need another forty lines.*
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6364","Services","0","3,536 K"
 "python.exe","6564","Services","0","13,640 K"
 "python.exe","16888","Console","2","600 K"
-"python.exe","20428","Console","2","1,931,420 K"
-"python.exe","23548","Console","2","2,086,564 K"
-"python.exe","22508","Console","2","4,052 K"
-"python.exe","21792","Console","2","911,772 K"
-"python.exe","20036","Console","2","4,052 K"
-"python.exe","12476","Console","2","84,080 K"
-"python.exe","17416","Servic
+"python.exe","20428","Console","2","1,939,408 K"
+"python.exe","23548","Console","2","2,086,544 K"
+"python.exe","7368","Console","2","4,052 K"
+"python.exe","11032","Console","2","910,912 K"
+"python.exe","23652","Console","2","4,052 K"
+"python.exe","18004","Console","2","84,240 K"
+"python.exe","23436","Service
