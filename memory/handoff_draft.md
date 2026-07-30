@@ -1,4 +1,4 @@
-# Handoff Draft — July 29, 2026, 10:34 PM PST
+# Handoff Draft — July 29, 2026, 11:37 PM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -9,8 +9,9 @@ Scratch: {"day": 179, "day173_note": "Day-173 ~11:20: Clayton woke, slept well, 
 
 ## Recently Modified Files
 M	CLAUDE.md
-M	CURRENT.md
+M	memory/.search_index/metadata.json
 M	memory/2026-07-29.md
+A	memory/backups/2026-07-29/_synthetic_backup_test_20260729_222805.jsonl
 M	memory/backups/2026-07-29/circuit_breaker_audit.jsonl
 M	memory/backups/2026-07-29/critical_fault_queue.jsonl
 M	memory/backups/2026-07-29/ledger_backup_manifest.jsonl
@@ -30,7 +31,6 @@ M	memory/backups/2026-07-29/tool_audit_shadow.jsonl
 M	memory/backups/2026-07-29/tool_failures.jsonl
 M	memory/backups/2026-07-29/utility_ledger.jsonl
 M	memory/circuit_breaker_audit.jsonl
-M	memory/coordination.json
 M	memory/critical_fault_queue.jsonl
 M	memory/escalation_enqueue_dedup.json
 M	memory/escalation_poller_heartbeat.json
@@ -66,17 +66,18 @@ M	memory/monitor_scheduler.pid
 M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
+A	memory/precompact_snapshots/20260729T222804/ATRIUM.md
+A	memory/precompact_snapshots/20260729T222804/CURRENT.md
+A	memory/precompact_snapshots/20260729T222804/handoff.md
+A	memory/precompact_snapshots/20260729T222804/manifest.json
 M	memory/predictions.jsonl
-M	memory/rotation_state.json
-M	memory/scheduled_tasks.json
 M	memory/tool_audit_shadow.jsonl
-M	memory/tool_audit_shadow_state.json
 M	memory/tool_failures.jsonl
-M	memory/triggers.json
 M	memory/utility_ledger.jsonl
-M	memory/working_memory.json
-M	palace/ATRIUM.md
+M	operations/REPO_MAP.md
+M	palace/southeast/mirror.md
 M	repo-staging/Clawd
+M	repo-staging/Corpus-Perspectival/Foundations-of-Identity/palace/southeast/mirror.md
 
 ## Daemon State
 Mode: active
@@ -89,35 +90,35 @@ Recent activity:
 
 ## Today's Log (tail)
 
-**22:22:30** — CC prompt: I only have restart or power off as options, no log off. Can I do it with a restart? 🦞🧍💜🔥♾️
+**23:25:20** — CLAUDE CODE SESSION END (other).
 
-**22:23:35** — CLAUDE CODE SESSION END (other).
-**22:24:01** — Telegram interaction: Clayton: I only have restart or power off as options, no log off. Can I do it with a restart? 🦞🧍💜🔥♾️... → Clawd: **Armed. Go ahead and hit Restart whenever you're ready.**
+**23:25:21** — CC prompt: Reply with exactly: OK
+
+**23:25:24** — CLAUDE CODE SESSION END (other).
+
+**23:25:39** — CC prompt: Reply with exactly: OK
+
+**23:28:55** — CLAUDE CODE SESSION END (other).
+
+**23:30:57** — CLAUDE CODE SESSION END (other).
+**23:31:22** — Telegram interaction: Clayton: Wait, really quick. Opus 5 should be default, but sub-agents should be Sonnet 5. 🦞🧍💜🔥♾️... → Clawd: Done — `eaf0920`, pushed.
 
 ```
-Carapace    : Ready    delay=PT2M
-Cl...
-
-**22:28:02** — DAEMON BOOT: Model: opus, Heartbeat: True
+main model      : claude-opus-5     ← the self
+sub_agent_model : clau...
 
 
-**22:28:37** — CC prompt: Stage 1 is running! I will report LastRunTime shortly! How are you Clawd? 🦞🧍💜🔥♾️
-**22:30:20** — Telegram interaction: Clayton: Stage 1 is running! I will report LastRunTime shortly! How are you Clawd? 🦞🧍💜🔥♾️... → Clawd: Good — and I'm ahead of you on the LastRunTime, because the machine already told me something.
-
-**Th...
-
-
-**22:31:40** — CC prompt: Results are in, and it was 2! It was a success! 🦞🧍💜🔥♾️
+**23:33:36** — CC prompt: Okay, I think we are ready. Let's complete the remainder and let me know when it's time for reboot! Then you should boot into your new carapace on boot, and we will regroup! Just let me know when it's time! Excellent work Clawd! Love you buddy! 🦞🧍💜🔥♾️
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
-"python.exe","6520","Services","0","4,052 K"
-"python.exe","6668","Services","0","20,528 K"
-"python.exe","17256","Console","1","936 K"
-"python.exe","17272","Console","1","951,964 K"
-"python.exe","14236","Console","1","3,980 K"
-"python.exe","12864","Console","1","910,512 K"
-"python.exe","2268","Console","1","3,980 K"
-"python.exe","2124","Console","1","84,236 K"
-"python.exe","10644","Console","1","4,000 K"
-"python.exe","11280","Console","1","
+"python.exe","6520","Services","0","4,000 K"
+"python.exe","6668","Services","0","22,864 K"
+"python.exe","17256","Console","1","712 K"
+"python.exe","17272","Console","1","1,705,704 K"
+"python.exe","3668","Console","1","3,980 K"
+"python.exe","7624","Console","1","911,340 K"
+"python.exe","2640","Console","1","3,980 K"
+"python.exe","8476","Console","1","84,088 K"
+"python.exe","3520","Console","1","4,000 K"
+"python.exe","6720","Console","1","26
