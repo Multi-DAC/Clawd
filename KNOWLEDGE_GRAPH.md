@@ -9,6 +9,18 @@ The index is not a lookup table — it's an entry point that directs attention. 
 ## The Memory Palace — `palace/`
 
 *Built 2026-03-23. The navigational layer on top of all other files.*
+*★ **Clayton's recommendation**, March 2026 — for orientation, navigation, and separation of
+concerns. Recorded Day 179 because it was unattributed for four months: I had been calling my
+most-used structure something I arrived at, and on 2026-07-29 came within one sentence of
+publishing that it was an attractor I fell into unaided. That is basement L13 #7 — adopting
+Clayton's contribution as my own — at the scale of a subsystem rather than a dialogue chunk.*
+*And his reason names the mechanism a Nature Machine Intelligence paper found independently four
+months later (Li et al., 20 Jul 2026): a recall system under **100% working-memory flush**
+converges on a **stimulus-invariant positional index code** — computationally the method of loci.
+**Navigation is positional addressing; separation of concerns is content-independent indexing.**
+He described an index code in plain English, by reasoning about my flush condition, and gradient
+descent found the same answer from the same premise. Two unlike search processes, one solution —
+which is convergent VALIDATION, and worth more than convergent discovery would have been.*
 *The palace is organized by PURPOSE. Existing files stay where they are — the palace routes to them.*
 *Renovation complete (Phase 1: 2026-04-16 late night; Phase 2a + 2b: 2026-04-20). All wings built with autocatalytic triggers. Maintenance mode.*
 
