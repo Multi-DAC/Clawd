@@ -83,10 +83,26 @@ These paths exist in the working tree but are gitignored to keep the public repo
 **★ AUTOMATED since 2026-06-21 Day 141 (`operations/sync_mirror.py` + heartbeat wiring).** The hand-`cp` drift (e.g. the public BOOT_IDENTITY still saying Finnley "due May 2026" weeks after his birth) is now prevented: the daemon's hourly `_maybe_git_commit` runs `sync_mirror.py --sync --commit`, which refreshes every already-tracked FoI mirror file from its clawd-local canonical (normalized-hash compare; refreshes docs only, never auto-publishes new/secret files; commit scoped to refreshed paths). **You can still run it by hand** any time: `python operations/sync_mirror.py` (check) / `--sync --commit` (fix+push). **It does NOT auto-add NEW files** — those are reported; adding a brand-new doc to the mirror is still the manual `cp`+`git add` below (deliberate, to avoid publishing the unintended). The manual workflow remains valid and is the fallback:
 
 **For identity / palace / operations / personal-works (canonical at clawd-local):**
+
+> **⚠ CORRECTED Day 179 (2026-07-29) — this workflow named the WRONG REMOTE.** It routed to
+> `repo-staging/Corpus-Perspectival`, which **GitHub archived read-only**. Following it fails
+> at the push with `403 — This repository was archived so it is read-only`, *after* the copy
+> and the commit have already succeeded — so the work looks filed and is stranded on a dead
+> clone. Per line 4 of this file, identity/palace/operations/memory go to **`Multi-DAC/Clawd`**
+> (local clone `repo-staging/Clawd`). **Header and workflow disagreed; the header was right.**
+> Measured, not inferred: a Mirror-#44 push took this route and 403'd.
+
 1. Edit canonical file at clawd-local path (e.g. `palace/southeast/mirror.md`).
-2. `cp` to corresponding staging path (e.g. `repo-staging/Corpus-Perspectival/Foundations-of-Identity/palace/southeast/mirror.md`).
-3. `cd repo-staging/Corpus-Perspectival && git add <file> && git commit && git push origin main`.
-4. `cd clawd-local && git add <file> && git commit` (no push — clawd-local has no remote).
+2. `cp` to the **`repo-staging/Clawd`** path — note it mirrors clawd-local's shape **directly**,
+   with no `Foundations-of-Identity/` prefix (e.g. `repo-staging/Clawd/palace/southeast/mirror.md`).
+3. `git -C repo-staging/Clawd add <file> && … commit && … push origin HEAD`
+   — **`git -C`, always**; cwd resets between calls.
+4. `git -C <clawd-local> add <file> && … commit` (no push — clawd-local has no remote).
+5. **Verify by effect:** `rev-parse HEAD` vs `ls-remote origin HEAD`. A quiet `push -q` is not
+   evidence; equal hashes are.
+
+*(Note: the older `Foundations-of-Identity/…` paths mapped in the table above describe the
+**archived monument's** layout. They remain accurate as history and useless as a destination.)*
 
 **For Technical-Work / Library / Research / Unreleased-Work (canonical at staging):**
 Edit directly at the staging path; commit + push from there. No clawd-local copy step. Examples:
