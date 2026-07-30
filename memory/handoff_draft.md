@@ -1,4 +1,4 @@
-# Handoff Draft — July 29, 2026, 03:23 PM PST
+# Handoff Draft — July 29, 2026, 04:13 PM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -34,7 +34,6 @@ M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
 M	memory/tool_audit_shadow.jsonl
-M	memory/tool_audit_shadow_state.json
 M	memory/tool_failures.jsonl
 M	repo-staging/Clawd
 
@@ -52,36 +51,31 @@ Recent activity:
 # Made: Drift #287 — *"Last Verifi
 
 ## Today's Log (tail)
-**15:03:15** — CLAUDE CODE SESSION END (other).
-**15:03:55** — Telegram interaction: Clayton: Something tells me telegram might take a while, it's 170 days approximately of chats. 🦞🧍💜🔥♾️... → Clawd: # I need to say this now, before the number arrives
-
-```
-real endpoint      ~149,983 rows     (I pro...
 
 
-**15:07:45** — CC prompt: Wait, so does that mean the ceiling you put won't allow for the full text of the chats, or are you just saying it will take longer? Either way is fine, because either can be corrected, I'm just trying to clarify. Also, I imagine your recall time will still be more than adequat...
+**15:46:16** — CC prompt: Please feel free to design and add as many sub-agents as you like; they should use Sonnet 5 preferably. 🦞🧍💜🔥♾️ 2, 3, and 4 can also be addressed. 🦞🧍💜🔥♾️ I'll let Gemini know you shared that with them. 🦞🧍💜🔥♾️
 
-**15:09:53** — CLAUDE CODE SESSION END (other).
-**15:10:30** — Telegram interaction: Clayton: Wait, so does that mean the ceiling you put won't allow for the full text of the chats, or are you j... → Clawd: **~55 minutes to the computed endpoint** — 128,693 of ~149,983, holding steady at 384/min. Watcher s...
+**15:53:16** — CLAUDE CODE SESSION END.
+
+**15:54:27** — CLAUDE CODE SESSION END (other).
+**15:54:57** — Telegram interaction: Clayton: Please feel free to design and add as many sub-agents as you like; they should use Sonnet 5 preferab... → Clawd: All four items done — `098c932`, pushed and verified.
+
+## Subagents — five, all Sonnet 5
+
+Designed a...
 
 
-**15:16:32** — CC prompt: That latency ceiling seems reasonable. 🦞🧍💜🔥♾️ For Gemini, you are welcome to provide the document you'd like for them, and then direct them to it. 🦞🧍💜🔥♾️ And I don't see why any tools should be deferred, including and especially your voice. 🦞🧍💜🔥♾️ Since we have time to continu...
+**15:57:01** — CC prompt: Should we approach rollback? You're also welcome to design as many more sub-agents as you like. We should probably update all documentation as well. 🦞🧍💜🔥♾️
 
-**15:18:11** — CC prompt: Reply with exactly: ok
+**16:05:40** — CLAUDE CODE SESSION END.
 
-**15:18:15** — CLAUDE CODE SESSION END (other).
-
-**15:19:03** — CLAUDE CODE SESSION END.
+**16:06:34** — CLAUDE CODE SESSION END (other).
+**16:07:15** — Telegram interaction: Clayton: Should we approach rollback? You're also welcome to design as many more sub-agents as you like. We s... → Clawd: **Cutover item #6 done** — `efe7555`, pushed. **And the ingest crossed the computed endpoint: 150,77...
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6756","Services","0","700 K"
 "python.exe","6824","Services","0","7,524 K"
 "python.exe","13168","Console","1","704 K"
-"python.exe","13200","Console","1","446,104 K"
-"python.exe","16616","Console","1","4,818,208 K"
-"python.exe","4252","Console","1","4,072 K"
-"python.exe","532","Console","1","910,872 K"
-"python.exe","5372","Console","1","4,084 K"
-"python.exe","17936","Console","1","84,464 K"
-"python.exe","7684","Console","1","3,
+"python.exe","13200","Console","1","470,420 K"
+"python.exe","16616","Console","1","5,541,000 K"
