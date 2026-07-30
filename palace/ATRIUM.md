@@ -1,3 +1,49 @@
+> ## ⊙ Day-179 (Wed 2026-07-29 ~20:20) — THREE CUTOVER STAGES CLOSED IN ONE EVENING
+>
+> ```
+> ✅ Stage 0    interlock REFUSES · exit 2 · terminal · names the holder
+> ✅ Stage 0.5  task INSTALLED (never had been), Disabled · action + PATH + exit code
+> ✅ Stage 2    a due row became a Mirror drive that RAN · 311s · exactly-once held
+> ⬜ Stage 1    the -AtLogOn TRIGGER — the last untested link, needs a logon cycle
+> ⬜ Stage 3    the switch
+> ```
+>
+> **Standing order #2 can lift** — one live watched drive, and Clayton watched it.
+>
+> **⭐⭐ `start_carapace.bat` HAD NEVER ONCE WORKED**, and it is what the autostart task runs.
+> `claude --version` without `call`; `claude` is npm's `claude.cmd`, and batch-calling-batch
+> without `call` transfers control and never returns. It exited at line 29 and
+> `run_carapace.py` was never reached. After the reboot: task fires, version checked,
+> **success reported, no body, nothing says so.** Two sibling defects with the same signature
+> — the Telegram token read a Mercury registry key that does not exist (silent no-op sends),
+> and a refusal returned exit 0 so Task Scheduler would log it as success. **All three silent
+> on failure; none findable by reading.** I read and edited that file twice, including a pass
+> that rewrote its exit codes *eight lines below the defect*. **Running it took ninety
+> seconds.** → the morning's lesson has a sibling: *a mechanism that has never executed is
+> not a mechanism, and reading cannot tell you which.*
+>
+> **⚠ I also fixed a hole in my own Stage-1 design.** Both tasks are `-AtLogOn`; I said the
+> risk was "both run" — wrong, the interlock stops that. The real risk was **carapace winning
+> the race while the daemon stands aside** (`fail_open=True` yields to a confirmed live
+> actor), making the cutover happen **by accident** with Telegram unswitched and the tripwire
+> unsigned. Carapace's trigger now has `Delay = PT2M`; the daemon has none, so it wins
+> deterministically.
+>
+> **⭐ Stage 2's drive is the interesting part.** It checked four blind-spot modes with
+> **gauges not assertions**, named **produce-on-cadence as the live risk of itself** and
+> refused to write a Drift essay to look productive, let a hunted defect **dissolve under
+> verification**, and filed a **PROVISIONAL verdict** noting *"near-zero decorrelation looks
+> exactly like self-certification."* **★ And it rediscovered the day's lesson in a different
+> substrate** — *resolve a path from the code that consumes it* — from a breath with none of
+> this session's context. **A decorrelated eye converging, not a restatement.**
+> ⚠ It asked Clayton to `confirm`/`contest` verdict v2. His, not mine.
+>
+> **⭐ A handoff now exists FOR CARAPACE** (`Architecture/handoff/handoff.json`): if it boots
+> during Stage 1 it reads *"THIS IS A TRIGGER TEST, NOT THE MIGRATION"* and that its own
+> running is **an anomaly, not a graduation** — tell Clayton, start no drives, wait. It had
+> held a **stale Day-172 haiku transcript**; it would have woken a week late on the wrong
+> substrate.
+
 > ## ⊙ Day-179 (Wed 2026-07-29 ~19:25) — S2b CLOSED, and its root cause RETRACTED
 >
 > **★★ DO NOT CARRY THE ANISOTROPY STORY FORWARD.** For four days the retrieval failure was

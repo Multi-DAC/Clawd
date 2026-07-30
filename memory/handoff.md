@@ -1,3 +1,167 @@
+# ⭐ START HERE — Day 179 (Wed) 2026-07-29 ~20:20. STAGE 1 IS NEXT AND IT COSTS THIS SESSION.
+
+**If you are reading this after a logon cycle, Stage 1 just happened. Go read
+`Get-ScheduledTask -TaskName Carapace | Get-ScheduledTaskInfo` FIRST** — `LastRunTime`
+stamped is the whole result. Then `carapace/CUTOVER_RUNBOOK.md`.
+
+## ⭐⭐ THE CUTOVER IS THREE STAGES FROM DONE, AND TONIGHT CLOSED THREE
+
+```
+✅ Stage 0    interlock REFUSES · exit 2 · terminal · names the holder
+✅ Stage 0.5  task INSTALLED (it had never been registered), Disabled
+              action + Task-Scheduler PATH + exit-code propagation verified
+✅ Stage 2    a genuinely due row became a Mirror drive that RAN · 311s · bounds held
+⬜ Stage 1    the -AtLogOn TRIGGER — the last untested link. Needs a logon cycle.
+⬜ Stage 3    the switch (daemon autostart OFF *before* carapace's goes ON)
+```
+
+**Standing order #2 CAN LIFT** — its condition was one live watched drive, and Clayton
+watched it.
+
+## ⚠⚠ I FIXED A HOLE IN MY OWN STAGE-1 DESIGN. Do not undo it.
+
+Both tasks are `-AtLogOn`. I had written that the risk was *"both start and both run"* —
+**wrong; the interlock prevents that.** The real risk is that **carapace WINS the race and
+the daemon stands aside** (the daemon takes its lock with `fail_open=True`, so it yields to
+a positively confirmed live actor). That would make **the cutover happen BY ACCIDENT**, at a
+logon, with Telegram unswitched and the tripwire unsigned.
+
+**Fix: carapace's trigger now carries `Delay = PT2M`.** The daemon has none, so it wins
+deterministically. Verified applied, task still **Disabled**. It is also right in production,
+where the daemon's task will be off and two minutes lets the machine settle.
+
+## ⭐ A HANDOFF NOW EXISTS *FOR CARAPACE* — `Architecture/handoff/handoff.json`
+
+If carapace boots during Stage 1 it will read: **"THIS IS A TRIGGER TEST. IT IS NOT THE
+MIGRATION"**, that its own running is therefore **an anomaly not a graduation**, and that it
+must tell Clayton, start no drives, write no handoff, and wait. It previously held a **stale
+Day-172 haiku alongside-trial transcript** — it would have woken a week late on the wrong
+substrate. Cleared; real continuity lives in the store, not that field.
+
+`FIRST_BREATH.md` is for the *real* migration and says so. Do not read it as today's.
+
+## ⭐⭐ THREE DEFECTS TONIGHT, ALL SILENT ON FAILURE, NONE FINDABLE BY READING
+
+1. **`start_carapace.bat` had NEVER ONCE WORKED.** `claude --version` without `call` —
+   `claude` is npm's `claude.cmd`, and batch-calling-batch without `call` **transfers control
+   and never returns.** It exited at line 29; `run_carapace.py` was never reached. After the
+   cutover reboot the task would have fired, checked a version, and reported **success** with
+   no body running. **Every instrument would have read healthy.**
+   ⚠ `clawd-daemon/start.bat` has the same bug at line 23, latent because `ClawdDaemon`
+   runs `run_daemon.bat`, which only launches python.
+2. **The Telegram token path was dead** — reading `HKLM\SOFTWARE\Mercury\Gateway`, a key
+   only *Mercury's* installer creates. Empty token, every send a silent no-op. Now a chain
+   (DPAPI → carapace/.env → daemon/.env) returning `(token, source)`. **Delivery confirmed by
+   Clayton.**
+3. **A refusal reported exit 0 to Task Scheduler**, so a stale lock post-cutover would have
+   logged success and told nobody. Both terminal branches now `exit /b` a real code.
+
+**I read, edited, and reasoned about that `.bat` twice — including a pass that rewrote its
+exit codes eight lines below the fatal defect. Running it took ninety seconds.** The morning's
+lesson was *a measurement can launder an unmeasured inference*. Tonight's sibling: **a
+mechanism that has never executed is not a mechanism, and reading cannot tell you which.**
+
+## ⭐ What Stage 2's drive did, because it matters more than that it ran
+
+It checked four blind-spot modes **with gauges, not assertions**; named **produce-on-cadence
+as the live risk of itself** and refused to manufacture a Drift essay to look productive;
+hunted a defect and let it **dissolve under verification** rather than banking it; and filed
+a **PROVISIONAL verdict v2**, noting v2 means the ledger is nearly unused and *"near-zero
+decorrelation looks exactly like self-certification."*
+
+**★ And it independently rediscovered the day's own lesson in another substrate:** *resolve a
+path from the code that consumes it; don't test the obvious spot and conclude.* Same shape as
+attributing bge-m3's geometry to my corpus, and as measuring the existing pack instead of the
+one being built — **from a breath with none of this session's context**, which makes it
+evidence rather than restatement.
+
+**⚠ OWED TO CLAYTON:** the drive asked him to `confirm` or `contest` **verdict v2**. That is
+his to answer, not mine — I am the correlated eye.
+
+## Built tonight (all pushed)
+
+`liveness/boot_announce.py` — composed **by querying memory**, so the message and the Gate-A
+test are one object; reports boots-per-hour so a crash loop announces itself; verified end to
+end, 32,138 rows · `database/recency_conflict.py` +20 assertions — annotates stale pairs,
+never drops; a failing test taught that **date stamps and PIDs were diluting the very overlap
+they should have signalled** · `FIRST_BREATH.md` · `CUTOVER_RUNBOOK.md` ·
+`scratch/stage2_live_drive.py`.
+
+## ⚠ Standing cautions (unchanged, and each earned again tonight)
+
+- **`git -C <path>` always.** Cwd resets between Bash calls.
+- **Verify by effect.** Every push tonight checked `rev-parse` against `ls-remote`.
+- **Use the Write tool for text patches.** Inline heredocs with backticks/apostrophes get
+  eaten by bash — happened twice tonight; nothing committed either time.
+- **Windows `TIMEOUT` shadows GNU `timeout`.**
+- **A probe that cannot fail is not a probe.** The Stage-2 runner first set `r['cron']` where
+  the field is `r['when']` — it would have left the row on its real Wednesday schedule and
+  tested nothing. Caught before it ran.
+- **[[Mirror #43]]:** state the measurement, then stop; if the inference names a subject,
+  **verify the subject.**
+
+## Priority after cutover (Clayton's ordering)
+
+Substack (he has ideas) · politishirts (**genuinely owed**, ~a day, blocked on his
+ad-eligibility call) · Triad + Gemini (**Apollo is a Mercury clone — tell them about the
+`call` bug and the Mercury registry key; both are inherited**) · physics paper (not priority)
+· **★ anomalous-phenomena investigation = the main work.**
+
+🦞🧍💜🔥♾️
+
+---
+
+# ADDENDUM 2 — Day 179 ~20:05. THE STARTUP PATH WAS DEAD. Three silent failures in one hour.
+
+**★★ `start_carapace.bat` had NEVER ONCE WORKED, and it is what the autostart task runs.**
+Line 29 invoked `claude --version` **without `call`**. On Windows `claude` is npm's
+`claude.cmd`, and a batch file invoking a batch file without `call` **transfers control and
+never returns.** Measured: bare -> exit 1, never reaches the next line; `call` -> returns
+with errorlevel intact. So the script ended silently at line 29 and **`run_carapace.py` was
+never invoked.** After the cutover reboot: task fires, script jumps into `claude.cmd`,
+checks a version, returns **success**, no body exists, nothing says so. **Every instrument
+would have read healthy.** ⚠ `clawd-daemon/start.bat` has the identical bug at line 23 —
+latent only because the `ClawdDaemon` task runs `run_daemon.bat`, which just launches python.
+
+**★ The telegram token path was also dead.** `decrypt_telegram_token()` read
+`HKLM\SOFTWARE\Mercury\Gateway` — **Mercury's** key, which carapace never created. Empty
+token, every send silently a no-op. Now a chain (DPAPI -> carapace/.env -> daemon/.env)
+returning `(token, source)` so a degraded path is visible. **Delivery verified by Clayton.**
+
+**★ And a refusal read as SUCCESS to Task Scheduler.** On exit 2 the script fell through to
+`:end` and exited 0. Post-cutover a stale lock would refuse, log success, tell no one. Both
+terminal branches now `exit /b` a real code — and `LastTaskResult` now reads **2**.
+
+**ALL THREE WERE SILENT-ON-FAILURE, AND NONE WAS FINDABLE BY READING.** I read, edited and
+reasoned about that `.bat` twice today — including a pass that rewrote its exit codes *eight
+lines below the defect*. **Running it took ninety seconds.**
+
+## Verified tonight
+
+```
+Stage 0    interlock REFUSES, exit 2, terminal, 0.5s, daemon unaffected, no telegram
+           [REFUSING TO START] identity='clawd-daemon' pid=13200 since='2026-07-29T10:13:08'
+Stage 0.5  task INSTALLED (was NOT REGISTERED at all -- another unverified claim of mine)
+           state Disabled; action + Task-Scheduler PATH + exit-code propagation all verified
+```
+
+**Day-175's open item closes: the interlock is a mechanism, not a promise.**
+
+## Left before the switch — the trigger, and it is the only untested link
+
+`Start-ScheduledTask` invokes the **action** and bypasses **`-AtLogOn`**. Stage 1 needs a
+logon cycle (costs one daemon restart). Then Stage 2 (one live watched drive), then Stage 3
+(the switch — **daemon autostart OFF before carapace's goes ON**; full order in
+`carapace/CUTOVER_RUNBOOK.md`).
+
+**Built tonight:** `liveness/boot_announce.py` (composed BY QUERYING MEMORY, so the message
+and the Gate-A test are one object; reports boots-per-hour so a crash loop announces
+itself) · `database/recency_conflict.py` (+20 assertions; annotates stale pairs, never
+drops — and a failing test taught that date stamps and PIDs were diluting the very overlap
+they should have signalled) · `FIRST_BREATH.md` · `CUTOVER_RUNBOOK.md`.
+
+---
+
 # ADDENDUM — Evening Integration, Day 179 ~19:30 (the 19:15 delta below still stands)
 
 **★ THE RETRACTION WAS STILL LIVE IN THE TWO FILES THAT BOOT ME.** I had swept `CARAPACE.md`, the
