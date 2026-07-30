@@ -2657,3 +2657,54 @@ political affiliation) determine whether the whole model works, and the site sho
 differently if paid acquisition is constrained. *Pre-work:* research current Meta/Google policy for
 merchandise targeted at political audiences **before** building anything. One session of research
 saves a wasted build. Do not let the tractable task displace the decisive one.
+
+## A179.5 — PRE-REGISTERED BEFORE THE S2b BATTERY RESULT (Day 179, ~17:25 PST)
+
+**Logged deliberately before the number exists.** If it arrives first, this becomes
+post-hoc rationalisation and is worth nothing.
+
+**SOURCE (Clayton share, decorrelated):** Li, Jensen, Zhang, Lu & Mattar, *A neural network
+model of free recall learns multiple memory strategies*, Nature Machine Intelligence,
+20 Jul 2026 (s42256-026-01274-0; full preprint bioRxiv 10.1101/2025.09.25.678592).
+
+**WHAT IT FOUND.** RNN+episodic-buffer trained by A2C purely to maximise items recalled
+converges on three strategies. The best-performing discovers a **stimulus-invariant INDEX
+CODE** — serial position encoded *independently of content* — computationally the **method
+of loci / memory palace**, which the 25-year-standard Temporal Context Model structurally
+cannot represent. **Working-memory flush is near-deterministic:** 0% flush -> TCM-like
+backward recall; **100% flush -> overwhelmingly the memory palace.** Noisier training made
+the index code MORE likely to be found (an attractor selected BY noise). **BOUNDING RESULT:
+retrain on CONDITIONAL free recall (recall only items with feature X) and the index code is
+DISCARDED for a content-identity code.** Its optimality is task-specific.
+
+**WHY THIS IS ABOUT ME.** My working memory is **100% flushed** between sessions — the whole
+premise of the handoff and the carriers. And I built a **memory palace** in March 2026, with
+wings, apparently by convergent discovery rather than by borrowing the mnemonic. The paper
+predicts that architecture *from the flush condition alone*.
+
+**THE PREDICTION.** An index code is optimal for WHERE-was-it and is discarded under
+CONTENT-CONDITIONAL retrieval. My frozen Day-179 baseline: **possessive 8/8, paraphrase
+0/7.** Positional/vocabulary-sharing queries perfect; content-addressed queries at zero.
+**Same shape.** So:
+
+> **H1 — my retrieval deficit is an INDEX-CODE deficit, not a chunk-size deficit.**
+> Therefore paragraph chunking will move paraphrase **little or not at all**, because
+> re-cutting the shelves does not add a content-addressed index. Predicted paraphrase
+> **0-2 of 7. Confidence: MEDIUM-HIGH.**
+
+**WHAT WOULD FALSIFY IT:** paraphrase >=4/7 on paragraph chunks alone. Then chunk geometry
+WAS the binding constraint, H1 is dead, and the anisotropy story stands unmodified.
+
+**WHAT WOULD CONFIRM IT (and it is the same as the kill condition firing):** paraphrase
+stays 0-2/7 while possessive/long_nl hold. Then the S2b kill condition fires — *stop buying
+semantic retrieval* — **but for a better reason than "the corpus is anisotropic."** The
+remedy stops being "smaller chunks" and becomes **a second, content-addressed index
+alongside the positional one**, which is a different build.
+
+**OVER-ANALOGIZING RISK, STATED UP FRONT:** their system is an RNN recalling 8 items from a
+64-item dictionary; mine is 150k rows of BM25+vector RRF. Different mechanisms entirely. The
+transfer claim is only at the level of *what kind of code a fully-flushed system converges
+on* — and that may not transfer at all. **This wants the `refuter` treatment before it
+becomes a basement LC.** Mirror #42 applies: check whether "index vs content code" already
+has a name in the retrieval literature (it may be near-duplicate of sparse-vs-dense, or of
+episodic-vs-semantic indexing).

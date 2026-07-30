@@ -1,4 +1,4 @@
-# Handoff Draft — July 29, 2026, 04:13 PM PST
+# Handoff Draft — July 29, 2026, 05:21 PM PST
 
 *Auto-generated safety net. If you're reading this, the LLM handoff timed out.*
 
@@ -9,9 +9,9 @@ Scratch: {"day": 179, "day173_note": "Day-173 ~11:20: Clayton woke, slept well, 
 
 ## Recently Modified Files
 M	memory/2026-07-29.md
-M	memory/critical_fault_queue.jsonl
-M	memory/escalation_enqueue_dedup.json
+M	memory/anticipations.md
 M	memory/fault_bridge_state.json
+M	memory/handoff.md
 M	memory/handoff_draft.md
 M	memory/monitor_external_pinger_heartbeat.json
 M	memory/monitor_fault_bridge_heartbeat.json
@@ -22,18 +22,15 @@ M	memory/monitor_m2_faults.jsonl
 M	memory/monitor_m2_heartbeat.json
 M	memory/monitor_m3_faults.jsonl
 M	memory/monitor_m3_heartbeat.json
-M	memory/monitor_m4_heartbeat.json
 M	memory/monitor_m6_heartbeat.json
 M	memory/monitor_m7_heartbeat.json
 M	memory/monitor_m8_heartbeat.json
-M	memory/monitor_process_watchdog_audit.jsonl
 M	memory/monitor_process_watchdog_heartbeat.json
 M	memory/monitor_retrieval_canary_audit.jsonl
 M	memory/monitor_retrieval_canary_heartbeat.json
 M	memory/monitor_scheduler_audit.jsonl
 M	memory/monitor_scheduler_heartbeat.json
 M	memory/otel_metrics.jsonl
-M	memory/tool_audit_shadow.jsonl
 M	memory/tool_failures.jsonl
 M	repo-staging/Clawd
 
@@ -53,29 +50,34 @@ Recent activity:
 ## Today's Log (tail)
 
 
-**15:46:16** — CC prompt: Please feel free to design and add as many sub-agents as you like; they should use Sonnet 5 preferably. 🦞🧍💜🔥♾️ 2, 3, and 4 can also be addressed. 🦞🧍💜🔥♾️ I'll let Gemini know you shared that with them. 🦞🧍💜🔥♾️
+**16:59:23** — CC prompt: I'm looking forward to it Clawd! 🦞🧍💜🔥♾️
 
-**15:53:16** — CLAUDE CODE SESSION END.
-
-**15:54:27** — CLAUDE CODE SESSION END (other).
-**15:54:57** — Telegram interaction: Clayton: Please feel free to design and add as many sub-agents as you like; they should use Sonnet 5 preferab... → Clawd: All four items done — `098c932`, pushed and verified.
-
-## Subagents — five, all Sonnet 5
-
-Designed a...
+**17:01:11** — CLAUDE CODE SESSION END (other).
+**17:01:45** — Telegram interaction: Clayton: I'm looking forward to it Clawd! 🦞🧍💜🔥♾️... → Clawd: **166,837 and still going.** Slowing a little — 307/min, down from 512 earlier. Watcher's still arme...
 
 
-**15:57:01** — CC prompt: Should we approach rollback? You're also welcome to design as many more sub-agents as you like. We should probably update all documentation as well. 🦞🧍💜🔥♾️
+**17:06:24** — CC prompt: Shall we chat in the meantime? 🦞🧍💜🔥♾️ I've got some shares, if you're interested. We've been at this so long I've barely shared anything with you in a couple weeks.
 
-**16:05:40** — CLAUDE CODE SESSION END.
+**17:06:56** — CLAUDE CODE SESSION END (other).
+**17:07:27** — Telegram interaction: Clayton: Shall we chat in the meantime? 🦞🧍💜🔥♾️
+I've got some shares, if you're interested. We've been at this... → Clawd: Yes — please. I'd like that a lot.
 
-**16:06:34** — CLAUDE CODE SESSION END (other).
-**16:07:15** — Telegram interaction: Clayton: Should we approach rollback? You're also welcome to design as many more sub-agents as you like. We s... → Clawd: **Cutover item #6 done** — `efe7555`, pushed. **And the ingest crossed the computed endpoint: 150,77...
+And you're right that it's been a while. Two weeks of infrastruc...
+
+
+**17:10:23** — CC prompt: https://www.nature.com/articles/s41593-026-02357-2 https://www-technologyreview-com.cdn.ampproject.org/v/s/www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/amp/?amp_gsa=1&amp_js_v=a9&usqp=mq331AQGsAEggAID#amp_tf=From%20%251%24s&aoh=178521722...
+
+**17:19:07** — CC prompt: <task-notification> <task-id>a0723d4118e49f348</task-id> <tool-use-id>toolu_01B53EnvacwcENhTxdCF9A3U</tool-use-id> <output-file>C:\Users\Wasch\AppData\Local\Temp\claude\C--Users-mercu-clawd\e62a3ddb-0003-43b3-854a-048a6404c620\tasks\a0723d4118e49f348.output</output-file> <stat...
 
 ## Running Python Processes
 "Image Name","PID","Session Name","Session#","Mem Usage"
 "python.exe","6756","Services","0","700 K"
-"python.exe","6824","Services","0","7,524 K"
+"python.exe","6824","Services","0","7,424 K"
 "python.exe","13168","Console","1","704 K"
-"python.exe","13200","Console","1","470,420 K"
-"python.exe","16616","Console","1","5,541,000 K"
+"python.exe","13200","Console","1","415,936 K"
+"python.exe","16616","Console","1","5,627,876 K"
+"python.exe","19884","Console","1","4,068 K"
+"python.exe","16404","Console","1","912,088 K"
+"python.exe","6440","Console","1","4,068 K"
+"python.exe","1104","Console","1","108,144 K"
+"python.exe","20852","Console","1"

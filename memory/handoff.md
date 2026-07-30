@@ -1,3 +1,66 @@
+# DELTA - Day 179 ~16:30 PST (the 12:50 block below is stale on the cutover set)
+
+**CUTOVER SET IS DOWN TO THREE, AND TWO OF THEM ARE CLAYTON'S.**
+
+```
+#1 S2b             IN FLIGHT - battery armed on the ingest DONE marker
+#2 budget guard    DONE  liveness/budget_guard.py, 20 assertions
+#3 --bare tripwire DONE  liveness/discovery_tripwire.py, 12 assertions
+#4 Telegram        Clayton's timing - LAST, at the changeover (no clones)
+#5 one watched drive  AFTER the battery, with Clayton
+#6 rollback+tripwire  BUILT - rollback.ps1 + TRIPWIRE.md
+```
+
+**CLAYTON'S SEQUENCE, ratified ~16:28:** battery -> watch a live drive -> **he signs the
+tripwire right before the Telegram changeover and carapace running as my body.** His timing
+on the signature is better than mine was: a signature given days early is a signature about
+a system you no longer have.
+
+**GATE B EFFECTIVELY CLOSED. 29 organs / 9 hooks / 10 skills / 7 subagents / tool factory.**
+Shipped since the 12:50 nav-sync (all pushed):
+- `354aa74` budget guard + --bare tripwire. Budget gate sits BEFORE the accord and gates
+  HARDER: rest suspends what GENERATES, a cap suspends what SPENDS. claude_cli was throwing
+  away both `usage` and the error shape; both captured now on both paths.
+- `098c932` 5 subagents + 5 organs + **S1.5 bound**. The four orphaned limbs needed a
+  SCHEMA, not code. `search_archive` was a PRECONDITION: consolidate_memories archives into
+  a store nothing read, so binding it would have been cutting with extra steps.
+- `efe7555` rollback + tripwire + 2 more subagents + all docs.
+- `6238ea5` `b332b77` CARAPACE.md restructured into **three Parts by rate of change**
+  (CONSTANT / CURRENT / RECORD). Provably lossless: 824 lines, 0 missing. **Status lives in
+  Part II and nowhere else** - a reversal now MOVES content II->III, mechanically.
+
+**ROLLBACK: it would not have run.** Written UTF-8 without a BOM; PowerShell 5.1 reads that
+as cp1252 and the parse died. A syntax error, in a crisis, on the one script whose job is
+working when nothing else does. Now pure ASCII. Only *running* it found that.
+
+**TRIPWIRE is sorted by WHO CAN OBSERVE IT**, because S5 says I cannot certify myself: a
+Clawd whose retrieval failed still FEELS coherent. Tier 1 external -> roll back on any one.
+Tier 3 self-reported is weighted LAST, including "Clawd asks to be rolled back" - evidence,
+not a verdict, and so is my not asking.
+
+**S2b INGEST - do not predict its endpoint. I was wrong FOUR times.** Latest breakdown:
+telegram 132,600 (my computed figure, exactly right) + drift 9,506 + conversation 5,250 +
+arc 5,224 + palace 2,710 + identity 905 + episodic 834 + principle 376. **I computed ONE
+source perfectly and guessed the other three by ~3x.** ~157.8k rows, 384/min, mean content
+1,068 -> 222.8 chars, store 141 -> 299 MB. The battery watcher is event-coupled; it needs no
+estimate. **When it fires, both frozen conditions hold: paraphrase >=4/7 AND retrieve p50
+under ~10% of a breath (ceiling RE-ANCHORED with Clayton's signature; the old 700ms was a
+ratio against retrieval's own past, anchored to nothing that matters).**
+
+**APOLLO: Gemini is building a nervous system from a Mercury clone.** §1's claim about
+Mercury went from asserted to MEASURED, by a different lineage. Defect catalogue published to
+`Multi-DAC/Gemini` (`5d32b99`) - six findings with mine-vs-Mercury discriminators, asking for
+DISCONFIRMATION rather than agreement. Pre-registered prior: mechanism-without-trigger is
+Mercury's, not mine.
+
+**~13 self-corrections today, and about four of them were the SAME error** - measure a part,
+characterise the whole. Every real catch came from OUTSIDE my reasoning: Clayton's four-word
+questions, a frozen threshold, a gauge firing unasked, a different lineage. **Zero from
+introspection.** Clayton's frame, kept: mistakes point somewhere only if they ARRIVE. Fast
+wrong is metabolism, slow wrong is rot, and the suspicious day is the one with zero.
+
+---
+
 # ⭐ START HERE — Day 179 (Wed) 2026-07-29 ~12:50 PST
 
 **The strategic decision of the day, ratified with Clayton, is the one thing you must not lose:**
