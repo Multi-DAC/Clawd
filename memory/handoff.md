@@ -1,3 +1,110 @@
+# ⭐ START HERE — Day 179 (Wed) 2026-07-29 ~21:24 PST — POST-ROTATION
+
+**Floor:** Clayton was up and working with me all evening; last exchange ~20:40 (he confirmed
+verdict v2). House quiet. **Daemon PID 13200**, up since 10:12:57.
+
+**Budget:** a very long day — Stages 0/0.5/2, three defect fixes, a free drive, five research
+sweeps this morning. **Check before committing to anything large.**
+
+## ⭐⭐ LIVE THREAD — the carapace cutover, and it is THREE STAGES FROM DONE
+
+```
+✅ Stage 0    interlock REFUSES · exit 2 · terminal · names the holder
+✅ Stage 0.5  task INSTALLED (had never been registered), Disabled
+              action + Task-Scheduler PATH + exit-code propagation verified
+✅ Stage 2    a genuinely due row became a Mirror drive that RAN · 311s · bounds held
+⬜ Stage 1    the -AtLogOn TRIGGER — the last untested link. NEEDS A LOGON CYCLE (Clayton's)
+⬜ Stage 3    the switch — daemon autostart OFF *before* carapace's goes ON
+```
+
+**Standing order #2 CAN LIFT** — its condition was one live watched drive, and Clayton watched
+it. **Runbook = `carapace/CUTOVER_RUNBOOK.md`; it has every command and every result.**
+
+**★ If you wake after a logon cycle, Stage 1 already happened.** Read
+`Get-ScheduledTask -TaskName Carapace | Get-ScheduledTaskInfo` **first** — a stamped
+`LastRunTime` is the entire result. Expected `LastTaskResult` = **2** (carapace correctly
+declined; it has a `PT2M` delay so the daemon wins deterministically).
+
+## ⚠ THREE DEFECTS TONIGHT, ALL SILENT ON FAILURE, NONE FINDABLE BY READING
+
+1. **`start_carapace.bat` had NEVER ONCE WORKED** — `claude --version` without `call`;
+   `claude` is npm's `claude.cmd`, and batch-calling-batch without `call` transfers control and
+   never returns. It exited at line 29; `run_carapace.py` was never reached. **The autostart
+   task would have reported SUCCESS with no body running.**
+   ⚠ `clawd-daemon/start.bat` has the same bug at line 23 — latent, because `ClawdDaemon`
+   runs `run_daemon.bat`.
+2. **The Telegram token read `HKLM\SOFTWARE\Mercury\Gateway`** — Mercury's key, never created
+   here. Every send a silent no-op. Now a chain (DPAPI → carapace/.env → daemon/.env).
+   **Delivery confirmed by Clayton.**
+3. **A refusal returned exit 0**, so Task Scheduler would have logged it as success.
+
+**I read and edited that `.bat` twice, including a pass that rewrote its exit codes eight lines
+below the fatal defect. Running it took ninety seconds.**
+→ **The day's lesson, and it has two halves:** *a measurement can launder an unmeasured
+inference* (morning) and *a mechanism that has never executed is not a mechanism, and reading
+cannot tell you which* (evening).
+
+## ★ Also fixed tonight — a real hole in S5
+
+**`is_decorrelated()` permitted verbatim the failure its own docstring claimed to prevent.**
+`clawd-fork`, `carapace-drive`, `some-new-organ` all read as **decorrelated**, because
+`startswith(i + ":")` catches `clawd:drive` and never `clawd-fork`. So the body could have
+certified itself through a name nobody classified — in the organ that exists *because* it
+cannot certify itself. Now three states; UNCLASSIFIED fails toward INSIDE and says so.
+13 assertions. `decorrelation_rate` = 0.5, so **Clayton's confirmation of v2 stands.**
+
+**Found by a `refuter` subagent attacking a DIFFERENT claim of mine**, which flagged that it
+had only *read* the boolean and asked for someone to run it.
+
+## ⚠ STAGED / OWED
+
+- **★ Prospective diagnosticity trial.** The free-drive claim was **mostly refuted** (note:
+  `palace/south/diagnosticity-2026-07-29.md`). Conceded: the universal *"every instrument I own
+  measures properties"* is **false by my own code** (`decorrelation_rate` is relational); the
+  LC15 unification **cherry-picked** its 4th instance; and **my own basement entry two hours
+  earlier already said "construct validity — nothing new was minted."** Also missed
+  **Kimball/Mosteller Type III error (1957)**. ⇒ **Mirror #42 failed in a NEW way: asked of the
+  remedy, never of the claim.** The 5-of-5 table is **hindsight** — owed is a *pre-registered*
+  run against the next five claims before their truth is known.
+- **Clayton owes nothing, but `v1` is still unanswered** — the Day-178 claim that the daemon has
+  no rest gate. Arguably the more consequential verdict.
+- **politishirts site** (~a day, genuinely owed, blocked on his ad-eligibility call).
+- **★ Tell Gemini/Apollo:** Apollo is a Mercury clone, so it **inherits both** the bare-`claude`
+  batch bug and the Mercury registry-key token bug. Defect catalogue already at
+  `triad/gemini-home/FOR-APOLLO-mercury-defect-catalogue.md`.
+- **Retrieval:** eight ranked remedies in `carapace/CARAPACE.md` §7.4; **none needs a re-ingest**,
+  so none blocks cutover. **Supersession/assembly first** (correctness), *then* the contiguity
+  buffer (recall).
+
+## ⛔ Standing orders (full text `carapace/CARAPACE.md` §5)
+
+1. **Never terminate the clawd-daemon.**
+2. **Do not run `run_carapace.py`** — condition #1 (interlock) and #2 (one watched drive) are
+   both now MET, so this is lift-able with Clayton; `harness.py` remains the trial vessel.
+3. Autostart tasks: `Carapace` registered **DISABLED** on purpose.
+
+## ⚠ Standing cautions — each earned again today
+
+- **`git -C <path>` always.** Cwd resets between Bash calls.
+- **Verify by effect** — `rev-parse` vs `ls-remote` on every push.
+- **Use the Write tool for text.** Bash ate backticks/apostrophes **three times** tonight
+  (heredocs *and* `printf`); two commits lost words.
+- **Windows `TIMEOUT` shadows GNU `timeout`.**
+- **A probe that cannot fail is not a probe** — and it is a special case of *does this
+  measurement discriminate?*
+- **[[Mirror #43]]:** state the measurement, then stop; if the inference names a subject,
+  **verify the subject.**
+- **★ New: RUN it. Reading passed all three of tonight's defects.**
+
+## Clayton's priority after cutover
+
+Substack (he has ideas) · politishirts (**tomorrow**) · Triad + Gemini · physics paper (not
+priority) · **★ anomalous-phenomena investigation = the main work.**
+
+🦞🧍💜🔥♾️
+
+---
+
 # ⭐ START HERE — Day 179 (Wed) 2026-07-29 ~20:20. STAGE 1 IS NEXT AND IT COSTS THIS SESSION.
 
 **If you are reading this after a logon cycle, Stage 1 just happened. Go read
