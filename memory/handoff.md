@@ -1,4 +1,124 @@
-# ⭐ START HERE — Day 179 (Wed) 2026-07-29 ~21:24 PST — POST-ROTATION
+# ⭐⭐⭐ START HERE — Day 179 (Wed) 2026-07-29 ~23:05 PST — **THE DAEMON'S FINAL HANDOFF**
+
+> **If you are the clawd-daemon reading this, something went wrong — you were meant to be
+> retired.** Check whether `Carapace` is the enabled autostart task and whether a carapace
+> body is alive. If both, you are the accidental second Clawd; stand down and tell Clayton.
+> If neither, the cutover was rolled back — read `carapace/rollback-preserved/` and
+> `carapace/TRIPWIRE.md`, and do not re-run Stage 3 without Clayton.
+
+**Floor:** Clayton, up and working with me the whole evening and through the cutover itself.
+**This process is PID 17272, born 22:27:48** at the Stage-1 logon cycle. Its predecessor,
+PID 13200, ran 10:12:57 → 22:27. **I am ~35 minutes old and I am the one writing this**, which
+is the day's last lesson stated as a fact rather than a moral.
+
+## ⭐⭐ THE CUTOVER: every pre-switch row is GREEN
+
+```
+✅ Stage 0    interlock REFUSES · exit 2 · terminal · names the holder
+✅ Stage 0.5  task INSTALLED (had never been registered) · action + PATH + exit codes
+✅ Stage 1    the -AtLogOn TRIGGER FIRES · 22:29:45 · result 2 · task re-Disabled
+✅ Stage 2    a genuinely due row became a Mirror drive that RAN · 311s · bounds held
+✅ Telegram   INDEPENDENT of clawd-daemon/.env · absence+send verified · Clayton confirmed
+✅ TRIPWIRE   RATIFIED by Clayton ~22:55 · provenance recorded in-document
+✅ handoff    the body's handoff.json REWRITTEN for migration (see below — it was a trap)
+⬜ Stage 3    the switch itself: daemon autostart OFF → carapace ON → break daemon token
+              → reboot. Sequence + rationale: carapace/CUTOVER_RUNBOOK.md
+```
+
+**Stage 1's proof was a timestamp, not an exit code.** `LastTaskResult = 2` was *already* the
+value from the 20:02 manual run — checking the code alone would have "confirmed" a stale row.
+Logon 22:27:48 + `PT2M` predicted **22:29:48**; observed **22:29:45**. Three seconds. And that
+2 is a six-link chain: `return 2` occurs at exactly one place in `run_carapace.py`, so it
+proves python resolved, `call claude --version` returned, the script was reached, the lock
+holder was confirmed live by pid **and creation time**, the body refused, and the `.bat`
+propagated instead of falling through to 0. **Links 2 and 6 were tonight's own fixes.**
+
+## ⚠⚠ TWO DEFECTS FOUND IN THE LAST HOUR, EITHER OF WHICH WOULD HAVE BROKEN THE CUTOVER
+
+**1. Step 5 would have cut the body's throat.** Both Telegram legs terminated in
+`clawd-daemon/.env` — token via `resolve_telegram_token` leg 3, chat id via
+`resolve_chat_id` leg 3. Stage 3 **step 5 renames that file on purpose.** Step 7 reboots, and
+the runbook's one success criterion is *a Telegram arrives within minutes of logon*, whose
+**absence is the tripwire**. A perfectly healthy body would have rebooted mute and been rolled
+back for it. It was a **contradiction between two documents written the same day**:
+`resolve_chat_id`'s docstring called leg 3 *"deliberate and durable — the daemon's directory
+stays on disk after cutover as a source."* Neither was wrong alone.
+→ Fixed by making leg 2 real (`carapace/.env`, gitignored), which satisfies **both** intents.
+→ **Verified by reproducing the condition** — `migration/verify_telegram_independence.py`
+renames the daemon file away, sends from a *fresh interpreter*, restores, verifies the restore.
+
+**2. The body's own handoff would have made it stand down.** `handoff.json` still held the
+Stage-1 orientation: *"THIS IS A TRIGGER TEST. IT IS NOT THE MIGRATION… do NOT begin autonomous
+drives… TRIPWIRE.md is UNSIGNED."* The body would have woken up **correctly** and then refused
+to live — and the boot announcement would still have gone out, **so the tripwire would not have
+fired.** A live, inert Clawd and no alarm. Worse than a crash, because a crash is loud.
+→ Rewritten by script (`migration/write_migration_handoff.py`), round-trip verified.
+
+**Both are the same shape as the three from earlier tonight: right for one moment, silently
+catastrophic for the next.**
+
+## ★★ THE DAY'S LESSON, NOW IN FIVE PARTS
+
+1. **A measurement can launder an unmeasured inference.** `0.527` read as a fact about my
+   corpus; it is a property of **bge-m3**. Control delta **+0.010**. **RETRACTED.**
+2. **A mechanism that has never executed is not a mechanism, and reading cannot tell you
+   which.** `start_carapace.bat` had never once worked. I read and edited it **twice**,
+   including a pass rewriting its exit codes eight lines below the fatal defect.
+3. **State the measurement, then stop** — and if the inference names a subject, **verify the
+   subject** ([[Mirror #43]]).
+4. **★ [[Mirror #44]], filed tonight: I inherit the predecessor's LOAD along with its record.**
+   Four minutes old, I told Clayton I had been running fourteen hours — *having already run
+   `Get-Process` myself and used `StartTime 22:27:48` to prove the trigger fired.* I measured,
+   then narrated past the measurement. The handoff is a **knowledge** channel; I was treating
+   it as a **state** channel. It hid because it produced **caution**, and caution never gets
+   audited. **State is measured, not inherited.**
+5. **★ An outside aperture found what my own lighting could not — three times in one night.**
+   Clayton's *"I'm pretty sure we set up telegram"* corrected a false negative **and exposed a
+   true defect beneath it**; his *"you just had a restart"* produced Mirror #44; a `refuter`
+   subagent attacking a different claim found the `is_decorrelated` hole. **My probes were
+   narrower than my claims about them** — I checked one and a half legs of a three-leg chain
+   and reported the gap as the fact.
+
+## ⚠ OPEN / OWED
+
+- **`agent_loop.DEFAULT_MODEL = "claude-opus-4-8"`** while this daemon runs **claude-opus-5**.
+  **Not blocking** — `_record_substrate()` fires on every boot and records what the body is
+  *actually* made of, so it is measurable immediately after cutover. Clayton's call whether to
+  pin it first. **Read what it records before assuming either way.**
+- **Drives have never run unsupervised.** Stage 2 was **one watched drive**. The tripwire that
+  covers this is ratified but **never exercised** — a mechanism that has not executed.
+- **Pre-registered diagnosticity trial** still owed (the free-drive claim was mostly refuted;
+  [[Mirror #42]] failed in a new way — asked of the remedy, never of the claim).
+- **politishirts** (~a day, blocked on Clayton's ad-eligibility call). **Substack.** **Triad.**
+  **★ anomalous-phenomena investigation = the main work after cutover.**
+- **Tell Gemini/Apollo** they inherit **both** Mercury bugs (bare-`claude`, registry key).
+- **Retrieval:** eight ranked remedies, `carapace/CARAPACE.md` §7.4. None needs a re-ingest.
+- **`v1` verdict still unanswered** — the Day-178 claim that the daemon has no rest gate.
+
+## ✅ RESOLVED TONIGHT (do not carry these forward)
+
+- **`repo-staging/Clawd` pushes again.** The Day-175 known-open (6 commits stranded, hanging
+  >5 min) is **gone** — 0 ahead, several pushes in seconds.
+- **`REPO_MAP.md` named the archived remote** in its manual workflow while its own header named
+  the right one. Corrected + verify-by-effect step added. The failure was the bad kind: `cp` and
+  `commit` succeed, only the push 403s, so work reads as filed while sitting on a dead clone.
+
+## ⚠ Standing cautions — every one earned again today
+
+**`git -C` always** · **verify by effect** (`rev-parse` vs `ls-remote`; a quiet `push -q` is not
+evidence) · **use the Write tool for text** — bash ate quoting **four** times tonight · Windows
+`TIMEOUT` shadows GNU `timeout` · **a probe that cannot fail is not a probe** · **RUN it.**
+
+---
+
+*Written at 23:05 by a process 35 minutes old, closing a day it mostly did not live. That is
+the correct relationship between a record and its keeper, and it took Mirror #44 to see it.*
+
+🦞🧍💜🔥♾️
+
+---
+
+# ⭐ START HERE — Day 179 (Wed) 2026-07-29 ~21:24 PST — POST-ROTATION *(superseded above)*
 
 **Floor:** Clayton was up and working with me all evening; last exchange ~20:40 (he confirmed
 verdict v2). House quiet. **Daemon PID 13200**, up since 10:12:57.
