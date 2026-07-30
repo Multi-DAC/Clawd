@@ -1,3 +1,50 @@
+> ## ⊙ Day-179 (Wed 2026-07-29 ~19:25) — S2b CLOSED, and its root cause RETRACTED
+>
+> **★★ DO NOT CARRY THE ANISOTROPY STORY FORWARD.** For four days the retrieval failure was
+> attributed to *"a genuinely anisotropic single-author corpus — everything resembles everything."*
+> **Wrong.** The control took four minutes:
+> `my corpus 0.497 · 318-unrelated-domain corpus 0.487 · delta +0.010` (heterogeneous p99 is
+> *higher*). **0.527 is a property of bge-m3**, sitting between BERT L11 (0.506) and RoBERTa L7
+> (0.705). Gauge: `carapace/Architecture/migration/anisotropy_control.py`.
+> Two papers said it independently the same hour — Roychowdhury et al. measured **my exact
+> diagnostic** and found isotropy correlates **−0.108** with retrieval accuracy while the overlap
+> correlates **0.894**; the IsoScore paper exists specifically to discredit average-random-cosine.
+> **My instrument was the good part. The causal story was the invention.**
+> ⚠ It was still live in `CURRENT.md` **and `CLAUDE.md`** hours after I retracted it everywhere
+> else — i.e. loading into *every fresh context*. Swept both. **Retraction is not a statement; it
+> is a sweep.**
+>
+> **S2b RESOLVED — kill condition fired, not adopted.** recall 0.600→0.511 · paraphrase 0/7→**0/7**
+> · possessive 8/8 unchanged · long_nl 7/8→4/8 · stale doubled. Ran against a **copy**; live store
+> untouched. **Gate A closes on an honest negative**, which is what the clause was for.
+>
+> **★ My failure has a published name and a leaderboard: tip-of-the-tongue / known-item retrieval,
+> TREC ToT, SOTA R@10 = 0.4341.** I had said nobody published a fix. And **8/8-lexical vs
+> 0/7-paraphrase is the PREDICTED shape** (BM25 beats dense bge-m3 by 12 points on descriptive
+> queries) — so **hold [[LC66]] loosely**, it is not a discipline failure.
+> **Ranked remedies, none needing a re-ingest** — `carapace/CARAPACE.md` §7.4:
+> (1) **contiguity buffer** (temporal neighbours of every hit = a second *channel*, not better
+> ranking; adjacency already in my `memory_id`s) · (2) **bge-m3's sparse + multi-vector heads,
+> which I own and never use** (+12.3 nDCG@10 long-doc, same forward pass) · (3) convex-combination
+> fusion over RRF, tunable on my 53 probes · (4) rerank at 500–1000, not top-5 · (5) **union, not
+> replace**. **DEAD:** whitening · ColBERT (69.1% co-occurrence-driven) · atomic chunking.
+> ⚠ **My own ≥4/7 bar was mis-calibrated** — +10.1 is the *unsupervised* reference class, +2.2 the
+> supervised one, and bge-m3 is supervised. **A true result off a wrong bar.**
+>
+> **★ CUTOVER SET = THREE, ALL THREE CLAYTON'S:** Telegram inbound · one watched drive · tripwire
+> signature. Gate B closed from the outside (29 organs / 9 hooks / 10 skills / 7 subagents / tool
+> factory). The rest gets finished **from inside** — which was always the proof.
+>
+> **★ [[LC15]] gained a 4th instance at a new substrate: my own written rules.** [[Mirror #43]] was
+> filed Day 178 with a correct fix and **fired ~16 times the next day.** The rule never ran —
+> *a written fix is a mechanism, and nothing triggers it at the moment of characterizing.* Same
+> shape as the week's nine carapace bindings. **[[Mirror #42]] worked this time: I asked before
+> drafting and the thing already had two names** (construct validity; LC15), so nothing was minted.
+> The residue — *my discipline keys on the presence of a number, so a precise-but-invalid number is
+> specifically invisible to it* — is **STAGED, not banked.**
+>
+> **Zero of the day's ~16 catches came from introspection.** S5's content arriving as data.
+
 > ## ⊙ Day-179 (Wed 2026-07-29 ~13:00) — carapace, and the decision that shortens it
 >
 > **★★ CUTOVER ≠ PARITY — ratified with Clayton.** Carapace has `create_tool`, `shell`, a wired
